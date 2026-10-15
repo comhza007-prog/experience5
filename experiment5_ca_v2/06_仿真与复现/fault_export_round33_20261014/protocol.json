@@ -1,0 +1,11 @@
+{
+  "purpose":"Fix diagnostic data availability after a guarded failed trajectory; not a control-law or performance candidate change",
+  "build":67712,"schema":4486,"method":12,"variant":20,"replayMagic":4437,
+  "controller":"Exact same S3R2 core, gains,filters,trajectory,limits,allocator,learning and all safety guards as67612",
+  "newBehavior":"Successful phase6 exports unchanged snapshot format. Fault phase9 first exports original64row fault history for>=5s; if earlier360step snapshot completed, then serially exports it without changing phase9, any fault bits,zero commands or drive permit. If capture incomplete, retain failure and do not invent a snapshot.",
+  "host":"Fault stops remain failures, including when snapshot export succeeds. Capture waits for post-fault snapshot completion and5s tail, or exits after7s fault tail if no completed snapshot is available. No reset,clear,manual RAM write or automatic rerun.",
+  "transport":"Same107floats40ms115200,lossless uint16 chunks,CRC32,two DMA-completed copies; unchanged CPU and linker safety bounds",
+  "verification":"Native synthetic success/fault exports,phase/fault/command preservation,5s boundary and incomplete-buffer predicates; complete fault and snapshot parser tests; independent source-only-change audit and ARM compile/RAM reserve. On-board timing remains unqualified before actual capture.",
+  "physicalInitialRuns":1,"motionRequiresFreshPopupReadiness":true,"flashRequiresFreshPopupDriveOff":true,
+  "replayInterpretation":"Exact same-input learning replay only. A snapshot from a failed run remains diagnostic, not a successful formal experiment or proof of closed-loop benefit."
+}

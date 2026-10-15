@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-15",
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run07.csv",
+  "sourceSHA256": "0282b1facb8f17e6d242d40a1fe59cfabeccb5a45d57208e15f1aecd1e8d0c35",
+  "decodedSHA256": "9e9b0a0c4a4d4ac9e2b34a78373ba115a45a61a138988d62f99ccfda2e318600",
+  "captureVerificationSHA256": "5c62685db946f148f38e768fb233130bf02e94aee81ae8950b00e7a4d2200ce7",
+  "preCaptureProtocolSHA256": "ef8eeefd729b59647d48834fdc01f8f8d23c6ce7ceec2ae5a593c22646f670d2",
+  "frozenModel": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\cumulative_micro_round90_20261015\\model_parameters.json",
+  "frozenModelSHA256": "ffc2988f6943390e991294edb19ee0a7415f3e05b0dba3ffe80c9f585fe90b87",
+  "modelLabel": "R90",
+  "scriptSHA256": "88320781ecd02f7a9d4b521c76b7832c837d1bbce8e5886a78ef64c1bfa84312",
+  "parameters": [
+    3.154907110927769e-06,
+    2.142744159554335e-06,
+    1.2664310115393707,
+    0.016469415301482927,
+    8.717113104795002,
+    2.324466329054665,
+    0.00042395258301206225,
+    0.0001041637695022745,
+    -0.8897118441672984,
+    0.0001669128774667688,
+    0.00085041292593637
+  ],
+  "parametersChanged": false,
+  "modelsRefitted": 0,
+  "run07IncludedInTraining": false,
+  "modelSelectedFromRun07Outcome": false,
+  "comparisonRole": "Pre-capture candidate",
+  "fullRecordingProtocolQualified": true,
+  "completeCRCVerifiedMotionSnapshotUsable": true,
+  "recordingLimitations": [],
+  "completionTail_s": 30.560012999999998,
+  "missingCSVFrames": 0,
+  "missingSamplesImputed": false,
+  "nativeMetrics": {
+    "observedNativeSamples": 400,
+    "expectedNativeSamples": 400,
+    "actualTrackingRMSE_mm": 0.13237176813807391,
+    "modeledTrackingRMSE_mm": 0.16839302798809694,
+    "actualSyncRMS_mm": 0.0396340762475928,
+    "modeledSyncRMS_mm": 0.040822389689972836,
+    "trackingRelativeDifference_percent": 27.212192113691568,
+    "syncRelativeDifference_percent": 2.9982115262550346,
+    "trackingWaveformCorrelation": 0.7342130654716752,
+    "syncWaveformCorrelation": 0.1227187480313152
+  },
+  "nativeWaveformErrors": {
+    "axisRMSE_mm": [
+      0.12470263629931781,
+      0.12971137189930582
+    ],
+    "meanPositionWaveformRMSE_mm": 0.12421172197099596,
+    "syncWaveformRMSE_mm": 0.05511231713510148,
+    "meanMaximumAbsoluteDifference_mm": 0.26199999999999996,
+    "syncMaximumAbsoluteDifference_mm": 0.21000000000000013
+  },
+  "continuous8300EndpointWaveformErrors": {
+    "axisRMSE_mm": [
+      0.1271506534181085,
+      0.11232105891159674
+    ],
+    "meanPositionWaveformRMSE_mm": 0.11461969860728259,
+    "syncWaveformRMSE_mm": 0.07082313636129711,
+    "meanMaximumAbsoluteDifference_mm": 0.27545262463744824,
+    "syncMaximumAbsoluteDifference_mm": 0.23468717926598934
+  },
+  "firmware400PointMetrics": {
+    "trackingRMSE_mm": 0.132372,
+    "syncRMS_mm": 0.039634
+  },
+  "phaseErrors": [
+    {
+      "phase": 2,
+      "samples": 100,
+      "errors": {
+        "axisRMSE_mm": [
+          0.11458581936697053,
+          0.0923414316544854
+        ],
+        "meanPositionWaveformRMSE_mm": 0.09507516763066999,
+        "syncWaveformRMSE_mm": 0.08459639472223388,
+        "meanMaximumAbsoluteDifference_mm": 0.26199999999999996,
+        "syncMaximumAbsoluteDifference_mm": 0.20300000000000007
+      },
+      "actualTrackingRMSE_mm": 0.18184969067886808,
+      "modeledTrackingRMSE_mm": 0.20088254652906012,
+      "actualSyncRMS_mm": 0.05781003373117852,
+      "modeledSyncRMS_mm": 0.05445392547833444
+    },
+    {
+      "phase": 3,
+      "samples": 50,
+      "errors": {
+        "axisRMSE_mm": [
+          0.02023363536292982,
+          0.007318469785412956
+        ],
+        "meanPositionWaveformRMSE_mm": 0.013680643259730282,
+        "syncWaveformRMSE_mm": 0.01331465358167453,
+        "meanMaximumAbsoluteDifference_mm": 0.025000000000000067,
+        "syncMaximumAbsoluteDifference_mm": 0.033999999999999746
+      },
+      "actualTrackingRMSE_mm": 0.05256234393555912,
+      "modeledTrackingRMSE_mm": 0.03934564778981288,
+      "actualSyncRMS_mm": 0.007054076835419271,
+      "modeledSyncRMS_mm": 0.0065969690009882774
+    },
+    {
+      "phase": 4,
+      "samples": 100,
+      "errors": {
+        "axisRMSE_mm": [
+          0.13781886663298318,
+          0.12928863059062848
+        ],
+        "meanPositionWaveformRMSE_mm": 0.13009926018237,
+        "syncWaveformRMSE_mm": 0.06095826441098861,
+        "meanMaximumAbsoluteDifference_mm": 0.22749999999999998,
+        "syncMaximumAbsoluteDifference_mm": 0.21000000000000013
+      },
+      "actualTrackingRMSE_mm": 0.18765284436959648,
+      "modeledTrackingRMSE_mm": 0.20417408625974062,
+      "actualSyncRMS_mm": 0.04946877803220936,
+      "modeledSyncRMS_mm": 0.051873596366552414
+    },
+    {
+      "phase": 5,
+      "samples": 150,
+      "errors": {
+        "axisRMSE_mm": [
+          0.1411248619721794,
+          0.16739352834961507
+        ],
+        "meanPositionWaveformRMSE_mm": 0.15417635465055377,
+        "syncWaveformRMSE_mm": 0.028146876676936414,
+        "meanMaximumAbsoluteDifference_mm": 0.20550000000000002,
+        "syncMaximumAbsoluteDifference_mm": 0.05600000000000002
+      },
+      "actualTrackingRMSE_mm": 0.01682933946020065,
+      "modeledTrackingRMSE_mm": 0.14285179382842902,
+      "actualSyncRMS_mm": 0.017689921801221545,
+      "modeledSyncRMS_mm": 0.025664631953981606
+    }
+  ],
+  "returnHoldFinalTrackingError_mm": 0.1415,
+  "actualReturnHoldFinalTrackingError_mm": -0.002,
+  "returnHoldFinalSyncError_mm": -0.027000000000000007,
+  "actualReturnHoldFinalSyncError_mm": 0.0,
+  "simulationType": "Frozen-parameter forced queued-input replay; hold40step means retained, not autonomous closed-loop simulation",
+  "initialStateOnlyOnce": true,
+  "futureMeasuredStateInjected": false,
+  "outputsCorrectedOrSyntheticNoiseAdded": false,
+  "independentNumericalVerification": {
+    "passed": true,
+    "steps": 20000,
+    "maximumCAndPythonPositionDifference_m": 5.915407053080912e-16,
+    "maximumEnergyBalanceResidual": 1.1133222985465452e-21,
+    "nativePackedEncoderAlignmentChecks": 400,
+    "nextIntervalMovingCommandChecks": 200
+  },
+  "allRawParameterHexAndSevenFirmwareSourceHashesUnchanged": true,
+  "applicationToleranceSpecifiedInAdvance": true,
+  "toleranceStatus": "Provisional aggregate-metric engineering screen, not formal whole-model validation",
+  "independentPhysicalModelAcceptanceDeclared": false,
+  "hardwareAction": false,
+  "additionalPhysicalRunReleased": false,
+  "provisionalAggregateScreen": {
+    "trackingLimit_percent": 15.0,
+    "syncLimit_percent": 15.0,
+    "trackingPassed": false,
+    "syncPassed": true,
+    "waveformIsHardGate": false,
+    "scope": "This record and condition, frozen recorded-input replay aggregate metrics only",
+    "passed": false
+  }
+}

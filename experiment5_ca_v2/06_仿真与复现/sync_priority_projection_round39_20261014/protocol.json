@@ -1,0 +1,13 @@
+{
+ "purpose":"One prespecified output-coordination candidate on existing actually-active projection/rate constraints. Not an invented hard-amplitude condition and not a gain sweep.",
+ "motivation":"R33 same-input diagnosis shows large angular admitted/request disparity; R34 gradient capping did not improve synchronization. Test whether output projection geometry, rather than increased learning, can retain angular compensation intent.",
+ "candidate":"Within the unchanged25-point feasible normal slew neighborhood, lexicographically minimize abs((deltaL+deltaR)-(targetL+targetR)), then original Euclidean target distance, then original absolute-increment tie-break. Sum corresponds to NN angular compensation under configured mapping. Preserve original enumeration for remaining ties.",
+ "unchanged":"ExactS3R2 core, neural predictions, pre-sector factors, headroom/gate, common admitted-fraction learning formula, repair/retention rules, growth, weights, current1200/1200, trajectory2mm20s, NN300 cap, normal2counts/ms, sector bounds, speed/temperature/travel/timing guards, exceptional contraction and withdrawal.",
+ "learningCaveat":"The formula and gains are unchanged, but changed admitted output changes rho and subsequent actual gradients. Do not call the learned trajectory unchanged or attribute only direct mechanical effects.",
+ "localClaim":"On the same input/state and unchanged nonempty feasible normal set, synchronization-component target discrepancy cannot exceed the original Euclidean allocator's. This is not actual synchronization-error improvement, energy monotonicity or stability proof.",
+ "verification":"Float/double100000 allocator fixtures: enabled vs disabled exact baseline, independent exhaustive normal-set objective and every final envelope/sector bound. Exact disabled recurrent snapshot replay; changed enabled replay is not a physical counterfactual.",
+ "screen":"Existing36 assumed cases and fixed six coupling/noise settings if initial sync improves versusR2 without new failures. Compare ordinaryBLNN too. No two-metric superiority requirement; quantify tracking costs. Failed baseline-population outcomes cannot be removed to create a primary mean. Models not identified.",
+ "qualificationBoundary":"Finite model success alone cannot establish hardware benefit/safety. Do not issue MCU candidate or motion before review, timing and fresh physical confirmations. If this candidate fails, do not retune priorities or keep changing gains within this protocol.",
+ "candidateToPaperStatus":"Unproven candidate, not final innovation or completed evidence loop.",
+ "hardwareReleased":false
+}

@@ -1,0 +1,148 @@
+{
+  "protocol": "protocol.json",
+  "native": [
+    {
+      "precision": "float",
+      "scope": 0,
+      "result": "PASS100000 original final guards/weightbounds;disabled exactR2;ordinary and nonbinding unchanged. changed=0 nonbinding=0"
+    },
+    {
+      "precision": "float",
+      "scope": 1,
+      "result": "PASS100000 original final guards/weightbounds;disabled exactR2;ordinary and nonbinding unchanged. changed=5511 nonbinding=68365"
+    },
+    {
+      "precision": "double",
+      "scope": 0,
+      "result": "PASS100000 original final guards/weightbounds;disabled exactR2;ordinary and nonbinding unchanged. changed=0 nonbinding=0"
+    },
+    {
+      "precision": "double",
+      "scope": 1,
+      "result": "PASS100000 original final guards/weightbounds;disabled exactR2;ordinary and nonbinding unchanged. changed=5511 nonbinding=68365"
+    }
+  ],
+  "replayEffects": [
+    {
+      "scope": 0,
+      "changedCommandSteps": 0,
+      "changedLearningSteps": 0,
+      "finalNodes": [
+        7,
+        8
+      ],
+      "closedLoopCounterfactual": false
+    },
+    {
+      "scope": 1,
+      "changedCommandSteps": 115,
+      "changedLearningSteps": 91,
+      "finalNodes": [
+        7,
+        8
+      ],
+      "closedLoopCounterfactual": false
+    }
+  ],
+  "initialMetrics": [
+    {
+      "name": "BLNN",
+      "scope": 0,
+      "completed": 31,
+      "baselinePopulationN": 30,
+      "newFailures": [],
+      "failedBaselinePopulationCases": [],
+      "track": 0.11182471394666667,
+      "sync": 0.03207684431400001,
+      "secondarySurvivorOnly": {
+        "n": 30,
+        "track": 0.11182471394666667,
+        "sync": 0.03207684431400001,
+        "efficacyEvidence": false
+      },
+      "caps": [
+        0,
+        0
+      ],
+      "syncChangeVsR2_pct": -33.25616211983581,
+      "trackingChangeVsR2_pct": -32.41741373617282,
+      "syncChangeVsOrdinary_pct": 0
+    },
+    {
+      "name": "S3R2",
+      "scope": 0,
+      "completed": 30,
+      "baselinePopulationN": 30,
+      "newFailures": [],
+      "failedBaselinePopulationCases": [],
+      "track": 0.16546379789333335,
+      "sync": 0.04805963416666668,
+      "secondarySurvivorOnly": {
+        "n": 30,
+        "track": 0.16546379789333335,
+        "sync": 0.04805963416666668,
+        "efficacyEvidence": false
+      },
+      "caps": [
+        0,
+        0
+      ],
+      "syncChangeVsR2_pct": 0,
+      "trackingChangeVsR2_pct": 0,
+      "syncChangeVsOrdinary_pct": 49.82656553185609
+    },
+    {
+      "name": "JOINT_FINAL_PROJECTION",
+      "scope": 1,
+      "completed": 29,
+      "baselinePopulationN": 30,
+      "newFailures": [
+        {
+          "case": 5,
+          "fault": 1024,
+          "stop_ms": 20000,
+          "terminalMax_mm": 0.513479876
+        }
+      ],
+      "failedBaselinePopulationCases": [
+        5
+      ],
+      "track": null,
+      "sync": null,
+      "secondarySurvivorOnly": {
+        "n": 29,
+        "track": 0.15642983423448276,
+        "sync": 0.04360196374827587,
+        "efficacyEvidence": false
+      },
+      "caps": [
+        0,
+        0
+      ],
+      "syncChangeVsR2_pct": null,
+      "trackingChangeVsR2_pct": null,
+      "syncChangeVsOrdinary_pct": null
+    }
+  ],
+  "holdout": [],
+  "admission": [
+    {
+      "name": "JOINT_FINAL_PROJECTION",
+      "initialPassed": false,
+      "holdoutSettings": 0,
+      "newFailureInstances": 0,
+      "settingsWithSyncGain": 0,
+      "screenPassed": false,
+      "settingsWithSyncGainVsOrdinary": 0,
+      "initialOrdinarySyncGoalMet": false,
+      "paperOrdinarySyncBenefitNotProven": true
+    }
+  ],
+  "sourceSHA256": "a2fddcbd60e0e745267c909b463ea96da199481d92989ce21165ecd9f287458f",
+  "copiedHeadersUnchanged": true,
+  "disabledExactlyR2": true,
+  "allCasesRetained": true,
+  "assumedModelsIdentified": false,
+  "physicalBenefitProven": false,
+  "hardwareReleased": false
+}

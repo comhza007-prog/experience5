@@ -1,0 +1,10 @@
+Assertion failed!
+
+Program: C:\Users\ele\Desktop\lunwen\\output\experiment5_ca_v2\06_\sector_round02_20261012\bin\adapter_O75_float.exe
+File: C:\Users\ele\Desktop\lunwen\���ػ�\output\experiment5_ca_v2\06_�����븴��\sector_round02_20261012\test_adapter.c, Line 58
+
+Expression: a.mask&E5_CA_CONTRACTED
+
+recorded_sample final=100,-172 BASE=100,-174 NN=0,2 mask=14
+tight_sector retained=10,10 mask=38
+

@@ -1,0 +1,50 @@
+{
+  "build": 67832,
+  "method": 11,
+  "schema": 4491,
+  "stopMagic": 4442,
+  "profile": 1,
+  "seed": 39,
+  "target": "exp5ID_T1M_BLNN_HW6",
+  "project": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\辨识T1_训练采集_20261014\\eassy_E5ID_T1M_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+  "hex": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\辨识T1_训练采集_20261014\\eassy_E5ID_T1M_BLNN_HW6\\MDK-ARM\\exp5ID_T1M_BLNN_HW6\\exp5ID_T1M_BLNN_HW6.hex",
+  "hexSHA256": "8c70af83c38015864e0c30fe116d0541e5a2076f6bce3e450d5e43178b75832b",
+  "unchangedSourceFiles": 184,
+  "coreFiltersTrajectoryAndGuardsUnchanged": true,
+  "knownRequestedExcitationExcludedFromOuterAW": true,
+  "zeroInjectionBitExact": true,
+  "safeEncodingAndCollectorUnchanged": true,
+  "compileErrors": 0,
+  "compileWarnings": 0,
+  "ARMTraceBytes": 63580,
+  "RAM": {
+    "used": 103232,
+    "max": 114688,
+    "remaining": 11456
+  },
+  "checks": [
+    "PASS exactDisabledCoreOutputAW100000 guardFixtures1677360 seedPhaseRPMbalanceAndNominalRank fastShadowABI63580 offlineOnlyNoHardware",
+    "PASS T1 seed/profile/release, injected-shadow400rows,1000slow,8000exposure,CRC/copies/tail/reset identity and active-loss checks; synthetic only",
+    "PASS exactDisabledCoreOutputAW100000 guardFixtures1677360 seedPhaseRPMbalanceAndNominalRank fastShadowABI63580 offlineOnlyNoHardware",
+    "PASS T1 seed/profile/release, injected-shadow400rows,1000slow,8000exposure,CRC/copies/tail/reset identity and active-loss checks; synthetic only",
+    "PASS old zero/65408 delimiter; all65536 split-range words exact includingCSV6decimals, all encoded pairs and zero boundaries delimiter-free",
+    "PASS manual identity/schema/reset,3968 duplicate chunks,CRC,ABI,transition,completion tail,fault and timing rejection; no hardware",
+    "PASS float/double native ABI: two-pass4copies,14lostFramesRecovered, both-pass loss/active gap/CRC/corrupt duplicate/identity/tail rejected; no hardware",
+    "PASS float/double native ABI: two-pass4copies,14lostFramesRecovered, both-pass loss/active gap/CRC/corrupt duplicate/identity/tail rejected; no hardware"
+  ],
+  "protocolSHA256": "ffc592e31f0d75e533b1b14f9c01c37b81c35164380effa8400816c82b7e5278",
+  "sourceHashes": {
+    "Task/motor_task.c": "5df020e9decbbe49f4c395c13fe89c46acce060375bdd50caf5f41628a16c5ff",
+    "Task/identification_trace.h": "a2ca541621603eea3a6d658ec2af6517140776495a8cb53d54d78f79903fb63b",
+    "Task/experiment5_formal_config.h": "13712a439be324e71b11c3d5e648de8f7d7efe2058d9870af38195b58324f973",
+    "Task/online_protocol.h": "d82803a84246e06d305f7893c5d2c50a82d4c1196063b37fdda0fcd9505b2034",
+    "Task/identification_excitation.h": "6901addfa9eba70cbd58b12dbf1c539151d3e62d21156d44d55a4a37354db4ce"
+  },
+  "userApprovedOneT1": true,
+  "assistantFlashed": false,
+  "physicalRuns": 0,
+  "onBoardTimingQualified": false,
+  "modelIdentified": false,
+  "V1Released": false,
+  "formalCollectionReleased": false
+}

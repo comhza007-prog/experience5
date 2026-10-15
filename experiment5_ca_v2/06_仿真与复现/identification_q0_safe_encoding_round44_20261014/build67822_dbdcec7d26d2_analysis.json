@@ -1,0 +1,205 @@
+{
+  "qualified": false,
+  "transportValid": false,
+  "reasons": [
+    "Missing chunks or duplicate evidence",
+    "Missing completion tail"
+  ],
+  "missingChunks": [
+    1675,
+    1903,
+    3722
+  ],
+  "singleCopyChunks": [],
+  "wholeCRCVerified": false,
+  "decodedRecords": null,
+  "completionTime_s": 672.841003,
+  "completionTail_s": 3.2400519999999915,
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\辨识Q0_手动VOFA_双轮补传_20261014\\E5ID_Q0M2_BLNN_B67822_HW6_L1200_R1200_M0g_S2mm_run01.csv",
+  "sourceSHA256": "dbdcec7d26d22cc966ec8ff085296c2cd74c68e57ea29884915fe31b7fde7ca8",
+  "identity": {
+    "build": 67822,
+    "schema": 4489,
+    "magic": 4440,
+    "passes": 2,
+    "recoverStoppedGaps": true
+  },
+  "frames": 16845,
+  "singleSession": true,
+  "rawUnchanged": true,
+  "gaps": [
+    {
+      "CSVRow": 988,
+      "missing": 1,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 40.921001,
+      "index": 37
+    },
+    {
+      "CSVRow": 4053,
+      "missing": 1,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 163.561005,
+      "index": 1570
+    },
+    {
+      "CSVRow": 4263,
+      "missing": 2,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 172.041016,
+      "index": 1676
+    },
+    {
+      "CSVRow": 4717,
+      "missing": 2,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 190.281006,
+      "index": 1904
+    },
+    {
+      "CSVRow": 8353,
+      "missing": 2,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 335.801025,
+      "index": 3723
+    },
+    {
+      "CSVRow": 9333,
+      "missing": 2,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 375.081024,
+      "index": 3721
+    },
+    {
+      "CSVRow": 12969,
+      "missing": 2,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 520.601013,
+      "index": 1902
+    },
+    {
+      "CSVRow": 13317,
+      "missing": 1,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 534.561035,
+      "index": 1728
+    },
+    {
+      "CSVRow": 13422,
+      "missing": 2,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 538.841003,
+      "index": 1674
+    },
+    {
+      "CSVRow": 13826,
+      "missing": 1,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 555.041016,
+      "index": 1472
+    },
+    {
+      "CSVRow": 14337,
+      "missing": 1,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 575.521057,
+      "index": 1216
+    },
+    {
+      "CSVRow": 14848,
+      "missing": 1,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 596.001038,
+      "index": 960
+    },
+    {
+      "CSVRow": 15359,
+      "missing": 1,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 616.481018,
+      "index": 704
+    },
+    {
+      "CSVRow": 15870,
+      "missing": 1,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 636.96106,
+      "index": 448
+    },
+    {
+      "CSVRow": 16298,
+      "missing": 1,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 654.121033,
+      "index": 233
+    },
+    {
+      "CSVRow": 16380,
+      "missing": 1,
+      "phase": 6,
+      "priorPhase": 6,
+      "boardTime_s": 657.44104,
+      "index": 192
+    }
+  ],
+  "motionMissingFrames": 0,
+  "totalMissingFrames": 22,
+  "phases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "faults": [],
+  "motionCompleted": true,
+  "modelIdentified": false,
+  "liveDiagnostics": {
+    "window": "I2 phases2..5 AND I106=1,40ms sampling",
+    "tracking": {
+      "n": 400,
+      "rmse_mm": 0.12459052682688204,
+      "max_abs_mm": 0.3575
+    },
+    "sync": {
+      "n": 400,
+      "rmse_mm": 0.1080054975452637,
+      "max_abs_mm": 0.30900000000000005
+    },
+    "voltage_V": [
+      23.583925,
+      24.068995
+    ],
+    "peakRPM": [
+      80,
+      63
+    ],
+    "corePeak_us": 146.404755,
+    "bodyPeak_us": 283.744049,
+    "overruns": 0,
+    "uartErrors": 0,
+    "DMASkipped": 0,
+    "CANRejected": 0,
+    "finalPosition_mm": [
+      -0.093,
+      -0.12999999999999998
+    ]
+  }
+}

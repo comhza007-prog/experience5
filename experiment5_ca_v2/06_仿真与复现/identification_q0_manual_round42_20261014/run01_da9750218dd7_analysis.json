@@ -1,0 +1,132 @@
+{
+  "transportValid": false,
+  "qualified": false,
+  "reasons": [
+    "Missing chunks or duplicate evidence"
+  ],
+  "frames": 9523,
+  "missingLiveFrames": 7,
+  "gaps": [
+    {
+      "CSVRow": 988,
+      "missingFrames": 1,
+      "phase": 6,
+      "boardTime_s": 40.921001
+    },
+    {
+      "CSVRow": 1244,
+      "missingFrames": 2,
+      "phase": 6,
+      "boardTime_s": 51.241001
+    },
+    {
+      "CSVRow": 1258,
+      "missingFrames": 1,
+      "phase": 6,
+      "boardTime_s": 51.841003
+    },
+    {
+      "CSVRow": 2063,
+      "missingFrames": 2,
+      "phase": 6,
+      "boardTime_s": 84.121002
+    },
+    {
+      "CSVRow": 4048,
+      "missingFrames": 1,
+      "phase": 6,
+      "boardTime_s": 163.561005
+    }
+  ],
+  "missingChunks": [
+    165,
+    576
+  ],
+  "singleCopyChunks": [
+    36,
+    173,
+    1569
+  ],
+  "receivedChunkCount": 3966,
+  "expectedCRC32": [
+    3017319166
+  ],
+  "wholeCRCVerified": false,
+  "decodedSlow": null,
+  "decodedFast": null,
+  "completionTime_s": 355.401031,
+  "completionTail_s": 27.199982000000034,
+  "phases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "faults": [],
+  "modelIdentified": false,
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\辨识Q0_手动VOFA_20261014\\E5ID_Q0M_BLNN_B67821_HW6_L1200_R1200_M0g_S2mm_run01.csv",
+  "sourceSHA256": "da9750218dd7d9579a7e5431fa0fad1537277ecc268948faa0ad81ac796b5010",
+  "segmentation": {
+    "rawCSVQualifiedAsSingleSession": true,
+    "totalRows": 9523,
+    "sessionCSVRows": [
+      2,
+      9524
+    ],
+    "rawUnchanged": true
+  },
+  "liveDiagnostics": {
+    "activeWindow": "phases2..5 AND I106=1; 40ms live sampling, not full1ms tracking",
+    "voltage_V": [
+      23.659458,
+      24.185835
+    ],
+    "rawRPM": [
+      [
+        -47,
+        54
+      ],
+      [
+        -47,
+        41
+      ]
+    ],
+    "attemptedCommand_counts": [
+      [
+        -639,
+        573
+      ],
+      [
+        -624,
+        668
+      ]
+    ],
+    "peakRPM": [
+      76,
+      74
+    ],
+    "corePeak_us": 146.767853,
+    "bodyPeak_us": 287.208344,
+    "overruns": 0,
+    "canRejected": 0,
+    "stackHighWater_words": 2640,
+    "tracking": {
+      "n": 400,
+      "rmse_mm": 0.2105301314539084,
+      "max_abs_mm": 0.5640000000000001
+    },
+    "sync": {
+      "n": 400,
+      "rmse_mm": 0.029796056786091627,
+      "max_abs_mm": 0.204
+    },
+    "finalPosition_mm": [
+      -0.211,
+      -0.213
+    ]
+  },
+  "motionCompleted": true
+}

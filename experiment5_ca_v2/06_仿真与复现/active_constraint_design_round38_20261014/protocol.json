@@ -1,0 +1,22 @@
+{
+  "authorization": "User approved offline design of a separately predefined actually-active constraint condition, retaining unloaded A2mm benchmark and all negative results; subsequent user asked to continue full-flow supervision.",
+  "scope": "Offline engineering design only; no firmware, serial commands, resets, flashing, load addition or physical motion authorized by this protocol.",
+  "fixedCondition": {"addedMass_g":0,"stroke_mm":2,"duration_ms":20000,"originalMotionAndHardGuardsUnchanged":true},
+  "limitUnits": "ESC command counts, not calibrated amperes or torque",
+  "predefinedConditions": [
+    {"id":"A_REF","limits":[1200,1200]},
+    {"id":"B_SYM1000","limits":[1000,1000]},
+    {"id":"C_SYM800","limits":[800,800]},
+    {"id":"D_R800","limits":[1200,800]},
+    {"id":"D_L800_MIRROR","limits":[800,1200]}
+  ],
+  "selectionRule": "Do not select by candidate performance. Preserve every predefined condition and mirror. Prefer least reduction meeting separately verified actual activation and unchanged safety/task completion. If none qualified, declare no admitted active-amplitude condition; do not keep lowering limits or change load/stroke without a separate plan.",
+  "activationMeaning": "Near-limit commands are exposure diagnostics, not proof of clipping. Actual amplitude intervention requires requested/pre-clip and final command evidence or direct per-step clipping counter. CA mask bit1 means the NN increment300-count cap, NOT hard actuator saturation; diagnostic reason bit2 is hard clipping. Projection/rate/sector events must be reported separately, not relabelled amplitude saturation.",
+  "offlineExposureMeaning": "Compare recorded attempted commands with hypothetical limits only to plan qualification. This is not a closed-loop lower-limit simulation, a feasibility or hardware safety proof.",
+  "assumedModelScreen": {"controllers":["ordinary BLNN","exact S3R2"],"axisMasses":[3,6,9],"leftFrictionCounts":[400,600],"rightFrictionFactor":1.4,"delays_ms":[0,3,6],"couplingStiffness":2000,"noisePeriod_ms":19,"purpose":"Baseline task feasibility and constraint-activity diagnostics; no new candidate benefit selection; models are not identified hardware."},
+  "paperMetrics": "Whole phase2..5 while drive-permitted: mean-position tracking RMSE and L-R synchronization RMS in mm. Report tracking cost, failures and all individual runs. No fabricated task tolerance; firmware guards are not paper accuracy requirements.",
+  "nextAdmission": "Only a diagnostic baseline may be prepared after source/host checks, with separate Keil/timing validation and fresh drive-OFF confirmation before flash and drive-ON/onsite confirmation before a single small motion. Physical qualification must precede candidate development or formal paired collection.",
+  "formalPlanNotYetFrozen": true,
+  "newCandidateSelected": false,
+  "hardwareReleased": false
+}

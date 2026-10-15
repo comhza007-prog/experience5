@@ -1,0 +1,119 @@
+{
+  "status": "Input sensitivity only, not actual waveform recovery or model validation",
+  "results": [
+    {
+      "inputHypothesis": "canonical_block_mean",
+      "maximumMeanDifference_counts": 0.0,
+      "maximumFirstCommandDifference_counts": 0.0,
+      "infeasibleBlocks": [],
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.45504046317333147,
+      "predictedSyncRMS_mm": 0.05604821585028377,
+      "trackingDifference_percent": 69.57625226598807,
+      "syncDifference_percent": 4.990506205544953,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.4926788101796139,
+        0.5039219756073354
+      ]
+    },
+    {
+      "inputHypothesis": "known_first_then_constant",
+      "maximumMeanDifference_counts": 1.1368683772161603e-12,
+      "maximumFirstCommandDifference_counts": 0.0,
+      "infeasibleBlocks": [],
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.4550391137034266,
+      "predictedSyncRMS_mm": 0.056045874067588604,
+      "trackingDifference_percent": 69.57574936994358,
+      "syncDifference_percent": 4.986119536908684,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.4926751820418805,
+        0.5039219185548491
+      ]
+    },
+    {
+      "inputHypothesis": "known_first_clipped_linear",
+      "maximumMeanDifference_counts": 4.547473508864641e-13,
+      "maximumFirstCommandDifference_counts": 0.0,
+      "infeasibleBlocks": [],
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.45492953025715976,
+      "predictedSyncRMS_mm": 0.056128513253069515,
+      "trackingDifference_percent": 69.53491179255819,
+      "syncDifference_percent": 5.140920716293795,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.49253417901705054,
+        0.5037646052473318
+      ]
+    },
+    {
+      "inputHypothesis": "canonical_block_mean",
+      "maximumMeanDifference_counts": 0.0,
+      "maximumFirstCommandDifference_counts": 0.0,
+      "infeasibleBlocks": [],
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.4730801094952101,
+      "predictedSyncRMS_mm": 0.08045769074488777,
+      "trackingDifference_percent": 41.053267111856485,
+      "syncDifference_percent": -5.972845299333551,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.506595459908594,
+        0.5240315973297791
+      ]
+    },
+    {
+      "inputHypothesis": "known_first_then_constant",
+      "maximumMeanDifference_counts": 1.1368683772161603e-12,
+      "maximumFirstCommandDifference_counts": 0.0,
+      "infeasibleBlocks": [],
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.47307897662546794,
+      "predictedSyncRMS_mm": 0.08047212250214356,
+      "trackingDifference_percent": 41.052929336128564,
+      "syncDifference_percent": -5.955979576995151,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.506596770123932,
+        0.5240314303550884
+      ]
+    },
+    {
+      "inputHypothesis": "known_first_clipped_linear",
+      "maximumMeanDifference_counts": 7.958078640513122e-13,
+      "maximumFirstCommandDifference_counts": 0.0,
+      "infeasibleBlocks": [],
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.4730258608152413,
+      "predictedSyncRMS_mm": 0.08047366028707778,
+      "trackingDifference_percent": 41.03709235964743,
+      "syncDifference_percent": -5.954182439386946,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.5065508390082876,
+        0.524010694070264
+      ]
+    }
+  ],
+  "physicalConstraint": "All hypotheses retain each measured40ms command integral, observed first queued command where feasible, and1200count bound. Moving1ms inputs unchanged.",
+  "limitation": "True hold waveform and individual control dt unknown; linear and constant-rest are hypotheses. No choosing reconstructed signals based on performance; canonical block mean remains baseline.",
+  "noParameterRefit": true,
+  "rawUnchanged": true,
+  "assistantHardwareAction": false,
+  "scriptSHA256": "7e05b64e952712d116a6abca58957df878e41985e5abd5b6e12338b9be868dc6"
+}

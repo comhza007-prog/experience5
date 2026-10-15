@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-12",
+  "hostOnly": true,
+  "reportGenerated": false,
+  "hardwareReleased": false,
+  "profiles": [
+    {
+      "id": 0,
+      "name": "P0_legacy",
+      "model": "previous every-1ms feedback; 3ms RPM smoothing; +1 rpm each 19th ms; current position sampled without packet delay"
+    },
+    {
+      "id": 1,
+      "name": "P1_hold2_noNoise",
+      "model": "position/RPM in one held packet every 2ms; axis offset 1ms; same queue delay, no added noise"
+    },
+    {
+      "id": 2,
+      "name": "P2_hold2_symmetric1",
+      "model": "P1 plus reproducible symmetric +/-1 RPM packet perturbation"
+    },
+    {
+      "id": 3,
+      "name": "P3_hold5_symmetric1",
+      "model": "held packets every 5ms; axis offset 2ms; reproducible symmetric +/-1 RPM perturbation"
+    }
+  ],
+  "modelCaveat": "Packet timing/perturbation are assumptions. 40-ms physical exports do not identify actual 1-ms feedback history.",
+  "plantGrid": "Existing grid only: per-axis mass 3/6/9kg, static friction 400/600 counts, queue setting 0/3/6ms (queue adds one tick); common parameters for A and B; existing asymmetric right-axis mass/friction unchanged.",
+  "controller": "EXACT unchanged round02 old CA: sector .25, slew 2 counts/ms, 300-count NN cap; identical gains and safety guards for all profiles/methods.",
+  "fitIds": [
+    "A_BASE_1",
+    "A_BASE_2",
+    "B_BASE_1",
+    "B_BASE_2"
+  ],
+  "validationIds": [
+    "A_BASE_3",
+    "B_BASE_3",
+    "A_BLNN_1",
+    "A_BLNN_2",
+    "A_BLNN_3",
+    "B_BLNN_1",
+    "B_BLNN_2",
+    "B_BLNN_3"
+  ],
+  "mechanismOnlyIds": [
+    "A_CA_BLNN_1",
+    "A_CA_BLNN_2",
+    "A_CA_BLNN_3",
+    "B_CA_BLNN_1",
+    "B_CA_BLNN_2",
+    "B_CA_BLNN_3"
+  ],
+  "splitCaveat": "These are existing records, previously inspected. This is a computational fitting split, NOT a newly collected independent holdout.",
+  "fitObjective": "mean position RMSE on four BASE training trajectories (400 40-ms points x 2 axes), plus .05mm times relative per-axis command-RMS discrepancy. Both A/B model runs must finish; faults retained but ineligible for fitting.",
+  "selection": "Select best P0 baseline and best P1/P2/P3 alternative on BASE TRAINING score alone; never tune to CA masks or prefer candidate-method accuracy.",
+  "validationGate": "For each A/B BASE run03, position RMSE <= max(.1mm,2*RMSE(physical run03 vs mean physical runs01/02)); require completion of BLNN and old-CA simulation too.",
+  "mechanismGate": "For each condition, modeled old-CA motion only-PROJECTED percentage and full-activity withdrawal/contraction totals must lie within the empirical range of three physical runs. This is a diagnostic acceptance rule, not a statistical equivalence test.",
+  "reproducibility": "Every BASE profile and both selected method evaluations rerun numerically identically; P0 BLNN and old CA reproduce prior round02 records exactly excluding newly-added feedback records."
+}

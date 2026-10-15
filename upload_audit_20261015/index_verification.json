@@ -1,0 +1,13 @@
+{
+  "trackedFilesBeforeThisAudit": 17057,
+  "uploadedResearchFiles": 17049,
+  "onlyRequestedDirectoryAndUploadMetadata": true,
+  "allManifestFilesTracked": true,
+  "unexpectedPaths": [],
+  "missingFiles": [],
+  "largeFileCheck": true,
+  "credentialVerificationPassed": true,
+  "originalSourceUntouched": true,
+  "scopeConfirmation": "User explicitly selected only experiment5_ca_v2",
+  "excludedSourceFilesNotDeleted": true
+}

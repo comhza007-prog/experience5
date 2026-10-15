@@ -1,0 +1,43 @@
+{
+  "build": 67811,
+  "method": 11,
+  "schema": 4487,
+  "stopMagic": 4438,
+  "project": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\辨识Q0_零扰动记录_20261014\\eassy_E5ID_Q0_A_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+  "target": "exp5ID_Q0_A_BLNN_HW6",
+  "hex": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\辨识Q0_零扰动记录_20261014\\eassy_E5ID_Q0_A_BLNN_HW6\\MDK-ARM\\exp5ID_Q0_A_BLNN_HW6\\exp5ID_Q0_A_BLNN_HW6.hex",
+  "hexSHA256": "dc034e8a17d534293e874a322669dc7f7bec89c2c4c4d35914e08057f53f1bc0",
+  "axfSHA256": "dc1713df29218113c2180f698ed7b3f4834e1ed46a7a4f12dff01170e09aafab",
+  "unchangedSourceFiles": 185,
+  "ordinaryCoreAndConfigExact": true,
+  "coreFilterActuatorHealthDeadlineCANAndFaultBlocksUnchanged": true,
+  "noExcitationAPI": true,
+  "checks": [
+    "PASS exactCoreStateOutputCommands100000 intervalIntegralPartialFaultCRC7936DuplicateChunks traceBytes63580",
+    "PASS 3968 duplicate chunks/CRC/ABI/transition/complete tail; corruption, missing chunk and fault rejection",
+    "PASS exactCoreStateOutputCommands100000 intervalIntegralPartialFaultCRC7936DuplicateChunks traceBytes63580",
+    "PASS 3968 duplicate chunks/CRC/ABI/transition/complete tail; corruption, missing chunk and fault rejection",
+    "PASS host syntax/CRC, identity/startup/nonfinite rejection, genuine fault preserved, session/default/health guards, event schema, zero after fault, explicit site confirmation; no hardware opened"
+  ],
+  "compileErrors": 0,
+  "compileWarnings": 0,
+  "RAM": {
+    "used": 103168,
+    "max": 114688,
+    "remaining": 11520
+  },
+  "ARMTraceABI_bytes": 63580,
+  "ARMLegacyFaultABI_bytes": 1300,
+  "sourceHashes": {
+    "motor_task.c": "79308023a18926da747d047576ad25a3618fe7f11219dae929aebd51f4eac79f",
+    "identification_trace.h": "4a2d1d38c9ddcecf60346d7e4b8ebf52d785960a8f7a609a0970fc3f67f2c056",
+    "experiment5_formal_config.h": "e6f7263b9954da797f6d120c6690e68b632c4f5ae17631cb196553091a2a000c"
+  },
+  "hostSHA256": "86cbedeb7757ac1316acff7baae8af93f4f39a613b70f4cba1fd25513b4a88b0",
+  "flashed": false,
+  "physicalRuns": 0,
+  "onBoardTimingQualified": false,
+  "scope": "Q0 logging qualification only. Fresh drive-OFF for flash/reset/idle; fresh drive-ON/onsite before one2mm run. No T1/V1 authorization.",
+  "performanceImprovementProven": false,
+  "modelsIdentified": false
+}

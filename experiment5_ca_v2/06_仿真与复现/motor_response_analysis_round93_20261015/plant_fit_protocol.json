@@ -1,0 +1,53 @@
+{
+  "status": "Declared before plant fitting",
+  "recordNames": [
+    "T1",
+    "Q2_run02",
+    "Q2_run03",
+    "Q2_run04",
+    "Q2_run05",
+    "Q2_run06",
+    "Q2_run07",
+    "M1_run01",
+    "M1_run02",
+    "M1_run03",
+    "M1_run04",
+    "M1_run05"
+  ],
+  "preFitPredictionSHA256": "30b521ea814777398dc573b19bb2390619069af9d5f50e617db183e614a06400",
+  "sourceModelSHA256": "ffc2988f6943390e991294edb19ee0a7415f3e05b0dba3ffe80c9f585fe90b87",
+  "motorParametersSHA256": "924c8b1fb7d184bfbee98a0f0b21e619c1104900f943ad1a2d23fa30ddc037a7",
+  "schemes": [
+    "static_refit_control",
+    "motor_refit_candidate"
+  ],
+  "freeIndices": [
+    0,
+    1,
+    6,
+    7,
+    9,
+    10
+  ],
+  "relativeRadius": 0.25,
+  "fixedIndices": [
+    2,
+    3,
+    4,
+    5,
+    8
+  ],
+  "maximumEvaluationsPerScheme": 900,
+  "maximumIterations": 650,
+  "initialStep": 0.1,
+  "objective": "Equal record weights across all12 records. Time weighted mean-position and differential waveform errors scaled0.05mm each plus native tracking/sync relative RMS differences scaled0.1, local drift penalty0.25*mean(x^2).",
+  "limitations": "All five M1 records plus seven old tight-mechanics records are calibration. Motor tau10ms selected at grid upper boundary, not a precisely identified physical time constant. Coarse block means retained. Current sensor offset not interpreted as torque.",
+  "candidateEligibility": "Average data loss lower than unchangedR90 and new-M1 average data loss lower; any per-record deterioration reported. This only releases one exploratory manual test, not model validation.",
+  "prospectiveScreen": {
+    "trackingAbsoluteRelativeError": 0.15,
+    "syncAbsoluteRelativeError": 0.15,
+    "waveformHardGate": false
+  },
+  "assistantHardwareAction": false,
+  "firmwareChanged": false
+}

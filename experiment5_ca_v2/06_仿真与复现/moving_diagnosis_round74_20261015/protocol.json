@@ -1,0 +1,16 @@
+{
+  "date":"2026-10-15",
+  "scope":"Offline moving-segment diagnosis only, frozen round72 model and existing tightened T1/newQ2. No fitting, new model branch, gain/guard edits, serial operations or physical capture.",
+  "sources":["identification_t1_fullmoving_round70_20261015/build68112_d1184a41428b_analysis.json","q2_mechanical_recheck_round73_20261015/build68012_84bbb6e34165_analysis.json"],
+  "model":"t1_training_fit_round72_20261015/fit_results.json",
+  "frozenModelSHA256":"0efb92bb13bb6b96059cce67592f044e88c5a2d234c956280099f6b54daa6589",
+  "tests":[
+    "Reproduce full20s forced-input rollout with recorded moving commands/actual dt and40step hold means. No outcome-based run selection or physical force interpretation.",
+    "For each outward/return4s segment initialize position ONCE from its preceding recorded hold endpoint and velocity ONCE from the preceding80step encoder endpoint difference. Replay exact queued moving commands with no future measured-state injection. This is conditional moving prediction, not full-task or counterfactual closed-loop validation; replacing initial state can absorb other modeling errors and cannot uniquely blame holds.",
+    "Match native40ms motion feedback to preceding1ms queued interval by core-step index, verify encoder/RPM identities; compare ESC reported-current fields with raw queued commands at fixed lookbacks[-5,-2,-1,0,1,2,5,10] steps. Negative lookback uses future command as diagnostic control, not causal/predictive input. OLS associations are descriptive, not calibrated current-to-force gains or a chosen lag model.",
+    "Compare endpoint encoder displacement and integrated END-sampled RPM on fixed50/100step windows, actual elapsed time and physical right sign=-1. No fitted RPM offset, delay or quantizer and no claim that either noisy observation is exact velocity truth.",
+    "Analytic frozen mass/damping generalized eigenvalues and time constants, compared to1ms logged period. These characterize an estimated model, not measured hardware constants or proof of parameter unidentifiability."
+  ],
+  "evaluationPolicy":"Use waveform errors, not just closeness of scalar taskRMS. No application tolerance invented, no newQ2 calibration, no model-admission claim. Preserve old loose Q2 results separately.",
+  "modelsFitted":0,"newPhysicalRunReleased":false,"modelClosureClaimed":false
+}

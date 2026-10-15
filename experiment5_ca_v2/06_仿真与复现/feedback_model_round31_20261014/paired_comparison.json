@@ -1,0 +1,144 @@
+{
+  "inputs": [
+    {
+      "method": "BLNN",
+      "file": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_反馈辨识_20261014\\E5MODEL_A_BLNN_B67511_HW6_MODEL10_L1200_R1200_M0g_S2mm_run01.csv",
+      "sha256": "7c7e29db5ec9e1e8d57c99c550bc3dfd7d4831ec570c0163ee04f71b209adb9c"
+    },
+    {
+      "method": "S3R2",
+      "file": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_反馈辨识_20261014\\E5MODEL_A_S3R2_B67512_HW6_MODEL10_L1200_R1200_M0g_S2mm_run01.csv",
+      "sha256": "2804eb9c2a605a03fa73f5bf46c2d8c30d973af97a90bf8c565031cd905e87ec"
+    }
+  ],
+  "samplesPerMethod": 400,
+  "exactCommonTelemetryTimestamps": 0,
+  "telemetryElapsedOffset_BLNN_minus_S3R2_ms": 2,
+  "phaseCountsEqual": true,
+  "referenceAndTimeExactlyEqual": false,
+  "interpolation": false,
+  "primaryWindow": "Drive permitted, phase2..5; same task window with different40ms sampling offsets. Unchanged from previous evaluations. These are whole-window scalar metrics, not pointwise paired errors.",
+  "metrics": {
+    "BLNN": {
+      "n": 400,
+      "trackingRMSE_mm": 0.12430160790027123,
+      "syncRMS_mm": 0.05185927889299856,
+      "maxSync_mm": 0.23978541139513254
+    },
+    "S3R2": {
+      "n": 400,
+      "trackingRMSE_mm": 0.1456333328475013,
+      "syncRMS_mm": 0.05192572868556011,
+      "maxSync_mm": 0.27248344849795103
+    }
+  },
+  "S3R2_minus_BLNN": {
+    "trackingRMSE_mm": {
+      "absolute": 0.02133172494723007,
+      "percent": 17.1612622777533
+    },
+    "syncRMS_mm": {
+      "absolute": 0.00006644979256155426,
+      "percent": 0.1281348178763908
+    },
+    "maxSync_mm": {
+      "absolute": 0.03269803710281849,
+      "percent": 13.63637467040759
+    }
+  },
+  "secondaryAlignedEncoderReplay": {
+    "timeWindow_ms": [
+      4000,
+      20000
+    ],
+    "endExclusive": true,
+    "referencePrecision": "analytic double; primary40ms uses firmware floats",
+    "positionSource": "raw motor encoder counts and configured kinematics",
+    "metrics": {
+      "BLNN": {
+        "n": 1600,
+        "trackingRMSE_mm": 0.12426879079088494,
+        "syncRMS_mm": 0.05146747063924873
+      },
+      "S3R2": {
+        "n": 1600,
+        "trackingRMSE_mm": 0.1452216029288447,
+        "syncRMS_mm": 0.05157755188814915
+      }
+    },
+    "primaryMetricReplaced": false
+  },
+  "phases": [
+    {
+      "phase": 2,
+      "metrics": {
+        "BLNN": {
+          "n": 100,
+          "trackingRMSE_mm": 0.17249126371449963,
+          "syncRMS_mm": 0.06804749251718996,
+          "maxSync_mm": 0.1949770376086235
+        },
+        "S3R2": {
+          "n": 100,
+          "trackingRMSE_mm": 0.1999003771560987,
+          "syncRMS_mm": 0.069369931519121,
+          "maxSync_mm": 0.2022433327510953
+        }
+      }
+    },
+    {
+      "phase": 3,
+      "metrics": {
+        "BLNN": {
+          "n": 50,
+          "trackingRMSE_mm": 0.12546658566356533,
+          "syncRMS_mm": 0.01629103011441969,
+          "maxSync_mm": 0.05934084765613079
+        },
+        "S3R2": {
+          "n": 50,
+          "trackingRMSE_mm": 0.0288524545802308,
+          "syncRMS_mm": 0.0021254194108203195,
+          "maxSync_mm": 0.004844041541218758
+        }
+      }
+    },
+    {
+      "phase": 4,
+      "metrics": {
+        "BLNN": {
+          "n": 100,
+          "trackingRMSE_mm": 0.15523921795411125,
+          "syncRMS_mm": 0.07731276610262694,
+          "maxSync_mm": 0.23978541139513254
+        },
+        "S3R2": {
+          "n": 100,
+          "trackingRMSE_mm": 0.21084101651814147,
+          "syncRMS_mm": 0.07708041813484005,
+          "maxSync_mm": 0.27248344849795103
+        }
+      }
+    },
+    {
+      "phase": 5,
+      "metrics": {
+        "BLNN": {
+          "n": 150,
+          "trackingRMSE_mm": 0.0073109962159973105,
+          "syncRMS_mm": 0.003377904458516432,
+          "maxSync_mm": 0.007266224201885052
+        },
+        "S3R2": {
+          "n": 150,
+          "trackingRMSE_mm": 0.0019905516619873366,
+          "syncRMS_mm": 0.0044187656994803415,
+          "maxSync_mm": 0.010899336984948604
+        }
+      }
+    }
+  ],
+  "replicatesPerMethod": 1,
+  "formalRepeatedEvidence": false,
+  "conclusion": "Both diagnostic records complete and fault-free. This pair does not show an overall S3R2 synchronization benefit; tracking is worse. Hold-phase gains are descriptive only and do not replace the predefined full-motion primary window. No new mechanism was tested."
+}

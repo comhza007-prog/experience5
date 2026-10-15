@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "independentPythonSteps": 40000,
+  "nativePositionChecks": 800,
+  "maximumEnergyBalanceResidual": 4.83994311910189e-22,
+  "cases": [
+    {
+      "record": "T1",
+      "independentSteps": 20000,
+      "maximumNativePythonPositionDifference_m": 3.0791341698588326e-16,
+      "meanPredictionRMSE_mm": 0.0942150930053142,
+      "syncPredictionRMSE_mm": 0.05687446703046982,
+      "actualTrackingRMSE_mm": 0.14362147950428583,
+      "modeledTrackingRMSE_mm": 0.15438048573249147,
+      "actualSyncRMS_mm": 0.04795641250135376,
+      "modeledSyncRMS_mm": 0.04757244475534129,
+      "trackingRelativeDifference_percent": 7.491223642411082,
+      "syncRelativeDifference_percent": -0.8006598617059435
+    },
+    {
+      "record": "Q2",
+      "independentSteps": 20000,
+      "maximumNativePythonPositionDifference_m": 3.0401028916493544e-16,
+      "meanPredictionRMSE_mm": 0.09793116842966798,
+      "syncPredictionRMSE_mm": 0.0484937624854991,
+      "actualTrackingRMSE_mm": 0.14094456135303696,
+      "modeledTrackingRMSE_mm": 0.1331287182579326,
+      "actualSyncRMS_mm": 0.042799503501793096,
+      "modeledSyncRMS_mm": 0.04265363407729756,
+      "trackingRelativeDifference_percent": -5.54533145520052,
+      "syncRelativeDifference_percent": -0.34082036603397814
+    }
+  ],
+  "objectiveIndependentlyRecomputed": true,
+  "allRawHashesUnchanged": true,
+  "firmwareAndFourControlSourceHashesUnchanged": true,
+  "budgetRespected": true,
+  "numericalChecksNotPhysicalValidation": true,
+  "modelAdmitted": false,
+  "hardwareAction": false
+}

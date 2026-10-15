@@ -1,0 +1,27 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import assert from 'node:assert/strict';import {spawnSync} from 'node:child_process';import {fileURLToPath} from 'node:url';import {decodeBlob,crc32} from './decode.mjs';
+const dir=path.dirname(fileURLToPath(import.meta.url)),root=path.resolve(dir,'../..'),prior=path.join(root,'05_实验代码/自动采集Q2_显式启动_20261015/eassy_E5ID_Q2B_BLNN_HW6'),fresh=path.join(root,'05_实验代码/20mm准入_显式启动_20261015/eassy_E5ID_Q20_BLNN_HW6');
+const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex'),read=p=>fs.readFileSync(p,'utf8').replaceAll('\r\n','\n');let unchanged=0;const changed=['Task/motor_task.c','Task/experiment5_motion.h','Task/experiment5_formal_config.h','Task/experiment5_error_summary.h'];
+for(const folder of ['Task','Core','Drivers','Middlewares','CAN-control']){function walk(rel){for(const e of fs.readdirSync(path.join(prior,rel),{withFileTypes:true})){const p=path.join(rel,e.name);if(e.isDirectory())walk(p);else if(!changed.includes(p.replaceAll('\\','/'))){assert.equal(sha(path.join(prior,p)),sha(path.join(fresh,p)),p);unchanged++;}}}walk(folder);}
+const old=read(path.join(prior,'Task/motor_task.c')),motor=read(path.join(fresh,'Task/motor_task.c'));
+assert.equal(old.slice(old.indexOf('        if(g_exp5_abort) fault|=32U;')),motor.slice(motor.indexOf('        if(g_exp5_abort) fault|=32U;')));
+const block=(s,a,b)=>s.slice(s.indexOf(a),s.indexOf(b,s.indexOf(a)));
+assert.equal(block(old,'static uint32_t health(','void motor_task(').replace('fabsf(position[ch])>.004f','e5_motion_travel_fault(position[ch])'),block(motor,'static uint32_t health(','void motor_task('));
+assert.equal(block(old,'        /* Single UART owner.','        if(g_exp5_abort) fault|=32U;'),block(motor,'        /* Single UART owner.','        if(g_exp5_abort) fault|=32U;'));
+const log=read(path.join(dir,'build02.log'));assert(log.includes('0 Error(s), 0 Warning(s).'));
+const target='exp5ID_Q20_BLNN_HW6',build=path.join(fresh,'MDK-ARM',target),hex=path.join(build,target+'.hex'),axf=path.join(build,target+'.axf'),map=read(path.join(build,target+'.map'));
+for(const f of [...changed.map(p=>p.slice(5)),'identification_trace_v3.h'])assert(fs.statSync(path.join(fresh,'Task',f)).mtimeMs<=fs.statSync(axf).mtimeMs);
+const r=map.match(/Execution Region RW_IRAM1[^\n]*Size: 0x([0-9a-f]+), Max: 0x([0-9a-f]+)/i);assert(r);const used=parseInt(r[1],16),max=parseInt(r[2],16);assert(max-used>=8192);assert(/identification_trace\s+0x[0-9a-f]+\s+Data\s+69400/i.test(map));
+const fixture=fs.readFileSync(path.join(dir,'native_blob.bin')),decoded=decodeBlob(fixture),independent=JSON.parse(read(path.join(dir,'independent_verification.json')));assert(independent.passed);assert.equal(crc32(fixture),independent.CRC32);assert.equal(decoded.fast.length,4000);assert.equal(decoded.slow.length,300);assert.equal(decoded.ordered.at(-1).step,27999);
+const env={...process.env,PATH:'D:/MinGW/mingw64/bin;'+process.env.PATH};const native=spawnSync(path.join(dir,'test_candidate.exe'),[path.join(dir,'verify_fixture.bin'),path.join(dir,'verify_intervals.csv')],{cwd:dir,env,encoding:'utf8'});assert.equal(native.status,0,native.stdout+native.stderr);assert.equal(sha(path.join(dir,'verify_fixture.bin')),sha(path.join(dir,'native_blob.bin')));
+const host=spawnSync('pwsh',['-NoProfile','-File',path.join(dir,'test_host.ps1')],{cwd:dir,env,encoding:'utf8'});assert.equal(host.status,0,host.stdout+host.stderr);
+assert.equal(sha(path.join(prior,'MDK-ARM/exp5ID_Q2B_BLNN_HW6/exp5ID_Q2B_BLNN_HW6.hex')),'d5ce251b290afc45307dc5cdeac4d7f31e5f19a8fb1d6a3fe8c6abbbde3c2cb0');
+const result={status:'Offline Q20 candidate checked, NOT flashed or physically qualified',build:68312,schema:4501,stopMagic:4445,project:path.join(fresh,'MDK-ARM/eassy.uvprojx'),target,hex,hexSHA256:sha(hex),axfSHA256:sha(axf),compileErrors:0,compileWarnings:0,RAM:{used,max,remaining:max-used},unchangedSourceFiles:unchanged,
+ unchangedCoreActuatorHWProfileAndPhysicalGuardsExceptTravel:true,travelEnvelope_m:[-.004,.022],unchangedStartupExplicitArmAndWatchdog:true,
+ trajectory:{stroke_mm:20,forward_s:8,return_s:8,total_s:28,nominalPeakSpeed_mm_s:4.6875,nominalPeakRotorRPM:28.34947423824386,insideExistingTaperRegion:true},
+ logging:{ABI:3,blobBytes:69312,traceBytes:69400,movingInterval_ms:4,holdingInterval_ms:40,fastRows:4000,slowRows:300,nativeMetricSamples:600,intraIntervalCommandsRecoverable:false,controlPeriod_ms:1},
+ checks:[native.stdout.trim(),host.stdout.trim(),'Independent Python28000integrationsteps/4300intervals and JS ABI3 decode/CRC agree'],
+ protocolSHA256:sha(path.join(dir,'protocol.json')),hostSHA256:sha(path.join(dir,'q20_host.ps1')),decoderSHA256:sha(path.join(dir,'decode.mjs')),
+ sourceHashes:Object.fromEntries([...changed.map(p=>p.slice(5)),'identification_trace_v3.h','blnn_core.c','experiment5_formal_actuator.h','experiment5_hw_profile.h','online_protocol.h','vofa_task.c'].map(f=>[f,sha(path.join(fresh,'Task',f))])),
+ originalQ2FirmwareHashPreserved:true,priorFaultAndRawPreserved:true,hardwareAction:false,flashed:false,physicalRuns:0,onboardTimingQualified:false,modelRetrained:false,
+ nextStep:'Fresh drive-OFF confirmation before any flash/reset. Then confirm zero idle and fresh drive-ON/onsite readiness before ONE20mm qualification only. Do not start20run batch. Original mechanical difficulty still unresolved.'};
+fs.writeFileSync(path.join(dir,'verification.json'),JSON.stringify(result,null,2)+'\n',{flag:'wx'});console.log(JSON.stringify(result,null,2));

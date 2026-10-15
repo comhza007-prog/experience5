@@ -1,0 +1,187 @@
+{
+  "protocol": "protocol.json",
+  "native": [
+    {
+      "precision": "float",
+      "scope": 0,
+      "result": "PASS60000 same-state output/guards, disabled exactR2, ordinary/repair unchanged;100000 bounded/eligibility helper tests when enabled. changed gradients=0"
+    },
+    {
+      "precision": "float",
+      "scope": 1,
+      "result": "PASS60000 same-state output/guards, disabled exactR2, ordinary/repair unchanged;100000 bounded/eligibility helper tests when enabled. changed gradients=2553"
+    },
+    {
+      "precision": "float",
+      "scope": 2,
+      "result": "PASS60000 same-state output/guards, disabled exactR2, ordinary/repair unchanged;100000 bounded/eligibility helper tests when enabled. changed gradients=2792"
+    },
+    {
+      "precision": "double",
+      "scope": 0,
+      "result": "PASS60000 same-state output/guards, disabled exactR2, ordinary/repair unchanged;100000 bounded/eligibility helper tests when enabled. changed gradients=0"
+    },
+    {
+      "precision": "double",
+      "scope": 1,
+      "result": "PASS60000 same-state output/guards, disabled exactR2, ordinary/repair unchanged;100000 bounded/eligibility helper tests when enabled. changed gradients=2553"
+    },
+    {
+      "precision": "double",
+      "scope": 2,
+      "result": "PASS60000 same-state output/guards, disabled exactR2, ordinary/repair unchanged;100000 bounded/eligibility helper tests when enabled. changed gradients=2792"
+    }
+  ],
+  "replayEffects": [
+    {
+      "scope": 0,
+      "changedCommandSteps": 0,
+      "changedLearningSteps": 0,
+      "finalNodes": [
+        7,
+        8
+      ],
+      "closedLoopCounterfactual": false
+    },
+    {
+      "scope": 1,
+      "changedCommandSteps": 74,
+      "changedLearningSteps": 74,
+      "finalNodes": [
+        7,
+        8
+      ],
+      "closedLoopCounterfactual": false
+    },
+    {
+      "scope": 2,
+      "changedCommandSteps": 74,
+      "changedLearningSteps": 83,
+      "finalNodes": [
+        7,
+        8
+      ],
+      "closedLoopCounterfactual": false
+    }
+  ],
+  "initialMetrics": [
+    {
+      "name": "BLNN",
+      "scope": 0,
+      "completed": 31,
+      "baselinePopulationN": 30,
+      "newFailures": [],
+      "failedBaselinePopulationCases": [],
+      "track": 0.11182471394666667,
+      "sync": 0.03207684431400001,
+      "secondarySurvivorOnly": {
+        "n": 30,
+        "track": 0.11182471394666667,
+        "sync": 0.03207684431400001,
+        "efficacyEvidence": false
+      },
+      "caps": [
+        0,
+        0
+      ],
+      "syncChangeVsR2_pct": -33.25616211983581,
+      "trackingChangeVsR2_pct": -32.41741373617282,
+      "syncChangeVsOrdinary_pct": 0
+    },
+    {
+      "name": "S3R2",
+      "scope": 0,
+      "completed": 30,
+      "baselinePopulationN": 30,
+      "newFailures": [],
+      "failedBaselinePopulationCases": [],
+      "track": 0.16546379789333335,
+      "sync": 0.04805963416666668,
+      "secondarySurvivorOnly": {
+        "n": 30,
+        "track": 0.16546379789333335,
+        "sync": 0.04805963416666668,
+        "efficacyEvidence": false
+      },
+      "caps": [
+        0,
+        0
+      ],
+      "syncChangeVsR2_pct": 0,
+      "trackingChangeVsR2_pct": 0,
+      "syncChangeVsOrdinary_pct": 49.82656553185609
+    },
+    {
+      "name": "MODAL_SYNC",
+      "scope": 1,
+      "completed": 31,
+      "baselinePopulationN": 30,
+      "newFailures": [],
+      "failedBaselinePopulationCases": [],
+      "track": 0.16307651176666665,
+      "sync": 0.05317255566666667,
+      "secondarySurvivorOnly": {
+        "n": 30,
+        "track": 0.16307651176666665,
+        "sync": 0.05317255566666667,
+        "efficacyEvidence": false
+      },
+      "caps": [
+        0,
+        20475
+      ],
+      "syncChangeVsR2_pct": 10.638702496712348,
+      "trackingChangeVsR2_pct": -1.442784558955712,
+      "syncChangeVsOrdinary_pct": 65.76616809983204
+    },
+    {
+      "name": "MODAL_BOTH",
+      "scope": 2,
+      "completed": 31,
+      "baselinePopulationN": 30,
+      "newFailures": [],
+      "failedBaselinePopulationCases": [],
+      "track": 0.1643934639866667,
+      "sync": 0.05414617179666667,
+      "secondarySurvivorOnly": {
+        "n": 30,
+        "track": 0.1643934639866667,
+        "sync": 0.05414617179666667,
+        "efficacyEvidence": false
+      },
+      "caps": [
+        7915,
+        21099
+      ],
+      "syncChangeVsR2_pct": 12.664552561703669,
+      "trackingChangeVsR2_pct": -0.6468689346515677,
+      "syncChangeVsOrdinary_pct": 68.8014296750334
+    }
+  ],
+  "holdout": [],
+  "admission": [
+    {
+      "name": "MODAL_SYNC",
+      "initialPassed": false,
+      "holdoutSettings": 0,
+      "newFailureInstances": 0,
+      "settingsWithSyncGain": 0,
+      "screenPassed": false
+    },
+    {
+      "name": "MODAL_BOTH",
+      "initialPassed": false,
+      "holdoutSettings": 0,
+      "newFailureInstances": 0,
+      "settingsWithSyncGain": 0,
+      "screenPassed": false
+    }
+  ],
+  "sourceSHA256": "b13b2e5c53f0781f29eee7da608fd1a3ab2b9c629c7a56cf7c0cea0a43e55d7b",
+  "copiedHeadersUnchanged": true,
+  "disabledExactlyR2": true,
+  "allCasesRetained": true,
+  "assumedModelsIdentified": false,
+  "physicalBenefitProven": false,
+  "hardwareReleased": false
+}

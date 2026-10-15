@@ -1,0 +1,76 @@
+{
+  "status": "Requested negative travel limit change offline-checked; user confirms both22mm clearance; one manual qualification only",
+  "build": 68612,
+  "schema": 4504,
+  "stopMagic": 4445,
+  "project": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\20mm手动VOFA_同步5mm_双向限位22mm_20261015\\eassy_E5ID_Q20M_S5_T22_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+  "target": "exp5ID_Q20M_S5_T22_BLNN_HW6",
+  "hex": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\20mm手动VOFA_同步5mm_双向限位22mm_20261015\\eassy_E5ID_Q20M_S5_T22_BLNN_HW6\\MDK-ARM\\exp5ID_Q20M_S5_T22_BLNN_HW6\\exp5ID_Q20M_S5_T22_BLNN_HW6.hex",
+  "hexSHA256": "d544029afb404b25ded339d5b37c6c9196c90b4cbaeda2bb8d937d795c6d2a01",
+  "axfSHA256": "a9efd9876b14439a791b321f1b87dc0375c1bfbf48691a1547c30f53d13befbe",
+  "compileErrors": 0,
+  "compileWarnings": 0,
+  "RAM": {
+    "used": 104504,
+    "max": 114688,
+    "remaining": 10184
+  },
+  "unchangedSourceFiles": 188,
+  "soleBehaviorChange": {
+    "previousTravelEnvelope_mm": [
+      -4,
+      22
+    ],
+    "newTravelEnvelope_mm": [
+      -22,
+      22
+    ],
+    "faultBit": 16,
+    "strictOutOfBounds": true
+  },
+  "allExecutableMotorTaskStatementsUnchanged": true,
+  "otherControlAndPhysicalGuardsUnchanged": true,
+  "syncFault_mm": 5,
+  "tracking1024Retained": true,
+  "temperature60CAndSpeed120rpmRetained": true,
+  "currentLimits": [
+    1200,
+    1200
+  ],
+  "stroke_mm": 20,
+  "trajectory": "0to+20mm then return0, NOT a bipolar20mm stroke",
+  "forward_s": 8,
+  "return_s": 8,
+  "total_s": 28,
+  "manualBootDelay_s": 8,
+  "noPCHeartbeatAsExistingManualMode": true,
+  "checks": [
+    "PASS realheader travel[-22,+22]mm exact/nextfloat boundaries and28001trajectory samples;20mm positive stroke/return unchanged, NOT +/-20mm commanded motion."
+  ],
+  "parserFixtureCheck": "Build word adapted only in in-memory syntheticABI3fixture; no experimental data modified",
+  "sourceHashes": {
+    "motor_task.c": "22586e8ed5925fc4f3b1f606818f57f6f5cde12386a7efc3289304b937ef19a2",
+    "experiment5_motion.h": "5d9a91255debdfb3465e03b6bf30e92961b49fd14cf81baf8af42fe0393a8bbe",
+    "experiment5_formal_config.h": "4248d474fab8417c819891ddc589f3733948c22edfeb57bd17fb10e936545bfc",
+    "blnn_core.c": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+    "experiment5_formal_actuator.h": "d7a181bad70783b52e794202807cb70df705877e8d5a402a7cabf80d46a15b6d",
+    "experiment5_hw_profile.h": "e24b564fec82dd358ed8b818f072f03069de408ee73e4ad3ecbb13a1558d764d",
+    "identification_trace_v3.h": "0593275a98fb1d7ef7004ce3bfb752846f79552fb254dd62ae2f7cc8ac41353d",
+    "experiment5_error_summary.h": "5c2fded9e368d1af9bbd77b4888fc1ad9fd4e76704366ed0293fb4b39631d807",
+    "online_protocol.h": "323764427a2b54a144932df29c1ba93b75321bf37ddaad6e7b8dce83d172c09b",
+    "vofa_task.c": "a172b111871dd24b91987794f3fa49cb5f38a8e6fd288241dea1d8d0e597d9f6"
+  },
+  "protocolSHA256": "0c24248cb1ab286fea9172bf16c953f946ede7323d4446da0197997b9cc13454",
+  "clearanceConfirmationSHA256": "720009a96ed5d478b29adf1f3446f66d5d37e3fc4ed70ba25f37a1561df0b0c9",
+  "decoderSHA256": "8d8ef392581eed22fa3a822b6411c2d529829f52df16c855742d5c915985095d",
+  "userReportedBothClearances_mm": 22,
+  "assistantHardwareAction": false,
+  "flashed": false,
+  "physicalRuns": 0,
+  "batchReleased": false,
+  "oldCodeAndDataPreserved": true,
+  "modelParametersChanged": false,
+  "captureName": "E5Q20M_S5_T22_BLNN_B68612_HW6_L1200_R1200_M0g_S20mm_OLDBELT_run01.csv",
+  "completion": "I63=68612,I2=6,I22=0,I88=4445,I89=4,I90=0; completiontail>=20seconds AND I0>=185seconds",
+  "nextStep": "User driveOFFflash only, prepareVOFA/clearhistory, onsite emergency stop and controlledfreshpoweron for ONEmanual trial. If any fault/abnormality stop safely/preservehistory/no immediate retry. No claim previous mechanical fault resolved."
+}

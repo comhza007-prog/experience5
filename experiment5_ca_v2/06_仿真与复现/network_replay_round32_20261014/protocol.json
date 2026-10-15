@@ -1,0 +1,14 @@
+{
+  "purpose":"Close specific diagnostic gap: recurrent learning replay from full saved initial network state and actual per-step controller inputs. Not a new performance mechanism or formal efficacy experiment.",
+  "build":67612,"method":12,"schema":4485,"replayMagic":4436,
+  "control":"Exact unchanged S3R2 core, allocator, filters, gains,2mm emptyload trajectory,1200-count limits, all guards and explicit ARM watchdog",
+  "capture":"360 consecutive control invocations starting at elapsed>=5360ms. Full float32 initial/final e5_state; every exact e5_input; actual post-guard integer commands; dhat, actual learning axes, mask and cause.",
+  "transport":"107floats40ms115200 unchanged. After successful phase6 only: CRC32 computed in256-byte bounded pieces, status2;16-byte chunks encoded losslessly as8 uint16 floats, two DMA-completed copies each, status3 then4. Fault replay retains priority.",
+  "primaryValidation":"Reconstruct exact recorded binary bytes, CRC, ABI/header/build/method/count and duplicate equality. Native baseline replay must reproduce integer commands and within declared tolerance NN predictions/learning and final dynamic state; cross-platform libm differences must be disclosed, not forced to pass.",
+  "floatTolerance":{"abs":0.00001,"relative":0.00002},
+  "counterfactualScope":"Same recorded-input learning response only, not alternate closed-loop trajectory or efficacy. Changing learner on recorded inputs does not simulate feedback response.",
+  "release":"Offline preparation only until native parser/logger/core tests, independent source-preservation audit, Keil compile/RAM checks and fresh physical drive-off/ready confirmation. No gain retuning or automatic repeat. On-board timing unqualified.",
+  "staticRAMReserveMinimum_bytes":8192,"originalLinkerRegionMustRemainUnchanged":true,
+  "maximumHostRunSeconds":300,"plannedInitialPhysicalRuns":1,
+  "diagnosticWindowChosenBeforeCapture":true,"rawDataNeverOverwritten":true
+}

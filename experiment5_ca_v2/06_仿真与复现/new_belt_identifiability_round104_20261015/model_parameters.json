@@ -1,0 +1,136 @@
+{
+  "version": "R104_bounded_observable_subspace",
+  "status": "Reduced effective model calibration only; independent validation pending",
+  "parameters": [
+    2.1870329696395802e-06,
+    2.938831115436942e-06,
+    1.3708458451565528,
+    0.016030152249096475,
+    14.36487881939405,
+    2.3852889449328947,
+    0.0003929065899192672,
+    9.400862559793228e-05,
+    -0.9097447236637589,
+    1.6081912136064893,
+    0.8717041954202788,
+    0.002294900766350972
+  ],
+  "parameterNames": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "preSlidingStiffnessL",
+    "preSlidingStiffnessR",
+    "sharedYieldForce"
+  ],
+  "solverRelativeToProject": "06_仿真与复现\\new_belt_memory_model_round100_20261015\\native_model.dll",
+  "solverSHA256": "22e77b041e02b62f6f69429a0695840c53139a6eefe28a17c3d02deb30ae6a17",
+  "solverSourceSHA256": "d7c3bfd43884452adadb6626d27417b36f8a126ba6e091d1c11d6de3c0c585ff",
+  "calibrationCases": [
+    {
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.38876544985376466,
+      "predictedSyncRMS_mm": 0.06254550343549886,
+      "trackingDifference_percent": 44.87807861515471,
+      "syncDifference_percent": 17.161339874129624,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.43288075725307995,
+        0.44931529575566426
+      ],
+      "bothWithin20Percent": false
+    },
+    {
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.426609393942515,
+      "predictedSyncRMS_mm": 0.07472683587574146,
+      "trackingDifference_percent": 27.197587868170636,
+      "syncDifference_percent": -12.670228388004002,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.45729947244666697,
+        0.5010390179417165
+      ],
+      "bothWithin20Percent": false
+    }
+  ],
+  "identifiability": {
+    "globalCoordinates": [
+      -0.46427432442686195,
+      0.33073371534174933,
+      0.034723597586967435,
+      0.004418848877696556,
+      0.48044281489280083,
+      0.03756182883776245,
+      -0.25518904853449187,
+      -0.010193234296513268,
+      -0.06617343507072387,
+      -0.0420621039107881,
+      0.010296332505813938,
+      -0.014278973974531234
+    ],
+    "lower": [
+      -2.995732273553991,
+      -2.995732273553991,
+      -2.995732273553991,
+      -2.995732273553991,
+      -2.995732273553991,
+      -2.995732273553991,
+      -2.995732273553991,
+      -2.995732273553991,
+      -0.4687261984331348,
+      -2.995732273553991,
+      -2.995732273553991,
+      -2.995732273553991
+    ],
+    "upper": [
+      2.995732273553991,
+      2.995732273553991,
+      2.995732273553991,
+      6.907755278982137,
+      2.995732273553991,
+      2.995732273553991,
+      2.995732273553991,
+      2.995732273553991,
+      18.53127380156686,
+      2.995732273553991,
+      2.995732273553991,
+      2.995732273553991
+    ],
+    "allGlobalBoundsSatisfied": true,
+    "retainedRank": 6,
+    "retainedDataJacobianCondition": 66.00173783947274,
+    "retainedSingularValues": [
+      219.65206997416544,
+      49.011643946003844,
+      15.023105979405274,
+      8.03557524047209,
+      4.980546628310235,
+      3.3279740377199767
+    ],
+    "weakDirectionsFrozenNotIdentified": 6,
+    "physicalParametersIdentified": false,
+    "effectiveGainRightLeftRatio": 1.3437525433927304,
+    "massCondition": 21.159369304339723,
+    "multiStartObjectives": [
+      451.2116523284941,
+      249.50904389369595
+    ],
+    "multiStartMaxCoordinateDistance": 0.7937759651066395,
+    "perturbationMaxPositiveCoefficientChange_percent": 1.2913092817257166e-08
+  },
+  "subspaceSHA256": "9423367ff8c2c59537ed03aefe986d404b6dc3ced212ab7535e62a502263e6e1",
+  "bothRecordsCalibration": true,
+  "physicalModelValidated": false,
+  "firmwareChanged": false
+}

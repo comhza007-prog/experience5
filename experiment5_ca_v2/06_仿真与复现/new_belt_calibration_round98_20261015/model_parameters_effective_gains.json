@@ -1,0 +1,57 @@
+{
+  "version": "R98_new_belt_effective_gains",
+  "status": "Exploratory calibration failed aggregate15percent screen; not adopted as final model",
+  "regime": "New synchronous belt; run010 only",
+  "parameters": [
+    1.7231331935996029e-06,
+    2.305349861209659e-07,
+    1.3240620963223941,
+    0.015959473702735944,
+    8.339578663424986,
+    2.2973549492328535,
+    0.0005071267373837429,
+    9.497177802427479e-05,
+    -0.9031273801566865,
+    0.0001674977321683535,
+    0.00084291814511347
+  ],
+  "parameterNames": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "staticExtraL",
+    "staticExtraR"
+  ],
+  "solverRelativeToProject": "06_仿真与复现/cumulative_micro_round90_20261015/native_model.dll",
+  "solverSHA256": "1c58dafdcfdc53b7c4a11dcbce20e45428f0864f02f96ec9cd550f17e39a2053",
+  "actuator": [],
+  "sourceRaw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+  "sourceSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+  "sourceNominalModel": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\aggregate_calibration_round96_20261015\\model_parameters_no_motor.json",
+  "sourceNominalModelSHA256": "2d66275627876b0e229abcbbf096d821a8960eff5f9e42b941c9a4b12ebf1db6",
+  "sourceResultsSHA256": "0593d619e74705afd9727ff2374acfe8d8c6015d0fdc9cb1711543bcb935a635",
+  "onlyNewRegimeDataInObjective": true,
+  "calibrationMetrics": {
+    "record": "new_belt_run010",
+    "actualTrackingRMSE_mm": 0.26833973336052963,
+    "actualSyncRMS_mm": 0.053384080023917105,
+    "predictedTrackingRMSE_mm": 0.9105644056710102,
+    "predictedSyncRMS_mm": 0.017908028925596474,
+    "trackingDifference_percent": 239.3326788648237,
+    "syncDifference_percent": -66.45436445177415,
+    "bothWithin15Percent": false,
+    "nativePositionRMSE_mm": [
+      0.7424948552010304,
+      0.7301959240505275
+    ]
+  },
+  "physicalCoefficientsIdentified": false,
+  "independentValidationPassed": false,
+  "firmwareChanged": false
+}

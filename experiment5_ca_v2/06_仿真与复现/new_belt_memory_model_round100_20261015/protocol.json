@@ -1,0 +1,71 @@
+{
+  "status": "Declared before joint structural-model calibration",
+  "authorization": "User requests changing low-speed friction or elastic-transmission description and modifying model, using new-belt run010/run011 only.",
+  "sources": [
+    {
+      "name": "new_belt_run010",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+      "rawSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_r96_frozen_check_round97_20261015\\capture_analysis.json",
+      "decodedSHA256": "7d2e50b8382219adf1b8d2252e02ce110a0edb6e8d4f00c4df266952ed2abffd"
+    },
+    {
+      "name": "new_belt_run011",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run011.csv",
+      "rawSHA256": "e7e38ee5980fca58f656ac36ffe52d37b505909b4dee49e53acba25dbd306173",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_frozen_check_round99_20261015\\capture_analysis.json",
+      "decodedSHA256": "6022ce98f46a4b09be546bfb8668a70e0ef5e4a7066ac303cb5d571019d41460"
+    }
+  ],
+  "model": "M*v_dot+B*v+Kdiff*p+Fc*Sign(v)+f_el=G*u; f_el_i=k_i*(p_i-anchor_i), abs(f_el_i)<=Y; plastic anchor changes only when spring trial force reachesY. Implicit convex active-set integration.",
+  "physicalInterpretation": "Equivalent pre-sliding elastic friction with dissipative slip memory. Not proof of actual belt plasticity or identified belt material parameters.",
+  "parameters": [
+    "differentialStiffnessMultiplier",
+    "preSlidingStiffnessL",
+    "preSlidingStiffnessR",
+    "sharedYieldForce"
+  ],
+  "fixedNominalCoefficients": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta"
+  ],
+  "sourceNominalSHA256": "2d66275627876b0e229abcbbf096d821a8960eff5f9e42b941c9a4b12ebf1db6",
+  "bounds": [
+    [
+      0.05,
+      20.0
+    ],
+    [
+      0.01,
+      30.0
+    ],
+    [
+      0.01,
+      30.0
+    ],
+    [
+      1e-05,
+      0.02
+    ]
+  ],
+  "objective": "Equal-record final trackingRMSE and syncRMS relative residuals divided0.15, squared mean; no waveform matching term. Tiny1e-6 normalized log drift tie-breaker.",
+  "search": "81 deterministic3^4 grid points +128 seeded log-uniform points, then6 separated seeds of bounded Nelder-Mead, each<=1000evaluations/650iterations. Seed100. No widening after budget.",
+  "initialization": "Zero positions, velocities and unstrained elastic-friction memory once per full20s; no measured state/current injection or reference-specific forces.",
+  "inputLimitations": "Moving queued commands1ms; holding40ms integrals represented by means. Queued command not delivered torque.",
+  "acceptance": {
+    "bothCalibrationRecordsEachTrackingAndSyncRelativeErrorMaximum": 0.15,
+    "waveformHardGate": false
+  },
+  "previousFrozenFailuresPreserved": true,
+  "bothNewBeltRecordsNowCalibration": true,
+  "oldRegimeRecordsUsed": 0,
+  "independentValidationRequired": true,
+  "MCUFirmwareChanged": false,
+  "assistantHardwareAction": false
+}

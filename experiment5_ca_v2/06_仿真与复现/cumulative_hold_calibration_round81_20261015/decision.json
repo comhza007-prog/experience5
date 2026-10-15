@@ -1,0 +1,46 @@
+{
+  "candidate": "D:/lunwen2/起重机/output/experiment5_ca_v2/06_仿真与复现/cumulative_hold_calibration_round81_20261015/model_parameters.json",
+  "status": "Partial correction, not uniformly better across accumulated records",
+  "mechanismChanged": "Separate static/kinetic friction and zero-crossing capture, same queued-input replay and shared parameter vector.",
+  "cumulativeObjectiveBefore": 187.79813192333427,
+  "cumulativeObjectiveAfter": 11.181026121103299,
+  "changes": [
+    {
+      "record": "T1",
+      "trackingTaskRMSRelativeDifference_percent": 22.2484843352311,
+      "syncTaskRMSRelativeDifference_percent": -9.695290515578382,
+      "meanWaveformRMSEChange_percent": 14.22058224080931,
+      "syncWaveformRMSEChange_percent": 4.874982076070222,
+      "returnHoldFinalModelTrackingErrorBeforeAfter_mm": [
+        -0.009000000000000001,
+        -0.0425
+      ]
+    },
+    {
+      "record": "Q2_run02",
+      "trackingTaskRMSRelativeDifference_percent": 2.968385840256982,
+      "syncTaskRMSRelativeDifference_percent": 0.10455570275127446,
+      "meanWaveformRMSEChange_percent": 8.08147407926163,
+      "syncWaveformRMSEChange_percent": 15.480932447882934,
+      "returnHoldFinalModelTrackingErrorBeforeAfter_mm": [
+        0.004000000000000001,
+        -0.077
+      ]
+    },
+    {
+      "record": "Q2_run03",
+      "trackingTaskRMSRelativeDifference_percent": 30.852078314600504,
+      "syncTaskRMSRelativeDifference_percent": 3.7931362852712702,
+      "meanWaveformRMSEChange_percent": -60.08310597844974,
+      "syncWaveformRMSEChange_percent": -51.78846448600291,
+      "returnHoldFinalModelTrackingErrorBeforeAfter_mm": [
+        1.2605,
+        0.1005
+      ]
+    }
+  ],
+  "recordingCaveats": "Run03 has one absent native phase3 CSV point and 7.08s completion tail; CRC-complete motion snapshot used. T1 6.88s tail. No missing point imputed.",
+  "allRecordsNowCalibration": true,
+  "interpretation": "Latest Q2 run03 drift and waveform errors improve substantially. T1 tracking fit is worse than frozen R79; Q2 run02 waveform fit also worsens. Do not present only the favorable new-record results. All six fitted summary metrics are not yet close. This mechanism is a modeling hypothesis, not identified physical cause.",
+  "nextStep": "No new hardware acquisition now. Preserve this candidate and compare further justified offline refinements against all accumulated records. No additional structure search or new firmware/hardware trial automatically released."
+}

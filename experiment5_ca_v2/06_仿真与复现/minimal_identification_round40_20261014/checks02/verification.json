@@ -1,0 +1,45 @@
+{
+  "protocolSHA256": "c6153b2028d02d38889fa4176044e8bfb06392591938358465644222b6d1bc58",
+  "prototypeSHA256": "135440cb99cdd22ea043d11817c2d30c8b99c6ba918328777ca56eec6f6177a9",
+  "hostResult": "profile0 nominalZeroNetBias active0 nominalCross0\r\nprofile1 nominalZeroNetBias active8000 nominalCross179200\r\nprofile2 nominalZeroNetBias active8000 nominalCross-102400\r\nguardEnvelopeFixtures9100160 sizeofSlow48 sizeofFast36 blob63488 trace63580 originalBuffers64200 hostOnlyChecksPassed",
+  "sizes": {
+    "slowRow": 48,
+    "fastRow": 36,
+    "blob": 63488,
+    "trace": 63580,
+    "replacedBuffers": 64200,
+    "estimatedSavedBytes": 620
+  },
+  "wire": {
+    "baud": 115200,
+    "frameDataBytes": 432,
+    "livePeriod_ms": 40,
+    "liveWireBytesPerSecond": 10800,
+    "lineCapacityBytesPerSecond": 11520,
+    "legacyDuplicateChunks": 7936,
+    "legacyDataOnly_s": 317.44,
+    "binaryProposedPayloadBytes": 512,
+    "binaryProposedOverheadBytes": 28,
+    "binaryDuplicateWireEstimate_s": 11.625,
+    "estimatesNotMeasuredTiming": true
+  },
+  "originalCoreMotionGuardsAndDiagnosticSourcesUnchanged": true,
+  "sourceHashes": {
+    "blnn_core.c": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+    "experiment5_ca_actuator.h": "eca877ea5c4a117d054004ad0706bd414aa1cac5f2625eb83bdd111a43543d43",
+    "experiment5_hw_profile.h": "e24b564fec82dd358ed8b818f072f03069de408ee73e4ad3ecbb13a1558d764d",
+    "experiment5_motion.h": "614333932d95cda077cddf3131f837da00d73a1baa19dc57b94924069c67ffbd",
+    "online_protocol.h": "323764427a2b54a144932df29c1ba93b75321bf37ddaad6e7b8dce83d172c09b",
+    "motor_task.c": "f55ad8cda840c9a41008f4422e17c42d12a1cc9eb5f55e651705074575f5a1c5",
+    "network_trace.h": "7f97c9750cec9f7751ea7d75da693f08f2e7826b945958f884762c3edb8f5b44",
+    "experiment5_event_trace.h": "76e517c9307f3c8b01c8e49873e76585decd30802998be958973f2e245327d12"
+  },
+  "designedSignalNotMeasuredPersistentExcitation": true,
+  "hardwareSafetyProven": false,
+  "ARMABIAndLinkerChecked": false,
+  "MCUTimingChecked": false,
+  "modelIdentified": false,
+  "firmwareBuilt": false,
+  "hardwareReleased": false,
+  "physicalRuns": 0
+}

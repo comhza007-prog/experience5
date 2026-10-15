@@ -1,0 +1,13 @@
+{
+  "purpose":"Bounded offline exploration of execution-residual neural anti-windup, not formal validation",
+  "hypothesis":"Pure normal-rate projection can leave useful compensation requests inconsistent with their admitted modal force. A bounded fixed-feature weight correction toward admitted prediction may reduce this mismatch without changing the actuator allocator.",
+  "eligibility":"CA only; pure-rate cause; no amplitude, speed, withdrawal or contraction; effective sector*gate>=0.1; useful post-gradient prediction and non-adverse achieved prediction. Accepted original repair cycles excluded.",
+  "candidateScope":["translation only","rotation only","both"],
+  "relaxationGain_perSecond":[5,20],
+  "fixedBaseline":"exact S3R2, default2-count/ms slew and all original hard guards",
+  "comparators":["ordinary BLNN","exact S3R2"],
+  "finiteScreen":"Six candidates, existing36 assumed plants; all outputs retained. No iterative parameter search based on the first favourable case.",
+  "decision":"Reject release if there are new completed-case failures or no mean synchronization benefit against R2. Tracking cost and ordinary-BLNN comparison are reported, not hidden. A positive screen is only exploration in uncalibrated models, not hardware efficacy or a tracking-tolerance justification.",
+  "localProperty":"At fixed features and execution target, accepted projected correction cannot increase prediction-target distance or reverse a useful prediction. This is not full closed-loop stability.",
+  "modelIdentified":false,"hardwareRelease":false,"formalTrial":false
+}

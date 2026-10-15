@@ -1,0 +1,40 @@
+{
+  "version": "R96_no_motor_shared11",
+  "status": "Calibration-only, not adopted or independently validated",
+  "parameters": [
+    3.4792617876182484e-06,
+    2.1112458155696005e-06,
+    1.3240620963223941,
+    0.015959473702735944,
+    8.339578663424986,
+    2.2973549492328535,
+    0.0005071267373837429,
+    9.497177802427479e-05,
+    -0.9031273801566865,
+    0.0001674977321683535,
+    0.00084291814511347
+  ],
+  "parameterNames": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "staticExtraL",
+    "staticExtraR"
+  ],
+  "solverRelativeToProject": "06_\u4eff\u771f\u4e0e\u590d\u73b0/cumulative_micro_round90_20261015/native_model.dll",
+  "solverSHA256": "1c58dafdcfdc53b7c4a11dcbce20e45428f0864f02f96ec9cd550f17e39a2053",
+  "actuator": [],
+  "objective": "Two aggregate RMS metrics only, equal-record Huber, all13 records calibration",
+  "protocolSHA256": "78d087c5e497c39f5fe8a3faf4102f5b2408643a4502ff8b17fa6619bd2126b0",
+  "fitResultsSHA256": "03ff97a309b5beb827bb0e55ce92fec002073dbfa75eb369c8905f91cf9d8876",
+  "all13Both15percent": false,
+  "physicalModelValidated": false,
+  "newPhysicalRunReleased": false,
+  "run08UsedForCalibration": true
+}

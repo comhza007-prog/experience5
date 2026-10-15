@@ -1,0 +1,47 @@
+{
+  "purpose": "Two additional bounded numerical starting points to check local-minimum sensitivity after initial refinement gave only1.2percent cumulative improvement. SAME three calibration records, model structure, full waveform/statistic objective and bounds. All starts retained; no held-out claim.",
+  "seeds": [
+    {
+      "label": "alternative_prior_seed1",
+      "source": "06_仿真与复现/cumulative_hold_calibration_round81_20261015/fit_results.json",
+      "sourceSHA256": "ed02a4b4c14697871ca0573f8d00bb707c1ee3ca977d21a80d4bba8b6404d918",
+      "parameters": [
+        0.0000011390338362092757,
+        0.0000010932849806536027,
+        0,
+        0.5784677065453434,
+        2.344804348316885,
+        8.241745731851633,
+        0.00006278242295257305,
+        0.00015840767167916016,
+        -0.9499999999999998,
+        0.0000014387682460009481,
+        0.0003251885339203529
+      ]
+    },
+    {
+      "label": "prior_static_prototype",
+      "source": "06_仿真与复现/cumulative_hold_calibration_round81_20261015/prototype_before_capture_fix/fit_results.json",
+      "sourceSHA256": "e8403d053649ab142b4361738515398c2bcad6e3d9777610d876db93d7d49dbe",
+      "parameters": [
+        0.000002397361252770689,
+        0.0000027797143854837594,
+        1.2233491539610983,
+        0.002795296616042524,
+        12.692936055954974,
+        0.5072996701165591,
+        0.0003748832073035104,
+        0.0001869630539690885,
+        -0.8807846836159006,
+        0.0002851079315090985,
+        0.00036428857120868847
+      ]
+    }
+  ],
+  "maximumEvaluationsPerSeed": 1800,
+  "maximumIterationsPerSeed": 1200,
+  "scaledSimplexStep": 0.03,
+  "selectionCriterion": "Lowest identical cumulative training objective among initial round82 result and these two starts",
+  "newStructure": false,
+  "newPhysicalRunReleased": false
+}

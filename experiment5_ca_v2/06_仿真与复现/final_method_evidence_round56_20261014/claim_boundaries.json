@@ -1,0 +1,41 @@
+{
+  "scope":"FinalS3R2 paper-evidence audit only; no report/workbook/paper written, no firmware edits, no physical batch released",
+  "implementation":{"currentBuilds":[67931,67932],"originalControlBuilds":[65511,66312],"S3R2ControlSevenFilesByteExact":true,"ordinaryAndS3R2ArchivedFloatTracesExactlyReproduced":true},
+  "physicalComparison":{"source":"../error_summary_40s_followup_round55_20261014/all_attempts_analysis_final.json","completeFilenameMatchedComparisons":2,
+    "syncRMSChanges_pct":[-10.83503571678036,-8.07760463861663],"trackingRMSEChanges_pct":[23.5537629604196,24.250940175473957],
+    "peakSyncChanges_pct":[8.77192982456143,23.497267759563],"interpretation":"Preliminary consistent RMS-sync benefit with tracking andpeak-sync costs; not randomized/component causal evidence.",
+    "trackingTolerance":null,"hardSaturationEfficacyNotTested":true},
+  "assumedModelComparison":{"source":"evidence_verification.json","precisionBranches":2,"variants":5,"casesPerBranch":36,"allCaseOutcomesRetained":true,
+    "totalRuns":360,"fixedConditionalComparisonPopulationPerPrecision":30,"modelIdentified":false,
+    "float40msBLNN":{"tracking_mm":0.1117792373567822,"sync_mm":0.03201519517924435},
+    "float40msS3R2":{"tracking_mm":0.16539323912404835,"sync_mm":0.047946986962017685},
+    "float40msS3R2TrackingChange_pct":47.96418640443794,"float40msS3R2SyncChange_pct":49.763219288764525,
+    "S3R2CasesWithLowerSyncThanOrdinaryInFixedPopulation":4,
+    "notAnIndependentPredictiveValidation":true,"simulatedAndMeasuredOrderingNotConsistent":true},
+  "ablation":{"source":"evidence_verification.json","successiveRuleContrastsNotAdditiveContributions":true,
+    "floatClassificationSyncChange_pct":-1.8190479378358715,
+    "floatRepairSyncChange_pct":-14.30304111669779,
+    "floatRetentionSyncChange_pct":7.033982440111242,"floatRetentionTrackingChange_pct":-0.993571622048739,
+    "notPhysicalCausality":true,"noCandidateChangeFromTheseResults":true},
+  "properties":{"source":"properties_verification.json","floatAndDoubleFiniteFixtureChecksPassed":true,
+    "perPrecision":{"rejectionBoundaries":13,"eligibleSyntheticCases":3000,"randomSameStateCases":60000,"ordinaryExactSteps":30000},
+    "scope":"Implementation eligibility, local/output constraints andsame-state unaffected-mode regression; not full closed-loop stability orWCET."},
+  "legacyV3":{"theorySource":"D:/lunwen2/起重机/output/step3_blnn/m3508_integration/V3_STABILITY_SCOPE.md",
+    "differentImplementationFromHW6S3R2":true,"mustNotTransferSuperiorityOrTheorem":true,"usableForBackgroundAndDevelopmentHistory":true},
+  "paperClaimsNowSupported":[
+    "A specifically described synchronization-led output/learning coordination implementation onthe double-drive platform.",
+    "Source-defined bounded implementation andlocal repair/retention behavior, with finite verification scope disclosed.",
+    "Preliminary unloaded2mm measured RMS-sync improvement accompanied bytracking andpeak-sync costs.",
+    "Assumed-model rule ablations demonstrate mixed performance effects andlimited generality,not universal superiority."
+  ],
+  "paperClaimsNotEstablished":[
+    "Finalmethod generally improves RMS-sync versusordinary acrossmodels andhardware.",
+    "A particular rule caused measured RMS-sync benefit.",
+    "Measured tracking cost isacceptable for the actual positioning task.",
+    "FinalS3R2 has a proven full nonlinear sampled closed-loop stability theorem.",
+    "Strong hard-current saturation performance benefit onthe latest unloaded2mm hardware condition.",
+    "Oldv3 resultsare numericalvalidation ofthe finalS3R2 implementation."
+  ],
+  "nextScope":"Keepcontrols frozen. Alignfinalmethod description, localproperties andevidence boundaries first. Do not tune assumedplant toforcea win, restartidentification orreleasehardware ablations without userdirection.",
+  "formalArchiveComplete":false,"paperEvidenceClosureComplete":false
+}

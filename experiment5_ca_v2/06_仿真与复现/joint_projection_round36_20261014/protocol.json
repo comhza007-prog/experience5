@@ -1,0 +1,11 @@
+{
+ "purpose":"One bounded host-only candidate after output/learning attribution; no MCU release",
+ "hypothesis":"Per-modal pre-sector trimming can distort the desired NN increment before integer joint constrained allocation. Remove only that first trimming while keeping the final same-state admissible sector budget and every allocator bound.",
+ "candidate":"E5_JOINT_PROJECTION=1: continuous per-modal sector remains1; original final integer allocator still enforces sector fraction0.25, delta cap300, normal slew2, current/speed/braking and feasible fallback checks. No gain, leakage, repair or classifier tuning.",
+ "comparators":["ordinary BLNN","exact R2","joint-final-projection candidate"],
+ "checks":"Float/double disabled byte-exact original; ordinary unchanged; candidate final envelopes/sector and weight bounds; no intervention where old pre-sector factorsboth1; actual recorded-input baseline replay and changed-state diagnostics without alternate-error claims.",
+ "finiteScreen":"36 assumed closed-loop cases, then6 existing coupling/noise sensitivity settings only if mean sync improves against R2 without any newly failed completed-R2 case. All failed cases retained, fixed baseline-complete populations, no survivor-only primary efficacy means.",
+ "sensitivity":"Stiffness1000/2000/3000, noise17/23; no parameter search. Any new completed-baseline failure stops admission; report both R2 and ordinary comparisons. Benefit against R2 alone does not prove latest ordinary-BLNN sync target.",
+ "theoryBoundary":"Same final admissibility checks are a local constraint guarantee, not a global nearest projection or closed-loop stability proof. Models uncalibrated and hardware timing unmeasured.",
+ "modelsIdentified":false,"physicalBenefitProven":false,"hardwareReleased":false
+}

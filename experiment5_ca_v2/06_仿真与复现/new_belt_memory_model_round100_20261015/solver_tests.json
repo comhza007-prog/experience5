@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "randomCases": 400,
+  "maximumIndependentStateDifference": 1.734723475976807e-17,
+  "maximumEnergyBalanceResidual": 6.776263578034403e-20,
+  "minimumPlasticDissipation": -1.530782739156949e-21,
+  "sourceSHA256": "d7c3bfd43884452adadb6626d27417b36f8a126ba6e091d1c11d6de3c0c585ff",
+  "dllSHA256": "22e77b041e02b62f6f69429a0695840c53139a6eefe28a17c3d02deb30ae6a17",
+  "scope": "Numerical/property checks only; not physical validation"
+}

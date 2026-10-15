@@ -1,0 +1,4188 @@
+{
+  "protocolSHA256": "e71f604ddef159f229de0dfb2ba46555e923c337f03892807b75a2d9816e4927",
+  "coreSHA256": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+  "baselineExactlyReproduced": true,
+  "originalCoreAndHeadersUnchanged": true,
+  "conditions": [
+    {
+      "name": "BLNN",
+      "method": 11,
+      "condition": {
+        "id": "A_REF",
+        "limits": [
+          1200,
+          1200
+        ]
+      },
+      "complete": 16,
+      "total": 18,
+      "failures": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5576,
+          "terminalMax_mm": 0.742365952
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 6475,
+          "terminalMax_mm": 1.58403698
+        }
+      ],
+      "allOutcomesRetained": true,
+      "completeCaseHardClipActive": 0,
+      "allCaseHardClipActive": 0,
+      "completeOnlyClipPct": 0,
+      "completeOnlyTracking_mm": 0.11530782248124999,
+      "completeOnlySync_mm": 0.0340087489225,
+      "survivorOnlyMeansNotEfficacyProof": true,
+      "activity": [
+        {
+          "type": "condition_activity",
+          "case": 1,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 304,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            403.741364,
+            518.700928
+          ],
+          "peakAttempted": [
+            403,
+            518
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 2,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 584,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            534.197449,
+            580.356689
+          ],
+          "peakAttempted": [
+            534,
+            580
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 3,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 1576,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 65,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            1034.5,
+            499.178772
+          ],
+          "peakAttempted": [
+            1034,
+            499
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 4,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 538,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            604.723938,
+            780.360718
+          ],
+          "peakAttempted": [
+            604,
+            780
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 5,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 593,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            646.706848,
+            843.946655
+          ],
+          "peakAttempted": [
+            646,
+            843
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 6,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 2475,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 100,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            1166.44568,
+            792.345825
+          ],
+          "peakAttempted": [
+            1166,
+            792
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 7,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 312,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            404.654205,
+            518.672974
+          ],
+          "peakAttempted": [
+            404,
+            518
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 8,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 300,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            408.102814,
+            507.991882
+          ],
+          "peakAttempted": [
+            408,
+            507
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 9,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 582,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            409.930359,
+            560.007935
+          ],
+          "peakAttempted": [
+            409,
+            560
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 10,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 603,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            605.651428,
+            774.75946
+          ],
+          "peakAttempted": [
+            605,
+            774
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 11,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 528,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            608.426025,
+            786.370789
+          ],
+          "peakAttempted": [
+            608,
+            786
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 12,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 791,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            611.207886,
+            830.831604
+          ],
+          "peakAttempted": [
+            611,
+            830
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 13,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 337,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            404.654205,
+            517.349854
+          ],
+          "peakAttempted": [
+            404,
+            517
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 14,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 238,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            408.194641,
+            516.199097
+          ],
+          "peakAttempted": [
+            408,
+            516
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 15,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 516,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            413.726624,
+            569.128906
+          ],
+          "peakAttempted": [
+            413,
+            569
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 16,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 619,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            605.651428,
+            775.819092
+          ],
+          "peakAttempted": [
+            605,
+            775
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 17,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 538,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            608.426025,
+            784.38385
+          ],
+          "peakAttempted": [
+            608,
+            784
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 18,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 1065,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            611.207886,
+            825.940918
+          ],
+          "peakAttempted": [
+            611,
+            825
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BLNN",
+      "method": 11,
+      "condition": {
+        "id": "B_SYM1000",
+        "limits": [
+          1000,
+          1000
+        ]
+      },
+      "complete": 16,
+      "total": 18,
+      "failures": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5576,
+          "terminalMax_mm": 0.73873284
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 6477,
+          "terminalMax_mm": 1.59372527
+        }
+      ],
+      "allOutcomesRetained": true,
+      "completeCaseHardClipActive": 0,
+      "allCaseHardClipActive": 2,
+      "completeOnlyClipPct": 0,
+      "completeOnlyTracking_mm": 0.11530782248124999,
+      "completeOnlySync_mm": 0.0340087489225,
+      "survivorOnlyMeansNotEfficacyProof": true,
+      "activity": [
+        {
+          "type": "condition_activity",
+          "case": 1,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 304,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            403.741364,
+            518.700928
+          ],
+          "peakAttempted": [
+            403,
+            518
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 2,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 584,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            534.197449,
+            580.356689
+          ],
+          "peakAttempted": [
+            534,
+            580
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 3,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 1576,
+          "hardClipSteps": 6,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 65,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            1033.45239,
+            499.178772
+          ],
+          "peakAttempted": [
+            1000,
+            499
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 4,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 538,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            604.723938,
+            780.360718
+          ],
+          "peakAttempted": [
+            604,
+            780
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 5,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 593,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            646.706848,
+            843.946655
+          ],
+          "peakAttempted": [
+            646,
+            843
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 6,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 2477,
+          "hardClipSteps": 13,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 100,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            1156.45544,
+            792.345825
+          ],
+          "peakAttempted": [
+            1000,
+            792
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 7,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 312,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            404.654205,
+            518.672974
+          ],
+          "peakAttempted": [
+            404,
+            518
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 8,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 300,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            408.102814,
+            507.991882
+          ],
+          "peakAttempted": [
+            408,
+            507
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 9,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 582,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            409.930359,
+            560.007935
+          ],
+          "peakAttempted": [
+            409,
+            560
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 10,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 603,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            605.651428,
+            774.75946
+          ],
+          "peakAttempted": [
+            605,
+            774
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 11,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 528,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            608.426025,
+            786.370789
+          ],
+          "peakAttempted": [
+            608,
+            786
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 12,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 791,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            611.207886,
+            830.831604
+          ],
+          "peakAttempted": [
+            611,
+            830
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 13,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 337,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            404.654205,
+            517.349854
+          ],
+          "peakAttempted": [
+            404,
+            517
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 14,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 238,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            408.194641,
+            516.199097
+          ],
+          "peakAttempted": [
+            408,
+            516
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 15,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 516,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            413.726624,
+            569.128906
+          ],
+          "peakAttempted": [
+            413,
+            569
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 16,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 619,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            605.651428,
+            775.819092
+          ],
+          "peakAttempted": [
+            605,
+            775
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 17,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 538,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            608.426025,
+            784.38385
+          ],
+          "peakAttempted": [
+            608,
+            784
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 18,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 1065,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            611.207886,
+            825.940918
+          ],
+          "peakAttempted": [
+            611,
+            825
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BLNN",
+      "method": 11,
+      "condition": {
+        "id": "C_SYM800",
+        "limits": [
+          800,
+          800
+        ]
+      },
+      "complete": 15,
+      "total": 18,
+      "failures": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5579,
+          "terminalMax_mm": 0.74357699
+        },
+        {
+          "case": 5,
+          "fault": 1024,
+          "stop_ms": 20000,
+          "terminalMax_mm": 0.692713417
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 6516,
+          "terminalMax_mm": 1.24979064
+        }
+      ],
+      "allOutcomesRetained": true,
+      "completeCaseHardClipActive": 2,
+      "allCaseHardClipActive": 5,
+      "completeOnlyClipPct": 2.27125,
+      "completeOnlyTracking_mm": 0.11942856851333335,
+      "completeOnlySync_mm": 0.035245463310666664,
+      "survivorOnlyMeansNotEfficacyProof": true,
+      "activity": [
+        {
+          "type": "condition_activity",
+          "case": 1,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 304,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            403.741364,
+            518.700928
+          ],
+          "peakAttempted": [
+            403,
+            518
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 2,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 584,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            534.197449,
+            580.356689
+          ],
+          "peakAttempted": [
+            534,
+            580
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 3,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 1579,
+          "hardClipSteps": 16,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 66,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            1018.84021,
+            499.178772
+          ],
+          "peakAttempted": [
+            800,
+            499
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 4,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 538,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            604.723938,
+            780.360718
+          ],
+          "peakAttempted": [
+            604,
+            780
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 5,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 12284,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 449,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            638.128784,
+            2219.05859
+          ],
+          "peakAttempted": [
+            638,
+            800
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 6,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 2516,
+          "hardClipSteps": 38,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 104,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            1135.2207,
+            792.345825
+          ],
+          "peakAttempted": [
+            800,
+            792
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 7,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 312,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            404.654205,
+            518.672974
+          ],
+          "peakAttempted": [
+            404,
+            518
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 8,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 300,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            408.102814,
+            507.991882
+          ],
+          "peakAttempted": [
+            408,
+            507
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 9,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 582,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            409.930359,
+            560.007935
+          ],
+          "peakAttempted": [
+            409,
+            560
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 10,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 603,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            605.651428,
+            774.75946
+          ],
+          "peakAttempted": [
+            605,
+            774
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 11,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 528,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            608.426025,
+            786.370789
+          ],
+          "peakAttempted": [
+            608,
+            786
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 12,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 4338,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 707,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            640.44873,
+            1199.56567
+          ],
+          "peakAttempted": [
+            640,
+            800
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 13,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 337,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            404.654205,
+            517.349854
+          ],
+          "peakAttempted": [
+            404,
+            517
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 14,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 238,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            408.194641,
+            516.199097
+          ],
+          "peakAttempted": [
+            408,
+            516
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 15,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 516,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            413.726624,
+            569.128906
+          ],
+          "peakAttempted": [
+            413,
+            569
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 16,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 619,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            605.651428,
+            775.819092
+          ],
+          "peakAttempted": [
+            605,
+            775
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 17,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 538,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            608.426025,
+            784.38385
+          ],
+          "peakAttempted": [
+            608,
+            784
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 18,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 1113,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 1145,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            641.562134,
+            1126.03699
+          ],
+          "peakAttempted": [
+            641,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BLNN",
+      "method": 11,
+      "condition": {
+        "id": "D_R800",
+        "limits": [
+          1200,
+          800
+        ]
+      },
+      "complete": 15,
+      "total": 18,
+      "failures": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5576,
+          "terminalMax_mm": 0.742365952
+        },
+        {
+          "case": 5,
+          "fault": 1024,
+          "stop_ms": 20000,
+          "terminalMax_mm": 0.692713417
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 6475,
+          "terminalMax_mm": 1.58403698
+        }
+      ],
+      "allOutcomesRetained": true,
+      "completeCaseHardClipActive": 2,
+      "allCaseHardClipActive": 3,
+      "completeOnlyClipPct": 2.27125,
+      "completeOnlyTracking_mm": 0.11942856851333335,
+      "completeOnlySync_mm": 0.035245463310666664,
+      "survivorOnlyMeansNotEfficacyProof": true,
+      "activity": [
+        {
+          "type": "condition_activity",
+          "case": 1,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 304,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            403.741364,
+            518.700928
+          ],
+          "peakAttempted": [
+            403,
+            518
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 2,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 584,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            534.197449,
+            580.356689
+          ],
+          "peakAttempted": [
+            534,
+            580
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 3,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 1576,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 65,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            1034.5,
+            499.178772
+          ],
+          "peakAttempted": [
+            1034,
+            499
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 4,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 538,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            604.723938,
+            780.360718
+          ],
+          "peakAttempted": [
+            604,
+            780
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 5,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 12284,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 449,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            638.128784,
+            2219.05859
+          ],
+          "peakAttempted": [
+            638,
+            800
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 6,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 2475,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 100,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            1166.44568,
+            792.345825
+          ],
+          "peakAttempted": [
+            1166,
+            792
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 7,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 312,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            404.654205,
+            518.672974
+          ],
+          "peakAttempted": [
+            404,
+            518
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 8,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 300,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            408.102814,
+            507.991882
+          ],
+          "peakAttempted": [
+            408,
+            507
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 9,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 582,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            409.930359,
+            560.007935
+          ],
+          "peakAttempted": [
+            409,
+            560
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 10,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 603,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            605.651428,
+            774.75946
+          ],
+          "peakAttempted": [
+            605,
+            774
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 11,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 528,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            608.426025,
+            786.370789
+          ],
+          "peakAttempted": [
+            608,
+            786
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 12,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 4338,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 707,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            640.44873,
+            1199.56567
+          ],
+          "peakAttempted": [
+            640,
+            800
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 13,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 337,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            404.654205,
+            517.349854
+          ],
+          "peakAttempted": [
+            404,
+            517
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 14,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 238,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            408.194641,
+            516.199097
+          ],
+          "peakAttempted": [
+            408,
+            516
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 15,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 516,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            413.726624,
+            569.128906
+          ],
+          "peakAttempted": [
+            413,
+            569
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 16,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 619,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            605.651428,
+            775.819092
+          ],
+          "peakAttempted": [
+            605,
+            775
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 17,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 538,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            608.426025,
+            784.38385
+          ],
+          "peakAttempted": [
+            608,
+            784
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 18,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 1113,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 1145,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            641.562134,
+            1126.03699
+          ],
+          "peakAttempted": [
+            641,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BLNN",
+      "method": 11,
+      "condition": {
+        "id": "D_L800_MIRROR",
+        "limits": [
+          800,
+          1200
+        ]
+      },
+      "complete": 16,
+      "total": 18,
+      "failures": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5579,
+          "terminalMax_mm": 0.74357699
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 6516,
+          "terminalMax_mm": 1.24979064
+        }
+      ],
+      "allOutcomesRetained": true,
+      "completeCaseHardClipActive": 0,
+      "allCaseHardClipActive": 2,
+      "completeOnlyClipPct": 0,
+      "completeOnlyTracking_mm": 0.11530782248124999,
+      "completeOnlySync_mm": 0.0340087489225,
+      "survivorOnlyMeansNotEfficacyProof": true,
+      "activity": [
+        {
+          "type": "condition_activity",
+          "case": 1,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 304,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            403.741364,
+            518.700928
+          ],
+          "peakAttempted": [
+            403,
+            518
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 2,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 584,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            534.197449,
+            580.356689
+          ],
+          "peakAttempted": [
+            534,
+            580
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 3,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 1579,
+          "hardClipSteps": 16,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 66,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            1018.84021,
+            499.178772
+          ],
+          "peakAttempted": [
+            800,
+            499
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 4,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 538,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            604.723938,
+            780.360718
+          ],
+          "peakAttempted": [
+            604,
+            780
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 5,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 593,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            646.706848,
+            843.946655
+          ],
+          "peakAttempted": [
+            646,
+            843
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 6,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 2516,
+          "hardClipSteps": 38,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 104,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            1135.2207,
+            792.345825
+          ],
+          "peakAttempted": [
+            800,
+            792
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 7,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 312,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            404.654205,
+            518.672974
+          ],
+          "peakAttempted": [
+            404,
+            518
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 8,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 300,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            408.102814,
+            507.991882
+          ],
+          "peakAttempted": [
+            408,
+            507
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 9,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 582,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            409.930359,
+            560.007935
+          ],
+          "peakAttempted": [
+            409,
+            560
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 10,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 603,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            605.651428,
+            774.75946
+          ],
+          "peakAttempted": [
+            605,
+            774
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 11,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 528,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            608.426025,
+            786.370789
+          ],
+          "peakAttempted": [
+            608,
+            786
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 12,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 791,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            611.207886,
+            830.831604
+          ],
+          "peakAttempted": [
+            611,
+            830
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 13,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 337,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            404.654205,
+            517.349854
+          ],
+          "peakAttempted": [
+            404,
+            517
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 14,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 238,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            408.194641,
+            516.199097
+          ],
+          "peakAttempted": [
+            408,
+            516
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 15,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 516,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            413.726624,
+            569.128906
+          ],
+          "peakAttempted": [
+            413,
+            569
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 16,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 619,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            605.651428,
+            775.819092
+          ],
+          "peakAttempted": [
+            605,
+            775
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 17,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 538,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            608.426025,
+            784.38385
+          ],
+          "peakAttempted": [
+            608,
+            784
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 18,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 1065,
+          "pureRateSteps": 0,
+          "peakRequested": [
+            611.207886,
+            825.940918
+          ],
+          "peakAttempted": [
+            611,
+            825
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S3R2",
+      "method": 12,
+      "condition": {
+        "id": "A_REF",
+        "limits": [
+          1200,
+          1200
+        ]
+      },
+      "complete": 16,
+      "total": 18,
+      "failures": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5571,
+          "terminalMax_mm": 0.496525352
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 5801,
+          "terminalMax_mm": 0.873157996
+        }
+      ],
+      "allOutcomesRetained": true,
+      "completeCaseHardClipActive": 0,
+      "allCaseHardClipActive": 0,
+      "completeOnlyClipPct": 0,
+      "completeOnlyTracking_mm": 0.17234259564999999,
+      "completeOnlySync_mm": 0.050569337362499994,
+      "survivorOnlyMeansNotEfficacyProof": true,
+      "activity": [
+        {
+          "type": "condition_activity",
+          "case": 1,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 985,
+          "pureRateSteps": 761,
+          "peakRequested": [
+            475.904114,
+            552.921265
+          ],
+          "peakAttempted": [
+            475,
+            552
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 2,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 4421,
+          "speedInterventionSteps": 550,
+          "pureRateSteps": 1444,
+          "peakRequested": [
+            438.004211,
+            560.574341
+          ],
+          "peakAttempted": [
+            438,
+            560
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 3,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 1571,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 55,
+          "pureRateSteps": 91,
+          "peakRequested": [
+            1095.54688,
+            511.342041
+          ],
+          "peakAttempted": [
+            1095,
+            511
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 4,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 3318,
+          "speedInterventionSteps": 532,
+          "pureRateSteps": 501,
+          "peakRequested": [
+            604.182556,
+            766.628845
+          ],
+          "peakAttempted": [
+            604,
+            766
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 5,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 8335,
+          "speedInterventionSteps": 457,
+          "pureRateSteps": 1070,
+          "peakRequested": [
+            631.345947,
+            835.929199
+          ],
+          "peakAttempted": [
+            631,
+            835
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 6,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 1801,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 56,
+          "pureRateSteps": 194,
+          "peakRequested": [
+            1176.82922,
+            769.728699
+          ],
+          "peakAttempted": [
+            1176,
+            769
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 7,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 307,
+          "pureRateSteps": 929,
+          "peakRequested": [
+            404.525391,
+            513.606262
+          ],
+          "peakAttempted": [
+            404,
+            513
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 8,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1628,
+          "speedInterventionSteps": 387,
+          "pureRateSteps": 3053,
+          "peakRequested": [
+            416.006073,
+            516.296814
+          ],
+          "peakAttempted": [
+            416,
+            516
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 9,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 2931,
+          "speedInterventionSteps": 431,
+          "pureRateSteps": 1745,
+          "peakRequested": [
+            471.540955,
+            556.936523
+          ],
+          "peakAttempted": [
+            471,
+            556
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 10,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1100,
+          "speedInterventionSteps": 596,
+          "pureRateSteps": 597,
+          "peakRequested": [
+            605.746826,
+            759.427368
+          ],
+          "peakAttempted": [
+            605,
+            759
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 11,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 4929,
+          "speedInterventionSteps": 796,
+          "pureRateSteps": 728,
+          "peakRequested": [
+            658.501221,
+            820.997314
+          ],
+          "peakAttempted": [
+            658,
+            820
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 12,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 8923,
+          "speedInterventionSteps": 599,
+          "pureRateSteps": 972,
+          "peakRequested": [
+            664.922241,
+            811.275757
+          ],
+          "peakAttempted": [
+            664,
+            811
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 13,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 337,
+          "pureRateSteps": 794,
+          "peakRequested": [
+            406.481628,
+            512.732666
+          ],
+          "peakAttempted": [
+            406,
+            512
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 14,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 265,
+          "pureRateSteps": 5304,
+          "peakRequested": [
+            408.995117,
+            507.727051
+          ],
+          "peakAttempted": [
+            408,
+            507
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 15,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 4746,
+          "speedInterventionSteps": 634,
+          "pureRateSteps": 607,
+          "peakRequested": [
+            449.011902,
+            549.744019
+          ],
+          "peakAttempted": [
+            449,
+            549
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 16,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1062,
+          "speedInterventionSteps": 604,
+          "pureRateSteps": 546,
+          "peakRequested": [
+            605.746826,
+            759.878052
+          ],
+          "peakAttempted": [
+            605,
+            759
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 17,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 969,
+          "speedInterventionSteps": 533,
+          "pureRateSteps": 6815,
+          "peakRequested": [
+            608.782471,
+            780.401489
+          ],
+          "peakAttempted": [
+            608,
+            780
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 18,
+          "limits": [
+            1200,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 6786,
+          "speedInterventionSteps": 934,
+          "pureRateSteps": 776,
+          "peakRequested": [
+            717.580872,
+            810.747009
+          ],
+          "peakAttempted": [
+            717,
+            810
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S3R2",
+      "method": 12,
+      "condition": {
+        "id": "B_SYM1000",
+        "limits": [
+          1000,
+          1000
+        ]
+      },
+      "complete": 16,
+      "total": 18,
+      "failures": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5600,
+          "terminalMax_mm": 0.676969931
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 5803,
+          "terminalMax_mm": 0.871946959
+        }
+      ],
+      "allOutcomesRetained": true,
+      "completeCaseHardClipActive": 0,
+      "allCaseHardClipActive": 2,
+      "completeOnlyClipPct": 0,
+      "completeOnlyTracking_mm": 0.177429673775,
+      "completeOnlySync_mm": 0.05381065981875001,
+      "survivorOnlyMeansNotEfficacyProof": true,
+      "activity": [
+        {
+          "type": "condition_activity",
+          "case": 1,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1397,
+          "speedInterventionSteps": 704,
+          "pureRateSteps": 566,
+          "peakRequested": [
+            405.923676,
+            546.428467
+          ],
+          "peakAttempted": [
+            405,
+            546
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 2,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 4421,
+          "speedInterventionSteps": 550,
+          "pureRateSteps": 1444,
+          "peakRequested": [
+            438.004211,
+            560.574341
+          ],
+          "peakAttempted": [
+            438,
+            560
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 3,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 1600,
+          "hardClipSteps": 15,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 63,
+          "pureRateSteps": 96,
+          "peakRequested": [
+            1225.45996,
+            655.294678
+          ],
+          "peakAttempted": [
+            1000,
+            655
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 4,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 3318,
+          "speedInterventionSteps": 532,
+          "pureRateSteps": 501,
+          "peakRequested": [
+            604.182556,
+            766.628845
+          ],
+          "peakAttempted": [
+            604,
+            766
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 5,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 8335,
+          "speedInterventionSteps": 457,
+          "pureRateSteps": 1070,
+          "peakRequested": [
+            631.345947,
+            835.929199
+          ],
+          "peakAttempted": [
+            631,
+            835
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 6,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 1803,
+          "hardClipSteps": 14,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 56,
+          "pureRateSteps": 181,
+          "peakRequested": [
+            1137.15588,
+            769.728699
+          ],
+          "peakAttempted": [
+            1000,
+            769
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 7,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 307,
+          "pureRateSteps": 929,
+          "peakRequested": [
+            404.525391,
+            513.606262
+          ],
+          "peakAttempted": [
+            404,
+            513
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 8,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1628,
+          "speedInterventionSteps": 387,
+          "pureRateSteps": 3053,
+          "peakRequested": [
+            416.006073,
+            516.296814
+          ],
+          "peakAttempted": [
+            416,
+            516
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 9,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 5855,
+          "speedInterventionSteps": 477,
+          "pureRateSteps": 998,
+          "peakRequested": [
+            463.337708,
+            556.319885
+          ],
+          "peakAttempted": [
+            463,
+            556
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 10,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1432,
+          "speedInterventionSteps": 571,
+          "pureRateSteps": 595,
+          "peakRequested": [
+            605.746826,
+            759.427368
+          ],
+          "peakAttempted": [
+            605,
+            759
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 11,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 7584,
+          "speedInterventionSteps": 916,
+          "pureRateSteps": 830,
+          "peakRequested": [
+            658.329285,
+            822.622559
+          ],
+          "peakAttempted": [
+            658,
+            822
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 12,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 8923,
+          "speedInterventionSteps": 599,
+          "pureRateSteps": 972,
+          "peakRequested": [
+            664.922241,
+            811.275757
+          ],
+          "peakAttempted": [
+            664,
+            811
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 13,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 337,
+          "pureRateSteps": 794,
+          "peakRequested": [
+            406.481628,
+            512.732666
+          ],
+          "peakAttempted": [
+            406,
+            512
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 14,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 265,
+          "pureRateSteps": 5304,
+          "peakRequested": [
+            408.995117,
+            507.727051
+          ],
+          "peakAttempted": [
+            408,
+            507
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 15,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 4746,
+          "speedInterventionSteps": 634,
+          "pureRateSteps": 607,
+          "peakRequested": [
+            449.011902,
+            549.744019
+          ],
+          "peakAttempted": [
+            449,
+            549
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 16,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 935,
+          "speedInterventionSteps": 571,
+          "pureRateSteps": 450,
+          "peakRequested": [
+            605.746826,
+            759.878052
+          ],
+          "peakAttempted": [
+            605,
+            759
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 17,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 699,
+          "speedInterventionSteps": 532,
+          "pureRateSteps": 5272,
+          "peakRequested": [
+            613.732483,
+            780.401489
+          ],
+          "peakAttempted": [
+            613,
+            780
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 18,
+          "limits": [
+            1000,
+            1000
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 6807,
+          "speedInterventionSteps": 929,
+          "pureRateSteps": 689,
+          "peakRequested": [
+            717.580872,
+            810.747009
+          ],
+          "peakAttempted": [
+            717,
+            810
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S3R2",
+      "method": 12,
+      "condition": {
+        "id": "C_SYM800",
+        "limits": [
+          800,
+          800
+        ]
+      },
+      "complete": 14,
+      "total": 18,
+      "failures": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5605,
+          "terminalMax_mm": 0.725411428
+        },
+        {
+          "case": 5,
+          "fault": 1024,
+          "stop_ms": 20000,
+          "terminalMax_mm": 0.769008776
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 6085,
+          "terminalMax_mm": 1.08145644
+        },
+        {
+          "case": 12,
+          "fault": 1024,
+          "stop_ms": 20000,
+          "terminalMax_mm": 0.775063963
+        }
+      ],
+      "allOutcomesRetained": true,
+      "completeCaseHardClipActive": 1,
+      "allCaseHardClipActive": 5,
+      "completeOnlyClipPct": 0.12366071428571428,
+      "completeOnlyTracking_mm": 0.15514146738571427,
+      "completeOnlySync_mm": 0.04416777411428572,
+      "survivorOnlyMeansNotEfficacyProof": true,
+      "activity": [
+        {
+          "type": "condition_activity",
+          "case": 1,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 701,
+          "speedInterventionSteps": 577,
+          "pureRateSteps": 555,
+          "peakRequested": [
+            403.893738,
+            521.806641
+          ],
+          "peakAttempted": [
+            403,
+            521
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 2,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 4421,
+          "speedInterventionSteps": 550,
+          "pureRateSteps": 1444,
+          "peakRequested": [
+            438.004211,
+            560.574341
+          ],
+          "peakAttempted": [
+            438,
+            560
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 3,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 1605,
+          "hardClipSteps": 32,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 61,
+          "pureRateSteps": 95,
+          "peakRequested": [
+            1145.93835,
+            609.633789
+          ],
+          "peakAttempted": [
+            800,
+            609
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 4,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 2788,
+          "speedInterventionSteps": 530,
+          "pureRateSteps": 414,
+          "peakRequested": [
+            604.182556,
+            766.628845
+          ],
+          "peakAttempted": [
+            604,
+            766
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 5,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 39,
+          "nn300CapSteps": 2784,
+          "speedInterventionSteps": 472,
+          "pureRateSteps": 942,
+          "peakRequested": [
+            637.86084,
+            814.822083
+          ],
+          "peakAttempted": [
+            637,
+            800
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 6,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 2085,
+          "hardClipSteps": 101,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 110,
+          "pureRateSteps": 291,
+          "peakRequested": [
+            1182.15088,
+            769.728699
+          ],
+          "peakAttempted": [
+            800,
+            769
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 7,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 307,
+          "pureRateSteps": 929,
+          "peakRequested": [
+            404.525391,
+            513.606262
+          ],
+          "peakAttempted": [
+            404,
+            513
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 8,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1628,
+          "speedInterventionSteps": 387,
+          "pureRateSteps": 3053,
+          "peakRequested": [
+            416.006073,
+            516.296814
+          ],
+          "peakAttempted": [
+            416,
+            516
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 9,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 5855,
+          "speedInterventionSteps": 477,
+          "pureRateSteps": 998,
+          "peakRequested": [
+            463.337708,
+            556.319885
+          ],
+          "peakAttempted": [
+            463,
+            556
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 10,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1204,
+          "speedInterventionSteps": 598,
+          "pureRateSteps": 498,
+          "peakRequested": [
+            605.746826,
+            759.733154
+          ],
+          "peakAttempted": [
+            605,
+            759
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 11,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 4369,
+          "speedInterventionSteps": 1024,
+          "pureRateSteps": 615,
+          "peakRequested": [
+            630.304688,
+            798.694092
+          ],
+          "peakAttempted": [
+            630,
+            798
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 12,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 167,
+          "nn300CapSteps": 2902,
+          "speedInterventionSteps": 437,
+          "pureRateSteps": 507,
+          "peakRequested": [
+            636.581726,
+            818.323914
+          ],
+          "peakAttempted": [
+            636,
+            800
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 13,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 337,
+          "pureRateSteps": 794,
+          "peakRequested": [
+            406.481628,
+            512.732666
+          ],
+          "peakAttempted": [
+            406,
+            512
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 14,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 265,
+          "pureRateSteps": 5304,
+          "peakRequested": [
+            408.995117,
+            507.727051
+          ],
+          "peakAttempted": [
+            408,
+            507
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 15,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 4746,
+          "speedInterventionSteps": 634,
+          "pureRateSteps": 607,
+          "peakRequested": [
+            449.011902,
+            549.744019
+          ],
+          "peakAttempted": [
+            449,
+            549
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 16,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 873,
+          "speedInterventionSteps": 581,
+          "pureRateSteps": 475,
+          "peakRequested": [
+            605.746826,
+            759.878052
+          ],
+          "peakAttempted": [
+            605,
+            759
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 17,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1239,
+          "speedInterventionSteps": 538,
+          "pureRateSteps": 1552,
+          "peakRequested": [
+            608.782471,
+            780.194946
+          ],
+          "peakAttempted": [
+            608,
+            780
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 18,
+          "limits": [
+            800,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 277,
+          "nn300CapSteps": 6571,
+          "speedInterventionSteps": 991,
+          "pureRateSteps": 622,
+          "peakRequested": [
+            642.088379,
+            832.342468
+          ],
+          "peakAttempted": [
+            642,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S3R2",
+      "method": 12,
+      "condition": {
+        "id": "D_R800",
+        "limits": [
+          1200,
+          800
+        ]
+      },
+      "complete": 14,
+      "total": 18,
+      "failures": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5571,
+          "terminalMax_mm": 0.496525352
+        },
+        {
+          "case": 5,
+          "fault": 1024,
+          "stop_ms": 20000,
+          "terminalMax_mm": 0.779908113
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 5801,
+          "terminalMax_mm": 0.873157996
+        },
+        {
+          "case": 12,
+          "fault": 1024,
+          "stop_ms": 20000,
+          "terminalMax_mm": 0.775063963
+        }
+      ],
+      "allOutcomesRetained": true,
+      "completeCaseHardClipActive": 1,
+      "allCaseHardClipActive": 3,
+      "completeOnlyClipPct": 0.12366071428571428,
+      "completeOnlyTracking_mm": 0.15760231474285713,
+      "completeOnlySync_mm": 0.045191401942857146,
+      "survivorOnlyMeansNotEfficacyProof": true,
+      "activity": [
+        {
+          "type": "condition_activity",
+          "case": 1,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 985,
+          "pureRateSteps": 761,
+          "peakRequested": [
+            475.904114,
+            552.921265
+          ],
+          "peakAttempted": [
+            475,
+            552
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 2,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 4421,
+          "speedInterventionSteps": 550,
+          "pureRateSteps": 1444,
+          "peakRequested": [
+            438.004211,
+            560.574341
+          ],
+          "peakAttempted": [
+            438,
+            560
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 3,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 1571,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 55,
+          "pureRateSteps": 91,
+          "peakRequested": [
+            1095.54688,
+            511.342041
+          ],
+          "peakAttempted": [
+            1095,
+            511
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 4,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 2788,
+          "speedInterventionSteps": 530,
+          "pureRateSteps": 414,
+          "peakRequested": [
+            604.182556,
+            766.628845
+          ],
+          "peakAttempted": [
+            604,
+            766
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 5,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 39,
+          "nn300CapSteps": 2727,
+          "speedInterventionSteps": 470,
+          "pureRateSteps": 916,
+          "peakRequested": [
+            637.86084,
+            814.822083
+          ],
+          "peakAttempted": [
+            637,
+            800
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 6,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 1801,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 56,
+          "pureRateSteps": 194,
+          "peakRequested": [
+            1176.82922,
+            769.728699
+          ],
+          "peakAttempted": [
+            1176,
+            769
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 7,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 307,
+          "pureRateSteps": 929,
+          "peakRequested": [
+            404.525391,
+            513.606262
+          ],
+          "peakAttempted": [
+            404,
+            513
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 8,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1628,
+          "speedInterventionSteps": 387,
+          "pureRateSteps": 3053,
+          "peakRequested": [
+            416.006073,
+            516.296814
+          ],
+          "peakAttempted": [
+            416,
+            516
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 9,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 5855,
+          "speedInterventionSteps": 477,
+          "pureRateSteps": 998,
+          "peakRequested": [
+            463.337708,
+            556.319885
+          ],
+          "peakAttempted": [
+            463,
+            556
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 10,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1103,
+          "speedInterventionSteps": 571,
+          "pureRateSteps": 511,
+          "peakRequested": [
+            605.746826,
+            759.427368
+          ],
+          "peakAttempted": [
+            605,
+            759
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 11,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 4225,
+          "speedInterventionSteps": 1023,
+          "pureRateSteps": 692,
+          "peakRequested": [
+            626.350586,
+            794.360107
+          ],
+          "peakAttempted": [
+            626,
+            794
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 12,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 167,
+          "nn300CapSteps": 2902,
+          "speedInterventionSteps": 437,
+          "pureRateSteps": 507,
+          "peakRequested": [
+            636.581726,
+            818.323914
+          ],
+          "peakAttempted": [
+            636,
+            800
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 13,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 337,
+          "pureRateSteps": 794,
+          "peakRequested": [
+            406.481628,
+            512.732666
+          ],
+          "peakAttempted": [
+            406,
+            512
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 14,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 265,
+          "pureRateSteps": 5304,
+          "peakRequested": [
+            408.995117,
+            507.727051
+          ],
+          "peakAttempted": [
+            408,
+            507
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 15,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 4746,
+          "speedInterventionSteps": 634,
+          "pureRateSteps": 607,
+          "peakRequested": [
+            449.011902,
+            549.744019
+          ],
+          "peakAttempted": [
+            449,
+            549
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 16,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 873,
+          "speedInterventionSteps": 581,
+          "pureRateSteps": 475,
+          "peakRequested": [
+            605.746826,
+            759.878052
+          ],
+          "peakAttempted": [
+            605,
+            759
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 17,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1112,
+          "speedInterventionSteps": 536,
+          "pureRateSteps": 939,
+          "peakRequested": [
+            610.806213,
+            780.401489
+          ],
+          "peakAttempted": [
+            610,
+            780
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 18,
+          "limits": [
+            1200,
+            800
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 277,
+          "nn300CapSteps": 6454,
+          "speedInterventionSteps": 999,
+          "pureRateSteps": 599,
+          "peakRequested": [
+            641.832153,
+            832.830078
+          ],
+          "peakAttempted": [
+            641,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S3R2",
+      "method": 12,
+      "condition": {
+        "id": "D_L800_MIRROR",
+        "limits": [
+          800,
+          1200
+        ]
+      },
+      "complete": 16,
+      "total": 18,
+      "failures": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5605,
+          "terminalMax_mm": 0.725411428
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 6085,
+          "terminalMax_mm": 1.08145644
+        }
+      ],
+      "allOutcomesRetained": true,
+      "completeCaseHardClipActive": 0,
+      "allCaseHardClipActive": 2,
+      "completeOnlyClipPct": 0,
+      "completeOnlyTracking_mm": 0.16971411008749998,
+      "completeOnlySync_mm": 0.050525270668750004,
+      "survivorOnlyMeansNotEfficacyProof": true,
+      "activity": [
+        {
+          "type": "condition_activity",
+          "case": 1,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 701,
+          "speedInterventionSteps": 577,
+          "pureRateSteps": 555,
+          "peakRequested": [
+            403.893738,
+            521.806641
+          ],
+          "peakAttempted": [
+            403,
+            521
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 2,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 4421,
+          "speedInterventionSteps": 550,
+          "pureRateSteps": 1444,
+          "peakRequested": [
+            438.004211,
+            560.574341
+          ],
+          "peakAttempted": [
+            438,
+            560
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 3,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 1605,
+          "hardClipSteps": 32,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 61,
+          "pureRateSteps": 95,
+          "peakRequested": [
+            1145.93835,
+            609.633789
+          ],
+          "peakAttempted": [
+            800,
+            609
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 4,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 3318,
+          "speedInterventionSteps": 532,
+          "pureRateSteps": 501,
+          "peakRequested": [
+            604.182556,
+            766.628845
+          ],
+          "peakAttempted": [
+            604,
+            766
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 5,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 8375,
+          "speedInterventionSteps": 459,
+          "pureRateSteps": 1071,
+          "peakRequested": [
+            630.755371,
+            835.929199
+          ],
+          "peakAttempted": [
+            630,
+            835
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 6,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 2085,
+          "hardClipSteps": 101,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 110,
+          "pureRateSteps": 291,
+          "peakRequested": [
+            1182.15088,
+            769.728699
+          ],
+          "peakAttempted": [
+            800,
+            769
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 7,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 307,
+          "pureRateSteps": 929,
+          "peakRequested": [
+            404.525391,
+            513.606262
+          ],
+          "peakAttempted": [
+            404,
+            513
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 8,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1628,
+          "speedInterventionSteps": 387,
+          "pureRateSteps": 3053,
+          "peakRequested": [
+            416.006073,
+            516.296814
+          ],
+          "peakAttempted": [
+            416,
+            516
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 9,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 2931,
+          "speedInterventionSteps": 431,
+          "pureRateSteps": 1745,
+          "peakRequested": [
+            471.540955,
+            556.936523
+          ],
+          "peakAttempted": [
+            471,
+            556
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 10,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1432,
+          "speedInterventionSteps": 596,
+          "pureRateSteps": 580,
+          "peakRequested": [
+            605.746826,
+            759.733154
+          ],
+          "peakAttempted": [
+            605,
+            759
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 11,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 4848,
+          "speedInterventionSteps": 793,
+          "pureRateSteps": 728,
+          "peakRequested": [
+            660.352478,
+            820.513672
+          ],
+          "peakAttempted": [
+            660,
+            820
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 12,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 8957,
+          "speedInterventionSteps": 605,
+          "pureRateSteps": 960,
+          "peakRequested": [
+            665.885193,
+            811.275757
+          ],
+          "peakAttempted": [
+            665,
+            811
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 13,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 337,
+          "pureRateSteps": 794,
+          "peakRequested": [
+            406.481628,
+            512.732666
+          ],
+          "peakAttempted": [
+            406,
+            512
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 14,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 0,
+          "speedInterventionSteps": 265,
+          "pureRateSteps": 5304,
+          "peakRequested": [
+            408.995117,
+            507.727051
+          ],
+          "peakAttempted": [
+            408,
+            507
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 15,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 4746,
+          "speedInterventionSteps": 634,
+          "pureRateSteps": 607,
+          "peakRequested": [
+            449.011902,
+            549.744019
+          ],
+          "peakAttempted": [
+            449,
+            549
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 16,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 1062,
+          "speedInterventionSteps": 604,
+          "pureRateSteps": 546,
+          "peakRequested": [
+            605.746826,
+            759.878052
+          ],
+          "peakAttempted": [
+            605,
+            759
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 17,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 2076,
+          "speedInterventionSteps": 534,
+          "pureRateSteps": 1575,
+          "peakRequested": [
+            608.782471,
+            780.194946
+          ],
+          "peakAttempted": [
+            608,
+            780
+          ]
+        },
+        {
+          "type": "condition_activity",
+          "case": 18,
+          "limits": [
+            800,
+            1200
+          ],
+          "motionSteps": 16000,
+          "hardClipSteps": 0,
+          "nn300CapSteps": 6853,
+          "speedInterventionSteps": 926,
+          "pureRateSteps": 725,
+          "peakRequested": [
+            710.317932,
+            810.064209
+          ],
+          "peakAttempted": [
+            710,
+            810
+          ]
+        }
+      ]
+    }
+  ],
+  "modelsIdentified": false,
+  "hardwareReleased": false,
+  "newCandidateSelected": false,
+  "interpretation": "Finite uncalibrated models for qualification planning, not hardware safety or benefit evidence. No condition chosen by favourable comparison; failed cases retained."
+}

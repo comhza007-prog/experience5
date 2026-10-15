@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-14",
+  "authorization": "User requested no further modifications and continuing arrangements along the synchronization-benefit/tracking-cost direction. Prepare bounded small paired follow-up; no assistant hardware operation.",
+  "stage": "Prospectively specified small repeated check of a previously selected candidate, not automatic completion of novelty or statistically definitive efficacy evidence.",
+  "researchObjective": "Evaluate whole-controller synchronization benefit and tracking cost of fixed original-control S3R2 relative to ordinary BLNN in the tested empty-load2mm condition. Do not require universal superiority and do not call arbitrary tracking loss acceptable.",
+  "codeRoot": "05_实验代码/打波预检A_BLNN_S3R2_20261014",
+  "dataRoot": "01_原始数据/配对复核A_固定打波版_20261014",
+  "sourceVerification": "06_仿真与复现/error_wave_preview_round49_20261014/verification.json",
+  "methods": {
+    "BLNN": {"build":67911,"methodID":11,"schema":4492,"originalControlBuild":65511,"subfolder":"00_BLNN","project":"00_BLNN/eassy_E5F2_A_BLNN_HW6/MDK-ARM/eassy.uvprojx","target":"exp5F2_A_BLNN_HW6_F5_EVENT40","eventMagic":4422,"hexSHA256":"9ef9206eee77f0770d7513d78d0fb1f5970de79015f9c6452b87bb3683dfa19a"},
+    "S3R2": {"build":67912,"methodID":12,"schema":4493,"originalControlBuild":66312,"subfolder":"01_S3R2","project":"01_R2/eassy_E5R2_A_S3R2_HW6/MDK-ARM/eassy.uvprojx","target":"exp5R2_A_S3R2_HW6_EVENT48","eventMagic":4424,"hexSHA256":"11c5a331db7e460b9bb0b60a0cf374fe09fbd6f99247c990336ae69ea34c276d"}
+  },
+  "conditions": {"load_g":0,"stroke_mm":2,"limits_counts":[1200,1200],"hardwareProfile":6,"initialNodesPerAxis":4,"initialWeights":0,"controllerPeriod_ms":1,"telemetryPeriod_ms":40,"telemetryChannels":107,"baud":115200,"engine":"JustFloat","addedExcitation":false},
+  "freeze": "Exactly the existing compiled67911/67912 images and source. Do not rebuild, change gains, learning, allocation, guards, trajectory or limits. If Keil insists on rebuild, or hash/identity fails, stop for review. No new code copy, new algorithm or new display change.",
+  "history": "Round49 pair01 is exploratory and prompted this follow-up. All earlier favorable and unfavorable results remain recorded. Do not pool that pair into the primary prospective two-block result or relabel it as preregistered validation.",
+  "order": [
+    {"step":1,"block":1,"method":"S3R2","filename":"E5C_A_S3R2_B67912_HW6_L1200_R1200_M0g_S2mm_block01_attempt01.csv"},
+    {"step":2,"block":1,"method":"BLNN","filename":"E5C_A_BLNN_B67911_HW6_L1200_R1200_M0g_S2mm_block01_attempt01.csv"},
+    {"step":3,"block":2,"method":"BLNN","filename":"E5C_A_BLNN_B67911_HW6_L1200_R1200_M0g_S2mm_block02_attempt01.csv"},
+    {"step":4,"block":2,"method":"S3R2","filename":"E5C_A_S3R2_B67912_HW6_L1200_R1200_M0g_S2mm_block02_attempt01.csv"}
+  ],
+  "design": {
+    "newPairedBlocks":2,"newPlannedRuns":4,"previousTenRunPlanReactivated":false,
+    "purpose":"Minimal consistency check with reversed order across two blocks. Not fully randomized, not powered statistical validation and not guaranteed to cancel drift.",
+    "review":"Check identity, recording quality and safety after the first new block. If safe/complete, retain the preplanned second block regardless of whether the first is favorable. Do not tune or select results based on ranking.",
+    "withinBlock":"Same secured mechanics, empty load, origin and fresh controller initialization each run. Do not charge or repair mid-block. If a change is necessary, record the interruption and pause rather than silently treating different conditions as matched.",
+    "rest":"After stop and completed export, drive off for at least60seconds before the next run. Same minimum for both methods, not a guarantee of identical temperature.",
+    "faults":"On fault or abnormal behavior stop safely, keep the original history and pause the block. Do not delete/overwrite a failed attempt or automatically replace it. Any approved retry must have a distinct attempt number and logged reason.",
+    "sampleLimit":"Four new planned attempts only. No automatic additional blocks,15/25/60-run set or ten-run revival. If records or effects are inconsistent, report uncertainty and decide separately."
+  },
+  "manualRecording": {
+    "safety":"Drive off during flashing; secured empty platform, clear travel, onsite operator and emergency stop. No assistant flashing, motor start or unattended running.",
+    "start":"Enable VOFA reception and clear history before the deliberate fresh control-board power-on/reset; existing8second healthy stationary boot-start remains. No reset or reflash within a CSV. Each run starts fresh network state.",
+    "display":"I53 instantaneous signed mean-position tracking error_mm; I54 instantaneous signed left-minus-right sync error_mm. They are not RMS. Display these two, export all107channels.",
+    "success":"Requirephase6/fault0,I88=4422(BLNN)or4424(S3R2),I89=4; then keep>=10seconds AND I0>=100seconds before export. Correct buildI63=67911/67912 is required.",
+    "abnormal":"Do not continue motion onphase9/I22nonzero or observed oscillation/jam. Stop safely and preserve the same history and fault tail if safe; do not reset simply to obtain a favorable record."
+  },
+  "analysis": {
+    "primary":"SynchronizationRMS_mm over native40ms phase2..5 ANDI106=1, then within-block S3R2-minus-BLNN differences.",
+    "tracking":"Report trackingRMSE and maximum tracking error alongside syncRMS/maxSync. No application tolerance has been supplied; do not call the measured tracking penalty acceptable.",
+    "formulas":{"tracking_mm":"1000*((I5+I6)/2-I3)","sync_mm":"1000*(I5-I6)","RMSE":"sqrt(mean(error^2))"},
+    "grid":"Native grid per run, no interpolation or favorable-window selection. Expected399..401primary rows,span>=15.90seconds,allphases2..5,no active sequence loss. Report grid timing,counts and exclusions.",
+    "quality":"One fresh identified session per file, correct build/method/schema/limits/load/HW6,complete phases0..6,fault0 and no timing/communication errors. Any unidentified prefix or other protocol deviation must be separately disclosed, not repaired away or silently deleted."
+  },
+  "interpretation": {
+    "bothFreshBlocksLowerSync":"Report consistent synchronization benefit in these two blocks, with all tracking costs. Do not claim statistically established or general repeatability from only two blocks.",
+    "mixedOrWorse":"Report inconsistency or absent benefit. No in-series retuning or outcome-based expansion.",
+    "noMechanismAttribution":"BLNN versus S3R2 is a composite method comparison, not isolated classifier/repair/retention ablation. Existing non-matched event windows may verify implementation activity but not independently prove a component caused a closed-loop gain.",
+    "trackingTaskTolerance_mm":null,
+    "scope":"Only verified empty0g,2mm,1200/1200 condition. No extrapolation to2kg,10mm,strong hard saturation or all constraints.",
+    "novelty":"Check concrete rules against reference and other prior work before treating them as original contributions. Positive paired metrics alone do not establish novelty."
+  },
+  "followingWork": [
+    "Analyze both fresh blocks jointly, keep preview results separately and disclose all unfavorable observations.",
+    "Using existing code/logs, define the exact coordination rules and check activity; distinguish implementation properties from component efficacy.",
+    "Audit existing simulations for source/parameter/objective correspondence. Retain negative models, label assumed-plant results and avoid claiming a precise hardware digital twin.",
+    "Map each intended paper claim to theory/code/ablation/physical evidence; write only supported contributions, limits and measured tradeoffs. Separate approval is needed for a new ablation firmware or additional physical batch."
+  ],
+  "hardwareAPIAccess":false,"algorithmChanged":false,"newCompile":false,"assistantFlashed":false,"V1Released":false
+}

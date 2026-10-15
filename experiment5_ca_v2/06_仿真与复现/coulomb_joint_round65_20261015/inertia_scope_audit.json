@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-15",
+  "currentEightCoefficientScope": {
+    "modalInputGainMatrix": [
+      [
+        0.00003091430342988672,
+        0.000006059150745908646
+      ],
+      [
+        0.000006059150745908646,
+        0.00003091430342988672
+      ]
+    ],
+    "independentCommonVsDifferenceInertialGainNotAvailable": true,
+    "equalNormalizedAxisInertiaAssumption": true,
+    "viscousSpringCouplingIsNotInertialCoupling": true
+  },
+  "algebraicRigidBodyHypothesis": {
+    "coordinates": "y=(pL+pR)/2,s=(pL-pR)/2,angle=s/a",
+    "kineticEnergy": "0.5*m*ydot^2+0.5*(J/a^2)*sdot^2",
+    "axisDiagonalInertia": "(m+J/a^2)/4",
+    "axisOffDiagonalInertia": "(m-J/a^2)/4",
+    "diagonalOnlyCondition": "J=m*a^2",
+    "actualPlatformSatisfiesThisRigidBodyAssumptionNotEstablished": true,
+    "motorEncoderProjectedPositionsNotIndependentCarriagePositions": true
+  },
+  "possibleSingleExtraStructuralFreedom": {
+    "normalizedMass": "[[1,eta],[eta,1]]",
+    "positiveDefiniteCondition": "-1<eta<1",
+    "commonInertia": "1+eta",
+    "differenceInertia": "1-eta",
+    "etaFitted": false,
+    "anotherCandidateImplemented": false
+  },
+  "interpretation": "Currentmodelrestrictscommon/differencemodeinertialgains. This is a specific structuralscope limitation toinspectbeforeanothercalibration,NOTproofetaisnonzeroorwillfixobservedpredictionerrors.",
+  "newModelFitted": false,
+  "newParametersSelected": false,
+  "controllerChanged": false,
+  "newPhysicalCaptureReleased": false
+}

@@ -1,0 +1,17 @@
+{
+  "date":"2026-10-13",
+  "release":"ONE_UNLOADED_A_MOTION_QUALIFICATION_ONLY",
+  "build":65212,"method":12,
+  "project":"05_实验代码/准入A_S1_搜索计算优化V2/eassy_E5Q_A_CA_S1OPT2_HW6/MDK-ARM/eassy.uvprojx",
+  "target":"exp5Q_A_CA_S1OPT2_HW6_EVENT40",
+  "hexSHA256":"0d80a597c392f92f226b55ccb3bd15b414a19df0ec968de400783aad077242b5",
+  "conditions":{"extraLoad_g":0,"stroke_mm":2,"currentCommandLimits_counts":[1200,1200],"HWprofile":6,"normalSlew_counts_per_ms":2,"sectorFraction":0.25,"newLearning":true,"balancedSearch":false},
+  "evidence":{"stationaryBuild":65412,"sourceSHA256":"6770b4e7a3fde2cbe735bd8daf1b1237aaecb9410de1679359b76217e55c39e0","exactPairs":6000,"equalityAndRuleErrors":0,"S1CorePeak_us":554.315491,"S3CorePeak_us":553.726196,"unchangedScreen_us":600,"faultOverrunAndCommunicationsErrors":0,"remainingProbeStackBytes":2624,"candidateSourceAndBinaryHashesRechecked":true},
+  "dataFolder":"01_原始数据/准入A_S1OPT2",
+  "filename":"E5Q_A_CA_S1OPT2_HW6_EVENT40_L1200_R1200_M0g_S2mm_run01.csv",
+  "preparation":"No extra hanging mass; clear VOFA history before reset. Verify build65212. Clear path for2mm out-and-back, remain ready to stop safely. Return to initial physical position before powering/resetting, do not manually move during a run.",
+  "normalStop":"Complete phase0..6 with I22=0. After phase6 wait I88=4422/I89=4 then retain5sec. EVENT40 has128 records,5 chunks,each repeated twice. Normally export at I0>=85sec, state completion is authoritative. Export all107 channels. Do not stop at55sec.",
+  "faultStop":"Unexpected strong oscillation, abnormal sound or travel: stop safely. On I2=9/I22 nonzero, keep safe stopped and preserve at least5sec of same post-fault history, export before reset/clear. Do not repeatedly rerun.",
+  "review":"Check complete trajectory, faults/deadlines/period/stack, final positions and sync, learned partial updates only under pure rate cause, mixed-cause freezes, EVENT40 distinct chunks and duplicate agreement. Never interpolate missing payloads.",
+  "boundaries":"Stationary probe is finite coverage, not WCET. S1 full motion/event timing and mechanical behavior remain untested. S3 not released yet; no formal batch or superiority claim. Zero current is not a holding brake."
+}

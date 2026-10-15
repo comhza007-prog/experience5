@@ -1,0 +1,656 @@
+{
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\辨识T1_训练采集_20261014\\E5ID_T1M_BLNN_B67832_HW6_PRBS20_10_seed39_L1200_R1200_M0g_S2mm_run01.csv",
+  "sourceSHA256": "0da7ed24d02bcce276f0448ae08ebcee6e0c36dc4b6dbb1cfb41b9838c58b403",
+  "decodedSHA256": "f4cb31604530c60aa478e2f43e2c130da97fe68d19d45273f0f860ed8202b725",
+  "protocolSHA256": "85a85e67dbfa2c4ad8e136be835b56c042431f9a75f859b1bccb904031075ce8",
+  "analysisCodeSHA256": "a8a17039826e5181cbdd709fa4f8597d56f20f1ce2c5891b7b870fe8fef36242",
+  "syntheticTestsPassed": true,
+  "originalCellExactlyReproduced": true,
+  "timingAudit": {
+    "sourceReview": "motor_task closes previous_command at current release with interval-END feedback; no source off-by-one correction applied",
+    "observedNominalRun_ms": 20000,
+    "sumInteger_us": 19994945,
+    "integerSpanShortfall_us": 5055,
+    "quantizationBound_us": 20000,
+    "nominal20msFrozenFitReplayErrors": {
+      "axisRMSE_mm": [
+        1.426212698230669,
+        3.5290241906658486
+      ],
+      "meanPositionRMSE_mm": 2.410499770574122,
+      "syncDifferenceRMSE_mm": 2.394608991473707,
+      "axisMaxAbs_mm": [
+        2.611171639602642,
+        6.5464438995867456
+      ],
+      "terminalAxisError_mm": [
+        1.0237771279124714,
+        6.5464438995867456
+      ]
+    },
+    "observedInteger_usFrozenFitReplayErrors": {
+      "axisRMSE_mm": [
+        1.4258809259555836,
+        3.528110291781302
+      ],
+      "meanPositionRMSE_mm": 2.409885244335415,
+      "syncDifferenceRMSE_mm": 2.3939945130454947,
+      "axisMaxAbs_mm": [
+        2.610552448476457,
+        6.544815264886579
+      ],
+      "terminalAxisError_mm": [
+        1.0235634019932074,
+        6.544815264886579
+      ]
+    },
+    "deliveredCANDelayKnown": false
+  },
+  "fastSensorAudit": [
+    {
+      "window": 0,
+      "observedSpan_us": 199002,
+      "encoderDisplacement_mm": [
+        0.05086357259642682,
+        0.12231478171997878
+      ],
+      "rawRPMTrapezoidDisplacement_mm": [
+        0.03257442958943245,
+        0.16459903179430188
+      ],
+      "integratedRPMMinusEncoder_mm": [
+        -0.01828914300699437,
+        0.0422842500743231
+      ],
+      "maxFeedbackAge_ms": 1
+    },
+    {
+      "window": 1,
+      "observedSpan_us": 199002,
+      "encoderDisplacement_mm": [
+        -0.3027593606930168,
+        -0.19982117805739108
+      ],
+      "rawRPMTrapezoidDisplacement_mm": [
+        -0.34417147262610254,
+        -0.1598854854681381
+      ],
+      "integratedRPMMinusEncoder_mm": [
+        -0.04141211193308575,
+        0.039935692589252975
+      ],
+      "maxFeedbackAge_ms": 1
+    }
+  ],
+  "allFixedLagCorrelations": [
+    {
+      "window": 0,
+      "lagFastSamples": 0,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.7862042515749867,
+        0.7722618802896043
+      ]
+    },
+    {
+      "window": 0,
+      "lagFastSamples": 1,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.794373686381191,
+        0.8038140046939652
+      ]
+    },
+    {
+      "window": 0,
+      "lagFastSamples": 2,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.7936682258892955,
+        0.8200766697807561
+      ]
+    },
+    {
+      "window": 0,
+      "lagFastSamples": 3,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.8023920635324786,
+        0.8163947711783578
+      ]
+    },
+    {
+      "window": 0,
+      "lagFastSamples": 4,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.8021939813553317,
+        0.7955975517194859
+      ]
+    },
+    {
+      "window": 0,
+      "lagFastSamples": 5,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.796647139716575,
+        0.7629279211721042
+      ]
+    },
+    {
+      "window": 0,
+      "lagFastSamples": 6,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.7896767495062801,
+        0.7208352647567564
+      ]
+    },
+    {
+      "window": 0,
+      "lagFastSamples": 7,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.7839585963975255,
+        0.6698291032642519
+      ]
+    },
+    {
+      "window": 0,
+      "lagFastSamples": 8,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.7666595830346917,
+        0.6103370707317034
+      ]
+    },
+    {
+      "window": 0,
+      "lagFastSamples": 9,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.7535661912477597,
+        0.5517217057056181
+      ]
+    },
+    {
+      "window": 0,
+      "lagFastSamples": 10,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.7372224351952165,
+        0.48394747389467635
+      ]
+    },
+    {
+      "window": 1,
+      "lagFastSamples": 0,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.8552724502354919,
+        0.7998667804050905
+      ]
+    },
+    {
+      "window": 1,
+      "lagFastSamples": 1,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.8761891023510243,
+        0.8208207243416367
+      ]
+    },
+    {
+      "window": 1,
+      "lagFastSamples": 2,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.8891251469562241,
+        0.8288924813651056
+      ]
+    },
+    {
+      "window": 1,
+      "lagFastSamples": 3,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.8948291021584813,
+        0.8296189726276915
+      ]
+    },
+    {
+      "window": 1,
+      "lagFastSamples": 4,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.8928777934980395,
+        0.8178606789864965
+      ]
+    },
+    {
+      "window": 1,
+      "lagFastSamples": 5,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.8839735707359303,
+        0.7939659006225668
+      ]
+    },
+    {
+      "window": 1,
+      "lagFastSamples": 6,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.8661547917370129,
+        0.7621540913158215
+      ]
+    },
+    {
+      "window": 1,
+      "lagFastSamples": 7,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.8439558917514748,
+        0.7286550045694458
+      ]
+    },
+    {
+      "window": 1,
+      "lagFastSamples": 8,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.8158895110935849,
+        0.6894212176938039
+      ]
+    },
+    {
+      "window": 1,
+      "lagFastSamples": 9,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.7821920918764903,
+        0.6424987032054168
+      ]
+    },
+    {
+      "window": 1,
+      "lagFastSamples": 10,
+      "commandToEndpointESCFeedbackCorrelation": [
+        0.7424087830709707,
+        0.59987634455322
+      ]
+    }
+  ],
+  "factorialCells": [
+    {
+      "previousInputTap": false,
+      "signTerm": true,
+      "models": [
+        {
+          "axis": 0,
+          "beta": [
+            0.21170547619990687,
+            0.250085037694842,
+            -0.9568027422206559,
+            1.3282378265995034,
+            0.2395822397222453,
+            -0.07450603645158564
+          ],
+          "rank": 6,
+          "columns": 6,
+          "scaledCondition": 2.9745638344203225
+        },
+        {
+          "axis": 1,
+          "beta": [
+            0.2283332121022019,
+            0.25077091043257654,
+            -1.3704327423678004,
+            1.4180337500901088,
+            0.33211637773603203,
+            0.1000626571100275
+          ],
+          "rank": 6,
+          "columns": 6,
+          "scaledCondition": 2.9438103906369233
+        }
+      ],
+      "linearA": [
+        [
+          0.21170547619990687,
+          0.250085037694842
+        ],
+        [
+          0.25077091043257654,
+          0.2283332121022019
+        ]
+      ],
+      "linearSpectralRadius": 0.4705850500818738,
+      "linearPartStable": true,
+      "linearDCGain_mm_s_per_count": [
+        [
+          -0.000703286773125296,
+          0.0012504563528917627
+        ],
+        [
+          0.0016090751930388123,
+          -0.0013695738638383737
+        ]
+      ],
+      "physicalCausalGainNotEstablished": true,
+      "measuredPastOneStepVelocityRMSE_mm_s": [
+        0.815615257578127,
+        0.8395237687942229
+      ],
+      "measuredPastOneStepPositionErrors": {
+        "axisRMSE_mm": [
+          0.016308162571484975,
+          0.01678582134131752
+        ],
+        "meanPositionRMSE_mm": 0.012777399904180786,
+        "syncDifferenceRMSE_mm": 0.021033119974834705,
+        "axisMaxAbs_mm": [
+          0.12119380477180375,
+          0.11500987877575164
+        ],
+        "terminalAxisError_mm": [
+          -0.0007671525734836322,
+          0.0009537168262220173
+        ]
+      },
+      "trainingRecordedInputRecursiveErrors": {
+        "axisRMSE_mm": [
+          1.4258809259555836,
+          3.528110291781302
+        ],
+        "meanPositionRMSE_mm": 2.409885244335415,
+        "syncDifferenceRMSE_mm": 2.3939945130454947,
+        "axisMaxAbs_mm": [
+          2.610552448476457,
+          6.544815264886579
+        ],
+        "terminalAxisError_mm": [
+          1.0235634019932074,
+          6.544815264886579
+        ]
+      },
+      "independentValidation": false,
+      "modelIdentified": false
+    },
+    {
+      "previousInputTap": true,
+      "signTerm": true,
+      "models": [
+        {
+          "axis": 0,
+          "beta": [
+            0.3117983565230242,
+            0.18051847818827899,
+            -7.677083982764908,
+            -0.6362323459116247,
+            7.6901712728576666,
+            1.3720095099293312,
+            0.16960695535093503,
+            -0.002564040839456133
+          ],
+          "rank": 8,
+          "columns": 8,
+          "scaledCondition": 7.623605361935789
+        },
+        {
+          "axis": 1,
+          "beta": [
+            0.4235754448308722,
+            0.1368186660784907,
+            -8.205458419662055,
+            0.3981412487421771,
+            8.456251817106471,
+            0.11862126662129487,
+            0.09731716587290086,
+            0.03418440463143277
+          ],
+          "rank": 8,
+          "columns": 8,
+          "scaledCondition": 7.645589965117491
+        }
+      ],
+      "linearA": [
+        [
+          0.3117983565230242,
+          0.18051847818827899
+        ],
+        [
+          0.1368186660784907,
+          0.4235754448308722
+        ]
+      ],
+      "linearSpectralRadius": 0.5344856619309952,
+      "linearPartStable": true,
+      "linearDCGain_mm_s_per_count": [
+        [
+          0.00027104718416971773,
+          0.001261815468238477
+        ],
+        [
+          0.000960831429853644,
+          0.0007345858236760445
+        ]
+      ],
+      "physicalCausalGainNotEstablished": true,
+      "measuredPastOneStepVelocityRMSE_mm_s": [
+        0.6048736877381635,
+        0.5543823080326151
+      ],
+      "measuredPastOneStepPositionErrors": {
+        "axisRMSE_mm": [
+          0.012094363557187114,
+          0.011084634904747643
+        ],
+        "meanPositionRMSE_mm": 0.008932618551026313,
+        "syncDifferenceRMSE_mm": 0.014802662765103222,
+        "axisMaxAbs_mm": [
+          0.06988631572575787,
+          0.08568688003514846
+        ],
+        "terminalAxisError_mm": [
+          -3.1007732210015706e-05,
+          0.00033195286916522454
+        ]
+      },
+      "trainingRecordedInputRecursiveErrors": {
+        "axisRMSE_mm": [
+          0.6491936567225808,
+          0.455836730321667
+        ],
+        "meanPositionRMSE_mm": 0.5412158836513657,
+        "syncDifferenceRMSE_mm": 0.2946532307853643,
+        "axisMaxAbs_mm": [
+          1.3371598501875768,
+          1.037870181506279
+        ],
+        "terminalAxisError_mm": [
+          -1.1208735022926501,
+          -1.037870181506279
+        ]
+      },
+      "independentValidation": false,
+      "modelIdentified": false
+    },
+    {
+      "previousInputTap": false,
+      "signTerm": false,
+      "models": [
+        {
+          "axis": 0,
+          "beta": [
+            0.2830170278858002,
+            0.2582237051481891,
+            -0.7377477091471093,
+            1.3323118594365524,
+            -0.058113794815324776
+          ],
+          "rank": 5,
+          "columns": 5,
+          "scaledCondition": 2.5499420604659226
+        },
+        {
+          "axis": 1,
+          "beta": [
+            0.3134681732913408,
+            0.2592917767487137,
+            -0.998619014921018,
+            1.413085354449032,
+            0.10542570751193511
+          ],
+          "rank": 5,
+          "columns": 5,
+          "scaledCondition": 2.5499420604659218
+        }
+      ],
+      "linearA": [
+        [
+          0.2830170278858002,
+          0.2582237051481891
+        ],
+        [
+          0.2592917767487137,
+          0.3134681732913408
+        ]
+      ],
+      "linearSpectralRadius": 0.5574473485594309,
+      "linearPartStable": true,
+      "linearDCGain_mm_s_per_count": [
+        [
+          -0.00033294855860265346,
+          0.0015444249329157364
+        ],
+        [
+          0.0019325462848294958,
+          -0.0008712812818569058
+        ]
+      ],
+      "physicalCausalGainNotEstablished": true,
+      "measuredPastOneStepVelocityRMSE_mm_s": [
+        0.8231615256168747,
+        0.8536929826008325
+      ],
+      "measuredPastOneStepPositionErrors": {
+        "axisRMSE_mm": [
+          0.016459071618387215,
+          0.0170690820938948
+        ],
+        "meanPositionRMSE_mm": 0.012987731678734257,
+        "syncDifferenceRMSE_mm": 0.021208123620430206,
+        "axisMaxAbs_mm": [
+          0.12234705735924312,
+          0.1212448254224665
+        ],
+        "terminalAxisError_mm": [
+          -0.0005925007695235041,
+          0.0010793017005633863
+        ]
+      },
+      "trainingRecordedInputRecursiveErrors": {
+        "axisRMSE_mm": [
+          0.565578061061887,
+          0.7855871106488125
+        ],
+        "meanPositionRMSE_mm": 0.6373208794669585,
+        "syncDifferenceRMSE_mm": 0.4993392529393195,
+        "axisMaxAbs_mm": [
+          1.2925132149140923,
+          1.9157214500804864
+        ],
+        "terminalAxisError_mm": [
+          -0.0006899805715711821,
+          -0.0008264225481417579
+        ]
+      },
+      "independentValidation": false,
+      "modelIdentified": false
+    },
+    {
+      "previousInputTap": true,
+      "signTerm": false,
+      "models": [
+        {
+          "axis": 0,
+          "beta": [
+            0.36339220421966273,
+            0.18519106766552806,
+            -7.582038942162683,
+            -0.6296352033856192,
+            7.761423480947043,
+            1.3585536780894265,
+            0.009882041891749925
+          ],
+          "rank": 7,
+          "columns": 7,
+          "scaledCondition": 7.346049359242084
+        },
+        {
+          "axis": 1,
+          "beta": [
+            0.44993798209120117,
+            0.13809250341058468,
+            -8.184084751344756,
+            0.3692744435340042,
+            8.558368655556011,
+            0.13760233108399061,
+            0.03509405368722965
+          ],
+          "rank": 7,
+          "columns": 7,
+          "scaledCondition": 7.346049359242085
+        }
+      ],
+      "linearA": [
+        [
+          0.36339220421966273,
+          0.18519106766552806
+        ],
+        [
+          0.13809250341058468,
+          0.44993798209120117
+        ]
+      ],
+      "linearSpectralRadius": 0.5723335604630616,
+      "linearPartStable": true,
+      "linearDCGain_mm_s_per_count": [
+        [
+          0.0005931654711311634,
+          0.00144874926326765
+        ],
+        [
+          0.0010704038095588671,
+          0.0010441464745623514
+        ]
+      ],
+      "physicalCausalGainNotEstablished": true,
+      "measuredPastOneStepVelocityRMSE_mm_s": [
+        0.6099543915377986,
+        0.5561815074438803
+      ],
+      "measuredPastOneStepPositionErrors": {
+        "axisRMSE_mm": [
+          0.012195973260659028,
+          0.011120599651612453
+        ],
+        "meanPositionRMSE_mm": 0.008972071270795431,
+        "syncDifferenceRMSE_mm": 0.014927382530751173,
+        "axisMaxAbs_mm": [
+          0.07021284657194116,
+          0.0869933366308917
+        ],
+        "terminalAxisError_mm": [
+          0.00010121827683413085,
+          0.0003620024838116788
+        ]
+      },
+      "trainingRecordedInputRecursiveErrors": {
+        "axisRMSE_mm": [
+          0.230758953418782,
+          0.20195914431141607
+        ],
+        "meanPositionRMSE_mm": 0.21098121613170798,
+        "syncDifferenceRMSE_mm": 0.10011037341956025,
+        "axisMaxAbs_mm": [
+          0.5052729498462101,
+          0.4881463137758921
+        ],
+        "terminalAxisError_mm": [
+          -0.0006903877306810862,
+          -0.0008484297801763666
+        ]
+      },
+      "independentValidation": false,
+      "modelIdentified": false
+    }
+  ],
+  "newPhysicalRuns": 0,
+  "MCUFirmwareChanged": false,
+  "Q0UsedForFitOrSelection": false,
+  "V1ReadOrAcquired": false,
+  "modelIdentified": false,
+  "modelResolutionBudget_mm": null,
+  "V1Released": false
+}

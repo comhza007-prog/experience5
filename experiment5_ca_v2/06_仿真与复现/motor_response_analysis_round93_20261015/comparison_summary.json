@@ -1,0 +1,285 @@
+{
+  "status": "Five captures usable with documented recording limitations; old models fail aggregate prediction; exploratory motor candidate fitted and frozen, not adopted as final model",
+  "records": [
+    {
+      "record": "M1_run01",
+      "actualTrackingRMSE_mm": 0.125197279323474,
+      "actualSyncRMS_mm": 0.08220440985737933,
+      "frozen": [
+        {
+          "model": "R90",
+          "predictedTrackingRMSE_mm": 1.0214218866976563,
+          "predictedSyncRMS_mm": 0.07938553079749482,
+          "trackingDifference_percent": 715.8499068167399,
+          "syncDifference_percent": -3.4291092956875824,
+          "bothWithin15Percent": false
+        },
+        {
+          "model": "R86",
+          "predictedTrackingRMSE_mm": 1.0234660341823758,
+          "predictedSyncRMS_mm": 0.07943565005713744,
+          "trackingDifference_percent": 717.4826479559767,
+          "syncDifference_percent": -3.3681402312181863,
+          "bothWithin15Percent": false
+        },
+        {
+          "model": "R82",
+          "predictedTrackingRMSE_mm": 1.022125729484881,
+          "predictedSyncRMS_mm": 0.07777536563719901,
+          "trackingDifference_percent": 716.4120937836038,
+          "syncDifference_percent": -5.387842608279159,
+          "bothWithin15Percent": false
+        }
+      ],
+      "motorRefit": {
+        "case": "motor_refit_candidate",
+        "record": "M1_run01",
+        "actualTrackingRMSE_mm": 0.125197279323474,
+        "actualSyncRMS_mm": 0.08220440985737933,
+        "predictedTrackingRMSE_mm": 0.897981679935621,
+        "predictedSyncRMS_mm": 0.07044551085768347,
+        "trackingDifference_percent": 617.2533499034695,
+        "syncDifference_percent": -14.304462522262462,
+        "bothWithin15Percent": false,
+        "nativePositionRMSE_mm": [
+          0.8348696020936444,
+          0.768834912383666
+        ]
+      }
+    },
+    {
+      "record": "M1_run02",
+      "actualTrackingRMSE_mm": 0.10278312422280246,
+      "actualSyncRMS_mm": 0.09113118291781368,
+      "frozen": [
+        {
+          "model": "R90",
+          "predictedTrackingRMSE_mm": 0.4081234777919545,
+          "predictedSyncRMS_mm": 0.045268007466642474,
+          "trackingDifference_percent": 297.0724580304324,
+          "syncDifference_percent": -50.32654463898789,
+          "bothWithin15Percent": false
+        },
+        {
+          "model": "R86",
+          "predictedTrackingRMSE_mm": 0.40771010841037536,
+          "predictedSyncRMS_mm": 0.045284213584868616,
+          "trackingDifference_percent": 296.67028171529813,
+          "syncDifference_percent": -50.30876135372014,
+          "bothWithin15Percent": false
+        },
+        {
+          "model": "R82",
+          "predictedTrackingRMSE_mm": 0.4017767430427003,
+          "predictedSyncRMS_mm": 0.04474600540830433,
+          "trackingDifference_percent": 290.89757786674284,
+          "syncDifference_percent": -50.89934753874714,
+          "bothWithin15Percent": false
+        }
+      ],
+      "motorRefit": {
+        "case": "motor_refit_candidate",
+        "record": "M1_run02",
+        "actualTrackingRMSE_mm": 0.10278312422280246,
+        "actualSyncRMS_mm": 0.09113118291781368,
+        "predictedTrackingRMSE_mm": 0.44027920686764216,
+        "predictedSyncRMS_mm": 0.04159471120226705,
+        "trackingDifference_percent": 328.3574859169012,
+        "syncDifference_percent": -54.35732328880325,
+        "bothWithin15Percent": false,
+        "nativePositionRMSE_mm": [
+          0.4537777209163083,
+          0.46909848379631536
+        ]
+      }
+    },
+    {
+      "record": "M1_run03",
+      "actualTrackingRMSE_mm": 0.1332225182730006,
+      "actualSyncRMS_mm": 0.04806493004259975,
+      "frozen": [
+        {
+          "model": "R90",
+          "predictedTrackingRMSE_mm": 0.30320382274140284,
+          "predictedSyncRMS_mm": 0.0408323707369533,
+          "trackingDifference_percent": 127.59202173319922,
+          "syncDifference_percent": -15.047477025840383,
+          "bothWithin15Percent": false
+        },
+        {
+          "model": "R86",
+          "predictedTrackingRMSE_mm": 0.3029755549132636,
+          "predictedSyncRMS_mm": 0.04110471384160216,
+          "trackingDifference_percent": 127.4206784564782,
+          "syncDifference_percent": -14.480862023160713,
+          "bothWithin15Percent": false
+        },
+        {
+          "model": "R82",
+          "predictedTrackingRMSE_mm": 0.30341979479757086,
+          "predictedSyncRMS_mm": 0.040338288263137796,
+          "trackingDifference_percent": 127.75413551018508,
+          "syncDifference_percent": -16.075424998255194,
+          "bothWithin15Percent": false
+        }
+      ],
+      "motorRefit": {
+        "case": "motor_refit_candidate",
+        "record": "M1_run03",
+        "actualTrackingRMSE_mm": 0.1332225182730006,
+        "actualSyncRMS_mm": 0.04806493004259975,
+        "predictedTrackingRMSE_mm": 0.3242725474041859,
+        "predictedSyncRMS_mm": 0.035954137453149945,
+        "trackingDifference_percent": 143.40670902173164,
+        "syncDifference_percent": -25.19673404021614,
+        "bothWithin15Percent": false,
+        "nativePositionRMSE_mm": [
+          0.35312542035373207,
+          0.35204929342352137
+        ]
+      }
+    },
+    {
+      "record": "M1_run04",
+      "actualTrackingRMSE_mm": 0.13321667735310014,
+      "actualSyncRMS_mm": 0.0520746819481404,
+      "frozen": [
+        {
+          "model": "R90",
+          "predictedTrackingRMSE_mm": 0.3538326502387817,
+          "predictedSyncRMS_mm": 0.040866092301564634,
+          "trackingDifference_percent": 165.60687240451392,
+          "syncDifference_percent": -21.524067410988813,
+          "bothWithin15Percent": false
+        },
+        {
+          "model": "R86",
+          "predictedTrackingRMSE_mm": 0.35354238607273103,
+          "predictedSyncRMS_mm": 0.041025297073878704,
+          "trackingDifference_percent": 165.38898364477456,
+          "syncDifference_percent": -21.218343465381974,
+          "bothWithin15Percent": false
+        },
+        {
+          "model": "R82",
+          "predictedTrackingRMSE_mm": 0.35442836106186537,
+          "predictedSyncRMS_mm": 0.04032223332108479,
+          "trackingDifference_percent": 166.0540467635506,
+          "syncDifference_percent": -22.56845013236858,
+          "bothWithin15Percent": false
+        }
+      ],
+      "motorRefit": {
+        "case": "motor_refit_candidate",
+        "record": "M1_run04",
+        "actualTrackingRMSE_mm": 0.13321667735310014,
+        "actualSyncRMS_mm": 0.0520746819481404,
+        "predictedTrackingRMSE_mm": 0.3560147618077093,
+        "predictedSyncRMS_mm": 0.037295475596913916,
+        "trackingDifference_percent": 167.24488921463433,
+        "syncDifference_percent": -28.38079043083671,
+        "bothWithin15Percent": false,
+        "nativePositionRMSE_mm": [
+          0.3813488888144295,
+          0.38077195274862413
+        ]
+      }
+    },
+    {
+      "record": "M1_run05",
+      "actualTrackingRMSE_mm": 0.1541861111611547,
+      "actualSyncRMS_mm": 0.04734086501110851,
+      "frozen": [
+        {
+          "model": "R90",
+          "predictedTrackingRMSE_mm": 0.3024294793832109,
+          "predictedSyncRMS_mm": 0.049219711498544996,
+          "trackingDifference_percent": 96.14573394818477,
+          "syncDifference_percent": 3.968762478242871,
+          "bothWithin15Percent": false
+        },
+        {
+          "model": "R86",
+          "predictedTrackingRMSE_mm": 0.3038226682622612,
+          "predictedSyncRMS_mm": 0.0493061355208457,
+          "trackingDifference_percent": 97.04931006704423,
+          "syncDifference_percent": 4.151319392402386,
+          "bothWithin15Percent": false
+        },
+        {
+          "model": "R82",
+          "predictedTrackingRMSE_mm": 0.3043306867126613,
+          "predictedSyncRMS_mm": 0.04817330692406325,
+          "trackingDifference_percent": 97.37879399174683,
+          "syncDifference_percent": 1.7584003012184102,
+          "bothWithin15Percent": false
+        }
+      ],
+      "motorRefit": {
+        "case": "motor_refit_candidate",
+        "record": "M1_run05",
+        "actualTrackingRMSE_mm": 0.1541861111611547,
+        "actualSyncRMS_mm": 0.04734086501110851,
+        "predictedTrackingRMSE_mm": 0.24960529591737432,
+        "predictedSyncRMS_mm": 0.04440669994494073,
+        "trackingDifference_percent": 61.8857198210855,
+        "syncDifference_percent": -6.197954062477063,
+        "bothWithin15Percent": false,
+        "nativePositionRMSE_mm": [
+          0.20995974018844663,
+          0.21123915356770398
+        ]
+      }
+    }
+  ],
+  "frozenModelsBothMetricsPassCounts": {
+    "R90": 0,
+    "R86": 0,
+    "R82": 0
+  },
+  "captureQuality": {
+    "fiveSnapshotsCRCVerified": true,
+    "fourIdenticalCopiesEach": true,
+    "activeMetricSamplesEach": 400,
+    "allMotionFaultsZero": true,
+    "strictFullRecordingProtocolsQualified": 0,
+    "stoppedCRCPreparationMissingFramesEach": 1,
+    "cachedPriorSessionRowsRuns": [
+      1,
+      3,
+      4
+    ],
+    "CSVDecimalPrecisionHandledFromIntegerEncoderAndFrozenCReference": true
+  },
+  "motorCurrentLOORMSEImprovement_percent": [
+    21.8533933088948,
+    3.4432436826425605
+  ],
+  "motorTimeConstantGridBoundary_ms": 10,
+  "motorConstantsPhysicallyIdentified": false,
+  "cumulativePlantDataLoss": {
+    "unchangedR90": 589.8105666323621,
+    "staticRefit": 507.9491850768089,
+    "motorRefit": 504.0529625280017,
+    "motorVsStaticRefitImprovement_percent": 0.7670496701787322
+  },
+  "newM1MotorRefitBothMetricsPassCount": 0,
+  "all12RecordsCalibration": true,
+  "oldNegativeOutcomesRetained": true,
+  "modelPhysicalValidationPassed": false,
+  "nextCaptureProtocol": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\motor_response_analysis_round93_20261015\\next_capture_protocol.json",
+  "nextCaptureProtocolSHA256": "38cd6d2b0cf3d0d0e61c1cedd836a5826dd24b258d5714d43645f8ab65a65092",
+  "nextRaw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run08.csv",
+  "newPhysicalRunsRecommended": 1,
+  "newFirmwareWritten": false,
+  "assistantHardwareAction": false,
+  "sources": {
+    "capture_verification.json": "5e746a0cb975bd20c4afc807623d2f60ec0ecff16598a49078e54d3ef2dadb80",
+    "frozen_predictions.json": "30b521ea814777398dc573b19bb2390619069af9d5f50e617db183e614a06400",
+    "motor_block_parameters.json": "924c8b1fb7d184bfbee98a0f0b21e619c1104900f943ad1a2d23fa30ddc037a7",
+    "plant_fit_results.json": "521ba3f5b8ffdc3e3b8856139e981a6376e6c4868ba2a38ba6d4459a9984dcde",
+    "input_sensitivity.json": "352c85889b60080009f2143ad560e8c2fc51c0c9eacb870ee3fd19e81d40342e",
+    "numerical_verification.json": "6753a3395a2f2ca1e628d49b664567f401b81bb5df21499b0988b05995abce19",
+    "model_parameters.json": "73fbd019a99a69a792f6027e873840ddf9baae14723284e46b12a8182e317748"
+  }
+}

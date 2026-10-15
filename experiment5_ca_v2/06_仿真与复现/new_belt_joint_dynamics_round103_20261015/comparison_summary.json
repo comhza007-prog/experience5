@@ -1,0 +1,134 @@
+{
+  "status": "Finite new-belt joint-identification work complete, improved but original15percent gate not passed",
+  "confirmedHardware": {
+    "sameBeltSpecification": true,
+    "samePulleysAndRatio": true,
+    "tighterBelt": true,
+    "positionConversionChanged": false
+  },
+  "sourceHashes": [
+    {
+      "name": "new_belt_run010",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+      "rawSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_r96_frozen_check_round97_20261015\\capture_analysis.json",
+      "decodedSHA256": "7d2e50b8382219adf1b8d2252e02ce110a0edb6e8d4f00c4df266952ed2abffd"
+    },
+    {
+      "name": "new_belt_run011",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run011.csv",
+      "rawSHA256": "e7e38ee5980fca58f656ac36ffe52d37b505909b4dee49e53acba25dbd306173",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_frozen_check_round99_20261015\\capture_analysis.json",
+      "decodedSHA256": "6022ce98f46a4b09be546bfb8668a70e0ef5e4a7066ac303cb5d571019d41460"
+    }
+  ],
+  "cases": [
+    {
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.3107580881891894,
+      "predictedSyncRMS_mm": 0.06182036476760712,
+      "trackingDifference_percent": 15.807705514735781,
+      "syncDifference_percent": 15.802997335367387,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.3285451262764375,
+        0.34471041106992933
+      ]
+    },
+    {
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.2912796068642637,
+      "predictedSyncRMS_mm": 0.07188544706684381,
+      "trackingDifference_percent": -13.152256104993743,
+      "syncDifference_percent": -15.990827110456607,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.30725875496070093,
+        0.3634592893296308
+      ]
+    }
+  ],
+  "maximumRoundedAbsoluteRelativeError_percent": 15.990827110456607,
+  "allBothMetricsWithin15Percent": false,
+  "rejectedHypotheses": {
+    "commonPassiveCentering": "R101 optimum addedK/C bothzero; no improvement under fixed R100 coefficients",
+    "speedWeakening": "R102 optimum moving/restyield ratio1; no improvement under fixed R100 coefficients",
+    "holdReconstruction": "Two integral/first-command consistent hypotheses changed R100 tracking by <=0.000111mm, did not explain discrepancy; true waveform still unknown"
+  },
+  "modelPath": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_joint_dynamics_round103_20261015\\model_parameters.json",
+  "modelSHA256": "d3f5e02f6a63cd89f03c5705fa9d83f8a4176148517a746eeed1a71425681f09",
+  "verification": {
+    "passed": true,
+    "checks": [
+      {
+        "record": "new_belt_run010",
+        "nativeFullPropagationSteps": 20000,
+        "independentPythonSteps": 500,
+        "maxPositionDifference_m": 0.0,
+        "maxIndependentStateDifference": 9.540979117872439e-18,
+        "maxSampledEnergyBalanceResidual": 6.6178244182502796e-21
+      },
+      {
+        "record": "new_belt_run011",
+        "nativeFullPropagationSteps": 20000,
+        "independentPythonSteps": 500,
+        "maxPositionDifference_m": 0.0,
+        "maxIndependentStateDifference": 7.37257477290143e-18,
+        "maxSampledEnergyBalanceResidual": 8.13870079195522e-21
+      }
+    ],
+    "rawHashesUnchanged": true,
+    "sourceModelPreserved": true
+  },
+  "identifiabilityAndBounds": {
+    "fullSnapshotJacobianSingularValues": [
+      99.98106493693565,
+      51.184670695762996,
+      26.46645779633379,
+      6.650652415053854,
+      1.377917675576411,
+      0.7063105286874631,
+      0.2958861127173788,
+      0.17395255564201273,
+      0.09299330261935858,
+      0.036317591713681575,
+      0.0008943860789070177,
+      0.0001323076981826281
+    ],
+    "fullSnapshotJacobianRankRelative1e6": 12,
+    "fullSnapshotConditionNumber": 755670.8060851374,
+    "aggregateJacobianSingularValues": [
+      40.7831162590845,
+      10.909676083908149,
+      4.091492401407355,
+      0.43945217069285725
+    ],
+    "aggregateJacobianMaximumRank": 4,
+    "caveat": "Local finite-difference sensitivity, not proof of globally identifiable physical parameters. Four summaries alone cannot uniquely identify12 coefficients.",
+    "normalizedMassConditionNumber": 20.675996377396288,
+    "effectiveRightLeftGainRatio": 84.70372973166671,
+    "originalJointBoundsExceededByLocalPolish": [
+      {
+        "parameter": "gainL",
+        "value": 1.6114933756813664e-07,
+        "originalJointLower": 1.7396308938091242e-07,
+        "originalJointUpper": 6.958523575236497e-05
+      }
+    ],
+    "inference": "Do not adopt as physical model: original joint boundary exceeded for listed parameters; final local modal box was respected, but acceptance still fails."
+  },
+  "objectiveChangesExplicitlyDocumented": true,
+  "acceptanceThresholdRelaxed": false,
+  "bothRecordsDevelopmentOnly": true,
+  "previousFrozenFailuresRetained": true,
+  "physicalModelValidated": false,
+  "adoptedAsFinalModel": false,
+  "newPhysicalRunReleased": false,
+  "firmwareChanged": false,
+  "assistantHardwareAction": false,
+  "nextStep": "Stop this bounded search. Review weakly identifiable/boundary-dependent coefficients and use physical constraints before any new trial or additional model terms. Do not relabel16percent as passing15percent; do not claim tighter tension uniquely caused friction change."
+}

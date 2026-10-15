@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-13",
+  "status": "READY_FOR_FOUR_EXPLORATORY_BASELINE_RUNS",
+  "authorization": "User said start after agreeing to baseline replication before candidate design or formal batch. Manual flash only; no automatic serial commands, motor activation or download.",
+  "stage": "Exploratory concurrent baseline replication, NOT formal confirmatory trials",
+  "purpose": "Directly retest the original sealed R2 executable, not a renamed/recompiled R8. Compare contemporaneous ordinary BLNN to distinguish reproducibility and time-dependent conditions. Do not infer efficacy or failure from one performance result.",
+  "conditions": {"load_g":0,"stroke_mm":2,"limits_counts":[1200,1200],"HWprofile":6,"nodes_initial_per_axis":4,"weights_initial":0,"control_period_ms":1,"telemetry_channels":107,"telemetry_period_ms":40,"baud":115200,"data_engine":"JustFloat"},
+  "sourceR2": "05_实验代码/S3R2_静止跟踪保持_20261013/eassy_E5R2_A_S3R2_HW6",
+  "sourceBLNN": "05_实验代码/正式对照A_五方案_F5/00_BLNN/eassy_E5F2_A_BLNN_HW6",
+  "bundleRoot": "05_实验代码/同期复核A_封存固件_20261013",
+  "dataRoot": "01_原始数据/同期复核A_BLNN_R2_20261013",
+  "methods": {
+    "BLNN": {"build":65511,"methodID":11,"liveSchema":4466,"target":"exp5F2_A_BLNN_HW6_F5_EVENT40","eventMagic":4422,"eventWidth":40,"expectedEventRecords":128,"project":"00_BLNN/eassy_E5F2_A_BLNN_HW6/MDK-ARM/eassy.uvprojx","historicalHEX_SHA256":"c5209744308528b11cb251de983c7ee452214b616d481a283c21c61ec8a4397f","eventTriggerElapsed_ms":5000},
+    "R2": {"build":66312,"methodID":12,"liveSchema":4472,"target":"exp5R2_A_S3R2_HW6_EVENT48","eventMagic":4424,"eventWidth":48,"expectedEventRecords":128,"project":"01_R2/eassy_E5R2_A_S3R2_HW6/MDK-ARM/eassy.uvprojx","historicalHEX_SHA256":"04422c515a47111d85f4273fc5a10957927b935ecb1117d3d8e2c2b8603ce7aa","eventTriggerElapsed_ms":18000}
+  },
+  "order": [
+    {"step":1,"pair":1,"method":"BLNN","dataSubfolder":"00_BLNN","filename":"E5V_A_BLNN_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_pair01.csv"},
+    {"step":2,"pair":1,"method":"R2","dataSubfolder":"01_R2","filename":"E5V_A_S3R2_HW6_EVENT48_L1200_R1200_M0g_S2mm_pair01.csv"},
+    {"step":3,"pair":2,"method":"R2","dataSubfolder":"01_R2","filename":"E5V_A_S3R2_HW6_EVENT48_L1200_R1200_M0g_S2mm_pair02.csv"},
+    {"step":4,"pair":2,"method":"BLNN","dataSubfolder":"00_BLNN","filename":"E5V_A_BLNN_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_pair02.csv"}
+  ],
+  "design": "Two paired blocks with reversed method order; not a claim of full randomization or cancellation of nonlinear drift. Reset every run to fresh weights. No parameter edits. Record voltage/temperature and keep mechanical start/warm-up/rest protocol comparable. Do not charge midway through a paired block; interrupt and document any hardware/condition change rather than silently treating records as matched.",
+  "sealedFirmware": "Copies keep original targets/build IDs and all source bytes. Existing AXF/HEX copied unchanged; download the copied sealed executable without rebuilding. If Keil requests recompilation or an image check fails, stop for review. Do not erase or alter the archived originals.",
+  "start": "During flash keep motor-drive power off. After successful user download, prepare the empty-load platform, clear VOFA history and enable reception BEFORE the deliberate fresh reset/power-on. Verify the expected I21/I63 identity; controller auto-arms after about8seconds if health and stationary checks pass. Do not reset again within a recording. Zero command is not a holding brake.",
+  "export": "All107 channels. On success phase6/fault0, wait for method-specific eventMagic in I88 and I89=4; retain >=5seconds after that. Use absolute I0>=100s for both as a simple minimum, but status4 remains required. Do not stop reception at phase6 alone. Export same history before clearing.",
+  "abnormal": "On abnormal motion, vibration, noise, travel or fault: stop safely; preserve same history and fault replay at least5seconds if safe. Pause the block for review. Retain failed attempts and do not overwrite/delete/retry to select favorable outcomes.",
+  "analysis": "Phase2-5 mean-position tracking RMSE and left-right synchronization RMS on exact common elapsed timestamps, without interpolation; also report max tracking, max sync, per-axis errors, commands/constraints/learning/nodes, voltage/temperature, faults, timing and event completeness. Event windows differ and are diagnostic only, not interchangeable samples for mechanism superiority.",
+  "screening": "A safe and complete first run permits paired replication, not an efficacy declaration. After four records, summarize every outcome and paired differences. No objective task tracking tolerance has been supplied; report tradeoffs only. These exploratory records do not enter the future independent15trial formal set.",
+  "next": "Review step1 safety, identity and completeness, then proceed to step2. No R9 modification, additional candidate, formal batch, Git upload or automatic flash authorized by this preparation."
+}

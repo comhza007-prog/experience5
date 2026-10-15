@@ -1,0 +1,14 @@
+{
+  "purpose":"One finite offline examination of per-modal learning admission; no firmware or hardware action",
+  "motivation":"Validated67712 real360mswindow: common learning admission differs from command-derived synchronization admission. This is a local mechanism observation, not a global causal or performance finding.",
+  "rule":"Moving reference only (abs(vref)>1e-8 OR abs(aref)>1e-8), pure normal-rate cause only, useful raw prediction, absolute modal request>=1 equivalent command count: cap regular error-gradient multiplier by min(old multiplier, pre-classification multiplier times clipped admitted/request modal ratio). Sync-only primary; both-modal prespecified scope sensitivity. Do not increase a regular gradient.",
+  "implementationRepair":"checks01 both-modal native test caught zeroed learning changing stationary-retention eligibility. Explicit moving-reference eligibility added BEFORE any plant screening; retained failing checks01. This protects the unchanged stationary rule, not an outcome-driven gain retune.",
+  "separation":"Wrong-direction bounded repair and static tracking retention remain original. Do not infer an output-admission condition from a fixed-feature wrong-direction repair guarantee.",
+  "comparators":["ordinary BLNN","exact default S3R2","sync-only modal cap","both-modal cap"],
+  "scopeVariants":[1,2],"requestFloorEquivalentCounts":1,"tuningSweep":false,
+  "unchanged":"All allocator, magnitude, slew, sector, speed, tracking, terminal, timing policies and plant equations. Same-state command must equal R2; disabled core/state/output must be byte exact. No controller gain changes.",
+  "checks":"Float/double same-state and local eligibility/bounds; real binary snapshot baseline plus each recorded-input branch;36 assumed closed-loop cases initially, independent coupling/noise holdout only for candidates passing first screening.",
+  "screenDecision":"Do not release a candidate with any newly failed completed-R2 case, or no mean sync gain versus R2. Report tracking cost and ordinary BLNN comparison on a fixed baseline-complete population; candidate failures stay visible and invalidate efficacy aggregation for that population. No new candidate search in this batch.",
+  "holdout":"Coupling stiffness1000/2000/3000; noise periods17/23;36cases per setting, same task and hard guards. Reject new failures or fewer than4/6 settings with mean sync gain. A passing assumed-model screen is still not physical benefit or calibrated-model proof.",
+  "modelsIdentified":false,"formalEvidence":false,"hardwareReleased":false
+}

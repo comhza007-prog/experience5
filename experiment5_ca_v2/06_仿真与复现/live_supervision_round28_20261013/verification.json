@@ -1,0 +1,72 @@
+{
+  "source": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_通信准入_20261013\\E5SUP_NO_DRIVE_B66812_COM4_check02.csv",
+  "sha256": "c4616f8981ff7f089e8965fa5e378faff9ded030d3608a6601d09274199a0423",
+  "rows": 147,
+  "acks": [
+    {
+      "seq": 1,
+      "status": 1,
+      "revision": 0,
+      "nn": 1,
+      "learning": 1
+    },
+    {
+      "seq": 2,
+      "status": 1,
+      "revision": 1,
+      "nn": 0.75,
+      "learning": 1
+    },
+    {
+      "seq": 3,
+      "status": 3,
+      "revision": 1,
+      "nn": 0.75,
+      "learning": 1
+    },
+    {
+      "seq": 4,
+      "status": 1,
+      "revision": 2,
+      "nn": 0.75,
+      "learning": 0.75
+    },
+    {
+      "seq": 5,
+      "status": 1,
+      "revision": 3,
+      "nn": 1,
+      "learning": 0.75
+    },
+    {
+      "seq": 6,
+      "status": 1,
+      "revision": 4,
+      "nn": 1,
+      "learning": 1
+    },
+    {
+      "seq": 7,
+      "status": 8,
+      "revision": 4,
+      "nn": 1,
+      "learning": 1
+    }
+  ],
+  "build": 66812,
+  "schema": 4477,
+  "allFinite": true,
+  "noMotorCommands": true,
+  "motionPermission": false,
+  "defaultsRestored": true,
+  "armCorrectlyDisabled": true,
+  "fault": 0,
+  "communicationQualified": true,
+  "physicalMotionQualified": false,
+  "paperPerformanceEvidence": false,
+  "firstPCCheck": "check01 rejected an incoherent transport frame before UART commands; retained, not a motor trial",
+  "flashLog": "flash_attempt01.log",
+  "flashVerified": true,
+  "systemResets": 1,
+  "resetWasRestrictedToVerifiedNoDriveImage": true
+}

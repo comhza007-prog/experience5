@@ -1,0 +1,23 @@
+{
+  "frozenSourceNativeFunctions": true,
+  "checks": [
+    {
+      "precision": "float",
+      "rows": 3000,
+      "targetAndEnvelopeMatches": true,
+      "robustSectorFrames": 2912,
+      "robustSectorMatches": true,
+      "onlyProjectedRoundedSectorViolations": 0
+    },
+    {
+      "precision": "double",
+      "rows": 3000,
+      "targetAndEnvelopeMatches": true,
+      "robustSectorFrames": 2912,
+      "robustSectorMatches": true,
+      "onlyProjectedRoundedSectorViolations": 0
+    }
+  ],
+  "allMechanismChecksPassed": true,
+  "limitations": "Float/double native sector checks use rounded sigma; uncertain interval cases remain uncertain. This is not full allocator/history replay."
+}

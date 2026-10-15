@@ -1,0 +1,17 @@
+{
+  "authorization":"User reports new capture and requests checking. Readonly raw analysis, no hardware and no fitting.",
+  "record":"E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run012.csv",
+  "frozenCandidate":"new_belt_identifiability_round104_20261015/recovered_model_parameters.json",
+  "frozenCandidateSHA256":"c7313508d7cfb2fd477b25df917e7b942749fb2d0175650a0ac7c2f6dc96c519",
+  "parameterChanges":0,
+  "primaryGate":"Both active400point trackingRMSE and synchronizationRMS absolute relative prediction errors <=20percent as previously requested; also report original15percent.",
+  "gateScope":"One frozen-model independent-record aggregate screen, not physical-parameter identification or autonomous closed-loop validation.",
+  "waveformAcceptanceGate":false,
+  "candidateSelectionFromThisRecord":false,
+  "quality":"107channels, no resets/counter gaps, firmware68012 BLNN11 HW6, fault0, full packed snapshot CRC and four copies per chunk, 8000moving+300holding,400native metrics, completiontail>=20seconds and lastuptime>=185seconds.",
+  "metrics":"Reconstruct quantized native positions from CRC integer encoders and fixed production C reference; do not compute final actuals from5decimal CSVpositions.",
+  "prediction":"Zero initial position/velocity/unstrained memory once; original queued command input, holdintegral blockmeans. No measured-state/current injection or output correction.",
+  "priorBoundaryAndIdentifiabilityWarningsRetained":true,
+  "firmwareChanged":false,
+  "assistantHardwareAction":false
+}

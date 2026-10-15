@@ -1,0 +1,20 @@
+{
+  "date":"2026-10-15",
+  "scope":"ONE reported-current proxy dynamics hypothesis. T1-only estimation, parameters frozen before exploratory newQ2 cross-record checking. No plant/mechanical/controller retuning or hardware operation.",
+  "training":"identification_t1_fullmoving_round70_20261015/build68112_d1184a41428b_analysis.json",
+  "trainingRawSHA256":"d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0",
+  "crossRecordCheck":"q2_mechanical_recheck_round73_20261015/build68012_84bbb6e34165_analysis.json",
+  "crossRecordRawSHA256":"84bbb6e3416540a238354d7636a6bc4e6f5ba0cd2d090470e3eb1bba1ce153db",
+  "checkStatus":"NewQ2has informed hypothesis development and is not untouched independent validation for this new dynamic hypothesis. Prior round73frozen-model evaluation remains valid.",
+  "hypothesis":"Each axis independently: tau*dz/dt+z=k*u. z is reported-current proxy counts; u is raw queued-command counts. ExactZOH update z_next=exp(-dt/tau)*z+(1-exp(-dt/tau))*k*u. No fitted offset, pure delay, cross coupling or nonlinear branch.",
+  "parameters":["kL","tauL_ms","kR","tauR_ms"],
+  "gainBounds":[0.05,2],"tauBounds_ms":[0.05,20],"initialPerAxis":[1,2],
+  "boundsMeaning":"Numerical search/admissibility bounds, not physical identification. Sub-ms dynamics are not assumed hardware truth.",
+  "trainingWindow":"Both complete4s motion phases2/4. Exact1msqueued-command histories and actualdt;99native40msreported-current endpoints per phase/axis. Exclude firstboundary observation because it provides ONE initial state z0, not a prediction target. No future-state injection.",
+  "initialState":"Measured reported-current at phase-start native frame, conditioned once independently for outward/return. Does not recover whole-task holding dynamics.",
+  "estimation":"Peraxis bounded analytic-Jacobian leastsquares, one initialization,12iterations,atmost64objectiveevaluations; no seed or lag sweep. T1-only zero-offset staticgain comparator fitted analytically to endpoint queued commands.",
+  "maxIterations":12,"maxEvaluationsPerAxis":64,"lineSearch":[1,0.5,0.25,0.125],
+  "diagnostics":"Report all axis/phase RMSEs and dynamic-vs-static differences onT1/newQ2;T1normalizedJacobian conditioning and fixedprofiletau[0.05,0.5,1,2,5,10,20]ms with gain analytically profiled,not selected fromQ2. Check analyticJacobian against independent finite differences; verify trajectory with independent trapezoid-integrator substeps.",
+  "validationLimits":"No statistical confidence from198autocorrelated endpoints, no causal delivered-force/current calibration or complete model closure inferred. Do not insert the proxy into mechanical replay unless a separately defined test is justified. Do not multiply oldmechanicalgains by fittedproxygains without recalibration/normalization rationale.",
+  "hardwareReleased":false,"controllerChanged":false,"newQ2CalibrationAllowed":false,"modelAdmissionPromised":false
+}

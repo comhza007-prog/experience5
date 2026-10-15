@@ -1,0 +1,11 @@
+{
+  "date":"2026-10-15",
+  "scope":"Frozen-parameter ordinary-only diagnosis and prospective claim-specific acceptance design. No additional fitting, no S3R2 data access, no hardware or new capture.",
+  "reason":"User accepts reasonable simulation/physical discrepancies and does not require identical trajectories. Separate gross dynamics, scalar task metrics and method-difference accuracy.",
+  "model":"Round66 nine-coefficient effective model, all parameters frozen before this audit",
+  "source":"Qualified Q2S68012 ordinary BLNN training record only",
+  "predeclaredDiagnostics":["Native400points with same original 40ms task window and rounding","Per-phase signed mean/sync residual bias, centered RMS and sum-of-squares contribution","Task metric absolute/relative discrepancy, not a selected pass threshold","Exact4000step outward and return encoder/input intervals; compare increments only as postprocessing, never state injection","Prior hold input mean and modeled boundary error inventory","Encoder versus endpoint RPM integrated-displacement discrepancy without fitting a sensor offset"],
+  "cannotEstablish":["Independent prediction validity from training record","Counterfactual controller efficacy from replayed actual commands","The physical cause from residual localization alone","A task-based tracking tolerance that user has not supplied"],
+  "thresholdPolicy":"Do not select a tolerance from current errors or force acceptance. Former2um figure remains unapproved discussion, not a universal gate. Prospective minimal meaningful gain and tracking allowance must be specified before new validation.",
+  "oldFailuresRetained":true,"controllerChanged":false,"physicalRunReleased":false
+}

@@ -1,0 +1,15 @@
+{
+  "status": "Declared before final solver refinement",
+  "stageResultsSHA256": "536ec239a4b08582bb714043ea54c51553a5c6102fb3bd182bc0969fc463dfa8",
+  "optimizer": "Finite-difference damped Gauss-Newton/LM, existing3seed endpoints only. Maximum100iterations/2000functionevaluations each. Existing bounds unchanged; normalized trial step max0.25 per coordinate.",
+  "objective": "Time-weighted full-snapshot mean and differential errors /0.05mm plus aggregate relative RMS errors /0.15 weighted5. Aggregate term weight increased to match user priority; this is development, not independent evidence.",
+  "finiteDifferenceLogStep": 0.002,
+  "aggregateResidualWeight": 5,
+  "physicalParametersUniquelyIdentified": false,
+  "acceptance": "Both records each rounded-statistics tracking/sync within15percent; independent future validation required.",
+  "noWaveformAcceptanceGate": true,
+  "bothRecordsCalibration": true,
+  "noNewSeedsOrBounds": true,
+  "firmwareChanged": false,
+  "assistantHardwareAction": false
+}

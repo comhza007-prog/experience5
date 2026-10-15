@@ -1,0 +1,24 @@
+{
+  "date":"2026-10-15",
+  "status":"One proposed exploratory training capture, NOT released or prepared hardware firmware yet",
+  "reason":"Ordinary-only fixed coupling knockouts and one bounded deadzone extension still fail sync trajectory prediction. Sensor RPM cannot directly fix forced-position replay; current records do not by themselves establish a unique actuator/plant/sensor cause. Another ad-hoc fit is not justified by assuming eventual success.",
+  "notAProofAllModelsImpossible":true,
+  "objective":"Acquire complete motion response to a predetermined small common/difference request sequence. Check information and fit feasibility before any independent-validation or formal batch.",
+  "possibleSingleT1Capture":{
+    "trajectory":"Original unloaded2mm out-and-return",
+    "limits_counts":[1200,1200],
+    "perturbationStartingPoint":"Reuse previously tested20common/10difference requested-count design, maximum30requested counts per axis. Motion phases2/4 only and both raw speeds<=10rpm; original guards unchanged. Still requires explicit user agreement and offline qualification of the merged logger version.",
+    "logger":"Full8000moving1ms queued-input/encoder/RPM records from qualified Q2 design, not only two short fast windows. Holds stay40step endpoint/integral records; uncertainty remains explicit.",
+    "ungatedRequests":"Save predetermined request sequence/source/seed separately. Establish exact request/previous-queued-input alignment before collection. Actual guarded total queued inputs are recorded; they are not delivered torque.",
+    "noFalseExogeneity":"State gating, current headroom and feedback correction can reduce/correlate applied perturbation. Requested sequence is not proof actual input is exogenous. Audit coverage/rank/response before identification claims.",
+    "manualOnly":"User flashes through Keil/DAP and records VOFA. No assistant flash/serial/start actions.",
+    "trialCount":1,
+    "notFormalBatchOrGuaranteedClosure":true
+  },
+  "offlineBeforeTrial":["Freeze revised protocol and identifiers","Preserve original algorithm/guards","Compile and compare control source hashes except explicitly approved perturbation integration","Host-test gate/limits and instrument alignment","Check linkedRAM and worst observed onboard logging timing before any release"],
+  "afterTrial":"First validate integrity, safety/gating coverage and information. If inadequate report it before asking for expansion. No automatically scheduled second run.",
+  "independentValidationStillSeparate":"Training feasibility does not validate predictions; a frozen model still needs independent method-specific prediction checks under a separately agreed protocol.",
+  "userApprovalPending":true,
+  "firmwarePrepared":false,
+  "physicalCaptureReleased":false
+}

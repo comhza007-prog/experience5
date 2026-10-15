@@ -1,0 +1,2821 @@
+{
+  "physical": [
+    {
+      "method": "BLNN",
+      "attempt": 1,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\E5S40_A_BLNN_B67931_HW6_L1200_R1200_M0g_S2mm_pair01_attempt01.csv",
+      "SHA256": "4ca44028b2fad50c13205074ed6b449daba971a38881db1ceff6c7aa8134dc15",
+      "primaryComplete": true,
+      "phaseStatisticsAreObservedSnapshots": true,
+      "phases": [
+        {
+          "phase": 2,
+          "N": 100,
+          "trackingRMSE_mm": 0.1772302739376092,
+          "syncRMS_mm": 0.07243617880589781,
+          "rawRPM_RMS": [
+            11.722627691776276,
+            12.4056438768812
+          ],
+          "commandRMS_counts": [
+            282.0342886955414,
+            296.63349440007613
+          ],
+          "feedbackCurrentRMS_counts": [
+            275.34914199975276,
+            293.8508465191142
+          ],
+          "commandPeak_counts": [
+            629,
+            585
+          ],
+          "positionRange_mm": [
+            [
+              0,
+              2.15
+            ],
+            [
+              0,
+              2.059
+            ]
+          ],
+          "speedGuardObservedSnapshots": 19,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 3,
+          "N": 50,
+          "trackingRMSE_mm": 0.08964103413058104,
+          "syncRMS_mm": 0.05210124758583042,
+          "rawRPM_RMS": [
+            0.4242640687119285,
+            1.104536101718726
+          ],
+          "commandRMS_counts": [
+            329.3515447056534,
+            251.2484825824825
+          ],
+          "feedbackCurrentRMS_counts": [
+            329.09089929683563,
+            251.30332269987997
+          ],
+          "commandPeak_counts": [
+            454,
+            282
+          ],
+          "positionRange_mm": [
+            [
+              2.1020000000000003,
+              2.133
+            ],
+            [
+              2.058,
+              2.0709999999999997
+            ]
+          ],
+          "speedGuardObservedSnapshots": 0,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 4,
+          "N": 100,
+          "trackingRMSE_mm": 0.15536139320951006,
+          "syncRMS_mm": 0.08528428929175644,
+          "rawRPM_RMS": [
+            13.229890400150714,
+            8.917959407846618
+          ],
+          "commandRMS_counts": [
+            318.2026398382012,
+            309.3092465478522
+          ],
+          "feedbackCurrentRMS_counts": [
+            308.1073838777643,
+            301.9774991617753
+          ],
+          "commandPeak_counts": [
+            627,
+            641
+          ],
+          "positionRange_mm": [
+            [
+              -0.011,
+              2.1020000000000003
+            ],
+            [
+              -0.025,
+              2.0709999999999997
+            ]
+          ],
+          "speedGuardObservedSnapshots": 20,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 5,
+          "N": 150,
+          "trackingRMSE_mm": 0.004078602701906631,
+          "syncRMS_mm": 0.006581286601670947,
+          "rawRPM_RMS": [
+            0,
+            0.4242640687119285
+          ],
+          "commandRMS_counts": [
+            92.40151513909282,
+            47.17018832553742
+          ],
+          "feedbackCurrentRMS_counts": [
+            103.84013353869173,
+            69.76063837628399
+          ],
+          "commandPeak_counts": [
+            113,
+            165
+          ],
+          "positionRange_mm": [
+            [
+              -0.001,
+              -0.001
+            ],
+            [
+              -0.017,
+              -0.001
+            ]
+          ],
+          "speedGuardObservedSnapshots": 0,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        }
+      ],
+      "lateOriginHold": {
+        "N": 50,
+        "elapsed_s": [
+          18,
+          19.960001
+        ],
+        "meanPositionRMS_mm": 0.0014747881203752626,
+        "syncRMS_mm": 0.0009695359714832655,
+        "commandRMS_counts": [
+          68.52182134181781,
+          9.58018788959799
+        ],
+        "rawRPM_RMS": [
+          0,
+          0
+        ]
+      },
+      "lastActivePosition_mm": [
+        -0.001,
+        -0.001
+      ],
+      "motionBatteryRange_V": [
+        24.403446,
+        24.85458
+      ],
+      "event": {
+        "elapsed_ms": [
+          4936,
+          5063
+        ],
+        "nominalInterval_ms": 1,
+        "periodRange_us": [
+          994.613098,
+          1005.619019
+        ],
+        "axes": [
+          {
+            "axis": 0,
+            "encoderEndpointDisplacement_mm": 0.029000000000000005,
+            "nominal1msTrapezoidRPMDisplacement_mm": 0.01918024988507454,
+            "periodAdjustedTrapezoidRPMDisplacement_mm": 0.019179076705248675,
+            "nominalIntegralMinusEncoder_mm": -0.009819750114925464,
+            "periodAdjustedIntegralMinusEncoder_mm": -0.00982092329475133,
+            "rawRPMRange": [
+              -3,
+              6
+            ],
+            "feedbackAgeRange_ms": [
+              0,
+              1
+            ],
+            "repeatedRXCounterPairs": 0,
+            "repeatedRoundedPositionPairs": 102
+          },
+          {
+            "axis": 1,
+            "encoderEndpointDisplacement_mm": 0.008,
+            "nominal1msTrapezoidRPMDisplacement_mm": 0.01595598374060079,
+            "periodAdjustedTrapezoidRPMDisplacement_mm": 0.015953287499708403,
+            "nominalIntegralMinusEncoder_mm": 0.007955983740600789,
+            "periodAdjustedIntegralMinusEncoder_mm": 0.007953287499708403,
+            "rawRPMRange": [
+              -5,
+              0
+            ],
+            "feedbackAgeRange_ms": [
+              0,
+              1
+            ],
+            "repeatedRXCounterPairs": 1,
+            "repeatedRoundedPositionPairs": 118
+          }
+        ],
+        "samplingAndCANSkewNotRemoved": true,
+        "notContinuousFullRunCoverage": true,
+        "notMatchedBetweenMethods": true
+      }
+    },
+    {
+      "method": "BLNN",
+      "attempt": 2,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\E5S40_A_BLNN_B67931_HW6_L1200_R1200_M0g_S2mm_pair01_attempt02.csv",
+      "SHA256": "3e3f97b2eda0a2ab110dfd813fb9950eb6bbf83f0763edd71370b08817c805d9",
+      "primaryComplete": true,
+      "phaseStatisticsAreObservedSnapshots": true,
+      "phases": [
+        {
+          "phase": 2,
+          "N": 100,
+          "trackingRMSE_mm": 0.18331208361698367,
+          "syncRMS_mm": 0.07085308744155049,
+          "rawRPM_RMS": [
+            8.623804264940155,
+            12.866234880492428
+          ],
+          "commandRMS_counts": [
+            293.90326639899735,
+            299.9909665306607
+          ],
+          "feedbackCurrentRMS_counts": [
+            281.89405811403685,
+            291.45826459374933
+          ],
+          "commandPeak_counts": [
+            620,
+            596
+          ],
+          "positionRange_mm": [
+            [
+              0,
+              2.14
+            ],
+            [
+              -0.001,
+              2.053
+            ]
+          ],
+          "speedGuardObservedSnapshots": 16,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 3,
+          "N": 50,
+          "trackingRMSE_mm": 0.08531711434407516,
+          "syncRMS_mm": 0.050667149120510076,
+          "rawRPM_RMS": [
+            0.7348469228349535,
+            1.019803902718557
+          ],
+          "commandRMS_counts": [
+            293.0272001026526,
+            251.99825396220507
+          ],
+          "feedbackCurrentRMS_counts": [
+            290.05596011804346,
+            253.09638480231203
+          ],
+          "commandPeak_counts": [
+            410,
+            281
+          ],
+          "positionRange_mm": [
+            [
+              2.099,
+              2.124
+            ],
+            [
+              2.0509999999999997,
+              2.0660000000000003
+            ]
+          ],
+          "speedGuardObservedSnapshots": 0,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 4,
+          "N": 100,
+          "trackingRMSE_mm": 0.16992692547092114,
+          "syncRMS_mm": 0.08412276742951337,
+          "rawRPM_RMS": [
+            11.120701416727274,
+            8.545174076635302
+          ],
+          "commandRMS_counts": [
+            339.37454235696583,
+            301.9093572581015
+          ],
+          "feedbackCurrentRMS_counts": [
+            331.49692306264325,
+            295.4677478169149
+          ],
+          "commandPeak_counts": [
+            624,
+            675
+          ],
+          "positionRange_mm": [
+            [
+              -0.01,
+              2.099
+            ],
+            [
+              -0.019,
+              2.068
+            ]
+          ],
+          "speedGuardObservedSnapshots": 6,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 5,
+          "N": 150,
+          "trackingRMSE_mm": 0.008240853515666136,
+          "syncRMS_mm": 0.0033813212407775334,
+          "rawRPM_RMS": [
+            0.2449489742783178,
+            0.4760952285695233
+          ],
+          "commandRMS_counts": [
+            68.02102616103348,
+            57.598263862724195
+          ],
+          "feedbackCurrentRMS_counts": [
+            84.64277878236277,
+            77.17983328996421
+          ],
+          "commandPeak_counts": [
+            111,
+            138
+          ],
+          "positionRange_mm": [
+            [
+              -0.008,
+              -0.004
+            ],
+            [
+              -0.016,
+              -0.005
+            ]
+          ],
+          "speedGuardObservedSnapshots": 0,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        }
+      ],
+      "lateOriginHold": {
+        "N": 50,
+        "elapsed_s": [
+          18,
+          19.960001
+        ],
+        "meanPositionRMS_mm": 0.005747608198198622,
+        "syncRMS_mm": 0.0018708286933869704,
+        "commandRMS_counts": [
+          35.55390273936182,
+          9.260669522232181
+        ],
+        "rawRPM_RMS": [
+          0.4242640687119285,
+          0.4242640687119285
+        ]
+      },
+      "lastActivePosition_mm": [
+        -0.005,
+        -0.005
+      ],
+      "motionBatteryRange_V": [
+        24.362055,
+        24.939219
+      ],
+      "event": {
+        "elapsed_ms": [
+          4936,
+          5063
+        ],
+        "nominalInterval_ms": 1,
+        "periodRange_us": [
+          994.482117,
+          1005.583313
+        ],
+        "axes": [
+          {
+            "axis": 0,
+            "encoderEndpointDisplacement_mm": 0.098,
+            "nominal1msTrapezoidRPMDisplacement_mm": 0.08019328615742365,
+            "periodAdjustedTrapezoidRPMDisplacement_mm": 0.08019244319643677,
+            "nominalIntegralMinusEncoder_mm": -0.017806713842576358,
+            "periodAdjustedIntegralMinusEncoder_mm": -0.017807556803563232,
+            "rawRPMRange": [
+              -3,
+              25
+            ],
+            "feedbackAgeRange_ms": [
+              0,
+              1
+            ],
+            "repeatedRXCounterPairs": 1,
+            "repeatedRoundedPositionPairs": 83
+          },
+          {
+            "axis": 1,
+            "encoderEndpointDisplacement_mm": 0.01,
+            "nominal1msTrapezoidRPMDisplacement_mm": 0.015790636758832906,
+            "periodAdjustedTrapezoidRPMDisplacement_mm": 0.015790988099591383,
+            "nominalIntegralMinusEncoder_mm": 0.005790636758832906,
+            "periodAdjustedIntegralMinusEncoder_mm": 0.005790988099591382,
+            "rawRPMRange": [
+              -5,
+              0
+            ],
+            "feedbackAgeRange_ms": [
+              0,
+              1
+            ],
+            "repeatedRXCounterPairs": 1,
+            "repeatedRoundedPositionPairs": 117
+          }
+        ],
+        "samplingAndCANSkewNotRemoved": true,
+        "notContinuousFullRunCoverage": true,
+        "notMatchedBetweenMethods": true
+      }
+    },
+    {
+      "method": "BLNN",
+      "attempt": 3,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\E5S40_A_BLNN_B67931_HW6_L1200_R1200_M0g_S2mm_pair01_attempt03.csv",
+      "SHA256": "54c6aacf5bd4c2c460cb0c17b9932524c891b791c4e522e0dc21323fce761ad2",
+      "primaryComplete": true,
+      "phaseStatisticsAreObservedSnapshots": true,
+      "phases": [
+        {
+          "phase": 2,
+          "N": 100,
+          "trackingRMSE_mm": 0.18402473339200903,
+          "syncRMS_mm": 0.07109943740986983,
+          "rawRPM_RMS": [
+            10.019481024484252,
+            13.341289293018123
+          ],
+          "commandRMS_counts": [
+            297.6540105558801,
+            306.0283646984377
+          ],
+          "feedbackCurrentRMS_counts": [
+            284.604866437663,
+            296.9770193129428
+          ],
+          "commandPeak_counts": [
+            622,
+            588
+          ],
+          "positionRange_mm": [
+            [
+              0,
+              2.153
+            ],
+            [
+              0,
+              2.064
+            ]
+          ],
+          "speedGuardObservedSnapshots": 18,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 3,
+          "N": 50,
+          "trackingRMSE_mm": 0.08544942948902583,
+          "syncRMS_mm": 0.050924453850777776,
+          "rawRPM_RMS": [
+            0.7348469228349535,
+            0.6
+          ],
+          "commandRMS_counts": [
+            285.8749027109585,
+            243.1793165546774
+          ],
+          "feedbackCurrentRMS_counts": [
+            305.3353238654185,
+            249.89857942773506
+          ],
+          "commandPeak_counts": [
+            405,
+            272
+          ],
+          "positionRange_mm": [
+            [
+              2.1,
+              2.127
+            ],
+            [
+              2.053,
+              2.0660000000000003
+            ]
+          ],
+          "speedGuardObservedSnapshots": 0,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 4,
+          "N": 100,
+          "trackingRMSE_mm": 0.17577940010137705,
+          "syncRMS_mm": 0.08321267932232444,
+          "rawRPM_RMS": [
+            11.780067911519017,
+            11.193748255164577
+          ],
+          "commandRMS_counts": [
+            337.2341471440874,
+            303.6240273759638
+          ],
+          "feedbackCurrentRMS_counts": [
+            326.5358785799808,
+            299.9049015938219
+          ],
+          "commandPeak_counts": [
+            630,
+            691
+          ],
+          "positionRange_mm": [
+            [
+              -0.007,
+              2.1
+            ],
+            [
+              -0.020999999999999998,
+              2.0669999999999997
+            ]
+          ],
+          "speedGuardObservedSnapshots": 19,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 5,
+          "N": 150,
+          "trackingRMSE_mm": 0.008074445285384424,
+          "syncRMS_mm": 0.004431703961232071,
+          "rawRPM_RMS": [
+            0,
+            0.34641016151377546
+          ],
+          "commandRMS_counts": [
+            82.85340467757898,
+            45.23840551272042
+          ],
+          "feedbackCurrentRMS_counts": [
+            120.06087344898559,
+            88.61726694047837
+          ],
+          "commandPeak_counts": [
+            118,
+            123
+          ],
+          "positionRange_mm": [
+            [
+              -0.007,
+              -0.005
+            ],
+            [
+              -0.018000000000000002,
+              -0.006
+            ]
+          ],
+          "speedGuardObservedSnapshots": 0,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        }
+      ],
+      "lateOriginHold": {
+        "N": 50,
+        "elapsed_s": [
+          18,
+          19.960001
+        ],
+        "meanPositionRMS_mm": 0.005866003750424983,
+        "syncRMS_mm": 0.0005999999999999998,
+        "commandRMS_counts": [
+          48.23732994269065,
+          4.406812907306141
+        ],
+        "rawRPM_RMS": [
+          0,
+          0
+        ]
+      },
+      "lastActivePosition_mm": [
+        -0.005,
+        -0.006
+      ],
+      "motionBatteryRange_V": [
+        24.403446,
+        25.014589
+      ],
+      "event": {
+        "elapsed_ms": [
+          4936,
+          5063
+        ],
+        "nominalInterval_ms": 1,
+        "periodRange_us": [
+          996.101196,
+          1005.535706
+        ],
+        "axes": [
+          {
+            "axis": 0,
+            "encoderEndpointDisplacement_mm": 0.09400000000000001,
+            "nominal1msTrapezoidRPMDisplacement_mm": 0.08655914495548721,
+            "periodAdjustedTrapezoidRPMDisplacement_mm": 0.0865596068979992,
+            "nominalIntegralMinusEncoder_mm": -0.007440855044512806,
+            "periodAdjustedIntegralMinusEncoder_mm": -0.007440393102000814,
+            "rawRPMRange": [
+              -13,
+              25
+            ],
+            "feedbackAgeRange_ms": [
+              0,
+              1
+            ],
+            "repeatedRXCounterPairs": 0,
+            "repeatedRoundedPositionPairs": 74
+          },
+          {
+            "axis": 1,
+            "encoderEndpointDisplacement_mm": 0.007000000000000001,
+            "nominal1msTrapezoidRPMDisplacement_mm": 0.017361433085627802,
+            "periodAdjustedTrapezoidRPMDisplacement_mm": 0.017361573322851567,
+            "nominalIntegralMinusEncoder_mm": 0.010361433085627801,
+            "periodAdjustedIntegralMinusEncoder_mm": 0.010361573322851566,
+            "rawRPMRange": [
+              -7,
+              0
+            ],
+            "feedbackAgeRange_ms": [
+              0,
+              1
+            ],
+            "repeatedRXCounterPairs": 0,
+            "repeatedRoundedPositionPairs": 120
+          }
+        ],
+        "samplingAndCANSkewNotRemoved": true,
+        "notContinuousFullRunCoverage": true,
+        "notMatchedBetweenMethods": true
+      }
+    },
+    {
+      "method": "S3R2",
+      "attempt": 1,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\误差汇总40s_A_BLNN_S3R2_20261014\\01_S3R2\\E5S40_A_S3R2_B67932_HW6_L1200_R1200_M0g_S2mm_pair01_attempt01.csv",
+      "SHA256": "3d07d951639f43157e278f99b61b5f5e8af523c31d86e3fd97ac160f8f59d2be",
+      "primaryComplete": false,
+      "phaseStatisticsAreObservedSnapshots": true,
+      "phases": [
+        {
+          "phase": 2,
+          "N": 100,
+          "trackingRMSE_mm": 0.21476114639291716,
+          "syncRMS_mm": 0.05651902334612657,
+          "rawRPM_RMS": [
+            11.385077953180646,
+            9.583840566286565
+          ],
+          "commandRMS_counts": [
+            282.26133281057116,
+            314.13934806069744
+          ],
+          "feedbackCurrentRMS_counts": [
+            271.57908608727587,
+            301.9140771809092
+          ],
+          "commandPeak_counts": [
+            519,
+            616
+          ],
+          "positionRange_mm": [
+            [
+              0,
+              1.932
+            ],
+            [
+              0,
+              1.899
+            ]
+          ],
+          "speedGuardObservedSnapshots": 19,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 3,
+          "N": 50,
+          "trackingRMSE_mm": 0.09891486238174729,
+          "syncRMS_mm": 0.01992485884517127,
+          "rawRPM_RMS": [
+            17.35511451993331,
+            1.9595917942265424
+          ],
+          "commandRMS_counts": [
+            261.48613729985766,
+            182.53284635922378
+          ],
+          "feedbackCurrentRMS_counts": [
+            200.39251483027004,
+            187.03652049800328
+          ],
+          "commandPeak_counts": [
+            491,
+            278
+          ],
+          "positionRange_mm": [
+            [
+              1.8840000000000001,
+              1.932
+            ],
+            [
+              1.8920000000000001,
+              1.9009999999999998
+            ]
+          ],
+          "speedGuardObservedSnapshots": 13,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 4,
+          "N": 99,
+          "trackingRMSE_mm": 0.20308407474280551,
+          "syncRMS_mm": 0.06106628291529548,
+          "rawRPM_RMS": [
+            16.56148629449749,
+            8.40754831605913
+          ],
+          "commandRMS_counts": [
+            260.17839645096973,
+            265.56338055332304
+          ],
+          "feedbackCurrentRMS_counts": [
+            245.3671131223991,
+            265.630258712057
+          ],
+          "commandPeak_counts": [
+            546,
+            643
+          ],
+          "positionRange_mm": [
+            [
+              0.048,
+              1.9189999999999998
+            ],
+            [
+              0.058,
+              1.896
+            ]
+          ],
+          "speedGuardObservedSnapshots": 27,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 5,
+          "N": 150,
+          "trackingRMSE_mm": 0.04014376248767254,
+          "syncRMS_mm": 0.049534701641038126,
+          "rawRPM_RMS": [
+            11.875184209097558,
+            0.6110100926607787
+          ],
+          "commandRMS_counts": [
+            160.13250763039963,
+            47.12720375041716
+          ],
+          "feedbackCurrentRMS_counts": [
+            138.9336052460551,
+            88.39509790329627
+          ],
+          "commandPeak_counts": [
+            289,
+            218
+          ],
+          "positionRange_mm": [
+            [
+              0.039,
+              0.08399999999999999
+            ],
+            [
+              0.008,
+              0.059
+            ]
+          ],
+          "speedGuardObservedSnapshots": 20,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        }
+      ],
+      "lateOriginHold": {
+        "N": 50,
+        "elapsed_s": [
+          18,
+          19.960001
+        ],
+        "meanPositionRMS_mm": 0.03736549210167049,
+        "syncRMS_mm": 0.05301848734168112,
+        "commandRMS_counts": [
+          152.24283234359507,
+          18.16259893297212
+        ],
+        "rawRPM_RMS": [
+          11.60775602776006,
+          0
+        ]
+      },
+      "lastActivePosition_mm": [
+        0.073,
+        0.011
+      ],
+      "motionBatteryRange_V": [
+        24.461277,
+        25.040138
+      ],
+      "event": {
+        "elapsed_ms": [
+          17936,
+          18063
+        ],
+        "nominalInterval_ms": 1,
+        "periodRange_us": [
+          998.916687,
+          1000.922607
+        ],
+        "axes": [
+          {
+            "axis": 0,
+            "encoderEndpointDisplacement_mm": -0.013999999999999995,
+            "nominal1msTrapezoidRPMDisplacement_mm": -0.047289236785614766,
+            "periodAdjustedTrapezoidRPMDisplacement_mm": -0.04728962765728162,
+            "nominalIntegralMinusEncoder_mm": -0.03328923678561477,
+            "periodAdjustedIntegralMinusEncoder_mm": -0.03328962765728162,
+            "rawRPMRange": [
+              -17,
+              16
+            ],
+            "feedbackAgeRange_ms": [
+              0,
+              1
+            ],
+            "repeatedRXCounterPairs": 0,
+            "repeatedRoundedPositionPairs": 4
+          },
+          {
+            "axis": 1,
+            "encoderEndpointDisplacement_mm": 0,
+            "nominal1msTrapezoidRPMDisplacement_mm": 0,
+            "periodAdjustedTrapezoidRPMDisplacement_mm": 0,
+            "nominalIntegralMinusEncoder_mm": 0,
+            "periodAdjustedIntegralMinusEncoder_mm": 0,
+            "rawRPMRange": [
+              0,
+              0
+            ],
+            "feedbackAgeRange_ms": [
+              0,
+              1
+            ],
+            "repeatedRXCounterPairs": 0,
+            "repeatedRoundedPositionPairs": 127
+          }
+        ],
+        "samplingAndCANSkewNotRemoved": true,
+        "notContinuousFullRunCoverage": true,
+        "notMatchedBetweenMethods": true
+      }
+    },
+    {
+      "method": "S3R2",
+      "attempt": 2,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\误差汇总40s_A_BLNN_S3R2_20261014\\01_S3R2\\E5S40_A_S3R2_B67932_HW6_L1200_R1200_M0g_S2mm_pair01_attempt02.csv",
+      "SHA256": "cc305f4f162b97cd36e6bdd7308a44388b3906bb71366e636e0b447d1a3934bf",
+      "primaryComplete": true,
+      "phaseStatisticsAreObservedSnapshots": true,
+      "phases": [
+        {
+          "phase": 2,
+          "N": 100,
+          "trackingRMSE_mm": 0.22647634534317265,
+          "syncRMS_mm": 0.06997270896571031,
+          "rawRPM_RMS": [
+            9.788258272031854,
+            12.876334882255899
+          ],
+          "commandRMS_counts": [
+            318.714103861125,
+            310.71313136074565
+          ],
+          "feedbackCurrentRMS_counts": [
+            314.6270649515073,
+            323.60281210150197
+          ],
+          "commandPeak_counts": [
+            633,
+            602
+          ],
+          "positionRange_mm": [
+            [
+              0,
+              1.926
+            ],
+            [
+              0,
+              2.042
+            ]
+          ],
+          "speedGuardObservedSnapshots": 17,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 3,
+          "N": 50,
+          "trackingRMSE_mm": 0.028452592149046767,
+          "syncRMS_mm": 0.048020412326426364,
+          "rawRPM_RMS": [
+            2.723967694375247,
+            0
+          ],
+          "commandRMS_counts": [
+            99.39255505318293,
+            100.7193129444398
+          ],
+          "feedbackCurrentRMS_counts": [
+            101.93645079165745,
+            108.19149689324018
+          ],
+          "commandPeak_counts": [
+            250,
+            116
+          ],
+          "positionRange_mm": [
+            [
+              1.926,
+              2.032
+            ],
+            [
+              2.0370000000000004,
+              2.039
+            ]
+          ],
+          "speedGuardObservedSnapshots": 0,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 4,
+          "N": 100,
+          "trackingRMSE_mm": 0.22220071444529613,
+          "syncRMS_mm": 0.06771521247105407,
+          "rawRPM_RMS": [
+            13.982846634358829,
+            9.475758544834287
+          ],
+          "commandRMS_counts": [
+            272.93861947331675,
+            313.2877590969682
+          ],
+          "feedbackCurrentRMS_counts": [
+            258.29330227475896,
+            316.8216533004018
+          ],
+          "commandPeak_counts": [
+            649,
+            672
+          ],
+          "positionRange_mm": [
+            [
+              0.005,
+              2.027
+            ],
+            [
+              -0.006,
+              2.0370000000000004
+            ]
+          ],
+          "speedGuardObservedSnapshots": 18,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 5,
+          "N": 150,
+          "trackingRMSE_mm": 0.003527274679787033,
+          "syncRMS_mm": 0.0033714487489307494,
+          "rawRPM_RMS": [
+            0.33665016461206926,
+            0
+          ],
+          "commandRMS_counts": [
+            66.33435510100831,
+            43.48057037344381
+          ],
+          "feedbackCurrentRMS_counts": [
+            111.90448307969316,
+            72.66672782872044
+          ],
+          "commandPeak_counts": [
+            103,
+            99
+          ],
+          "positionRange_mm": [
+            [
+              0.004,
+              0.008
+            ],
+            [
+              0.001,
+              0.004
+            ]
+          ],
+          "speedGuardObservedSnapshots": 0,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        }
+      ],
+      "lateOriginHold": {
+        "N": 50,
+        "elapsed_s": [
+          18,
+          19.960001
+        ],
+        "meanPositionRMS_mm": 0.0035902646142032483,
+        "syncRMS_mm": 0.002891366458960193,
+        "commandRMS_counts": [
+          57.2157321022811,
+          16.582520918123397
+        ],
+        "rawRPM_RMS": [
+          0,
+          0
+        ]
+      },
+      "lastActivePosition_mm": [
+        0.005,
+        0.004
+      ],
+      "motionBatteryRange_V": [
+        24.428255,
+        25.006617
+      ],
+      "event": {
+        "elapsed_ms": [
+          17936,
+          18063
+        ],
+        "nominalInterval_ms": 1,
+        "periodRange_us": [
+          994.5,
+          1005.517883
+        ],
+        "axes": [
+          {
+            "axis": 0,
+            "encoderEndpointDisplacement_mm": 0,
+            "nominal1msTrapezoidRPMDisplacement_mm": 0,
+            "periodAdjustedTrapezoidRPMDisplacement_mm": 0,
+            "nominalIntegralMinusEncoder_mm": 0,
+            "periodAdjustedIntegralMinusEncoder_mm": 0,
+            "rawRPMRange": [
+              0,
+              0
+            ],
+            "feedbackAgeRange_ms": [
+              0,
+              1
+            ],
+            "repeatedRXCounterPairs": 0,
+            "repeatedRoundedPositionPairs": 127
+          },
+          {
+            "axis": 1,
+            "encoderEndpointDisplacement_mm": 0,
+            "nominal1msTrapezoidRPMDisplacement_mm": 0,
+            "periodAdjustedTrapezoidRPMDisplacement_mm": 0,
+            "nominalIntegralMinusEncoder_mm": 0,
+            "periodAdjustedIntegralMinusEncoder_mm": 0,
+            "rawRPMRange": [
+              0,
+              0
+            ],
+            "feedbackAgeRange_ms": [
+              0,
+              1
+            ],
+            "repeatedRXCounterPairs": 0,
+            "repeatedRoundedPositionPairs": 127
+          }
+        ],
+        "samplingAndCANSkewNotRemoved": true,
+        "notContinuousFullRunCoverage": true,
+        "notMatchedBetweenMethods": true
+      }
+    },
+    {
+      "method": "S3R2",
+      "attempt": 3,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\误差汇总40s_A_BLNN_S3R2_20261014\\01_S3R2\\E5S40_A_S3R2_B67932_HW6_L1200_R1200_M0g_S2mm_pair01_attempt03.csv",
+      "SHA256": "a6c1f5630de40f9d0f54a4119dc032005f4456836e14c9498f6fc2e8b21fa250",
+      "primaryComplete": true,
+      "phaseStatisticsAreObservedSnapshots": true,
+      "phases": [
+        {
+          "phase": 2,
+          "N": 100,
+          "trackingRMSE_mm": 0.23530949300867574,
+          "syncRMS_mm": 0.07023951879106234,
+          "rawRPM_RMS": [
+            11.145402639653716,
+            9.621330469326994
+          ],
+          "commandRMS_counts": [
+            312.52297515542756,
+            329.1602952969875
+          ],
+          "feedbackCurrentRMS_counts": [
+            312.1237735258242,
+            331.66341371939114
+          ],
+          "commandPeak_counts": [
+            640,
+            598
+          ],
+          "positionRange_mm": [
+            [
+              0,
+              1.933
+            ],
+            [
+              0,
+              2.043
+            ]
+          ],
+          "speedGuardObservedSnapshots": 16,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 3,
+          "N": 50,
+          "trackingRMSE_mm": 0.02622079327556662,
+          "syncRMS_mm": 0.059543933360166904,
+          "rawRPM_RMS": [
+            3.7389838191679834,
+            0
+          ],
+          "commandRMS_counts": [
+            107.84053041412584,
+            100.86991622877457
+          ],
+          "feedbackCurrentRMS_counts": [
+            122.2007364953256,
+            103.01728010387383
+          ],
+          "commandPeak_counts": [
+            247,
+            123
+          ],
+          "positionRange_mm": [
+            [
+              1.926,
+              2.028
+            ],
+            [
+              2.036,
+              2.039
+            ]
+          ],
+          "speedGuardObservedSnapshots": 0,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 4,
+          "N": 100,
+          "trackingRMSE_mm": 0.2237249483182419,
+          "syncRMS_mm": 0.06732733471629483,
+          "rawRPM_RMS": [
+            12.086355943790503,
+            8.512343978012167
+          ],
+          "commandRMS_counts": [
+            279.7835949443784,
+            312.02713023069003
+          ],
+          "feedbackCurrentRMS_counts": [
+            276.71942468861846,
+            307.4217136117747
+          ],
+          "commandPeak_counts": [
+            632,
+            674
+          ],
+          "positionRange_mm": [
+            [
+              0.006,
+              2.028
+            ],
+            [
+              -0.011,
+              2.0370000000000004
+            ]
+          ],
+          "speedGuardObservedSnapshots": 16,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        },
+        {
+          "phase": 5,
+          "N": 150,
+          "trackingRMSE_mm": 0.0015979153085609152,
+          "syncRMS_mm": 0.0015405626677721812,
+          "rawRPM_RMS": [
+            0.41633319989322654,
+            0.2449489742783178
+          ],
+          "commandRMS_counts": [
+            42.06780241467339,
+            61.18316761986094
+          ],
+          "feedbackCurrentRMS_counts": [
+            101.97467005748699,
+            84.48629080113136
+          ],
+          "commandPeak_counts": [
+            91,
+            93
+          ],
+          "positionRange_mm": [
+            [
+              -0.001,
+              0.006
+            ],
+            [
+              0.002,
+              0.004
+            ]
+          ],
+          "speedGuardObservedSnapshots": 0,
+          "maxCANAge_ms": [
+            1,
+            1
+          ]
+        }
+      ],
+      "lateOriginHold": {
+        "N": 50,
+        "elapsed_s": [
+          18,
+          19.960001
+        ],
+        "meanPositionRMS_mm": 0.0015,
+        "syncRMS_mm": 0.0009999999999999996,
+        "commandRMS_counts": [
+          17.848809484108457,
+          50.19442200085583
+        ],
+        "rawRPM_RMS": [
+          0,
+          0
+        ]
+      },
+      "lastActivePosition_mm": [
+        0.001,
+        0.002
+      ],
+      "motionBatteryRange_V": [
+        24.453135,
+        24.997442
+      ],
+      "event": {
+        "elapsed_ms": [
+          17936,
+          18063
+        ],
+        "nominalInterval_ms": 1,
+        "periodRange_us": [
+          994.505981,
+          1005.511902
+        ],
+        "axes": [
+          {
+            "axis": 0,
+            "encoderEndpointDisplacement_mm": 0,
+            "nominal1msTrapezoidRPMDisplacement_mm": 0,
+            "periodAdjustedTrapezoidRPMDisplacement_mm": 0,
+            "nominalIntegralMinusEncoder_mm": 0,
+            "periodAdjustedIntegralMinusEncoder_mm": 0,
+            "rawRPMRange": [
+              0,
+              0
+            ],
+            "feedbackAgeRange_ms": [
+              0,
+              1
+            ],
+            "repeatedRXCounterPairs": 0,
+            "repeatedRoundedPositionPairs": 127
+          },
+          {
+            "axis": 1,
+            "encoderEndpointDisplacement_mm": 0,
+            "nominal1msTrapezoidRPMDisplacement_mm": 0,
+            "periodAdjustedTrapezoidRPMDisplacement_mm": 0,
+            "nominalIntegralMinusEncoder_mm": 0,
+            "periodAdjustedIntegralMinusEncoder_mm": 0,
+            "rawRPMRange": [
+              0,
+              0
+            ],
+            "feedbackAgeRange_ms": [
+              0,
+              1
+            ],
+            "repeatedRXCounterPairs": 0,
+            "repeatedRoundedPositionPairs": 127
+          }
+        ],
+        "samplingAndCANSkewNotRemoved": true,
+        "notContinuousFullRunCoverage": true,
+        "notMatchedBetweenMethods": true
+      }
+    }
+  ],
+  "assumedModels": [
+    {
+      "method": "BLNN",
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\final_method_evidence_round56_20261014\\checks02\\BLNN_float.json",
+      "SHA256": "f26e694cc6495f3f2a51b40b5e138bc933d6a483d48fdafbc32f59b4a22539b0",
+      "conditionalPopulationN": 30,
+      "all36FailureOutcomesPreviouslyRetained": true,
+      "cases": [
+        {
+          "case": 1,
+          "massAxisAssumed": 3,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 0,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.07407229576569087,
+          "whole40msSyncRMS_mm": 0.010284454287904672,
+          "originHoldTrackingRMSE_mm": 0.04783597899999991,
+          "originHoldSyncRMS_mm": 0.0012110374000000048,
+          "lateOriginMeanPositionRMS_mm": 0.047835979,
+          "lateOriginSyncRMS_mm": 0.0012110374000000037,
+          "lateCommandRMS_counts": [
+            125.52011790944111,
+            139.4467640355989
+          ],
+          "terminalMax_mm": 0.0484414977
+        },
+        {
+          "case": 2,
+          "massAxisAssumed": 3,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 3,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.12562499004975067,
+          "whole40msSyncRMS_mm": 0.048341622852361814,
+          "originHoldTrackingRMSE_mm": 0.04599981899722905,
+          "originHoldSyncRMS_mm": 0.016907748198413192,
+          "lateOriginMeanPositionRMS_mm": 0.0224041927,
+          "lateOriginSyncRMS_mm": 0.013321411800000004,
+          "lateCommandRMS_counts": [
+            215.07961316684572,
+            24.80604764971639
+          ],
+          "terminalMax_mm": 0.0290648986
+        },
+        {
+          "case": 4,
+          "massAxisAssumed": 3,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 0,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.11903252444185228,
+          "whole40msSyncRMS_mm": 0.01713060127374403,
+          "originHoldTrackingRMSE_mm": 0.06115739084999997,
+          "originHoldSyncRMS_mm": 0.0012110374999999955,
+          "lateOriginMeanPositionRMS_mm": 0.061157390850000035,
+          "lateOriginSyncRMS_mm": 0.001211037499999998,
+          "lateCommandRMS_counts": [
+            163.51544269578943,
+            185.7035810101679
+          ],
+          "terminalMax_mm": 0.0617629096
+        },
+        {
+          "case": 5,
+          "massAxisAssumed": 3,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 3,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.1802758424609353,
+          "whole40msSyncRMS_mm": 0.09156864911092671,
+          "originHoldTrackingRMSE_mm": 0.07323230964045555,
+          "originHoldSyncRMS_mm": 0.1041164041914974,
+          "lateOriginMeanPositionRMS_mm": 0.07450498800510078,
+          "lateOriginSyncRMS_mm": 0.10424127452240188,
+          "lateCommandRMS_counts": [
+            325.6551550336644,
+            340.3960340544525
+          ],
+          "terminalMax_mm": 0.167123167
+        },
+        {
+          "case": 7,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 0,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.07106883107241897,
+          "whole40msSyncRMS_mm": 0.010622852724198002,
+          "originHoldTrackingRMSE_mm": 0.03754216075000004,
+          "originHoldSyncRMS_mm": 0.0024220749000000005,
+          "lateOriginMeanPositionRMS_mm": 0.037542160750000005,
+          "lateOriginSyncRMS_mm": 0.0024220749000000005,
+          "lateCommandRMS_counts": [
+            90.84866537269548,
+            123.86678327945712
+          ],
+          "terminalMax_mm": 0.0387531982
+        },
+        {
+          "case": 8,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 3,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.07425268513663331,
+          "whole40msSyncRMS_mm": 0.010066528696626314,
+          "originHoldTrackingRMSE_mm": 0.046019422800000036,
+          "originHoldSyncRMS_mm": 0.004844149800000001,
+          "lateOriginMeanPositionRMS_mm": 0.04601942279999998,
+          "lateOriginSyncRMS_mm": 0.004844149800000001,
+          "lateCommandRMS_counts": [
+            86.78767193559233,
+            169.1471548681798
+          ],
+          "terminalMax_mm": 0.0484414977
+        },
+        {
+          "case": 9,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 6,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.11356257361032289,
+          "whole40msSyncRMS_mm": 0.04002627262186705,
+          "originHoldTrackingRMSE_mm": 0.013321411900000022,
+          "originHoldSyncRMS_mm": 0.004844149800000001,
+          "lateOriginMeanPositionRMS_mm": 0.013321411899999996,
+          "lateOriginSyncRMS_mm": 0.004844149800000001,
+          "lateCommandRMS_counts": [
+            8.114185110040317,
+            153.69365634273916
+          ],
+          "terminalMax_mm": 0.0157434868
+        },
+        {
+          "case": 10,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 0,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.11582308168063843,
+          "whole40msSyncRMS_mm": 0.020417027207701017,
+          "originHoldTrackingRMSE_mm": 0.051469091349999906,
+          "originHoldSyncRMS_mm": 0.0036331122999999957,
+          "lateOriginMeanPositionRMS_mm": 0.05146909134999999,
+          "lateOriginSyncRMS_mm": 0.0036331122999999966,
+          "lateCommandRMS_counts": [
+            122.34467703991048,
+            179.56425033953724
+          ],
+          "terminalMax_mm": 0.0532856475
+        },
+        {
+          "case": 11,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 3,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.12211633285519145,
+          "whole40msSyncRMS_mm": 0.01731227887945434,
+          "originHoldTrackingRMSE_mm": 0.06357946575000002,
+          "originHoldSyncRMS_mm": 0.0012110374999999955,
+          "lateOriginMeanPositionRMS_mm": 0.06357946574999998,
+          "lateOriginSyncRMS_mm": 0.001211037499999998,
+          "lateCommandRMS_counts": [
+            170.69751023374653,
+            191.44419552443995
+          ],
+          "terminalMax_mm": 0.0641849845
+        },
+        {
+          "case": 12,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 6,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.19903862062423985,
+          "whole40msSyncRMS_mm": 0.08014892388547722,
+          "originHoldTrackingRMSE_mm": 0.022967232795708822,
+          "originHoldSyncRMS_mm": 0.03878409256788639,
+          "lateOriginMeanPositionRMS_mm": 0.015137968049999992,
+          "lateOriginSyncRMS_mm": 0.008477262099999997,
+          "lateCommandRMS_counts": [
+            94.17717345514252,
+            162.31247641509262
+          ],
+          "terminalMax_mm": 0.0193765991
+        },
+        {
+          "case": 13,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 0,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.07091353009123136,
+          "whole40msSyncRMS_mm": 0.01090756618132574,
+          "originHoldTrackingRMSE_mm": 0.03633112324999998,
+          "originHoldSyncRMS_mm": 0.0024220749000000005,
+          "lateOriginMeanPositionRMS_mm": 0.036331123249999986,
+          "lateOriginSyncRMS_mm": 0.0024220749000000005,
+          "lateCommandRMS_counts": [
+            89.28807311169841,
+            119.60535105086227
+          ],
+          "terminalMax_mm": 0.0375421607
+        },
+        {
+          "case": 14,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 3,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.07219290131307918,
+          "whole40msSyncRMS_mm": 0.009222255689363672,
+          "originHoldTrackingRMSE_mm": 0.041780791800000085,
+          "originHoldSyncRMS_mm": 0.0012110374000000048,
+          "lateOriginMeanPositionRMS_mm": 0.0417807918,
+          "lateOriginSyncRMS_mm": 0.0012110374000000037,
+          "lateCommandRMS_counts": [
+            110.51705750697492,
+            124.82523783273957
+          ],
+          "terminalMax_mm": 0.0423863105
+        },
+        {
+          "case": 15,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 6,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.09923307475333018,
+          "whole40msSyncRMS_mm": 0.05531475842846963,
+          "originHoldTrackingRMSE_mm": 0.046624941550000035,
+          "originHoldSyncRMS_mm": 0.0012110374999999955,
+          "lateOriginMeanPositionRMS_mm": 0.04662494154999997,
+          "lateOriginSyncRMS_mm": 0.001211037499999998,
+          "lateCommandRMS_counts": [
+            148.87377203523798,
+            114.6273091370464
+          ],
+          "terminalMax_mm": 0.0472304603
+        },
+        {
+          "case": 16,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 0,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.11642657557447991,
+          "whole40msSyncRMS_mm": 0.021262878450482713,
+          "originHoldTrackingRMSE_mm": 0.05086357260000009,
+          "originHoldSyncRMS_mm": 0.002422074800000005,
+          "lateOriginMeanPositionRMS_mm": 0.0508635726,
+          "lateOriginSyncRMS_mm": 0.0024220748,
+          "lateCommandRMS_counts": [
+            132.88732068937202,
+            166.24367657147144
+          ],
+          "terminalMax_mm": 0.05207461
+        },
+        {
+          "case": 17,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 3,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.11679158253059109,
+          "whole40msSyncRMS_mm": 0.019692765168964982,
+          "originHoldTrackingRMSE_mm": 0.05752427854999999,
+          "originHoldSyncRMS_mm": 0.0012110374999999955,
+          "lateOriginMeanPositionRMS_mm": 0.05752427854999999,
+          "lateOriginSyncRMS_mm": 0.001211037499999998,
+          "lateCommandRMS_counts": [
+            155.3158716937841,
+            175.94357049918023
+          ],
+          "terminalMax_mm": 0.0581297973
+        },
+        {
+          "case": 18,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 6,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.17391092907002756,
+          "whole40msSyncRMS_mm": 0.08062577131414037,
+          "originHoldTrackingRMSE_mm": 0.007940841860600078,
+          "originHoldSyncRMS_mm": 0.03187905118629959,
+          "lateOriginMeanPositionRMS_mm": 0.004238631049999999,
+          "lateOriginSyncRMS_mm": 0.030275936099999984,
+          "lateCommandRMS_counts": [
+            221.8805985209162,
+            383.1155700307676
+          ],
+          "terminalMax_mm": 0.0193765991
+        },
+        {
+          "case": 19,
+          "massAxisAssumed": 3,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 0,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.07407229576569087,
+          "whole40msSyncRMS_mm": 0.010284454287904672,
+          "originHoldTrackingRMSE_mm": 0.04783597899999991,
+          "originHoldSyncRMS_mm": 0.0012110374000000048,
+          "lateOriginMeanPositionRMS_mm": 0.047835979,
+          "lateOriginSyncRMS_mm": 0.0012110374000000037,
+          "lateCommandRMS_counts": [
+            125.52011790944111,
+            139.4467640355989
+          ],
+          "terminalMax_mm": 0.0484414977
+        },
+        {
+          "case": 20,
+          "massAxisAssumed": 3,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 3,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.12562499004975067,
+          "whole40msSyncRMS_mm": 0.048341622852361814,
+          "originHoldTrackingRMSE_mm": 0.04599981899722905,
+          "originHoldSyncRMS_mm": 0.016907748198413192,
+          "lateOriginMeanPositionRMS_mm": 0.0224041927,
+          "lateOriginSyncRMS_mm": 0.013321411800000004,
+          "lateCommandRMS_counts": [
+            215.07961316684572,
+            24.80604764971639
+          ],
+          "terminalMax_mm": 0.0290648986
+        },
+        {
+          "case": 22,
+          "massAxisAssumed": 3,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 0,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.11903252444185228,
+          "whole40msSyncRMS_mm": 0.01713060127374403,
+          "originHoldTrackingRMSE_mm": 0.06115739084999997,
+          "originHoldSyncRMS_mm": 0.0012110374999999955,
+          "lateOriginMeanPositionRMS_mm": 0.061157390850000035,
+          "lateOriginSyncRMS_mm": 0.001211037499999998,
+          "lateCommandRMS_counts": [
+            163.51544269578943,
+            185.7035810101679
+          ],
+          "terminalMax_mm": 0.0617629096
+        },
+        {
+          "case": 25,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 0,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.07106883107241897,
+          "whole40msSyncRMS_mm": 0.010622852724198002,
+          "originHoldTrackingRMSE_mm": 0.03754216075000004,
+          "originHoldSyncRMS_mm": 0.0024220749000000005,
+          "lateOriginMeanPositionRMS_mm": 0.037542160750000005,
+          "lateOriginSyncRMS_mm": 0.0024220749000000005,
+          "lateCommandRMS_counts": [
+            90.84866537269548,
+            123.86678327945712
+          ],
+          "terminalMax_mm": 0.0387531982
+        },
+        {
+          "case": 26,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 3,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.07425268513663331,
+          "whole40msSyncRMS_mm": 0.010066528696626314,
+          "originHoldTrackingRMSE_mm": 0.046019422800000036,
+          "originHoldSyncRMS_mm": 0.004844149800000001,
+          "lateOriginMeanPositionRMS_mm": 0.04601942279999998,
+          "lateOriginSyncRMS_mm": 0.004844149800000001,
+          "lateCommandRMS_counts": [
+            86.78767193559233,
+            169.1471548681798
+          ],
+          "terminalMax_mm": 0.0484414977
+        },
+        {
+          "case": 27,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 6,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.11356257361032289,
+          "whole40msSyncRMS_mm": 0.04002627262186705,
+          "originHoldTrackingRMSE_mm": 0.013321411900000022,
+          "originHoldSyncRMS_mm": 0.004844149800000001,
+          "lateOriginMeanPositionRMS_mm": 0.013321411899999996,
+          "lateOriginSyncRMS_mm": 0.004844149800000001,
+          "lateCommandRMS_counts": [
+            8.114185110040317,
+            153.69365634273916
+          ],
+          "terminalMax_mm": 0.0157434868
+        },
+        {
+          "case": 28,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 0,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.11582308168063843,
+          "whole40msSyncRMS_mm": 0.020417027207701017,
+          "originHoldTrackingRMSE_mm": 0.051469091349999906,
+          "originHoldSyncRMS_mm": 0.0036331122999999957,
+          "lateOriginMeanPositionRMS_mm": 0.05146909134999999,
+          "lateOriginSyncRMS_mm": 0.0036331122999999966,
+          "lateCommandRMS_counts": [
+            122.34467703991048,
+            179.56425033953724
+          ],
+          "terminalMax_mm": 0.0532856475
+        },
+        {
+          "case": 29,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 3,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.12211633285519145,
+          "whole40msSyncRMS_mm": 0.01731227887945434,
+          "originHoldTrackingRMSE_mm": 0.06357946575000002,
+          "originHoldSyncRMS_mm": 0.0012110374999999955,
+          "lateOriginMeanPositionRMS_mm": 0.06357946574999998,
+          "lateOriginSyncRMS_mm": 0.001211037499999998,
+          "lateCommandRMS_counts": [
+            170.69751023374653,
+            191.44419552443995
+          ],
+          "terminalMax_mm": 0.0641849845
+        },
+        {
+          "case": 31,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 0,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.07091353009123136,
+          "whole40msSyncRMS_mm": 0.01090756618132574,
+          "originHoldTrackingRMSE_mm": 0.03633112324999998,
+          "originHoldSyncRMS_mm": 0.0024220749000000005,
+          "lateOriginMeanPositionRMS_mm": 0.036331123249999986,
+          "lateOriginSyncRMS_mm": 0.0024220749000000005,
+          "lateCommandRMS_counts": [
+            89.28807311169841,
+            119.60535105086227
+          ],
+          "terminalMax_mm": 0.0375421607
+        },
+        {
+          "case": 32,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 3,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.07219290131307918,
+          "whole40msSyncRMS_mm": 0.009222255689363672,
+          "originHoldTrackingRMSE_mm": 0.041780791800000085,
+          "originHoldSyncRMS_mm": 0.0012110374000000048,
+          "lateOriginMeanPositionRMS_mm": 0.0417807918,
+          "lateOriginSyncRMS_mm": 0.0012110374000000037,
+          "lateCommandRMS_counts": [
+            110.51705750697492,
+            124.82523783273957
+          ],
+          "terminalMax_mm": 0.0423863105
+        },
+        {
+          "case": 33,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 6,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.09923307475333018,
+          "whole40msSyncRMS_mm": 0.05531475842846963,
+          "originHoldTrackingRMSE_mm": 0.046624941550000035,
+          "originHoldSyncRMS_mm": 0.0012110374999999955,
+          "lateOriginMeanPositionRMS_mm": 0.04662494154999997,
+          "lateOriginSyncRMS_mm": 0.001211037499999998,
+          "lateCommandRMS_counts": [
+            148.87377203523798,
+            114.6273091370464
+          ],
+          "terminalMax_mm": 0.0472304603
+        },
+        {
+          "case": 34,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 0,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.11642657557447991,
+          "whole40msSyncRMS_mm": 0.021262878450482713,
+          "originHoldTrackingRMSE_mm": 0.05086357260000009,
+          "originHoldSyncRMS_mm": 0.002422074800000005,
+          "lateOriginMeanPositionRMS_mm": 0.0508635726,
+          "lateOriginSyncRMS_mm": 0.0024220748,
+          "lateCommandRMS_counts": [
+            132.88732068937202,
+            166.24367657147144
+          ],
+          "terminalMax_mm": 0.05207461
+        },
+        {
+          "case": 35,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 3,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.11679158253059109,
+          "whole40msSyncRMS_mm": 0.019692765168964982,
+          "originHoldTrackingRMSE_mm": 0.05752427854999999,
+          "originHoldSyncRMS_mm": 0.0012110374999999955,
+          "lateOriginMeanPositionRMS_mm": 0.05752427854999999,
+          "lateOriginSyncRMS_mm": 0.001211037499999998,
+          "lateCommandRMS_counts": [
+            155.3158716937841,
+            175.94357049918023
+          ],
+          "terminalMax_mm": 0.0581297973
+        },
+        {
+          "case": 36,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 6,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.21792977079784215,
+          "whole40msSyncRMS_mm": 0.1269087861418583,
+          "originHoldTrackingRMSE_mm": 0.11447792240917906,
+          "originHoldSyncRMS_mm": 0.1404259405306016,
+          "lateOriginMeanPositionRMS_mm": 0.07618787562537921,
+          "lateOriginSyncRMS_mm": 0.1678133494927131,
+          "lateCommandRMS_counts": [
+            260.5299982727517,
+            440.3976385041137
+          ],
+          "terminalMax_mm": 0.199821178
+        }
+      ],
+      "distributions": {
+        "originHoldTrackingRMSE_mm": {
+          "N": 30,
+          "mean": 0.047290573500013394,
+          "median": 0.046624941550000035,
+          "range": [
+            0.007940841860600078,
+            0.11447792240917906
+          ]
+        },
+        "originHoldSyncRMS_mm": {
+          "N": 30,
+          "mean": 0.013490956915770378,
+          "median": 0.0024220749000000005,
+          "range": [
+            0.0012110374000000048,
+            0.1404259405306016
+          ]
+        },
+        "lateOriginMeanPositionRMS_mm": {
+          "N": 30,
+          "mean": 0.04409923694768267,
+          "median": 0.04662494154999997,
+          "range": [
+            0.004238631049999999,
+            0.07618787562537921
+          ]
+        },
+        "lateOriginSyncRMS_mm": {
+          "N": 30,
+          "mean": 0.013105278947170501,
+          "median": 0.0024220749000000005,
+          "range": [
+            0.0012110374000000037,
+            0.1678133494927131
+          ]
+        },
+        "terminalMax_mm": {
+          "N": 30,
+          "mean": 0.05332601539999999,
+          "median": 0.0484414977,
+          "range": [
+            0.0157434868,
+            0.199821178
+          ]
+        }
+      },
+      "scenarioHasOnly1200_1200": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "sameLimitDistributions": {
+        "whole40msTrackingRMSE_mm": {
+          "N": 16,
+          "mean": 0.11527102318940084,
+          "median": 0.11612482862755917,
+          "range": [
+            0.07091353009123136,
+            0.19903862062423985
+          ]
+        },
+        "whole40msSyncRMS_mm": {
+          "N": 16,
+          "mean": 0.03393407542331302,
+          "median": 0.020054896188332998,
+          "range": [
+            0.009222255689363672,
+            0.09156864911092671
+          ]
+        },
+        "lateOriginMeanPositionRMS_mm": {
+          "N": 16,
+          "mean": 0.04189596312219379,
+          "median": 0.046322182174999976,
+          "range": [
+            0.004238631049999999,
+            0.07450498800510078
+          ]
+        },
+        "lateOriginSyncRMS_mm": {
+          "N": 16,
+          "mean": 0.011510609113900118,
+          "median": 0.0024220749000000005,
+          "range": [
+            0.0012110374000000037,
+            0.10424127452240188
+          ]
+        },
+        "terminalMax_mm": {
+          "N": 16,
+          "mean": 0.0501823640375,
+          "median": 0.047835979,
+          "range": [
+            0.0157434868,
+            0.167123167
+          ]
+        }
+      }
+    },
+    {
+      "method": "S3R2",
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\final_method_evidence_round56_20261014\\checks02\\S3R2_float.json",
+      "SHA256": "30426c974b90fe56dedca6a5df629773c82d2c74d69909aaa1aff0f673e62c98",
+      "conditionalPopulationN": 30,
+      "all36FailureOutcomesPreviouslyRetained": true,
+      "cases": [
+        {
+          "case": 1,
+          "massAxisAssumed": 3,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 0,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.15346018620476135,
+          "whole40msSyncRMS_mm": 0.03753005462292831,
+          "originHoldTrackingRMSE_mm": 0.11531491067244999,
+          "originHoldSyncRMS_mm": 0.02281169396179987,
+          "lateOriginMeanPositionRMS_mm": 0.110809926,
+          "lateOriginSyncRMS_mm": 0.008477262,
+          "lateCommandRMS_counts": [
+            227.37546041734583,
+            255.07261711128461
+          ],
+          "terminalMax_mm": 0.115048557
+        },
+        {
+          "case": 2,
+          "massAxisAssumed": 3,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 3,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.1563047104216637,
+          "whole40msSyncRMS_mm": 0.041251545425596,
+          "originHoldTrackingRMSE_mm": 0.11444303819999992,
+          "originHoldSyncRMS_mm": 0.03512008560000004,
+          "lateOriginMeanPositionRMS_mm": 0.11444303820000003,
+          "lateOriginSyncRMS_mm": 0.035120085599999976,
+          "lateCommandRMS_counts": [
+            35.38078574593843,
+            448.3414546971984
+          ],
+          "terminalMax_mm": 0.132003081
+        },
+        {
+          "case": 4,
+          "massAxisAssumed": 3,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 0,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.2193265886754276,
+          "whole40msSyncRMS_mm": 0.03796340343014564,
+          "originHoldTrackingRMSE_mm": 0.12958100600000005,
+          "originHoldSyncRMS_mm": 0.016954524000000002,
+          "lateOriginMeanPositionRMS_mm": 0.12958100600000005,
+          "lateOriginSyncRMS_mm": 0.016954524000000006,
+          "lateCommandRMS_counts": [
+            293.36216524971314,
+            448.4212974424832
+          ],
+          "terminalMax_mm": 0.138058268
+        },
+        {
+          "case": 5,
+          "massAxisAssumed": 3,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 3,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.3788517049915441,
+          "whole40msSyncRMS_mm": 0.09046218823353812,
+          "originHoldTrackingRMSE_mm": 0.4704880465000006,
+          "originHoldSyncRMS_mm": 0.044808385,
+          "lateOriginMeanPositionRMS_mm": 0.47048804650000015,
+          "lateOriginSyncRMS_mm": 0.04480838500000003,
+          "lateCommandRMS_counts": [
+            565.6013790647968,
+            800.1208158772024
+          ],
+          "terminalMax_mm": 0.492892239
+        },
+        {
+          "case": 7,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 0,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.08386322570113797,
+          "whole40msSyncRMS_mm": 0.01744197523218054,
+          "originHoldTrackingRMSE_mm": 0.06236842835000002,
+          "originHoldSyncRMS_mm": 0.008477262100000013,
+          "lateOriginMeanPositionRMS_mm": 0.06236842835000003,
+          "lateOriginSyncRMS_mm": 0.008477262099999997,
+          "lateCommandRMS_counts": [
+            214.859163174392,
+            312.3091096974278
+          ],
+          "terminalMax_mm": 0.0666070594
+        },
+        {
+          "case": 8,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 3,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.13144950551447473,
+          "whole40msSyncRMS_mm": 0.056899384882439626,
+          "originHoldTrackingRMSE_mm": 0.12573954527603778,
+          "originHoldSyncRMS_mm": 0.09015537285313203,
+          "lateOriginMeanPositionRMS_mm": 0.07387328377999998,
+          "lateOriginSyncRMS_mm": 0.15016864244000003,
+          "lateCommandRMS_counts": [
+            110.15888525216656,
+            502.4408024832378
+          ],
+          "terminalMax_mm": 0.148957605
+        },
+        {
+          "case": 9,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 6,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.10057394667606585,
+          "whole40msSyncRMS_mm": 0.07516990754284572,
+          "originHoldTrackingRMSE_mm": 0.0030275936000000035,
+          "originHoldSyncRMS_mm": 0.07387328400000011,
+          "lateOriginMeanPositionRMS_mm": 0.0030275935999999983,
+          "lateOriginSyncRMS_mm": 0.07387328399999998,
+          "lateCommandRMS_counts": [
+            366.9019214994656,
+            312.0881606213219
+          ],
+          "terminalMax_mm": 0.0399642356
+        },
+        {
+          "case": 10,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 0,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.13982319639459023,
+          "whole40msSyncRMS_mm": 0.03456812115229854,
+          "originHoldTrackingRMSE_mm": 0.09809403309999991,
+          "originHoldSyncRMS_mm": 0.014532449799999982,
+          "lateOriginMeanPositionRMS_mm": 0.09809403309999995,
+          "lateOriginSyncRMS_mm": 0.014532449799999994,
+          "lateCommandRMS_counts": [
+            265.60233432709134,
+            413.5808264414587
+          ],
+          "terminalMax_mm": 0.105360258
+        },
+        {
+          "case": 11,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 3,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.24916478232286485,
+          "whole40msSyncRMS_mm": 0.053194219610781315,
+          "originHoldTrackingRMSE_mm": 0.14108586200000006,
+          "originHoldSyncRMS_mm": 0.008477261999999996,
+          "lateOriginMeanPositionRMS_mm": 0.14108586200000006,
+          "lateOriginSyncRMS_mm": 0.00847726199999999,
+          "lateCommandRMS_counts": [
+            356.7418394301403,
+            453.00132450137494
+          ],
+          "terminalMax_mm": 0.145324493
+        },
+        {
+          "case": 12,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 6,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.29588097374620104,
+          "whole40msSyncRMS_mm": 0.10580951044211497,
+          "originHoldTrackingRMSE_mm": 0.3433291149999997,
+          "originHoldSyncRMS_mm": 0.1053602580000001,
+          "lateOriginMeanPositionRMS_mm": 0.34332911499999996,
+          "lateOriginSyncRMS_mm": 0.10536025800000005,
+          "lateCommandRMS_counts": [
+            171.50463550586613,
+            736.4205727707504
+          ],
+          "terminalMax_mm": 0.396009244
+        },
+        {
+          "case": 13,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 0,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.08121538108634313,
+          "whole40msSyncRMS_mm": 0.016835453661841044,
+          "originHoldTrackingRMSE_mm": 0.05691875979999992,
+          "originHoldSyncRMS_mm": 0.007266224599999994,
+          "lateOriginMeanPositionRMS_mm": 0.056918759799999996,
+          "lateOriginSyncRMS_mm": 0.0072662246,
+          "lateCommandRMS_counts": [
+            205.38120654042328,
+            288.8594814092139
+          ],
+          "terminalMax_mm": 0.0605518721
+        },
+        {
+          "case": 14,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 3,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.09297817956380906,
+          "whole40msSyncRMS_mm": 0.011807942242406187,
+          "originHoldTrackingRMSE_mm": 0.07629535890000005,
+          "originHoldSyncRMS_mm": 0.0024220748000000096,
+          "lateOriginMeanPositionRMS_mm": 0.07629535889999998,
+          "lateOriginSyncRMS_mm": 0.0024220748000000074,
+          "lateCommandRMS_counts": [
+            255.36855718745016,
+            272.9752003387854
+          ],
+          "terminalMax_mm": 0.0775063963
+        },
+        {
+          "case": 15,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 6,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.1282086629288366,
+          "whole40msSyncRMS_mm": 0.06827455602199115,
+          "originHoldTrackingRMSE_mm": 0.04698479333080104,
+          "originHoldSyncRMS_mm": 0.07339000147401267,
+          "lateOriginMeanPositionRMS_mm": 0.030881454770000007,
+          "lateOriginSyncRMS_mm": 0.07629535886000002,
+          "lateCommandRMS_counts": [
+            126.14840466688432,
+            396.4610699677838
+          ],
+          "terminalMax_mm": 0.0690291342
+        },
+        {
+          "case": 16,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 0,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.13554393890912242,
+          "whole40msSyncRMS_mm": 0.03364086057163218,
+          "originHoldTrackingRMSE_mm": 0.08780021459999997,
+          "originHoldSyncRMS_mm": 0.018165561599999977,
+          "lateOriginMeanPositionRMS_mm": 0.08780021460000002,
+          "lateOriginSyncRMS_mm": 0.01816556160000001,
+          "lateCommandRMS_counts": [
+            222.74267664729183,
+            406.22149130739007
+          ],
+          "terminalMax_mm": 0.0968829954
+        },
+        {
+          "case": 17,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 3,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.16926627691303367,
+          "whole40msSyncRMS_mm": 0.023702531510368212,
+          "originHoldTrackingRMSE_mm": 0.14411345599999986,
+          "originHoldSyncRMS_mm": 0.004844149999999982,
+          "lateOriginMeanPositionRMS_mm": 0.14411345599999995,
+          "lateOriginSyncRMS_mm": 0.004844149999999992,
+          "lateCommandRMS_counts": [
+            395.06508324578624,
+            419.3556962770388
+          ],
+          "terminalMax_mm": 0.146535531
+        },
+        {
+          "case": 18,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 6,
+          "rightLimit": 1200,
+          "whole40msTrackingRMSE_mm": 0.24063796848170158,
+          "whole40msSyncRMS_mm": 0.10258853493446546,
+          "originHoldTrackingRMSE_mm": 0.10435748164781364,
+          "originHoldSyncRMS_mm": 0.09201680004176019,
+          "lateOriginMeanPositionRMS_mm": 0.09506643929999996,
+          "lateOriginSyncRMS_mm": 0.08840573340000007,
+          "lateCommandRMS_counts": [
+            17.045233937966355,
+            474.14151895821146
+          ],
+          "terminalMax_mm": 0.139269306
+        },
+        {
+          "case": 19,
+          "massAxisAssumed": 3,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 0,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.15346018620476135,
+          "whole40msSyncRMS_mm": 0.03753005462292831,
+          "originHoldTrackingRMSE_mm": 0.11531491067244999,
+          "originHoldSyncRMS_mm": 0.02281169396179987,
+          "lateOriginMeanPositionRMS_mm": 0.110809926,
+          "lateOriginSyncRMS_mm": 0.008477262,
+          "lateCommandRMS_counts": [
+            227.37546041734583,
+            255.07261711128461
+          ],
+          "terminalMax_mm": 0.115048557
+        },
+        {
+          "case": 20,
+          "massAxisAssumed": 3,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 3,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.1563047104216637,
+          "whole40msSyncRMS_mm": 0.041251545425596,
+          "originHoldTrackingRMSE_mm": 0.11444303819999992,
+          "originHoldSyncRMS_mm": 0.03512008560000004,
+          "lateOriginMeanPositionRMS_mm": 0.11444303820000003,
+          "lateOriginSyncRMS_mm": 0.035120085599999976,
+          "lateCommandRMS_counts": [
+            35.38078574593843,
+            448.3414546971984
+          ],
+          "terminalMax_mm": 0.132003081
+        },
+        {
+          "case": 22,
+          "massAxisAssumed": 3,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 0,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.2057306552266826,
+          "whole40msSyncRMS_mm": 0.03680584192760698,
+          "originHoldTrackingRMSE_mm": 0.12049822550000008,
+          "originHoldSyncRMS_mm": 0.013321411000000023,
+          "lateOriginMeanPositionRMS_mm": 0.12049822550000006,
+          "lateOriginSyncRMS_mm": 0.013321411000000005,
+          "lateCommandRMS_counts": [
+            308.2222250260354,
+            435.5807847001518
+          ],
+          "terminalMax_mm": 0.127158931
+        },
+        {
+          "case": 25,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 0,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.08386322570113797,
+          "whole40msSyncRMS_mm": 0.01744197523218054,
+          "originHoldTrackingRMSE_mm": 0.06236842835000002,
+          "originHoldSyncRMS_mm": 0.008477262100000013,
+          "lateOriginMeanPositionRMS_mm": 0.06236842835000003,
+          "lateOriginSyncRMS_mm": 0.008477262099999997,
+          "lateCommandRMS_counts": [
+            214.859163174392,
+            312.3091096974278
+          ],
+          "terminalMax_mm": 0.0666070594
+        },
+        {
+          "case": 26,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 3,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.13144950551447473,
+          "whole40msSyncRMS_mm": 0.056899384882439626,
+          "originHoldTrackingRMSE_mm": 0.12573954527603778,
+          "originHoldSyncRMS_mm": 0.09015537285313203,
+          "lateOriginMeanPositionRMS_mm": 0.07387328377999998,
+          "lateOriginSyncRMS_mm": 0.15016864244000003,
+          "lateCommandRMS_counts": [
+            110.15888525216656,
+            502.4408024832378
+          ],
+          "terminalMax_mm": 0.148957605
+        },
+        {
+          "case": 27,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 6,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.16706708046470464,
+          "whole40msSyncRMS_mm": 0.057439163468838775,
+          "originHoldTrackingRMSE_mm": 0.16772868599999982,
+          "originHoldSyncRMS_mm": 0.04480838600000004,
+          "lateOriginMeanPositionRMS_mm": 0.16772868600000007,
+          "lateOriginSyncRMS_mm": 0.04480838600000002,
+          "lateCommandRMS_counts": [
+            84.87367082906218,
+            511.46082938970017
+          ],
+          "terminalMax_mm": 0.190132879
+        },
+        {
+          "case": 28,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 0,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.13583122569939465,
+          "whole40msSyncRMS_mm": 0.041325143677911125,
+          "originHoldTrackingRMSE_mm": 0.09385540199999996,
+          "originHoldSyncRMS_mm": 0.018165561999999986,
+          "lateOriginMeanPositionRMS_mm": 0.09385540199999996,
+          "lateOriginSyncRMS_mm": 0.01816556199999999,
+          "lateCommandRMS_counts": [
+            233.40171378976635,
+            412.4014063991538
+          ],
+          "terminalMax_mm": 0.102938183
+        },
+        {
+          "case": 29,
+          "massAxisAssumed": 6,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 3,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.2695374324653246,
+          "whole40msSyncRMS_mm": 0.07630727357205234,
+          "originHoldTrackingRMSE_mm": 0.27974964950000003,
+          "originHoldSyncRMS_mm": 0.002422074999999964,
+          "lateOriginMeanPositionRMS_mm": 0.27974964950000003,
+          "lateOriginSyncRMS_mm": 0.002422074999999967,
+          "lateCommandRMS_counts": [
+            588.6611079390246,
+            526.2265101645869
+          ],
+          "terminalMax_mm": 0.280960687
+        },
+        {
+          "case": 31,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 0,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.08121538108634313,
+          "whole40msSyncRMS_mm": 0.016835453661841044,
+          "originHoldTrackingRMSE_mm": 0.05691875979999992,
+          "originHoldSyncRMS_mm": 0.007266224599999994,
+          "lateOriginMeanPositionRMS_mm": 0.056918759799999996,
+          "lateOriginSyncRMS_mm": 0.0072662246,
+          "lateCommandRMS_counts": [
+            205.38120654042328,
+            288.8594814092139
+          ],
+          "terminalMax_mm": 0.0605518721
+        },
+        {
+          "case": 32,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 3,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.09297817956380906,
+          "whole40msSyncRMS_mm": 0.011807942242406187,
+          "originHoldTrackingRMSE_mm": 0.07629535890000005,
+          "originHoldSyncRMS_mm": 0.0024220748000000096,
+          "lateOriginMeanPositionRMS_mm": 0.07629535889999998,
+          "lateOriginSyncRMS_mm": 0.0024220748000000074,
+          "lateCommandRMS_counts": [
+            255.36855718745016,
+            272.9752003387854
+          ],
+          "terminalMax_mm": 0.0775063963
+        },
+        {
+          "case": 33,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 400,
+          "delay_ms": 6,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.1282086629288366,
+          "whole40msSyncRMS_mm": 0.06827455602199115,
+          "originHoldTrackingRMSE_mm": 0.04698479333080104,
+          "originHoldSyncRMS_mm": 0.07339000147401267,
+          "lateOriginMeanPositionRMS_mm": 0.030881454770000007,
+          "lateOriginSyncRMS_mm": 0.07629535886000002,
+          "lateCommandRMS_counts": [
+            126.14840466688432,
+            396.4610699677838
+          ],
+          "terminalMax_mm": 0.0690291342
+        },
+        {
+          "case": 34,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 0,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.13548227282563607,
+          "whole40msSyncRMS_mm": 0.039744119061818343,
+          "originHoldTrackingRMSE_mm": 0.09082780824999999,
+          "originHoldSyncRMS_mm": 0.014532449300000012,
+          "lateOriginMeanPositionRMS_mm": 0.09082780825000002,
+          "lateOriginSyncRMS_mm": 0.014532449300000003,
+          "lateCommandRMS_counts": [
+            256.6422412620339,
+            406.22149130739007
+          ],
+          "terminalMax_mm": 0.0980940329
+        },
+        {
+          "case": 35,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 3,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.16158366060650983,
+          "whole40msSyncRMS_mm": 0.02343432311802507,
+          "originHoldTrackingRMSE_mm": 0.11807615050000009,
+          "originHoldSyncRMS_mm": 0.006055187000000006,
+          "lateOriginMeanPositionRMS_mm": 0.11807615049999998,
+          "lateOriginSyncRMS_mm": 0.006055187000000006,
+          "lateCommandRMS_counts": [
+            361.78477027094436,
+            427.1215283733659
+          ],
+          "terminalMax_mm": 0.121103744
+        },
+        {
+          "case": 36,
+          "massAxisAssumed": 9,
+          "frictionCountsAssumed": 600,
+          "delay_ms": 6,
+          "rightLimit": 800,
+          "whole40msTrackingRMSE_mm": 0.3025357664805927,
+          "whole40msSyncRMS_mm": 0.10617264242732205,
+          "originHoldTrackingRMSE_mm": 0.2960986550000002,
+          "originHoldSyncRMS_mm": 0.12231478199999989,
+          "lateOriginMeanPositionRMS_mm": 0.29609865500000004,
+          "lateOriginSyncRMS_mm": 0.12231478200000002,
+          "lateCommandRMS_counts": [
+            109.95089813184794,
+            705.2808235022416
+          ],
+          "terminalMax_mm": 0.357256046
+        }
+      ],
+      "distributions": {
+        "originHoldTrackingRMSE_mm": {
+          "N": 30,
+          "mean": 0.12949470180854636,
+          "median": 0.11444303819999992,
+          "range": [
+            0.0030275936000000035,
+            0.4704880465000006
+          ]
+        },
+        "originHoldSyncRMS_mm": {
+          "N": 30,
+          "mean": 0.03599793191732163,
+          "median": 0.01816556179999998,
+          "range": [
+            0.0024220748000000096,
+            0.12231478199999989
+          ]
+        },
+        "lateOriginMeanPositionRMS_mm": {
+          "N": 30,
+          "mean": 0.12435336141500002,
+          "median": 0.09658023619999995,
+          "range": [
+            0.0030275935999999983,
+            0.47048804650000015
+          ]
+        },
+        "lateOriginSyncRMS_mm": {
+          "N": 30,
+          "mean": 0.03911650936333335,
+          "median": 0.0157434869,
+          "range": [
+            0.0024220748000000074,
+            0.15016864244000003
+          ]
+        },
+        "terminalMax_mm": {
+          "N": 30,
+          "mean": 0.1439116160966667,
+          "median": 0.1180761505,
+          "range": [
+            0.0399642356,
+            0.492892239
+          ]
+        }
+      },
+      "scenarioHasOnly1200_1200": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "sameLimitDistributions": {
+        "whole40msTrackingRMSE_mm": {
+          "N": 16,
+          "mean": 0.1722843267832236,
+          "median": 0.1466416912996758,
+          "range": [
+            0.08121538108634313,
+            0.3788517049915441
+          ]
+        },
+        "whole40msSyncRMS_mm": {
+          "N": 16,
+          "mean": 0.05044626184484831,
+          "median": 0.039607474427870826,
+          "range": [
+            0.011807942242406187,
+            0.10580951044211497
+          ]
+        },
+        "lateOriginMeanPositionRMS_mm": {
+          "N": 16,
+          "mean": 0.12738600099375003,
+          "median": 0.09658023619999995,
+          "range": [
+            0.0030275935999999983,
+            0.47048804650000015
+          ]
+        },
+        "lateOriginSyncRMS_mm": {
+          "N": 16,
+          "mean": 0.041478032387500016,
+          "median": 0.01756004280000001,
+          "range": [
+            0.0024220748000000074,
+            0.15016864244000003
+          ]
+        },
+        "terminalMax_mm": {
+          "N": 16,
+          "mean": 0.1481250171875,
+          "median": 0.123525819,
+          "range": [
+            0.0399642356,
+            0.492892239
+          ]
+        }
+      }
+    }
+  ],
+  "sameLimitComparison": {
+    "whole40msTrackingRMSE_mm": {
+      "BLNN": 0.11527102318940084,
+      "S3R2": 0.1722843267832236,
+      "change_pct": 49.460221672661554
+    },
+    "whole40msSyncRMS_mm": {
+      "BLNN": 0.03393407542331302,
+      "S3R2": 0.05044626184484831,
+      "change_pct": 48.65960311442954
+    }
+  },
+  "sameLimitStillNotMatchedIdentifiedPlant": true,
+  "configuredKinematics": {
+    "radius_m": 0.03,
+    "gearRatio": 19,
+    "encoderCPR": 8192,
+    "mmPerRpmPerSecond": 0.16534698176788384
+  },
+  "existingHighRateEvidence": {
+    "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\identification_resolution_audit_round47_20261014\\audit.json",
+    "SHA256": "a9f666500a3b628a4a7321cf624d2026e9208ae08d5651e7b1875e5ae0303d77",
+    "captured1msIntervals": 400,
+    "fullRun1msIntervals": 20000,
+    "fullRun1msCommandShapeAvailable": false,
+    "captured20msIntervalCommandRanges_counts": [
+      792,
+      512
+    ],
+    "sameT1InputCandidateModelSyncPredictionRangeRMS_mm": 0.04852315613175066,
+    "notIndependentValidation": true,
+    "notThe36AssumedModelPredictionError": true,
+    "recentMeasuredSyncRMSBenefits_mm": [
+      0.006270652305236761,
+      0.004658752785631819
+    ],
+    "diagnosticSpreadToBenefitScaleRatio": [
+      7.738135327839481,
+      10.415482075246016
+    ],
+    "ratioIsIllustrativeNotFormalErrorBudgetOrStatisticalTest": true
+  },
+  "modelAssumptionsNotIdentified": {
+    "massAxisValues": [
+      3,
+      6,
+      9
+    ],
+    "staticFrictionCounts": [
+      400,
+      600
+    ],
+    "rightFrictionMultiplier": 1.4,
+    "slidingFrictionFractionOfStatic": 0.2,
+    "couplingStiffnessAssumed": 2000,
+    "couplingDampingAssumed": 40,
+    "feedbackDelay_ms": [
+      0,
+      3,
+      6
+    ],
+    "ESCspeedFilter_s": 0.003,
+    "currentDynamicsPerStepBlend": 0.3333333333333333,
+    "RPMNoise": "Deterministic+1every19steps",
+    "torqueCountToForceAssumed": 0.006197916666666667,
+    "missingSupplyVoltageAndMeasuredDriveTransfer": true,
+    "noIndependentCarriagePosition": true,
+    "frictionCountsDoNotRepresentCalibratedAmperes": true
+  },
+  "boundaries": [
+    "Latehold stage comparison diagnoses modelbehavior only; not a new primary metric or a task tolerance.",
+    "Encoder/RPM integration in128ms windows includes quantization,estimator dynamics and CAN age. Not evidence of the exact sensor error or a hardware fault.",
+    "BLNN5s andS3R218s events are unmatched; no comparative cause claim.",
+    "40ms samples cannot reconstruct arbitrary1ms actuation or current dynamics.",
+    "No fitting or selecting a model on either favourable physical comparison. No new models or tests requested."
+  ],
+  "noParametersChanged": true,
+  "noModelsFitted": true,
+  "noFirmwareChanged": true,
+  "noRawChanged": true,
+  "noHardwareAction": true,
+  "controllerDirectionUnchanged": true,
+  "auditSHA256": "8ed5b07b125a39a976d3724a047cc80a8be0a1869f67ab6ffd41332e27bc6fde"
+}

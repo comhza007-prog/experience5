@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-15",
+  "purpose": "User-authorized continued offline correction. Test ONE targeted missing-force hypothesis: a pair of global neutral-command biases shared across all records, in addition to the already tested static/kinetic model. Biases are fitted effective coefficients, NOT measured external loads or output offsets.",
+  "records": [
+    {
+      "name": "T1",
+      "decoded": "identification_t1_fullmoving_round70_20261015/build68112_d1184a41428b_analysis.json",
+      "rawSHA256": "d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0",
+      "prefixRows": 0,
+      "nativeSamples": 400
+    },
+    {
+      "name": "Q2_run02",
+      "decoded": "q2_mechanical_recheck_round73_20261015/build68012_84bbb6e34165_analysis.json",
+      "rawSHA256": "84bbb6e3416540a238354d7636a6bc4e6f5ba0cd2d090470e3eb1bba1ce153db",
+      "prefixRows": 1,
+      "nativeSamples": 400
+    },
+    {
+      "name": "Q2_run03",
+      "decoded": "q2_frozen_r79_check_round80_20261015/capture_analysis.json",
+      "rawSHA256": "e8b6c897381bf15a77d4543d36f8564bab4318ae633bad56fc08b061fd173567",
+      "prefixRows": 1,
+      "nativeSamples": 399
+    }
+  ],
+  "sourceParametersFile": "tracking_refine_round82_20261015/multistart_results.json",
+  "sourceParametersSHA256": "771775498e7377ef299824ac113b01925f915df9535e20e90aa95f92256c673a",
+  "initialParameters11": [
+    0.0000031691579522220633,
+    0.00000213387874338256,
+    1.265098117923005,
+    0.016817496895694097,
+    8.91426487514801,
+    2.1276808054881156,
+    0.00042385342096730124,
+    0.00010411953057007327,
+    -0.8908937132783417,
+    0.00017129541561105227,
+    0.0008576326703864327
+  ],
+  "parameterNames": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "staticExtraL",
+    "staticExtraR",
+    "neutralCommandL",
+    "neutralCommandR"
+  ],
+  "parameterScales": [
+    0.00001,
+    0.00001,
+    10,
+    10,
+    1000,
+    100,
+    0.01,
+    0.01,
+    0.2,
+    0.001,
+    0.001,
+    100,
+    100
+  ],
+  "lowerBounds": [
+    1e-7,
+    1e-7,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -0.95,
+    0,
+    0,
+    -600,
+    -600
+  ],
+  "upperBounds": [
+    0.001,
+    0.001,
+    1000,
+    1000,
+    100000,
+    10000,
+    1,
+    1,
+    0.95,
+    0.1,
+    0.1,
+    600,
+    600
+  ],
+  "recordWeights": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "waveformScale_mm": [
+    0.05,
+    0.05
+  ],
+  "metricRelativeScale": 0.1,
+  "objective": "Same normalized full-record waveform plus task-statistic calibration loss as R79, now equal-weighted over all three complete motion/holding snapshots. All native observed samples used:400/400/399. No absent native point imputed. Select lowest full cumulative calibration objective among declared candidates; report every record's before/after metrics and waveform errors.",
+  "stictionRule": "Use only simulated velocity, with fixed 1e-12 m/s numerical-zero tolerance. At rest OR when a kinetic-only trial crosses zero within the step, allow static reaction up to kinetic+extra and prefer feasible sticking. Otherwise use kinetic friction. This is an event-capture approximation, not phase-specific freezing or measured-velocity feedback. Numerical prototype omitting within-step capture retained separately.",
+  "forceLaw": "force_i=gain_i*(queued_command_i-neutralCommand_i). The same neutralCommand vector is used at every time and in all three records, including initial zero-command hold. No phase-dependent correction, no measured-state feedback and no output adjustment.",
+  "biasSeeds_counts": [
+    [
+      0,
+      0
+    ],
+    [
+      100,
+      0
+    ]
+  ],
+  "seedMeaning": "Zero-bias nesting and one declared100-count starting hypothesis for the new left-axis hold imbalance; not identified hardware current offset. Every start retained.",
+  "optimizer": {
+    "maximumIterations": 1000,
+    "maximumEvaluationsPerSeed": 1800,
+    "simplexStep": 0.03
+  },
+  "boundsMeaning": "Numerical exploration bounds, not measured physical tolerances.",
+  "inputLimitations": "Moving inputs 1ms recorded queued commands; hold inputs 40-step means, not recovered 1ms waveforms. Command-to-delivered-torque mapping uncalibrated.",
+  "recordingLimitations": "Run03 has one missing phase3 native CSV frame and 7.08s completion tail; its 8000 moving and300hold records have CRC verified four-copy recovery. T1 tail6.88s. These limitations are retained, not recast as full-protocol-qualified captures.",
+  "allThreeRecordsAreCalibration": true,
+  "independentValidation": false,
+  "newPhysicalRunReleased": false,
+  "firmwareChanged": false
+}

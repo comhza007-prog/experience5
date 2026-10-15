@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-15",
+  "auditSHA256": "351ba35c5efb416d40c4b23f1c2942f212e06ac446b86be023bdcc6d9639a1c6",
+  "verification": {
+    "passed": true,
+    "independentWindowAxisChecks": 63456,
+    "independentReleaseClusters": 27,
+    "loadedReleaseCounts": [
+      {
+        "record": "T1",
+        "loadedReleaseClusters": 23
+      },
+      {
+        "record": "newQ2",
+        "loadedReleaseClusters": 4
+      }
+    ],
+    "allRawDecodedModelAndSevenControlSourceHashesPreserved": true,
+    "modelsFitted": 0,
+    "physicalFrictionIdentified": false,
+    "hardwareAction": false
+  },
+  "encoderResolution_mm": 0.0012110374427720672,
+  "windowSteps": [
+    20,
+    50
+  ],
+  "loadedThreshold_counts": 50,
+  "newQ250stepLowMotionSSEOverlap_pct": [
+    {
+      "phase": 2,
+      "lowMotionNativeSamples": 21,
+      "nativeSamplesWithFullWindow": 98,
+      "syncPredictionSSEOverlap_percent": 1.1609791782380796
+    },
+    {
+      "phase": 4,
+      "lowMotionNativeSamples": 30,
+      "nativeSamplesWithFullWindow": 98,
+      "syncPredictionSSEOverlap_percent": 2.0519791849383116
+    }
+  ],
+  "interpretation": "Finite-resolution low-motion and subsequent displacement events exist inboth records. Counts are within-run descriptive clusters,not independent repetitions. Small contemporaneous SSEoverlap does NOT bound causal friction contribution: errors can persist after release. Neither intrinsic staticfriction nor backlash nor its predominance has been identified. Do not add friction-memory parameters just to matchRMS.",
+  "nextStep": "Offline feasibility/information design only for more closely synchronized queuedcommand,encoder andESC reportedcurrent capture during motion/release. Assess recorderRAM,precision,exceptions,transport andtasktiming before requesting any additional manual run. Aim at one targeted capture only if justified; not a batch or promise of closure. Preserve existingRPM observations and do not equate reportedcurrent with calibrated deliveredtorque.",
+  "modelClosureComplete": false,
+  "controllerChanged": false,
+  "newPhysicalCaptureApproved": false,
+  "additionalFrictionModelApproved": false
+}

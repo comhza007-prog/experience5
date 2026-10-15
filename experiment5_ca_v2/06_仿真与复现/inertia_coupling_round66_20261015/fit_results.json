@@ -1,0 +1,3333 @@
+{
+  "date": "2026-10-15",
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run01.csv",
+  "sourceSHA256": "0b743a60e6edce1ea432c30ae54acaac4f96972ede9262022bfbd116e6c4aa3b",
+  "protocolSHA256": "90ea70cdb9911a8e1448c090915aa713505493d82745c1fa70c259e93063ecaa",
+  "previousFitSHA256": "726a8ee77403b36dfc3263893007875cb7368f896a4ec5e832c284db1e45246f",
+  "nativeSolverSourceSHA256": "0e8760653451059b0843da456ae23179909a27f25d5300db78051c3db33f34fb",
+  "nativeLibrarySHA256": "48405f957eabf032172f8f77898ce2825ac928d6693964aa5a916777ae51b377",
+  "fitScriptSHA256": "5988b2e8230c9a523fff15f92f63523647ff6b9f77b30a78b4f312d68c02b509",
+  "referenceSHA256": "b301b58b34eab4df0cc65e9d92865c08d35c3943c747e0af3395a08d7526cbbf",
+  "sameMechanicalStructure": false,
+  "addedCoefficients": 1,
+  "candidateBranches": 1,
+  "ordinaryOnly": true,
+  "S3R2DataRead": false,
+  "observedPoints": 8300,
+  "elapsedTimeWeightedLoss": true,
+  "notIndependentObservationCount": true,
+  "fit": {
+    "parameters": [
+      0.000036917129770177045,
+      0.000024922683762114945,
+      9.74239166885276,
+      4.882157822472511,
+      508.9629006613067,
+      248.92150653313465,
+      0,
+      0.006170731977857422,
+      -0.030628187904756653
+    ],
+    "status": "fixed_iteration_budget",
+    "initialObjective": 0.22102260454177755,
+    "finalObjective": 0.22056672462242974,
+    "iterations": [
+      {
+        "iteration": 1,
+        "before": 0.22102260454177755,
+        "after": 0.22102260454177755,
+        "accepted": false,
+        "damping": 0.001
+      },
+      {
+        "iteration": 2,
+        "before": 0.22102260454177755,
+        "after": 0.2209895850848771,
+        "accepted": true,
+        "damping": 0.01
+      },
+      {
+        "iteration": 3,
+        "before": 0.2209895850848771,
+        "after": 0.2209895850848771,
+        "accepted": false,
+        "damping": 0.0033333333333333335
+      },
+      {
+        "iteration": 4,
+        "before": 0.2209895850848771,
+        "after": 0.22093725237904513,
+        "accepted": true,
+        "damping": 0.03333333333333333
+      },
+      {
+        "iteration": 5,
+        "before": 0.22093725237904513,
+        "after": 0.22093725237904513,
+        "accepted": false,
+        "damping": 0.011111111111111112
+      },
+      {
+        "iteration": 6,
+        "before": 0.22093725237904513,
+        "after": 0.22079067690440665,
+        "accepted": true,
+        "damping": 0.11111111111111112
+      },
+      {
+        "iteration": 7,
+        "before": 0.22079067690440665,
+        "after": 0.2207751450284793,
+        "accepted": true,
+        "damping": 0.03703703703703704
+      },
+      {
+        "iteration": 8,
+        "before": 0.2207751450284793,
+        "after": 0.2207751450284793,
+        "accepted": false,
+        "damping": 0.01234567901234568
+      },
+      {
+        "iteration": 9,
+        "before": 0.2207751450284793,
+        "after": 0.2206732123375325,
+        "accepted": true,
+        "damping": 0.1234567901234568
+      },
+      {
+        "iteration": 10,
+        "before": 0.2206732123375325,
+        "after": 0.22065619706810358,
+        "accepted": true,
+        "damping": 0.0411522633744856
+      },
+      {
+        "iteration": 11,
+        "before": 0.22065619706810358,
+        "after": 0.22065619706810358,
+        "accepted": false,
+        "damping": 0.013717421124828532
+      },
+      {
+        "iteration": 12,
+        "before": 0.22065619706810358,
+        "after": 0.22056672462242974,
+        "accepted": true,
+        "damping": 0.13717421124828533
+      }
+    ],
+    "objectiveEvaluations": 158,
+    "maximumBudget": 180
+  },
+  "continuous20sTrainingPreviews": [
+    {
+      "case": "fittedMass",
+      "input": "holdMeanZOH",
+      "completed": true,
+      "points": 20000,
+      "initialStateUsedOnlyOnce": true,
+      "measuredFutureStatesNeverInjected": true,
+      "holdInputAbstractionNotRecoveredWaveform": true,
+      "notIndependentOrClosedLoopValidation": true,
+      "native40msPredictionErrors": {
+        "axisRMSE_mm": [
+          0.10191518532583883,
+          0.11265014425201572
+        ],
+        "meanPositionPredictionRMSE_mm": 0.10367240471793833,
+        "syncPredictionRMSE_mm": 0.05622855146631469,
+        "maxAxisError_mm": [
+          0.374,
+          0.33499999999999996
+        ]
+      },
+      "predictedTrackingRMSE_mm": 0.15352923785064523,
+      "predictedSyncRMS_mm": 0.0050286678156346715,
+      "terminalPosition_mm": [
+        -0.020161227155754007,
+        -0.020074147170361174
+      ],
+      "recordedEndpointPhaseErrors": [
+        {
+          "phase": "prehold",
+          "points": 100,
+          "errors": {
+            "axisRMSE_mm": [
+              0,
+              0
+            ],
+            "meanPositionPredictionRMSE_mm": 0,
+            "syncPredictionRMSE_mm": 0,
+            "maxAxisError_mm": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "phase": "outward",
+          "points": 4000,
+          "errors": {
+            "axisRMSE_mm": [
+              0.15146884797570576,
+              0.13090040612675932
+            ],
+            "meanPositionPredictionRMSE_mm": 0.1372381172232226,
+            "syncPredictionRMSE_mm": 0.06941363833264833,
+            "maxAxisError_mm": [
+              0.382503454522906,
+              0.32136935509140957
+            ]
+          }
+        },
+        {
+          "phase": "targetHold",
+          "points": 50,
+          "errors": {
+            "axisRMSE_mm": [
+              0.005687200028100466,
+              0.0206611174780675
+            ],
+            "meanPositionPredictionRMSE_mm": 0.010607769268502109,
+            "syncPredictionRMSE_mm": 0.021641463993666277,
+            "maxAxisError_mm": [
+              0.009306222430120054,
+              0.0527419524351115
+            ]
+          }
+        },
+        {
+          "phase": "return",
+          "points": 4000,
+          "errors": {
+            "axisRMSE_mm": [
+              0.1332082296254399,
+              0.17794904730090966
+            ],
+            "meanPositionPredictionRMSE_mm": 0.15142494407212057,
+            "syncPredictionRMSE_mm": 0.08427655072148606,
+            "maxAxisError_mm": [
+              0.2695377515365657,
+              0.3447592660708439
+            ]
+          }
+        },
+        {
+          "phase": "returnHold",
+          "points": 150,
+          "errors": {
+            "axisRMSE_mm": [
+              0.019228502447998518,
+              0.029250599635894187
+            ],
+            "meanPositionPredictionRMSE_mm": 0.02362219166307337,
+            "syncPredictionRMSE_mm": 0.01478627793044028,
+            "maxAxisError_mm": [
+              0.08672601581845017,
+              0.13842286558132436
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "case": "holdOrderingStress",
+      "input": "sameMean100countOrderingStress",
+      "completed": true,
+      "points": 20000,
+      "initialStateUsedOnlyOnce": true,
+      "measuredFutureStatesNeverInjected": true,
+      "holdInputAbstractionNotRecoveredWaveform": true,
+      "notIndependentOrClosedLoopValidation": true,
+      "native40msPredictionErrors": {
+        "axisRMSE_mm": [
+          0.10344136019987353,
+          0.11284665480199209
+        ],
+        "meanPositionPredictionRMSE_mm": 0.10452718844874763,
+        "syncPredictionRMSE_mm": 0.05626039903875549,
+        "maxAxisError_mm": [
+          0.374,
+          0.31999999999999995
+        ]
+      },
+      "predictedTrackingRMSE_mm": 0.15102661603174453,
+      "predictedSyncRMS_mm": 0.005147329404652475,
+      "terminalPosition_mm": [
+        -0.058568009896620414,
+        -0.05841758963743146
+      ],
+      "recordedEndpointPhaseErrors": [
+        {
+          "phase": "prehold",
+          "points": 100,
+          "errors": {
+            "axisRMSE_mm": [
+              0.00007800745942512137,
+              0
+            ],
+            "meanPositionPredictionRMSE_mm": 0.00003900372971256069,
+            "syncPredictionRMSE_mm": 0.00007800745942512137,
+            "maxAxisError_mm": [
+              0.000089419377855567,
+              0
+            ]
+          }
+        },
+        {
+          "phase": "outward",
+          "points": 4000,
+          "errors": {
+            "axisRMSE_mm": [
+              0.15147307942688126,
+              0.13090272052445348
+            ],
+            "meanPositionPredictionRMSE_mm": 0.13724087268359203,
+            "syncPredictionRMSE_mm": 0.06941904294727341,
+            "maxAxisError_mm": [
+              0.3825183603501389,
+              0.32138320947196575
+            ]
+          }
+        },
+        {
+          "phase": "targetHold",
+          "points": 50,
+          "errors": {
+            "axisRMSE_mm": [
+              0.005767781053444622,
+              0.02187621627587436
+            ],
+            "meanPositionPredictionRMSE_mm": 0.011774630645316902,
+            "syncPredictionRMSE_mm": 0.02165882190526682,
+            "maxAxisError_mm": [
+              0.00961572865898876,
+              0.053017169889136864
+            ]
+          }
+        },
+        {
+          "phase": "return",
+          "points": 4000,
+          "errors": {
+            "axisRMSE_mm": [
+              0.12854036047590303,
+              0.17150326998509147
+            ],
+            "meanPositionPredictionRMSE_mm": 0.14557638520941582,
+            "syncPredictionRMSE_mm": 0.0842736972675792,
+            "maxAxisError_mm": [
+              0.28092406826431443,
+              0.3289585265536146
+            ]
+          }
+        },
+        {
+          "phase": "returnHold",
+          "points": 150,
+          "errors": {
+            "axisRMSE_mm": [
+              0.04546470720681685,
+              0.05029308863218332
+            ],
+            "meanPositionPredictionRMSE_mm": 0.04736492200841497,
+            "syncPredictionRMSE_mm": 0.014802884302713834,
+            "maxAxisError_mm": [
+              0.07201296522787588,
+              0.12371685492797516
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "case": "etaZeroFixedOtherParameters",
+      "input": "holdMeanZOH",
+      "completed": true,
+      "points": 20000,
+      "initialStateUsedOnlyOnce": true,
+      "measuredFutureStatesNeverInjected": true,
+      "holdInputAbstractionNotRecoveredWaveform": true,
+      "notIndependentOrClosedLoopValidation": true,
+      "native40msPredictionErrors": {
+        "axisRMSE_mm": [
+          0.10191151799477836,
+          0.11270783025149562
+        ],
+        "meanPositionPredictionRMSE_mm": 0.10370053338821358,
+        "syncPredictionRMSE_mm": 0.056238976697660495,
+        "maxAxisError_mm": [
+          0.37600000000000006,
+          0.33799999999999997
+        ]
+      },
+      "predictedTrackingRMSE_mm": 0.15437584412724678,
+      "predictedSyncRMS_mm": 0.005179285665031427,
+      "terminalPosition_mm": [
+        -0.02106931708326019,
+        -0.020982237220547997
+      ],
+      "recordedEndpointPhaseErrors": [
+        {
+          "phase": "prehold",
+          "points": 100,
+          "errors": {
+            "axisRMSE_mm": [
+              0,
+              0
+            ],
+            "meanPositionPredictionRMSE_mm": 0,
+            "syncPredictionRMSE_mm": 0,
+            "maxAxisError_mm": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "phase": "outward",
+          "points": 4000,
+          "errors": {
+            "axisRMSE_mm": [
+              0.15125281151419648,
+              0.13083815046760525
+            ],
+            "meanPositionPredictionRMSE_mm": 0.137088786728193,
+            "syncPredictionRMSE_mm": 0.06941705432409241,
+            "maxAxisError_mm": [
+              0.3843846276772671,
+              0.3235180386224918
+            ]
+          }
+        },
+        {
+          "phase": "targetHold",
+          "points": 50,
+          "errors": {
+            "axisRMSE_mm": [
+              0.0047210751579058055,
+              0.020904298000424416
+            ],
+            "meanPositionPredictionRMSE_mm": 0.010609130485126182,
+            "syncPredictionRMSE_mm": 0.021641207278535846,
+            "maxAxisError_mm": [
+              0.00830457707600438,
+              0.0517350581632544
+            ]
+          }
+        },
+        {
+          "phase": "return",
+          "points": 4000,
+          "errors": {
+            "axisRMSE_mm": [
+              0.13335915964861023,
+              0.17803718156522652
+            ],
+            "meanPositionPredictionRMSE_mm": 0.15154362807869443,
+            "syncPredictionRMSE_mm": 0.08427290263620468,
+            "maxAxisError_mm": [
+              0.2712687767724778,
+              0.3472438756825548
+            ]
+          }
+        },
+        {
+          "phase": "returnHold",
+          "points": 150,
+          "errors": {
+            "axisRMSE_mm": [
+              0.019901637912544033,
+              0.029767305361117075
+            ],
+            "meanPositionPredictionRMSE_mm": 0.024216253811755965,
+            "syncPredictionRMSE_mm": 0.01478605848177435,
+            "maxAxisError_mm": [
+              0.08693411114927507,
+              0.13862828899746008
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "massEigenvalues": [
+    0.9693718120952433,
+    1.0306281879047567
+  ],
+  "numericalBoundHits": {
+    "lower": [
+      6
+    ],
+    "upper": []
+  },
+  "holdOrderingNative40msDifference": {
+    "axisRMSE_mm": [
+      0.019742087022399647,
+      0.019461307766951347
+    ],
+    "meanPositionPredictionRMSE_mm": 0.019597145838106123,
+    "syncPredictionRMSE_mm": 0.0008902246907382271,
+    "maxAxisError_mm": [
+      0.037000000000000005,
+      0.037000000000000005
+    ]
+  },
+  "etaZeroAblationOnlyConditionalSensitivityNotRetrainedOrPhysicalProof": true,
+  "allCalibrationEvaluations": [
+    {
+      "evaluation": 1,
+      "label": "initialRound65etaZero",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.860161789594973,
+        564.4332013550259,
+        665.7217336730039,
+        0,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22102260454177755
+    },
+    {
+      "evaluation": 2,
+      "label": "iteration1_derivative0",
+      "parameters": [
+        0.00003702042762997116,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.860161789594973,
+        564.4332013550259,
+        665.7217336730039,
+        0,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22084118688553095
+    },
+    {
+      "evaluation": 3,
+      "label": "iteration1_derivative1",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024890007836662055,
+        9.71159522300143,
+        4.860161789594973,
+        564.4332013550259,
+        665.7217336730039,
+        0,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22093363276676245
+    },
+    {
+      "evaluation": 4,
+      "label": "iteration1_derivative2",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.73130681822443,
+        4.860161789594973,
+        564.4332013550259,
+        665.7217336730039,
+        0,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2212094424500452
+    },
+    {
+      "evaluation": 5,
+      "label": "iteration1_derivative3",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.875021951384568,
+        564.4332013550259,
+        665.7217336730039,
+        0,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2211559659404538
+    },
+    {
+      "evaluation": 6,
+      "label": "iteration1_derivative4",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.860161789594973,
+        565.0976345563809,
+        665.7217336730039,
+        0,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2210220229281398
+    },
+    {
+      "evaluation": 7,
+      "label": "iteration1_derivative5",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.860161789594973,
+        564.4332013550259,
+        666.397455406677,
+        0,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22102315261650057
+    },
+    {
+      "evaluation": 8,
+      "label": "iteration1_derivative6",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.860161789594973,
+        564.4332013550259,
+        665.7217336730039,
+        0.000005,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2211376990362405
+    },
+    {
+      "evaluation": 9,
+      "label": "iteration1_derivative7",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.860161789594973,
+        564.4332013550259,
+        665.7217336730039,
+        0,
+        0.006210277345533143,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22129395634794535
+    },
+    {
+      "evaluation": 10,
+      "label": "iteration1_derivative8",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.860161789594973,
+        564.4332013550259,
+        665.7217336730039,
+        0,
+        0.006199078267265877,
+        0.001
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2210298402666215
+    },
+    {
+      "evaluation": 11,
+      "label": "iteration1_rate1",
+      "parameters": [
+        0.000035616767166701726,
+        0.00002544316571673348,
+        9.882841364881205,
+        4.911305370336285,
+        1007.968008111548,
+        0,
+        0,
+        0.006318615585264984,
+        -0.01885878496386015
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.27003566040972315
+    },
+    {
+      "evaluation": 12,
+      "label": "iteration1_rate0.5",
+      "parameters": [
+        0.00003629511067124855,
+        0.00002514915920035578,
+        9.797218293941318,
+        4.885733579965629,
+        786.2006047332869,
+        8.003599721469925,
+        0,
+        0.006258846926265431,
+        -0.009429392481930076
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2405435464345412
+    },
+    {
+      "evaluation": 13,
+      "label": "iteration1_rate0.25",
+      "parameters": [
+        0.000036634282423521956,
+        0.000025002155942166927,
+        9.754406758471374,
+        4.872947684780301,
+        675.3169030441563,
+        336.86266669723693,
+        0,
+        0.006228962596765654,
+        -0.004714696240965038
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22594270074611125
+    },
+    {
+      "evaluation": 14,
+      "label": "iteration1_rate0.125",
+      "parameters": [
+        0.00003680386829965866,
+        0.000024928654313072503,
+        9.733000990736402,
+        4.866554737187637,
+        619.8750521995911,
+        501.29220018512046,
+        0,
+        0.006214020432015766,
+        -0.002357348120482519
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22266740717404687
+    },
+    {
+      "evaluation": 15,
+      "label": "iteration1_rate0.0625",
+      "parameters": [
+        0.00003688866123772702,
+        0.000024891903498525293,
+        9.722298106868916,
+        4.863358263391305,
+        592.1541267773085,
+        583.5069669290622,
+        0,
+        0.006206549349640822,
+        -0.0011786740602412595
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22164712718694837
+    },
+    {
+      "evaluation": 16,
+      "label": "iteration2_derivative0",
+      "parameters": [
+        0.00003702042762997116,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.860161789594973,
+        564.4332013550259,
+        665.7217336730039,
+        0,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22084118688553095
+    },
+    {
+      "evaluation": 17,
+      "label": "iteration2_derivative1",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024890007836662055,
+        9.71159522300143,
+        4.860161789594973,
+        564.4332013550259,
+        665.7217336730039,
+        0,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22093363276676245
+    },
+    {
+      "evaluation": 18,
+      "label": "iteration2_derivative2",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.73130681822443,
+        4.860161789594973,
+        564.4332013550259,
+        665.7217336730039,
+        0,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2212094424500452
+    },
+    {
+      "evaluation": 19,
+      "label": "iteration2_derivative3",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.875021951384568,
+        564.4332013550259,
+        665.7217336730039,
+        0,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2211559659404538
+    },
+    {
+      "evaluation": 20,
+      "label": "iteration2_derivative4",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.860161789594973,
+        565.0976345563809,
+        665.7217336730039,
+        0,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2210220229281398
+    },
+    {
+      "evaluation": 21,
+      "label": "iteration2_derivative5",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.860161789594973,
+        564.4332013550259,
+        666.397455406677,
+        0,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22102315261650057
+    },
+    {
+      "evaluation": 22,
+      "label": "iteration2_derivative6",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.860161789594973,
+        564.4332013550259,
+        665.7217336730039,
+        0.000005,
+        0.006199078267265877,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2211376990362405
+    },
+    {
+      "evaluation": 23,
+      "label": "iteration2_derivative7",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.860161789594973,
+        564.4332013550259,
+        665.7217336730039,
+        0,
+        0.006210277345533143,
+        0
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22129395634794535
+    },
+    {
+      "evaluation": 24,
+      "label": "iteration2_derivative8",
+      "parameters": [
+        0.00003697345417579537,
+        0.000024855152683978076,
+        9.71159522300143,
+        4.860161789594973,
+        564.4332013550259,
+        665.7217336730039,
+        0,
+        0.006199078267265877,
+        0.001
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2210298402666215
+    },
+    {
+      "evaluation": 25,
+      "label": "iteration2_rate1",
+      "parameters": [
+        0.000036751265278482125,
+        0.000025021869137605707,
+        9.763218442443701,
+        4.900542614838736,
+        1025.6121573490425,
+        0,
+        0,
+        0.006178523039708886,
+        -0.05082890889495393
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2252910360542722
+    },
+    {
+      "evaluation": 26,
+      "label": "iteration2_rate0.5",
+      "parameters": [
+        0.00003686235972713874,
+        0.00002493851091079189,
+        9.737406832722565,
+        4.880352202216855,
+        795.0226793520342,
+        0,
+        0,
+        0.006188800653487382,
+        -0.025414454447476965
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22666968706985977
+    },
+    {
+      "evaluation": 27,
+      "label": "iteration2_rate0.25",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.870256995905914,
+        679.72794035353,
+        331.49567590814746,
+        0,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2209895850848771
+    },
+    {
+      "evaluation": 28,
+      "label": "iteration3_derivative0",
+      "parameters": [
+        0.00003696482485841852,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.870256995905914,
+        679.72794035353,
+        331.49567590814746,
+        0,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22074775510336792
+    },
+    {
+      "evaluation": 29,
+      "label": "iteration3_derivative1",
+      "parameters": [
+        0.00003691790695146705,
+        0.00002493172862918237,
+        9.724501027861997,
+        4.870256995905914,
+        679.72794035353,
+        331.49567590814746,
+        0,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2208553981682998
+    },
+    {
+      "evaluation": 30,
+      "label": "iteration3_derivative2",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.74422552888986,
+        4.870256995905914,
+        679.72794035353,
+        331.49567590814746,
+        0,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22124044464790535
+    },
+    {
+      "evaluation": 31,
+      "label": "iteration3_derivative3",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.885127252901819,
+        679.72794035353,
+        331.49567590814746,
+        0,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2211718546560351
+    },
+    {
+      "evaluation": 32,
+      "label": "iteration3_derivative4",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.870256995905914,
+        680.5076682938835,
+        331.49567590814746,
+        0,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22098993676129527
+    },
+    {
+      "evaluation": 33,
+      "label": "iteration3_derivative5",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.870256995905914,
+        679.72794035353,
+        331.8371715840556,
+        0,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22098937952507636
+    },
+    {
+      "evaluation": 34,
+      "label": "iteration3_derivative6",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.870256995905914,
+        679.72794035353,
+        331.49567590814746,
+        0.000005,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2211313152620377
+    },
+    {
+      "evaluation": 35,
+      "label": "iteration3_derivative7",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.870256995905914,
+        679.72794035353,
+        331.49567590814746,
+        0,
+        0.006205133399837006,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22132193475736262
+    },
+    {
+      "evaluation": 36,
+      "label": "iteration3_derivative8",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.870256995905914,
+        679.72794035353,
+        331.49567590814746,
+        0,
+        0.00619393946037663,
+        -0.011694519996514744
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22099551504530063
+    },
+    {
+      "evaluation": 37,
+      "label": "iteration3_rate1",
+      "parameters": [
+        0.00003614548524287286,
+        0.000025185541724233048,
+        9.862000068862844,
+        4.882514664184518,
+        51.18973008376271,
+        1000,
+        0,
+        0.006180173418007616,
+        -0.037317892846966794
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.23576256436329798
+    },
+    {
+      "evaluation": 38,
+      "label": "iteration3_rate0.5",
+      "parameters": [
+        0.000036531696097169956,
+        0.000025041186760809017,
+        9.79325054836242,
+        4.8763858300452165,
+        365.45883521864636,
+        778.0993666423832,
+        0,
+        0.006187056439192123,
+        -0.025012560035352637
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22591201176909886
+    },
+    {
+      "evaluation": 39,
+      "label": "iteration3_rate0.25",
+      "parameters": [
+        0.000036724801524318504,
+        0.000024969009279097,
+        9.75887578811221,
+        4.873321412975565,
+        522.5933877860882,
+        554.7975212752654,
+        0,
+        0.006190497949784376,
+        -0.01885989362954556
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22273840335503264
+    },
+    {
+      "evaluation": 40,
+      "label": "iteration3_rate0.125",
+      "parameters": [
+        0.00003682135423789278,
+        0.00002493292053824099,
+        9.741688407987104,
+        4.87178920444074,
+        601.1606640698091,
+        443.1465985917064,
+        0,
+        0.006192218705080504,
+        -0.015783560426642022
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2216571116402425
+    },
+    {
+      "evaluation": 41,
+      "label": "iteration3_rate0.0625",
+      "parameters": [
+        0.00003686963059467992,
+        0.00002491487616781299,
+        9.733094717924551,
+        4.871023100173327,
+        640.4443022116695,
+        387.32113724992695,
+        0,
+        0.006193079082728567,
+        -0.014245393825190251
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22126695982648065
+    },
+    {
+      "evaluation": 42,
+      "label": "iteration4_derivative0",
+      "parameters": [
+        0.00003696482485841852,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.870256995905914,
+        679.72794035353,
+        331.49567590814746,
+        0,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22074775510336792
+    },
+    {
+      "evaluation": 43,
+      "label": "iteration4_derivative1",
+      "parameters": [
+        0.00003691790695146705,
+        0.00002493172862918237,
+        9.724501027861997,
+        4.870256995905914,
+        679.72794035353,
+        331.49567590814746,
+        0,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2208553981682998
+    },
+    {
+      "evaluation": 44,
+      "label": "iteration4_derivative2",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.74422552888986,
+        4.870256995905914,
+        679.72794035353,
+        331.49567590814746,
+        0,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22124044464790535
+    },
+    {
+      "evaluation": 45,
+      "label": "iteration4_derivative3",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.885127252901819,
+        679.72794035353,
+        331.49567590814746,
+        0,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2211718546560351
+    },
+    {
+      "evaluation": 46,
+      "label": "iteration4_derivative4",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.870256995905914,
+        680.5076682938835,
+        331.49567590814746,
+        0,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22098993676129527
+    },
+    {
+      "evaluation": 47,
+      "label": "iteration4_derivative5",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.870256995905914,
+        679.72794035353,
+        331.8371715840556,
+        0,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22098937952507636
+    },
+    {
+      "evaluation": 48,
+      "label": "iteration4_derivative6",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.870256995905914,
+        679.72794035353,
+        331.49567590814746,
+        0.000005,
+        0.00619393946037663,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2211313152620377
+    },
+    {
+      "evaluation": 49,
+      "label": "iteration4_derivative7",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.870256995905914,
+        679.72794035353,
+        331.49567590814746,
+        0,
+        0.006205133399837006,
+        -0.012707227223738482
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22132193475736262
+    },
+    {
+      "evaluation": 50,
+      "label": "iteration4_derivative8",
+      "parameters": [
+        0.00003691790695146705,
+        0.000024896831797384985,
+        9.724501027861997,
+        4.870256995905914,
+        679.72794035353,
+        331.49567590814746,
+        0,
+        0.00619393946037663,
+        -0.011694519996514744
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22099551504530063
+    },
+    {
+      "evaluation": 51,
+      "label": "iteration4_rate1",
+      "parameters": [
+        0.00003689619290260063,
+        0.00002490577264648981,
+        9.758640598892793,
+        4.892415450262501,
+        87.53139250785287,
+        1000,
+        0,
+        0.006164707152375738,
+        -0.056325705668003
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22293561014111324
+    },
+    {
+      "evaluation": 52,
+      "label": "iteration4_rate0.5",
+      "parameters": [
+        0.00003690704992703384,
+        0.000024901302221937398,
+        9.741570813377395,
+        4.881336223084207,
+        383.62966643069143,
+        759.9278439348949,
+        0,
+        0.006179323306376184,
+        -0.03451646644587074
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22142324929773807
+    },
+    {
+      "evaluation": 53,
+      "label": "iteration4_rate0.25",
+      "parameters": [
+        0.00003691247843925045,
+        0.00002489906700966119,
+        9.733035920619697,
+        4.875796609495061,
+        531.6788033921107,
+        545.7117599215212,
+        0,
+        0.006186631383376407,
+        -0.023611846834804613
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22101975469100477
+    },
+    {
+      "evaluation": 54,
+      "label": "iteration4_rate0.125",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.873026802700487,
+        605.7033718728204,
+        438.6037179148343,
+        0,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22093725237904513
+    },
+    {
+      "evaluation": 55,
+      "label": "iteration5_derivative0",
+      "parameters": [
+        0.00003696210788805411,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.873026802700487,
+        605.7033718728204,
+        438.6037179148343,
+        0,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22069181786722217
+    },
+    {
+      "evaluation": 56,
+      "label": "iteration5_derivative1",
+      "parameters": [
+        0.000036915192695358755,
+        0.00002493284735292661,
+        9.728768474240848,
+        4.873026802700487,
+        605.7033718728204,
+        438.6037179148343,
+        0,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22079902829588316
+    },
+    {
+      "evaluation": 57,
+      "label": "iteration5_derivative2",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.74849724271509,
+        4.873026802700487,
+        605.7033718728204,
+        438.6037179148343,
+        0,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22119437559877148
+    },
+    {
+      "evaluation": 58,
+      "label": "iteration5_derivative3",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.887899829503187,
+        605.7033718728204,
+        438.6037179148343,
+        0,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22112391197427742
+    },
+    {
+      "evaluation": 59,
+      "label": "iteration5_derivative4",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.873026802700487,
+        606.4090752446932,
+        438.6037179148343,
+        0,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2209371346970329
+    },
+    {
+      "evaluation": 60,
+      "label": "iteration5_derivative5",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.873026802700487,
+        605.7033718728204,
+        439.05232163274917,
+        0,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22093743189514414
+    },
+    {
+      "evaluation": 61,
+      "label": "iteration5_derivative6",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.873026802700487,
+        605.7033718728204,
+        438.6037179148343,
+        0.000005,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22108178237162368
+    },
+    {
+      "evaluation": 62,
+      "label": "iteration5_derivative7",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.873026802700487,
+        605.7033718728204,
+        438.6037179148343,
+        0,
+        0.006201475707298395,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22127422983302086
+    },
+    {
+      "evaluation": 63,
+      "label": "iteration5_derivative8",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.873026802700487,
+        605.7033718728204,
+        438.6037179148343,
+        0,
+        0.006190285421876518,
+        -0.017141377492242274
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.220941348755667
+    },
+    {
+      "evaluation": 64,
+      "label": "iteration5_rate1",
+      "parameters": [
+        0.0000365863332338522,
+        0.000025142265693435844,
+        9.795951767372223,
+        4.913706877671233,
+        549.1526438212235,
+        0,
+        0,
+        0.0061588008324807,
+        -0.027070556075919315
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2333663536527759
+    },
+    {
+      "evaluation": 65,
+      "label": "iteration5_rate0.5",
+      "parameters": [
+        0.00003675076296460548,
+        0.000025020107548479465,
+        9.762360120806536,
+        4.893366840185861,
+        577.4280078470218,
+        105.95553051640309,
+        0,
+        0.006174543127178609,
+        -0.02261504655259543
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22255042302993217
+    },
+    {
+      "evaluation": 66,
+      "label": "iteration5_rate0.25",
+      "parameters": [
+        0.000036832977829982115,
+        0.000024959028476001277,
+        9.745564297523693,
+        4.883196821443174,
+        591.5656898599211,
+        272.2796242156187,
+        0,
+        0.006182414274527564,
+        -0.020387291790933487
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22128803046444678
+    },
+    {
+      "evaluation": 67,
+      "label": "iteration5_rate0.125",
+      "parameters": [
+        0.00003687408526267043,
+        0.00002492848893976218,
+        9.73716638588227,
+        4.878111812071831,
+        598.6345308663708,
+        355.4416710652265,
+        0,
+        0.0061863498482020406,
+        -0.019273414410102517
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22107222931378062
+    },
+    {
+      "evaluation": 68,
+      "label": "iteration5_rate0.0625",
+      "parameters": [
+        0.000036894638979014594,
+        0.00002491321917164263,
+        9.732967430061558,
+        4.875569307386158,
+        602.1689513695956,
+        397.0226944900304,
+        0,
+        0.00618831763503928,
+        -0.018716475719687032
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22099728641209462
+    },
+    {
+      "evaluation": 69,
+      "label": "iteration6_derivative0",
+      "parameters": [
+        0.00003696210788805411,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.873026802700487,
+        605.7033718728204,
+        438.6037179148343,
+        0,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22069181786722217
+    },
+    {
+      "evaluation": 70,
+      "label": "iteration6_derivative1",
+      "parameters": [
+        0.000036915192695358755,
+        0.00002493284735292661,
+        9.728768474240848,
+        4.873026802700487,
+        605.7033718728204,
+        438.6037179148343,
+        0,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22079902829588316
+    },
+    {
+      "evaluation": 71,
+      "label": "iteration6_derivative2",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.74849724271509,
+        4.873026802700487,
+        605.7033718728204,
+        438.6037179148343,
+        0,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22119437559877148
+    },
+    {
+      "evaluation": 72,
+      "label": "iteration6_derivative3",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.887899829503187,
+        605.7033718728204,
+        438.6037179148343,
+        0,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22112391197427742
+    },
+    {
+      "evaluation": 73,
+      "label": "iteration6_derivative4",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.873026802700487,
+        606.4090752446932,
+        438.6037179148343,
+        0,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2209371346970329
+    },
+    {
+      "evaluation": 74,
+      "label": "iteration6_derivative5",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.873026802700487,
+        605.7033718728204,
+        439.05232163274917,
+        0,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22093743189514414
+    },
+    {
+      "evaluation": 75,
+      "label": "iteration6_derivative6",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.873026802700487,
+        605.7033718728204,
+        438.6037179148343,
+        0.000005,
+        0.006190285421876518,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22108178237162368
+    },
+    {
+      "evaluation": 76,
+      "label": "iteration6_derivative7",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.873026802700487,
+        605.7033718728204,
+        438.6037179148343,
+        0,
+        0.006201475707298395,
+        -0.018159537029271547
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22127422983302086
+    },
+    {
+      "evaluation": 77,
+      "label": "iteration6_derivative8",
+      "parameters": [
+        0.000036915192695358755,
+        0.000024897949403523086,
+        9.728768474240848,
+        4.873026802700487,
+        605.7033718728204,
+        438.6037179148343,
+        0,
+        0.006190285421876518,
+        -0.017141377492242274
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.220941348755667
+    },
+    {
+      "evaluation": 78,
+      "label": "iteration6_rate1",
+      "parameters": [
+        0.00003693920970546213,
+        0.000024916971809097,
+        9.737420605698617,
+        4.879414490186236,
+        564.4623011930047,
+        0,
+        0,
+        0.006169755109557716,
+        -0.038538010735111775
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.23200602714189375
+    },
+    {
+      "evaluation": 79,
+      "label": "iteration6_rate0.5",
+      "parameters": [
+        0.00003692720120041044,
+        0.00002490746060631004,
+        9.733094539969732,
+        4.876220646443362,
+        585.0828365329126,
+        122.89027214329576,
+        0,
+        0.006180020265717116,
+        -0.02834877388219166
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22129780642845895
+    },
+    {
+      "evaluation": 80,
+      "label": "iteration6_rate0.25",
+      "parameters": [
+        0.0000369211969478846,
+        0.000024902705004916564,
+        9.730931507105291,
+        4.874623724571924,
+        595.3931042028664,
+        280.74699502906503,
+        0,
+        0.006185152843796817,
+        -0.023254155455731604
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22079067690440665
+    },
+    {
+      "evaluation": 81,
+      "label": "iteration7_derivative0",
+      "parameters": [
+        0.00003696811814483248,
+        0.000024902705004916564,
+        9.730931507105291,
+        4.874623724571924,
+        595.3931042028664,
+        280.74699502906503,
+        0,
+        0.006185152843796817,
+        -0.023254155455731604
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22057404914142162
+    },
+    {
+      "evaluation": 82,
+      "label": "iteration7_derivative1",
+      "parameters": [
+        0.0000369211969478846,
+        0.00002493760770992148,
+        9.730931507105291,
+        4.874623724571924,
+        595.3931042028664,
+        280.74699502906503,
+        0,
+        0.006185152843796817,
+        -0.023254155455731604
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2206662027615574
+    },
+    {
+      "evaluation": 83,
+      "label": "iteration7_derivative2",
+      "parameters": [
+        0.0000369211969478846,
+        0.000024902705004916564,
+        9.750662438612395,
+        4.874623724571924,
+        595.3931042028664,
+        280.74699502906503,
+        0,
+        0.006185152843796817,
+        -0.023254155455731604
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2210283156644829
+    },
+    {
+      "evaluation": 84,
+      "label": "iteration7_derivative3",
+      "parameters": [
+        0.0000369211969478846,
+        0.000024902705004916564,
+        9.730931507105291,
+        4.889498348296496,
+        595.3931042028664,
+        280.74699502906503,
+        0,
+        0.006185152843796817,
+        -0.023254155455731604
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22096321979857877
+    },
+    {
+      "evaluation": 85,
+      "label": "iteration7_derivative4",
+      "parameters": [
+        0.0000369211969478846,
+        0.000024902705004916564,
+        9.730931507105291,
+        4.874623724571924,
+        596.0884973070692,
+        280.74699502906503,
+        0,
+        0.006185152843796817,
+        -0.023254155455731604
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2207910208553239
+    },
+    {
+      "evaluation": 86,
+      "label": "iteration7_derivative5",
+      "parameters": [
+        0.0000369211969478846,
+        0.000024902705004916564,
+        9.730931507105291,
+        4.874623724571924,
+        595.3931042028664,
+        281.0377420240941,
+        0,
+        0.006185152843796817,
+        -0.023254155455731604
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2207903851982027
+    },
+    {
+      "evaluation": 87,
+      "label": "iteration7_derivative6",
+      "parameters": [
+        0.0000369211969478846,
+        0.000024902705004916564,
+        9.730931507105291,
+        4.874623724571924,
+        595.3931042028664,
+        280.74699502906503,
+        0.000005,
+        0.006185152843796817,
+        -0.023254155455731604
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22092082911073121
+    },
+    {
+      "evaluation": 88,
+      "label": "iteration7_derivative7",
+      "parameters": [
+        0.0000369211969478846,
+        0.000024902705004916564,
+        9.730931507105291,
+        4.874623724571924,
+        595.3931042028664,
+        280.74699502906503,
+        0,
+        0.006196337996640614,
+        -0.023254155455731604
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2210960946899071
+    },
+    {
+      "evaluation": 89,
+      "label": "iteration7_derivative8",
+      "parameters": [
+        0.0000369211969478846,
+        0.000024902705004916564,
+        9.730931507105291,
+        4.874623724571924,
+        595.3931042028664,
+        280.74699502906503,
+        0,
+        0.006185152843796817,
+        -0.02223090130027587
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22079395121873616
+    },
+    {
+      "evaluation": 90,
+      "label": "iteration7_rate1",
+      "parameters": [
+        0.00003687402948956496,
+        0.00002493324526548584,
+        9.769285301108251,
+        4.902060723427729,
+        180.41159892977694,
+        1000,
+        0,
+        0.006157751772612422,
+        -0.04200722048857593
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2223106405345798
+    },
+    {
+      "evaluation": 91,
+      "label": "iteration7_rate0.5",
+      "parameters": [
+        0.00003689761321872478,
+        0.0000249179751352012,
+        9.75010840410677,
+        4.888342223999826,
+        387.90235156632167,
+        716.8674875726626,
+        0,
+        0.006171452308204619,
+        -0.032630687972153766
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22133116021877258
+    },
+    {
+      "evaluation": 92,
+      "label": "iteration7_rate0.25",
+      "parameters": [
+        0.000036909405083304684,
+        0.000024910340070058885,
+        9.74051995560603,
+        4.881482974285875,
+        491.6477278845941,
+        498.80724130086384,
+        0,
+        0.006178302576000719,
+        -0.027942421713942685
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22090422141663302
+    },
+    {
+      "evaluation": 93,
+      "label": "iteration7_rate0.125",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.8780533494289,
+        543.5204160437303,
+        389.77711816496446,
+        0,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2207751450284793
+    },
+    {
+      "evaluation": 94,
+      "label": "iteration8_derivative0",
+      "parameters": [
+        0.00003696221631661023,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.8780533494289,
+        543.5204160437303,
+        389.77711816496446,
+        0,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22055063205632622
+    },
+    {
+      "evaluation": 95,
+      "label": "iteration8_derivative1",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024941429060025207,
+        9.73572573135566,
+        4.8780533494289,
+        543.5204160437303,
+        389.77711816496446,
+        0,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22064362704823023
+    },
+    {
+      "evaluation": 96,
+      "label": "iteration8_derivative2",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.755461457087018,
+        4.8780533494289,
+        543.5204160437303,
+        389.77711816496446,
+        0,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2210225849736512
+    },
+    {
+      "evaluation": 97,
+      "label": "iteration8_derivative3",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.892931402778329,
+        543.5204160437303,
+        389.77711816496446,
+        0,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2209547681631193
+    },
+    {
+      "evaluation": 98,
+      "label": "iteration8_derivative4",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.8780533494289,
+        544.1639364597739,
+        389.77711816496446,
+        0,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22077494233584602
+    },
+    {
+      "evaluation": 99,
+      "label": "iteration8_derivative5",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.8780533494289,
+        543.5204160437303,
+        390.1768952831294,
+        0,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22077531203006873
+    },
+    {
+      "evaluation": 100,
+      "label": "iteration8_derivative6",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.8780533494289,
+        543.5204160437303,
+        389.77711816496446,
+        0.000005,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22090935588103564
+    },
+    {
+      "evaluation": 101,
+      "label": "iteration8_derivative7",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.8780533494289,
+        543.5204160437303,
+        389.77711816496446,
+        0,
+        0.006192909437608667,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22108850524956156
+    },
+    {
+      "evaluation": 102,
+      "label": "iteration8_derivative8",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.8780533494289,
+        543.5204160437303,
+        389.77711816496446,
+        0,
+        0.006181727709898768,
+        -0.02457269029625231
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22077807837724214
+    },
+    {
+      "evaluation": 103,
+      "label": "iteration8_rate1",
+      "parameters": [
+        0.000036590168460903546,
+        0.000025159110279436503,
+        9.799041231706875,
+        4.912651914768741,
+        544.3119684802662,
+        0,
+        0,
+        0.006154038501961585,
+        -0.02138395996956885
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2331895292879799
+    },
+    {
+      "evaluation": 104,
+      "label": "iteration8_rate0.5",
+      "parameters": [
+        0.00003675273473824909,
+        0.000025032816408462112,
+        9.767383481531267,
+        4.89535263209882,
+        543.9161922619982,
+        89.23360710274373,
+        0,
+        0.006167883105930177,
+        -0.023491124277203
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22256231639391696
+    },
+    {
+      "evaluation": 105,
+      "label": "iteration8_rate0.25",
+      "parameters": [
+        0.00003683401787692187,
+        0.000024969669472974918,
+        9.751554606443465,
+        4.88670299076386,
+        543.7183041528642,
+        239.50536263385408,
+        0,
+        0.006174805407914472,
+        -0.02454470643102007
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2211187420618474
+    },
+    {
+      "evaluation": 106,
+      "label": "iteration8_rate0.125",
+      "parameters": [
+        0.000036874659446258254,
+        0.00002493809600523132,
+        9.743640168899564,
+        4.88237817009638,
+        543.6193600982972,
+        314.6412403994093,
+        0,
+        0.00617826655890662,
+        -0.025071497507928607
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22090034104984196
+    },
+    {
+      "evaluation": 107,
+      "label": "iteration8_rate0.0625",
+      "parameters": [
+        0.00003689498023092645,
+        0.00002492230927135952,
+        9.739682950127612,
+        4.88021575976264,
+        543.5698880710137,
+        352.2091792821868,
+        0,
+        0.006179997134402694,
+        -0.025334893046382877
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22082950389824188
+    },
+    {
+      "evaluation": 108,
+      "label": "iteration9_derivative0",
+      "parameters": [
+        0.00003696221631661023,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.8780533494289,
+        543.5204160437303,
+        389.77711816496446,
+        0,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22055063205632622
+    },
+    {
+      "evaluation": 109,
+      "label": "iteration9_derivative1",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024941429060025207,
+        9.73572573135566,
+        4.8780533494289,
+        543.5204160437303,
+        389.77711816496446,
+        0,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22064362704823023
+    },
+    {
+      "evaluation": 110,
+      "label": "iteration9_derivative2",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.755461457087018,
+        4.8780533494289,
+        543.5204160437303,
+        389.77711816496446,
+        0,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2210225849736512
+    },
+    {
+      "evaluation": 111,
+      "label": "iteration9_derivative3",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.892931402778329,
+        543.5204160437303,
+        389.77711816496446,
+        0,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2209547681631193
+    },
+    {
+      "evaluation": 112,
+      "label": "iteration9_derivative4",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.8780533494289,
+        544.1639364597739,
+        389.77711816496446,
+        0,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22077494233584602
+    },
+    {
+      "evaluation": 113,
+      "label": "iteration9_derivative5",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.8780533494289,
+        543.5204160437303,
+        390.1768952831294,
+        0,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22077531203006873
+    },
+    {
+      "evaluation": 114,
+      "label": "iteration9_derivative6",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.8780533494289,
+        543.5204160437303,
+        389.77711816496446,
+        0.000005,
+        0.006181727709898768,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22090935588103564
+    },
+    {
+      "evaluation": 115,
+      "label": "iteration9_derivative7",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.8780533494289,
+        543.5204160437303,
+        389.77711816496446,
+        0,
+        0.006192909437608667,
+        -0.025598288584837144
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22108850524956156
+    },
+    {
+      "evaluation": 116,
+      "label": "iteration9_derivative8",
+      "parameters": [
+        0.00003691530101559464,
+        0.000024906522537487724,
+        9.73572573135566,
+        4.8780533494289,
+        543.5204160437303,
+        389.77711816496446,
+        0,
+        0.006181727709898768,
+        -0.02457269029625231
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22077807837724214
+    },
+    {
+      "evaluation": 117,
+      "label": "iteration9_rate1",
+      "parameters": [
+        0.00003693143438046353,
+        0.00002493405150905247,
+        9.740602162164118,
+        4.8803940954436005,
+        553.4947913701359,
+        0,
+        0,
+        0.006164511396134486,
+        -0.034427268429021024
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2324941792052387
+    },
+    {
+      "evaluation": 118,
+      "label": "iteration9_rate0.5",
+      "parameters": [
+        0.00003692336769802909,
+        0.0000249202870232701,
+        9.738163946759888,
+        4.879223722436251,
+        548.507603706933,
+        111.168653068852,
+        0,
+        0.006173119553016628,
+        -0.030012778506929086
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2212883355791587
+    },
+    {
+      "evaluation": 119,
+      "label": "iteration9_rate0.25",
+      "parameters": [
+        0.00003691933435681186,
+        0.00002491340478037891,
+        9.736944839057776,
+        4.878638535932575,
+        546.0140098753317,
+        250.4728856169082,
+        0,
+        0.006177423631457697,
+        -0.027805533545883113
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2206732123375325
+    },
+    {
+      "evaluation": 120,
+      "label": "iteration10_derivative0",
+      "parameters": [
+        0.00003696625369116867,
+        0.00002491340478037891,
+        9.736944839057776,
+        4.878638535932575,
+        546.0140098753317,
+        250.4728856169082,
+        0,
+        0.006177423631457697,
+        -0.027805533545883113
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22047837966893594
+    },
+    {
+      "evaluation": 121,
+      "label": "iteration10_derivative1",
+      "parameters": [
+        0.00003691933435681186,
+        0.000024948318185159287,
+        9.736944839057776,
+        4.878638535932575,
+        546.0140098753317,
+        250.4728856169082,
+        0,
+        0.006177423631457697,
+        -0.027805533545883113
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2205569994849901
+    },
+    {
+      "evaluation": 122,
+      "label": "iteration10_derivative2",
+      "parameters": [
+        0.00003691933435681186,
+        0.00002491340478037891,
+        9.756681783896834,
+        4.878638535932575,
+        546.0140098753317,
+        250.4728856169082,
+        0,
+        0.006177423631457697,
+        -0.027805533545883113
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22089876714323659
+    },
+    {
+      "evaluation": 123,
+      "label": "iteration10_derivative3",
+      "parameters": [
+        0.00003691933435681186,
+        0.00002491340478037891,
+        9.736944839057776,
+        4.893517174468508,
+        546.0140098753317,
+        250.4728856169082,
+        0,
+        0.006177423631457697,
+        -0.027805533545883113
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22083692028477803
+    },
+    {
+      "evaluation": 124,
+      "label": "iteration10_derivative4",
+      "parameters": [
+        0.00003691933435681186,
+        0.00002491340478037891,
+        9.736944839057776,
+        4.878638535932575,
+        546.660023885207,
+        250.4728856169082,
+        0,
+        0.006177423631457697,
+        -0.027805533545883113
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.220673553320377
+    },
+    {
+      "evaluation": 125,
+      "label": "iteration10_derivative5",
+      "parameters": [
+        0.00003691933435681186,
+        0.00002491340478037891,
+        9.736944839057776,
+        4.878638535932575,
+        546.0140098753317,
+        250.7333585025251,
+        0,
+        0.006177423631457697,
+        -0.027805533545883113
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.220672850204503
+    },
+    {
+      "evaluation": 126,
+      "label": "iteration10_derivative6",
+      "parameters": [
+        0.00003691933435681186,
+        0.00002491340478037891,
+        9.736944839057776,
+        4.878638535932575,
+        546.0140098753317,
+        250.4728856169082,
+        0.000005,
+        0.006177423631457697,
+        -0.027805533545883113
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2207928435526958
+    },
+    {
+      "evaluation": 127,
+      "label": "iteration10_derivative7",
+      "parameters": [
+        0.00003691933435681186,
+        0.00002491340478037891,
+        9.736944839057776,
+        4.878638535932575,
+        546.0140098753317,
+        250.4728856169082,
+        0,
+        0.006188601055089155,
+        -0.027805533545883113
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22095430824440263
+    },
+    {
+      "evaluation": 128,
+      "label": "iteration10_derivative8",
+      "parameters": [
+        0.00003691933435681186,
+        0.00002491340478037891,
+        9.736944839057776,
+        4.878638535932575,
+        546.0140098753317,
+        250.4728856169082,
+        0,
+        0.006177423631457697,
+        -0.02677772801233723
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2206758100792964
+    },
+    {
+      "evaluation": 129,
+      "label": "iteration10_rate1",
+      "parameters": [
+        0.00003687686114047296,
+        0.000024930772755951415,
+        9.774666608503601,
+        4.906201914562558,
+        227.1951831780957,
+        1000,
+        0,
+        0.006152999311937628,
+        -0.042367494438570276
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22206572693343565
+    },
+    {
+      "evaluation": 130,
+      "label": "iteration10_rate0.5",
+      "parameters": [
+        0.00003689809774864241,
+        0.00002492208876816516,
+        9.755805723780687,
+        4.892420225247567,
+        386.6045965267137,
+        641.1822140422705,
+        0,
+        0.006165211471697663,
+        -0.035086513992226696
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2212059626809329
+    },
+    {
+      "evaluation": 131,
+      "label": "iteration10_rate0.25",
+      "parameters": [
+        0.000036908716052727135,
+        0.000024917746774272034,
+        9.746375281419231,
+        4.8855293805900715,
+        466.30930320102266,
+        445.8275498295893,
+        0,
+        0.00617131755157768,
+        -0.03144602376905491
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22078553790146452
+    },
+    {
+      "evaluation": 132,
+      "label": "iteration10_rate0.125",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.8820839582613225,
+        506.16165653817717,
+        348.1502177232488,
+        0,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22065619706810358
+    },
+    {
+      "evaluation": 133,
+      "label": "iteration11_derivative0",
+      "parameters": [
+        0.000036960939229974264,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.8820839582613225,
+        506.16165653817717,
+        348.1502177232488,
+        0,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22045055454864418
+    },
+    {
+      "evaluation": 134,
+      "label": "iteration11_derivative1",
+      "parameters": [
+        0.0000369140252047695,
+        0.000024950491353102794,
+        9.741660060238504,
+        4.8820839582613225,
+        506.16165653817717,
+        348.1502177232488,
+        0,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22053039740580233
+    },
+    {
+      "evaluation": 135,
+      "label": "iteration11_derivative2",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.76140172029874,
+        4.8820839582613225,
+        506.16165653817717,
+        348.1502177232488,
+        0,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2208948050492772
+    },
+    {
+      "evaluation": 136,
+      "label": "iteration11_derivative3",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.896966042219584,
+        506.16165653817717,
+        348.1502177232488,
+        0,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22082943068750177
+    },
+    {
+      "evaluation": 137,
+      "label": "iteration11_derivative4",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.8820839582613225,
+        506.76781819471535,
+        348.1502177232488,
+        0,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22065597220461697
+    },
+    {
+      "evaluation": 138,
+      "label": "iteration11_derivative5",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.8820839582613225,
+        506.16165653817717,
+        348.508367940972,
+        0,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22065631504401279
+    },
+    {
+      "evaluation": 139,
+      "label": "iteration11_derivative6",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.8820839582613225,
+        506.16165653817717,
+        348.1502177232488,
+        0.000005,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22078110862147104
+    },
+    {
+      "evaluation": 140,
+      "label": "iteration11_derivative7",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.8820839582613225,
+        506.16165653817717,
+        348.1502177232488,
+        0,
+        0.006185544962109206,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22094795337613332
+    },
+    {
+      "evaluation": 141,
+      "label": "iteration11_derivative8",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.8820839582613225,
+        506.16165653817717,
+        348.1502177232488,
+        0,
+        0.006174370591517688,
+        -0.02859615287881154
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22065854239909527
+    },
+    {
+      "evaluation": 142,
+      "label": "iteration11_rate1",
+      "parameters": [
+        0.000036607570857630674,
+        0.000025149903597458805,
+        9.798841503913371,
+        4.909929401286978,
+        509.6582204841304,
+        0,
+        0,
+        0.006153593261160586,
+        -0.02103737313989874
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2348285603204892
+    },
+    {
+      "evaluation": 143,
+      "label": "iteration11_rate0.5",
+      "parameters": [
+        0.00003676079803120009,
+        0.000025032739687392134,
+        9.770250782075937,
+        4.896006679774151,
+        507.9099385111538,
+        131.1247935822795,
+        0,
+        0.006163981926339137,
+        -0.025331575898683872
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22177123816180386
+    },
+    {
+      "evaluation": 144,
+      "label": "iteration11_rate0.25",
+      "parameters": [
+        0.000036837411617984794,
+        0.000024974157732358806,
+        9.75595542115722,
+        4.889045319017737,
+        507.03579752466544,
+        239.63750565276413,
+        0,
+        0.006169176258928413,
+        -0.02747867727807644
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2209701270880241
+    },
+    {
+      "evaluation": 145,
+      "label": "iteration11_rate0.125",
+      "parameters": [
+        0.00003687571841137715,
+        0.000024944866754842138,
+        9.748807740697861,
+        4.885564638639529,
+        506.59872703142133,
+        293.89386168800644,
+        0,
+        0.0061717734252230505,
+        -0.028552227967772726
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22078072413035613
+    },
+    {
+      "evaluation": 146,
+      "label": "iteration11_rate0.0625",
+      "parameters": [
+        0.00003689487180807332,
+        0.000024930221266083804,
+        9.745233900468182,
+        4.883824298450427,
+        506.3801917847992,
+        321.0220397056276,
+        0,
+        0.0061730720083703694,
+        -0.029089003312620865
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2207119771377971
+    },
+    {
+      "evaluation": 147,
+      "label": "iteration12_derivative0",
+      "parameters": [
+        0.000036960939229974264,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.8820839582613225,
+        506.16165653817717,
+        348.1502177232488,
+        0,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22045055454864418
+    },
+    {
+      "evaluation": 148,
+      "label": "iteration12_derivative1",
+      "parameters": [
+        0.0000369140252047695,
+        0.000024950491353102794,
+        9.741660060238504,
+        4.8820839582613225,
+        506.16165653817717,
+        348.1502177232488,
+        0,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22053039740580233
+    },
+    {
+      "evaluation": 149,
+      "label": "iteration12_derivative2",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.76140172029874,
+        4.8820839582613225,
+        506.16165653817717,
+        348.1502177232488,
+        0,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2208948050492772
+    },
+    {
+      "evaluation": 150,
+      "label": "iteration12_derivative3",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.896966042219584,
+        506.16165653817717,
+        348.1502177232488,
+        0,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22082943068750177
+    },
+    {
+      "evaluation": 151,
+      "label": "iteration12_derivative4",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.8820839582613225,
+        506.76781819471535,
+        348.1502177232488,
+        0,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22065597220461697
+    },
+    {
+      "evaluation": 152,
+      "label": "iteration12_derivative5",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.8820839582613225,
+        506.16165653817717,
+        348.508367940972,
+        0,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22065631504401279
+    },
+    {
+      "evaluation": 153,
+      "label": "iteration12_derivative6",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.8820839582613225,
+        506.16165653817717,
+        348.1502177232488,
+        0.000005,
+        0.006174370591517688,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22078110862147104
+    },
+    {
+      "evaluation": 154,
+      "label": "iteration12_derivative7",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.8820839582613225,
+        506.16165653817717,
+        348.1502177232488,
+        0,
+        0.006185544962109206,
+        -0.029625778657469008
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22094795337613332
+    },
+    {
+      "evaluation": 155,
+      "label": "iteration12_derivative8",
+      "parameters": [
+        0.0000369140252047695,
+        0.00002491557577732547,
+        9.741660060238504,
+        4.8820839582613225,
+        506.16165653817717,
+        348.1502177232488,
+        0,
+        0.006174370591517688,
+        -0.02859615287881154
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22065854239909527
+    },
+    {
+      "evaluation": 156,
+      "label": "iteration12_rate1",
+      "parameters": [
+        0.00003692644346639967,
+        0.000024944007716483364,
+        9.744586494695533,
+        4.882379415106072,
+        517.3666330306952,
+        0,
+        0,
+        0.006159816136876625,
+        -0.03363541564661958
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.23431287052139851
+    },
+    {
+      "evaluation": 157,
+      "label": "iteration12_rate0.5",
+      "parameters": [
+        0.00003692023433558458,
+        0.00002492979174690442,
+        9.743123277467017,
+        4.8822316866836974,
+        511.76414478443616,
+        149.69279534302052,
+        0,
+        0.006167093364197157,
+        -0.0316305971520443
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.2207919125507299
+    },
+    {
+      "evaluation": 158,
+      "label": "iteration12_rate0.25",
+      "parameters": [
+        0.000036917129770177045,
+        0.000024922683762114945,
+        9.74239166885276,
+        4.882157822472511,
+        508.9629006613067,
+        248.92150653313465,
+        0,
+        0.006170731977857422,
+        -0.030628187904756653
+      ],
+      "completed": true,
+      "points": 20000,
+      "objective": 0.22056672462242974
+    }
+  ],
+  "rawOrControllerChanged": false,
+  "hardwareAction": false,
+  "parametersNotPhysicalForceCalibration": true,
+  "independentValidationPassed": false,
+  "modelClosureComplete": false,
+  "holdingZOHAssumptionUnverified": true,
+  "instantaneousSensorModelNotCalibrated": true,
+  "noModelResolutionBudgetMetClaim": true,
+  "additionalPhysicalRunReleased": false
+}

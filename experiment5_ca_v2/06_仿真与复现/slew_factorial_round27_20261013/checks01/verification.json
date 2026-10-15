@@ -1,0 +1,154 @@
+{
+  "variants": [
+    {
+      "name": "BLNN",
+      "method": 11,
+      "learn": 1,
+      "step": 2
+    },
+    {
+      "name": "S3R2_L0_D2",
+      "method": 12,
+      "learn": 0,
+      "step": 2
+    },
+    {
+      "name": "S3R2_L1_D2",
+      "method": 12,
+      "learn": 1,
+      "step": 2
+    },
+    {
+      "name": "S3R2_L0_D4",
+      "method": 12,
+      "learn": 0,
+      "step": 4
+    },
+    {
+      "name": "S3R2_L1_D4",
+      "method": 12,
+      "learn": 1,
+      "step": 4
+    }
+  ],
+  "summary": [
+    {
+      "name": "BLNN",
+      "complete": 31,
+      "total": 36
+    },
+    {
+      "name": "S3R2_L0_D2",
+      "complete": 30,
+      "total": 36
+    },
+    {
+      "name": "S3R2_L1_D2",
+      "complete": 30,
+      "total": 36
+    },
+    {
+      "name": "S3R2_L0_D4",
+      "complete": 30,
+      "total": 36
+    },
+    {
+      "name": "S3R2_L1_D4",
+      "complete": 30,
+      "total": 36
+    }
+  ],
+  "performance": [
+    {
+      "name": "BLNN",
+      "method": 11,
+      "learningClassification": 1,
+      "normalSlewCountsPerMs": 2,
+      "n": 30,
+      "track": 0.11182471394666667,
+      "sync": 0.03207684431400001,
+      "withdrawalsMean": 0,
+      "mask_pct": 0,
+      "learningMean": 1,
+      "rateOnly_pct": 0
+    },
+    {
+      "name": "S3R2_L0_D2",
+      "method": 12,
+      "learningClassification": 0,
+      "normalSlewCountsPerMs": 2,
+      "n": 30,
+      "track": 0.15831552419333333,
+      "sync": 0.05757404579666667,
+      "withdrawalsMean": 40.766666666666666,
+      "mask_pct": 29.579166666666666,
+      "learningMean": 0.6995320651999998,
+      "rateOnly_pct": 7.321833333333334
+    },
+    {
+      "name": "S3R2_L1_D2",
+      "method": 12,
+      "learningClassification": 1,
+      "normalSlewCountsPerMs": 2,
+      "n": 30,
+      "track": 0.16546379789333335,
+      "sync": 0.04805963416666668,
+      "withdrawalsMean": 28.966666666666665,
+      "mask_pct": 32.19616666666667,
+      "learningMean": 0.7363852780333334,
+      "rateOnly_pct": 7.360333333333335
+    },
+    {
+      "name": "S3R2_L0_D4",
+      "method": 12,
+      "learningClassification": 0,
+      "normalSlewCountsPerMs": 4,
+      "n": 30,
+      "track": 0.15654627688,
+      "sync": 0.0528894461,
+      "withdrawalsMean": 43.43333333333333,
+      "mask_pct": 31.598833333333335,
+      "learningMean": 0.6836737624666668,
+      "rateOnly_pct": 8.633000000000001
+    },
+    {
+      "name": "S3R2_L1_D4",
+      "method": 12,
+      "learningClassification": 1,
+      "normalSlewCountsPerMs": 4,
+      "n": 30,
+      "track": 0.16713679245333335,
+      "sync": 0.06237522293999999,
+      "withdrawalsMean": 63.666666666666664,
+      "mask_pct": 32.09066666666667,
+      "learningMean": 0.7229536385666668,
+      "rateOnly_pct": 8.119166666666667
+    }
+  ],
+  "newFailures": [
+    {
+      "name": "S3R2_L0_D2",
+      "cases": []
+    },
+    {
+      "name": "S3R2_L1_D2",
+      "cases": []
+    },
+    {
+      "name": "S3R2_L0_D4",
+      "cases": []
+    },
+    {
+      "name": "S3R2_L1_D4",
+      "cases": []
+    }
+  ],
+  "hardAndSpeedAndSectorGuardsUnchanged": true,
+  "normalAlgorithmicSlewIsAnExplicitExperimentalFactor": true,
+  "repairAndRetentionBothRemainEnabled": true,
+  "factorNamesNotAllLearningOnOff": true,
+  "modelsIdentified": false,
+  "noClosedLoopHardwarePredictionClaim": true,
+  "noFirmwareOrPhysicalTrialReleased": true,
+  "oldCodeUnchanged": true
+}

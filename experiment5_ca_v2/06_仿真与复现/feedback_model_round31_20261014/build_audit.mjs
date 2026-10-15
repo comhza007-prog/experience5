@@ -1,0 +1,18 @@
+import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';import crypto from 'node:crypto';import {spawnSync} from 'node:child_process';import {fileURLToPath} from 'node:url';
+const dir=path.dirname(fileURLToPath(import.meta.url)),root=path.resolve(dir,'../..'),env={...process.env,PATH:'D:/MinGW/mingw64/bin;'+process.env.PATH};
+const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const checks=[];for(const exe of ['test_trace.exe','ordinary_float.exe','ordinary_double.exe']){const r=spawnSync(path.join(dir,exe),[],{env,encoding:'utf8'});assert.equal(r.status,0,r.stderr+r.stdout);checks.push({exe,result:r.stdout.trim()});}
+assert(JSON.parse(fs.readFileSync(path.join(dir,'checks01/verification.json'))).passed);
+const old=path.join(root,'05_实验代码/自动监视_受控S3R2_20261013/eassy_E5SUP_A_S3R2_HW6/Task');
+const bundles=['S3R2','BLNN'].map(name=>{const bundle=path.join(root,'05_实验代码/自动监视_反馈辨识_20261014/eassy_E5MODEL_A_'+name+'_HW6'),task=path.join(bundle,'Task'),target='exp5MODEL_A_'+name+'_HW6';
+ for(const f of ['blnn_core.c','blnn_core.h','experiment5_ca_actuator.h','experiment5_formal_actuator.h','experiment5_hw_profile.h','experiment5_motion.h','online_protocol.h','online_uart.c','vofa_task.c','periodic_release.h'])assert.equal(hash(path.join(task,f)),hash(path.join(old,f)),f);
+ let source=fs.readFileSync(path.join(task,'motor_task.c'),'utf8');
+ source=source.replace('#include "model_trace.h"\n','').replace('static e5_model_trace model_trace;\n','').replace('    int32_t model_encoder[2];int16_t model_rpm[2],model_current[2];\n','').replace('    e5_model_reset(&model_trace);\n','').replace('e5_model_next(&model_trace,values,g_exp5_dma_completed);','e5_event_next(&event_trace,values,g_exp5_dma_completed);');
+ const start=source.indexOf('        /* Diagnostic copy only, after final CAN/950us guard handling.');const end=source.indexOf('        publish();',start);assert(start>=0&&end>start);source=source.slice(0,start)+source.slice(end);
+ assert.equal(source,fs.readFileSync(path.join(old,'motor_task.c'),'utf8'),'Existing motor algorithm/guards must be verbatim unchanged outside the read-only diagnostic integration');
+ const log=fs.readFileSync(path.join(dir,'build_'+name+'_attempt01.log'),'utf8');assert(log.includes('0 Error(s), 0 Warning(s)'));
+ const map=fs.readFileSync(path.join(bundle,'MDK-ARM',target,target+'.map'),'utf8'),ram=map.match(/Execution Region RW_IRAM1[^\n]*Size: 0x([0-9a-f]+), Max: 0x([0-9a-f]+)/i);assert(ram);const ramUsed=parseInt(ram[1],16),ramMax=parseInt(ram[2],16);assert(ramMax-ramUsed>=8192,'Keep original linker region and>=8KiB unallocated static RAM');
+ const hex=path.join(bundle,'MDK-ARM',target,target+'.hex'),axf=path.join(bundle,'MDK-ARM',target,target+'.axf');
+ return{name,build:name==='BLNN'?67511:67512,method:name==='BLNN'?11:12,schema:4484,project:path.join(bundle,'MDK-ARM/eassy.uvprojx'),target,hex,hexSHA256:hash(hex),axfSHA256:hash(axf),ramUsed_bytes:ramUsed,ramMax_bytes:ramMax,staticRemaining_bytes:ramMax-ramUsed,sources:Object.fromEntries(['motor_task.c','model_trace.h','blnn_core.c','experiment5_formal_config.h','online_protocol.h'].map(f=>[f,hash(path.join(task,f))])),flashed:false};});
+const result={checks,bundles,nativeCoreAndHostChecksPassed:true,defaultControllersExactlyArchived:true,algorithmAndGuardsUnchanged:true,modelBuffer_bytes:2048*18,loggerCopiesOnlyAfterControl:true,noBootAutostart:true,modelIdentified:false,physicalTimingQualified:false,performanceEvidence:false};
+fs.writeFileSync(path.join(dir,'build_manifest.json'),JSON.stringify(result,null,2));console.log(JSON.stringify({checks,bundles:bundles.map(({sources,...b})=>b)},null,2));

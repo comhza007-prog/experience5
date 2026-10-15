@@ -1,0 +1,207 @@
+{
+  "date": "2026-10-15",
+  "authorization": "User requests trying reduced-dependence-on-single-mechanical-state modeling, then one manual new capture. Offline parameter changes only; no controller changes or assistant hardware operation.",
+  "records": [
+    {
+      "name": "T1",
+      "decoded": "identification_t1_fullmoving_round70_20261015/build68112_d1184a41428b_analysis.json",
+      "rawSHA256": "d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0",
+      "prefixRows": 0,
+      "nativeSamples": 400
+    },
+    {
+      "name": "Q2_run02",
+      "decoded": "q2_mechanical_recheck_round73_20261015/build68012_84bbb6e34165_analysis.json",
+      "rawSHA256": "84bbb6e3416540a238354d7636a6bc4e6f5ba0cd2d090470e3eb1bba1ce153db",
+      "prefixRows": 1,
+      "nativeSamples": 400
+    },
+    {
+      "name": "Q2_run03",
+      "decoded": "q2_frozen_r79_check_round80_20261015/capture_analysis.json",
+      "rawSHA256": "e8b6c897381bf15a77d4543d36f8564bab4318ae633bad56fc08b061fd173567",
+      "prefixRows": 1,
+      "nativeSamples": 399
+    },
+    {
+      "name": "Q2_run04",
+      "decoded": "q2_r82_repeat_round85_20261015/capture_analysis.json",
+      "rawSHA256": "62dee22d4a81c135b355ce8d178b7b15d616357926465d4983285febefd36cb0",
+      "prefixRows": 0,
+      "nativeSamples": 400
+    },
+    {
+      "name": "Q2_run05",
+      "decoded": "q2_frozen_r86_check_round87_20261015/capture_analysis.json",
+      "rawSHA256": "1a2901e72e3430f86212668ad8ee9c7883d7cd6fef7d43023cd8b9e0f1a8eb00",
+      "prefixRows": 0,
+      "nativeSamples": 400
+    }
+  ],
+  "sourceModel": "cumulative_micro_round86_20261015/model_parameters.json",
+  "sourceModelSHA256": "b5fa79668e254f166c765a8444fd79733625633dc0e4ac8147e0c891da96580a",
+  "initialParameters": [
+    0.0000031544473043180896,
+    0.00000214745126064021,
+    1.2664310115393707,
+    0.016469415301482927,
+    8.717113104795002,
+    2.324466329054665,
+    0.0004240043709646409,
+    0.0001041536076565124,
+    -0.8897118441672984,
+    0.00016589864617107863,
+    0.000850433354280769
+  ],
+  "parameterNames11": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "staticExtraL",
+    "staticExtraR"
+  ],
+  "parameterScales11": [
+    0.00001,
+    0.00001,
+    10,
+    10,
+    1000,
+    100,
+    0.01,
+    0.01,
+    0.2,
+    0.001,
+    0.001
+  ],
+  "lowerBounds11": [
+    1e-7,
+    1e-7,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -0.95,
+    0,
+    0
+  ],
+  "upperBounds11": [
+    0.001,
+    0.001,
+    1000,
+    1000,
+    100000,
+    10000,
+    1,
+    1,
+    0.95,
+    0.1,
+    0.1
+  ],
+  "localParameterBounds": "Intersection with +/-10percent of each positive R82 parameter; inertiaEta within +/-0.02 absolute. Same bound for every record; no per-record parameters.",
+  "localRelativeBound": 0.1,
+  "localEtaAbsoluteBound": 0.02,
+  "recordWeights": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "waveformScale_mm": [
+    0.05,
+    0.05
+  ],
+  "metricRelativeScale": 0.1,
+  "objective": "Same full-record mean/differential waveform and task RMS loss terms as R86, equal weights across five records, plus declared drift penalty for reduced scheme. Report before/after every record. Full11 matched data/budget/bounds is diagnostic comparator, not a guaranteed global optimum.",
+  "optimizer": {
+    "method": "One deterministic bounded Nelder-Mead seed per declared scheme, normalized local-radius coordinates",
+    "maximumEvaluations": 700,
+    "maximumIterations": 500,
+    "initialStep": 0.1
+  },
+  "modelStructureChanged": false,
+  "holdingInputApproximationChanged": false,
+  "observedNativeSamples": [
+    400,
+    400,
+    399,
+    400,
+    400
+  ],
+  "recordingLimitations": "T1 completion tail6.88s; Q2run03 tail7.08s and one missing native point. Their full motion/hold snapshots independently CRC verified; limitations retained, absent point not imputed. Q2run04 strictly qualified.",
+  "previousHoldoutResult": "q2_frozen_r86_check_round87_20261015/comparison_summary.json",
+  "previousHoldoutResultRetained": true,
+  "run04NowUsedForCalibration": true,
+  "run05UsedForCalibration": true,
+  "newPhysicalTest": "One unchanged manual Q2run06 after reduced candidate frozen and numerically verified. Not formal batch. Evaluate candidate and frozen R86 before any refit.",
+  "firmwareChanged": false,
+  "assistantHardwareAction": false,
+  "fixedCoreIndices": [
+    2,
+    3,
+    4,
+    5,
+    8
+  ],
+  "freeIndices": [
+    0,
+    1,
+    6,
+    7,
+    9,
+    10
+  ],
+  "fixedCoreRationale": "Keep R86 numerical nominal damping, elastic/damping coupling and inertia coupling fixed. These are not independently identified physical constants. This changes estimation freedom, not physical plant coupling strength.",
+  "schemes": [
+    {
+      "label": "full11_control",
+      "freeIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "driftPenaltyWeight": 0
+    },
+    {
+      "label": "stable6_regularized",
+      "freeIndices": [
+        0,
+        1,
+        6,
+        7,
+        9,
+        10
+      ],
+      "driftPenaltyWeight": 0.25
+    }
+  ],
+  "driftPenalty": "weight*mean((parameter deviation/local radius)^2), centered on R86; no per-record adjustment. The reduced scheme combines fixing core and drift regularization, not separate independent ablations.",
+  "candidateEligibility": "Reduced scheme cumulative unpenalized loss must not exceed unchanged R86, and no individual unpenalized record loss may exceed its R86 baseline by10percent. This is a screening guard, not physical model acceptance. Preserve failure and do not expand trials to force passing.",
+  "inputLimitations": "Recorded queued commands, not delivered torque; holding40step means retained. No residual model/noise realization/output correction added. Mechanical uncertainty ranges are not identified by this exercise.",
+  "oldIndependentTestSummary": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_frozen_r86_check_round87_20261015\\comparison_summary.json",
+  "oldIndependentTestSummarySHA256": "199eef874364e9ca3a859a6c7aa1567b7a167599d447cf818e6dbd24ebba979a",
+  "run06UsedForCalibration": false,
+  "proposedFutureScreenOnly": {
+    "syncCorrelationMinimum": 0.8,
+    "syncWaveformRMSEOverActualRMSMaximum": 0.5,
+    "syncTaskRMSRelativeErrorMaximum": 0.15,
+    "status": "Proposed engineering screening values from discussion; not a universal standard or sufficient closed-loop/control-benefit validation."
+  },
+  "newPhysicalRunReleased": false
+}

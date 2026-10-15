@@ -1,0 +1,71 @@
+{
+  "checks": [
+    {
+      "exe": "test_trace.exe",
+      "result": "PASS18byte rows; full20s/2001records/4002copies; exact command packing, TC-only cursor, bounds and capacity; no hardware"
+    },
+    {
+      "exe": "ordinary_float.exe",
+      "result": "PASS60000 new ordinary controller states/outputs/final guarded commands exact archived65511; diagnostic extensions excluded"
+    },
+    {
+      "exe": "ordinary_double.exe",
+      "result": "PASS60000 new ordinary controller states/outputs/final guarded commands exact archived65511; diagnostic extensions excluded"
+    }
+  ],
+  "bundles": [
+    {
+      "name": "S3R2",
+      "build": 67512,
+      "method": 12,
+      "schema": 4484,
+      "project": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\自动监视_反馈辨识_20261014\\eassy_E5MODEL_A_S3R2_HW6\\MDK-ARM\\eassy.uvprojx",
+      "target": "exp5MODEL_A_S3R2_HW6",
+      "hex": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\自动监视_反馈辨识_20261014\\eassy_E5MODEL_A_S3R2_HW6\\MDK-ARM\\exp5MODEL_A_S3R2_HW6\\exp5MODEL_A_S3R2_HW6.hex",
+      "hexSHA256": "17eeb9a7aff8bc18ae568931566934aa25ad02ce88f882bcc6a3ef1ca9acfc52",
+      "axfSHA256": "86e24e4b8713697ebe09da9963c9916117eb9e98651d5152f71a4aea490f6a2c",
+      "ramUsed_bytes": 101608,
+      "ramMax_bytes": 114688,
+      "staticRemaining_bytes": 13080,
+      "sources": {
+        "motor_task.c": "0f7da3a6e7d73ea2d66aaffbff5b4e757bdd0f460fc83446f8a197f2728a00ef",
+        "model_trace.h": "91ff9834d2ee2c5e9de6f31932cc8ec11eced299a4745edb5baa6b3c2e7a897d",
+        "blnn_core.c": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+        "experiment5_formal_config.h": "21a93c06ef32f426aecad2310c06c30a7ba4abec1ba588f0826b4e97e885aedd",
+        "online_protocol.h": "323764427a2b54a144932df29c1ba93b75321bf37ddaad6e7b8dce83d172c09b"
+      },
+      "flashed": false
+    },
+    {
+      "name": "BLNN",
+      "build": 67511,
+      "method": 11,
+      "schema": 4484,
+      "project": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\自动监视_反馈辨识_20261014\\eassy_E5MODEL_A_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+      "target": "exp5MODEL_A_BLNN_HW6",
+      "hex": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\自动监视_反馈辨识_20261014\\eassy_E5MODEL_A_BLNN_HW6\\MDK-ARM\\exp5MODEL_A_BLNN_HW6\\exp5MODEL_A_BLNN_HW6.hex",
+      "hexSHA256": "1cdece9161cc3534cd43d9b8adcc3ca579a267ad83eafa31ebb5a31de6a30252",
+      "axfSHA256": "aa89787eb2b713e32c7bd34af6fa2c258e61790cc7e48aa54a88fb6d5ae7a487",
+      "ramUsed_bytes": 101608,
+      "ramMax_bytes": 114688,
+      "staticRemaining_bytes": 13080,
+      "sources": {
+        "motor_task.c": "0f7da3a6e7d73ea2d66aaffbff5b4e757bdd0f460fc83446f8a197f2728a00ef",
+        "model_trace.h": "91ff9834d2ee2c5e9de6f31932cc8ec11eced299a4745edb5baa6b3c2e7a897d",
+        "blnn_core.c": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+        "experiment5_formal_config.h": "e416ebd4b5254791d7c7c11fed753eeea7887045c905bb269dc203be99f29df4",
+        "online_protocol.h": "323764427a2b54a144932df29c1ba93b75321bf37ddaad6e7b8dce83d172c09b"
+      },
+      "flashed": false
+    }
+  ],
+  "nativeCoreAndHostChecksPassed": true,
+  "defaultControllersExactlyArchived": true,
+  "algorithmAndGuardsUnchanged": true,
+  "modelBuffer_bytes": 36864,
+  "loggerCopiesOnlyAfterControl": true,
+  "noBootAutostart": true,
+  "modelIdentified": false,
+  "physicalTimingQualified": false,
+  "performanceEvidence": false
+}

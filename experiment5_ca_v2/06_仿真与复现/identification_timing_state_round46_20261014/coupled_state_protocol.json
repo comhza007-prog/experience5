@@ -1,0 +1,9 @@
+{
+ "scope":"Single targeted T1-only extension after fixed four-cell audit. Not an actuator/neural-controller change or independent validation. All earlier results retained.",
+ "motivation":"Prior-input memory and removal of recursive discontinuous sign term reduced training trajectory drift, but two-axis interval velocities alone omit relative-position state of mechanically coupled axes.",
+ "model":"One fixed8-column average-velocity predictor per axis: own/other previous interval velocity,present own/other command,previous own/other command,previous encoder-position skew(left-right),intercept. Predict both position and velocity recursively from one initial state; no measured future skew/sign injected.",
+ "fit":"Exactly one standardized OLS fit on800T1 intervals4020..20000ms,plus four predetermined contiguous200interval leave-block-out training-internal checks. Each block initialized once from its observed prior state. All blocks/results reported. No parameter/order/delay/filter/ridge sweep.",
+ "plausibility":"Report velocityA poles and augmented position/velocity poles at observed mean interval. One neutral translation pole expected by coordinate invariance; report all other poles without forcing. Relative-position coefficients should oppose positive left-right skew: left<=0,right>=0,otherwise do not label elastic/restoring physics. Discrete aggregate model is not asserted to have a valid1ms continuous embedding or identifiable mechanical mass.",
+ "release":"No automaticV1/hardware release from improved training reconstruction. Need credible internal checks and predeclared effect-linked resolution budget beforeV1. No fabricated task tolerance. If these checks fail,preserve result and stop model expansion in this round.",
+ "Q0Fitting":false,"V1Access":false,"newPhysicalRuns":0,"modelIdentified":false
+}

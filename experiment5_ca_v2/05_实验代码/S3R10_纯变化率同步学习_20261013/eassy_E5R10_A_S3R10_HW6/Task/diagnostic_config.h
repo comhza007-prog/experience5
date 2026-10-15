@@ -1,0 +1,32 @@
+#ifndef E5_DIAGNOSTIC_CONFIG_H
+#define E5_DIAGNOSTIC_CONFIG_H
+#include "experiment5_formal_config.h"
+/* MCU QUALIFICATION flags. Same factors as offline round06; no retuning.
+ * Defaults are tied to the unique project/build identity, not host settings. */
+#ifndef DIAG_NEW_LEARNING
+#define DIAG_NEW_LEARNING E5_SELECTED_NEW_LEARNING
+#endif
+#ifndef DIAG_BALANCED_CONTRACTION
+#define DIAG_BALANCED_CONTRACTION E5_SELECTED_BALANCED
+#endif
+#define DIAG_SLEW_COUNTS 2
+#define DIAG_SECTOR_FRACTION .25
+#define DIAG_REASON_RATE_ONLY 1U
+#define DIAG_REASON_HARD_CLIP 2U
+#define DIAG_REASON_OTHER_CONSTRAINT 4U
+#ifndef DIAG_BOUNDED_REPAIR
+#define DIAG_BOUNDED_REPAIR E5_SELECTED_REPAIR
+#endif
+#ifndef DIAG_TRACKING_RETENTION
+#define DIAG_TRACKING_RETENTION E5_SELECTED_RETENTION
+#endif
+#ifndef DIAG_SYNC_RATE_LEARNING
+#define DIAG_SYNC_RATE_LEARNING 1
+#endif
+#ifndef DIAG_SYNC_RATE_SCOPE
+#define DIAG_SYNC_RATE_SCOPE 0
+#endif
+#ifndef DIAG_SYNC_POSITION_SUPPORT
+#define DIAG_SYNC_POSITION_SUPPORT 1
+#endif
+#endif

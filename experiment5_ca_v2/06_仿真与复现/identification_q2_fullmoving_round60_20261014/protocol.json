@@ -1,0 +1,17 @@
+{
+  "created":"2026-10-14", "completedDate":"2026-10-15",
+  "scope":"One user-approved manual zero-excitation ordinary BLNN logger qualification; no further physical batch authorized",
+  "build":68011,"schema":4498,"magic":4443,"blobVersion":2,
+  "parentBuild":67823,"unchanged":"All control, trajectory,1200/1200 limits, filters, antiwindup, health/deadline guards and one-shot healthy8s boot start",
+  "movingCapture":"Every preceding-command interval in phase2/4 at nominal1ms; exact endpoints and cumulative actual-us timing, no inferred fill",
+  "holdsCapture":"40-control-step endpoints (nominal40ms), command counts*actual-us integrals. Hold command waveforms/RPM/current are not reconstructed",
+  "forceCalibration":false,"CANCommandAcknowledged":false,
+  "encoding":"Version2 8-byte moving records,64 full28-byte exception slots,304 hold16-byte rows; split-range exact-integer floats over48 stopped-only payload channels",
+  "payloadChannels":[3,4,5,6,7,8,9,10,11,12,15,16,17,18,23,24,25,26,29,30,31,32,33,34,35,36,37,38,39,40,49,50,51,52,53,54,55,56,61,62,64,65,66,67,68,74,75,76],
+  "transport":"107float JustFloat115200baud40ms unchanged;96raw bytes/chunk,ascending+descending,two copies/pass,CRC32; host must verify completeness",
+  "recordingStop":"I88=4443,I89=4,I90=0 followed by10seconds; do not stop at phase6/40seconds, reset or flash before export",
+  "qualification":"No faults or timing/CAN/UART/DMA errors, complete motion/phases, contiguous core collection, no quality flags, sufficient stack/RAM margin, all chunks>=2identical copies, whole CRC",
+  "normalActiveI53I54":"Original raw modal position coordinates in SI units, NOT final-error-RMS display. Stopped export payload I53/I54 are encoded words",
+  "notYetEstablished":["on-board timing","platform identification","independent prediction","candidate efficacy","model/experiment closure"],
+  "nextAfterQualification":"Define bounded training and genuinely independent validation protocol before any excitation or additional capture; ordinary-data fitting without tuning on S3R2 performance"
+}

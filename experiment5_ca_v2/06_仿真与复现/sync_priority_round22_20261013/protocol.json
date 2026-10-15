@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-13",
+  "base": "R8 build67012; both raw physical runs retained",
+  "candidate": "R9 build67112/schema4480/variant14/EVENT48 magic4431 at8500ms",
+  "physicalEvidence": {
+    "run01SHA256": "0f630c354fc8d41167d5ac124bf206f6be1de746abacb51af272946410f24339",
+    "run02SHA256": "3207124aafc73094ba6ed67cc6db50a2b7d140f53d308edcde5162432c898ab2",
+    "commonSamplesWithBLNN": 398,
+    "R8run01": {"trackingRMSE_mm":0.15840912538431895,"syncRMS_mm":0.08871610754926942},
+    "R8run02": {"trackingRMSE_mm":0.1590829660126338,"syncRMS_mm":0.08917197263444163},
+    "BLNN": {"trackingRMSE_mm":0.13229604811457385,"syncRMS_mm":0.05809991826597123},
+    "diagnosis": "Both top holds have nearly-zero mean position error with about0.11-0.12mm skew. Frozen command-space mapping shows retained Y NN partly cancels one side of alpha correction. This is an implementation hypothesis, not a proven sole cause or measured-force inference.",
+    "frozenRun02At8_4s": {"beta":0.5213675213675184,"oldRawNN_counts":[19.14355630252099,-199.13091764705882],"newRawNN_counts":[-33.093069941823224,-146.89429140271463]}
+  },
+  "singleMechanism": "On symmetric limits only, beta=min(1,(2*abs(mean position error)+50um)/abs(left-right position error)), with beta1 near zero skew. Scale Y NN request AND Y gradient/repair learning ceiling. Preserve alpha request, both separate work bounds, old allocator/current/slew/speed/position/fault/timing guards. Do not grow Y nodes on beta<1 cycles.",
+  "unchanged": "No original BASE gains, hard current limits, NN300count limit, normal2count/ms slew, speed taper/brake, CAN/BMS guards, motion reference, anti-windup, UART cadence or ordinary comparator changes. No online tuning or automatic flashing.",
+  "telemetry": "107channels/40ms/115200 JustFloat. Live I92 and EVENTv39 now beta. I17/18 actual learning; I25=4 means R9 Y attenuation, NOT old R3 mode4. Existing repair/retention modes retain meanings. Post-stop I88=4431,I89=4 identifies completed replay.",
+  "trial": "At most one exploratory empty-load2mm/1200-1200 manual-flash run after compiled/host release checks. Keep power/temperature conditions documented and comparable. No repeat batch authorized by this protocol.",
+  "exploratoryComparison": "Same phase2-5 mean-position tracking and left-right synchronization metrics; exact common elapsed timestamps without interpolation. Compare BOTH R8 records and fixed BLNN; no best-run selection or favorable-window replacement. Desired signal is lower sync RMS than R8 without increased tracking beyond its observed range; this is a screening goal, not a statistical noninferiority claim. Ordinary BLNN remains the independent performance comparator.",
+  "filename": "E5R9_A_S3R9_HW6_EVENT48_L1200_R1200_M0g_S2mm_run01.csv",
+  "export": "On success phase6/fault0, wait for I88=4431,I89=4 then retain5seconds; normally absoluteI0>=100s. Abnormal motion or fault: stop safely, keep same history and preserve fault replay; no automatic retry.",
+  "limitations": "Assumed model not identified/calibrated to hardware; 36case checks are regression evidence only. No new physical result, hardware timing qualification or closed-loop stability/superiority proof. This exploratory candidate changes the coordination mechanism, not the archived original experiments or declared paper claims."
+}

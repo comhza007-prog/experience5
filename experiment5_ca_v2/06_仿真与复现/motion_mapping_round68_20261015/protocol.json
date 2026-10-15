@@ -1,0 +1,15 @@
+{
+  "date":"2026-10-15",
+  "scope":"Ordinary-only offline frozen-parameter diagnostic. No parameter fit, controller edit, independent-validation output access or hardware.",
+  "questions":["Does changing RPM observations alter the existing forced-position replay?","Do spring and cross-damping terms suppress measured projected-encoder synchronization dynamics?","Is a simple zero-lag integer-RPM observation hypothesis consistent with complete motion displacement?"],
+  "fixedCases":["round66 baseline","spring zero, all other fitted coefficients fixed","cross-damping zero, all other fitted coefficients fixed","spring and cross-damping zero, all other fitted coefficients fixed"],
+  "casesAreNotRetrainedOrCandidateSelection":true,
+  "data":"Same ordinary Q2S68012 training record. Complete20s single initial state; exact1ms moving commands, explicit unverified hold-mean ZOH.",
+  "motionMetrics":"Original native40ms phase2..5 and exact8000 moving endpoint positions. No measured-future-state injection.",
+  "RPMProbe":"Mutate only an in-memory copy of all decoded RPM samples to constant100. Actual command arrays and encoder observations unchanged. This tests the replay dependency graph, not the physical controller's response to RPM.",
+  "RPMConsistencyAssumption":"Two declared zero-lag hypotheses for interval-mean motor speed: nearest integer gives +/-0.5rpm bin; floor integer gives [rpm,rpm+1]. Integrate bins over actual dt. These simplified interval-mean observation assumptions are not certified hardware sampling/filter/quantizer models.",
+  "encoderEnvelope":"For these conditional bin tests only, allow +/-one native encoder count at each endpoint. This is a numerical-bin assumption, not independently measured carriage accuracy.",
+  "verification":"Native baseline metrics match round66; common-mode symmetric fixture invariant under coupling knockouts; independent JS metric recomputation from400storedpoints and per-window RPM bounds.",
+  "interpretation":"A favorable fixed knockout is mechanism sensitivity on training input, not newly calibrated plant, physical parameter proof, method superiority or closed-loop validation. Do not pick a final physical controller from it.",
+  "retainFailures":true,"modelsFitted":0,"S3R2DataRead":false,"controllerChanged":false,"physicalCaptureReleased":false
+}

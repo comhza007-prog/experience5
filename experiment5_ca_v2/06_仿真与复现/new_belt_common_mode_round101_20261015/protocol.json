@@ -1,0 +1,58 @@
+{
+  "status": "Declared before extension fitting",
+  "sources": [
+    {
+      "name": "new_belt_run010",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+      "rawSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b"
+    },
+    {
+      "name": "new_belt_run011",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run011.csv",
+      "rawSHA256": "e7e38ee5980fca58f656ac36ffe52d37b505909b4dee49e53acba25dbd306173"
+    }
+  ],
+  "motivation": "R100 final hold mean-position bias opposite signs across records. Test passive common-mode elastic/viscous response, preserving differential coupling and memory friction.",
+  "addedLaw": "Each axis receives Fc=Kcommon*mean(position)+Ccommon*mean(velocity), opposing motion/deflection about initial equilibrium. Kcommon,Ccommon>=0; matrices add0.5*coefficient*ones(2,2). No desired-trajectory feedback or per-run offsets.",
+  "physicalCaveat": "Effective initial-equilibrium restoring hypothesis, not identified actual belt force. Inherited calibration means total model is not uniquely identified by four aggregate targets.",
+  "sourceModelSHA256": "a44665e79b254514302e0c39c3a3ebf288df7e684920e5dc2b76df49683ce486",
+  "primaryFreeParameters": [
+    "Kcommon",
+    "Ccommon"
+  ],
+  "fixedR100Parameters": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "preSlidingStiffnessL",
+    "preSlidingStiffnessR",
+    "sharedYieldForce"
+  ],
+  "bounds": [
+    [
+      0,
+      30
+    ],
+    [
+      0,
+      100
+    ]
+  ],
+  "transform": "log1p",
+  "gridPerAxis": 17,
+  "localSeeds": 6,
+  "maximumEvaluationsPerSeed": 700,
+  "objective": "Two final tracking/sync RMS relative errors divided0.15, equal record weights. Tiny1e-6 log-coordinate regularizer. No waveform objective or output correction.",
+  "criterion": "Both records each tracking/sync<=15percent; waveform diagnostic only",
+  "oldRegimeDataUsed": 0,
+  "bothRecordsCalibration": true,
+  "independentValidationRequired": true,
+  "firmwareChanged": false,
+  "assistantHardwareAction": false
+}

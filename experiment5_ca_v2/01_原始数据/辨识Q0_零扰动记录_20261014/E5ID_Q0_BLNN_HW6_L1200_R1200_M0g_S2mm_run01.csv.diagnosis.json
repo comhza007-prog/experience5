@@ -1,0 +1,1122 @@
+{
+  "source": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\辨识Q0_零扰动记录_20261014\\E5ID_Q0_BLNN_HW6_L1200_R1200_M0g_S2mm_run01.csv",
+  "sourceSHA256": "54ffd9edd17ae06596cad5735760503a6a3a60b6848c10c0e3ebdd4076dbcda5",
+  "frames": 8742,
+  "liveFrames": 273,
+  "phases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    9
+  ],
+  "firstFault": {
+    "boardTime_s": 162.92100524902344,
+    "elapsed_s": 10.932000160217285,
+    "fault": 512,
+    "firstFault": 512,
+    "firstFault_elapsed_s": 10.933000564575195,
+    "voltage": 23.41849708557129,
+    "encoder_position_mm": [
+      2.0103221759200096,
+      2.1108381915837526
+    ],
+    "RPMpeaks": [
+      52,
+      253
+    ],
+    "speedGuardCounts": [
+      321,
+      424
+    ],
+    "overruns": 0,
+    "bodyPeak_us": 282.2559509277344
+  },
+  "liveRanges": {
+    "voltage": [
+      23.186582565307617,
+      23.700780868530273
+    ],
+    "position_mm": [
+      [
+        0,
+        2.0999389234930277
+      ],
+      [
+        0,
+        2.1350590977817774
+      ]
+    ],
+    "command_counts": [
+      [
+        -274,
+        568
+      ],
+      [
+        -676,
+        503
+      ]
+    ],
+    "rawRPM": [
+      [
+        -17,
+        52
+      ],
+      [
+        -47,
+        12
+      ]
+    ]
+  },
+  "faultTraceCount": 64,
+  "faultTrace": [
+    {
+      "index": 63,
+      "relative_ms": -63,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -65,
+        469
+      ]
+    },
+    {
+      "index": 62,
+      "relative_ms": -62,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -66,
+        469
+      ]
+    },
+    {
+      "index": 61,
+      "relative_ms": -61,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -66,
+        469
+      ]
+    },
+    {
+      "index": 60,
+      "relative_ms": -60,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -67,
+        470
+      ]
+    },
+    {
+      "index": 59,
+      "relative_ms": -59,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -67,
+        470
+      ]
+    },
+    {
+      "index": 58,
+      "relative_ms": -58,
+      "rpm": [
+        -3,
+        0
+      ],
+      "encoder_rpm": [
+        -7.381690502166748,
+        0
+      ],
+      "previous_command_counts": [
+        -68,
+        471
+      ]
+    },
+    {
+      "index": 57,
+      "relative_ms": -57,
+      "rpm": [
+        -3,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -56,
+        474
+      ]
+    },
+    {
+      "index": 56,
+      "relative_ms": -56,
+      "rpm": [
+        -3,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -49,
+        476
+      ]
+    },
+    {
+      "index": 55,
+      "relative_ms": -55,
+      "rpm": [
+        -3,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -44,
+        478
+      ]
+    },
+    {
+      "index": 54,
+      "relative_ms": -54,
+      "rpm": [
+        -3,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -41,
+        479
+      ]
+    },
+    {
+      "index": 53,
+      "relative_ms": -53,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -39,
+        481
+      ]
+    },
+    {
+      "index": 52,
+      "relative_ms": -52,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -47,
+        480
+      ]
+    },
+    {
+      "index": 51,
+      "relative_ms": -51,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -53,
+        479
+      ]
+    },
+    {
+      "index": 50,
+      "relative_ms": -50,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -58,
+        479
+      ]
+    },
+    {
+      "index": 49,
+      "relative_ms": -49,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        7.396421909332275
+      ],
+      "previous_command_counts": [
+        -61,
+        479
+      ]
+    },
+    {
+      "index": 48,
+      "relative_ms": -48,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -64,
+        478
+      ]
+    },
+    {
+      "index": 47,
+      "relative_ms": -47,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -66,
+        478
+      ]
+    },
+    {
+      "index": 46,
+      "relative_ms": -46,
+      "rpm": [
+        0,
+        2
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -68,
+        479
+      ]
+    },
+    {
+      "index": 45,
+      "relative_ms": -45,
+      "rpm": [
+        0,
+        2
+      ],
+      "encoder_rpm": [
+        0,
+        7.359438896179199
+      ],
+      "previous_command_counts": [
+        -71,
+        472
+      ]
+    },
+    {
+      "index": 44,
+      "relative_ms": -44,
+      "rpm": [
+        0,
+        2
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -73,
+        466
+      ]
+    },
+    {
+      "index": 43,
+      "relative_ms": -43,
+      "rpm": [
+        0,
+        2
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -75,
+        464
+      ]
+    },
+    {
+      "index": 42,
+      "relative_ms": -42,
+      "rpm": [
+        0,
+        2
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -76,
+        462
+      ]
+    },
+    {
+      "index": 41,
+      "relative_ms": -41,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -77,
+        461
+      ]
+    },
+    {
+      "index": 40,
+      "relative_ms": -40,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -76,
+        467
+      ]
+    },
+    {
+      "index": 39,
+      "relative_ms": -39,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -76,
+        472
+      ]
+    },
+    {
+      "index": 38,
+      "relative_ms": -38,
+      "rpm": [
+        0,
+        -3
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -76,
+        476
+      ]
+    },
+    {
+      "index": 37,
+      "relative_ms": -37,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -73,
+        489
+      ]
+    },
+    {
+      "index": 36,
+      "relative_ms": -36,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -74,
+        488
+      ]
+    },
+    {
+      "index": 35,
+      "relative_ms": -35,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -75,
+        488
+      ]
+    },
+    {
+      "index": 34,
+      "relative_ms": -34,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -75,
+        488
+      ]
+    },
+    {
+      "index": 33,
+      "relative_ms": -33,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -76,
+        488
+      ]
+    },
+    {
+      "index": 32,
+      "relative_ms": -32,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -76,
+        489
+      ]
+    },
+    {
+      "index": 31,
+      "relative_ms": -31,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -77,
+        489
+      ]
+    },
+    {
+      "index": 30,
+      "relative_ms": -30,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -77,
+        490
+      ]
+    },
+    {
+      "index": 29,
+      "relative_ms": -29,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -78,
+        491
+      ]
+    },
+    {
+      "index": 28,
+      "relative_ms": -28,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -78,
+        491
+      ]
+    },
+    {
+      "index": 27,
+      "relative_ms": -27,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -79,
+        492
+      ]
+    },
+    {
+      "index": 26,
+      "relative_ms": -26,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -79,
+        493
+      ]
+    },
+    {
+      "index": 25,
+      "relative_ms": -25,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -79,
+        493
+      ]
+    },
+    {
+      "index": 24,
+      "relative_ms": -24,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -80,
+        494
+      ]
+    },
+    {
+      "index": 23,
+      "relative_ms": -23,
+      "rpm": [
+        -3,
+        0
+      ],
+      "encoder_rpm": [
+        -7.345204830169678,
+        0
+      ],
+      "previous_command_counts": [
+        -80,
+        495
+      ]
+    },
+    {
+      "index": 22,
+      "relative_ms": -22,
+      "rpm": [
+        -3,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -69,
+        499
+      ]
+    },
+    {
+      "index": 21,
+      "relative_ms": -21,
+      "rpm": [
+        -3,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -62,
+        501
+      ]
+    },
+    {
+      "index": 20,
+      "relative_ms": -20,
+      "rpm": [
+        -3,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -57,
+        503
+      ]
+    },
+    {
+      "index": 19,
+      "relative_ms": -19,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -54,
+        504
+      ]
+    },
+    {
+      "index": 18,
+      "relative_ms": -18,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -61,
+        504
+      ]
+    },
+    {
+      "index": 17,
+      "relative_ms": -17,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -67,
+        503
+      ]
+    },
+    {
+      "index": 16,
+      "relative_ms": -16,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -71,
+        503
+      ]
+    },
+    {
+      "index": 15,
+      "relative_ms": -15,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -75,
+        503
+      ]
+    },
+    {
+      "index": 14,
+      "relative_ms": -14,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        7.374258518218994
+      ],
+      "previous_command_counts": [
+        -77,
+        504
+      ]
+    },
+    {
+      "index": 13,
+      "relative_ms": -13,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -79,
+        502
+      ]
+    },
+    {
+      "index": 12,
+      "relative_ms": -12,
+      "rpm": [
+        0,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -81,
+        503
+      ]
+    },
+    {
+      "index": 11,
+      "relative_ms": -11,
+      "rpm": [
+        0,
+        2
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -82,
+        504
+      ]
+    },
+    {
+      "index": 10,
+      "relative_ms": -10,
+      "rpm": [
+        0,
+        2
+      ],
+      "encoder_rpm": [
+        0,
+        7.40064811706543
+      ],
+      "previous_command_counts": [
+        -85,
+        498
+      ]
+    },
+    {
+      "index": 9,
+      "relative_ms": -9,
+      "rpm": [
+        0,
+        2
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -87,
+        492
+      ]
+    },
+    {
+      "index": 8,
+      "relative_ms": -8,
+      "rpm": [
+        0,
+        2
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -89,
+        489
+      ]
+    },
+    {
+      "index": 7,
+      "relative_ms": -7,
+      "rpm": [
+        -3,
+        2
+      ],
+      "encoder_rpm": [
+        0,
+        6.615139007568359
+      ],
+      "previous_command_counts": [
+        -90,
+        487
+      ]
+    },
+    {
+      "index": 6,
+      "relative_ms": -6,
+      "rpm": [
+        -3,
+        2
+      ],
+      "encoder_rpm": [
+        -7.366664886474609,
+        0
+      ],
+      "previous_command_counts": [
+        -81,
+        487
+      ]
+    },
+    {
+      "index": 5,
+      "relative_ms": -5,
+      "rpm": [
+        -5,
+        2
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -72,
+        489
+      ]
+    },
+    {
+      "index": 4,
+      "relative_ms": -4,
+      "rpm": [
+        -5,
+        2
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -61,
+        491
+      ]
+    },
+    {
+      "index": 3,
+      "relative_ms": -3,
+      "rpm": [
+        -3,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        6.597121715545654
+      ],
+      "previous_command_counts": [
+        -53,
+        493
+      ]
+    },
+    {
+      "index": 2,
+      "relative_ms": -2,
+      "rpm": [
+        -3,
+        0
+      ],
+      "encoder_rpm": [
+        -7.374434947967529,
+        -8.378743171691895
+      ],
+      "previous_command_counts": [
+        -53,
+        498
+      ]
+    },
+    {
+      "index": 1,
+      "relative_ms": -1,
+      "rpm": [
+        -3,
+        0
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -50,
+        505
+      ]
+    },
+    {
+      "index": 0,
+      "relative_ms": 0,
+      "rpm": [
+        -3,
+        253
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -50,
+        509
+      ]
+    }
+  ],
+  "activeRPMGuardEvidence": [
+    {
+      "index": 0,
+      "relative_ms": 0,
+      "rpm": [
+        -3,
+        253
+      ],
+      "encoder_rpm": [
+        0,
+        0
+      ],
+      "previous_command_counts": [
+        -50,
+        509
+      ]
+    }
+  ],
+  "limitations": [
+    "ESC and encoder speed are not independent physical sensors; sampled live40ms data cannot exclude1ms excursions.",
+    "This run faulted and does not qualify Q0 or identify the platform."
+  ],
+  "qualified": false
+}

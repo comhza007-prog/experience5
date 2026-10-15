@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-15",
+  "purpose": "User-directed calibration so one parameter vector more closely reproduces tightened Q2 and T1 measurements, including tracking and sync RMS. In-sample descriptive fit, not an independent test or controller comparison.",
+  "trainingSources": ["identification_t1_fullmoving_round70_20261015/build68112_d1184a41428b_analysis.json", "q2_mechanical_recheck_round73_20261015/build68012_84bbb6e34165_analysis.json"],
+  "trainingRawSHA256": ["d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0", "84bbb6e3416540a238354d7636a6bc4e6f5ba0cd2d090470e3eb1bba1ce153db"],
+  "recordWeights": [0.5, 0.5],
+  "initialParameters": [0.000005336327662271736,0.000004448479288029315,1.3385792908827865,1.0191556775946902,2.493140465735669,15.187971197263286,0.000418542894291717,0.0006276376997653077,-0.696361027924568],
+  "initialization": "Round78 shared vector fitted only on the same two tightened records from its declared fresh seed; no loose-Q2 fitted vector initialization.",
+  "oldFittedParameterFilesRead": false,
+  "parameterNames": ["gainL", "gainR", "dampingL", "dampingR", "reciprocalSpring", "reciprocalDamping", "CoulombL", "CoulombR", "inertiaEta"],
+  "parameterScales": [0.00001,0.00001,10,10,1000,100,0.01,0.01,0.2],
+  "lowerBounds": [0.0000001,0.0000001,0,0,0,0,0,0,-0.95],
+  "upperBounds": [0.001,0.001,1000,1000,100000,10000,1,1,0.95],
+  "maxIterations": 120,
+  "maxEvaluations": 1600,
+  "lineSearch": [1,0.5,0.25,0.125],
+  "waveformScale_mm": [0.05,0.05],
+  "metricRelativeScale": 0.1,
+  "objective": "For each full record: half-weight normalized elapsed-time-average squared mean-position and full sync waveform errors, plus tracking/sync task RMS relative discrepancies scaled by 0.10; regularization 1e-8. Task statistics use continuous predicted positions for optimization, original encoder mapping for final reporting. 0.10 is an optimization scale, not a physical validation threshold.",
+  "scope": "Existing nine-parameter model; original input and dt, zero state only once per record, no measured future state injection, no synthetic disturbance or output correction, no subset removal other than documented previous-session prefix. Hold inputs still 40-step averages. Forced-input simulation, not autonomous closed-loop replication.",
+  "newHardwareOrControllerChange": false,
+  "independentValidation": false
+}

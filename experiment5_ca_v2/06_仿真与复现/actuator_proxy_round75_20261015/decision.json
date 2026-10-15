@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-15",
+  "proxyFitSHA256": "badb504aa30f68158af9fd129411132eb5e9f9688a6c93a738980807e4c077c1",
+  "plantSensitivitySHA256": "4b7a0869fd69bd1ad80f27162acf2dade6fe7bb25c1cf482ef9dc6dc3c668754",
+  "fittedProxyGains": [
+    0.9762453250705495,
+    0.9760486477484185
+  ],
+  "fittedProxyTimeConstants_ms": [
+    6.8878610504200095,
+    5.277743134967566
+  ],
+  "currentPredictionCases": [
+    {
+      "record": "T1",
+      "phase": 2,
+      "axis": 0,
+      "predictedEndpoints": 99,
+      "dynamicRMSE_counts": 58.350777684138635,
+      "staticRMSE_counts": 86.84223407727957,
+      "dynamicVsStaticRMSEChange_percent": -32.808295060427426,
+      "dynamicMeanResidual_counts": -8.838942401579272,
+      "dynamicResidualMaximumAbsolute_counts": 236.86210417900782,
+      "observedRMS_counts": 289.5538365182272,
+      "correlation": 0.9500121843098838
+    },
+    {
+      "record": "T1",
+      "phase": 4,
+      "axis": 0,
+      "predictedEndpoints": 99,
+      "dynamicRMSE_counts": 60.53214796697194,
+      "staticRMSE_counts": 94.41787988995367,
+      "dynamicVsStaticRMSEChange_percent": -35.88910486284629,
+      "dynamicMeanResidual_counts": -2.113651750572517,
+      "dynamicResidualMaximumAbsolute_counts": 171.8452032599954,
+      "observedRMS_counts": 269.3750342754671,
+      "correlation": 0.9376011754379858
+    },
+    {
+      "record": "T1",
+      "phase": 2,
+      "axis": 1,
+      "predictedEndpoints": 99,
+      "dynamicRMSE_counts": 53.99594826186637,
+      "staticRMSE_counts": 71.1057306844708,
+      "dynamicVsStaticRMSEChange_percent": -24.06245215104883,
+      "dynamicMeanResidual_counts": -3.0386698125243776,
+      "dynamicResidualMaximumAbsolute_counts": 132.78842765101143,
+      "observedRMS_counts": 318.4571867582514,
+      "correlation": 0.9681333797321947
+    },
+    {
+      "record": "T1",
+      "phase": 4,
+      "axis": 1,
+      "predictedEndpoints": 99,
+      "dynamicRMSE_counts": 40.9296746652602,
+      "staticRMSE_counts": 62.67828474899781,
+      "dynamicVsStaticRMSEChange_percent": -34.69879587616723,
+      "dynamicMeanResidual_counts": 0.5574338162985661,
+      "dynamicResidualMaximumAbsolute_counts": 106.28735030075302,
+      "observedRMS_counts": 336.7333567310396,
+      "correlation": 0.9788444030090079
+    },
+    {
+      "record": "newQ2",
+      "phase": 2,
+      "axis": 0,
+      "predictedEndpoints": 99,
+      "dynamicRMSE_counts": 102.34954171493314,
+      "staticRMSE_counts": 137.5595277566448,
+      "dynamicVsStaticRMSEChange_percent": -25.596181243077034,
+      "dynamicMeanResidual_counts": -20.112341693358673,
+      "dynamicResidualMaximumAbsolute_counts": 518.1012265494433,
+      "observedRMS_counts": 287.76707401801355,
+      "correlation": 0.8396510412598066
+    },
+    {
+      "record": "newQ2",
+      "phase": 4,
+      "axis": 0,
+      "predictedEndpoints": 99,
+      "dynamicRMSE_counts": 57.57548440732915,
+      "staticRMSE_counts": 87.40032173232794,
+      "dynamicVsStaticRMSEChange_percent": -34.12440221483427,
+      "dynamicMeanResidual_counts": 5.57520047774706,
+      "dynamicResidualMaximumAbsolute_counts": 152.59788703368284,
+      "observedRMS_counts": 263.39368314982863,
+      "correlation": 0.9471801233559711
+    },
+    {
+      "record": "newQ2",
+      "phase": 2,
+      "axis": 1,
+      "predictedEndpoints": 99,
+      "dynamicRMSE_counts": 87.40320482819573,
+      "staticRMSE_counts": 105.09019943343279,
+      "dynamicVsStaticRMSEChange_percent": -16.83029882956928,
+      "dynamicMeanResidual_counts": -7.310461032056413,
+      "dynamicResidualMaximumAbsolute_counts": 698.2150067992795,
+      "observedRMS_counts": 309.8570703411559,
+      "correlation": 0.905604394301945
+    },
+    {
+      "record": "newQ2",
+      "phase": 4,
+      "axis": 1,
+      "predictedEndpoints": 99,
+      "dynamicRMSE_counts": 51.409174245872784,
+      "staticRMSE_counts": 80.06396813522187,
+      "dynamicVsStaticRMSEChange_percent": -35.789874717367674,
+      "dynamicMeanResidual_counts": -1.6695868920585852,
+      "dynamicResidualMaximumAbsolute_counts": 140.7985322409022,
+      "observedRMS_counts": 335.895711929952,
+      "correlation": 0.962858521101088
+    }
+  ],
+  "newQ2CurrentRMSEImprovementRange_percent": [
+    16.83029882956928,
+    35.789874717367674
+  ],
+  "plantSensitivityCases": [
+    {
+      "record": "T1",
+      "case": "unfilteredFrozenRound72",
+      "nativePredictionError": {
+        "meanPositionPredictionRMSE_mm": 0.0938324504102925,
+        "syncWaveformPredictionRMSE_mm": 0.04586005887479866
+      },
+      "modeledTaskTrackingRMSE_mm": 0.1585281422177148,
+      "modeledTaskSyncRMS_mm": 0.012471066514135837,
+      "oneInitialStateWhole20s": true,
+      "measuredFutureStatesInjected": false
+    },
+    {
+      "record": "T1",
+      "case": "unitGainProxyLagSensitivity",
+      "nativePredictionError": {
+        "meanPositionPredictionRMSE_mm": 0.09349852605790104,
+        "syncWaveformPredictionRMSE_mm": 0.04570883393831
+      },
+      "modeledTaskTrackingRMSE_mm": 0.16026428173488938,
+      "modeledTaskSyncRMS_mm": 0.01217004519301389,
+      "oneInitialStateWhole20s": true,
+      "measuredFutureStatesInjected": false
+    },
+    {
+      "record": "newQ2",
+      "case": "unfilteredFrozenRound72",
+      "nativePredictionError": {
+        "meanPositionPredictionRMSE_mm": 0.0951995732658503,
+        "syncWaveformPredictionRMSE_mm": 0.0408592094881925
+      },
+      "modeledTaskTrackingRMSE_mm": 0.13639976402105683,
+      "modeledTaskSyncRMS_mm": 0.012659482611860562,
+      "oneInitialStateWhole20s": true,
+      "measuredFutureStatesInjected": false
+    },
+    {
+      "record": "newQ2",
+      "case": "unitGainProxyLagSensitivity",
+      "nativePredictionError": {
+        "meanPositionPredictionRMSE_mm": 0.09471848750376032,
+        "syncWaveformPredictionRMSE_mm": 0.04094725265509275
+      },
+      "modeledTaskTrackingRMSE_mm": 0.138600180375063,
+      "modeledTaskSyncRMS_mm": 0.012423767544509193,
+      "oneInitialStateWhole20s": true,
+      "measuredFutureStatesInjected": false
+    }
+  ],
+  "verification": {
+    "gainTauJacobianChecks": 4,
+    "trapezoidCases": 8,
+    "maximumIndependentCurrentIntegrationDifference_counts": 0.0018991484651849078,
+    "independentMechanicalSteps": 40000,
+    "maximumNativePythonPositionDifference_m": 4.2934406030425976e-17,
+    "rawModelAndSevenControlSourceHashesUnchanged": true
+  },
+  "conclusion": "First-order reported-current proxy improves bothT1/newQ2allaxisphasemeasures compared with staticgain. Unitgain lag added alone to frozenmechanics does not resolve sync waveform/amplitude mismatch. This does not rule out relevance under a separately justified joint model, and is not deliveredtorque identification. No fullclosedloop model admitted.",
+  "nextStep": "Prospectively inspect resolvable low-speed sticking/release patterns from existingT1/newQ2encoder andqueuedinput windows before adding any friction-memory model. Encoderquantization, coupledforces andreportedcurrent uncertainty must not be mistaken for measuredstaticfriction. No physical run, control modification or newQ2fitting released.",
+  "newQ2UsedForCalibration": false,
+  "newQ2ExploratoryCheckNotUntouchedIndependentValidation": true,
+  "mechanicalParametersChanged": false,
+  "controllerChanged": false,
+  "hardwareAction": false,
+  "newPhysicalRunReleased": false,
+  "modelClosureComplete": false
+}

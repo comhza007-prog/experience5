@@ -1,0 +1,20 @@
+{
+  "date":"2026-10-13",
+  "purpose":"Build a safe serial acquisition/idle-only tuning interface,not a performance improvement claim. No flash or motor activation in this turn.",
+  "base":"R2 build66312,not R6. Default1/1 core states/outputs exactly match R2 in finite native float/double regression.",
+  "project":"05_实验代码/在线调参_通信准入_20261013/eassy_E5OL_A_NO_DRIVE/MDK-ARM/eassy.uvprojx",
+  "target":"exp5OL_A_NO_DRIVE_PROTOCOL","build":66812,"schema":4477,"motionEnabled":false,
+  "gate":"Compile-time E5_OL_MOTION_ENABLED0: no boot autostart,ARM returnsDISABLED8,final CAN command arguments constantzero. Never enable this flag in place; a later motion release requires a new identity and independent board validation/onsite authorization.",
+  "frame":"16bytes: E5 54,version1,op,seq16LE,param,reserved0,valueFloat32LE,session16LE,CRC16CCITT(initFFFF,first14bytes). CRC is not authentication. Session is an RNG freshness check,not an authenticated channel. Dedicated local USB only.",
+  "ops":{"1":"SET idleonly","2":"PREPARE idleonly plus board health/stationary500ms/minboot8s","3":"ARM compile-time disabled","4":"STOP faultlatches abort even stale seq/session","5":"QUERY","6":"PING for a future1s motion watchdog; current client has noRun mode"},
+  "parameters":{"1":{"name":"Y NN prediction scale","min":0.5,"max":1.25,"default":1},"2":{"name":"Y learning multiplier scale","min":0.5,"max":1,"default":1}},
+  "semantics":"Only CA translation is configurable. NN scaling occurs before scalar sector and final original allocator; force clipping80,300-countcap,2-count/msslew,separate-sectorfraction.25,speed/braking/currentlimits retained. Learning scale applies to Y nominal and bounded-repair prebudget,not alpha directly. Coupled gate/plant can still change alpha behavior; do not claim identical closed-loop synchronization under nondefault settings.",
+  "statuses":{"1":"OK","2":"BUSY","3":"PARAMETER","4":"STATE","5":"HEALTH","6":"STALE","7":"SESSION","8":"DISABLED"},
+  "telemetry":"107float channels40ms/115200. New schema replaces I104 withACKseq,I105withACKstatus; old configured-load/contraction meanings no longer apply. I92=motionEnabled. Only healthyidlephase0:I96session,I97revision,I98NNscale,I99learnscale,I100prepared,I101badCRC/version,I102RXerrors,I103RXoverflow. Fault/event payload retains priority outsideidle. Do NOT process these as archivedR2/R6 performance data.",
+  "rx":"One-byte HALReceiveIT into bounded256-byte SPSC ring. Callback noRTOScalls; error/overflow latchabort. Motor singleowner consumes<=32bytes/cycle and applies commands; existing preCAN900us/body950us/hard1000usdeadlineguards retained. Native protocol tests do not prove MCU timing.",
+  "host":"online_host.ps1;defaultStatus/read-only. Status,Check,Set,Prepare,Capture,Stop only; NO flash/reset/Run mode. Requiresbuild66812 and healthyno-driveidle for writes. DTR/RTSdisabled by request; does not prove a given USB driver can never toggle reset. ExclusiveCOM4;do not close VOFA forcibly. CRC/ACK/echo checks,no automatic resend/no sequencewrap. Check changes .75 withinbounds,tests out-of-range rejection,restores1/1,testsARM rejection8;failure may leave an intermediate parameter in NO_DRIVE firmware,never silently claim restore.",
+  "capture":"Optional OutputPath creates a new CSV only,all107rawfields invariant numeric text,nooverwrite/filter/interpolation. On exceptions preserve partialdata and releaseport. Capture itself never writesUART.",
+  "hardwareEvidence":"ExistingR6 read-onlyCOM4 connection succeeded74frames withphase6/fault0/drive0. New client Status rejected actualbuild66712 before any write. This is not evidence new MCU receive wiring/RNG/ACK works. New firmware not flashed in this turn.",
+  "next":"User flashNO_DRIVE communication firmware with safe unloaded mechanism. ConfirmI63=66812,I2=0,I106=0;ensurePCserialTX reachesMCUUSART6RX. Then one boundedhostCheck plus read-onlycapture,no motor trial or performancebatch. Keep local physical emergency stop;zero current is not a mechanical brake.",
+  "onBoardCommunicationVerified":false,"onBoardTimingMeasured":false,"physicalPerformanceProven":false
+}

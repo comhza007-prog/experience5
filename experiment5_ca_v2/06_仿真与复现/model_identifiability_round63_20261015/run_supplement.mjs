@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {spawnSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+const dir=path.dirname(fileURLToPath(import.meta.url));
+const r=spawnSync('C:/Users/ele/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe',['-X','utf8',path.join(dir,'supplement.py')],{cwd:dir,env:{...process.env,PYTHONUTF8:'1'},encoding:'utf8',maxBuffer:5e6});
+assert.equal(r.status,0,r.stdout+r.stderr);
+const data=JSON.parse(r.stdout);assert(data.modelsFitted===0&&!data.controllerSensorOffsetCorrected&&!data.rootCauseConfirmed);
+fs.writeFileSync(path.join(dir,'audit_complete.json'),JSON.stringify(data,null,2)+'\n',{flag:'wx'});
+console.log(JSON.stringify({weakRegressorRank:data.weakRegressorRank,lowSpeedMeasurementAudit:data.lowSpeedMeasurementAudit,holdEndpointCommandAudit:data.holdEndpointCommandAudit,oldSimulationMeasurementHypothesis:data.oldSimulationMeasurementHypothesis,sameImpulseToyNumericalCheck:data.sameImpulseToyNumericalCheck,updatedPriorities:data.updatedPriorities,modelsFitted:data.modelsFitted,rootCauseConfirmed:data.rootCauseConfirmed,newPhysicalRunReleased:data.newPhysicalRunReleased},null,2));

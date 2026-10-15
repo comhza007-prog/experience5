@@ -1,0 +1,17 @@
+{
+  "date":"2026-10-13","release":"ONLY_PLANNED_FORMAL_ATTEMPT_1_OF_25",
+  "protocol":"protocol.json","order":"order.json","step":1,"block":1,"method":"BLNN",
+  "build":65511,"methodID":11,"variant":0,"newLearningFactor":0,"balancedSearchFactor":0,"schema":4466,
+  "project":"05_实验代码/正式对照A_五方案_F5/00_BLNN/eassy_E5F2_A_BLNN_HW6/MDK-ARM/eassy.uvprojx",
+  "target":"exp5F2_A_BLNN_HW6_F5_EVENT40",
+  "hexSHA256":"c5209744308528b11cb251de983c7ee452214b616d481a283c21c61ec8a4397f",
+  "preflight":{"sourceSHA256":"ee2b797310e7a8e94133d1c73a6c89df472a51ddc1dea24206751b55fd0f0cd1","build":66012,"exactPairs":15000,"faultAndErrors":0,"allFiveOriginal600usScreensPassed":true,"maximumOptimizedPeak_us":554.375,"BLNNPeak_us":520.083313,"probeRemainingStackBytes":2568,"candidateSourcesAndAllFiveHEXVerifiedUnchanged":true},
+  "conditions":{"extraLoadLabel_g":0,"motion_mm":2,"limits_counts":[1200,1200],"HWprofile":6,"initialNodesPerAxis":4,"initialWeights":0},
+  "filename":"E5F2_A_BLNN_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run01.csv",
+  "dataFolder":"01_原始数据/正式对照A_五方案_F5/00_BLNN",
+  "identity":"I21=11,I63=65511. Active I90=0,I91=0,I92=0,I93=4466. I32=1 reflects actual BLNN error update; I88/I89=-1 mean CA classification/rho not applicable, not a fault.",
+  "normalStop":"No extra hanging load. Same safe2mm out-and-back with fresh reset. Clear VOFA history before reset; export all107 channels. After I2=6/I22=0 wait I88=4422/I89=4 then retain5sec, normally I0>=85sec. Do not use static66012's4467 marker or37s threshold.",
+  "faultStop":"On abnormal oscillation/noise/travel stop safely. If I2=9/I22 nonzero, preserve at least5sec of same post-fault history and export before reset/clear; do not retry/overwrite. Planned failed attempts retained, not removed to select successes.",
+  "review":"Check boot/version/factor identity, full phase0..6 trajectory, faults/period/body/stack, initial4 zero-weight reset through firmware identity and initial counters, correct ordinary-gradient telemetry, fixed5s EVENT40128/640 records/chunks, payload0/0/0 metadata, equal received duplicates, and endpoints. Missing raw data never interpolated; excluded transition rows listed.",
+  "next":"Review this actual shared-frame motion before step2(S0run01). If protocol-compliant it is formal trial1; do not add another qualification or collect five consecutiveBLNN trials. No batch release or efficacy claim. Zero current is not a holding brake."
+}

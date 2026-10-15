@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-15",
+  "fitResultsSHA256": "3d0b5688a187f6e44aa831e28c15d895d59d2f24bcdbdb648b95d86149204db7",
+  "fitBudget": {
+    "evaluations": 1526,
+    "maximum": 1600,
+    "iterations": 120
+  },
+  "trainingObjectiveReduction_percent": 90.4507866565871,
+  "waveformChanges": [
+    {
+      "record": "T1",
+      "nativeWaveformErrorChange_percent": {
+        "meanPositionPredictionRMSE_mm": -1.946128010786008,
+        "syncPredictionRMSE_mm": 25.48643178849872
+      }
+    },
+    {
+      "record": "Q2",
+      "nativeWaveformErrorChange_percent": {
+        "meanPositionPredictionRMSE_mm": 11.226707641515787,
+        "syncPredictionRMSE_mm": 22.153635436335417
+      }
+    }
+  ],
+  "fittedInertiaEta": -0.738509842827537,
+  "massEigenvalues": [
+    0.26149015717246304,
+    1.738509842827537
+  ],
+  "reciprocalSpringAtNumericalLowerBound": false,
+  "physicalZeroSpringOrInertiaProven": false,
+  "decision": "User-requested task-statistic calibration completed. Tracking and sync RMS are explicitly fitted targets, not predictive test statistics. Report actual matching and all waveform tradeoffs; close RMS alone does not establish pointwise agreement. No raw rewriting, output correction or state injection used.",
+  "nextOfflineStep": "Retain this separately named calibration candidate and deliver measured-versus-modeled summary with waveform errors. No new hardware trial needed for this offline calibration task.",
+  "bothT1AndNewQ2NowTraining": true,
+  "independentValidationDataAvailableForThisNewFit": false,
+  "looseQ2FittedParametersUsedForInitialization": false,
+  "round78TightenedOnlyVectorUsedForInitialization": true,
+  "favorableMethodRankingNotOptimizationObjective": true,
+  "taskRMSMatchingIsOptimizationObjective": true,
+  "modelClosureComplete": false,
+  "independentValidationPassed": false,
+  "Q2NotUntouchedHeldOut": true,
+  "S3R2DataRead": false,
+  "controlRawAndFirmwareUnchanged": true,
+  "newPhysicalRunReleased": false
+}

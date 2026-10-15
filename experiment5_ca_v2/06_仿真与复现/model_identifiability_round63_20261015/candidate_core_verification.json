@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "randomEnergyKKTSteps": 5000,
+  "independentCoordinateSolverCases": 500,
+  "zeroInputDissipationSteps": 10000,
+  "nonzeroInputStickingSteps": 1000,
+  "maximumBalanceResidual": 7.155734338404329e-17,
+  "maximumIndependentSolverDifference": 2.7755575615628914e-17,
+  "nineActiveSetImplicitCoulombCoreReady": true,
+  "eightCoefficientHypothesisNotFittedToPhysicalData": true,
+  "observationQuantizersAreDeclaredHypothesesOnly": true,
+  "closedLoopStabilityOfActualBLNNNotProven": true,
+  "modelIdentified": false,
+  "wholeTaskSimulationValidated": false,
+  "controllerChanged": false,
+  "hardwareAction": false
+}

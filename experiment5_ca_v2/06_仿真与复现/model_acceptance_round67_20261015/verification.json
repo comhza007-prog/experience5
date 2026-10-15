@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "independentJSNative40msChecks": 400,
+  "originalRawAndFrozenFitHashesUnchanged": true,
+  "movingMeanSyncPredictionSSEContribution_percent": [
+    97.51843197330075,
+    95.10374329859476
+  ],
+  "taskMetrics": [
+    {
+      "metric": "trackingRMSE_mm",
+      "actual": 0.12876494816136883,
+      "modeled": 0.15352923785064523,
+      "signedDifference": 0.02476428968927641,
+      "relativeSignedDifference_percent": 19.23216686131204
+    },
+    {
+      "metric": "syncRMS_mm",
+      "actual": 0.055314261271393654,
+      "modeled": 0.0050286678156346715,
+      "signedDifference": -0.05028559345575898,
+      "relativeSignedDifference_percent": -90.9089126383483
+    },
+    {
+      "metric": "maxTracking_mm",
+      "actual": 0.40499999999999997,
+      "modeled": 0.4369999999999999,
+      "signedDifference": 0.03199999999999992,
+      "relativeSignedDifference_percent": 7.901234567901215
+    },
+    {
+      "metric": "maxSync_mm",
+      "actual": 0.26499999999999985,
+      "modeled": 0.013000000000000001,
+      "signedDifference": -0.25199999999999984,
+      "relativeSignedDifference_percent": -95.09433962264151
+    }
+  ],
+  "taskThresholdsRemainUnsetNotBackSolved": true,
+  "parameterRefits": 0,
+  "S3R2DataRead": false,
+  "physicalRunReleased": false,
+  "policy": "Pointwise equality not required. Acceptable discrepancy must be tied to a predefined claim. Current sync magnitude is underpredicted; paired difference validity remains untested.",
+  "modelClosureComplete": false
+}

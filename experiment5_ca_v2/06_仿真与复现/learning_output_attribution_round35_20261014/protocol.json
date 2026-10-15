@@ -1,0 +1,11 @@
+{
+ "purpose":"Mechanism attribution only, not candidate selection/release or a new physical experiment",
+ "question":"Does the guarded CA output path retain a performance cost even with ordinary-style unconditional regular gradients, and what do classification/repair/retention change?",
+ "variants":["ordinary_BLNN","CA_output_plain_learning","CA_classification_only","CA_classification_repair","exact_R2"],
+ "learningIsolation":"Plain-learning diagnostic sets regular learning multiplier1 for CA, with bounded repair and static retention disabled. All actuator envelopes, sector checks, normal slew, speed and terminal guards remain original. This is deliberately NOT a recommended hardware law, especially under amplitude/speed constraints.",
+ "comparisonBoundary":"Ordinary versus CA-plain contrast includes the whole CA output path: sector preconditioning, gate, allocation and its AW convention. It is not a pure allocator-only causal contrast. Classification->repair->retention are successive rule contrasts, not additive contributions.",
+ "data":"Validated67712 fixed measured360-step input/state snapshot for local rule effects only;36 common assumed closed-loop plants for diagnostic performance and constraint activity. Models remain uncalibrated.",
+ "population":"Fixed ordinary+R2 completed-case population; all36 outcomes retained. A diagnostic failing on that population gets unavailable primary mean, not a survivor-only efficacy claim.",
+ "checks":"Disabled source/state/output exact; plain-learning same-state commands/guards exact; ordinary unchanged; hashes of all guard/profile headers unchanged; original R2 assumed results reproduced.",
+ "noGainSweep":true,"noGuardRelaxation":true,"hardwareReleaseAllowed":false,"causalPhysicalClaimAllowed":false
+}

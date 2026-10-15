@@ -1,0 +1,22 @@
+{
+  "date":"2026-10-15",
+  "authorization":"User requests inverse parameter calibration from current real measurements. Implemented as truthful waveform calibration, not selection for favorableCA-versusBLNN outcomes. No raw mutation, controller change or hardware trial authorized.",
+  "scope":"ONE bounded joint calibration of existing9parameter model, ordinaryBLNN T1 and tightenednewQ2only. No new mechanical structure, branch, seed/lag search, synthetic favorable result or S3R2outcome used for calibration.",
+  "trainingSources":["identification_t1_fullmoving_round70_20261015/build68112_d1184a41428b_analysis.json","q2_mechanical_recheck_round73_20261015/build68012_84bbb6e34165_analysis.json"],
+  "trainingRawSHA256":["d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0","84bbb6e3416540a238354d7636a6bc4e6f5ba0cd2d090470e3eb1bba1ce153db"],
+  "recordWeights":[0.5,0.5],
+  "initialization":"Frozenround72singleinitialization. That prior arose from earlierdataexploration; originalround66was trained on oldlooseQ2,which is excludedfromthisjointobjective. Priorprovenance not hidden.",
+  "initialModel":"t1_training_fit_round72_20261015/fit_results.json",
+  "initialModelSHA256":"0efb92bb13bb6b96059cce67592f044e88c5a2d234c956280099f6b54daa6589",
+  "parameterNames":["gainL","gainR","dampingL","dampingR","reciprocalSpring","reciprocalDamping","CoulombL","CoulombR","inertiaEta"],
+  "parameterScales":[0.00001,0.00001,10,10,1000,100,0.01,0.01,0.2],
+  "lowerBounds":[0.0000001,0.0000001,0,0,0,0,0,0,-0.95],
+  "upperBounds":[0.001,0.001,1000,1000,100000,10000,1,1,0.95],
+  "boundsMeaning":"Numericalbounds preservepositiveinputgains,nonnegativefriction/damping/spring andSPDmass. They are not independently identified physical bounds or force calibration.",
+  "maxEvaluations":180,"maxIterations":12,"lineSearch":[1,0.5,0.25,0.125],
+  "objective":"Equalrecordweight0.5 times actualduration-weighted mean-position and full left-minus-right sync waveform squared errors(mm) at8300recorded endpoints perrecord,plus1e-8scaled-parameterregularization. No CAadvantage, methodranking or scalarRMStarget in loss.",
+  "input":"Originalqueued moving1mscommands andactualdt,explicit40step holdmeanZOH. No extra actuatorfilter, sensoroffset or modified observationmap in this round. Holdwaveform abstraction remains unverified.",
+  "simulation":"One initialzero state perwhole20srecord. No futuremeasuredstateinjection. Forcedinputreplay,notfreeclosedloopcounterfactual.",
+  "evaluation":"Report bothrecords,before/after native400point waveform errors andtasktracking/syncRMS, includingworsening. Bothrecords aretraining afterthisround. Do not claim independentvalidation or modelclosure; newuntoucheddata would be needed for a laterfrozenchangedmodel.",
+  "controllerUnchanged":true,"newPhysicalRunReleased":false,"favorableOutcomePromised":false
+}

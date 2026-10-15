@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "ordinaryOnly": true,
+  "S3R2DataRead": false,
+  "independentPythonContinuousSteps": 20000,
+  "maximumNativePythonPositionDifference_m": 1.2044808509956151e-17,
+  "maximumEnergyBalanceResidual": 4.401156620756166e-21,
+  "native40msPoints": 400,
+  "meanPositionPredictionRMSE_mm": 0.10617417882894127,
+  "syncPredictionRMSE_mm": 0.059417127160440855,
+  "previousModelPredictionMeanSyncRMSE_mm": [
+    0.10367240471793833,
+    0.05622855146631469
+  ],
+  "meanPredictionErrorReduction_percent": -2.4131533534015364,
+  "syncPredictionErrorIncrease_percent": 5.670741306640937,
+  "actualOrdinaryTrackingRMSE_mm": 0.12876494816136883,
+  "actualOrdinarySyncRMS_mm": 0.055314261271393654,
+  "objectiveRecomputed": 0.23458345242270937,
+  "objectiveReduction_percent": 8.287701387432454,
+  "eta": 0.1624748233937641,
+  "gap_mm": 0.01615135234650542,
+  "gap_counts": 13.336790239561001,
+  "massEigenvalues": [
+    0.8375251766062359,
+    1.162474823393764
+  ],
+  "calibrationEvaluations": 166,
+  "lowerBoundHits": [
+    6
+  ],
+  "globalOptimumOrStructuralImpossibilityProven": false,
+  "holdInputRemainsMeanAbstraction": true,
+  "instantaneousSensorModelUnverified": true,
+  "trainingFitNotIndependentPredictionValidation": true,
+  "previousNegativeResultsAndRawHashesUnchanged": true,
+  "modelClosureComplete": false,
+  "predictiveAdmission": false,
+  "controllerChanged": false,
+  "physicalRunReleased": false,
+  "previousFinalObjective": 0.22056672462242974,
+  "previousVersusNewObjectiveNotPenaltyFreeStructuralComparison": true,
+  "decision": "One elastic-deadzone hypothesis did not resolve sync waveform prediction under this fixed fit budget. Keep negative result and stop this round. No fitted gap/backlash proof, independent admission, candidate-efficacy claim or physical batch."
+}

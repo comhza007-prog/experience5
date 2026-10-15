@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-12",
+  "rerun": [
+    {
+      "variant": "BLNN",
+      "cases": 36,
+      "allSavedRecordsIdentical": true
+    },
+    {
+      "variant": "D0",
+      "cases": 36,
+      "allSavedRecordsIdentical": true
+    },
+    {
+      "variant": "D1",
+      "cases": 36,
+      "allSavedRecordsIdentical": true
+    },
+    {
+      "variant": "D2",
+      "cases": 36,
+      "allSavedRecordsIdentical": true
+    },
+    {
+      "variant": "D3",
+      "cases": 36,
+      "allSavedRecordsIdentical": true
+    }
+  ],
+  "exactSavedTrajectoryRecords": true,
+  "zeroSignConvention": "JSON serialization normalizes negative zero; comparison is identical JSON numeric representation, not raw float sign bits",
+  "timestampTolerance_s": 1e-12,
+  "all180OutcomesRetained": true,
+  "factorialEffectsRecomputed": true,
+  "summaryRecomputed": true,
+  "frozenFileHashesUnchanged": 1447,
+  "hardwareRuns": 0,
+  "releaseDecision": "NOT_APPROVED_FOR_HARDWARE",
+  "limitation": "deterministic assumed-plant diagnostic; not identified hardware or independent holdout"
+}

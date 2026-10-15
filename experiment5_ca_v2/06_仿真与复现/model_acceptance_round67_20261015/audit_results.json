@@ -1,0 +1,5471 @@
+{
+  "date": "2026-10-15",
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run01.csv",
+  "sourceSHA256": "0b743a60e6edce1ea432c30ae54acaac4f96972ede9262022bfbd116e6c4aa3b",
+  "decodedSourceSHA256": "64e9056d69596192e92afbf291a1e0c85818cf8168b8c73673e265d35d220d73",
+  "frozenFitSHA256": "0fce22d8ee14661a6394601bdb0a67b575950b81cf78c7805b8b7ad1cd25818b",
+  "protocolSHA256": "887227f3e9df1097c147d74443263c109ee1fa010216960a05e445931a52c59d",
+  "ordinaryOnly": true,
+  "S3R2DataRead": false,
+  "modelsRefitted": 0,
+  "parametersChanged": false,
+  "native40msPoints": 400,
+  "sameOriginalTaskWindow": true,
+  "taskMetrics": [
+    {
+      "metric": "trackingRMSE_mm",
+      "actual": 0.12876494816136883,
+      "modeled": 0.15352923785064523,
+      "signedDifference": 0.02476428968927641,
+      "relativeSignedDifference_percent": 19.23216686131204
+    },
+    {
+      "metric": "syncRMS_mm",
+      "actual": 0.055314261271393654,
+      "modeled": 0.0050286678156346715,
+      "signedDifference": -0.05028559345575898,
+      "relativeSignedDifference_percent": -90.9089126383483
+    },
+    {
+      "metric": "maxTracking_mm",
+      "actual": 0.40499999999999997,
+      "modeled": 0.4369999999999999,
+      "signedDifference": 0.03199999999999992,
+      "relativeSignedDifference_percent": 7.901234567901215
+    },
+    {
+      "metric": "maxSync_mm",
+      "actual": 0.26499999999999985,
+      "modeled": 0.013000000000000001,
+      "signedDifference": -0.25199999999999984,
+      "relativeSignedDifference_percent": -95.09433962264151
+    }
+  ],
+  "nativeComparisonTrace": [
+    {
+      "coreStep": 4001,
+      "phase": 2,
+      "reference_m": 0,
+      "observed_m": [
+        0,
+        0
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4041,
+      "phase": 2,
+      "reference_m": 0,
+      "observed_m": [
+        0,
+        0
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4081,
+      "phase": 2,
+      "reference_m": 0,
+      "observed_m": [
+        0,
+        0
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4121,
+      "phase": 2,
+      "reference_m": 0.000001,
+      "observed_m": [
+        0,
+        0
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4161,
+      "phase": 2,
+      "reference_m": 0.000001,
+      "observed_m": [
+        0,
+        0
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4201,
+      "phase": 2,
+      "reference_m": 0.000002,
+      "observed_m": [
+        0,
+        0
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4241,
+      "phase": 2,
+      "reference_m": 0.000004,
+      "observed_m": [
+        0,
+        0
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4281,
+      "phase": 2,
+      "reference_m": 0.000006,
+      "observed_m": [
+        0,
+        0
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4321,
+      "phase": 2,
+      "reference_m": 0.000009,
+      "observed_m": [
+        0,
+        0
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4361,
+      "phase": 2,
+      "reference_m": 0.000013,
+      "observed_m": [
+        0,
+        0
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4401,
+      "phase": 2,
+      "reference_m": 0.000017,
+      "observed_m": [
+        0,
+        0
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4441,
+      "phase": 2,
+      "reference_m": 0.000022,
+      "observed_m": [
+        0.000002,
+        0
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4481,
+      "phase": 2,
+      "reference_m": 0.000029,
+      "observed_m": [
+        0.000006,
+        0
+      ],
+      "modeled_m": [
+        0.000001,
+        0
+      ]
+    },
+    {
+      "coreStep": 4521,
+      "phase": 2,
+      "reference_m": 0.000036,
+      "observed_m": [
+        0.000017,
+        0
+      ],
+      "modeled_m": [
+        0.000001,
+        0
+      ]
+    },
+    {
+      "coreStep": 4561,
+      "phase": 2,
+      "reference_m": 0.000044,
+      "observed_m": [
+        0.000075,
+        0.000001
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4601,
+      "phase": 2,
+      "reference_m": 0.000053,
+      "observed_m": [
+        0.000084,
+        0.000002
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4641,
+      "phase": 2,
+      "reference_m": 0.000064,
+      "observed_m": [
+        0.000076,
+        0.000002
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4681,
+      "phase": 2,
+      "reference_m": 0.000075,
+      "observed_m": [
+        0.00008,
+        0.000005
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4721,
+      "phase": 2,
+      "reference_m": 0.000087,
+      "observed_m": [
+        0.000086,
+        0.000005
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4761,
+      "phase": 2,
+      "reference_m": 0.000101,
+      "observed_m": [
+        0.000086,
+        0.000008
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4801,
+      "phase": 2,
+      "reference_m": 0.000116,
+      "observed_m": [
+        0.000086,
+        0.000008
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4841,
+      "phase": 2,
+      "reference_m": 0.000132,
+      "observed_m": [
+        0.000086,
+        0.000011
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4881,
+      "phase": 2,
+      "reference_m": 0.000149,
+      "observed_m": [
+        0.000086,
+        0.000011
+      ],
+      "modeled_m": [
+        0,
+        0
+      ]
+    },
+    {
+      "coreStep": 4921,
+      "phase": 2,
+      "reference_m": 0.000167,
+      "observed_m": [
+        0.000086,
+        0.000013
+      ],
+      "modeled_m": [
+        0.000001,
+        0.000001
+      ]
+    },
+    {
+      "coreStep": 4961,
+      "phase": 2,
+      "reference_m": 0.000187,
+      "observed_m": [
+        0.000087,
+        0.000016
+      ],
+      "modeled_m": [
+        0.000004,
+        0.000004
+      ]
+    },
+    {
+      "coreStep": 5001,
+      "phase": 2,
+      "reference_m": 0.000207,
+      "observed_m": [
+        0.000091,
+        0.000018
+      ],
+      "modeled_m": [
+        0.00001,
+        0.000008
+      ]
+    },
+    {
+      "coreStep": 5041,
+      "phase": 2,
+      "reference_m": 0.000229,
+      "observed_m": [
+        0.000091,
+        0.000018
+      ],
+      "modeled_m": [
+        0.000017,
+        0.000017
+      ]
+    },
+    {
+      "coreStep": 5081,
+      "phase": 2,
+      "reference_m": 0.000251,
+      "observed_m": [
+        0.000094,
+        0.000021
+      ],
+      "modeled_m": [
+        0.000027,
+        0.000027
+      ]
+    },
+    {
+      "coreStep": 5121,
+      "phase": 2,
+      "reference_m": 0.000275,
+      "observed_m": [
+        0.000094,
+        0.000024
+      ],
+      "modeled_m": [
+        0.000041,
+        0.000041
+      ]
+    },
+    {
+      "coreStep": 5161,
+      "phase": 2,
+      "reference_m": 0.0003,
+      "observed_m": [
+        0.000099,
+        0.000025
+      ],
+      "modeled_m": [
+        0.000058,
+        0.000058
+      ]
+    },
+    {
+      "coreStep": 5201,
+      "phase": 2,
+      "reference_m": 0.000326,
+      "observed_m": [
+        0.000099,
+        0.000027
+      ],
+      "modeled_m": [
+        0.00008,
+        0.00008
+      ]
+    },
+    {
+      "coreStep": 5241,
+      "phase": 2,
+      "reference_m": 0.000353,
+      "observed_m": [
+        0.000103,
+        0.000029
+      ],
+      "modeled_m": [
+        0.000105,
+        0.000105
+      ]
+    },
+    {
+      "coreStep": 5281,
+      "phase": 2,
+      "reference_m": 0.000381,
+      "observed_m": [
+        0.000103,
+        0.000033
+      ],
+      "modeled_m": [
+        0.000136,
+        0.000136
+      ]
+    },
+    {
+      "coreStep": 5321,
+      "phase": 2,
+      "reference_m": 0.00041,
+      "observed_m": [
+        0.000107,
+        0.000038
+      ],
+      "modeled_m": [
+        0.00017,
+        0.00017
+      ]
+    },
+    {
+      "coreStep": 5361,
+      "phase": 2,
+      "reference_m": 0.00044,
+      "observed_m": [
+        0.000111,
+        0.000042
+      ],
+      "modeled_m": [
+        0.000208,
+        0.00021
+      ]
+    },
+    {
+      "coreStep": 5401,
+      "phase": 2,
+      "reference_m": 0.00047,
+      "observed_m": [
+        0.000113,
+        0.000051
+      ],
+      "modeled_m": [
+        0.000253,
+        0.000253
+      ]
+    },
+    {
+      "coreStep": 5441,
+      "phase": 2,
+      "reference_m": 0.000502,
+      "observed_m": [
+        0.000115,
+        0.000079
+      ],
+      "modeled_m": [
+        0.000302,
+        0.000303
+      ]
+    },
+    {
+      "coreStep": 5481,
+      "phase": 2,
+      "reference_m": 0.000534,
+      "observed_m": [
+        0.000126,
+        0.000163
+      ],
+      "modeled_m": [
+        0.000352,
+        0.000351
+      ]
+    },
+    {
+      "coreStep": 5521,
+      "phase": 2,
+      "reference_m": 0.000567,
+      "observed_m": [
+        0.000138,
+        0.000249
+      ],
+      "modeled_m": [
+        0.000402,
+        0.000401
+      ]
+    },
+    {
+      "coreStep": 5561,
+      "phase": 2,
+      "reference_m": 0.000601,
+      "observed_m": [
+        0.000149,
+        0.000281
+      ],
+      "modeled_m": [
+        0.000454,
+        0.000452
+      ]
+    },
+    {
+      "coreStep": 5601,
+      "phase": 2,
+      "reference_m": 0.000635,
+      "observed_m": [
+        0.000208,
+        0.000281
+      ],
+      "modeled_m": [
+        0.00051,
+        0.000507
+      ]
+    },
+    {
+      "coreStep": 5641,
+      "phase": 2,
+      "reference_m": 0.00067,
+      "observed_m": [
+        0.000373,
+        0.000392
+      ],
+      "modeled_m": [
+        0.000562,
+        0.000559
+      ]
+    },
+    {
+      "coreStep": 5681,
+      "phase": 2,
+      "reference_m": 0.000705,
+      "observed_m": [
+        0.000488,
+        0.000644
+      ],
+      "modeled_m": [
+        0.000602,
+        0.000599
+      ]
+    },
+    {
+      "coreStep": 5721,
+      "phase": 2,
+      "reference_m": 0.000741,
+      "observed_m": [
+        0.000573,
+        0.000671
+      ],
+      "modeled_m": [
+        0.000632,
+        0.000629
+      ]
+    },
+    {
+      "coreStep": 5761,
+      "phase": 2,
+      "reference_m": 0.000777,
+      "observed_m": [
+        0.000727,
+        0.000717
+      ],
+      "modeled_m": [
+        0.000652,
+        0.000649
+      ]
+    },
+    {
+      "coreStep": 5801,
+      "phase": 2,
+      "reference_m": 0.000814,
+      "observed_m": [
+        0.000775,
+        0.000725
+      ],
+      "modeled_m": [
+        0.000668,
+        0.000666
+      ]
+    },
+    {
+      "coreStep": 5841,
+      "phase": 2,
+      "reference_m": 0.000851,
+      "observed_m": [
+        0.000791,
+        0.000725
+      ],
+      "modeled_m": [
+        0.000683,
+        0.000681
+      ]
+    },
+    {
+      "coreStep": 5881,
+      "phase": 2,
+      "reference_m": 0.000888,
+      "observed_m": [
+        0.000797,
+        0.000729
+      ],
+      "modeled_m": [
+        0.000701,
+        0.000699
+      ]
+    },
+    {
+      "coreStep": 5921,
+      "phase": 2,
+      "reference_m": 0.000925,
+      "observed_m": [
+        0.000799,
+        0.000731
+      ],
+      "modeled_m": [
+        0.000722,
+        0.000719
+      ]
+    },
+    {
+      "coreStep": 5961,
+      "phase": 2,
+      "reference_m": 0.000963,
+      "observed_m": [
+        0.000805,
+        0.000738
+      ],
+      "modeled_m": [
+        0.000746,
+        0.000744
+      ]
+    },
+    {
+      "coreStep": 6001,
+      "phase": 2,
+      "reference_m": 0.001,
+      "observed_m": [
+        0.000808,
+        0.000744
+      ],
+      "modeled_m": [
+        0.000775,
+        0.000773
+      ]
+    },
+    {
+      "coreStep": 6041,
+      "phase": 2,
+      "reference_m": 0.001037,
+      "observed_m": [
+        0.000811,
+        0.000751
+      ],
+      "modeled_m": [
+        0.000809,
+        0.000807
+      ]
+    },
+    {
+      "coreStep": 6081,
+      "phase": 2,
+      "reference_m": 0.001075,
+      "observed_m": [
+        0.000816,
+        0.000779
+      ],
+      "modeled_m": [
+        0.000848,
+        0.000845
+      ]
+    },
+    {
+      "coreStep": 6121,
+      "phase": 2,
+      "reference_m": 0.001112,
+      "observed_m": [
+        0.000828,
+        0.000859
+      ],
+      "modeled_m": [
+        0.000888,
+        0.000885
+      ]
+    },
+    {
+      "coreStep": 6161,
+      "phase": 2,
+      "reference_m": 0.001149,
+      "observed_m": [
+        0.000844,
+        0.000863
+      ],
+      "modeled_m": [
+        0.000931,
+        0.000929
+      ]
+    },
+    {
+      "coreStep": 6201,
+      "phase": 2,
+      "reference_m": 0.001186,
+      "observed_m": [
+        0.000884,
+        0.000888
+      ],
+      "modeled_m": [
+        0.000979,
+        0.000976
+      ]
+    },
+    {
+      "coreStep": 6241,
+      "phase": 2,
+      "reference_m": 0.001223,
+      "observed_m": [
+        0.000964,
+        0.000975
+      ],
+      "modeled_m": [
+        0.001022,
+        0.001018
+      ]
+    },
+    {
+      "coreStep": 6281,
+      "phase": 2,
+      "reference_m": 0.001259,
+      "observed_m": [
+        0.001108,
+        0.001135
+      ],
+      "modeled_m": [
+        0.00106,
+        0.001057
+      ]
+    },
+    {
+      "coreStep": 6321,
+      "phase": 2,
+      "reference_m": 0.001295,
+      "observed_m": [
+        0.001197,
+        0.001382
+      ],
+      "modeled_m": [
+        0.001086,
+        0.001083
+      ]
+    },
+    {
+      "coreStep": 6361,
+      "phase": 2,
+      "reference_m": 0.00133,
+      "observed_m": [
+        0.001241,
+        0.001395
+      ],
+      "modeled_m": [
+        0.001106,
+        0.001101
+      ]
+    },
+    {
+      "coreStep": 6401,
+      "phase": 2,
+      "reference_m": 0.001365,
+      "observed_m": [
+        0.001446,
+        0.001412
+      ],
+      "modeled_m": [
+        0.001118,
+        0.001114
+      ]
+    },
+    {
+      "coreStep": 6441,
+      "phase": 2,
+      "reference_m": 0.001399,
+      "observed_m": [
+        0.001497,
+        0.001438
+      ],
+      "modeled_m": [
+        0.001124,
+        0.001119
+      ]
+    },
+    {
+      "coreStep": 6481,
+      "phase": 2,
+      "reference_m": 0.001433,
+      "observed_m": [
+        0.001494,
+        0.001441
+      ],
+      "modeled_m": [
+        0.001126,
+        0.001123
+      ]
+    },
+    {
+      "coreStep": 6521,
+      "phase": 2,
+      "reference_m": 0.001466,
+      "observed_m": [
+        0.001503,
+        0.001442
+      ],
+      "modeled_m": [
+        0.00113,
+        0.001125
+      ]
+    },
+    {
+      "coreStep": 6561,
+      "phase": 2,
+      "reference_m": 0.001498,
+      "observed_m": [
+        0.001509,
+        0.001446
+      ],
+      "modeled_m": [
+        0.001135,
+        0.001131
+      ]
+    },
+    {
+      "coreStep": 6601,
+      "phase": 2,
+      "reference_m": 0.00153,
+      "observed_m": [
+        0.001507,
+        0.001451
+      ],
+      "modeled_m": [
+        0.001143,
+        0.00114
+      ]
+    },
+    {
+      "coreStep": 6641,
+      "phase": 2,
+      "reference_m": 0.00156,
+      "observed_m": [
+        0.001507,
+        0.001451
+      ],
+      "modeled_m": [
+        0.001155,
+        0.00115
+      ]
+    },
+    {
+      "coreStep": 6681,
+      "phase": 2,
+      "reference_m": 0.00159,
+      "observed_m": [
+        0.001507,
+        0.001453
+      ],
+      "modeled_m": [
+        0.00117,
+        0.001166
+      ]
+    },
+    {
+      "coreStep": 6721,
+      "phase": 2,
+      "reference_m": 0.001619,
+      "observed_m": [
+        0.001509,
+        0.001457
+      ],
+      "modeled_m": [
+        0.001189,
+        0.001184
+      ]
+    },
+    {
+      "coreStep": 6761,
+      "phase": 2,
+      "reference_m": 0.001647,
+      "observed_m": [
+        0.001514,
+        0.001458
+      ],
+      "modeled_m": [
+        0.001211,
+        0.001209
+      ]
+    },
+    {
+      "coreStep": 6801,
+      "phase": 2,
+      "reference_m": 0.001674,
+      "observed_m": [
+        0.001514,
+        0.001459
+      ],
+      "modeled_m": [
+        0.001239,
+        0.001235
+      ]
+    },
+    {
+      "coreStep": 6841,
+      "phase": 2,
+      "reference_m": 0.0017,
+      "observed_m": [
+        0.001517,
+        0.001463
+      ],
+      "modeled_m": [
+        0.001269,
+        0.001266
+      ]
+    },
+    {
+      "coreStep": 6881,
+      "phase": 2,
+      "reference_m": 0.001725,
+      "observed_m": [
+        0.001517,
+        0.001469
+      ],
+      "modeled_m": [
+        0.001304,
+        0.001302
+      ]
+    },
+    {
+      "coreStep": 6921,
+      "phase": 2,
+      "reference_m": 0.001749,
+      "observed_m": [
+        0.001521,
+        0.001473
+      ],
+      "modeled_m": [
+        0.001343,
+        0.001341
+      ]
+    },
+    {
+      "coreStep": 6961,
+      "phase": 2,
+      "reference_m": 0.001771,
+      "observed_m": [
+        0.001521,
+        0.001477
+      ],
+      "modeled_m": [
+        0.001385,
+        0.001383
+      ]
+    },
+    {
+      "coreStep": 7001,
+      "phase": 2,
+      "reference_m": 0.001793,
+      "observed_m": [
+        0.001525,
+        0.001485
+      ],
+      "modeled_m": [
+        0.001433,
+        0.00143
+      ]
+    },
+    {
+      "coreStep": 7041,
+      "phase": 2,
+      "reference_m": 0.001813,
+      "observed_m": [
+        0.001534,
+        0.001583
+      ],
+      "modeled_m": [
+        0.001481,
+        0.001479
+      ]
+    },
+    {
+      "coreStep": 7081,
+      "phase": 2,
+      "reference_m": 0.001833,
+      "observed_m": [
+        0.001538,
+        0.001594
+      ],
+      "modeled_m": [
+        0.00153,
+        0.001526
+      ]
+    },
+    {
+      "coreStep": 7121,
+      "phase": 2,
+      "reference_m": 0.001851,
+      "observed_m": [
+        0.00155,
+        0.001675
+      ],
+      "modeled_m": [
+        0.001579,
+        0.001574
+      ]
+    },
+    {
+      "coreStep": 7161,
+      "phase": 2,
+      "reference_m": 0.001868,
+      "observed_m": [
+        0.001574,
+        0.001686
+      ],
+      "modeled_m": [
+        0.001628,
+        0.001624
+      ]
+    },
+    {
+      "coreStep": 7201,
+      "phase": 2,
+      "reference_m": 0.001884,
+      "observed_m": [
+        0.001752,
+        0.001688
+      ],
+      "modeled_m": [
+        0.001674,
+        0.00167
+      ]
+    },
+    {
+      "coreStep": 7241,
+      "phase": 2,
+      "reference_m": 0.001899,
+      "observed_m": [
+        0.001739,
+        0.001695
+      ],
+      "modeled_m": [
+        0.001715,
+        0.001711
+      ]
+    },
+    {
+      "coreStep": 7281,
+      "phase": 2,
+      "reference_m": 0.001913,
+      "observed_m": [
+        0.001745,
+        0.001694
+      ],
+      "modeled_m": [
+        0.001756,
+        0.001752
+      ]
+    },
+    {
+      "coreStep": 7321,
+      "phase": 2,
+      "reference_m": 0.001925,
+      "observed_m": [
+        0.001751,
+        0.001697
+      ],
+      "modeled_m": [
+        0.001798,
+        0.001795
+      ]
+    },
+    {
+      "coreStep": 7361,
+      "phase": 2,
+      "reference_m": 0.001936,
+      "observed_m": [
+        0.001748,
+        0.0017
+      ],
+      "modeled_m": [
+        0.001842,
+        0.00184
+      ]
+    },
+    {
+      "coreStep": 7401,
+      "phase": 2,
+      "reference_m": 0.001947,
+      "observed_m": [
+        0.00175,
+        0.001706
+      ],
+      "modeled_m": [
+        0.001888,
+        0.001886
+      ]
+    },
+    {
+      "coreStep": 7441,
+      "phase": 2,
+      "reference_m": 0.001956,
+      "observed_m": [
+        0.00175,
+        0.001716
+      ],
+      "modeled_m": [
+        0.001935,
+        0.001933
+      ]
+    },
+    {
+      "coreStep": 7481,
+      "phase": 2,
+      "reference_m": 0.001964,
+      "observed_m": [
+        0.00176,
+        0.001875
+      ],
+      "modeled_m": [
+        0.001982,
+        0.001979
+      ]
+    },
+    {
+      "coreStep": 7521,
+      "phase": 2,
+      "reference_m": 0.001971,
+      "observed_m": [
+        0.001794,
+        0.002021
+      ],
+      "modeled_m": [
+        0.002022,
+        0.002018
+      ]
+    },
+    {
+      "coreStep": 7561,
+      "phase": 2,
+      "reference_m": 0.001978,
+      "observed_m": [
+        0.001888,
+        0.002043
+      ],
+      "modeled_m": [
+        0.002053,
+        0.002048
+      ]
+    },
+    {
+      "coreStep": 7601,
+      "phase": 2,
+      "reference_m": 0.001983,
+      "observed_m": [
+        0.002003,
+        0.002042
+      ],
+      "modeled_m": [
+        0.002077,
+        0.002072
+      ]
+    },
+    {
+      "coreStep": 7641,
+      "phase": 2,
+      "reference_m": 0.001987,
+      "observed_m": [
+        0.002053,
+        0.002044
+      ],
+      "modeled_m": [
+        0.002094,
+        0.002088
+      ]
+    },
+    {
+      "coreStep": 7681,
+      "phase": 2,
+      "reference_m": 0.001991,
+      "observed_m": [
+        0.002119,
+        0.002045
+      ],
+      "modeled_m": [
+        0.002104,
+        0.002098
+      ]
+    },
+    {
+      "coreStep": 7721,
+      "phase": 2,
+      "reference_m": 0.001994,
+      "observed_m": [
+        0.002108,
+        0.002053
+      ],
+      "modeled_m": [
+        0.002108,
+        0.002104
+      ]
+    },
+    {
+      "coreStep": 7761,
+      "phase": 2,
+      "reference_m": 0.001996,
+      "observed_m": [
+        0.002107,
+        0.002054
+      ],
+      "modeled_m": [
+        0.002112,
+        0.002107
+      ]
+    },
+    {
+      "coreStep": 7801,
+      "phase": 2,
+      "reference_m": 0.001998,
+      "observed_m": [
+        0.002107,
+        0.002055
+      ],
+      "modeled_m": [
+        0.002113,
+        0.002108
+      ]
+    },
+    {
+      "coreStep": 7841,
+      "phase": 2,
+      "reference_m": 0.001999,
+      "observed_m": [
+        0.002107,
+        0.002055
+      ],
+      "modeled_m": [
+        0.002114,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 7881,
+      "phase": 2,
+      "reference_m": 0.001999,
+      "observed_m": [
+        0.002106,
+        0.002055
+      ],
+      "modeled_m": [
+        0.002114,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 7921,
+      "phase": 2,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002106,
+        0.002055
+      ],
+      "modeled_m": [
+        0.002113,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 7961,
+      "phase": 2,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002106,
+        0.002055
+      ],
+      "modeled_m": [
+        0.002113,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8001,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002106,
+        0.002055
+      ],
+      "modeled_m": [
+        0.002113,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8041,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002056
+      ],
+      "modeled_m": [
+        0.002113,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8081,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002059
+      ],
+      "modeled_m": [
+        0.002112,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8121,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002059
+      ],
+      "modeled_m": [
+        0.002112,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8161,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002059
+      ],
+      "modeled_m": [
+        0.002112,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8201,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002062
+      ],
+      "modeled_m": [
+        0.002112,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8241,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002066
+      ],
+      "modeled_m": [
+        0.002111,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8281,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002102
+      ],
+      "modeled_m": [
+        0.002111,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8321,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002129
+      ],
+      "modeled_m": [
+        0.002111,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8361,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002124
+      ],
+      "modeled_m": [
+        0.002111,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8401,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002124
+      ],
+      "modeled_m": [
+        0.002111,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8441,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002124
+      ],
+      "modeled_m": [
+        0.00211,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8481,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002124
+      ],
+      "modeled_m": [
+        0.00211,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8521,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002124
+      ],
+      "modeled_m": [
+        0.00211,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8561,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002124
+      ],
+      "modeled_m": [
+        0.00211,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8601,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002124
+      ],
+      "modeled_m": [
+        0.00211,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8641,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002124
+      ],
+      "modeled_m": [
+        0.00211,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8681,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002124
+      ],
+      "modeled_m": [
+        0.00211,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8721,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002124
+      ],
+      "modeled_m": [
+        0.00211,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8761,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002124
+      ],
+      "modeled_m": [
+        0.00211,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8801,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002124
+      ],
+      "modeled_m": [
+        0.00211,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8841,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002124
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8881,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002124
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8921,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002123
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 8961,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002123
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9001,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002123
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9041,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002123
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9081,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002123
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9121,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002123
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9161,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002122
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9201,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002122
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9241,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002122
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9281,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002122
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9321,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002122
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9361,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002121
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9401,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002121
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9441,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002121
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9481,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002121
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9521,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002118
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9561,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002118
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9601,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002118
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9641,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002118
+      ],
+      "modeled_m": [
+        0.002108,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9681,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002118
+      ],
+      "modeled_m": [
+        0.002107,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9721,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002118
+      ],
+      "modeled_m": [
+        0.002107,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9761,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002118
+      ],
+      "modeled_m": [
+        0.002107,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9801,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002116
+      ],
+      "modeled_m": [
+        0.002107,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9841,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002116
+      ],
+      "modeled_m": [
+        0.002107,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9881,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002116
+      ],
+      "modeled_m": [
+        0.002107,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9921,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002116
+      ],
+      "modeled_m": [
+        0.002107,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 9961,
+      "phase": 3,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002116
+      ],
+      "modeled_m": [
+        0.002107,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 10001,
+      "phase": 4,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002116
+      ],
+      "modeled_m": [
+        0.002107,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 10041,
+      "phase": 4,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002116
+      ],
+      "modeled_m": [
+        0.002107,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 10081,
+      "phase": 4,
+      "reference_m": 0.002,
+      "observed_m": [
+        0.002104,
+        0.002114
+      ],
+      "modeled_m": [
+        0.002107,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 10121,
+      "phase": 4,
+      "reference_m": 0.001999,
+      "observed_m": [
+        0.002102,
+        0.002114
+      ],
+      "modeled_m": [
+        0.002107,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 10161,
+      "phase": 4,
+      "reference_m": 0.001999,
+      "observed_m": [
+        0.0021,
+        0.002114
+      ],
+      "modeled_m": [
+        0.002107,
+        0.00211
+      ]
+    },
+    {
+      "coreStep": 10201,
+      "phase": 4,
+      "reference_m": 0.001998,
+      "observed_m": [
+        0.0021,
+        0.002114
+      ],
+      "modeled_m": [
+        0.002107,
+        0.002108
+      ]
+    },
+    {
+      "coreStep": 10241,
+      "phase": 4,
+      "reference_m": 0.001996,
+      "observed_m": [
+        0.0021,
+        0.002112
+      ],
+      "modeled_m": [
+        0.002107,
+        0.002108
+      ]
+    },
+    {
+      "coreStep": 10281,
+      "phase": 4,
+      "reference_m": 0.001994,
+      "observed_m": [
+        0.0021,
+        0.002112
+      ],
+      "modeled_m": [
+        0.002106,
+        0.002108
+      ]
+    },
+    {
+      "coreStep": 10321,
+      "phase": 4,
+      "reference_m": 0.001991,
+      "observed_m": [
+        0.0021,
+        0.002112
+      ],
+      "modeled_m": [
+        0.002105,
+        0.002107
+      ]
+    },
+    {
+      "coreStep": 10361,
+      "phase": 4,
+      "reference_m": 0.001987,
+      "observed_m": [
+        0.0021,
+        0.002111
+      ],
+      "modeled_m": [
+        0.002104,
+        0.002105
+      ]
+    },
+    {
+      "coreStep": 10401,
+      "phase": 4,
+      "reference_m": 0.001983,
+      "observed_m": [
+        0.0021,
+        0.002108
+      ],
+      "modeled_m": [
+        0.0021,
+        0.002102
+      ]
+    },
+    {
+      "coreStep": 10441,
+      "phase": 4,
+      "reference_m": 0.001978,
+      "observed_m": [
+        0.0021,
+        0.002108
+      ],
+      "modeled_m": [
+        0.002098,
+        0.002099
+      ]
+    },
+    {
+      "coreStep": 10481,
+      "phase": 4,
+      "reference_m": 0.001971,
+      "observed_m": [
+        0.002098,
+        0.002108
+      ],
+      "modeled_m": [
+        0.002093,
+        0.002095
+      ]
+    },
+    {
+      "coreStep": 10521,
+      "phase": 4,
+      "reference_m": 0.001964,
+      "observed_m": [
+        0.002098,
+        0.002101
+      ],
+      "modeled_m": [
+        0.002087,
+        0.002089
+      ]
+    },
+    {
+      "coreStep": 10561,
+      "phase": 4,
+      "reference_m": 0.001956,
+      "observed_m": [
+        0.002098,
+        0.002091
+      ],
+      "modeled_m": [
+        0.002081,
+        0.002083
+      ]
+    },
+    {
+      "coreStep": 10601,
+      "phase": 4,
+      "reference_m": 0.001947,
+      "observed_m": [
+        0.002093,
+        0.002024
+      ],
+      "modeled_m": [
+        0.002073,
+        0.002076
+      ]
+    },
+    {
+      "coreStep": 10641,
+      "phase": 4,
+      "reference_m": 0.001936,
+      "observed_m": [
+        0.00209,
+        0.002025
+      ],
+      "modeled_m": [
+        0.002066,
+        0.002068
+      ]
+    },
+    {
+      "coreStep": 10681,
+      "phase": 4,
+      "reference_m": 0.001925,
+      "observed_m": [
+        0.00209,
+        0.002026
+      ],
+      "modeled_m": [
+        0.002058,
+        0.00206
+      ]
+    },
+    {
+      "coreStep": 10721,
+      "phase": 4,
+      "reference_m": 0.001913,
+      "observed_m": [
+        0.002089,
+        0.002025
+      ],
+      "modeled_m": [
+        0.002047,
+        0.00205
+      ]
+    },
+    {
+      "coreStep": 10761,
+      "phase": 4,
+      "reference_m": 0.001899,
+      "observed_m": [
+        0.002085,
+        0.002025
+      ],
+      "modeled_m": [
+        0.002035,
+        0.002038
+      ]
+    },
+    {
+      "coreStep": 10801,
+      "phase": 4,
+      "reference_m": 0.001884,
+      "observed_m": [
+        0.002082,
+        0.002025
+      ],
+      "modeled_m": [
+        0.002019,
+        0.002024
+      ]
+    },
+    {
+      "coreStep": 10841,
+      "phase": 4,
+      "reference_m": 0.001868,
+      "observed_m": [
+        0.002082,
+        0.002024
+      ],
+      "modeled_m": [
+        0.002002,
+        0.002007
+      ]
+    },
+    {
+      "coreStep": 10881,
+      "phase": 4,
+      "reference_m": 0.001851,
+      "observed_m": [
+        0.002079,
+        0.002024
+      ],
+      "modeled_m": [
+        0.001982,
+        0.001987
+      ]
+    },
+    {
+      "coreStep": 10921,
+      "phase": 4,
+      "reference_m": 0.001833,
+      "observed_m": [
+        0.002076,
+        0.002022
+      ],
+      "modeled_m": [
+        0.001958,
+        0.001964
+      ]
+    },
+    {
+      "coreStep": 10961,
+      "phase": 4,
+      "reference_m": 0.001813,
+      "observed_m": [
+        0.002072,
+        0.002019
+      ],
+      "modeled_m": [
+        0.001933,
+        0.001938
+      ]
+    },
+    {
+      "coreStep": 11001,
+      "phase": 4,
+      "reference_m": 0.001793,
+      "observed_m": [
+        0.002068,
+        0.00202
+      ],
+      "modeled_m": [
+        0.001903,
+        0.001909
+      ]
+    },
+    {
+      "coreStep": 11041,
+      "phase": 4,
+      "reference_m": 0.001771,
+      "observed_m": [
+        0.002066,
+        0.002016
+      ],
+      "modeled_m": [
+        0.00187,
+        0.001876
+      ]
+    },
+    {
+      "coreStep": 11081,
+      "phase": 4,
+      "reference_m": 0.001749,
+      "observed_m": [
+        0.002061,
+        0.002014
+      ],
+      "modeled_m": [
+        0.001832,
+        0.001838
+      ]
+    },
+    {
+      "coreStep": 11121,
+      "phase": 4,
+      "reference_m": 0.001725,
+      "observed_m": [
+        0.002055,
+        0.00201
+      ],
+      "modeled_m": [
+        0.001791,
+        0.001798
+      ]
+    },
+    {
+      "coreStep": 11161,
+      "phase": 4,
+      "reference_m": 0.0017,
+      "observed_m": [
+        0.001947,
+        0.002002
+      ],
+      "modeled_m": [
+        0.001749,
+        0.001755
+      ]
+    },
+    {
+      "coreStep": 11201,
+      "phase": 4,
+      "reference_m": 0.001674,
+      "observed_m": [
+        0.001896,
+        0.001992
+      ],
+      "modeled_m": [
+        0.00171,
+        0.001715
+      ]
+    },
+    {
+      "coreStep": 11241,
+      "phase": 4,
+      "reference_m": 0.001647,
+      "observed_m": [
+        0.001811,
+        0.001929
+      ],
+      "modeled_m": [
+        0.001675,
+        0.001678
+      ]
+    },
+    {
+      "coreStep": 11281,
+      "phase": 4,
+      "reference_m": 0.001619,
+      "observed_m": [
+        0.001732,
+        0.001865
+      ],
+      "modeled_m": [
+        0.001646,
+        0.001649
+      ]
+    },
+    {
+      "coreStep": 11321,
+      "phase": 4,
+      "reference_m": 0.00159,
+      "observed_m": [
+        0.001706,
+        0.001849
+      ],
+      "modeled_m": [
+        0.00162,
+        0.001623
+      ]
+    },
+    {
+      "coreStep": 11361,
+      "phase": 4,
+      "reference_m": 0.00156,
+      "observed_m": [
+        0.00171,
+        0.001617
+      ],
+      "modeled_m": [
+        0.001596,
+        0.001599
+      ]
+    },
+    {
+      "coreStep": 11401,
+      "phase": 4,
+      "reference_m": 0.00153,
+      "observed_m": [
+        0.001702,
+        0.001543
+      ],
+      "modeled_m": [
+        0.001577,
+        0.00158
+      ]
+    },
+    {
+      "coreStep": 11441,
+      "phase": 4,
+      "reference_m": 0.001498,
+      "observed_m": [
+        0.001693,
+        0.001527
+      ],
+      "modeled_m": [
+        0.001557,
+        0.001562
+      ]
+    },
+    {
+      "coreStep": 11481,
+      "phase": 4,
+      "reference_m": 0.001466,
+      "observed_m": [
+        0.001669,
+        0.001404
+      ],
+      "modeled_m": [
+        0.001536,
+        0.001542
+      ]
+    },
+    {
+      "coreStep": 11521,
+      "phase": 4,
+      "reference_m": 0.001433,
+      "observed_m": [
+        0.001477,
+        0.001402
+      ],
+      "modeled_m": [
+        0.001521,
+        0.001526
+      ]
+    },
+    {
+      "coreStep": 11561,
+      "phase": 4,
+      "reference_m": 0.001399,
+      "observed_m": [
+        0.001482,
+        0.001405
+      ],
+      "modeled_m": [
+        0.00151,
+        0.001516
+      ]
+    },
+    {
+      "coreStep": 11601,
+      "phase": 4,
+      "reference_m": 0.001365,
+      "observed_m": [
+        0.001416,
+        0.001372
+      ],
+      "modeled_m": [
+        0.0015,
+        0.001507
+      ]
+    },
+    {
+      "coreStep": 11641,
+      "phase": 4,
+      "reference_m": 0.00133,
+      "observed_m": [
+        0.001395,
+        0.001349
+      ],
+      "modeled_m": [
+        0.001493,
+        0.001499
+      ]
+    },
+    {
+      "coreStep": 11681,
+      "phase": 4,
+      "reference_m": 0.001295,
+      "observed_m": [
+        0.001394,
+        0.001344
+      ],
+      "modeled_m": [
+        0.001484,
+        0.00149
+      ]
+    },
+    {
+      "coreStep": 11721,
+      "phase": 4,
+      "reference_m": 0.001259,
+      "observed_m": [
+        0.001389,
+        0.001341
+      ],
+      "modeled_m": [
+        0.00147,
+        0.001476
+      ]
+    },
+    {
+      "coreStep": 11761,
+      "phase": 4,
+      "reference_m": 0.001223,
+      "observed_m": [
+        0.001384,
+        0.001338
+      ],
+      "modeled_m": [
+        0.001452,
+        0.001459
+      ]
+    },
+    {
+      "coreStep": 11801,
+      "phase": 4,
+      "reference_m": 0.001186,
+      "observed_m": [
+        0.001379,
+        0.001333
+      ],
+      "modeled_m": [
+        0.00143,
+        0.001438
+      ]
+    },
+    {
+      "coreStep": 11841,
+      "phase": 4,
+      "reference_m": 0.001149,
+      "observed_m": [
+        0.001373,
+        0.00133
+      ],
+      "modeled_m": [
+        0.001404,
+        0.001411
+      ]
+    },
+    {
+      "coreStep": 11881,
+      "phase": 4,
+      "reference_m": 0.001112,
+      "observed_m": [
+        0.001368,
+        0.001327
+      ],
+      "modeled_m": [
+        0.001371,
+        0.001379
+      ]
+    },
+    {
+      "coreStep": 11921,
+      "phase": 4,
+      "reference_m": 0.001075,
+      "observed_m": [
+        0.001364,
+        0.001324
+      ],
+      "modeled_m": [
+        0.001333,
+        0.001342
+      ]
+    },
+    {
+      "coreStep": 11961,
+      "phase": 4,
+      "reference_m": 0.001037,
+      "observed_m": [
+        0.001352,
+        0.001316
+      ],
+      "modeled_m": [
+        0.00129,
+        0.001298
+      ]
+    },
+    {
+      "coreStep": 12001,
+      "phase": 4,
+      "reference_m": 0.001,
+      "observed_m": [
+        0.001319,
+        0.001315
+      ],
+      "modeled_m": [
+        0.00124,
+        0.001249
+      ]
+    },
+    {
+      "coreStep": 12041,
+      "phase": 4,
+      "reference_m": 0.000963,
+      "observed_m": [
+        0.001233,
+        0.001307
+      ],
+      "modeled_m": [
+        0.001193,
+        0.0012
+      ]
+    },
+    {
+      "coreStep": 12081,
+      "phase": 4,
+      "reference_m": 0.000925,
+      "observed_m": [
+        0.00113,
+        0.001293
+      ],
+      "modeled_m": [
+        0.001148,
+        0.001155
+      ]
+    },
+    {
+      "coreStep": 12121,
+      "phase": 4,
+      "reference_m": 0.000888,
+      "observed_m": [
+        0.001123,
+        0.001278
+      ],
+      "modeled_m": [
+        0.001103,
+        0.001109
+      ]
+    },
+    {
+      "coreStep": 12161,
+      "phase": 4,
+      "reference_m": 0.000851,
+      "observed_m": [
+        0.001107,
+        0.001159
+      ],
+      "modeled_m": [
+        0.001056,
+        0.001062
+      ]
+    },
+    {
+      "coreStep": 12201,
+      "phase": 4,
+      "reference_m": 0.000814,
+      "observed_m": [
+        0.000986,
+        0.001035
+      ],
+      "modeled_m": [
+        0.001014,
+        0.001018
+      ]
+    },
+    {
+      "coreStep": 12241,
+      "phase": 4,
+      "reference_m": 0.000777,
+      "observed_m": [
+        0.000891,
+        0.000844
+      ],
+      "modeled_m": [
+        0.000981,
+        0.000986
+      ]
+    },
+    {
+      "coreStep": 12281,
+      "phase": 4,
+      "reference_m": 0.000741,
+      "observed_m": [
+        0.000754,
+        0.000761
+      ],
+      "modeled_m": [
+        0.000958,
+        0.000962
+      ]
+    },
+    {
+      "coreStep": 12321,
+      "phase": 4,
+      "reference_m": 0.000705,
+      "observed_m": [
+        0.000718,
+        0.000649
+      ],
+      "modeled_m": [
+        0.000943,
+        0.000948
+      ]
+    },
+    {
+      "coreStep": 12361,
+      "phase": 4,
+      "reference_m": 0.00067,
+      "observed_m": [
+        0.00069,
+        0.000614
+      ],
+      "modeled_m": [
+        0.000934,
+        0.000939
+      ]
+    },
+    {
+      "coreStep": 12401,
+      "phase": 4,
+      "reference_m": 0.000635,
+      "observed_m": [
+        0.000677,
+        0.000614
+      ],
+      "modeled_m": [
+        0.000925,
+        0.00093
+      ]
+    },
+    {
+      "coreStep": 12441,
+      "phase": 4,
+      "reference_m": 0.000601,
+      "observed_m": [
+        0.00067,
+        0.000615
+      ],
+      "modeled_m": [
+        0.000914,
+        0.000919
+      ]
+    },
+    {
+      "coreStep": 12481,
+      "phase": 4,
+      "reference_m": 0.000567,
+      "observed_m": [
+        0.000675,
+        0.000609
+      ],
+      "modeled_m": [
+        0.0009,
+        0.000906
+      ]
+    },
+    {
+      "coreStep": 12521,
+      "phase": 4,
+      "reference_m": 0.000534,
+      "observed_m": [
+        0.000667,
+        0.000609
+      ],
+      "modeled_m": [
+        0.000883,
+        0.000889
+      ]
+    },
+    {
+      "coreStep": 12561,
+      "phase": 4,
+      "reference_m": 0.000502,
+      "observed_m": [
+        0.000661,
+        0.000609
+      ],
+      "modeled_m": [
+        0.000861,
+        0.000867
+      ]
+    },
+    {
+      "coreStep": 12601,
+      "phase": 4,
+      "reference_m": 0.00047,
+      "observed_m": [
+        0.000664,
+        0.000608
+      ],
+      "modeled_m": [
+        0.000836,
+        0.000842
+      ]
+    },
+    {
+      "coreStep": 12641,
+      "phase": 4,
+      "reference_m": 0.00044,
+      "observed_m": [
+        0.000658,
+        0.000604
+      ],
+      "modeled_m": [
+        0.000804,
+        0.000811
+      ]
+    },
+    {
+      "coreStep": 12681,
+      "phase": 4,
+      "reference_m": 0.00041,
+      "observed_m": [
+        0.000658,
+        0.000602
+      ],
+      "modeled_m": [
+        0.000769,
+        0.000776
+      ]
+    },
+    {
+      "coreStep": 12721,
+      "phase": 4,
+      "reference_m": 0.000381,
+      "observed_m": [
+        0.000654,
+        0.000602
+      ],
+      "modeled_m": [
+        0.000728,
+        0.000735
+      ]
+    },
+    {
+      "coreStep": 12761,
+      "phase": 4,
+      "reference_m": 0.000353,
+      "observed_m": [
+        0.000647,
+        0.000598
+      ],
+      "modeled_m": [
+        0.000682,
+        0.000689
+      ]
+    },
+    {
+      "coreStep": 12801,
+      "phase": 4,
+      "reference_m": 0.000326,
+      "observed_m": [
+        0.000637,
+        0.000595
+      ],
+      "modeled_m": [
+        0.000631,
+        0.000639
+      ]
+    },
+    {
+      "coreStep": 12841,
+      "phase": 4,
+      "reference_m": 0.0003,
+      "observed_m": [
+        0.000544,
+        0.000589
+      ],
+      "modeled_m": [
+        0.000579,
+        0.000586
+      ]
+    },
+    {
+      "coreStep": 12881,
+      "phase": 4,
+      "reference_m": 0.000275,
+      "observed_m": [
+        0.000414,
+        0.000578
+      ],
+      "modeled_m": [
+        0.000532,
+        0.000536
+      ]
+    },
+    {
+      "coreStep": 12921,
+      "phase": 4,
+      "reference_m": 0.000251,
+      "observed_m": [
+        0.000401,
+        0.000562
+      ],
+      "modeled_m": [
+        0.000487,
+        0.000492
+      ]
+    },
+    {
+      "coreStep": 12961,
+      "phase": 4,
+      "reference_m": 0.000229,
+      "observed_m": [
+        0.000298,
+        0.000499
+      ],
+      "modeled_m": [
+        0.000444,
+        0.000448
+      ]
+    },
+    {
+      "coreStep": 13001,
+      "phase": 4,
+      "reference_m": 0.000207,
+      "observed_m": [
+        0.00031,
+        0.00044
+      ],
+      "modeled_m": [
+        0.000409,
+        0.000412
+      ]
+    },
+    {
+      "coreStep": 13041,
+      "phase": 4,
+      "reference_m": 0.000187,
+      "observed_m": [
+        0.000291,
+        0.000277
+      ],
+      "modeled_m": [
+        0.000375,
+        0.000379
+      ]
+    },
+    {
+      "coreStep": 13081,
+      "phase": 4,
+      "reference_m": 0.000167,
+      "observed_m": [
+        0.000293,
+        0.000191
+      ],
+      "modeled_m": [
+        0.000349,
+        0.000352
+      ]
+    },
+    {
+      "coreStep": 13121,
+      "phase": 4,
+      "reference_m": 0.000149,
+      "observed_m": [
+        0.000239,
+        -0.000006
+      ],
+      "modeled_m": [
+        0.000325,
+        0.000329
+      ]
+    },
+    {
+      "coreStep": 13161,
+      "phase": 4,
+      "reference_m": 0.000132,
+      "observed_m": [
+        0.000101,
+        0.000011
+      ],
+      "modeled_m": [
+        0.000314,
+        0.000319
+      ]
+    },
+    {
+      "coreStep": 13201,
+      "phase": 4,
+      "reference_m": 0.000116,
+      "observed_m": [
+        0.000059,
+        -0.000013
+      ],
+      "modeled_m": [
+        0.000308,
+        0.000312
+      ]
+    },
+    {
+      "coreStep": 13241,
+      "phase": 4,
+      "reference_m": 0.000101,
+      "observed_m": [
+        0.000076,
+        0.000005
+      ],
+      "modeled_m": [
+        0.000304,
+        0.000309
+      ]
+    },
+    {
+      "coreStep": 13281,
+      "phase": 4,
+      "reference_m": 0.000087,
+      "observed_m": [
+        0.000084,
+        -0.000013
+      ],
+      "modeled_m": [
+        0.0003,
+        0.000305
+      ]
+    },
+    {
+      "coreStep": 13321,
+      "phase": 4,
+      "reference_m": 0.000075,
+      "observed_m": [
+        0.000058,
+        0.000004
+      ],
+      "modeled_m": [
+        0.000297,
+        0.000302
+      ]
+    },
+    {
+      "coreStep": 13361,
+      "phase": 4,
+      "reference_m": 0.000064,
+      "observed_m": [
+        0.000091,
+        -0.000012
+      ],
+      "modeled_m": [
+        0.000292,
+        0.000298
+      ]
+    },
+    {
+      "coreStep": 13401,
+      "phase": 4,
+      "reference_m": 0.000053,
+      "observed_m": [
+        0.000061,
+        -0.000001
+      ],
+      "modeled_m": [
+        0.000287,
+        0.000294
+      ]
+    },
+    {
+      "coreStep": 13441,
+      "phase": 4,
+      "reference_m": 0.000044,
+      "observed_m": [
+        0.000076,
+        -0.000006
+      ],
+      "modeled_m": [
+        0.000282,
+        0.000288
+      ]
+    },
+    {
+      "coreStep": 13481,
+      "phase": 4,
+      "reference_m": 0.000036,
+      "observed_m": [
+        0.000052,
+        -0.000008
+      ],
+      "modeled_m": [
+        0.000275,
+        0.000282
+      ]
+    },
+    {
+      "coreStep": 13521,
+      "phase": 4,
+      "reference_m": 0.000029,
+      "observed_m": [
+        0.000079,
+        -0.000002
+      ],
+      "modeled_m": [
+        0.000269,
+        0.000276
+      ]
+    },
+    {
+      "coreStep": 13561,
+      "phase": 4,
+      "reference_m": 0.000022,
+      "observed_m": [
+        0.000057,
+        -0.000008
+      ],
+      "modeled_m": [
+        0.00026,
+        0.000268
+      ]
+    },
+    {
+      "coreStep": 13601,
+      "phase": 4,
+      "reference_m": 0.000017,
+      "observed_m": [
+        0.000069,
+        -0.000002
+      ],
+      "modeled_m": [
+        0.000252,
+        0.000259
+      ]
+    },
+    {
+      "coreStep": 13641,
+      "phase": 4,
+      "reference_m": 0.000013,
+      "observed_m": [
+        0.000059,
+        -0.000008
+      ],
+      "modeled_m": [
+        0.000242,
+        0.000251
+      ]
+    },
+    {
+      "coreStep": 13681,
+      "phase": 4,
+      "reference_m": 0.000009,
+      "observed_m": [
+        0.000075,
+        -0.000002
+      ],
+      "modeled_m": [
+        0.000233,
+        0.000241
+      ]
+    },
+    {
+      "coreStep": 13721,
+      "phase": 4,
+      "reference_m": 0.000006,
+      "observed_m": [
+        0.000046,
+        -0.000007
+      ],
+      "modeled_m": [
+        0.000222,
+        0.00023
+      ]
+    },
+    {
+      "coreStep": 13761,
+      "phase": 4,
+      "reference_m": 0.000004,
+      "observed_m": [
+        0.000071,
+        -0.000008
+      ],
+      "modeled_m": [
+        0.000211,
+        0.000219
+      ]
+    },
+    {
+      "coreStep": 13801,
+      "phase": 4,
+      "reference_m": 0.000002,
+      "observed_m": [
+        0.00005,
+        -0.000006
+      ],
+      "modeled_m": [
+        0.000199,
+        0.000208
+      ]
+    },
+    {
+      "coreStep": 13841,
+      "phase": 4,
+      "reference_m": 0.000001,
+      "observed_m": [
+        0.000052,
+        -0.000001
+      ],
+      "modeled_m": [
+        0.000186,
+        0.000196
+      ]
+    },
+    {
+      "coreStep": 13881,
+      "phase": 4,
+      "reference_m": 0.000001,
+      "observed_m": [
+        0.000062,
+        -0.000002
+      ],
+      "modeled_m": [
+        0.000174,
+        0.000184
+      ]
+    },
+    {
+      "coreStep": 13921,
+      "phase": 4,
+      "reference_m": 0,
+      "observed_m": [
+        0.000042,
+        -0.000002
+      ],
+      "modeled_m": [
+        0.000162,
+        0.000173
+      ]
+    },
+    {
+      "coreStep": 13961,
+      "phase": 4,
+      "reference_m": 0,
+      "observed_m": [
+        0.000057,
+        -0.000005
+      ],
+      "modeled_m": [
+        0.000151,
+        0.000161
+      ]
+    },
+    {
+      "coreStep": 14001,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0.000053,
+        -0.000001
+      ],
+      "modeled_m": [
+        0.000139,
+        0.000149
+      ]
+    },
+    {
+      "coreStep": 14041,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0.00004,
+        -0.000001
+      ],
+      "modeled_m": [
+        0.000127,
+        0.000137
+      ]
+    },
+    {
+      "coreStep": 14081,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0.000056,
+        -0.000001
+      ],
+      "modeled_m": [
+        0.000115,
+        0.000126
+      ]
+    },
+    {
+      "coreStep": 14121,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0.000047,
+        -0.000001
+      ],
+      "modeled_m": [
+        0.000103,
+        0.000114
+      ]
+    },
+    {
+      "coreStep": 14161,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0.000041,
+        -0.000001
+      ],
+      "modeled_m": [
+        0.000091,
+        0.000102
+      ]
+    },
+    {
+      "coreStep": 14201,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0.000061,
+        -0.000001
+      ],
+      "modeled_m": [
+        0.000079,
+        0.000091
+      ]
+    },
+    {
+      "coreStep": 14241,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0.00005,
+        -0.000001
+      ],
+      "modeled_m": [
+        0.000068,
+        0.000079
+      ]
+    },
+    {
+      "coreStep": 14281,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0.000034,
+        0
+      ],
+      "modeled_m": [
+        0.000056,
+        0.000068
+      ]
+    },
+    {
+      "coreStep": 14321,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0.000045,
+        0
+      ],
+      "modeled_m": [
+        0.000045,
+        0.000057
+      ]
+    },
+    {
+      "coreStep": 14361,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0.00004,
+        0
+      ],
+      "modeled_m": [
+        0.000034,
+        0.000047
+      ]
+    },
+    {
+      "coreStep": 14401,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0.00001,
+        0
+      ],
+      "modeled_m": [
+        0.000025,
+        0.000038
+      ]
+    },
+    {
+      "coreStep": 14441,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000016,
+        -0.000001
+      ],
+      "modeled_m": [
+        0.000017,
+        0.000029
+      ]
+    },
+    {
+      "coreStep": 14481,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        0.000011,
+        0.000023
+      ]
+    },
+    {
+      "coreStep": 14521,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        0.000006,
+        0.000018
+      ]
+    },
+    {
+      "coreStep": 14561,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        0.000001,
+        0.000013
+      ]
+    },
+    {
+      "coreStep": 14601,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000004,
+        0.000008
+      ]
+    },
+    {
+      "coreStep": 14641,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000007,
+        0.000005
+      ]
+    },
+    {
+      "coreStep": 14681,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000011,
+        0.000001
+      ]
+    },
+    {
+      "coreStep": 14721,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000015,
+        -0.000002
+      ]
+    },
+    {
+      "coreStep": 14761,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000017,
+        -0.000006
+      ]
+    },
+    {
+      "coreStep": 14801,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000008
+      ]
+    },
+    {
+      "coreStep": 14841,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000011
+      ]
+    },
+    {
+      "coreStep": 14881,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000024,
+        -0.000013
+      ]
+    },
+    {
+      "coreStep": 14921,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000027,
+        -0.000016
+      ]
+    },
+    {
+      "coreStep": 14961,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000028,
+        -0.000017
+      ]
+    },
+    {
+      "coreStep": 15001,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000029,
+        -0.000018
+      ]
+    },
+    {
+      "coreStep": 15041,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.00003,
+        -0.000019
+      ]
+    },
+    {
+      "coreStep": 15081,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.00003,
+        -0.000019
+      ]
+    },
+    {
+      "coreStep": 15121,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000018,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.00003,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15161,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000017,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.00003,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15201,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000017,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.00003,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15241,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000017,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.00003,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15281,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000017,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.00003,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15321,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000017,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.00003,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15361,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000017,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.00003,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15401,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000017,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.00003,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15441,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000017,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000029,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15481,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000017,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000029,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15521,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000016,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000029,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15561,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000016,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000029,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15601,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000013,
+        -0.000001
+      ],
+      "modeled_m": [
+        -0.000029,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15641,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000013,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000029,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15681,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000013,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000029,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15721,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000013,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000028,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15761,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000013,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000028,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15801,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000013,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000028,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15841,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000013,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000028,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15881,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000013,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000028,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15921,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000013,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000028,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 15961,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000013,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000028,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16001,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000013,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000027,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16041,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000012,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000027,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16081,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000012,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000027,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16121,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000012,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000027,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16161,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000012,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000027,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16201,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000011,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000027,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16241,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000011,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000027,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16281,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000011,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000025,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16321,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000011,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000025,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16361,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000011,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000025,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16401,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000011,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000025,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16441,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000011,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000025,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16481,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000011,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000025,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16521,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000011,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000025,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16561,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000011,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000025,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16601,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000011,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000024,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16641,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000008,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000024,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16681,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000024,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16721,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000024,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16761,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000024,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16801,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000024,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16841,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000024,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16881,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000024,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16921,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000024,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 16961,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000024,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17001,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17041,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17081,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17121,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17161,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17201,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17241,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000007,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17281,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17321,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17361,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17401,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17441,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17481,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17521,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000023,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17561,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17601,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17641,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17681,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17721,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17761,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17801,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17841,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17881,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17921,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 17961,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18001,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18041,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18081,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18121,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000005,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18161,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18201,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18241,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18281,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18321,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18361,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18401,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000022,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18441,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18481,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18521,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18561,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18601,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18641,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18681,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18721,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18761,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18801,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18841,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18881,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18921,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 18961,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19001,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19041,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19081,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19121,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19161,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19201,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19241,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19281,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19321,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19361,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19401,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19441,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19481,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19521,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19561,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19601,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19641,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19681,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19721,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19761,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19801,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        -0.000001,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19841,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19881,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0.000002,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19921,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0.000002,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    },
+    {
+      "coreStep": 19961,
+      "phase": 5,
+      "reference_m": 0,
+      "observed_m": [
+        0.000004,
+        -0.000002
+      ],
+      "modeled_m": [
+        -0.000021,
+        -0.000021
+      ]
+    }
+  ],
+  "nativePredictionResidual": {
+    "meanSyncBias_mm": [
+      0.006125000000000048,
+      -0.011970000000000014
+    ],
+    "meanSyncCenteredRMS_mm": [
+      0.10349131304124014,
+      0.0549396860202166
+    ],
+    "meanSyncPredictionRMSE_mm": [
+      0.10367240471793847,
+      0.056228551466314475
+    ],
+    "meanSyncSSE_mm2": [
+      4.299187000000012,
+      1.2646599999999903
+    ]
+  },
+  "phaseResiduals": [
+    {
+      "phase": 2,
+      "name": "outward",
+      "nativePoints": 100,
+      "meanSyncBias_mm": [
+        -0.024724999999999997,
+        -0.016409999999999998
+      ],
+      "meanSyncCenteredRMS_mm": [
+        0.1361898559915532,
+        0.06812137623389594
+      ],
+      "meanSyncPredictionRMSE_mm": [
+        0.13841604856374135,
+        0.07007003639216978
+      ],
+      "meanSyncSSE_mm2": [
+        1.9159002500000004,
+        0.49098099999999983
+      ],
+      "meanSyncTotalSSEContribution_percent": [
+        44.56424551897824,
+        38.82316195657359
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "targetHold",
+      "nativePoints": 50,
+      "meanSyncBias_mm": [
+        0.0012999999999999622,
+        0.007440000000000164
+      ],
+      "meanSyncCenteredRMS_mm": [
+        0.011434159348198717,
+        0.020756839836545412
+      ],
+      "meanSyncPredictionRMSE_mm": [
+        0.011507823425826442,
+        0.02204994331058474
+      ],
+      "meanSyncSSE_mm2": [
+        0.006621499999999991,
+        0.024310000000000036
+      ],
+      "meanSyncTotalSSEContribution_percent": [
+        0.15401749214444435,
+        1.9222557841633499
+      ]
+    },
+    {
+      "phase": 4,
+      "name": "return",
+      "nativePoints": 100,
+      "meanSyncBias_mm": [
+        0.06283000000000002,
+        -0.03330000000000001
+      ],
+      "meanSyncCenteredRMS_mm": [
+        0.1371801228312615,
+        0.0775157403370438
+      ],
+      "meanSyncPredictionRMSE_mm": [
+        0.15088404488215448,
+        0.08436575134496223
+      ],
+      "meanSyncSSE_mm2": [
+        2.276599500000001,
+        0.7117579999999996
+      ],
+      "meanSyncTotalSSEContribution_percent": [
+        52.95418645432251,
+        56.28058134202117
+      ]
+    },
+    {
+      "phase": 5,
+      "name": "returnHold",
+      "nativePoints": 150,
+      "meanSyncBias_mm": [
+        -0.009503333333333338,
+        -0.001259999999999998
+      ],
+      "meanSyncCenteredRMS_mm": [
+        0.024016487161022435,
+        0.015784562078182577
+      ],
+      "meanSyncPredictionRMSE_mm": [
+        0.025828375868412665,
+        0.01583477186447595
+      ],
+      "meanSyncSSE_mm2": [
+        0.10006575000000026,
+        0.03761099999999988
+      ],
+      "meanSyncTotalSSEContribution_percent": [
+        2.327550534554556,
+        2.9740009172425923
+      ]
+    }
+  ],
+  "exactMovingDiagnostics": [
+    {
+      "name": "outward",
+      "exactInputIntervals": 4000,
+      "modelStartMinusObservedStart_mm": [
+        0,
+        0
+      ],
+      "positionIncrementResidual": {
+        "meanSyncBias_mm": [
+          -0.023920260558575903,
+          -0.01626334141048535
+        ],
+        "meanSyncCenteredRMS_mm": [
+          0.13513741877727584,
+          0.06748153016004979
+        ],
+        "meanSyncPredictionRMSE_mm": [
+          0.13723811722322254,
+          0.06941363833264833
+        ],
+        "meanSyncSSE_mm2": [
+          75.33720327589988,
+          19.273012746302822
+        ]
+      },
+      "incrementDiagnosticNotSimulationStateReset": true,
+      "encoderDisplacement_mm": [
+        2.1059941129806248,
+        2.055130540384198
+      ],
+      "endpointRPMIntegratedDisplacement_mm": [
+        1.6714795468151433,
+        2.510628692253144
+      ],
+      "encoderMinusRPMDisplacement_mm": [
+        0.43451456616548145,
+        -0.4554981518689457
+      ],
+      "precedingHoldCommandIntegralWasAllZero": true,
+      "inputIsQueuedCountsNotCalibratedForce": true,
+      "measurementMismatchCauseNotIdentified": true
+    },
+    {
+      "name": "return",
+      "exactInputIntervals": 4000,
+      "modelStartMinusObservedStart_mm": [
+        0.0037133583857544734,
+        -0.006598882260719797
+      ],
+      "positionIncrementResidual": {
+        "meanSyncBias_mm": [
+          0.06418764183210478,
+          -0.042902924703325414
+        ],
+        "meanSyncCenteredRMS_mm": [
+          0.13781361955283747,
+          0.07771990938117289
+        ],
+        "meanSyncPredictionRMSE_mm": [
+          0.15202844174107977,
+          0.08877525140666709
+        ],
+        "meanSyncSSE_mm2": [
+          92.45058839288355,
+          31.52418104926779
+        ]
+      },
+      "incrementDiagnosticNotSimulationStateReset": true,
+      "encoderDisplacement_mm": [
+        -2.0502863906131097,
+        -2.1168934499655734
+      ],
+      "endpointRPMIntegratedDisplacement_mm": [
+        -2.704239422283525,
+        -1.5565786084342703
+      ],
+      "encoderMinusRPMDisplacement_mm": [
+        0.6539530316704151,
+        -0.5603148415313031
+      ],
+      "precedingHoldCommandIntegralWasAllZero": false,
+      "inputIsQueuedCountsNotCalibratedForce": true,
+      "measurementMismatchCauseNotIdentified": true
+    }
+  ],
+  "modeledToObservedSyncRMSRatio": 0.09091087361651704,
+  "trajectoryRMSEEmpiricalMetricDifferenceBound_mm": [
+    0.10367240471793847,
+    0.056228551466314475
+  ],
+  "boundIsThisTrainingRecordOnlyNotUniversalOrIndependent": true,
+  "diagnosticDecision": {
+    "syncMagnitudeGrosslyUnderrepresentedInThisFrozenReplay": true,
+    "factorFiveUsedOnlyDescriptiveNotApprovalThreshold": true,
+    "fullModelPredictionAdmitted": false,
+    "rootCauseProven": false,
+    "exactOutwardInputAvailableWithoutNonzeroPreholdCommandMean": true,
+    "outwardMismatchExistsWithZeroPreholdCommandIntegralAndMatchingBoundaryPosition": true,
+    "note": "Zero prehold queued means and observed fixed endpoints do not prove absent unknown external motion or force. No unique physical root cause claimed."
+  },
+  "acceptanceThresholdsNotBackSolved": true,
+  "modelClosureComplete": false,
+  "controllerChanged": false,
+  "physicalRunReleased": false
+}

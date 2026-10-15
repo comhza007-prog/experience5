@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-15",
+  "authorization": "User explicitly requests cumulative small parameter refinement based on run06, future tracking/sync tolerances both15percent, then one new manual capture. Preserve prior10/15percent run06 failure; no retroactive reclassification.",
+  "records": [
+    {
+      "name": "T1",
+      "decoded": "identification_t1_fullmoving_round70_20261015/build68112_d1184a41428b_analysis.json",
+      "rawSHA256": "d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0",
+      "prefixRows": 0,
+      "nativeSamples": 400
+    },
+    {
+      "name": "Q2_run02",
+      "decoded": "q2_mechanical_recheck_round73_20261015/build68012_84bbb6e34165_analysis.json",
+      "rawSHA256": "84bbb6e3416540a238354d7636a6bc4e6f5ba0cd2d090470e3eb1bba1ce153db",
+      "prefixRows": 1,
+      "nativeSamples": 400
+    },
+    {
+      "name": "Q2_run03",
+      "decoded": "q2_frozen_r79_check_round80_20261015/capture_analysis.json",
+      "rawSHA256": "e8b6c897381bf15a77d4543d36f8564bab4318ae633bad56fc08b061fd173567",
+      "prefixRows": 1,
+      "nativeSamples": 399
+    },
+    {
+      "name": "Q2_run04",
+      "decoded": "q2_r82_repeat_round85_20261015/capture_analysis.json",
+      "rawSHA256": "62dee22d4a81c135b355ce8d178b7b15d616357926465d4983285febefd36cb0",
+      "prefixRows": 0,
+      "nativeSamples": 400
+    },
+    {
+      "name": "Q2_run05",
+      "decoded": "q2_frozen_r86_check_round87_20261015/capture_analysis.json",
+      "rawSHA256": "1a2901e72e3430f86212668ad8ee9c7883d7cd6fef7d43023cd8b9e0f1a8eb00",
+      "prefixRows": 0,
+      "nativeSamples": 400
+    },
+    {
+      "name": "Q2_run06",
+      "decoded": "q2_rms_check_round89_20261015/capture_analysis.json",
+      "rawSHA256": "170186d20947fc3fe622b020d454a72f559ff8ea1b133a9146f5d4717fb19fc6",
+      "prefixRows": 0,
+      "nativeSamples": 400
+    }
+  ],
+  "sourceModel": "stable_core_round88_20261015/model_parameters.json",
+  "sourceModelSHA256": "d02d8d331321c39e4196b3016a4dfe0c4c91edfe6aa0a0d9d94abd4098f8e0ca",
+  "initialParameters": [
+    0.0000031544079092320917,
+    0.0000021468380626850406,
+    1.2664310115393707,
+    0.016469415301482927,
+    8.717113104795002,
+    2.324466329054665,
+    0.00042400325762886095,
+    0.0001041360497207325,
+    -0.8897118441672984,
+    0.0001658723234014572,
+    0.0008508238345348034
+  ],
+  "parameterNames11": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "staticExtraL",
+    "staticExtraR"
+  ],
+  "parameterScales11": [
+    0.00001,
+    0.00001,
+    10,
+    10,
+    1000,
+    100,
+    0.01,
+    0.01,
+    0.2,
+    0.001,
+    0.001
+  ],
+  "lowerBounds11": [
+    1e-7,
+    1e-7,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -0.95,
+    0,
+    0
+  ],
+  "upperBounds11": [
+    0.001,
+    0.001,
+    1000,
+    1000,
+    100000,
+    10000,
+    1,
+    1,
+    0.95,
+    0.1,
+    0.1
+  ],
+  "localParameterBounds": "Six free positive parameters within10percent of frozenR88; five core parameters fixed.",
+  "localRelativeBound": 0.1,
+  "localEtaAbsoluteBound": 0.02,
+  "recordWeights": [
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ],
+  "waveformScale_mm": [
+    0.05,
+    0.05
+  ],
+  "metricRelativeScale": 0.1,
+  "objective": "Same R88 waveform and task-RMS loss terms with equal weights across six retained calibration records, plus same local drift penalty. No outcomes removed; old limitations retained. No guarantee of convergence to global optimum or new-record passage.",
+  "optimizer": {
+    "method": "One deterministic bounded Nelder-Mead seed per declared scheme, normalized local-radius coordinates",
+    "maximumEvaluations": 900,
+    "maximumIterations": 650,
+    "initialStep": 0.1
+  },
+  "modelStructureChanged": false,
+  "holdingInputApproximationChanged": false,
+  "observedNativeSamples": [
+    400,
+    400,
+    399,
+    400,
+    400,
+    400
+  ],
+  "recordingLimitations": "T1 completion tail6.88s; Q2run03 tail7.08s and one missing native point. Their full motion/hold snapshots independently CRC verified; limitations retained, absent point not imputed. Q2run04 strictly qualified.",
+  "previousHoldoutResult": "q2_rms_check_round89_20261015/comparison_summary.json",
+  "previousHoldoutResultRetained": true,
+  "run04NowUsedForCalibration": true,
+  "run05UsedForCalibration": true,
+  "newPhysicalTest": "One unchanged manual Q2run07 after new offline parameters frozen. Empty2mm,1200/1200,no new perturbation, protections unchanged. Evaluate R90 and declaredR88 before refit.",
+  "firmwareChanged": false,
+  "assistantHardwareAction": false,
+  "fixedCoreIndices": [
+    2,
+    3,
+    4,
+    5,
+    8
+  ],
+  "freeIndices": [
+    0,
+    1,
+    6,
+    7,
+    9,
+    10
+  ],
+  "fixedCoreRationale": "R88 nominal core remains fixed exactly. Six drive/friction parameters share one set across all six calibration records; no newly introduced dynamics, correction, excitation or control changes.",
+  "schemes": [
+    {
+      "label": "stable6_regularized",
+      "freeIndices": [
+        0,
+        1,
+        6,
+        7,
+        9,
+        10
+      ],
+      "driftPenaltyWeight": 0.25
+    }
+  ],
+  "driftPenalty": "Same weight0.25*mean(normalizedLocalDeviationSquared) as R88, now centered on frozenR88. Acceptance tolerance is not an objective term.",
+  "candidateEligibility": "Cumulative unpenalized loss no worse than unchangedR88 and no single-record data loss more than10percent worse. This numerical guard is separate from future15/15percent provisional aggregate acceptance.",
+  "inputLimitations": "Recorded queued commands, not delivered torque; holding40step means retained. No residual model/noise realization/output correction added. Mechanical uncertainty ranges are not identified by this exercise.",
+  "oldIndependentTestSummary": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_rms_check_round89_20261015\\comparison_summary.json",
+  "oldIndependentTestSummarySHA256": "69af68be1d6b6962adf223270a3022822d091fe36d091b74945812efc99689aa",
+  "run06UsedForCalibration": true,
+  "proposedFutureScreenOnly": {
+    "trackingTaskRMSRelativeErrorMaximum": 0.15,
+    "syncTaskRMSRelativeErrorMaximum": 0.15,
+    "waveformIsHardGate": false,
+    "status": "User-requested prospective engineering tolerance for run07; not a universal standard or full-model validation."
+  },
+  "newPhysicalRunReleased": false,
+  "run07UsedForCalibration": false,
+  "priorRun06TrackingToleranceRemains": 0.1,
+  "priorRun06SyncToleranceRemains": 0.15,
+  "priorRun06FailureRetained": true
+}

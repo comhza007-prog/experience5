@@ -1,0 +1,20 @@
+{
+  "authorization": "User withdrew ten-run plan and requested direct tracking/synchronization waveforms in firmware. Prepare one manual ordinary/S3R2 pair only, not ten repetitions.",
+  "stage": "Waveform and recording preview, not a confirmatory efficacy comparison",
+  "codeRoot": "05_实验代码/打波预检A_BLNN_S3R2_20261014",
+  "dataRoot": "01_原始数据/打波预检A_BLNN_S3R2_20261014",
+  "controlSource": "Exact round48 frozen ordinary65511 and originalS3R266312 control sources. Only build/schema identity and read-only UART-view formatting change.",
+  "methods": {
+    "BLNN": {"build":67911,"previousBuild":65511,"schema":4492,"previousSchema":4466,"methodID":11,"subfolder":"00_BLNN","project":"00_BLNN/eassy_E5F2_A_BLNN_HW6/MDK-ARM/eassy.uvprojx","target":"exp5F2_A_BLNN_HW6_F5_EVENT40","eventMagic":4422,"filename":"E5W_A_BLNN_B67911_HW6_L1200_R1200_M0g_S2mm_pair01_attempt01.csv"},
+    "S3R2": {"build":67912,"previousBuild":66312,"schema":4493,"previousSchema":4472,"methodID":12,"subfolder":"01_S3R2","project":"01_R2/eassy_E5R2_A_S3R2_HW6/MDK-ARM/eassy.uvprojx","target":"exp5R2_A_S3R2_HW6_EVENT48","eventMagic":4424,"filename":"E5W_A_S3R2_B67912_HW6_L1200_R1200_M0g_S2mm_pair01_attempt01.csv"}
+  },
+  "channels": {"I53":"1000*((I5+I6)/2-I3), signed mean-position tracking error in mm","I54":"1000*(I5-I6), signed left-minus-right synchronization error in mm","replaced":"Duplicated raw generalized coordinates, recoverable from unchanged I5/I6","I3":"Reference metres, unchanged","I5_I6":"Left/right encoder-derived positions in metres, unchanged","notRMS":true,"notIndependentCarriageSensor":true},
+  "implementation": "Compute only in low-priority vofa_task after the existing snapshot and before DMA buffer serialization. No new motor_task computation. The other105 channel mappings are preserved, with expected identity-value changes at I63(build) and active I93(schema). Event/fault payloads and107-channel432-byteJustFloat frame remain unchanged.",
+  "telemetry": {"channels":107,"period_ms":40,"baud":115200,"frameBytes":432,"nominalWireTime_ms_8N1":37.5,"wireUtilization":0.9375,"newBandwidth":false},
+  "physicalScope": "At most one manually flashed/recorded run per method: empty0g,2mm out/back,1200/1200counts,HW6. All original guards/trajectory/network initialization unchanged. No assistant hardware action, no automatic repeats.",
+  "safety": "Drive power off for flashing. Onsite operator with emergency stop, secured empty platform and clear travel. Archived boot-start behavior remains; enable VOFA reception before deliberate fresh power-on/reset. No unattended motion. On abnormal behavior stop safely and preserve history.",
+  "record": "Record all107 channels, display only I53/I54 for uncluttered error waveforms. Clear old history before each fresh run, never reset/reflash within one CSV. Success: phase6,fault0,correct event magic andI89=4,then>=10seconds andI0>=100seconds before export. Fault: stop safely and preserve same history and fault tail. No rerun solely for a favorable result.",
+  "interpretation": "I53/I54 are sampled signed instantaneous errors at40ms, not1ms trace, tracking RMSE or syncRMS. Plot near zero and compare both signs; visual judgement does not establish superiority. Primary calculation remains based on original I3/I5/I6 over phases2..5 with drive permit. Earlier ten-run plan is suspended, not deleted.",
+  "release": "Host checks and ARM build required. First manual preview checks on-board timing/communication; no previous1ms WCET guarantee inferred from a successful compile.",
+  "plannedRuns":2,"algorithmChanged":false,"V1Released":false,"tenRunBatchReleased":false,"assistantFlashed":false
+}

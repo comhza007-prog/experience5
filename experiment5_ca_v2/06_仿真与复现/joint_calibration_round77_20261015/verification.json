@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "independentPythonSteps": 40000,
+  "nativePositionChecks": 800,
+  "maximumEnergyBalanceResidual": 2.0463826353515356e-21,
+  "cases": [
+    {
+      "record": "T1",
+      "independentSteps": 20000,
+      "maximumNativePythonPositionDifference_m": 4.8138576458356397e-17,
+      "meanPredictionRMSE_mm": 0.09602832589918457,
+      "syncPredictionRMSE_mm": 0.0456995350085753
+    },
+    {
+      "record": "Q2",
+      "independentSteps": 20000,
+      "maximumNativePythonPositionDifference_m": 4.85722573273506e-17,
+      "meanPredictionRMSE_mm": 0.0880744535889948,
+      "syncPredictionRMSE_mm": 0.04011667359091478
+    }
+  ],
+  "objectiveIndependentlyRecomputed": true,
+  "allRawHashesUnchanged": true,
+  "firmwareAndFourControlSourceHashesUnchanged": true,
+  "budgetRespected": true,
+  "numericalChecksNotPhysicalValidation": true,
+  "modelAdmitted": false,
+  "hardwareAction": false
+}

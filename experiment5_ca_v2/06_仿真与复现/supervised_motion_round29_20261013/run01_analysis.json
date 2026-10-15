@@ -1,0 +1,85 @@
+{
+  "file": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_受控S3R2_20261013\\E5SUP_A_S3R2_B67412_HW6_EVENT48_L1200_R1200_M0g_S2mm_run01.csv",
+  "sha256": "469932327edd21ea7443c20516d5ca94bf7859b687d6c2142ad4b7a131958dd6",
+  "rows": 2196,
+  "build": 67412,
+  "schema": 4483,
+  "phaseChain": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "fault": 0,
+  "missingTelemetryFrames": 0,
+  "controllerSteps": 20000,
+  "motion": {
+    "n": 400,
+    "trackingRMSE_mm": 0.18461411625016597,
+    "syncRMS_mm": 0.11757743783376987,
+    "maxSync_mm": 0.32576906960457563
+  },
+  "phases": [
+    {
+      "phase": 2,
+      "n": 100,
+      "trackingRMSE_mm": 0.20417621082804416,
+      "syncRMS_mm": 0.10698218908136183,
+      "maxSync_mm": 0.32576906960457563
+    },
+    {
+      "phase": 3,
+      "n": 50,
+      "trackingRMSE_mm": 0.22551857997317762,
+      "syncRMS_mm": 0.014091802721067546,
+      "maxSync_mm": 0.01937651541084051
+    },
+    {
+      "phase": 4,
+      "n": 100,
+      "trackingRMSE_mm": 0.1979776203143425,
+      "syncRMS_mm": 0.15027304956660512,
+      "maxSync_mm": 0.3136587329208851
+    },
+    {
+      "phase": 5,
+      "n": 150,
+      "trackingRMSE_mm": 0.14146167797989626,
+      "syncRMS_mm": 0.11880333298232408,
+      "maxSync_mm": 0.12231479195179418
+    }
+  ],
+  "terminal_mm": [
+    0.19982118101324886,
+    0.08356158650713041
+  ],
+  "voltageRange": [
+    24.030672073364258,
+    24.604114532470703
+  ],
+  "corePeak_us": 175.61309814453125,
+  "bodyPeak_us": 268.8988037109375,
+  "stackRemaining_bytes": 1920,
+  "late": 0,
+  "overruns": 0,
+  "UARTerrors": 0,
+  "event": {
+    "records": 128,
+    "uniqueChunks": 768,
+    "transmissions": 1536,
+    "first_ms": 5296,
+    "last_ms": 5423,
+    "fixedTrigger_ms": 5360,
+    "retainedAfterCompletion_s": 5,
+    "allocatorExactMatches": 128,
+    "mismatches": []
+  },
+  "fieldObservation": "User reported basically smooth completion, no significant abnormality",
+  "supervisedCaptureQualified": true,
+  "watchdogPhysicalDisconnectTested": false,
+  "scope": "Single software-supervision qualification only. Not a frozen formal comparison or proof of improved CA performance.",
+  "originalDataReadOnly": true
+}

@@ -1,0 +1,67 @@
+float PASS exact D0 equivalence: 90000 steps, all commands, predictions, weights, centers, scratch features, growth, AW and gates.
+
+D0 float PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification.
+
+D0 float recorded_sample final=100,-172 BASE=100,-174 NN=0,2 mask=14
+tight_sector retained=3,3 mask=38
+tight_headroom retained=30,-50 mask=32
+PASS cases=305843 explicit_NN_withdrawals=5583 feasible_contractions=28; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.
+LIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction.
+
+D1 float PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification.
+
+D1 float recorded_sample final=100,-172 BASE=100,-174 NN=0,2 mask=14
+tight_sector retained=3,3 mask=38
+tight_headroom retained=30,-50 mask=32
+PASS cases=305843 explicit_NN_withdrawals=5281 feasible_contractions=24; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.
+LIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction.
+
+D2 float PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification.
+
+D2 float recorded_sample final=100,-170 BASE=100,-174 NN=0,4 mask=14
+tight_sector retained=3,3 mask=38
+tight_headroom retained=30,-50 mask=32
+PASS cases=305843 explicit_NN_withdrawals=5151 feasible_contractions=27; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.
+LIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction.
+
+D3 float PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification.
+
+D3 float recorded_sample final=100,-170 BASE=100,-174 NN=0,4 mask=14
+tight_sector retained=3,3 mask=38
+tight_headroom retained=30,-50 mask=32
+PASS cases=305843 explicit_NN_withdrawals=4943 feasible_contractions=20; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.
+LIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction.
+
+double PASS exact D0 equivalence: 90000 steps, all commands, predictions, weights, centers, scratch features, growth, AW and gates.
+
+D0 double PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification.
+
+D0 double recorded_sample final=100,-172 BASE=100,-174 NN=0,2 mask=14
+tight_sector retained=3,3 mask=38
+tight_headroom retained=30,-50 mask=32
+PASS cases=305843 explicit_NN_withdrawals=5583 feasible_contractions=28; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.
+LIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction.
+
+D1 double PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification.
+
+D1 double recorded_sample final=100,-172 BASE=100,-174 NN=0,2 mask=14
+tight_sector retained=3,3 mask=38
+tight_headroom retained=30,-50 mask=32
+PASS cases=305843 explicit_NN_withdrawals=5315 feasible_contractions=21; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.
+LIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction.
+
+D2 double PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification.
+
+D2 double recorded_sample final=100,-170 BASE=100,-174 NN=0,4 mask=14
+tight_sector retained=3,3 mask=38
+tight_headroom retained=30,-50 mask=32
+PASS cases=305843 explicit_NN_withdrawals=5151 feasible_contractions=27; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.
+LIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction.
+
+D3 double PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification.
+
+D3 double recorded_sample final=100,-170 BASE=100,-174 NN=0,4 mask=14
+tight_sector retained=3,3 mask=38
+tight_headroom retained=30,-50 mask=32
+PASS cases=305843 explicit_NN_withdrawals=4949 feasible_contractions=19; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.
+LIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction.

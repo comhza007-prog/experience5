@@ -1,0 +1,21 @@
+{
+  "date":"2026-10-15","scope":"Usercontinuedofflineordinary-onlysinglecandidateparameter/measurementcalibration; nofirmware/hardware/S3R2-observationaccess",
+  "structure":"Same8normalizedmechanicalcoefficients asround63 sticking-capableCoulombcore,notphysicalmass/torquecalibration",
+  "training":"Q2S68012ordinarymovingphase2/4 exact1msqueuedinputandendpointencoder,4000samples each. Conditional4ssegments initialize once fromprecedingholdendpoint,velocity0. Notwhole-taskvalidation",
+  "measurementCalibration":"Fixednonoverlap100msmotorangle-derivedmeanRPMversusreportedmeanRPM,per-axis affineaggregate relation. Ordinaryonly. Aggregatescannotidentifyinstant1msquantizer/lag orjustifycontrolleroffsetcorrection",
+  "weakInitialization":"100mscompact-supportweakpositionequations,100step nonoverlap after50stepwarmup. Sliprowqualification:netdisplacement>=4encoderpitches and>=80percent causal50-stepvelocity above2pitch/50ms. Nonnegative8coefficient ridge1e-6 withnumericalinputgainfloor1e-9; notindependentstatistics/causalproof",
+  "singleFit":"Boundedprojectedfinite-differenceGaussNewton/LM,samecandidate,noS3R2method-rankingselection",
+  "parameterScales":[0.00001,0.00001,10,10,100,10,0.005,0.005],
+  "numericalLowerBounds":[0.000000001,0.000000001,0,0,0,0,0,0],
+  "numericalUpperBounds":[0.01,0.01,1000,1000,1000000,1000,10,10],
+  "boundsMeaning":"Declarednumericalsearchlimits,notidentifiedphysicalbounds",
+  "objective":"Equallyweightedmean-positionandleft-rightpositionpredictionerrors inmm over8000movingpoints,plus1e-8scaledcoefficientnorm. Initialstatesnotadditionalfitparameters",
+  "maxIterations":12,"maxObjectiveEvaluations":160,"differenceStep":"1e-3*(1+abs(scaledparameter))","lineSearchRates":[1,0.5,0.25,0.125,0.0625],
+  "nativeSolver":"Exactsame9stick/slipcases asverifiedPythonreference,doubleprecision; independentreferencecomparisonbeforefit",
+  "failure":"Numericalresponseover50mm/0.5m_s/nonfiniteexplicitlyfails. Finitedifferencefailureoriterationbudgetendreported; noalternativecandidate/hyperparameterssearchedafteroutcome",
+  "holdingDiagnostic":"Observedendpointsand40stepcommandmean forcebalance only; zeroenddisplacementdoesnotprovezero interimmotion orfullwaveform",
+  "whole20sPreview":"Freezeparameters,initoncep=v=0,continuous20ksteps usingexactmovinginputplus40stepmean-holdZOHABSTRACTION. Noobservedstateinjection. MeanZOH NOTrecoveredactualinput,previewnotindependentormatchedclosedloopvalidation",
+  "previewSensitivity":"Onefixedfeasiblecontinuous-valuedzero-integral40stepholdpulseorderingstresswithsamefrozenparameters,notnewfit,notactualcommandreconstructionorcertifiedbound",
+  "admission":"No2umpredictivebudgetapproved, nofreshindependentordinary/S3R2data. Anygoodtrainingpreviewnotvalidation; reportsensor/holdlimitsandbadresults",
+  "untouched":"RawCSV,originalcontroller/R2,previousnegativefits unchanged. Noadditionalcapture/flash/serialaccess"
+}

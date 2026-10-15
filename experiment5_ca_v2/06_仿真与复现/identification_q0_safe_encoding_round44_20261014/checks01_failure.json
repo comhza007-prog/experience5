@@ -1,0 +1,1 @@
+{"candidate":"Uniform+65536 transport bias","rejectedBeforeDeployment":true,"test":"Exhaustive all65536 words with zero boundary","failure":"Marker collision at offset2 remains for some float prefixes. Use two split exact integer ranges with low-byte00 and third-byte>=80. First draft build log retained; no flash or physical run of failed draft."}

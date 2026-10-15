@@ -1,0 +1,9 @@
+{
+  "selectionFrozen":"RES_0_K5: only translation residual update, gain5/s. No adaptive search in this batch.",
+  "hypothesis":"Exploratory synchronization benefit survives changes of assumed coupling and deterministic feedback-noise period.",
+  "couplingStiffness":[1000,2000,3000],"couplingDamping":40,"noisePeriods_ms":[17,23],
+  "baseCasesPerCombination":36,"comparators":["ordinary BLNN","exact S3R2","RES_0_K5"],
+  "allConditionsPaired":true,"allFailuresRetained":true,
+  "screenDecision":"Do not release if any new completed-R2 case fails or benefit changes sign in most coupling/noise settings. Report tracking cost and comparisons to ordinary BLNN. Robustness in assumed plants does not establish model adequacy or physical benefit.",
+  "modelsIdentified":false,"formalEvidence":false,"retuningAllowed":false
+}

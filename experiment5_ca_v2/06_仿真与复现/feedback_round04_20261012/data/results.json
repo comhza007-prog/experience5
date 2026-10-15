@@ -1,0 +1,560 @@
+{
+  "date": "2026-10-12",
+  "status": "HOST_MODEL_ADEQUACY_CHECK",
+  "reportGenerated": false,
+  "hardwareRuns": 0,
+  "hardwareReleased": false,
+  "compilations": 8,
+  "baselineModelRuns": 144,
+  "allOutcomesRetained": true,
+  "determinismPassed": true,
+  "legacyChecks": {
+    "BLNN": true,
+    "O25": true
+  },
+  "preservationPassed": true,
+  "physicalSource": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\实验5整理_20261011\\03_统计汇总\\analysis.json",
+  "physicalSourceSHA256": "bb9eb3f13807d8a11642992a6b1fca212bf4300792b73fa116d787f34002a526",
+  "evaluations": [
+    {
+      "profile": 0,
+      "parameters": {
+        "type": "start",
+        "case": 15,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 400,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "trainingScore": 0.17217646917170215,
+      "conditions": [
+        {
+          "condition": "A",
+          "baseValidation": {
+            "complete": true,
+            "positionRMSE_mm": 0.1999145705590529,
+            "commandRMSRelativeError": 0.10311244939045075,
+            "fitScore": 0.20507019302857543
+          },
+          "physicalRepeatRMSE_mm": 0.12694747929754277,
+          "positionThreshold_mm": 0.25389495859508554,
+          "basePositionGate": true,
+          "methods": [
+            {
+              "name": "BLNN",
+              "result": {
+                "type": "result",
+                "case": 15,
+                "method": 11,
+                "stop_ms": 20000,
+                "fault": 0,
+                "complete": true,
+                "motionSamples": 16000,
+                "partialTrackingRMSE_mm": 0.103069481,
+                "partialSyncRMS_mm": 0.0552250735,
+                "peakTracking_mm": 0.402676623,
+                "peakSync_mm": 0.194977028,
+                "terminalMax_mm": 0.0472304603,
+                "peakRPM": 41.2677258,
+                "learningMean": 1,
+                "learningZero_pct": 0,
+                "pureRate_pct": 0,
+                "anyMask_pct": 0,
+                "admittedFractionMean": 0,
+                "nnIncrementRMS_counts": 97.4322756,
+                "nodes": [
+                  7,
+                  12
+                ],
+                "projections": [
+                  0,
+                  0
+                ],
+                "hardHits": [
+                  0,
+                  0
+                ],
+                "withdrawals": 0,
+                "contractions": 0
+              },
+              "accuracyValidation": {
+                "complete": true,
+                "positionRMSE_mm": 0.12688424783854504,
+                "commandRMSRelativeError": 0.23335130091581072,
+                "fitScore": 0.13855181288433557
+              }
+            },
+            {
+              "name": "CA_BLNN",
+              "result": {
+                "type": "result",
+                "case": 15,
+                "method": 12,
+                "stop_ms": 20000,
+                "fault": 0,
+                "complete": true,
+                "motionSamples": 16000,
+                "partialTrackingRMSE_mm": 0.183905083,
+                "partialSyncRMS_mm": 0.0617201746,
+                "peakTracking_mm": 0.402576741,
+                "peakSync_mm": 0.16106798,
+                "terminalMax_mm": 0.062973947,
+                "peakRPM": 39.9902798,
+                "learningMean": 0.5766,
+                "learningZero_pct": 42.34,
+                "pureRate_pct": 2.56,
+                "anyMask_pct": 42.34,
+                "admittedFractionMean": 0.591553508,
+                "nnIncrementRMS_counts": 66.0505066,
+                "nodes": [
+                  7,
+                  9
+                ],
+                "projections": [
+                  0,
+                  0
+                ],
+                "hardHits": [
+                  0,
+                  0
+                ],
+                "withdrawals": 30,
+                "contractions": 4
+              },
+              "accuracyValidation": {
+                "complete": true,
+                "positionRMSE_mm": 0.15467480708827427,
+                "commandRMSRelativeError": 0.09486316338353658,
+                "fitScore": 0.1594179652574511
+              },
+              "mechanism": {
+                "onlyProjected_pct": 3.25,
+                "withdrawals": 30,
+                "contractions": 4,
+                "physicalEmpiricalRanges": {
+                  "onlyProjected_pct": [
+                    16.25,
+                    50.75
+                  ],
+                  "withdrawals": [
+                    101,
+                    190
+                  ],
+                  "contractions": [
+                    23,
+                    67
+                  ]
+                },
+                "rateGate": false,
+                "withdrawalGate": false,
+                "contractionGate": false,
+                "allPassed": false
+              }
+            }
+          ]
+        },
+        {
+          "condition": "B",
+          "baseValidation": {
+            "complete": true,
+            "positionRMSE_mm": 0.11368864271167956,
+            "commandRMSRelativeError": 0.11517125057353933,
+            "fitScore": 0.11944720524035653
+          },
+          "physicalRepeatRMSE_mm": 0.15871595599529312,
+          "positionThreshold_mm": 0.31743191199058624,
+          "basePositionGate": true,
+          "methods": [
+            {
+              "name": "BLNN",
+              "result": {
+                "type": "result",
+                "case": 33,
+                "method": 11,
+                "stop_ms": 20000,
+                "fault": 0,
+                "complete": true,
+                "motionSamples": 16000,
+                "partialTrackingRMSE_mm": 0.103069481,
+                "partialSyncRMS_mm": 0.0552250735,
+                "peakTracking_mm": 0.402676623,
+                "peakSync_mm": 0.194977028,
+                "terminalMax_mm": 0.0472304603,
+                "peakRPM": 41.2677258,
+                "learningMean": 1,
+                "learningZero_pct": 0,
+                "pureRate_pct": 0,
+                "anyMask_pct": 0,
+                "admittedFractionMean": 0,
+                "nnIncrementRMS_counts": 97.4322756,
+                "nodes": [
+                  7,
+                  12
+                ],
+                "projections": [
+                  0,
+                  0
+                ],
+                "hardHits": [
+                  0,
+                  0
+                ],
+                "withdrawals": 0,
+                "contractions": 0
+              },
+              "accuracyValidation": {
+                "complete": true,
+                "positionRMSE_mm": 0.1198487390757987,
+                "commandRMSRelativeError": 0.2117638941308698,
+                "fitScore": 0.1304369337823422
+              }
+            },
+            {
+              "name": "CA_BLNN",
+              "result": {
+                "type": "result",
+                "case": 33,
+                "method": 12,
+                "stop_ms": 20000,
+                "fault": 0,
+                "complete": true,
+                "motionSamples": 16000,
+                "partialTrackingRMSE_mm": 0.13916334,
+                "partialSyncRMS_mm": 0.0660850917,
+                "peakTracking_mm": 0.443470122,
+                "peakSync_mm": 0.187710804,
+                "terminalMax_mm": 0.0411752731,
+                "peakRPM": 40.0017515,
+                "learningMean": 0.79675,
+                "learningZero_pct": 20.325,
+                "pureRate_pct": 2.435,
+                "anyMask_pct": 20.325,
+                "admittedFractionMean": 0.811336471,
+                "nnIncrementRMS_counts": 102.151762,
+                "nodes": [
+                  7,
+                  9
+                ],
+                "projections": [
+                  0,
+                  0
+                ],
+                "hardHits": [
+                  0,
+                  0
+                ],
+                "withdrawals": 28,
+                "contractions": 4
+              },
+              "accuracyValidation": {
+                "complete": true,
+                "positionRMSE_mm": 0.17171324050586598,
+                "commandRMSRelativeError": 0.16790774942949913,
+                "fitScore": 0.18010862797734092
+              },
+              "mechanism": {
+                "onlyProjected_pct": 3,
+                "withdrawals": 28,
+                "contractions": 4,
+                "physicalEmpiricalRanges": {
+                  "onlyProjected_pct": [
+                    17.25,
+                    35.75
+                  ],
+                  "withdrawals": [
+                    136,
+                    233
+                  ],
+                  "contractions": [
+                    28,
+                    105
+                  ]
+                },
+                "rateGate": false,
+                "withdrawalGate": false,
+                "contractionGate": false,
+                "allPassed": false
+              }
+            }
+          ]
+        }
+      ],
+      "adequacyPassed": false
+    },
+    {
+      "profile": 1,
+      "parameters": {
+        "type": "start",
+        "case": 9,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 400,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "trainingScore": 0.1615881500482573,
+      "conditions": [
+        {
+          "condition": "A",
+          "baseValidation": {
+            "complete": true,
+            "positionRMSE_mm": 0.16341194336859824,
+            "commandRMSRelativeError": 0.24365005241706728,
+            "fitScore": 0.1755944459894516
+          },
+          "physicalRepeatRMSE_mm": 0.12694747929754277,
+          "positionThreshold_mm": 0.25389495859508554,
+          "basePositionGate": true,
+          "methods": [
+            {
+              "name": "BLNN",
+              "result": {
+                "type": "result",
+                "case": 9,
+                "method": 11,
+                "stop_ms": 20000,
+                "fault": 0,
+                "complete": true,
+                "motionSamples": 16000,
+                "partialTrackingRMSE_mm": 0.100171608,
+                "partialSyncRMS_mm": 0.057739363,
+                "peakTracking_mm": 0.364651735,
+                "peakSync_mm": 0.228886077,
+                "terminalMax_mm": 0.00726622466,
+                "peakRPM": 52.035202,
+                "learningMean": 1,
+                "learningZero_pct": 0,
+                "pureRate_pct": 0,
+                "anyMask_pct": 0,
+                "admittedFractionMean": 0,
+                "nnIncrementRMS_counts": 112.465301,
+                "nodes": [
+                  7,
+                  12
+                ],
+                "projections": [
+                  0,
+                  0
+                ],
+                "hardHits": [
+                  0,
+                  0
+                ],
+                "withdrawals": 0,
+                "contractions": 0
+              },
+              "accuracyValidation": {
+                "complete": true,
+                "positionRMSE_mm": 0.10744339623409617,
+                "commandRMSRelativeError": 0.22759766903000175,
+                "fitScore": 0.11882327968559625
+              }
+            },
+            {
+              "name": "CA_BLNN",
+              "result": {
+                "type": "result",
+                "case": 9,
+                "method": 12,
+                "stop_ms": 20000,
+                "fault": 0,
+                "complete": true,
+                "motionSamples": 16000,
+                "partialTrackingRMSE_mm": 0.159543405,
+                "partialSyncRMS_mm": 0.0849997431,
+                "peakTracking_mm": 0.437994923,
+                "peakSync_mm": 0.201032216,
+                "terminalMax_mm": 0.191343916,
+                "peakRPM": 55.3712105,
+                "learningMean": 0.63655,
+                "learningZero_pct": 36.345,
+                "pureRate_pct": 4.48,
+                "anyMask_pct": 36.345,
+                "admittedFractionMean": 0.660252089,
+                "nnIncrementRMS_counts": 140.9006,
+                "nodes": [
+                  7,
+                  10
+                ],
+                "projections": [
+                  0,
+                  0
+                ],
+                "hardHits": [
+                  0,
+                  0
+                ],
+                "withdrawals": 42,
+                "contractions": 4
+              },
+              "accuracyValidation": {
+                "complete": true,
+                "positionRMSE_mm": 0.14226466345275698,
+                "commandRMSRelativeError": 0.3903838176454115,
+                "fitScore": 0.16178385433502757
+              },
+              "mechanism": {
+                "onlyProjected_pct": 4.75,
+                "withdrawals": 42,
+                "contractions": 4,
+                "physicalEmpiricalRanges": {
+                  "onlyProjected_pct": [
+                    16.25,
+                    50.75
+                  ],
+                  "withdrawals": [
+                    101,
+                    190
+                  ],
+                  "contractions": [
+                    23,
+                    67
+                  ]
+                },
+                "rateGate": false,
+                "withdrawalGate": false,
+                "contractionGate": false,
+                "allPassed": false
+              }
+            }
+          ]
+        },
+        {
+          "condition": "B",
+          "baseValidation": {
+            "complete": true,
+            "positionRMSE_mm": 0.12332681875985257,
+            "commandRMSRelativeError": 0.10585966484015527,
+            "fitScore": 0.12861980200186035
+          },
+          "physicalRepeatRMSE_mm": 0.15871595599529312,
+          "positionThreshold_mm": 0.31743191199058624,
+          "basePositionGate": true,
+          "methods": [
+            {
+              "name": "BLNN",
+              "result": {
+                "type": "result",
+                "case": 27,
+                "method": 11,
+                "stop_ms": 20000,
+                "fault": 0,
+                "complete": true,
+                "motionSamples": 16000,
+                "partialTrackingRMSE_mm": 0.100171608,
+                "partialSyncRMS_mm": 0.057739363,
+                "peakTracking_mm": 0.364651735,
+                "peakSync_mm": 0.228886077,
+                "terminalMax_mm": 0.00726622466,
+                "peakRPM": 52.035202,
+                "learningMean": 1,
+                "learningZero_pct": 0,
+                "pureRate_pct": 0,
+                "anyMask_pct": 0,
+                "admittedFractionMean": 0,
+                "nnIncrementRMS_counts": 112.465301,
+                "nodes": [
+                  7,
+                  12
+                ],
+                "projections": [
+                  0,
+                  0
+                ],
+                "hardHits": [
+                  0,
+                  0
+                ],
+                "withdrawals": 0,
+                "contractions": 0
+              },
+              "accuracyValidation": {
+                "complete": true,
+                "positionRMSE_mm": 0.09786533018974515,
+                "commandRMSRelativeError": 0.2159302002663187,
+                "fitScore": 0.10866184020306109
+              }
+            },
+            {
+              "name": "CA_BLNN",
+              "result": {
+                "type": "result",
+                "case": 27,
+                "method": 12,
+                "stop_ms": 20000,
+                "fault": 0,
+                "complete": true,
+                "motionSamples": 16000,
+                "partialTrackingRMSE_mm": 0.159543405,
+                "partialSyncRMS_mm": 0.0849997431,
+                "peakTracking_mm": 0.437994923,
+                "peakSync_mm": 0.201032216,
+                "terminalMax_mm": 0.191343916,
+                "peakRPM": 55.3712105,
+                "learningMean": 0.63655,
+                "learningZero_pct": 36.345,
+                "pureRate_pct": 4.48,
+                "anyMask_pct": 36.345,
+                "admittedFractionMean": 0.660252089,
+                "nnIncrementRMS_counts": 140.9006,
+                "nodes": [
+                  7,
+                  10
+                ],
+                "projections": [
+                  0,
+                  0
+                ],
+                "hardHits": [
+                  0,
+                  0
+                ],
+                "withdrawals": 42,
+                "contractions": 4
+              },
+              "accuracyValidation": {
+                "complete": true,
+                "positionRMSE_mm": 0.18411183050606317,
+                "commandRMSRelativeError": 0.3580065217882919,
+                "fitScore": 0.20201215659547778
+              },
+              "mechanism": {
+                "onlyProjected_pct": 4.75,
+                "withdrawals": 42,
+                "contractions": 4,
+                "physicalEmpiricalRanges": {
+                  "onlyProjected_pct": [
+                    17.25,
+                    35.75
+                  ],
+                  "withdrawals": [
+                    136,
+                    233
+                  ],
+                  "contractions": [
+                    28,
+                    105
+                  ]
+                },
+                "rateGate": false,
+                "withdrawalGate": false,
+                "contractionGate": false,
+                "allPassed": false
+              }
+            }
+          ]
+        }
+      ],
+      "adequacyPassed": false
+    }
+  ],
+  "calibratedHardwareModelEstablished": false,
+  "caveats": [
+    "Empirical range gates based on three physical repetitions are diagnostic only.",
+    "Packet timings are hypotheses, not inferred actual CAN cadence.",
+    "BASE fitting does not identify unique physical mass, friction, delay or sensor noise.",
+    "Existing record split is not independent new experimental validation.",
+    "No candidate learning rule or physical firmware was altered in this round."
+  ]
+}

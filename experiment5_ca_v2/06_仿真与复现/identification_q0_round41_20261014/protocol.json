@@ -1,0 +1,17 @@
+{
+ "authorization":"User said start after the completed minimal-identification plan. Implement Q0 zero-excitation logger; no T1/V1 excitation, no automatic motion, and fresh drive-OFF/ON confirmations retained.",
+ "build":67811,"method":11,"schema":4487,"stopMagic":4438,
+ "project":"05_实验代码/辨识Q0_零扰动记录_20261014/eassy_E5ID_Q0_A_BLNN_HW6/MDK-ARM/eassy.uvprojx",
+ "control":"Exact qualified ordinaryBLNN core/filter/trajectory1200/1200/HW6/gains/learning/4node initialization and one outerAW correction. Only diagnostic hooks/storage and firmware identities differ; no injected command/reference or excitation API.",
+ "recording":"Close PREVIOUS command's release-aligned interval using CURRENT interval-end encoder/RPM/ESC feedback; store actual microseconds and CAN ages/freshness. Input command sums refined to count*microsecond integrals. This corrects the draft's nominal-sample averaging; no result-based retuning.",
+ "deliveryBoundary":"Release-aligned attempted-command exposure, not time-stamped CAN delivery or measured torque. CAN queuing/ESC/sensor delays still require identification. No full1ms neural-state replay.",
+ "blobABI":{"header":128,"slowRow":48,"slowCapacity":1020,"fastRow":36,"fastCount":400,"blobBytes":63488,"traceBytes":63580,"version":1,"slowCommandField":"signed count*microseconds integral; divide by observed interval elapsed_us for time-weighted attempted-command mean","fastWindows_stepIndices":[[5400,5599],[11400,11599]]},
+ "quality":"Seal partial/fault capture without relabelling it successful. Failed logging invalidates data, not controller state. Full rawCSV faults/phase/timing still override an immutable earlier blob's metadata. Integer-origin overflow marks invalid, never repairs physical data.",
+ "RAM":"Replace old event+network buffers64200bytes, retain1300byte fault_trace; require independently linked8KiB unallocated IRAM1 and measured stack/timing. No malloc.",
+ "transport":"InitialQ0 uses existing107channel/40ms/115200 stream and duplicate16byte chunks AFTERSTOP only. No new UART command or binary-stream format. Retain first5seconds/full legacyfault history priority. Expected20s motion plus about5.5minutes export; wire estimate, not completion guarantee.",
+ "host":"One explicit Run only after fresh onsite readiness; heartbeat200ms/watchdog1s, stop on uncertain command/telemetry failure, no retry/reset/parameter changes. CSV CreateNew, finalstatus>=5s retained, decoder checks all3968chunks/two identical copies/CRC32 and exact identity.",
+ "qualification":"Host/controller equivalence, source/guard identity, recorder/transport corruption/fault tests and Keil/map checks BEFORE flash. Fresh drive-OFF before programming/reset/idle, fresh drive-ON/onsite before one unloaded2mm Q0. On-board timing/data integrity not qualified by host tests.",
+ "successNotEfficacy":"Q0qualifies diagnostic recording only; does not prove model identification,new mechanism benefit or permission to run T1/V1.",
+ "MCUFirmwareBuilt":true,"verification":"verification.json","flashed":true,"physicalRuns":1,"onBoardTimingQualified":false,
+ "actualOutcome":{"flash":"flash_attempt02.log VerifyOK","idle":"79frames fault0 commands0","run":"One explicitly confirmed Q0 run; fault512 at10.933s","captureFrames":8742,"missingFrames":0,"transportValid":true,"qualified":false,"reason":"Incomplete motion, latchedRPMfault, partial capture retained","userObservation":"Almost no visible motion; stopped/driveOFF confirmed","noAutomaticRepeat":true}
+}

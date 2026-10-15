@@ -1,0 +1,122 @@
+{
+  "protocolSHA256": "08a59b48520299a3fdade558588cb3f02e977d26811414fc4fd32b3f60394354",
+  "allocatorSHA256": "593f9d0aad449b6f09691bedcca8ad4e240e00e6cea0eb779b8775f3e4da9955",
+  "coreExactOriginal": true,
+  "otherHeadersExactOriginal": true,
+  "native": [
+    {
+      "precision": "float",
+      "scope": 0,
+      "result": "fixtures100000 changed0 normal14339 exactDisabledAndFinalGuardsPassed"
+    },
+    {
+      "precision": "float",
+      "scope": 1,
+      "result": "fixtures100000 changed7078 normal14339 exactDisabledAndFinalGuardsPassed"
+    },
+    {
+      "precision": "double",
+      "scope": 0,
+      "result": "fixtures100000 changed0 normal14339 exactDisabledAndFinalGuardsPassed"
+    },
+    {
+      "precision": "double",
+      "scope": 1,
+      "result": "fixtures100000 changed7079 normal14339 exactDisabledAndFinalGuardsPassed"
+    }
+  ],
+  "replayEffects": [
+    {
+      "scope": 0,
+      "changedCommandSteps": 0,
+      "changedLearningSteps": 0,
+      "closedLoopCounterfactual": false
+    },
+    {
+      "scope": 1,
+      "changedCommandSteps": 236,
+      "changedLearningSteps": 80,
+      "closedLoopCounterfactual": false
+    }
+  ],
+  "baselineExactlyReproduced": true,
+  "initialMetrics": [
+    {
+      "name": "BLNN",
+      "completed": 31,
+      "baselinePopulation": 30,
+      "failedBaselineCases": [],
+      "newFailures": [],
+      "track": 0.11182471394666667,
+      "sync": 0.03207684431400001,
+      "secondarySurvivorOnly": {
+        "n": 30,
+        "track": 0.11182471394666667,
+        "sync": 0.03207684431400001,
+        "efficacyProof": false
+      },
+      "syncChangeVsR2_pct": -33.25616211983581,
+      "trackChangeVsR2_pct": -32.41741373617282,
+      "syncChangeVsOrdinary_pct": 0
+    },
+    {
+      "name": "S3R2",
+      "completed": 30,
+      "baselinePopulation": 30,
+      "failedBaselineCases": [],
+      "newFailures": [],
+      "track": 0.16546379789333335,
+      "sync": 0.04805963416666668,
+      "secondarySurvivorOnly": {
+        "n": 30,
+        "track": 0.16546379789333335,
+        "sync": 0.04805963416666668,
+        "efficacyProof": false
+      },
+      "syncChangeVsR2_pct": 0,
+      "trackChangeVsR2_pct": 0,
+      "syncChangeVsOrdinary_pct": 49.82656553185609
+    },
+    {
+      "name": "SYNC_PRIORITY",
+      "completed": 29,
+      "baselinePopulation": 30,
+      "failedBaselineCases": [
+        5
+      ],
+      "newFailures": [
+        {
+          "case": 5,
+          "fault": 1024,
+          "stop_ms": 20000,
+          "terminalMax_mm": 0.503791576
+        }
+      ],
+      "track": null,
+      "sync": null,
+      "secondarySurvivorOnly": {
+        "n": 29,
+        "track": 0.17162036987931037,
+        "sync": 0.0543442955413793,
+        "efficacyProof": false
+      },
+      "syncChangeVsR2_pct": null,
+      "trackChangeVsR2_pct": null,
+      "syncChangeVsOrdinary_pct": null
+    }
+  ],
+  "holdout": [],
+  "admission": {
+    "initialPassed": false,
+    "initialNewFailureInstances": 1,
+    "holdoutSettings": 0,
+    "newFailureInstances": 0,
+    "settingsWithSyncGain": 0,
+    "settingsWithSyncGainVsOrdinary": 0,
+    "screenPassed": false
+  },
+  "allOutcomesRetained": true,
+  "modelsIdentified": false,
+  "physicalBenefitProven": false,
+  "hardwareReleased": false
+}

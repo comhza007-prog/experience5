@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-12",
+  "registeredBeforeRun": true,
+  "variants": [
+    {
+      "name": "BLNN",
+      "method": 11,
+      "learning": 0,
+      "sector": 0.25
+    },
+    {
+      "name": "O25",
+      "method": 12,
+      "learning": 0,
+      "sector": 0.25
+    },
+    {
+      "name": "N25",
+      "method": 12,
+      "learning": 1,
+      "sector": 0.25
+    },
+    {
+      "name": "O50",
+      "method": 12,
+      "learning": 0,
+      "sector": 0.5
+    },
+    {
+      "name": "N50",
+      "method": 12,
+      "learning": 1,
+      "sector": 0.5
+    },
+    {
+      "name": "O75",
+      "method": 12,
+      "learning": 0,
+      "sector": 0.75
+    },
+    {
+      "name": "N75",
+      "method": 12,
+      "learning": 1,
+      "sector": 0.75
+    }
+  ],
+  "slew_counts_per_ms": 2,
+  "nnAmplitude_counts": 300,
+  "sectorBudgets": "fraction*40*sigmaY^2 and fraction*25*sigmaAlpha^2 in BOTH float preview and integer allocation/contraction",
+  "learningRule": "new learning retained only for proven pure slew, scaled by actual target-aligned fraction; all mixed constraints block",
+  "plant": "same uncalibrated assumed coupled plant and 36 fixed configurations as round01",
+  "hypotheses": [
+    "sector fraction may affect precision/correction tradeoff",
+    "pure-rate and mixed-projection must be distinguished",
+    "no assumption new learning or relaxed sector is superior"
+  ],
+  "safety": "host only; physical limit/rpm/stop guards unchanged; NO release/flash or hardware",
+  "noReportRequested": true
+}

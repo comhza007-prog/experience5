@@ -1,0 +1,50 @@
+{
+  "version": "E5D_EVENT128_V1",
+  "date": "2026-10-12",
+  "purpose": "Local diagnostic of the original CA allocator, not validation of a new learning policy or formal performance data",
+  "build": 64412,
+  "method": 12,
+  "condition": "A",
+  "addedMass_g": 0,
+  "stroke_mm": 2,
+  "limits_commandCounts": [1200, 1200],
+  "controller": "Exact archived A old CA core, trajectory, speed envelope, learning rule and fault guards",
+  "event": "First WITHDRAWN or CONTRACTED mask during phase 2 or later; 64 preceding task cycles, trigger cycle, 63 following cycles. Times measured, not interpolated.",
+  "capacity": 128,
+  "noEventFallback": "Last 64 cycles; trigger_ms=-1. This is NOT an observed withdrawal event.",
+  "interruptedCapture": "Count may be below 128 if phase 6 arrives during capture. All rows are explicit; no invented post-event points.",
+  "uart": {"channels": 107, "protocol": "JustFloat", "baud": 115200, "period_ms": 40, "bytesPerFrame": 432},
+  "activeTelemetry": "Original 107-channel mapping unchanged during phases 0-5. No event replay during motion.",
+  "replay": {
+    "when": "phase=6, fault=0, after issuing zero commands",
+    "faultPriority": "Original I96-I103 fault trace preserved whenever fault!=0 or phase=9",
+    "marker_I88": 4421,
+    "status_I89": {"3": "sending", "4": "all chunks submitted and previous final UART transfer completed"},
+    "recordIndex_I90": "0..recordCount-1",
+    "chunkIndex_I91": "0..3",
+    "recordCount_I92": "64 normally without an event, 128 normally with an event",
+    "triggerMs_I93": "Action elapsed milliseconds, -1 means no event",
+    "faultFields_I94_I95": "Unchanged",
+    "payload_I96_I103": "Eight float32 values; event row offsets 8*chunkIndex through 8*chunkIndex+7",
+    "delivery": "Cursor advances on UART TC counter change. PC receipt still requires complete record/chunk indices in exported CSV. Missing chunks must not be interpolated. Final chunk repeats."
+  },
+  "eventRowFields": [
+    "elapsed_ms", "phase", "left_raw_rpm", "right_raw_rpm",
+    "left_position_m", "right_position_m", "left_attempted_command_counts", "right_attempted_command_counts",
+    "left_ESC_given_current_counts", "right_ESC_given_current_counts", "sigma_translation", "sigma_rotation",
+    "left_raw_base_counts", "right_raw_base_counts", "left_guarded_base_counts", "right_guarded_base_counts",
+    "left_target_delta_counts", "right_target_delta_counts", "left_admitted_delta_counts", "right_admitted_delta_counts",
+    "left_previous_delta_counts", "right_previous_delta_counts", "ca_mask", "learning_gate",
+    "direction_gate", "translation_sector_scale", "rotation_sector_scale", "left_CAN_rx_count",
+    "right_CAN_rx_count", "left_CAN_age_ms", "right_CAN_age_ms", "measured_task_period_us"
+  ],
+  "acquisition": {
+    "runsInitially": 1,
+    "filename": "E5D_A_CA_HW6_EVENT128_L1200_R1200_M0g_S2mm_run01.csv",
+    "directory": "experiment5_ca_v2/01_原始数据/事件诊断_A",
+    "beforeRun": "Motor stopped; no added mass; original A mechanical setup; clear VOFA history before one fresh powered run",
+    "normalStopRecording": "I2=6, I22=0, I88=4421, I89=4. Keep the same stopped history another 5 seconds; typically I0>=55 seconds. Do NOT stop export at first phase=6.",
+    "abnormal": "Unexpected motion/vibration: make the apparatus safe immediately. If I2=9 or I22!=0, do not reset/re-run; preserve/export at least 5 seconds after fault for old fault replay.",
+    "qualifications": "Compilation does not validate on-device timing. Verify I43/I45/I57/I59/I70 and faults from this diagnostic record before any subsequent runs."
+  }
+}

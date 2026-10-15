@@ -1,0 +1,487 @@
+{
+  "results": {
+    "BLNN": {
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\打波预检A_BLNN_S3R2_20261014\\00_BLNN\\E5W_A_BLNN_B67911_HW6_L1200_R1200_M0g_S2mm_pair01_attempt01.csv",
+      "sourceSHA256": "cfaa3c01c2bfed4d0d95c3ddec0edb3816f6e2641eed772cfb3e3f66289f0df9",
+      "rawUnchanged": true,
+      "totalRows": 2502,
+      "currentSessionRows": 2501,
+      "prefix": {
+        "rows": 1,
+        "excludedFromMetrics": true,
+        "records": [
+          {
+            "line": 2,
+            "uptime_s": 17.721001,
+            "phase": 9,
+            "methodID": 0,
+            "build": 0
+          }
+        ],
+        "attribution": "Unidentified pre-session prefix; identity does not match either expected current record. Do not claim its phase9 belongs to this completed run. Original retained."
+      },
+      "entireCSVSingleCleanSession": false,
+      "identityErrors": [],
+      "resets": [],
+      "phaseChanges": [
+        {
+          "line": 3,
+          "uptime_s": 2.201,
+          "elapsed_s": 0,
+          "phase": 0
+        },
+        {
+          "line": 148,
+          "uptime_s": 8.001,
+          "elapsed_s": 0,
+          "phase": 1
+        },
+        {
+          "line": 248,
+          "uptime_s": 12.001,
+          "elapsed_s": 4,
+          "phase": 2
+        },
+        {
+          "line": 348,
+          "uptime_s": 16.001001,
+          "elapsed_s": 8,
+          "phase": 3
+        },
+        {
+          "line": 398,
+          "uptime_s": 18.001001,
+          "elapsed_s": 10,
+          "phase": 4
+        },
+        {
+          "line": 498,
+          "uptime_s": 22.001001,
+          "elapsed_s": 14.000001,
+          "phase": 5
+        },
+        {
+          "line": 648,
+          "uptime_s": 28.001001,
+          "elapsed_s": 20,
+          "phase": 6
+        }
+      ],
+      "activeSamples": 500,
+      "motionQualified": true,
+      "currentSessionFaultFree": true,
+      "counters": {
+        "fault": 0,
+        "late": 0,
+        "overrun": 0,
+        "UARTerrors": 0,
+        "DMAskipped": 0,
+        "CANrejected": 0
+      },
+      "allSequenceGaps": [
+        {
+          "line": 970,
+          "seq": [
+            1021,
+            1023
+          ],
+          "phase": [
+            6,
+            6
+          ],
+          "drive": [
+            0,
+            0
+          ]
+        }
+      ],
+      "activeSequenceGaps": [],
+      "settingsErrors": [],
+      "coreSteps": 20000,
+      "primaryWindow": "Native40ms rows,phase2..5 AND drivePermit=1. Original I3/I5/I6 formulas, no interpolation or selection by performance.",
+      "metrics": {
+        "samples": 400,
+        "elapsed_s": [
+          4,
+          19.960001
+        ],
+        "trackingRMSE_mm": 0.1114503673165772,
+        "syncRMS_mm": 0.10172623801163587,
+        "maxTracking_mm": 0.299,
+        "maxSync_mm": 0.348,
+        "transmittedWaveTrackingRMSE_mm": 0.11146541884509518,
+        "transmittedWaveSyncRMS_mm": 0.10173174173365214
+      },
+      "phaseMetrics": [
+        {
+          "phase": 2,
+          "samples": 100,
+          "elapsed_s": [
+            4,
+            7.960001
+          ],
+          "trackingRMSE_mm": 0.13459277469463213,
+          "syncRMS_mm": 0.13478775908813084,
+          "maxTracking_mm": 0.277,
+          "maxSync_mm": 0.348,
+          "transmittedWaveTrackingRMSE_mm": 0.13460397559841983,
+          "transmittedWaveSyncRMS_mm": 0.13480998086247176
+        },
+        {
+          "phase": 3,
+          "samples": 50,
+          "elapsed_s": [
+            8,
+            9.96
+          ],
+          "trackingRMSE_mm": 0.11709348829033994,
+          "syncRMS_mm": 0.028665310045419046,
+          "maxTracking_mm": 0.12899999999999978,
+          "maxSync_mm": 0.046000000000000034,
+          "transmittedWaveTrackingRMSE_mm": 0.11713274038576917,
+          "transmittedWaveSyncRMS_mm": 0.028661906496602767
+        },
+        {
+          "phase": 4,
+          "samples": 100,
+          "elapsed_s": [
+            10,
+            13.960001
+          ],
+          "trackingRMSE_mm": 0.14004731343371069,
+          "syncRMS_mm": 0.10339709860532836,
+          "maxTracking_mm": 0.299,
+          "maxSync_mm": 0.245,
+          "transmittedWaveTrackingRMSE_mm": 0.14005906656457484,
+          "transmittedWaveSyncRMS_mm": 0.10341107266424615
+        },
+        {
+          "phase": 5,
+          "samples": 150,
+          "elapsed_s": [
+            14.000001,
+            19.960001
+          ],
+          "trackingRMSE_mm": 0.058314263549609655,
+          "syncRMS_mm": 0.08990127919000931,
+          "maxTracking_mm": 0.1455,
+          "maxSync_mm": 0.277,
+          "transmittedWaveTrackingRMSE_mm": 0.058328646959962996,
+          "transmittedWaveSyncRMS_mm": 0.08988531868601606
+        }
+      ],
+      "waveCheck": {
+        "sampledSignedValuesNotRMS": true,
+        "maximumDifferenceFromRoundedCoordinates_mm": [
+          0.0009349999999998804,
+          0.0009540000000000451
+        ],
+        "roundingBudget_mm": 0.00101,
+        "withinRoundingBudget": true,
+        "primaryNotReplacedByWaveFields": true
+      },
+      "environment": {
+        "motionBatteryRange_V": [
+          24.486181,
+          25.00461
+        ],
+        "motionBatteryMean_V": 24.735813092499985,
+        "motionTemperatureMax_C": [
+          29,
+          27
+        ],
+        "rawRPMpeak": [
+          88,
+          89
+        ]
+      },
+      "timing": {
+        "observedActivePeriodRange_us": [
+          995.494019,
+          1006.583313
+        ],
+        "latchedMaxPeriod_us": 1006.583313,
+        "latchedCorePeak_us": 224.244049,
+        "latchedBodyPeak_us": 360.154755,
+        "minimumTaskStack_bytes": 2744,
+        "observedFiniteCoverageNotWCETProof": true
+      },
+      "terminal": {
+        "firstDoneUptime_s": 28.001001,
+        "firstDonePositions_mm": [
+          -0.23399999999999999,
+          -0.008
+        ]
+      },
+      "event": {
+        "expectedRecords": 128,
+        "completeRecords": 128,
+        "missingChunks": [],
+        "duplicateConflicts": [],
+        "metadataErrors": 0,
+        "status4Seen": true,
+        "firstStatus4Uptime_s": 79.201004,
+        "tailAfterStatus4_s": 23.040001000000004,
+        "finalUptime_s": 102.241005,
+        "complete": true,
+        "differentTriggersNotMatchedMechanismSamples": true
+      },
+      "qualifiedForThisDescriptivePreview": true,
+      "protocolDeviation": "One unidentified prefix row and backward time transition before the sole identified current session. Excluded and disclosed, raw preserved; not a pristine fresh-history CSV."
+    },
+    "S3R2": {
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\打波预检A_BLNN_S3R2_20261014\\01_S3R2\\E5W_A_S3R2_B67912_HW6_L1200_R1200_M0g_S2mm_pair01_attempt01.csv",
+      "sourceSHA256": "8ddfe0c364fa590849aaa931caeaa26b3d6e6ab615130f147af3b6181cc737a9",
+      "rawUnchanged": true,
+      "totalRows": 2922,
+      "currentSessionRows": 2922,
+      "prefix": {
+        "rows": 0,
+        "excludedFromMetrics": false,
+        "records": [],
+        "attribution": null
+      },
+      "entireCSVSingleCleanSession": true,
+      "identityErrors": [],
+      "resets": [],
+      "phaseChanges": [
+        {
+          "line": 2,
+          "uptime_s": 1.441,
+          "elapsed_s": 0,
+          "phase": 0
+        },
+        {
+          "line": 166,
+          "uptime_s": 8.001,
+          "elapsed_s": 0,
+          "phase": 1
+        },
+        {
+          "line": 266,
+          "uptime_s": 12.001,
+          "elapsed_s": 4,
+          "phase": 2
+        },
+        {
+          "line": 366,
+          "uptime_s": 16.001001,
+          "elapsed_s": 8,
+          "phase": 3
+        },
+        {
+          "line": 416,
+          "uptime_s": 18.001001,
+          "elapsed_s": 10,
+          "phase": 4
+        },
+        {
+          "line": 516,
+          "uptime_s": 22.001001,
+          "elapsed_s": 14.000001,
+          "phase": 5
+        },
+        {
+          "line": 666,
+          "uptime_s": 28.001001,
+          "elapsed_s": 20,
+          "phase": 6
+        }
+      ],
+      "activeSamples": 500,
+      "motionQualified": true,
+      "currentSessionFaultFree": true,
+      "counters": {
+        "fault": 0,
+        "late": 0,
+        "overrun": 0,
+        "UARTerrors": 0,
+        "DMAskipped": 0,
+        "CANrejected": 0
+      },
+      "allSequenceGaps": [
+        {
+          "line": 988,
+          "seq": [
+            1021,
+            1023
+          ],
+          "phase": [
+            6,
+            6
+          ],
+          "drive": [
+            0,
+            0
+          ]
+        }
+      ],
+      "activeSequenceGaps": [],
+      "settingsErrors": [],
+      "coreSteps": 20000,
+      "primaryWindow": "Native40ms rows,phase2..5 AND drivePermit=1. Original I3/I5/I6 formulas, no interpolation or selection by performance.",
+      "metrics": {
+        "samples": 400,
+        "elapsed_s": [
+          4,
+          19.960001
+        ],
+        "trackingRMSE_mm": 0.15914532273994086,
+        "syncRMS_mm": 0.0723831817482488,
+        "maxTracking_mm": 0.4935000000000002,
+        "maxSync_mm": 0.26700000000000007,
+        "transmittedWaveTrackingRMSE_mm": 0.15916806028724031,
+        "transmittedWaveSyncRMS_mm": 0.07238099680706968
+      },
+      "phaseMetrics": [
+        {
+          "phase": 2,
+          "samples": 100,
+          "elapsed_s": [
+            4,
+            7.960001
+          ],
+          "trackingRMSE_mm": 0.20392108767854297,
+          "syncRMS_mm": 0.08786262003833029,
+          "maxTracking_mm": 0.4445,
+          "maxSync_mm": 0.26700000000000007,
+          "transmittedWaveTrackingRMSE_mm": 0.20393816318327965,
+          "transmittedWaveSyncRMS_mm": 0.08783260750564109
+        },
+        {
+          "phase": 3,
+          "samples": 50,
+          "elapsed_s": [
+            8,
+            9.96
+          ],
+          "trackingRMSE_mm": 0.07124278910879323,
+          "syncRMS_mm": 0.07482980689538088,
+          "maxTracking_mm": 0.08000000000000021,
+          "maxSync_mm": 0.09099999999999994,
+          "transmittedWaveTrackingRMSE_mm": 0.07112339239954743,
+          "transmittedWaveSyncRMS_mm": 0.07455130108965236
+        },
+        {
+          "phase": 4,
+          "samples": 100,
+          "elapsed_s": [
+            10,
+            13.960001
+          ],
+          "trackingRMSE_mm": 0.23659795540114034,
+          "syncRMS_mm": 0.08238719560708449,
+          "maxTracking_mm": 0.4935000000000002,
+          "maxSync_mm": 0.16799999999999998,
+          "transmittedWaveTrackingRMSE_mm": 0.23663789789245515,
+          "transmittedWaveSyncRMS_mm": 0.08235896879350783
+        },
+        {
+          "phase": 5,
+          "samples": 150,
+          "elapsed_s": [
+            14.000001,
+            19.960001
+          ],
+          "trackingRMSE_mm": 0.028387379825079523,
+          "syncRMS_mm": 0.04932923406392323,
+          "maxTracking_mm": 0.04650000000000001,
+          "maxSync_mm": 0.08600000000000001,
+          "transmittedWaveTrackingRMSE_mm": 0.02852306747961495,
+          "transmittedWaveSyncRMS_mm": 0.04952790369135372
+        }
+      ],
+      "waveCheck": {
+        "sampledSignedValuesNotRMS": true,
+        "maximumDifferenceFromRoundedCoordinates_mm": [
+          0.0008720000000000117,
+          0.0009670000000000789
+        ],
+        "roundingBudget_mm": 0.00101,
+        "withinRoundingBudget": true,
+        "primaryNotReplacedByWaveFields": true
+      },
+      "environment": {
+        "motionBatteryRange_V": [
+          24.386913,
+          25.048086
+        ],
+        "motionBatteryMean_V": 24.69635207249999,
+        "motionTemperatureMax_C": [
+          28,
+          27
+        ],
+        "rawRPMpeak": [
+          61,
+          71
+        ]
+      },
+      "timing": {
+        "observedActivePeriodRange_us": [
+          995.880981,
+          1006.488098
+        ],
+        "latchedMaxPeriod_us": 1006.488098,
+        "latchedCorePeak_us": 168.970245,
+        "latchedBodyPeak_us": 273.630951,
+        "minimumTaskStack_bytes": 1936,
+        "observedFiniteCoverageNotWCETProof": true
+      },
+      "terminal": {
+        "firstDoneUptime_s": 28.001001,
+        "firstDonePositions_mm": [
+          0.002,
+          0.001
+        ]
+      },
+      "event": {
+        "expectedRecords": 128,
+        "completeRecords": 128,
+        "missingChunks": [],
+        "duplicateConflicts": [],
+        "metadataErrors": 0,
+        "status4Seen": true,
+        "firstStatus4Uptime_s": 89.441002,
+        "tailAfterStatus4_s": 28.880004999999997,
+        "finalUptime_s": 118.321007,
+        "complete": true,
+        "differentTriggersNotMatchedMechanismSamples": true
+      },
+      "qualifiedForThisDescriptivePreview": true,
+      "protocolDeviation": null
+    }
+  },
+  "bothCurrentMotionRecordsQualified": true,
+  "S3R2_minus_BLNN": {
+    "trackingRMSE_mm": {
+      "absolute_mm": 0.04769495542336366,
+      "percent": 42.794794285320826
+    },
+    "syncRMS_mm": {
+      "absolute_mm": -0.02934305626338707,
+      "percent": -28.845120823234105
+    },
+    "maxTracking_mm": {
+      "absolute_mm": 0.19450000000000023,
+      "percent": 65.05016722408034
+    },
+    "maxSync_mm": {
+      "absolute_mm": -0.0809999999999999,
+      "percent": -23.27586206896549
+    }
+  },
+  "replicatesPerMethod": 1,
+  "rawUnchanged": true,
+  "nextPhysicalRunAutomaticallyReleased": false,
+  "tenRunBatchStillSuspended": true,
+  "controllerChanges": false,
+  "conclusion": "This preview pair shows lower S3R2 synchronization error and higher tracking error. A tradeoff, not both-metric deterioration or repeatable-superiority proof. Keep unidentified BLNN prefix disclosed. No task-based tracking tolerance supplied. No parameter tuning or further trial automatically authorized.",
+  "limitations": [
+    "Single observation per method, not randomized/repeated causal evidence.",
+    "One unidentified first BLNN row is excluded by identity/time, not by its performance; original CSV is unchanged.",
+    "Different event windows cannot identify component efficacy; whole-controller comparison only.",
+    "Positions derive from motor encoders and configured kinematics; current commands are counts, not calibrated amperes."
+  ],
+  "protocolSHA256": "61e7daac4e366940751e87cc0c55483b3a0e14017bc76973c6ac3133e5cdaeb4",
+  "analysisCodeSHA256": "a6417686a26e267c0f05a009554ad39972bb2c892e81d94c81bf875decc53262"
+}

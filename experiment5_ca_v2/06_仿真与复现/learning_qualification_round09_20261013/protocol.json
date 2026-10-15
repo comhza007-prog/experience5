@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-13",
+  "stage": "CODE_READY_BOARD_TIMING_AND_EQUALITY_PENDING",
+  "reportGenerated": false,
+  "mechanism": "Exactly the round06 learning factor: only proven otherwise-feasible pure-rate projection can retain signed target-aligned partial learning. Mixed/amplitude/hard-clip/sector/speed/withdrawal/contraction states freeze error-driven updates and growth; original weight leakage persists.",
+  "learningRules": {
+    "reason0": "No constraint cause: learning=pre-classifier gate.",
+    "reason1": "Only PROJECTED mask and otherwise-feasible target, no hidden hard clip: rho=clip(dot(actualIncrement,targetIncrement)/norm(targetIncrement)^2,0,1), zero denominator gives0; learning=pre-classifier gate*rho.",
+    "otherReasonBits": "2=hard clip,4=other/mixed cause; learning0, rho0. Contraction/withdrawal always belong to mixed cause.",
+    "growthAndLeakage": "Growth check every20 steps still requires effective learning>=0.5 and count<60. Leakage and weight projection bounds unchanged."
+  },
+  "unchangedParameters": {"limits_counts": [1200,1200],"normalNNSlew_counts_per_ms":2,"NNcap_counts":300,"sectorFraction":0.25,"motion_mm":2,"addedLoadLabel_g":0},
+  "S1": {
+    "project": "05_实验代码/准入A_S1_仅改学习/eassy_E5Q_A_CA_S1OPT_HW6/MDK-ARM/eassy.uvprojx",
+    "target": "exp5Q_A_CA_S1OPT_HW6_EVENT40",
+    "build":64912,"newLearning":true,"balancedSearch":false,
+    "errors":0,"warnings":0,"codeBytes":32644,"rwBytes":212,"ziBytes":63300,
+    "hexSHA256":"215a13a4c6fd418200182164bfc6e0b858519b563a9602b9740fd25a59a8cb66",
+    "releasedForMotion":false
+  },
+  "S3": {
+    "project": "05_实验代码/准入A_S3_学习加收缩/eassy_E5Q_A_CA_S3OPT_HW6/MDK-ARM/eassy.uvprojx",
+    "target": "exp5Q_A_CA_S3OPT_HW6_EVENT40",
+    "build":65012,"newLearning":true,"balancedSearch":true,
+    "errors":0,"warnings":0,"codeBytes":33536,"rwBytes":212,"ziBytes":63300,
+    "hexSHA256":"ea360f7dde898af0d03412d527cff669485d5e7f2dc39cf8a164c2fbcc2a189d",
+    "releasedForMotion":false
+  },
+  "stationaryProbe": {
+    "project": "05_实验代码/测速S1S3_不驱动电机/eassy_E5T3_CA_S1S3OPT_HW6/MDK-ARM/eassy.uvprojx",
+    "target":"exp5T3_CA_S1S3OPT_HW6_NO_DRIVE","build":65112,
+    "errors":0,"warnings":0,"codeBytes":47280,"rwBytes":216,"ziBytes":46784,
+    "hexSHA256":"8e9ac956dd5b043279a74264967572d32a940d9bc60bb857e31d3ee9a25f8a04",
+    "motorTaskNeverArms":true,"CANAlwaysZeroIndependentlyOfPermit":true,"zeroCANConfirmedInLinkedDisassembly":true,
+    "rtosMotorStackBytes":4096,
+    "stackAnalysisCaveat":"Linker motor_task depth excludes indirect step calls; do NOT report its288-byte depth as the whole bound. Known optimized kernel maxdepth1120 plus caller frame200 gives at least1320 bytes before context/interrupt overhead. Inspect actual I58 remaining stack.",
+    "runsRequested":1,"boardRuns":0,"boardTimingMeasured":false,"boardEqualityMeasured":false,
+    "cycles":12000,"exactPairs":6000,"partialLearningCases":3000,"twoAxisGrowthCases":1500,"full60NodeExceptionalSearchFrozenLearningCases":1500,
+    "schedule":"3000 paired core fixtures per variant. S1 then S3; reference unoptimized offline policy and optimized production policy run on consecutive1ms cycles. Four modes: 4-node partial learning (both signs),59-node two-axis growth,60-node partial learning (both signs),60-node forced exceptional search with learning frozen. Compare all state/output bytes, including cause/rho/pre-gate; no computed output is sent to CAN.",
+    "dataFolder":"01_原始数据/静止测速_S1S3",
+    "filename":"E5T3_CA_S1S3OPT_HW6_NO_DRIVE_run01.csv",
+    "normalStop":"I63=65112, I88=4464, I2=6, I22=0, I89=4, I90=12000, I76=6000, I92=0; retain5 seconds and export all107 channels (typically I0>=20s).",
+    "expectedFinalCounters":{"I74":3000,"I75":1500,"I76":6000,"I78":1500},
+    "telemetry_us":{"I42":"max optimized core peak across both variants","I93_I94_I95":"reference 4/59-growth/60-node peaks","I100_I101_I102":"S1 optimized 4/59-growth/60-node peaks","I103_I104_I105":"S3 optimized 4/59-growth/60-node peaks","I96":"synthetic probe body peak (includes prep/copy/comparison; NOT physical motion task)"},
+    "otherTelemetry":{"I74":"positive partial-learning checks","I75":"two-axis growth checks","I76":"exact pairs","I78":"full60-node exceptional search with error-learning frozen","I92":"numeric/equality/rule failures","I57":"probe body>=1000us overrun count; fault256","I58":"remaining task stack bytes","I77":"CAN send errors","I87":"current variant1 or3","I13_I14_I106":"always zero: no drive activity"},
+    "acceptance":"Identity/completion/counters/equality must be correct; zero faults/errors/overruns and positive finite peaks. Preserve original600us optimized-core screen for BOTH variants, including compound60-node exception. Inspect UART/CAN/period/stack context. No automatic motion/formal release.",
+    "failure":"Unexpected motion: stop safely immediately. I2=9 or I22 nonzero: safe stop, retain5 seconds, export without reset/retry.",
+    "safety":"Secure the unloaded mechanism mechanically, no added hanging load. Zero current is not a holding brake. Burn only NO_DRIVE build65112 at this stage."
+  },
+  "event40MotionProtocol": {
+    "magic":4422,"records":128,"widthFloats":40,"chunksPerRecord":5,"successfulTCRepeatsPerChunk":2,
+    "unchangedFirst32Fields":true,
+    "extension":{"v32":"learning cause bits","v33":"admitted target-aligned fraction rho","v34":"learning gate BEFORE cause rule","v35_v36":"integer desired commands BEFORE speed guard","v37_v38_v39":"reserved zero"},
+    "activeChannels":{"I32":"effective learning gate","I88":"learning cause bits, replacing redundant raw left velocity","I89":"rho, replacing redundant raw right velocity"},
+    "postStopChannels":"I88=4422 and I89=3/4; I90=index,I91=chunk0..4,I92=recordCount,I93=trigger_ms,I96..103=8-float payload. Do not decode as old EVENT32 or stationary probe. Fault replay remains unchanged and takes priority.",
+    "whyRepeat":"Prior exports repeatedly lost one post-stop frame. Repeating each chunk twice adds no motion or active UART load, but provides redundancy. UART TC is NOT PC acknowledgement: check distinct chunks and consistent duplicates; never interpolate missing records.",
+    "normalMotionStopWhenReleased":"After I2=6/I22=0, wait for I88=4422/I89=4 then retain5 seconds. With128 records and no TX stalls, completed replay near I0=79.2s; use state criteria, normally save at I0>=85s. Do not stop at the old55s threshold.",
+    "formalFairness":"Later formal S0/S1/S2/S3 versions must share this telemetry/timing scaffold and differ only in intended factors. Existing archived S0/S2 code/data remain untouched."
+  },
+  "hostVerification": {
+    "path":"checks_release/verification.json","nativeCompilations":25,"allChecksPassed":true,
+    "precisions":["float","double"],"exactStepsPerVariantPerPrecision":90000,
+    "perVariantPerPrecisionChecks":["65536 zero-NN guard equivalence","200000 signed-RPM allocations","40000 actual-core AW/gating steps","explicit cause/mixed/hard/reversal fixtures"],
+    "dynamicAssumedModelCases":72,"dynamicPriorResultsExactlyReproduced":true,"completePerVariant":32,"casesPerVariant":36,"failuresRetained":true,
+    "modelStillUncalibrated":true,"doesNotProveSuperiorityOverOrdinaryBLNN":true,
+    "dualProbeHostScheduleAndEVENT40RingTCSerializationPassed":true,"archiveFilesUnchanged":1307,
+    "motorControlAndSafetyUnchangedExceptReadOnlyTelemetry":true
+  },
+  "nextStep":"Capture one NO_DRIVE65112 run. Review both variants' actual ARM equality/learning branches/full compound timing before individually releasing one unloaded A motion qualification for S1 then S3. No formal batch yet."
+}

@@ -1,0 +1,11 @@
+{
+  "purpose":"Causal-feature cross-method prediction adequacy screen, not certified physical identification",
+  "data":"Two complete2001-row10ms diagnostics, unchanged S3R2 and ordinaryBLNN",
+  "coordinates":"mean position and half right-minus-left displacement, both in metres",
+  "features":"Past encoder-derived velocities, instantaneous signed motorRPM-derived velocities, observed current or attempted command at0/10/20/30ms lag, measured skew, smooth friction-direction features; no future feature values",
+  "fit":"Standardized ridge, fixedlambda0.001, no hyperparameter search. Target is next10ms encoder velocity. Train one controller and evaluate the other, then reverse.",
+  "comparators":["zero displacement persistence","constant last encoder velocity","instantaneous rawRPM velocity"],
+  "scores":"Both coordinates and inferred axis positions, full motion4..20s and moving stages separately; retained prediction errors and design matrix conditioning",
+  "interpretation":"Predictive gains cannot identify unique physical mass/friction, recover all1ms dynamics, or establish counterfactual closed-loop efficacy. Full-trajectory forced rollout has recorded inputs but no measured-state resets; poor rollout prevents treating one-step accuracy as a validated plant.",
+  "noNewPhysicalTrialAuthorizedByFit":true,"modelsIdentified":false
+}

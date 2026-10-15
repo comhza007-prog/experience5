@@ -1,0 +1,3800 @@
+{
+  "assumed": [
+    {
+      "name": "BLNN",
+      "results": [
+        {
+          "type": "result",
+          "case": 1,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0742747669,
+          "partialSyncRMS_mm": 0.0112010407,
+          "peakTracking_mm": 0.339299944,
+          "peakSync_mm": 0.150168643,
+          "terminalMax_mm": 0.0484414977,
+          "peakRPM": 41.3535803,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 57.5743072,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 2,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.125925664,
+          "partialSyncRMS_mm": 0.0480435578,
+          "peakTracking_mm": 0.334073244,
+          "peakSync_mm": 0.15137968,
+          "terminalMax_mm": 0.0290648986,
+          "peakRPM": 68.9639317,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 135.459579,
+          "nodes": [
+            7,
+            15
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 3,
+          "method": 11,
+          "stop_ms": 5576,
+          "fault": 512,
+          "complete": false,
+          "motionSamples": 1576,
+          "partialTrackingRMSE_mm": 0.134855379,
+          "partialSyncRMS_mm": 0.05771567,
+          "peakTracking_mm": 0.313840446,
+          "peakSync_mm": 0.318502847,
+          "terminalMax_mm": 0.742365952,
+          "peakRPM": 165.223105,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 18.672883,
+          "nodes": [
+            7,
+            15
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 4,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.119094147,
+          "partialSyncRMS_mm": 0.0171650701,
+          "peakTracking_mm": 0.537567551,
+          "peakSync_mm": 0.196188066,
+          "terminalMax_mm": 0.0617629096,
+          "peakRPM": 53.766584,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 85.5967034,
+          "nodes": [
+            7,
+            12
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 5,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.180061852,
+          "partialSyncRMS_mm": 0.0913583753,
+          "peakTracking_mm": 0.554936904,
+          "peakSync_mm": 0.209509478,
+          "terminalMax_mm": 0.167123167,
+          "peakRPM": 91.336081,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 239.547746,
+          "nodes": [
+            9,
+            18
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 6,
+          "method": 11,
+          "stop_ms": 6475,
+          "fault": 512,
+          "complete": false,
+          "motionSamples": 2475,
+          "partialTrackingRMSE_mm": 0.205380769,
+          "partialSyncRMS_mm": 0.105380697,
+          "peakTracking_mm": 0.482399048,
+          "peakSync_mm": 0.310025585,
+          "terminalMax_mm": 1.58403698,
+          "peakRPM": 166.514361,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 60.4356373,
+          "nodes": [
+            8,
+            17
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 7,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0711601697,
+          "partialSyncRMS_mm": 0.0108495286,
+          "peakTracking_mm": 0.340000197,
+          "peakSync_mm": 0.141691381,
+          "terminalMax_mm": 0.0387531982,
+          "peakRPM": 29.2241714,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 53.2471673,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 8,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0743287412,
+          "partialSyncRMS_mm": 0.0113179208,
+          "peakTracking_mm": 0.359899953,
+          "peakSync_mm": 0.136847231,
+          "terminalMax_mm": 0.0484414977,
+          "peakRPM": 40.217604,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 59.0198511,
+          "nodes": [
+            7,
+            11
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 9,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.113517875,
+          "partialSyncRMS_mm": 0.0394596613,
+          "peakTracking_mm": 0.314538895,
+          "peakSync_mm": 0.204665328,
+          "terminalMax_mm": 0.0157434868,
+          "peakRPM": 50.3519887,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 115.563715,
+          "nodes": [
+            7,
+            14
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 10,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.115730504,
+          "partialSyncRMS_mm": 0.0200032356,
+          "peakTracking_mm": 0.518805459,
+          "peakSync_mm": 0.224041927,
+          "terminalMax_mm": 0.0532856475,
+          "peakRPM": 37.9231912,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 82.1652136,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 11,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.12211482,
+          "partialSyncRMS_mm": 0.0174219085,
+          "peakTracking_mm": 0.538302884,
+          "peakSync_mm": 0.198610141,
+          "terminalMax_mm": 0.0641849845,
+          "peakRPM": 53.8382939,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 86.8688044,
+          "nodes": [
+            7,
+            11
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 12,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.199043184,
+          "partialSyncRMS_mm": 0.0808062902,
+          "peakTracking_mm": 0.661561455,
+          "peakSync_mm": 0.297915211,
+          "terminalMax_mm": 0.0193765991,
+          "peakRPM": 73.4502617,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 198.13442,
+          "nodes": [
+            7,
+            14
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 13,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0709386271,
+          "partialSyncRMS_mm": 0.0108612911,
+          "peakTracking_mm": 0.339296816,
+          "peakSync_mm": 0.141691381,
+          "terminalMax_mm": 0.0375421607,
+          "peakRPM": 24.6908784,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 52.6237209,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 14,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0723384651,
+          "partialSyncRMS_mm": 0.00970070946,
+          "peakTracking_mm": 0.351275929,
+          "peakSync_mm": 0.147746568,
+          "terminalMax_mm": 0.0423863105,
+          "peakRPM": 32.3196051,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 54.2832914,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 15,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0993018917,
+          "partialSyncRMS_mm": 0.0552250735,
+          "peakTracking_mm": 0.400877222,
+          "peakSync_mm": 0.194977028,
+          "terminalMax_mm": 0.0472304603,
+          "peakRPM": 41.2677258,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 97.4322756,
+          "nodes": [
+            7,
+            12
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 16,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.116332327,
+          "partialSyncRMS_mm": 0.0207174538,
+          "peakTracking_mm": 0.520465658,
+          "peakSync_mm": 0.226464002,
+          "terminalMax_mm": 0.05207461,
+          "peakRPM": 31.8296315,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 81.40595,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 17,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.116808378,
+          "partialSyncRMS_mm": 0.0192759754,
+          "peakTracking_mm": 0.528963519,
+          "peakSync_mm": 0.224041927,
+          "terminalMax_mm": 0.0581297973,
+          "peakRPM": 43.2362872,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 83.3700924,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 18,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.173953747,
+          "partialSyncRMS_mm": 0.0807328906,
+          "peakTracking_mm": 0.489111654,
+          "peakSync_mm": 0.271272387,
+          "terminalMax_mm": 0.0193765991,
+          "peakRPM": 55.9665579,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 206.661126,
+          "nodes": [
+            7,
+            11
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 19,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0742747669,
+          "partialSyncRMS_mm": 0.0112010407,
+          "peakTracking_mm": 0.339299944,
+          "peakSync_mm": 0.150168643,
+          "terminalMax_mm": 0.0484414977,
+          "peakRPM": 41.3535803,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 57.5743072,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 20,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.125925664,
+          "partialSyncRMS_mm": 0.0480435578,
+          "peakTracking_mm": 0.334073244,
+          "peakSync_mm": 0.15137968,
+          "terminalMax_mm": 0.0290648986,
+          "peakRPM": 68.9639317,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 135.459579,
+          "nodes": [
+            7,
+            15
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 21,
+          "method": 11,
+          "stop_ms": 5576,
+          "fault": 512,
+          "complete": false,
+          "motionSamples": 1576,
+          "partialTrackingRMSE_mm": 0.134855379,
+          "partialSyncRMS_mm": 0.05771567,
+          "peakTracking_mm": 0.313840446,
+          "peakSync_mm": 0.318502847,
+          "terminalMax_mm": 0.742365952,
+          "peakRPM": 165.223105,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 18.672883,
+          "nodes": [
+            7,
+            15
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 22,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.119094147,
+          "partialSyncRMS_mm": 0.0171650701,
+          "peakTracking_mm": 0.537567551,
+          "peakSync_mm": 0.196188066,
+          "terminalMax_mm": 0.0617629096,
+          "peakRPM": 53.766584,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 85.5967034,
+          "nodes": [
+            7,
+            12
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 23,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 1024,
+          "complete": false,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.509650098,
+          "partialSyncRMS_mm": 0.115696753,
+          "peakTracking_mm": 0.868585579,
+          "peakSync_mm": 0.297915211,
+          "terminalMax_mm": 0.692713417,
+          "peakRPM": 94.6096353,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 496.449521,
+          "nodes": [
+            8,
+            17
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            12285
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 24,
+          "method": 11,
+          "stop_ms": 6475,
+          "fault": 512,
+          "complete": false,
+          "motionSamples": 2475,
+          "partialTrackingRMSE_mm": 0.205380769,
+          "partialSyncRMS_mm": 0.105380697,
+          "peakTracking_mm": 0.482399048,
+          "peakSync_mm": 0.310025585,
+          "terminalMax_mm": 1.58403698,
+          "peakRPM": 166.514361,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 60.4356373,
+          "nodes": [
+            8,
+            17
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 25,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0711601697,
+          "partialSyncRMS_mm": 0.0108495286,
+          "peakTracking_mm": 0.340000197,
+          "peakSync_mm": 0.141691381,
+          "terminalMax_mm": 0.0387531982,
+          "peakRPM": 29.2241714,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 53.2471673,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 26,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0743287412,
+          "partialSyncRMS_mm": 0.0113179208,
+          "peakTracking_mm": 0.359899953,
+          "peakSync_mm": 0.136847231,
+          "terminalMax_mm": 0.0484414977,
+          "peakRPM": 40.217604,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 59.0198511,
+          "nodes": [
+            7,
+            11
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 27,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.113517875,
+          "partialSyncRMS_mm": 0.0394596613,
+          "peakTracking_mm": 0.314538895,
+          "peakSync_mm": 0.204665328,
+          "terminalMax_mm": 0.0157434868,
+          "peakRPM": 50.3519887,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 115.563715,
+          "nodes": [
+            7,
+            14
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 28,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.115730504,
+          "partialSyncRMS_mm": 0.0200032356,
+          "peakTracking_mm": 0.518805459,
+          "peakSync_mm": 0.224041927,
+          "terminalMax_mm": 0.0532856475,
+          "peakRPM": 37.9231912,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 82.1652136,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 29,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.12211482,
+          "partialSyncRMS_mm": 0.0174219085,
+          "peakTracking_mm": 0.538302884,
+          "peakSync_mm": 0.198610141,
+          "terminalMax_mm": 0.0641849845,
+          "peakRPM": 53.8382939,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 86.8688044,
+          "nodes": [
+            7,
+            11
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 30,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.281612269,
+          "partialSyncRMS_mm": 0.110516603,
+          "peakTracking_mm": 0.952309167,
+          "peakSync_mm": 0.279749649,
+          "terminalMax_mm": 0.0762953589,
+          "peakRPM": 78.2078819,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 268.222065,
+          "nodes": [
+            7,
+            14
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            4305
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 31,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0709386271,
+          "partialSyncRMS_mm": 0.0108612911,
+          "peakTracking_mm": 0.339296816,
+          "peakSync_mm": 0.141691381,
+          "terminalMax_mm": 0.0375421607,
+          "peakRPM": 24.6908784,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 52.6237209,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 32,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0723384651,
+          "partialSyncRMS_mm": 0.00970070946,
+          "peakTracking_mm": 0.351275929,
+          "peakSync_mm": 0.147746568,
+          "terminalMax_mm": 0.0423863105,
+          "peakRPM": 32.3196051,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 54.2832914,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 33,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0993018917,
+          "partialSyncRMS_mm": 0.0552250735,
+          "peakTracking_mm": 0.400877222,
+          "peakSync_mm": 0.194977028,
+          "terminalMax_mm": 0.0472304603,
+          "peakRPM": 41.2677258,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 97.4322756,
+          "nodes": [
+            7,
+            12
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 34,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.116332327,
+          "partialSyncRMS_mm": 0.0207174538,
+          "peakTracking_mm": 0.520465658,
+          "peakSync_mm": 0.226464002,
+          "terminalMax_mm": 0.05207461,
+          "peakRPM": 31.8296315,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 81.40595,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 35,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.116808378,
+          "partialSyncRMS_mm": 0.0192759754,
+          "peakTracking_mm": 0.528963519,
+          "peakSync_mm": 0.224041927,
+          "terminalMax_mm": 0.0581297973,
+          "peakRPM": 43.2362872,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 83.3700924,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        },
+        {
+          "type": "result",
+          "case": 36,
+          "method": 11,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.217949882,
+          "partialSyncRMS_mm": 0.12692292,
+          "peakTracking_mm": 0.726171335,
+          "peakSync_mm": 0.271272387,
+          "terminalMax_mm": 0.199821178,
+          "peakRPM": 59.4505946,
+          "learningMean": 1,
+          "learningZero_pct": 0,
+          "pureRate_pct": 0,
+          "anyMask_pct": 0,
+          "admittedFractionMean": 0,
+          "nnIncrementRMS_counts": 191.98499,
+          "nodes": [
+            7,
+            11
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            1100
+          ],
+          "withdrawals": 0,
+          "contractions": 0
+        }
+      ]
+    },
+    {
+      "name": "oldS3",
+      "results": [
+        {
+          "type": "result",
+          "case": 1,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.1164517,
+          "partialSyncRMS_mm": 0.0210323422,
+          "peakTracking_mm": 0.333716726,
+          "peakSync_mm": 0.194977028,
+          "terminalMax_mm": 0.107782332,
+          "peakRPM": 41.9421626,
+          "learningMean": 0.808443948,
+          "learningZero_pct": 18.29,
+          "pureRate_pct": 3.81,
+          "anyMask_pct": 22.1,
+          "admittedFractionMean": 0.808443948,
+          "nnIncrementRMS_counts": 80.7545361,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 27,
+          "contractions": 36
+        },
+        {
+          "type": "result",
+          "case": 2,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.183128876,
+          "partialSyncRMS_mm": 0.0569186012,
+          "peakTracking_mm": 0.409518627,
+          "peakSync_mm": 0.202243253,
+          "terminalMax_mm": 0.15622383,
+          "peakRPM": 63.8013575,
+          "learningMean": 0.675601586,
+          "learningZero_pct": 29.875,
+          "pureRate_pct": 5.775,
+          "anyMask_pct": 35.65,
+          "admittedFractionMean": 0.675601586,
+          "nnIncrementRMS_counts": 151.079139,
+          "nodes": [
+            7,
+            12
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 41,
+          "contractions": 10
+        },
+        {
+          "type": "result",
+          "case": 3,
+          "method": 12,
+          "stop_ms": 5610,
+          "fault": 512,
+          "complete": false,
+          "motionSamples": 1610,
+          "partialTrackingRMSE_mm": 0.144149186,
+          "partialSyncRMS_mm": 0.0561377583,
+          "peakTracking_mm": 0.313840446,
+          "peakSync_mm": 0.324558035,
+          "terminalMax_mm": 0.712090016,
+          "peakRPM": 184.546205,
+          "learningMean": 0.966473116,
+          "learningZero_pct": 2.49554367,
+          "pureRate_pct": 1.55080214,
+          "anyMask_pct": 4.04634581,
+          "admittedFractionMean": 0.968233366,
+          "nnIncrementRMS_counts": 16.1514722,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            3,
+            0
+          ],
+          "withdrawals": 9,
+          "contractions": 3
+        },
+        {
+          "type": "result",
+          "case": 4,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.211928558,
+          "partialSyncRMS_mm": 0.0407573432,
+          "peakTracking_mm": 0.477698343,
+          "peakSync_mm": 0.331824259,
+          "terminalMax_mm": 0.158645905,
+          "peakRPM": 55.212912,
+          "learningMean": 0.492487585,
+          "learningZero_pct": 50.19,
+          "pureRate_pct": 3.01,
+          "anyMask_pct": 53.2,
+          "admittedFractionMean": 0.492487585,
+          "nnIncrementRMS_counts": 102.212823,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 15,
+          "contractions": 27
+        },
+        {
+          "type": "result",
+          "case": 5,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.367343779,
+          "partialSyncRMS_mm": 0.103731988,
+          "peakTracking_mm": 0.732279732,
+          "peakSync_mm": 0.21314259,
+          "terminalMax_mm": 0.444450741,
+          "peakRPM": 93.6017245,
+          "learningMean": 0.503314103,
+          "learningZero_pct": 47.755,
+          "pureRate_pct": 4.395,
+          "anyMask_pct": 52.15,
+          "admittedFractionMean": 0.503314103,
+          "nnIncrementRMS_counts": 154.85478,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 27,
+          "contractions": 3
+        },
+        {
+          "type": "result",
+          "case": 6,
+          "method": 12,
+          "stop_ms": 5825,
+          "fault": 512,
+          "complete": false,
+          "motionSamples": 1825,
+          "partialTrackingRMSE_mm": 0.21829453,
+          "partialSyncRMS_mm": 0.0927370709,
+          "peakTracking_mm": 0.482399048,
+          "peakSync_mm": 0.437184517,
+          "terminalMax_mm": 0.89980082,
+          "peakRPM": 170.938968,
+          "learningMean": 0.958390856,
+          "learningZero_pct": 2.35193133,
+          "pureRate_pct": 2.88412017,
+          "anyMask_pct": 5.2360515,
+          "admittedFractionMean": 0.960230226,
+          "nnIncrementRMS_counts": 25.0240897,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            3,
+            0
+          ],
+          "withdrawals": 9,
+          "contractions": 3
+        },
+        {
+          "type": "result",
+          "case": 7,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0973978849,
+          "partialSyncRMS_mm": 0.0172516975,
+          "peakTracking_mm": 0.341504744,
+          "peakSync_mm": 0.173178354,
+          "terminalMax_mm": 0.0993050703,
+          "peakRPM": 29.6386164,
+          "learningMean": 0.835756717,
+          "learningZero_pct": 16.105,
+          "pureRate_pct": 3.42,
+          "anyMask_pct": 19.525,
+          "admittedFractionMean": 0.835756717,
+          "nnIncrementRMS_counts": 65.6966761,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 4,
+          "contractions": 57
+        },
+        {
+          "type": "result",
+          "case": 8,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.221592695,
+          "partialSyncRMS_mm": 0.0480790625,
+          "peakTracking_mm": 0.460477964,
+          "peakSync_mm": 0.15622383,
+          "terminalMax_mm": 0.272483425,
+          "peakRPM": 43.6076002,
+          "learningMean": 0.550975839,
+          "learningZero_pct": 44.105,
+          "pureRate_pct": 2.685,
+          "anyMask_pct": 46.79,
+          "admittedFractionMean": 0.550975839,
+          "nnIncrementRMS_counts": 81.255746,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 32,
+          "contractions": 1
+        },
+        {
+          "type": "result",
+          "case": 9,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.130686544,
+          "partialSyncRMS_mm": 0.0804904867,
+          "peakTracking_mm": 0.414701789,
+          "peakSync_mm": 0.167123167,
+          "terminalMax_mm": 0.0544966849,
+          "peakRPM": 56.6491929,
+          "learningMean": 0.717880202,
+          "learningZero_pct": 25.925,
+          "pureRate_pct": 5.295,
+          "anyMask_pct": 31.22,
+          "admittedFractionMean": 0.717880202,
+          "nnIncrementRMS_counts": 120.80523,
+          "nodes": [
+            7,
+            11
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 40,
+          "contractions": 4
+        },
+        {
+          "type": "result",
+          "case": 10,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.155540448,
+          "partialSyncRMS_mm": 0.0360193856,
+          "peakTracking_mm": 0.506671362,
+          "peakSync_mm": 0.319713885,
+          "terminalMax_mm": 0.150168643,
+          "peakRPM": 38.6163052,
+          "learningMean": 0.831960917,
+          "learningZero_pct": 16.54,
+          "pureRate_pct": 2.47,
+          "anyMask_pct": 19.01,
+          "admittedFractionMean": 0.831960917,
+          "nnIncrementRMS_counts": 96.9521917,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 5,
+          "contractions": 30
+        },
+        {
+          "type": "result",
+          "case": 11,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.335976019,
+          "partialSyncRMS_mm": 0.108145391,
+          "peakTracking_mm": 0.759927913,
+          "peakSync_mm": 0.211931552,
+          "terminalMax_mm": 0.377843682,
+          "peakRPM": 56.0128,
+          "learningMean": 0.486472693,
+          "learningZero_pct": 49.69,
+          "pureRate_pct": 3.615,
+          "anyMask_pct": 53.305,
+          "admittedFractionMean": 0.486472693,
+          "nnIncrementRMS_counts": 152.486275,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 33,
+          "contractions": 1
+        },
+        {
+          "type": "result",
+          "case": 12,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.294596094,
+          "partialSyncRMS_mm": 0.100894376,
+          "peakTracking_mm": 0.700525785,
+          "peakSync_mm": 0.283382762,
+          "terminalMax_mm": 0.352411896,
+          "peakRPM": 76.8571735,
+          "learningMean": 0.47056446,
+          "learningZero_pct": 51.12,
+          "pureRate_pct": 3.965,
+          "anyMask_pct": 55.085,
+          "admittedFractionMean": 0.47056446,
+          "nnIncrementRMS_counts": 163.220744,
+          "nodes": [
+            7,
+            11
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 32,
+          "contractions": 1
+        },
+        {
+          "type": "result",
+          "case": 13,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0920476639,
+          "partialSyncRMS_mm": 0.0194875126,
+          "peakTracking_mm": 0.321255958,
+          "peakSync_mm": 0.190132879,
+          "terminalMax_mm": 0.0908278082,
+          "peakRPM": 24.9189086,
+          "learningMean": 0.848009741,
+          "learningZero_pct": 14.93,
+          "pureRate_pct": 2.825,
+          "anyMask_pct": 17.755,
+          "admittedFractionMean": 0.848009741,
+          "nnIncrementRMS_counts": 63.2479102,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 4,
+          "contractions": 54
+        },
+        {
+          "type": "result",
+          "case": 14,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.107064604,
+          "partialSyncRMS_mm": 0.0134575157,
+          "peakTracking_mm": 0.370832608,
+          "peakSync_mm": 0.147746568,
+          "terminalMax_mm": 0.105360258,
+          "peakRPM": 31.9785271,
+          "learningMean": 0.765200444,
+          "learningZero_pct": 23.205,
+          "pureRate_pct": 3.24,
+          "anyMask_pct": 26.445,
+          "admittedFractionMean": 0.765200444,
+          "nnIncrementRMS_counts": 68.9162314,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 12,
+          "contractions": 34
+        },
+        {
+          "type": "result",
+          "case": 15,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.141050776,
+          "partialSyncRMS_mm": 0.0718443051,
+          "peakTracking_mm": 0.418423696,
+          "peakSync_mm": 0.180444579,
+          "terminalMax_mm": 0.138058268,
+          "peakRPM": 44.5533806,
+          "learningMean": 0.650427291,
+          "learningZero_pct": 33.73,
+          "pureRate_pct": 2.9,
+          "anyMask_pct": 36.625,
+          "admittedFractionMean": 0.650427291,
+          "nnIncrementRMS_counts": 136.067164,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 28,
+          "contractions": 3
+        },
+        {
+          "type": "result",
+          "case": 16,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.14353407,
+          "partialSyncRMS_mm": 0.0376795379,
+          "peakTracking_mm": 0.495558416,
+          "peakSync_mm": 0.32698011,
+          "terminalMax_mm": 0.116259595,
+          "peakRPM": 32.6306592,
+          "learningMean": 0.843182935,
+          "learningZero_pct": 15.41,
+          "pureRate_pct": 2.315,
+          "anyMask_pct": 17.725,
+          "admittedFractionMean": 0.843182935,
+          "nnIncrementRMS_counts": 86.7561217,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 3,
+          "contractions": 29
+        },
+        {
+          "type": "result",
+          "case": 17,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.176054252,
+          "partialSyncRMS_mm": 0.0258119907,
+          "peakTracking_mm": 0.608008925,
+          "peakSync_mm": 0.234941264,
+          "terminalMax_mm": 0.150168643,
+          "peakRPM": 44.7493874,
+          "learningMean": 0.748908151,
+          "learningZero_pct": 24.84,
+          "pureRate_pct": 3.36,
+          "anyMask_pct": 28.2,
+          "admittedFractionMean": 0.748908151,
+          "nnIncrementRMS_counts": 97.1593054,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 7,
+          "contractions": 23
+        },
+        {
+          "type": "result",
+          "case": 18,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.263027333,
+          "partialSyncRMS_mm": 0.115046733,
+          "peakTracking_mm": 0.724767306,
+          "peakSync_mm": 0.277327574,
+          "terminalMax_mm": 0.178022504,
+          "peakRPM": 59.8364394,
+          "learningMean": 0.538906996,
+          "learningZero_pct": 44.805,
+          "pureRate_pct": 3.16,
+          "anyMask_pct": 47.965,
+          "admittedFractionMean": 0.538906996,
+          "nnIncrementRMS_counts": 151.69704,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 27,
+          "contractions": 2
+        },
+        {
+          "type": "result",
+          "case": 19,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.1164517,
+          "partialSyncRMS_mm": 0.0210323422,
+          "peakTracking_mm": 0.333716726,
+          "peakSync_mm": 0.194977028,
+          "terminalMax_mm": 0.107782332,
+          "peakRPM": 41.9421626,
+          "learningMean": 0.808443948,
+          "learningZero_pct": 18.29,
+          "pureRate_pct": 3.81,
+          "anyMask_pct": 22.1,
+          "admittedFractionMean": 0.808443948,
+          "nnIncrementRMS_counts": 80.7545361,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 27,
+          "contractions": 36
+        },
+        {
+          "type": "result",
+          "case": 20,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.183128876,
+          "partialSyncRMS_mm": 0.0569186012,
+          "peakTracking_mm": 0.409518627,
+          "peakSync_mm": 0.202243253,
+          "terminalMax_mm": 0.15622383,
+          "peakRPM": 63.8013575,
+          "learningMean": 0.675601586,
+          "learningZero_pct": 29.875,
+          "pureRate_pct": 5.775,
+          "anyMask_pct": 35.65,
+          "admittedFractionMean": 0.675601586,
+          "nnIncrementRMS_counts": 151.079139,
+          "nodes": [
+            7,
+            12
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 41,
+          "contractions": 10
+        },
+        {
+          "type": "result",
+          "case": 21,
+          "method": 12,
+          "stop_ms": 5610,
+          "fault": 512,
+          "complete": false,
+          "motionSamples": 1610,
+          "partialTrackingRMSE_mm": 0.144149186,
+          "partialSyncRMS_mm": 0.0561377583,
+          "peakTracking_mm": 0.313840446,
+          "peakSync_mm": 0.324558035,
+          "terminalMax_mm": 0.712090016,
+          "peakRPM": 184.546205,
+          "learningMean": 0.966473116,
+          "learningZero_pct": 2.49554367,
+          "pureRate_pct": 1.55080214,
+          "anyMask_pct": 4.04634581,
+          "admittedFractionMean": 0.968233366,
+          "nnIncrementRMS_counts": 16.1514722,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            3,
+            0
+          ],
+          "withdrawals": 9,
+          "contractions": 3
+        },
+        {
+          "type": "result",
+          "case": 22,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.250090534,
+          "partialSyncRMS_mm": 0.0392263971,
+          "peakTracking_mm": 0.477698343,
+          "peakSync_mm": 0.324558035,
+          "terminalMax_mm": 0.159856942,
+          "peakRPM": 54.4646683,
+          "learningMean": 0.465009979,
+          "learningZero_pct": 53.215,
+          "pureRate_pct": 1.8,
+          "anyMask_pct": 55.015,
+          "admittedFractionMean": 0.465645485,
+          "nnIncrementRMS_counts": 112.309737,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 9,
+          "contractions": 19
+        },
+        {
+          "type": "result",
+          "case": 23,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.40191678,
+          "partialSyncRMS_mm": 0.112198568,
+          "peakTracking_mm": 0.769715269,
+          "peakSync_mm": 0.21314259,
+          "terminalMax_mm": 0.448083854,
+          "peakRPM": 92.9022517,
+          "learningMean": 0.471886885,
+          "learningZero_pct": 48.635,
+          "pureRate_pct": 4.275,
+          "anyMask_pct": 52.35,
+          "admittedFractionMean": 0.495361277,
+          "nnIncrementRMS_counts": 147.749435,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            423
+          ],
+          "withdrawals": 29,
+          "contractions": 25
+        },
+        {
+          "type": "result",
+          "case": 24,
+          "method": 12,
+          "stop_ms": 5825,
+          "fault": 512,
+          "complete": false,
+          "motionSamples": 1825,
+          "partialTrackingRMSE_mm": 0.21829453,
+          "partialSyncRMS_mm": 0.0927370709,
+          "peakTracking_mm": 0.482399048,
+          "peakSync_mm": 0.437184517,
+          "terminalMax_mm": 0.89980082,
+          "peakRPM": 170.938968,
+          "learningMean": 0.958390856,
+          "learningZero_pct": 2.35193133,
+          "pureRate_pct": 2.88412017,
+          "anyMask_pct": 5.2360515,
+          "admittedFractionMean": 0.960230226,
+          "nnIncrementRMS_counts": 25.0240897,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            3,
+            0
+          ],
+          "withdrawals": 9,
+          "contractions": 3
+        },
+        {
+          "type": "result",
+          "case": 25,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0973978849,
+          "partialSyncRMS_mm": 0.0172516975,
+          "peakTracking_mm": 0.341504744,
+          "peakSync_mm": 0.173178354,
+          "terminalMax_mm": 0.0993050703,
+          "peakRPM": 29.6386164,
+          "learningMean": 0.835756717,
+          "learningZero_pct": 16.105,
+          "pureRate_pct": 3.42,
+          "anyMask_pct": 19.525,
+          "admittedFractionMean": 0.835756717,
+          "nnIncrementRMS_counts": 65.6966761,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 4,
+          "contractions": 57
+        },
+        {
+          "type": "result",
+          "case": 26,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.221592695,
+          "partialSyncRMS_mm": 0.0480790625,
+          "peakTracking_mm": 0.460477964,
+          "peakSync_mm": 0.15622383,
+          "terminalMax_mm": 0.272483425,
+          "peakRPM": 43.6076002,
+          "learningMean": 0.550975839,
+          "learningZero_pct": 44.105,
+          "pureRate_pct": 2.685,
+          "anyMask_pct": 46.79,
+          "admittedFractionMean": 0.550975839,
+          "nnIncrementRMS_counts": 81.255746,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 32,
+          "contractions": 1
+        },
+        {
+          "type": "result",
+          "case": 27,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.130587664,
+          "partialSyncRMS_mm": 0.0804384013,
+          "peakTracking_mm": 0.40456967,
+          "peakSync_mm": 0.167123167,
+          "terminalMax_mm": 0.0569187598,
+          "peakRPM": 56.2241207,
+          "learningMean": 0.704340802,
+          "learningZero_pct": 27.33,
+          "pureRate_pct": 5.155,
+          "anyMask_pct": 32.485,
+          "admittedFractionMean": 0.704340802,
+          "nnIncrementRMS_counts": 122.136797,
+          "nodes": [
+            7,
+            12
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 41,
+          "contractions": 4
+        },
+        {
+          "type": "result",
+          "case": 28,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.155718202,
+          "partialSyncRMS_mm": 0.0359870097,
+          "peakTracking_mm": 0.506182903,
+          "peakSync_mm": 0.319713885,
+          "terminalMax_mm": 0.150168643,
+          "peakRPM": 38.3629411,
+          "learningMean": 0.819600831,
+          "learningZero_pct": 17.74,
+          "pureRate_pct": 2.36,
+          "anyMask_pct": 20.1,
+          "admittedFractionMean": 0.820107511,
+          "nnIncrementRMS_counts": 93.834218,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 5,
+          "contractions": 30
+        },
+        {
+          "type": "result",
+          "case": 29,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.289790329,
+          "partialSyncRMS_mm": 0.0675603989,
+          "peakTracking_mm": 0.71740266,
+          "peakSync_mm": 0.211931552,
+          "terminalMax_mm": 0.262795125,
+          "peakRPM": 58.0812905,
+          "learningMean": 0.627520538,
+          "learningZero_pct": 35.915,
+          "pureRate_pct": 2.39,
+          "anyMask_pct": 38.3,
+          "admittedFractionMean": 0.63091034,
+          "nnIncrementRMS_counts": 145.369013,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 26,
+          "contractions": 5
+        },
+        {
+          "type": "result",
+          "case": 30,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.339641151,
+          "partialSyncRMS_mm": 0.110076941,
+          "peakTracking_mm": 0.823522267,
+          "peakSync_mm": 0.283382762,
+          "terminalMax_mm": 0.190132879,
+          "peakRPM": 76.8690547,
+          "learningMean": 0.506140187,
+          "learningZero_pct": 45.815,
+          "pureRate_pct": 2.83,
+          "anyMask_pct": 47.56,
+          "admittedFractionMean": 0.52922582,
+          "nnIncrementRMS_counts": 145.286095,
+          "nodes": [
+            7,
+            12
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            766
+          ],
+          "withdrawals": 25,
+          "contractions": 33
+        },
+        {
+          "type": "result",
+          "case": 31,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0920476639,
+          "partialSyncRMS_mm": 0.0194875126,
+          "peakTracking_mm": 0.321255958,
+          "peakSync_mm": 0.190132879,
+          "terminalMax_mm": 0.0908278082,
+          "peakRPM": 24.9189086,
+          "learningMean": 0.848009741,
+          "learningZero_pct": 14.93,
+          "pureRate_pct": 2.825,
+          "anyMask_pct": 17.755,
+          "admittedFractionMean": 0.848009741,
+          "nnIncrementRMS_counts": 63.2479102,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 4,
+          "contractions": 54
+        },
+        {
+          "type": "result",
+          "case": 32,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.107064604,
+          "partialSyncRMS_mm": 0.0134575157,
+          "peakTracking_mm": 0.370832608,
+          "peakSync_mm": 0.147746568,
+          "terminalMax_mm": 0.105360258,
+          "peakRPM": 31.9785271,
+          "learningMean": 0.765200444,
+          "learningZero_pct": 23.205,
+          "pureRate_pct": 3.24,
+          "anyMask_pct": 26.445,
+          "admittedFractionMean": 0.765200444,
+          "nnIncrementRMS_counts": 68.9162314,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 12,
+          "contractions": 34
+        },
+        {
+          "type": "result",
+          "case": 33,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.141357896,
+          "partialSyncRMS_mm": 0.0729711036,
+          "peakTracking_mm": 0.428779805,
+          "peakSync_mm": 0.180444579,
+          "terminalMax_mm": 0.141691381,
+          "peakRPM": 44.1112941,
+          "learningMean": 0.651951501,
+          "learningZero_pct": 33.79,
+          "pureRate_pct": 2.545,
+          "anyMask_pct": 36.335,
+          "admittedFractionMean": 0.651951501,
+          "nnIncrementRMS_counts": 140.102519,
+          "nodes": [
+            7,
+            10
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 23,
+          "contractions": 5
+        },
+        {
+          "type": "result",
+          "case": 34,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.152623318,
+          "partialSyncRMS_mm": 0.0408461887,
+          "peakTracking_mm": 0.478835344,
+          "peakSync_mm": 0.331824259,
+          "terminalMax_mm": 0.150168643,
+          "peakRPM": 32.3773739,
+          "learningMean": 0.835826343,
+          "learningZero_pct": 16.1,
+          "pureRate_pct": 2.18,
+          "anyMask_pct": 18.28,
+          "admittedFractionMean": 0.836136961,
+          "nnIncrementRMS_counts": 98.3921811,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 4,
+          "contractions": 29
+        },
+        {
+          "type": "result",
+          "case": 35,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.17671495,
+          "partialSyncRMS_mm": 0.025420652,
+          "peakTracking_mm": 0.608008925,
+          "peakSync_mm": 0.236152301,
+          "terminalMax_mm": 0.150168643,
+          "peakRPM": 44.4304444,
+          "learningMean": 0.709260421,
+          "learningZero_pct": 28.765,
+          "pureRate_pct": 3.26,
+          "anyMask_pct": 32.025,
+          "admittedFractionMean": 0.709806051,
+          "nnIncrementRMS_counts": 87.5571353,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 5,
+          "contractions": 23
+        },
+        {
+          "type": "result",
+          "case": 36,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.328542215,
+          "partialSyncRMS_mm": 0.13298647,
+          "peakTracking_mm": 0.843573733,
+          "peakSync_mm": 0.277327574,
+          "terminalMax_mm": 0.419018955,
+          "peakRPM": 58.2066909,
+          "learningMean": 0.545573757,
+          "learningZero_pct": 42.565,
+          "pureRate_pct": 2.13,
+          "anyMask_pct": 43.325,
+          "admittedFractionMean": 0.56705818,
+          "nnIncrementRMS_counts": 154.535506,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            857
+          ],
+          "withdrawals": 27,
+          "contractions": 34
+        }
+      ]
+    },
+    {
+      "name": "S3R1",
+      "results": [
+        {
+          "type": "result",
+          "case": 1,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.153222522,
+          "partialSyncRMS_mm": 0.0376311751,
+          "peakTracking_mm": 0.425914079,
+          "peakSync_mm": 0.148957605,
+          "terminalMax_mm": 0.11383752,
+          "peakRPM": 44.1403912,
+          "learningMean": 0.636153365,
+          "learningZero_pct": 34.665,
+          "pureRate_pct": 3.875,
+          "anyMask_pct": 38.54,
+          "admittedFractionMean": 0.636153365,
+          "nnIncrementRMS_counts": 83.1498707,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 58,
+          "contractions": 4
+        },
+        {
+          "type": "result",
+          "case": 2,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.15576148,
+          "partialSyncRMS_mm": 0.0414777219,
+          "peakTracking_mm": 0.382680256,
+          "peakSync_mm": 0.162279017,
+          "terminalMax_mm": 0.130792044,
+          "peakRPM": 63.1966543,
+          "learningMean": 0.746938742,
+          "learningZero_pct": 22.09,
+          "pureRate_pct": 7.365,
+          "anyMask_pct": 29.455,
+          "admittedFractionMean": 0.746938742,
+          "nnIncrementRMS_counts": 156.023015,
+          "nodes": [
+            7,
+            11
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 49,
+          "contractions": 12
+        },
+        {
+          "type": "result",
+          "case": 3,
+          "method": 12,
+          "stop_ms": 5571,
+          "fault": 512,
+          "complete": false,
+          "motionSamples": 1571,
+          "partialTrackingRMSE_mm": 0.14151417,
+          "partialSyncRMS_mm": 0.0544776839,
+          "peakTracking_mm": 0.313840446,
+          "peakSync_mm": 0.335457372,
+          "terminalMax_mm": 0.496525352,
+          "peakRPM": 127.194666,
+          "learningMean": 0.975239276,
+          "learningZero_pct": 1.61550889,
+          "pureRate_pct": 1.63345898,
+          "anyMask_pct": 3.24896787,
+          "admittedFractionMean": 0.975258343,
+          "nnIncrementRMS_counts": 15.6298103,
+          "nodes": [
+            9,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 6,
+          "contractions": 3
+        },
+        {
+          "type": "result",
+          "case": 4,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.219322799,
+          "partialSyncRMS_mm": 0.0373550359,
+          "peakTracking_mm": 0.477698343,
+          "peakSync_mm": 0.323346997,
+          "terminalMax_mm": 0.138058268,
+          "peakRPM": 55.212912,
+          "learningMean": 0.813396683,
+          "learningZero_pct": 18.39,
+          "pureRate_pct": 2.505,
+          "anyMask_pct": 20.895,
+          "admittedFractionMean": 0.813396683,
+          "nnIncrementRMS_counts": 140.867159,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 9,
+          "contractions": 31
+        },
+        {
+          "type": "result",
+          "case": 5,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.379143736,
+          "partialSyncRMS_mm": 0.0908307954,
+          "peakTracking_mm": 0.66401567,
+          "peakSync_mm": 0.21314259,
+          "terminalMax_mm": 0.492892239,
+          "peakRPM": 91.1378861,
+          "learningMean": 0.491111107,
+          "learningZero_pct": 48.63,
+          "pureRate_pct": 5.35,
+          "anyMask_pct": 53.98,
+          "admittedFractionMean": 0.491111107,
+          "nnIncrementRMS_counts": 175.895286,
+          "nodes": [
+            8,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 36,
+          "contractions": 4
+        },
+        {
+          "type": "result",
+          "case": 6,
+          "method": 12,
+          "stop_ms": 5801,
+          "fault": 512,
+          "complete": false,
+          "motionSamples": 1801,
+          "partialTrackingRMSE_mm": 0.215623912,
+          "partialSyncRMS_mm": 0.0894602043,
+          "peakTracking_mm": 0.482399048,
+          "peakSync_mm": 0.409330656,
+          "terminalMax_mm": 0.873157996,
+          "peakRPM": 166.399949,
+          "learningMean": 0.965449694,
+          "learningZero_pct": 1.56869505,
+          "pureRate_pct": 3.34425099,
+          "anyMask_pct": 4.91294604,
+          "admittedFractionMean": 0.966289046,
+          "nnIncrementRMS_counts": 24.4065523,
+          "nodes": [
+            7,
+            11
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 10,
+          "contractions": 1
+        },
+        {
+          "type": "result",
+          "case": 7,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0819570467,
+          "partialSyncRMS_mm": 0.0174136831,
+          "peakTracking_mm": 0.318400792,
+          "peakSync_mm": 0.188921841,
+          "terminalMax_mm": 0.062973947,
+          "peakRPM": 29.6386164,
+          "learningMean": 0.927521342,
+          "learningZero_pct": 6.81,
+          "pureRate_pct": 4.565,
+          "anyMask_pct": 11.375,
+          "admittedFractionMean": 0.927521342,
+          "nnIncrementRMS_counts": 62.812371,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 4,
+          "contractions": 92
+        },
+        {
+          "type": "result",
+          "case": 8,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.132859361,
+          "partialSyncRMS_mm": 0.0143862347,
+          "peakTracking_mm": 0.369831259,
+          "peakSync_mm": 0.15622383,
+          "terminalMax_mm": 0.133214119,
+          "peakRPM": 40.1680043,
+          "learningMean": 0.817782514,
+          "learningZero_pct": 15.08,
+          "pureRate_pct": 29.355,
+          "anyMask_pct": 44.435,
+          "admittedFractionMean": 0.817782514,
+          "nnIncrementRMS_counts": 90.6860397,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 74,
+          "contractions": 419
+        },
+        {
+          "type": "result",
+          "case": 9,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.152904094,
+          "partialSyncRMS_mm": 0.0677073607,
+          "peakTracking_mm": 0.314538895,
+          "peakSync_mm": 0.180444579,
+          "terminalMax_mm": 0.21314259,
+          "peakRPM": 49.9202888,
+          "learningMean": 0.686564658,
+          "learningZero_pct": 27.5,
+          "pureRate_pct": 8.775,
+          "anyMask_pct": 36.275,
+          "admittedFractionMean": 0.686564658,
+          "nnIncrementRMS_counts": 151.627752,
+          "nodes": [
+            7,
+            10
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 42,
+          "contractions": 4
+        },
+        {
+          "type": "result",
+          "case": 10,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.136432217,
+          "partialSyncRMS_mm": 0.0343247502,
+          "peakTracking_mm": 0.505346874,
+          "peakSync_mm": 0.31244766,
+          "terminalMax_mm": 0.101727145,
+          "peakRPM": 38.6163052,
+          "learningMean": 0.925243609,
+          "learningZero_pct": 7.185,
+          "pureRate_pct": 2.805,
+          "anyMask_pct": 9.99,
+          "admittedFractionMean": 0.925243609,
+          "nnIncrementRMS_counts": 100.831333,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 5,
+          "contractions": 38
+        },
+        {
+          "type": "result",
+          "case": 11,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.249296784,
+          "partialSyncRMS_mm": 0.0533903166,
+          "peakTracking_mm": 0.707875332,
+          "peakSync_mm": 0.21314259,
+          "terminalMax_mm": 0.145324493,
+          "peakRPM": 55.914498,
+          "learningMean": 0.75069883,
+          "learningZero_pct": 23.47,
+          "pureRate_pct": 3.64,
+          "anyMask_pct": 27.11,
+          "admittedFractionMean": 0.75069883,
+          "nnIncrementRMS_counts": 146.546856,
+          "nodes": [
+            7,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 32,
+          "contractions": 11
+        },
+        {
+          "type": "result",
+          "case": 12,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.296043526,
+          "partialSyncRMS_mm": 0.106386011,
+          "peakTracking_mm": 0.641638003,
+          "peakSync_mm": 0.283382762,
+          "terminalMax_mm": 0.396009244,
+          "peakRPM": 73.0375461,
+          "learningMean": 0.477035938,
+          "learningZero_pct": 50.21,
+          "pureRate_pct": 4.86,
+          "anyMask_pct": 55.07,
+          "admittedFractionMean": 0.477035938,
+          "nnIncrementRMS_counts": 166.735935,
+          "nodes": [
+            7,
+            11
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 36,
+          "contractions": 2
+        },
+        {
+          "type": "result",
+          "case": 13,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0796086067,
+          "partialSyncRMS_mm": 0.0161595097,
+          "peakTracking_mm": 0.329298564,
+          "peakSync_mm": 0.180444579,
+          "terminalMax_mm": 0.0569187598,
+          "peakRPM": 24.9189086,
+          "learningMean": 0.930105078,
+          "learningZero_pct": 6.635,
+          "pureRate_pct": 3.885,
+          "anyMask_pct": 10.52,
+          "admittedFractionMean": 0.930105078,
+          "nnIncrementRMS_counts": 57.5125806,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 4,
+          "contractions": 85
+        },
+        {
+          "type": "result",
+          "case": 14,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0910492598,
+          "partialSyncRMS_mm": 0.0138760399,
+          "peakTracking_mm": 0.365772067,
+          "peakSync_mm": 0.155012793,
+          "terminalMax_mm": 0.0799284712,
+          "peakRPM": 31.9785271,
+          "learningMean": 0.871023911,
+          "learningZero_pct": 12.45,
+          "pureRate_pct": 6.85,
+          "anyMask_pct": 19.3,
+          "admittedFractionMean": 0.871023911,
+          "nnIncrementRMS_counts": 71.2220233,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 29,
+          "contractions": 245
+        },
+        {
+          "type": "result",
+          "case": 15,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.133854181,
+          "partialSyncRMS_mm": 0.056490274,
+          "peakTracking_mm": 0.451614652,
+          "peakSync_mm": 0.179233542,
+          "terminalMax_mm": 0.0387531982,
+          "peakRPM": 41.2735374,
+          "learningMean": 0.766397303,
+          "learningZero_pct": 22.345,
+          "pureRate_pct": 2.825,
+          "anyMask_pct": 25.17,
+          "admittedFractionMean": 0.766397303,
+          "nnIncrementRMS_counts": 134.578708,
+          "nodes": [
+            7,
+            10
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 20,
+          "contractions": 14
+        },
+        {
+          "type": "result",
+          "case": 16,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.130352078,
+          "partialSyncRMS_mm": 0.0334759466,
+          "peakTracking_mm": 0.498892205,
+          "peakSync_mm": 0.311236623,
+          "terminalMax_mm": 0.0920388457,
+          "peakRPM": 32.6306592,
+          "learningMean": 0.928653658,
+          "learningZero_pct": 6.835,
+          "pureRate_pct": 2.74,
+          "anyMask_pct": 9.575,
+          "admittedFractionMean": 0.928653658,
+          "nnIncrementRMS_counts": 93.2988943,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 4,
+          "contractions": 35
+        },
+        {
+          "type": "result",
+          "case": 17,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.166825904,
+          "partialSyncRMS_mm": 0.0236894777,
+          "peakTracking_mm": 0.58199675,
+          "peakSync_mm": 0.234941264,
+          "terminalMax_mm": 0.147746568,
+          "peakRPM": 44.7493874,
+          "learningMean": 0.79900266,
+          "learningZero_pct": 17.605,
+          "pureRate_pct": 31.975,
+          "anyMask_pct": 49.58,
+          "admittedFractionMean": 0.79900266,
+          "nnIncrementRMS_counts": 106.244761,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 35,
+          "contractions": 598
+        },
+        {
+          "type": "result",
+          "case": 18,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.240713149,
+          "partialSyncRMS_mm": 0.102772417,
+          "peakTracking_mm": 0.672281218,
+          "peakSync_mm": 0.277327574,
+          "terminalMax_mm": 0.139269306,
+          "peakRPM": 59.2848807,
+          "learningMean": 0.582328674,
+          "learningZero_pct": 40.275,
+          "pureRate_pct": 3.87,
+          "anyMask_pct": 44.145,
+          "admittedFractionMean": 0.582328674,
+          "nnIncrementRMS_counts": 160.09992,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 32,
+          "contractions": 2
+        },
+        {
+          "type": "result",
+          "case": 19,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.153222522,
+          "partialSyncRMS_mm": 0.0376311751,
+          "peakTracking_mm": 0.425914079,
+          "peakSync_mm": 0.148957605,
+          "terminalMax_mm": 0.11383752,
+          "peakRPM": 44.1403912,
+          "learningMean": 0.636153365,
+          "learningZero_pct": 34.665,
+          "pureRate_pct": 3.875,
+          "anyMask_pct": 38.54,
+          "admittedFractionMean": 0.636153365,
+          "nnIncrementRMS_counts": 83.1498707,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 58,
+          "contractions": 4
+        },
+        {
+          "type": "result",
+          "case": 20,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.15576148,
+          "partialSyncRMS_mm": 0.0414777219,
+          "peakTracking_mm": 0.382680256,
+          "peakSync_mm": 0.162279017,
+          "terminalMax_mm": 0.130792044,
+          "peakRPM": 63.1966543,
+          "learningMean": 0.746938742,
+          "learningZero_pct": 22.09,
+          "pureRate_pct": 7.365,
+          "anyMask_pct": 29.455,
+          "admittedFractionMean": 0.746938742,
+          "nnIncrementRMS_counts": 156.023015,
+          "nodes": [
+            7,
+            11
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 49,
+          "contractions": 12
+        },
+        {
+          "type": "result",
+          "case": 21,
+          "method": 12,
+          "stop_ms": 5571,
+          "fault": 512,
+          "complete": false,
+          "motionSamples": 1571,
+          "partialTrackingRMSE_mm": 0.14151417,
+          "partialSyncRMS_mm": 0.0544776839,
+          "peakTracking_mm": 0.313840446,
+          "peakSync_mm": 0.335457372,
+          "terminalMax_mm": 0.496525352,
+          "peakRPM": 127.194666,
+          "learningMean": 0.975239276,
+          "learningZero_pct": 1.61550889,
+          "pureRate_pct": 1.63345898,
+          "anyMask_pct": 3.24896787,
+          "admittedFractionMean": 0.975258343,
+          "nnIncrementRMS_counts": 15.6298103,
+          "nodes": [
+            9,
+            9
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 6,
+          "contractions": 3
+        },
+        {
+          "type": "result",
+          "case": 22,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.205889089,
+          "partialSyncRMS_mm": 0.0366927646,
+          "peakTracking_mm": 0.477698343,
+          "peakSync_mm": 0.325769072,
+          "terminalMax_mm": 0.127158931,
+          "peakRPM": 54.4646683,
+          "learningMean": 0.820156069,
+          "learningZero_pct": 17.705,
+          "pureRate_pct": 2.07,
+          "anyMask_pct": 19.775,
+          "admittedFractionMean": 0.820472096,
+          "nnIncrementRMS_counts": 134.299263,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 9,
+          "contractions": 24
+        },
+        {
+          "type": "result",
+          "case": 23,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 1024,
+          "complete": false,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.539054193,
+          "partialSyncRMS_mm": 0.109823994,
+          "peakTracking_mm": 0.766778142,
+          "peakSync_mm": 0.21314259,
+          "terminalMax_mm": 0.779908113,
+          "peakRPM": 92.8640977,
+          "learningMean": 0.471817577,
+          "learningZero_pct": 21.6,
+          "pureRate_pct": 4.58,
+          "anyMask_pct": 25.985,
+          "admittedFractionMean": 0.765384526,
+          "nnIncrementRMS_counts": 106.85035,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            5987
+          ],
+          "withdrawals": 31,
+          "contractions": 24
+        },
+        {
+          "type": "result",
+          "case": 24,
+          "method": 12,
+          "stop_ms": 5801,
+          "fault": 512,
+          "complete": false,
+          "motionSamples": 1801,
+          "partialTrackingRMSE_mm": 0.215623912,
+          "partialSyncRMS_mm": 0.0894602043,
+          "peakTracking_mm": 0.482399048,
+          "peakSync_mm": 0.409330656,
+          "terminalMax_mm": 0.873157996,
+          "peakRPM": 166.399949,
+          "learningMean": 0.965449694,
+          "learningZero_pct": 1.56869505,
+          "pureRate_pct": 3.34425099,
+          "anyMask_pct": 4.91294604,
+          "admittedFractionMean": 0.966289046,
+          "nnIncrementRMS_counts": 24.4065523,
+          "nodes": [
+            7,
+            11
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 10,
+          "contractions": 1
+        },
+        {
+          "type": "result",
+          "case": 25,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0819570467,
+          "partialSyncRMS_mm": 0.0174136831,
+          "peakTracking_mm": 0.318400792,
+          "peakSync_mm": 0.188921841,
+          "terminalMax_mm": 0.062973947,
+          "peakRPM": 29.6386164,
+          "learningMean": 0.927521342,
+          "learningZero_pct": 6.81,
+          "pureRate_pct": 4.565,
+          "anyMask_pct": 11.375,
+          "admittedFractionMean": 0.927521342,
+          "nnIncrementRMS_counts": 62.812371,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 4,
+          "contractions": 92
+        },
+        {
+          "type": "result",
+          "case": 26,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.132859361,
+          "partialSyncRMS_mm": 0.0143862347,
+          "peakTracking_mm": 0.369831259,
+          "peakSync_mm": 0.15622383,
+          "terminalMax_mm": 0.133214119,
+          "peakRPM": 40.1680043,
+          "learningMean": 0.817782514,
+          "learningZero_pct": 15.08,
+          "pureRate_pct": 29.355,
+          "anyMask_pct": 44.435,
+          "admittedFractionMean": 0.817782514,
+          "nnIncrementRMS_counts": 90.6860397,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 74,
+          "contractions": 419
+        },
+        {
+          "type": "result",
+          "case": 27,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.170617754,
+          "partialSyncRMS_mm": 0.0603672739,
+          "peakTracking_mm": 0.390796446,
+          "peakSync_mm": 0.174389392,
+          "terminalMax_mm": 0.20345429,
+          "peakRPM": 55.2381729,
+          "learningMean": 0.615460726,
+          "learningZero_pct": 36.19,
+          "pureRate_pct": 5.155,
+          "anyMask_pct": 41.345,
+          "admittedFractionMean": 0.615460726,
+          "nnIncrementRMS_counts": 155.992477,
+          "nodes": [
+            7,
+            11
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 41,
+          "contractions": 4
+        },
+        {
+          "type": "result",
+          "case": 28,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.132710059,
+          "partialSyncRMS_mm": 0.0404882551,
+          "peakTracking_mm": 0.47848045,
+          "peakSync_mm": 0.330613222,
+          "terminalMax_mm": 0.0980940329,
+          "peakRPM": 38.3629411,
+          "learningMean": 0.918587625,
+          "learningZero_pct": 7.78,
+          "pureRate_pct": 2.55,
+          "anyMask_pct": 10.33,
+          "admittedFractionMean": 0.919208054,
+          "nnIncrementRMS_counts": 100.312323,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 6,
+          "contractions": 31
+        },
+        {
+          "type": "result",
+          "case": 29,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.269709916,
+          "partialSyncRMS_mm": 0.0759138419,
+          "peakTracking_mm": 0.670474724,
+          "peakSync_mm": 0.21314259,
+          "terminalMax_mm": 0.280960687,
+          "peakRPM": 56.9369144,
+          "learningMean": 0.65956342,
+          "learningZero_pct": 32.45,
+          "pureRate_pct": 3.46,
+          "anyMask_pct": 35.91,
+          "admittedFractionMean": 0.660500848,
+          "nnIncrementRMS_counts": 175.383034,
+          "nodes": [
+            7,
+            8
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 34,
+          "contractions": 26
+        },
+        {
+          "type": "result",
+          "case": 30,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 1024,
+          "complete": false,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.565786111,
+          "partialSyncRMS_mm": 0.087668453,
+          "peakTracking_mm": 0.819646875,
+          "peakSync_mm": 0.283382762,
+          "terminalMax_mm": 0.775063963,
+          "peakRPM": 77.0151461,
+          "learningMean": 0.472759807,
+          "learningZero_pct": 20.29,
+          "pureRate_pct": 2.535,
+          "anyMask_pct": 21.99,
+          "admittedFractionMean": 0.786975739,
+          "nnIncrementRMS_counts": 108.022448,
+          "nodes": [
+            7,
+            12
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            6455
+          ],
+          "withdrawals": 22,
+          "contractions": 38
+        },
+        {
+          "type": "result",
+          "case": 31,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0796086067,
+          "partialSyncRMS_mm": 0.0161595097,
+          "peakTracking_mm": 0.329298564,
+          "peakSync_mm": 0.180444579,
+          "terminalMax_mm": 0.0569187598,
+          "peakRPM": 24.9189086,
+          "learningMean": 0.930105078,
+          "learningZero_pct": 6.635,
+          "pureRate_pct": 3.885,
+          "anyMask_pct": 10.52,
+          "admittedFractionMean": 0.930105078,
+          "nnIncrementRMS_counts": 57.5125806,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 4,
+          "contractions": 85
+        },
+        {
+          "type": "result",
+          "case": 32,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.0910492598,
+          "partialSyncRMS_mm": 0.0138760399,
+          "peakTracking_mm": 0.365772067,
+          "peakSync_mm": 0.155012793,
+          "terminalMax_mm": 0.0799284712,
+          "peakRPM": 31.9785271,
+          "learningMean": 0.871023911,
+          "learningZero_pct": 12.45,
+          "pureRate_pct": 6.85,
+          "anyMask_pct": 19.3,
+          "admittedFractionMean": 0.871023911,
+          "nnIncrementRMS_counts": 71.2220233,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 29,
+          "contractions": 245
+        },
+        {
+          "type": "result",
+          "case": 33,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.133854181,
+          "partialSyncRMS_mm": 0.056490274,
+          "peakTracking_mm": 0.451614652,
+          "peakSync_mm": 0.179233542,
+          "terminalMax_mm": 0.0387531982,
+          "peakRPM": 41.2735374,
+          "learningMean": 0.766397303,
+          "learningZero_pct": 22.345,
+          "pureRate_pct": 2.825,
+          "anyMask_pct": 25.17,
+          "admittedFractionMean": 0.766397303,
+          "nnIncrementRMS_counts": 134.578708,
+          "nodes": [
+            7,
+            10
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 20,
+          "contractions": 14
+        },
+        {
+          "type": "result",
+          "case": 34,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.132586413,
+          "partialSyncRMS_mm": 0.0392742892,
+          "peakTracking_mm": 0.478835344,
+          "peakSync_mm": 0.330613222,
+          "terminalMax_mm": 0.095671958,
+          "peakRPM": 32.3773739,
+          "learningMean": 0.917930167,
+          "learningZero_pct": 7.89,
+          "pureRate_pct": 2.115,
+          "anyMask_pct": 10.005,
+          "admittedFractionMean": 0.918441971,
+          "nnIncrementRMS_counts": 97.1003588,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 4,
+          "contractions": 27
+        },
+        {
+          "type": "result",
+          "case": 35,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.161763231,
+          "partialSyncRMS_mm": 0.0232936233,
+          "peakTracking_mm": 0.601575871,
+          "peakSync_mm": 0.233730226,
+          "terminalMax_mm": 0.127158931,
+          "peakRPM": 44.4304444,
+          "learningMean": 0.815112997,
+          "learningZero_pct": 14.825,
+          "pureRate_pct": 35.53,
+          "anyMask_pct": 50.355,
+          "admittedFractionMean": 0.815713833,
+          "nnIncrementRMS_counts": 96.1636435,
+          "nodes": [
+            7,
+            7
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            0
+          ],
+          "withdrawals": 4,
+          "contractions": 384
+        },
+        {
+          "type": "result",
+          "case": 36,
+          "method": 12,
+          "stop_ms": 20000,
+          "fault": 0,
+          "complete": true,
+          "motionSamples": 16000,
+          "partialTrackingRMSE_mm": 0.31364655,
+          "partialSyncRMS_mm": 0.125169863,
+          "peakTracking_mm": 0.844855147,
+          "peakSync_mm": 0.277327574,
+          "terminalMax_mm": 0.400853394,
+          "peakRPM": 58.2104803,
+          "learningMean": 0.563407727,
+          "learningZero_pct": 40.83,
+          "pureRate_pct": 2.75,
+          "anyMask_pct": 42.195,
+          "admittedFractionMean": 0.582119451,
+          "nnIncrementRMS_counts": 158.180426,
+          "nodes": [
+            7,
+            10
+          ],
+          "projections": [
+            0,
+            0
+          ],
+          "hardHits": [
+            0,
+            853
+          ],
+          "withdrawals": 28,
+          "contractions": 33
+        }
+      ]
+    }
+  ],
+  "limitation": "Unidentified assumed plant; all faults retained. Not evidence of physical efficacy."
+}

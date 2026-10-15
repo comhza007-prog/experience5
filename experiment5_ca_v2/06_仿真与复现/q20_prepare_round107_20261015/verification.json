@@ -1,0 +1,74 @@
+{
+  "status": "Offline Q20 candidate checked, NOT flashed or physically qualified",
+  "build": 68312,
+  "schema": 4501,
+  "stopMagic": 4445,
+  "project": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\20mm准入_显式启动_20261015\\eassy_E5ID_Q20_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+  "target": "exp5ID_Q20_BLNN_HW6",
+  "hex": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\20mm准入_显式启动_20261015\\eassy_E5ID_Q20_BLNN_HW6\\MDK-ARM\\exp5ID_Q20_BLNN_HW6\\exp5ID_Q20_BLNN_HW6.hex",
+  "hexSHA256": "50c82415a9b1092716b336acb86249f450caeff564985ed725588d31d5d26832",
+  "axfSHA256": "d3a32b52d1343a293f7c3278c839339b622d0d554961d9be34ae9fd455482146",
+  "compileErrors": 0,
+  "compileWarnings": 0,
+  "RAM": {
+    "used": 104504,
+    "max": 114688,
+    "remaining": 10184
+  },
+  "unchangedSourceFiles": 186,
+  "unchangedCoreActuatorHWProfileAndPhysicalGuardsExceptTravel": true,
+  "travelEnvelope_m": [
+    -0.004,
+    0.022
+  ],
+  "unchangedStartupExplicitArmAndWatchdog": true,
+  "trajectory": {
+    "stroke_mm": 20,
+    "forward_s": 8,
+    "return_s": 8,
+    "total_s": 28,
+    "nominalPeakSpeed_mm_s": 4.6875,
+    "nominalPeakRotorRPM": 28.34947423824386,
+    "insideExistingTaperRegion": true
+  },
+  "logging": {
+    "ABI": 3,
+    "blobBytes": 69312,
+    "traceBytes": 69400,
+    "movingInterval_ms": 4,
+    "holdingInterval_ms": 40,
+    "fastRows": 4000,
+    "slowRows": 300,
+    "nativeMetricSamples": 600,
+    "intraIntervalCommandsRecoverable": false,
+    "controlPeriod_ms": 1
+  },
+  "checks": [
+    "PASS trajectory20mm/8s/28000steps; maxV=0.00468749972 maxA=0.00180421944; exact4ms/40ms integrals; ABI3/69312bytes/722chunks4copies; overflow/fault rejection; unchanged speed guard;600point RMS/fault/partial rejection",
+    "PASS Q20 host idle/health/fault preservation, encoded payload,722chunk bounds, completion state, CRC and refusal without onsite permission; no hardware opened",
+    "Independent Python28000integrationsteps/4300intervals and JS ABI3 decode/CRC agree"
+  ],
+  "protocolSHA256": "3543a61ac241471cca2f995c880a6e93efafea3432ea5b287e3062d05da3ac7e",
+  "hostSHA256": "51d1f5b6041ef80bb651f6efbfe096cf0f69cf4f339f43c25e2da246f28bba5f",
+  "decoderSHA256": "6142db83c89257d4db351d2a169b1e5a47bb9f63fcfae62a351653d5ff9b9b9a",
+  "sourceHashes": {
+    "motor_task.c": "87473b249da4b40921e7839062acf2f7e2b979b2a2b2af8433325ba8a72f3904",
+    "experiment5_motion.h": "d2338f5e7c3a6fad41c39c4f92046900775156d853251df775c91d3ab1425315",
+    "experiment5_formal_config.h": "4efd1da7b8f69d97aa3acead3ed8d2676db35b4f250ce8ae39d8a29f504acad3",
+    "experiment5_error_summary.h": "5c2fded9e368d1af9bbd77b4888fc1ad9fd4e76704366ed0293fb4b39631d807",
+    "identification_trace_v3.h": "0593275a98fb1d7ef7004ce3bfb752846f79552fb254dd62ae2f7cc8ac41353d",
+    "blnn_core.c": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+    "experiment5_formal_actuator.h": "d7a181bad70783b52e794202807cb70df705877e8d5a402a7cabf80d46a15b6d",
+    "experiment5_hw_profile.h": "e24b564fec82dd358ed8b818f072f03069de408ee73e4ad3ecbb13a1558d764d",
+    "online_protocol.h": "323764427a2b54a144932df29c1ba93b75321bf37ddaad6e7b8dce83d172c09b",
+    "vofa_task.c": "a172b111871dd24b91987794f3fa49cb5f38a8e6fd288241dea1d8d0e597d9f6"
+  },
+  "originalQ2FirmwareHashPreserved": true,
+  "priorFaultAndRawPreserved": true,
+  "hardwareAction": false,
+  "flashed": false,
+  "physicalRuns": 0,
+  "onboardTimingQualified": false,
+  "modelRetrained": false,
+  "nextStep": "Fresh drive-OFF confirmation before any flash/reset. Then confirm zero idle and fresh drive-ON/onsite readiness before ONE20mm qualification only. Do not start20run batch. Original mechanical difficulty still unresolved."
+}

@@ -1,0 +1,9 @@
+{
+  "reason": "LM endpoints differ and 1percent perturbation refits stalled; tiny movement is NOT proof of stability. Use derivative-free solver for nonsmooth elastic-slider response.",
+  "previousSummarySHA256": "22603729fad726b6df0f566ed4e0ea8713725d0b91541c562bcbf13e13414db4",
+  "sameBoundsSubspaceAnchorObjectiveAndPrior": true,
+  "search": "Three starts: LMbest,zero,all0.05. Nelder-Mead each<=1600evaluations. Then two1percent observation/target perturbations each<=1000evaluations from selected. No extra seeds, stages or changed tolerances.",
+  "physicalParametersIdentified": false,
+  "firmwareChanged": false,
+  "assistantHardwareAction": false
+}

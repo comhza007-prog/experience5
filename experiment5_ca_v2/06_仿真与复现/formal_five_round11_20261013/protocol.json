@@ -1,0 +1,296 @@
+{
+  "date": "2026-10-13",
+  "reportGenerated": false,
+  "stage": "FORMAL_CODE_READY_COMMON_STATIONARY_PREFLIGHT_PENDING",
+  "registeredBeforeFormalData": true,
+  "userSelectedRepeatsPerMethod": 5,
+  "plannedFormalAttempts": 25,
+  "conditions": {
+    "condition": "A",
+    "addedLoadLabel_g": 0,
+    "motion_mm": 2,
+    "limits_counts": [
+      1200,
+      1200
+    ],
+    "initialNodesEachAxis": 4,
+    "initialWeights": 0,
+    "maxNodesEachAxis": 60,
+    "HWprofile": 6,
+    "CAsectorFraction": 0.25,
+    "CAnormalSlew_counts_per_ms": 2,
+    "CANNcap_counts": 300,
+    "extraHangingLoad": false
+  },
+  "variants": [
+    {
+      "variant": 0,
+      "name": "BLNN",
+      "method": 11,
+      "learning": 0,
+      "search": 0,
+      "build": 65511,
+      "project": "05_实验代码/正式对照A_五方案_F5/00_BLNN/eassy_E5F2_A_BLNN_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_BLNN_HW6_F5_EVENT40",
+      "hexSHA256": "c5209744308528b11cb251de983c7ee452214b616d481a283c21c61ec8a4397f",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/00_BLNN",
+      "filenamePattern": "E5F2_A_BLNN_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_runNN.csv",
+      "compileErrors": 0,
+      "compileWarnings": 0,
+      "releasedForMotion": false
+    },
+    {
+      "variant": 1,
+      "name": "S0",
+      "method": 12,
+      "learning": 0,
+      "search": 0,
+      "build": 65612,
+      "project": "05_实验代码/正式对照A_五方案_F5/01_S0/eassy_E5F2_A_S0_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S0_HW6_F5_EVENT40",
+      "hexSHA256": "fc991caf7e00d8f12d8d29c450c641de57ebb654a6f53209e85f5986d08f502d",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/01_S0",
+      "filenamePattern": "E5F2_A_S0_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_runNN.csv",
+      "compileErrors": 0,
+      "compileWarnings": 0,
+      "releasedForMotion": false
+    },
+    {
+      "variant": 2,
+      "name": "S1",
+      "method": 12,
+      "learning": 1,
+      "search": 0,
+      "build": 65712,
+      "project": "05_实验代码/正式对照A_五方案_F5/02_S1/eassy_E5F2_A_S1_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S1_HW6_F5_EVENT40",
+      "hexSHA256": "e9d4389b2287cafeb308da7874c930fc7fa22cc69c3284aaa6567ee959b4a996",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/02_S1",
+      "filenamePattern": "E5F2_A_S1_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_runNN.csv",
+      "compileErrors": 0,
+      "compileWarnings": 0,
+      "releasedForMotion": false
+    },
+    {
+      "variant": 3,
+      "name": "S2",
+      "method": 12,
+      "learning": 0,
+      "search": 1,
+      "build": 65812,
+      "project": "05_实验代码/正式对照A_五方案_F5/03_S2/eassy_E5F2_A_S2_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S2_HW6_F5_EVENT40",
+      "hexSHA256": "86106a860708a503687e7ecb727231bd48dafe2c8a7011a1d3063a601c9adc18",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/03_S2",
+      "filenamePattern": "E5F2_A_S2_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_runNN.csv",
+      "compileErrors": 0,
+      "compileWarnings": 0,
+      "releasedForMotion": false
+    },
+    {
+      "variant": 4,
+      "name": "S3",
+      "method": 12,
+      "learning": 1,
+      "search": 1,
+      "build": 65912,
+      "project": "05_实验代码/正式对照A_五方案_F5/04_S3/eassy_E5F2_A_S3_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S3_HW6_F5_EVENT40",
+      "hexSHA256": "ab33808e4da09a6f2432aacbb65dc1422867c8705a3194d6917c94962a90adfb",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/04_S3",
+      "filenamePattern": "E5F2_A_S3_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_runNN.csv",
+      "compileErrors": 0,
+      "compileWarnings": 0,
+      "releasedForMotion": false
+    }
+  ],
+  "scope": "Unloaded A2mm cause-aware learning/search comparison only. No new hard-amplitude-saturation or loaded-B efficacy claim; no copying reference-paper data. Independent reset per run; archived and qualification data are not added as formal repeats.",
+  "sharedScaffold": {
+    "allNonSelectorSourcesIdentical": true,
+    "coreControllerAndMotorSafetyExactlyPreserved": true,
+    "schema": 4466,
+    "telemetryChannels": 107,
+    "UARTperiod_ms": 40,
+    "fixedEventTriggerElapsed_ms": 5000,
+    "eventRows": 128,
+    "eventWidth": 40,
+    "eventChunks": 5,
+    "repeatsPerChunk": 2,
+    "postStopMagic": 4422,
+    "normalStop": "I2=6,I22=0; wait I88=4422/I89=4 then retain5sec. Usually I0>=85sec.",
+    "motionProtection_us": {
+      "preCAN": 900,
+      "body": 950,
+      "overrun": 1000
+    },
+    "allExistingHealthTravelSyncBatteryRPMGuardsUnchanged": true
+  },
+  "telemetrySemantics": {
+    "active": "I21 method11/12; I63 unique build; I90 variant0..4, I91 new-learning flag, I92 balanced-search flag, I93 schema4466. CA I88=reason/I89=rho; ordinary BLNN both=-1 (not applicable). I32 actual gradient multiplier: BLNN1 while active, CA actual gate. Weight leakage persists under CA gradient freeze.",
+    "EVENT40": "First32 existing fields retained except v23 correctly reports actual learning multiplier for BLNN. v32 cause(-1 BLNN),v33 rho(-1 BLNN),v34 pre-classifier gate(1 BLNN),v35/36 PRE-speed-guard integer wanted for all methods; v37 variant,v38 learning factor,v39 search factor. BLNN observed final NN increments/history are diagnostics, not CA constraints.",
+    "postStop": "EVENT40 overrides I88..93. Decode based on version and payload metadata; do not interpret as active factors. Fault trace still takes priority. UART TC is not host acknowledgment: check received640 unique chunks and equal duplicates. Never interpolate missing payloads."
+  },
+  "collectionDesign": {
+    "type": "Predefined5x5 cyclic Latin position-balanced blocks; not random and not fully carryover-balanced.",
+    "blocks": [
+      {
+        "block": 1,
+        "order": [
+          "BLNN",
+          "S0",
+          "S1",
+          "S2",
+          "S3"
+        ]
+      },
+      {
+        "block": 2,
+        "order": [
+          "S0",
+          "S1",
+          "S2",
+          "S3",
+          "BLNN"
+        ]
+      },
+      {
+        "block": 3,
+        "order": [
+          "S1",
+          "S2",
+          "S3",
+          "BLNN",
+          "S0"
+        ]
+      },
+      {
+        "block": 4,
+        "order": [
+          "S2",
+          "S3",
+          "BLNN",
+          "S0",
+          "S1"
+        ]
+      },
+      {
+        "block": 5,
+        "order": [
+          "S3",
+          "BLNN",
+          "S0",
+          "S1",
+          "S2"
+        ]
+      }
+    ],
+    "eachMethodOncePerBlock": true,
+    "eachMethodOnceAtEachWithinBlockPosition": true,
+    "workflow": "Use order.json; do not collect five consecutive runs of one method. Clear VOFA history before reset, keep all107 channels, verify build/factor identity. Secure same unloaded setup and origin; do not manually move during control. Fresh controller reset each attempt; no warm-start weights. Record battery voltage and any recharge/pause/cooldown; no per-method tuning. Maintain comparable power state; never lower safety limits to complete a run.",
+    "attemptPolicy": "Exactly25 planned independent attempts, not25 selected successes. Retain faults, all exports and logs. No overwriting or deleting a failed run; extra export of SAME history gets_full suffix, genuinely new replacement attempts get_attempt02 suffix and remain linked to the original. A fault pauses collection for review. If controller/method/condition changes, start a separate protocol/version; do not mix.",
+    "powerAndSafety": "Unchanged23..30V runtime battery guard is an operating protection, not a charging recommendation. Follow device charging instructions; don't change power arrangement by method. On abnormal oscillation/noise/travel stop safely; retain at least5sec of same post-fault history before reset/clear."
+  },
+  "analysis": {
+    "motionPopulation": "All observed phase2..5 samples of an identity-valid full boot; source time/counter/phase progression must be consistent. Source positions/reference are metres at6decimal precision. Single pre-boot invalid transition rows may be excluded only by preregistered identity/time boundary; preserve raw and list exact rows. Never exclude an otherwise valid trial because of poor performance.",
+    "coPrimary": {
+      "trackingRMSE_mm": "sqrt(mean((1000*((I5+I6)/2-I3))^2))",
+      "syncRMS_mm": "sqrt(mean((1000*(I5-I6))^2))"
+    },
+    "secondary": [
+      "max synchronization and per-axis tracking errors",
+      "terminal per-axis position/synchronization",
+      "fault outcomes and time",
+      "actual attempted current/feedback and RMS effort",
+      "I61/I62 hard edge occupancy distinct from speed/sector/mixed activity",
+      "actual learning gates and pure/mixed cause/rho occupancy",
+      "node growth/weight norms/withdrawals/contractions",
+      "timing/stack/UART/CAN consistency",
+      "voltage by block/method"
+    ],
+    "predefinedContrasts": [
+      "S1-S0 learning-only",
+      "S2-S0 search-only",
+      "S3-S0 combined",
+      "(S3-S2)-(S1-S0) interaction",
+      "S3-BLNN ordinary comparator"
+    ],
+    "interpretation": "Use block-matched differences and show every trial, mean/spread and uncertainty. With5 repeats evidence is limited; do not promise statistical significance. No choosing a favorite metric/version post hoc. If tracking/sync trade off, report the tradeoff, not universal superiority. Stationary/integer replay and assumed-model exactness do not establish closed-loop stability.",
+    "faultMetrics": "Faulted/truncated trials retained in fault outcomes; do not compare their shortened RMSE as equal to full-duration completed runs or fill missing motion with zero. Report completion denominators and measurement missingness explicitly."
+  },
+  "stationaryProbe": {
+    "build": 66012,
+    "magic": 4467,
+    "target": "exp5T5_F5_HW6_NO_DRIVE",
+    "project": "05_实验代码/测速五方案_F5_不驱动电机/eassy_E5T5_F5_HW6/MDK-ARM/eassy.uvprojx",
+    "hexSHA256": "3f326402f2ff8be6fa305882b504f0be83f2e1892ee50425e1f6b1790f5b58dd",
+    "compileErrors": 0,
+    "compileWarnings": 0,
+    "linkedCANAlwaysZeroConfirmed": true,
+    "motorNeverArms": true,
+    "runsRequested": 1,
+    "cycles": 30000,
+    "exactPairs": 15000,
+    "referencePolicy": "Preserved old unoptimized kernels with same five factor configurations. BLNN/S0 share0/0 kernel but have separate method11/12 states/fixtures; every state/output byte compared.",
+    "casesPerMethod": 3000,
+    "fixtureModes": "4-node pure-rate,59-node two-axis growth,60-node pure-rate,60-node exceptional search; ordinary BLNN ignores CA restrictions and its actual gradient multiplier is1.",
+    "dataFolder": "01_原始数据/静止测速_正式五方案_F5",
+    "filename": "E5T5_F5_HW6_NO_DRIVE_run01.csv",
+    "expectedFinal": {
+      "I74": 3000,
+      "I75": 3750,
+      "I76": 15000,
+      "I78": 3000,
+      "I90": 30000,
+      "I92": 0,
+      "I98": 3000,
+      "I99": 3000
+    },
+    "peakChannels_us": {
+      "BLNN": [
+        3,
+        4,
+        5
+      ],
+      "S0": [
+        6,
+        7,
+        8
+      ],
+      "S1": [
+        9,
+        10,
+        11
+      ],
+      "S2": [
+        15,
+        16,
+        17
+      ],
+      "S3": [
+        18,
+        19,
+        20
+      ],
+      "I42": "all optimized peak",
+      "I93_I94_I95": "pooled reference4/growth59/60 peak",
+      "I96": "synthetic probe body, not physical motion task",
+      "I58": "actual remaining task stack"
+    },
+    "normalStop": "Confirm I63=66012/I88=4467. Wait I2=6,I22=0,I89=4,I90=30000,I76=15000,I92=0, then retain5sec. Usually I0>=37sec. Export all107 channels.",
+    "acceptance": "Correct identity/complete counters, exact state/output/rule checks0errors, all five optimized node/growth/compound peaks positive finite<=original600us screen; no faults/late/overrun/UART/DMA/CAN errors. Review actual stack. Finite fixture coverage, not a WCET proof. Reference peaks may exceed600us; screen is for optimized kernels.",
+    "safety": "Secure unloaded mechanism mechanically, no added hanging load. Hard-zero CAN and never arms; zero current is not a holding brake. On unexpected motion stop safely. On fault retain5sec and export without reset/retry.",
+    "releaseAfterPass": "Only first planned ordinary BLNNrun01 is initially released, with full common-frame review before continuing order. If protocol-compliant, it is planned trial1, not an extra qualification. No formal motion or batch is released before probe review."
+  },
+  "hostVerification": {
+    "path": "checks_final/verification.json",
+    "expectedCompilations": 70,
+    "floatDoubleExactPolicyStepsPerVariantPrecision": 90000,
+    "randomSearchCacheComparisonsEachPerVariantPrecision": 600000,
+    "probeExactPairsPerPrecision": 15000,
+    "assumedModelRunsExactlyReproduced": 180,
+    "archiveFilesExpectedUnchanged": 1307,
+    "modelStillUncalibrated": true,
+    "noEfficacyClaim": true
+  },
+  "nextStep": "One NO_DRIVE66012 static preflight; then review before first formal trial. 25-file order is fixed but not a batch release."
+}

@@ -1,0 +1,71 @@
+{
+  "status": "Manual single20mm qualification prepared and offline checked; no assistant hardware action",
+  "build": 68412,
+  "schema": 4502,
+  "stopMagic": 4445,
+  "project": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\20mm手动VOFA_20261015\\eassy_E5ID_Q20M_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+  "target": "exp5ID_Q20M_BLNN_HW6",
+  "hex": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\20mm手动VOFA_20261015\\eassy_E5ID_Q20M_BLNN_HW6\\MDK-ARM\\exp5ID_Q20M_BLNN_HW6\\exp5ID_Q20M_BLNN_HW6.hex",
+  "hexSHA256": "2c2e6017b7b4f5357f1d46ce8cd63d77ae8ac48b1ebbb2a6b7a3f9e15a2a35ca",
+  "axfSHA256": "1584debabbca044f9e4af0dbad4188fe5d2baceae1cdf2669003f67c29c79358",
+  "compileErrors": 0,
+  "compileWarnings": 0,
+  "RAM": {
+    "used": 104504,
+    "max": 114688,
+    "remaining": 10184
+  },
+  "unchangedSourceFiles": 189,
+  "startupMode": "One boot-start attempt after8seconds with health+500msstationarity; unhealthy attempt faults with no retry",
+  "startupPolicyMatchesPreviouslyUsed68012Except20mmTrajectoryAndTravelEnvelope": true,
+  "hostHeartbeatAbortEnabled": false,
+  "manualEmergencyStopRequired": true,
+  "remoteArmAndSetDisabled": true,
+  "CRCValidStopRetained": true,
+  "physicalAndControlGuardsSameAs68312": true,
+  "stroke_mm": 20,
+  "forward_s": 8,
+  "return_s": 8,
+  "total_s": 28,
+  "limits": [
+    1200,
+    1200
+  ],
+  "travelEnvelope_mm": [
+    -4,
+    22
+  ],
+  "insideExisting10to30rpmTaper": true,
+  "loggerABI": 3,
+  "blobBytes": 69312,
+  "movingInterval_ms": 4,
+  "holdingInterval_ms": 40,
+  "controlPeriod_ms": 1,
+  "nativeMetricSamples": 600,
+  "intraInterval1msCommandsRecoverable": false,
+  "completion": "I63=68412,I2=6,I22=0,I88=4445,I89=4,I90=0; completiontail>=20s AND I0>=185s",
+  "checks": [
+    "PASS trajectory20mm/8s/28000steps; maxV=0.00468749972 maxA=0.00180421944; exact4ms/40ms integrals; ABI3/69312bytes/722chunks4copies; overflow/fault rejection; unchanged speed guard;600point RMS/fault/partial rejection",
+    "{\"passed\": true, \"version\": 3, \"blobBytes\": 69312, \"blobSHA256\": \"34db77cb8af0507b1da18c487c019d57f75546ca212f683836bcd3e04a856b9b\", \"CRC32\": 1541567316, \"independentIntervalRows\": 4300, \"independentIntegrationSteps\": 28000, \"slowRows\": 300, \"fastRows\": 4000, \"forwardFastRows\": 2000, \"controlPeriod_us\": 1000, \"movingLogIntervalSteps\": 4, \"holdingLogIntervalSteps\": 40, \"instruction\": \"Exact integrals, not recoverable1ms inputs. Fixture is NOT physical evidence.\", \"hardwareAction\": false}"
+  ],
+  "sourceHashes": {
+    "motor_task.c": "601fa7f13aa7b5c22aaca06f353ee665ae5a0c4420bde9b729364547c743a7fb",
+    "experiment5_formal_config.h": "0bfefce61ad09b416d8a88af3330c2554165f8180486d3e92dffe8df4fdd5458",
+    "experiment5_motion.h": "d2338f5e7c3a6fad41c39c4f92046900775156d853251df775c91d3ab1425315",
+    "identification_trace_v3.h": "0593275a98fb1d7ef7004ce3bfb752846f79552fb254dd62ae2f7cc8ac41353d",
+    "experiment5_error_summary.h": "5c2fded9e368d1af9bbd77b4888fc1ad9fd4e76704366ed0293fb4b39631d807",
+    "blnn_core.c": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+    "experiment5_formal_actuator.h": "d7a181bad70783b52e794202807cb70df705877e8d5a402a7cabf80d46a15b6d",
+    "experiment5_hw_profile.h": "e24b564fec82dd358ed8b818f072f03069de408ee73e4ad3ecbb13a1558d764d",
+    "online_protocol.h": "323764427a2b54a144932df29c1ba93b75321bf37ddaad6e7b8dce83d172c09b",
+    "vofa_task.c": "a172b111871dd24b91987794f3fa49cb5f38a8e6fd288241dea1d8d0e597d9f6"
+  },
+  "protocolSHA256": "d1f5da97616203207d095aa6425b3047274846b801b5d9c9f187d0ee09b2495a",
+  "decoderSHA256": "64cb75ae1200c39318924916d7b9519c0f917cebd87e54924387e1832bda8408",
+  "oldCodeAndDataPreserved": true,
+  "assistantHardwareAction": false,
+  "flashed": false,
+  "physicalRuns": 0,
+  "onboardTimingQualified": false,
+  "limitation": "Prior mechanism difficulty unresolved. This is a new single-run qualification, not proof longer stroke fixes it or release for20runs. No model retrained or validation result claimed."
+}

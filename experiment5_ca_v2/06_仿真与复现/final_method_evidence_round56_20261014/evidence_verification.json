@@ -1,0 +1,982 @@
+{
+  "date": "2026-10-14",
+  "currentBuilds": {
+    "BLNN": 67931,
+    "S3R2": 67932
+  },
+  "controlMatchesOriginal66312": true,
+  "sourceHashes": {
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\blnn_core.c": "2614e4bb025461295fee4cbc9025a8f868ee4a4b82b2ca12789ff564ecac430d",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\blnn_core.h": "74f9f10382b5c68411bf5038a73f866997d2c0c13dff1ac53a0c90862db03ca2",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\BMS_task.c": "78a0645ba1f2bd54e81c003711d8b8099a084938ec81780524576062f54f5a3f",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\BMS_task.h": "72cc6e2b02706c6e78edf9ead010a32c359e0863d2c4e9a007a1b6a5b3b68202",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\diagnostic_config.h": "b9f69656ef3bbdb9f83f613339aa026a9a6fea8f5e259436476c18c142b9da42",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\experiment3_config.h": "4e7df901c40711a1e959a00f350281613882e0b345740babc680515ac308786a",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\experiment5_ca_actuator.h": "eca877ea5c4a117d054004ad0706bd414aa1cac5f2625eb83bdd111a43543d43",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\experiment5_error_summary.h": "7b788aebd3dfe733118a1d03103a1c412c93d81c45b07b91b3da6dfc463923a9",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\experiment5_error_wave.h": "ea2d590bf55cd4e97fcc55d73c9dd8e71b7f5a485815f84baa510022e0abb40c",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\experiment5_event_trace.h": "0391377ecd42f8e481612dc5b3671b781ee4588dc4c8c81de5308408107839ba",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\experiment5_fault_trace.h": "44f14cc58e3e3b5c1d8b2107d45f8213fbc8920d4ad3105b6216141d624c0b2e",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\experiment5_formal_actuator.h": "d7a181bad70783b52e794202807cb70df705877e8d5a402a7cabf80d46a15b6d",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\experiment5_formal_config.h": "b7b96aa3c3380cc605b3995e1dee390e2691dd663e620d69fd05d13f95402946",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\experiment5_formal_metrics.h": "04657795b42b34a05690a796c0d0cca2dc9579f76792e5a05d34e9be267c2bf0",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\experiment5_hw_profile.h": "e24b564fec82dd358ed8b818f072f03069de408ee73e4ad3ecbb13a1558d764d",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\experiment5_motion.h": "614333932d95cda077cddf3131f837da00d73a1baa19dc57b94924069c67ffbd",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\motor.c": "894e41c16355470a4ae52025f3d5c8f81d51a9ac8e3f4928cd33063dbdc4ce1e",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\motor.h": "97a998204b43a48a5a2482c98caa3f3520bcfb3ee3e61c1eee775fa12e8fabda",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\motor_task.c": "d064e4a7a71a6c82a2967d1f47e09b115547d5510b312446c8bf5111736d4d4a",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\motor_task.h": "7915c73075e046eb850b8fcb3f03cbb4d950467941b8f5876b09955a5d2c45dc",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\periodic_release.h": "24be9ca4af691eb6d8a10c51c251bf063491892c68dc2a450bcb02ca5e0c07fe",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\pid.c": "33a3d9f75d9efb49b84ca44be9de1a3ac1e2f7c939f5c6976ebb22f3c63dbddb",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\pid.h": "a4ee8f8486fc73c69c1ec6c107ca11a11dc43300cfe6f6b9bebb65038c379675",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\struct_typedef.h": "5995cefa4fdd7a052c869cf90a39c709c685c77dbba092a859768e37a6a9020e",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\vofa_task.c": "2a1106b67baecc9625b88b3256777156dbada450590e3d7ef476d7284bca7d37",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\vofa_task.h": "9a6654e266c9b89332aab05a979102d39e83d61a74240aef85c6a08fca43a300",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\blnn_core.c": "b2c22fb8e2c565e631919bcc36b4d6a62e675b16751de5a67b5700f835cb04d7",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\blnn_core.h": "7964c39536ac9b22feac1f46277fb805a330819df4fcec31b9966c8b9bf52d2a",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\BMS_task.c": "78a0645ba1f2bd54e81c003711d8b8099a084938ec81780524576062f54f5a3f",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\BMS_task.h": "72cc6e2b02706c6e78edf9ead010a32c359e0863d2c4e9a007a1b6a5b3b68202",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\diagnostic_config.h": "0547133444ba7ec06e0bd74971003d0b76dd2874213aa9f4035a0d61895cf5dc",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\experiment3_config.h": "4e7df901c40711a1e959a00f350281613882e0b345740babc680515ac308786a",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\experiment5_ca_actuator.h": "eca877ea5c4a117d054004ad0706bd414aa1cac5f2625eb83bdd111a43543d43",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\experiment5_error_summary.h": "7b788aebd3dfe733118a1d03103a1c412c93d81c45b07b91b3da6dfc463923a9",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\experiment5_error_wave.h": "ea2d590bf55cd4e97fcc55d73c9dd8e71b7f5a485815f84baa510022e0abb40c",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\experiment5_event_trace.h": "7cec3c85d3f08c8de92026601723d1436f043a380cbbc00a81b037ef63cc9db3",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\experiment5_fault_trace.h": "44f14cc58e3e3b5c1d8b2107d45f8213fbc8920d4ad3105b6216141d624c0b2e",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\experiment5_formal_actuator.h": "d7a181bad70783b52e794202807cb70df705877e8d5a402a7cabf80d46a15b6d",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\experiment5_formal_config.h": "d39be30c60b25486f5e28d4913b4bab4f5ed5af003ed11fb8f7f688842ea0bd1",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\experiment5_formal_metrics.h": "002033c0e22ce9ce294e4701fd5cf8e74bcad145ea7f1fb9957de62bdec9adb5",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\experiment5_hw_profile.h": "e24b564fec82dd358ed8b818f072f03069de408ee73e4ad3ecbb13a1558d764d",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\experiment5_motion.h": "614333932d95cda077cddf3131f837da00d73a1baa19dc57b94924069c67ffbd",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\motor.c": "894e41c16355470a4ae52025f3d5c8f81d51a9ac8e3f4928cd33063dbdc4ce1e",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\motor.h": "97a998204b43a48a5a2482c98caa3f3520bcfb3ee3e61c1eee775fa12e8fabda",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\motor_task.c": "493a1116083d4bd8d0509ca4e5bd22199cc1ee8739a3cbabe32d298c5c643108",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\motor_task.h": "7915c73075e046eb850b8fcb3f03cbb4d950467941b8f5876b09955a5d2c45dc",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\periodic_release.h": "24be9ca4af691eb6d8a10c51c251bf063491892c68dc2a450bcb02ca5e0c07fe",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\pid.c": "33a3d9f75d9efb49b84ca44be9de1a3ac1e2f7c939f5c6976ebb22f3c63dbddb",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\pid.h": "a4ee8f8486fc73c69c1ec6c107ca11a11dc43300cfe6f6b9bebb65038c379675",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\struct_typedef.h": "5995cefa4fdd7a052c869cf90a39c709c685c77dbba092a859768e37a6a9020e",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\vofa_task.c": "2a1106b67baecc9625b88b3256777156dbada450590e3d7ef476d7284bca7d37",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\eassy_E5F2_A_BLNN_HW6\\Task\\vofa_task.h": "9a6654e266c9b89332aab05a979102d39e83d61a74240aef85c6a08fca43a300"
+  },
+  "testHarnessSource": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\final_method_evidence_round56_20261014\\test_plant.c",
+  "testHarnessSHA256": "da80392049674ac02ef9f8025f441cd461a00297485fa87a6df7f19e622f7c4f",
+  "harnessPlantAndControlUnchanged": true,
+  "harnessDiagnosticOnlyAdaptation": "Ordinary65511ABI lacks actual learning/repair fields; diagnostic actual learning reported1 fromsource-defined ordinary gradient,repair/retentionzero. No plant/control change. First failedcompile retainedinchecks.",
+  "compilationFlags": "O2,float/double; current sources directly compiled; no MCU image built or flashed",
+  "variants": [
+    {
+      "name": "BLNN",
+      "method": 11,
+      "classification": 1,
+      "repair": 1,
+      "retention": 1
+    },
+    {
+      "name": "CA_ALL_FREEZE",
+      "method": 12,
+      "classification": 0,
+      "repair": 0,
+      "retention": 0
+    },
+    {
+      "name": "CA_CLASS",
+      "method": 12,
+      "classification": 1,
+      "repair": 0,
+      "retention": 0
+    },
+    {
+      "name": "CA_CLASS_REPAIR",
+      "method": 12,
+      "classification": 1,
+      "repair": 1,
+      "retention": 0
+    },
+    {
+      "name": "S3R2",
+      "method": 12,
+      "classification": 1,
+      "repair": 1,
+      "retention": 1
+    }
+  ],
+  "casesPerPrecisionBranch": 36,
+  "totalAssumedClosedLoopRuns": 360,
+  "historicalFloatBranchExactChecks": [
+    "BLNN",
+    "CA_CLASS",
+    "CA_CLASS_REPAIR",
+    "S3R2"
+  ],
+  "summaries": [
+    {
+      "precision": "float",
+      "variant": "BLNN",
+      "completedAll36": 31,
+      "faultOutcomes": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5576
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 6475
+        },
+        {
+          "case": 21,
+          "fault": 512,
+          "stop_ms": 5576
+        },
+        {
+          "case": 23,
+          "fault": 1024,
+          "stop_ms": 20000
+        },
+        {
+          "case": 24,
+          "fault": 512,
+          "stop_ms": 6475
+        }
+      ],
+      "fixedComparisonPopulationCaseIDs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "failedInFixedPopulation": [],
+      "primaryMeanUnavailableIfAnyFixedPopulationFailure": true,
+      "diagnostics1ms": {
+        "tracking": 0.11182471394666667,
+        "sync": 0.03207684431400001
+      },
+      "modelTrace40ms": {
+        "tracking": 0.1117792373567822,
+        "sync": 0.03201519517924435
+      },
+      "sameCaseModelTrace40msSyncWinsVsOrdinary": 0
+    },
+    {
+      "precision": "float",
+      "variant": "CA_ALL_FREEZE",
+      "completedAll36": 31,
+      "faultOutcomes": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5601
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 6106
+        },
+        {
+          "case": 21,
+          "fault": 512,
+          "stop_ms": 5601
+        },
+        {
+          "case": 23,
+          "fault": 1024,
+          "stop_ms": 20000
+        },
+        {
+          "case": 24,
+          "fault": 512,
+          "stop_ms": 6106
+        }
+      ],
+      "fixedComparisonPopulationCaseIDs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "failedInFixedPopulation": [],
+      "primaryMeanUnavailableIfAnyFixedPopulationFailure": true,
+      "diagnostics1ms": {
+        "tracking": 0.17710002314,
+        "sync": 0.053272561379999986
+      },
+      "modelTrace40ms": {
+        "tracking": 0.17697965535329893,
+        "sync": 0.0532410959416351
+      },
+      "sameCaseModelTrace40msSyncWinsVsOrdinary": 0
+    },
+    {
+      "precision": "float",
+      "variant": "CA_CLASS",
+      "completedAll36": 32,
+      "faultOutcomes": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5610
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 5825
+        },
+        {
+          "case": 21,
+          "fault": 512,
+          "stop_ms": 5610
+        },
+        {
+          "case": 24,
+          "fault": 512,
+          "stop_ms": 5825
+        }
+      ],
+      "fixedComparisonPopulationCaseIDs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "failedInFixedPopulation": [],
+      "primaryMeanUnavailableIfAnyFixedPopulationFailure": true,
+      "diagnostics1ms": {
+        "tracking": 0.18268432761999995,
+        "sync": 0.05227705406333334
+      },
+      "modelTrace40ms": {
+        "tracking": 0.1825361760010569,
+        "sync": 0.05227261488382757
+      },
+      "sameCaseModelTrace40msSyncWinsVsOrdinary": 0
+    },
+    {
+      "precision": "float",
+      "variant": "CA_CLASS_REPAIR",
+      "completedAll36": 30,
+      "faultOutcomes": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5571
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 5801
+        },
+        {
+          "case": 21,
+          "fault": 512,
+          "stop_ms": 5571
+        },
+        {
+          "case": 23,
+          "fault": 1024,
+          "stop_ms": 20000
+        },
+        {
+          "case": 24,
+          "fault": 512,
+          "stop_ms": 5801
+        },
+        {
+          "case": 30,
+          "fault": 1024,
+          "stop_ms": 20000
+        }
+      ],
+      "fixedComparisonPopulationCaseIDs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "failedInFixedPopulation": [],
+      "primaryMeanUnavailableIfAnyFixedPopulationFailure": true,
+      "diagnostics1ms": {
+        "tracking": 0.16715274044666667,
+        "sync": 0.04486670996333333
+      },
+      "modelTrace40ms": {
+        "tracking": 0.16705303063016202,
+        "sync": 0.04479604128422062
+      },
+      "sameCaseModelTrace40msSyncWinsVsOrdinary": 4
+    },
+    {
+      "precision": "float",
+      "variant": "S3R2",
+      "completedAll36": 30,
+      "faultOutcomes": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5571
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 5801
+        },
+        {
+          "case": 21,
+          "fault": 512,
+          "stop_ms": 5571
+        },
+        {
+          "case": 23,
+          "fault": 1024,
+          "stop_ms": 20000
+        },
+        {
+          "case": 24,
+          "fault": 512,
+          "stop_ms": 5801
+        },
+        {
+          "case": 30,
+          "fault": 1024,
+          "stop_ms": 20000
+        }
+      ],
+      "fixedComparisonPopulationCaseIDs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "failedInFixedPopulation": [],
+      "primaryMeanUnavailableIfAnyFixedPopulationFailure": true,
+      "diagnostics1ms": {
+        "tracking": 0.16546379789333335,
+        "sync": 0.04805963416666668
+      },
+      "modelTrace40ms": {
+        "tracking": 0.16539323912404835,
+        "sync": 0.047946986962017685
+      },
+      "sameCaseModelTrace40msSyncWinsVsOrdinary": 4
+    },
+    {
+      "precision": "double",
+      "variant": "BLNN",
+      "completedAll36": 31,
+      "faultOutcomes": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5576
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 6475
+        },
+        {
+          "case": 21,
+          "fault": 512,
+          "stop_ms": 5576
+        },
+        {
+          "case": 23,
+          "fault": 1024,
+          "stop_ms": 20000
+        },
+        {
+          "case": 24,
+          "fault": 512,
+          "stop_ms": 6475
+        }
+      ],
+      "fixedComparisonPopulationCaseIDs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "failedInFixedPopulation": [],
+      "primaryMeanUnavailableIfAnyFixedPopulationFailure": true,
+      "diagnostics1ms": {
+        "tracking": 0.11178479374666668,
+        "sync": 0.03211218414733334
+      },
+      "modelTrace40ms": {
+        "tracking": 0.11172882517938339,
+        "sync": 0.0320373009928356
+      },
+      "sameCaseModelTrace40msSyncWinsVsOrdinary": 0
+    },
+    {
+      "precision": "double",
+      "variant": "CA_ALL_FREEZE",
+      "completedAll36": 31,
+      "faultOutcomes": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5601
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 6106
+        },
+        {
+          "case": 21,
+          "fault": 512,
+          "stop_ms": 5601
+        },
+        {
+          "case": 23,
+          "fault": 1024,
+          "stop_ms": 20000
+        },
+        {
+          "case": 24,
+          "fault": 512,
+          "stop_ms": 6106
+        }
+      ],
+      "fixedComparisonPopulationCaseIDs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "failedInFixedPopulation": [],
+      "primaryMeanUnavailableIfAnyFixedPopulationFailure": true,
+      "diagnostics1ms": {
+        "tracking": 0.17846302187333335,
+        "sync": 0.05295697049
+      },
+      "modelTrace40ms": {
+        "tracking": 0.17835924178489543,
+        "sync": 0.05291668952917647
+      },
+      "sameCaseModelTrace40msSyncWinsVsOrdinary": 0
+    },
+    {
+      "precision": "double",
+      "variant": "CA_CLASS",
+      "completedAll36": 32,
+      "faultOutcomes": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5610
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 5825
+        },
+        {
+          "case": 21,
+          "fault": 512,
+          "stop_ms": 5610
+        },
+        {
+          "case": 24,
+          "fault": 512,
+          "stop_ms": 5825
+        }
+      ],
+      "fixedComparisonPopulationCaseIDs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "failedInFixedPopulation": [],
+      "primaryMeanUnavailableIfAnyFixedPopulationFailure": true,
+      "diagnostics1ms": {
+        "tracking": 0.18301663183999992,
+        "sync": 0.05267081986
+      },
+      "modelTrace40ms": {
+        "tracking": 0.1828629610595401,
+        "sync": 0.05267143167998293
+      },
+      "sameCaseModelTrace40msSyncWinsVsOrdinary": 0
+    },
+    {
+      "precision": "double",
+      "variant": "CA_CLASS_REPAIR",
+      "completedAll36": 30,
+      "faultOutcomes": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5571
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 5801
+        },
+        {
+          "case": 21,
+          "fault": 512,
+          "stop_ms": 5571
+        },
+        {
+          "case": 23,
+          "fault": 1024,
+          "stop_ms": 20000
+        },
+        {
+          "case": 24,
+          "fault": 512,
+          "stop_ms": 5801
+        },
+        {
+          "case": 30,
+          "fault": 1024,
+          "stop_ms": 20000
+        }
+      ],
+      "fixedComparisonPopulationCaseIDs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "failedInFixedPopulation": [],
+      "primaryMeanUnavailableIfAnyFixedPopulationFailure": true,
+      "diagnostics1ms": {
+        "tracking": 0.16900779714666667,
+        "sync": 0.04480665525
+      },
+      "modelTrace40ms": {
+        "tracking": 0.16892267098108038,
+        "sync": 0.044738498147553346
+      },
+      "sameCaseModelTrace40msSyncWinsVsOrdinary": 4
+    },
+    {
+      "precision": "double",
+      "variant": "S3R2",
+      "completedAll36": 30,
+      "faultOutcomes": [
+        {
+          "case": 3,
+          "fault": 512,
+          "stop_ms": 5571
+        },
+        {
+          "case": 6,
+          "fault": 512,
+          "stop_ms": 5801
+        },
+        {
+          "case": 21,
+          "fault": 512,
+          "stop_ms": 5571
+        },
+        {
+          "case": 23,
+          "fault": 1024,
+          "stop_ms": 20000
+        },
+        {
+          "case": 24,
+          "fault": 512,
+          "stop_ms": 5801
+        },
+        {
+          "case": 30,
+          "fault": 1024,
+          "stop_ms": 20000
+        }
+      ],
+      "fixedComparisonPopulationCaseIDs": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "failedInFixedPopulation": [],
+      "primaryMeanUnavailableIfAnyFixedPopulationFailure": true,
+      "diagnostics1ms": {
+        "tracking": 0.16750960428000003,
+        "sync": 0.04869250562666668
+      },
+      "modelTrace40ms": {
+        "tracking": 0.1674509153502628,
+        "sync": 0.0486183046155713
+      },
+      "sameCaseModelTrace40msSyncWinsVsOrdinary": 4
+    }
+  ],
+  "contrasts": [
+    {
+      "precision": "float",
+      "from": "BLNN",
+      "to": "S3R2",
+      "change_pct": {
+        "tracking": 47.96418640443794,
+        "sync": 49.763219288764525
+      },
+      "notPhysicalCausalProof": true
+    },
+    {
+      "precision": "float",
+      "from": "CA_ALL_FREEZE",
+      "to": "CA_CLASS",
+      "change_pct": {
+        "tracking": 3.1396380768544674,
+        "sync": -1.8190479378358715
+      },
+      "notPhysicalCausalProof": true
+    },
+    {
+      "precision": "float",
+      "from": "CA_CLASS",
+      "to": "CA_CLASS_REPAIR",
+      "change_pct": {
+        "tracking": -8.482233883767364,
+        "sync": -14.30304111669779
+      },
+      "notPhysicalCausalProof": true
+    },
+    {
+      "precision": "float",
+      "from": "CA_CLASS_REPAIR",
+      "to": "S3R2",
+      "change_pct": {
+        "tracking": -0.993571622048739,
+        "sync": 7.033982440111242
+      },
+      "notPhysicalCausalProof": true
+    },
+    {
+      "precision": "double",
+      "from": "BLNN",
+      "to": "S3R2",
+      "change_pct": {
+        "tracking": 49.87261799398339,
+        "sync": 51.75530743505408
+      },
+      "notPhysicalCausalProof": true
+    },
+    {
+      "precision": "double",
+      "from": "CA_ALL_FREEZE",
+      "to": "CA_CLASS",
+      "change_pct": {
+        "tracking": 2.525083213841106,
+        "sync": -0.4634791998057941
+      },
+      "notPhysicalCausalProof": true
+    },
+    {
+      "precision": "double",
+      "from": "CA_CLASS",
+      "to": "CA_CLASS_REPAIR",
+      "change_pct": {
+        "tracking": -7.623353574549618,
+        "sync": -15.061169365260273
+      },
+      "notPhysicalCausalProof": true
+    },
+    {
+      "precision": "double",
+      "from": "CA_CLASS_REPAIR",
+      "to": "S3R2",
+      "change_pct": {
+        "tracking": -0.8712599808360921,
+        "sync": 8.672187553596133
+      },
+      "notPhysicalCausalProof": true
+    }
+  ],
+  "modelIdentified": false,
+  "independentModelValidation": false,
+  "native1msAnd40msDefinitionsSeparated": true,
+  "modelTraceQuantization": "Model-position/reference values at40ms rounded to1um with nearest/half-away-fromzero. Not exact MCU six-decimal arithmetic; no claim that model equals physical telemetry pipeline.",
+  "comparisonPopulation": "Ordinary+S3R2 jointly complete cases fixed before ablation means; all36 failure outcomes retained. This is conditional completed-case diagnostic comparison, not unconditional efficacy.",
+  "oldV3IsNotFinalS3R2": true,
+  "oldV3TheoryNotTransferred": true,
+  "availableProperties": [
+    "Finite nodes and componentwise projected weights",
+    "Bounded guarded integer increments",
+    "Measured-sigma sector check",
+    "Fixed-feature accepted repair non-enlargement"
+  ],
+  "propertiesAreNotClosedLoopStabilityProof": true,
+  "gaps": [
+    "Model-to-hardware predictive validation missing; simulated and observed ordinary/S3R2 mean ordering must not be called consistent.",
+    "No closed-loop theorem forfinalS3R2/discrete filters/quantization/guard switching established inthis audit.",
+    "Physical repeated comparisons arewhole-controller preliminary,not component-isolating ablations.",
+    "No task-derived tracking tolerance; report tradeoffs rather thanacceptablecost.",
+    "Physical current hard-saturation benefit untested inlatest unloaded2mm observations."
+  ],
+  "firmwareAndRawUnchanged": true,
+  "hardwareAction": false,
+  "additionalPhysicalRunReleased": false,
+  "formalArchiveComplete": false,
+  "auditSHA256": "d70804d54cbfb9817936cf02344b137aeaba168f03a28bee8ae4926981450fb6"
+}

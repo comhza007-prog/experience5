@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-15",
+  "build": 68212,
+  "schema": 4501,
+  "magic": 4446,
+  "ABI": 4,
+  "project": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\模型闭环_电机响应M1_20261015\\eassy_E5ID_MOTOR_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+  "target": "exp5ID_MOTOR_BLNN_HW6",
+  "hex": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\模型闭环_电机响应M1_20261015\\eassy_E5ID_MOTOR_BLNN_HW6\\MDK-ARM\\exp5ID_MOTOR_BLNN_HW6\\exp5ID_MOTOR_BLNN_HW6.hex",
+  "hexSHA256": "2330d597ae7c4c0238e4c7960df85b9115b7911cfed39ec8083751710b7cf46f",
+  "sourceHashes": {
+    "Task/motor_task.c": "58833591d2f48cbf82f8d9ecb4112136ba2f9bf989d076a3a6fa27ccad653fee",
+    "Task/identification_trace.h": "c4696d30e0d39b4cd6dfc16d628fbb11b251602faaf66d69cda97fc3cc428608",
+    "Task/experiment5_formal_config.h": "33244efcb81d44d1cd4f270c9f10a57d9eff81292d97c31da0519d3ff0eaea1d",
+    "Task/vofa_task.c": "a172b111871dd24b91987794f3fa49cb5f38a8e6fd288241dea1d8d0e597d9f6",
+    "Task/blnn_core.c": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+    "Task/experiment5_motion.h": "614333932d95cda077cddf3131f837da00d73a1baa19dc57b94924069c67ffbd",
+    "Task/experiment5_error_summary.h": "7b788aebd3dfe733118a1d03103a1c412c93d81c45b07b91b3da6dfc463923a9",
+    "Task/experiment5_error_wave.h": "ea2d590bf55cd4e97fcc55d73c9dd8e71b7f5a485815f84baa510022e0abb40c"
+  },
+  "unchangedHistoricalSourceFiles": 187,
+  "controlGuardsTrajectoryAndUARTUnchanged": true,
+  "onlyRecorderAndIdentityChanged": true,
+  "compileErrors": 0,
+  "compileWarnings": 0,
+  "ARMTraceBytes": 83968,
+  "blobBytes": 83872,
+  "RAM": {
+    "used": 110880,
+    "maximum": 114688,
+    "remaining": 3808
+  },
+  "AXFHEXByteExact": true,
+  "fine1msRowsExpected": 1800,
+  "coarse20msRowsExpected": 910,
+  "coveredControlIntervals": 20000,
+  "independentPythonDecode": {
+    "passed": true,
+    "blobBytes": 83872,
+    "crc32": 3625666795,
+    "fineRows": 1800,
+    "coarseRows": 910,
+    "coveredControlIntervals": 20000,
+    "rawCurrentAndRPMInt16Lossless": true,
+    "commandIntegralsExact": true
+  },
+  "rawCurrentUnitsNotCalibrated": true,
+  "batteryNotMotorTerminalVoltage": true,
+  "checks": [
+    "PASS ABI4 blob83872 trace83968 fine1800 coarse910 full20000 input-integral-conservation current/rpm-int16-lossless words65536 chunks3496 fault-gating/stalled-TC/overflow/battery-flags no-hardware",
+    "{\"passed\": true, \"blobBytes\": 83872, \"crc32\": 3625666795, \"fineRows\": 1800, \"coarseRows\": 910, \"coveredControlIntervals\": 20000, \"rawCurrentAndRPMInt16Lossless\": true, \"commandIntegralsExact\": true}",
+    "PASS JS decoder:2710 lossless samples/full20000step integral coverage;CRC/duplicate/identity/gap/tail checks;no hardware",
+    "PASS old zero/65408 delimiter; all65536 split-range words exact includingCSV6decimals, all encoded pairs and zero boundaries delimiter-free"
+  ],
+  "onBoardTimingQualified": false,
+  "motorModelIdentified": false,
+  "newParametersDerived": false,
+  "assistantFlashed": false,
+  "assistantMotorRun": false,
+  "manualQualificationRunsAuthorized": 1,
+  "additionalExcitation": false
+}

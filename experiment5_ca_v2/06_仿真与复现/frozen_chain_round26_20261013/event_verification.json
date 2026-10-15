@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "file": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\同期复核A_BLNN_R2_20261013\\01_R2\\E5V_A_S3R2_HW6_EVENT48_L1200_R1200_M0g_S2mm_pair01.csv",
+      "records": 128,
+      "exactMatch": 128,
+      "mismatch": [],
+      "largeDeltaMismatch": 0,
+      "interpretation": "Six-decimal float export causes ambiguous quantization/sector-boundary cases; this checks frozen allocation only, not network replay or closed-loop causality."
+    },
+    {
+      "file": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\同期复核A_BLNN_R2_20261013\\01_R2\\E5V_A_S3R2_HW6_EVENT48_L1200_R1200_M0g_S2mm_pair02.csv",
+      "records": 128,
+      "exactMatch": 128,
+      "mismatch": [],
+      "largeDeltaMismatch": 0,
+      "interpretation": "Six-decimal float export causes ambiguous quantization/sector-boundary cases; this checks frozen allocation only, not network replay or closed-loop causality."
+    }
+  ],
+  "rawDataReadOnly": true,
+  "previousDeltaIsActual1msEventMemory": true
+}

@@ -1,0 +1,5 @@
+Load "exp5OL_A_NO_DRIVE_PROTOCOL\\exp5OL_A_NO_DRIVE_PROTOCOL.axf" 
+Error: Not a genuine ST Device! Abort connection. 
+RDDI-DAP Error
+Error: Flash Download failed  -  Target DLL has been cancelled
+Flash Load finished at 12:39:56

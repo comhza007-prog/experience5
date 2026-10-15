@@ -1,0 +1,206 @@
+{
+  "protocol": "protocol.json",
+  "native": [
+    {
+      "precision": "float",
+      "variant": "CA_PLAIN",
+      "result": "PASS60000 same-state commands/guards;disabled exact source;plain learning1,ordinary unchanged. HOST DIAGNOSTIC ONLY"
+    },
+    {
+      "precision": "float",
+      "variant": "S3R2",
+      "result": "PASS60000 same-state commands/guards;disabled exact source;plain learning1,ordinary unchanged. HOST DIAGNOSTIC ONLY"
+    },
+    {
+      "precision": "double",
+      "variant": "CA_PLAIN",
+      "result": "PASS60000 same-state commands/guards;disabled exact source;plain learning1,ordinary unchanged. HOST DIAGNOSTIC ONLY"
+    },
+    {
+      "precision": "double",
+      "variant": "S3R2",
+      "result": "PASS60000 same-state commands/guards;disabled exact source;plain learning1,ordinary unchanged. HOST DIAGNOSTIC ONLY"
+    }
+  ],
+  "replayEffects": [
+    {
+      "name": "CA_PLAIN",
+      "changedCommandSteps": 122,
+      "changedLearningSteps": 258,
+      "finalNodes": [
+        7,
+        14
+      ],
+      "closedLoopCounterfactual": false
+    },
+    {
+      "name": "CA_CLASS",
+      "changedCommandSteps": 24,
+      "changedLearningSteps": 90,
+      "finalNodes": [
+        7,
+        8
+      ],
+      "closedLoopCounterfactual": false
+    },
+    {
+      "name": "CA_CLASS_REPAIR",
+      "changedCommandSteps": 0,
+      "changedLearningSteps": 0,
+      "finalNodes": [
+        7,
+        8
+      ],
+      "closedLoopCounterfactual": false
+    },
+    {
+      "name": "S3R2",
+      "changedCommandSteps": 0,
+      "changedLearningSteps": 0,
+      "finalNodes": [
+        7,
+        8
+      ],
+      "closedLoopCounterfactual": false
+    }
+  ],
+  "metrics": [
+    {
+      "name": "BLNN",
+      "baselinePopulationN": 30,
+      "completedTotal": 31,
+      "failedPopulationCases": [],
+      "newFailures": [],
+      "trackingRMSE_mm": 0.11182471394666667,
+      "syncRMS_mm": 0.03207684431400001,
+      "mechanismMeans": {
+        "zeroLearning_pct": 0,
+        "pureRate_pct": 0,
+        "anyMask_pct": 0,
+        "NNIncrementRMS_counts": 97.51832082,
+        "amplitudeHits": 1100,
+        "meanSector": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "name": "CA_PLAIN",
+      "baselinePopulationN": 30,
+      "completedTotal": 30,
+      "failedPopulationCases": [],
+      "newFailures": [],
+      "trackingRMSE_mm": 0.17439118206666668,
+      "syncRMS_mm": 0.056724985835333336,
+      "mechanismMeans": {
+        "zeroLearning_pct": 35.809,
+        "pureRate_pct": 7.099166666666668,
+        "anyMask_pct": 42.73366666666666,
+        "NNIncrementRMS_counts": 129.22130078000004,
+        "amplitudeHits": 1697,
+        "meanSector": [
+          0.906215451,
+          0.8389002808333335
+        ]
+      }
+    },
+    {
+      "name": "CA_CLASS",
+      "baselinePopulationN": 30,
+      "completedTotal": 32,
+      "failedPopulationCases": [],
+      "newFailures": [],
+      "trackingRMSE_mm": 0.18268432761999995,
+      "syncRMS_mm": 0.05227705406333334,
+      "mechanismMeans": {
+        "zeroLearning_pct": 30.281499999999998,
+        "pureRate_pct": 3.3271666666666673,
+        "anyMask_pct": 33.562666666666665,
+        "NNIncrementRMS_counts": 107.94497529333333,
+        "amplitudeHits": 857,
+        "meanSector": [
+          0.8543646772333334,
+          0.7758366085333335
+        ]
+      }
+    },
+    {
+      "name": "CA_CLASS_REPAIR",
+      "baselinePopulationN": 30,
+      "completedTotal": 30,
+      "failedPopulationCases": [],
+      "newFailures": [],
+      "trackingRMSE_mm": 0.16715274044666667,
+      "syncRMS_mm": 0.04486670996333333,
+      "mechanismMeans": {
+        "zeroLearning_pct": 21.264000000000003,
+        "pureRate_pct": 7.919666666666667,
+        "anyMask_pct": 29.137499999999996,
+        "NNIncrementRMS_counts": 115.71828793999998,
+        "amplitudeHits": 853,
+        "meanSector": [
+          0.9451018382666666,
+          0.8733697855333332
+        ]
+      }
+    },
+    {
+      "name": "S3R2",
+      "baselinePopulationN": 30,
+      "completedTotal": 30,
+      "failedPopulationCases": [],
+      "newFailures": [],
+      "trackingRMSE_mm": 0.16546379789333335,
+      "syncRMS_mm": 0.04805963416666668,
+      "mechanismMeans": {
+        "zeroLearning_pct": 24.882000000000005,
+        "pureRate_pct": 7.360333333333335,
+        "anyMask_pct": 32.19616666666667,
+        "NNIncrementRMS_counts": 133.08659295333334,
+        "amplitudeHits": 853,
+        "meanSector": [
+          0.9318465445666665,
+          0.8774042901333331
+        ]
+      }
+    }
+  ],
+  "contrasts": [
+    {
+      "from": "BLNN",
+      "to": "CA_PLAIN",
+      "syncChange_pct": 76.84091764156362,
+      "trackingChange_pct": 55.950483494945736,
+      "boundary": "Whole CA output-path contrast including sector/gate/allocator/AW, not allocator alone"
+    },
+    {
+      "from": "CA_PLAIN",
+      "to": "CA_CLASS",
+      "syncChange_pct": -7.841221476743721,
+      "trackingChange_pct": 4.755484454576919,
+      "boundary": "Successive learning-rule contrast; not additive contribution or physical causal evidence"
+    },
+    {
+      "from": "CA_CLASS",
+      "to": "CA_CLASS_REPAIR",
+      "syncChange_pct": -14.175137128083815,
+      "trackingChange_pct": -8.501871712630106,
+      "boundary": "Successive learning-rule contrast; not additive contribution or physical causal evidence"
+    },
+    {
+      "from": "CA_CLASS_REPAIR",
+      "to": "S3R2",
+      "syncChange_pct": 7.116466096896157,
+      "trackingChange_pct": -1.010418703767657,
+      "boundary": "Successive learning-rule contrast; not additive contribution or physical causal evidence"
+    }
+  ],
+  "sourceSHA256": "a040d7399fd3e1355d2c5a54a1b0be50ad12ad8d9d44263cdd32e7c0239a3a98",
+  "copiedHeadersUnchanged": true,
+  "R2AndOrdinaryBaselineExactlyReproduced": true,
+  "all36CasesRetained": true,
+  "assumedModelsIdentified": false,
+  "physicalCauseProven": false,
+  "hardwareReleased": false
+}

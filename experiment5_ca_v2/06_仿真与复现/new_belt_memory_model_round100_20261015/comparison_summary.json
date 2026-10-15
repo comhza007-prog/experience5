@@ -1,0 +1,295 @@
+{
+  "status": "Low-speed elastic-slider memory implemented and jointly calibrated; improved but not accepted",
+  "selectedVariant": "coupling_variant",
+  "modelParameters": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_memory_model_round100_20261015\\model_parameters.json",
+  "modelSHA256": "a44665e79b254514302e0c39c3a3ebf288df7e684920e5dc2b76df49683ce486",
+  "sources": [
+    {
+      "name": "new_belt_run010",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+      "rawSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_r96_frozen_check_round97_20261015\\capture_analysis.json",
+      "decodedSHA256": "7d2e50b8382219adf1b8d2252e02ce110a0edb6e8d4f00c4df266952ed2abffd"
+    },
+    {
+      "name": "new_belt_run011",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run011.csv",
+      "rawSHA256": "e7e38ee5980fca58f656ac36ffe52d37b505909b4dee49e53acba25dbd306173",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_frozen_check_round99_20261015\\capture_analysis.json",
+      "decodedSHA256": "6022ce98f46a4b09be546bfb8668a70e0ef5e4a7066ac303cb5d571019d41460"
+    }
+  ],
+  "cases": [
+    {
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.45504046317333147,
+      "predictedSyncRMS_mm": 0.05604821585028377,
+      "trackingDifference_percent": 69.57625226598807,
+      "syncDifference_percent": 4.990506205544953,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.4926788101796139,
+        0.5039219756073354
+      ]
+    },
+    {
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.4730801094952101,
+      "predictedSyncRMS_mm": 0.08045769074488777,
+      "trackingDifference_percent": 41.053267111856485,
+      "syncDifference_percent": -5.972845299333551,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.506595459908594,
+        0.5240315973297791
+      ]
+    }
+  ],
+  "previousR98Comparisons": [
+    {
+      "family": "damping_stiffness",
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.8924107802043855,
+      "predictedSyncRMS_mm": 0.054655123273120505,
+      "trackingDifference_percent": 232.56751396014135,
+      "syncDifference_percent": 2.380940626182837,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.7585086172878982,
+        0.7109561554695202
+      ]
+    },
+    {
+      "model": "R98_damping_stiffness",
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 1.0822831009606497,
+      "predictedSyncRMS_mm": 0.043412123882620626,
+      "trackingDifference_percent": 222.6928468697256,
+      "syncDifference_percent": -49.26627336175407,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.8991970376396947,
+        0.88163524203607
+      ]
+    }
+  ],
+  "mechanismDiagnostics": [
+    {
+      "record": "new_belt_run010",
+      "yieldStepCounts": [
+        736,
+        0
+      ],
+      "plasticSlipStepCounts": [
+        684,
+        0
+      ],
+      "totalPlasticDissipation": 9.094275865160489e-07,
+      "finalPlasticAnchor_m": [
+        0.00039066358698562555,
+        -1.1519648082658485e-18
+      ]
+    },
+    {
+      "record": "new_belt_run011",
+      "yieldStepCounts": [
+        2371,
+        1
+      ],
+      "plasticSlipStepCounts": [
+        1827,
+        0
+      ],
+      "totalPlasticDissipation": 2.9844523370550946e-06,
+      "finalPlasticAnchor_m": [
+        0.0012820337456972528,
+        -5.204170427930421e-18
+      ]
+    }
+  ],
+  "ablations": [
+    {
+      "case": "no_added_elastic_friction",
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 7.190235195562104,
+      "predictedSyncRMS_mm": 0.12132493560682406,
+      "trackingDifference_percent": 2579.526846626778,
+      "syncDifference_percent": 127.26800865064666,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        7.118259929751074,
+        7.150458104380442
+      ]
+    },
+    {
+      "case": "no_added_elastic_friction",
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 11.366944740040086,
+      "predictedSyncRMS_mm": 0.14174308625114668,
+      "trackingDifference_percent": 3289.1610754326584,
+      "syncDifference_percent": 65.64854118104688,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        11.317866143513974,
+        11.360706935089903
+      ]
+    },
+    {
+      "case": "elastic_without_slip_memory",
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.6100263073220695,
+      "predictedSyncRMS_mm": 0.05573995425186497,
+      "trackingDifference_percent": 127.33357437695022,
+      "syncDifference_percent": 4.413065143938755,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.6673577676179399,
+        0.6620462200632219
+      ]
+    },
+    {
+      "case": "elastic_without_slip_memory",
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.427850322834984,
+      "predictedSyncRMS_mm": 0.06024504128971943,
+      "trackingDifference_percent": 27.567582444190776,
+      "syncDifference_percent": -29.594427023044833,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.5089033282461417,
+        0.5498925281361806
+      ]
+    }
+  ],
+  "alternativeVariantResults": [
+    {
+      "variant": "coupling_variant",
+      "objective": 7.319714928376642,
+      "cases": [
+        {
+          "record": "new_belt_run010",
+          "actualTrackingRMSE_mm": 0.26833973336052963,
+          "actualSyncRMS_mm": 0.053384080023917105,
+          "predictedTrackingRMSE_mm": 0.45504046317333147,
+          "predictedSyncRMS_mm": 0.05604821585028377,
+          "trackingDifference_percent": 69.57625226598807,
+          "syncDifference_percent": 4.990506205544953,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.4926788101796139,
+            0.5039219756073354
+          ]
+        },
+        {
+          "record": "new_belt_run011",
+          "actualTrackingRMSE_mm": 0.33539110378780057,
+          "actualSyncRMS_mm": 0.08556856899586424,
+          "predictedTrackingRMSE_mm": 0.4730801094952101,
+          "predictedSyncRMS_mm": 0.08045769074488777,
+          "trackingDifference_percent": 41.053267111856485,
+          "syncDifference_percent": -5.972845299333551,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.506595459908594,
+            0.5240315973297791
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "drive_variant",
+      "objective": 7.354751815683416,
+      "cases": [
+        {
+          "record": "new_belt_run010",
+          "actualTrackingRMSE_mm": 0.26833973336052963,
+          "actualSyncRMS_mm": 0.053384080023917105,
+          "predictedTrackingRMSE_mm": 0.45900305077962167,
+          "predictedSyncRMS_mm": 0.06013345574636469,
+          "trackingDifference_percent": 71.05295776787743,
+          "syncDifference_percent": 12.643049612213474,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.5053281483353166,
+            0.519097572716344
+          ]
+        },
+        {
+          "record": "new_belt_run011",
+          "actualTrackingRMSE_mm": 0.33539110378780057,
+          "actualSyncRMS_mm": 0.08556856899586424,
+          "predictedTrackingRMSE_mm": 0.46138380918168337,
+          "predictedSyncRMS_mm": 0.08704767371963482,
+          "trackingDifference_percent": 37.56590558633226,
+          "syncDifference_percent": 1.728560780117827,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.5077599137387669,
+            0.5289478920460879
+          ]
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "passed": true,
+    "solverTestsSHA256": "123bc849beeaed01377e91d4c8420594732656c562a9d591ca5ccf80acb96319",
+    "checks": [
+      {
+        "record": "new_belt_run010",
+        "nativePropagationSteps": 20000,
+        "independentPythonSteps": 500,
+        "maximumNativePositionDifference_m": 0.0,
+        "maximumIndependentStateDifference": 1.951563910473908e-18,
+        "maximumSampledEnergyBalanceResidual": 9.424417483689173e-22
+      },
+      {
+        "record": "new_belt_run011",
+        "nativePropagationSteps": 20000,
+        "independentPythonSteps": 500,
+        "maximumNativePositionDifference_m": 0.0,
+        "maximumIndependentStateDifference": 2.168404344971009e-18,
+        "maximumSampledEnergyBalanceResidual": 1.6928023034215049e-21
+      }
+    ],
+    "kineticOnlyEquivalence": [
+      {
+        "record": "new_belt_run010",
+        "kineticOnlyEquivalenceMaxDifference_m": 0.0
+      },
+      {
+        "record": "new_belt_run011",
+        "kineticOnlyEquivalenceMaxDifference_m": 0.0
+      }
+    ],
+    "sourceSHA256": "d7c3bfd43884452adadb6626d27417b36f8a126ba6e091d1c11d6de3c0c585ff",
+    "solverSHA256": "22e77b041e02b62f6f69429a0695840c53139a6eefe28a17c3d02deb30ae6a17",
+    "scope": "Numerical checks, sampled energy identity and dissipation; not independent physical validation"
+  },
+  "allSyncAggregatesWithin15Percent": true,
+  "allTrackingAggregatesWithin15Percent": false,
+  "bothNewBeltRecordsNowCalibration": true,
+  "previousFrozenFailuresPreserved": true,
+  "oldRegimeRecordsUsedForObjective": 0,
+  "physicalModelValidated": false,
+  "allOldRawModelsFirmwarePreserved": true,
+  "newPhysicalRunReleased": false,
+  "assistantHardwareAction": false,
+  "nextStep": "No further same-condition collection yet. Address remaining common-mode tracking mismatch and hold-input uncertainty offline; no guarantee it is uniquely a friction or belt issue. Any further model development uses both records as calibration, then needs a genuinely new frozen test."
+}

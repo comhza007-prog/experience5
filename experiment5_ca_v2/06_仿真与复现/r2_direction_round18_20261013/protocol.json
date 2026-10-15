@@ -1,0 +1,17 @@
+{
+  "date":"2026-10-13",
+  "request":"Continue using the stronger prior physical version as the base and improve tracking with accumulated experimental evidence.",
+  "base":"R2 build66312; not R3/R4/R5 and not the unpublished transparent_round17 prototype.",
+  "codeRoot":"05_实验代码/S3R6_R2定向修复_20261013/eassy_E5R6_A_S3R6_HW6",
+  "target":"exp5R6_A_S3R6_HW6_EVENT48",
+  "build":66712,"schema":4476,"variant":10,"eventMagic":4428,"eventTrigger_ms":10050,
+  "singleChange":"Port R5 moving-Y directional-memory repair to R2 without modal admission/gradient restoration. Existing bounded update then feature-direction retraction tau100ms; weight projection and finite/same-sign/non-enlargement checks before commit. Mode5; no growth. Outside eligibility exactly R2; equal motor limits only. Same-input/same-state alpha update and current output equal R2, not an identical future closed-loop synchronization claim.",
+  "diagnosis":"In the physical R2 phase4 return:34/100 live40ms samples have Y prediction opposed to sigma; R5 has12/100. Both historical records differ in other learning rules and runtime conditions, so this is motivation,not sole-cause evidence. R2 entirephase2..5 tracking.174179621727mm/sync.038967710993mm; R4 return-plus-hold .171731840379/.022551718338 is not its full-motion score (.186828612972/.052861824600).",
+  "unchanged":["ordinary BLNN comparator","R2 alpha learning and static retention","all gains","limits1200/1200","300-count NN cap","2-count/ms increment slew","sector fraction.25","allocator","speed/braking guards","all runtime fault/deadline guards","trajectory","state/output ABI","107-channel40ms telemetry"],
+  "scope":"Exactly one unloaded2mm A exploratory run after host checks and clean Keil compilation. No hanging mass,asymmetric limits or repeated batch.",
+  "rawFolder":"01_原始数据/S3R6_R2定向修复_20261013",
+  "filename":"E5R6_A_S3R6_HW6_EVENT48_L1200_R1200_M0g_S2mm_run01.csv",
+  "collection":"Safe starting point and adequate battery. Clear VOFA history,fresh reset,verifyI63=66712. Record all107channels. OnI2=6/I22=0 waitI88=4428/I89=4 then5seconds,normallyI0>=100seconds. ModeI25=5 is new repair,not fault. On abnormal motion/fault stop safely,retain same history/export,no automatic rerun or overwrite.",
+  "analysis":"Wholephase2..5 at common elapsed timestamps vs unchanged ordinary65511 and R266312,plus separate outgoing/return/holds as diagnostics. Track=1000*((I5+I6)/2-I3);sync=1000*(I5-I6). No changing primary window,no interpolation or outcome-based run selection. Check all attempts/builds,fault/timing/stack/voltage and EVENT48 duplicates/missingchunks; mode5before/after fixed-feature property only.",
+  "assumedModelIdentified":false,"physicalEfficacyProven":false,"onBoardTimingMeasured":false,"formalBatchReleased":false
+}

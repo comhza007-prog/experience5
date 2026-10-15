@@ -1,0 +1,8 @@
+{
+  "purpose":"One bounded coordinate-pattern polish of the selected11parameter static-capture model. Nonsmooth breakaway transitions can make finite-difference LM reject small improvements. Same cumulative loss, bounds and three records; no additional model structure, output correction or record selection.",
+  "maximumPasses":80,"maximumEvaluations":1800,
+  "initialCoordinateStep":"0.03*(1+abs(scaled_parameter))",
+  "noImprovementRule":"halve all coordinate steps",
+  "minimumMaximumStep":0.00001,
+  "selection":"Accept only strictly lower cumulative objective; report all trials and pre-polish values. This is further training, not independent validation."
+}

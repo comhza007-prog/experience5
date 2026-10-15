@@ -1,0 +1,87 @@
+{
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run05.csv",
+  "sourceSHA256": "1a2901e72e3430f86212668ad8ee9c7883d7cd6fef7d43023cd8b9e0f1a8eb00",
+  "bytes": 5576410,
+  "totalRawRows": 4634,
+  "currentSessionRows": 4634,
+  "sessions": 1,
+  "excludedResetPrefixRows": 0,
+  "fullRecordingProtocolQualified": true,
+  "completeCRCVerifiedMotionSnapshotUsable": true,
+  "reasons": [],
+  "missingCSVFrames": 0,
+  "missingSamplesImputed": false,
+  "metrics": {
+    "native40msSamples": 400,
+    "trackingRMSE_mm": 0.1340096918136891,
+    "syncRMS_mm": 0.035777367147402
+  },
+  "firmware400PointMetrics": {
+    "trackingRMSE_mm": 0.13401,
+    "syncRMS_mm": 0.035777
+  },
+  "completionTail_s": 29.360000999999983,
+  "exportComplete_s": 157.401001,
+  "lastUptime_s": 186.761002,
+  "phaseCounts": {
+    "0": 164,
+    "1": 100,
+    "2": 100,
+    "3": 50,
+    "4": 100,
+    "5": 150,
+    "6": 3970
+  },
+  "periodRange_us": [
+    993,
+    1006
+  ],
+  "corePeak_us": 168.827377,
+  "bodyPeak_us": 306,
+  "stackMinimum_bytes": 2640,
+  "frozenModel": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\cumulative_micro_round86_20261015\\model_parameters.json",
+  "frozenModelSHA256": "b5fa79668e254f166c765a8444fd79733625633dc0e4ac8147e0c891da96580a",
+  "noParameterFit": true,
+  "assistantHardwareAction": false,
+  "CRC32": 18690254,
+  "minimumChunkCopies": 4,
+  "header": {
+    "version": 2,
+    "build": 68012,
+    "method": 11,
+    "max_age_ms": [
+      1,
+      1
+    ],
+    "slow_count": 300,
+    "fast_count": 8000,
+    "exception_count": 0,
+    "forward_count": 4000,
+    "first_ms": 1,
+    "last_ms": 20000,
+    "fault": 0,
+    "quality_flags": 0,
+    "steps": 20000,
+    "period_min_us": 993,
+    "period_max_us": 1006,
+    "configured_meters_per_count": 0.0000012110374427720672,
+    "right_sign": -1,
+    "clock": 168000000,
+    "manual_mode": 1,
+    "passes": 2,
+    "encoding": 1
+  },
+  "independentPythonFullDecodeCRCAndMetrics": {
+    "passed": true,
+    "sourceSHA256": "1a2901e72e3430f86212668ad8ee9c7883d7cd6fef7d43023cd8b9e0f1a8eb00",
+    "crc32": 18690254,
+    "minimumCopies": 4,
+    "independentlyDecodedMovingRows": 8000,
+    "independentlyDecodedHoldRows": 300,
+    "native40msSamples": 400,
+    "trackingRMSE_mm": 0.13400969181368935,
+    "syncRMS_mm": 0.035777367147402,
+    "completionTail_s": 29.360000999999983,
+    "excludedResetPrefixRows": 0
+  }
+}

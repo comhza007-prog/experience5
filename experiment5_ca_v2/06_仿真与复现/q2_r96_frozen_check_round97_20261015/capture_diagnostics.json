@@ -1,0 +1,92 @@
+{
+  "status": "No refit; inputs and metric windows checked",
+  "sourceSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+  "newRunCurrentSessionQualified": true,
+  "inputAlignment": {
+    "nativeMovingNextQueuedCommandChecks": 200,
+    "passed": true
+  },
+  "crossCaptureDiagnostics": [
+    {
+      "record": "run08",
+      "trackingRMSE_mm": 0.13453225681969358,
+      "syncRMS_mm": 0.04707284248906153,
+      "topHoldPriorQueuedMean_counts": [
+        45.5998534390908,
+        -13.129289995357288
+      ],
+      "topHoldNativeNextCommandMean_counts": [
+        45.96,
+        -16.74
+      ],
+      "nativeBatteryADCMedian_V": 24.45332,
+      "nativeBatteryADCRange_V": [
+        24.1639,
+        24.68762
+      ],
+      "motionPeakRPM": [
+        70,
+        60
+      ],
+      "limitation": "Battery ADC is not motor terminal voltage; queued command is not measured torque/current. Differences do not uniquely identify mechanical or drive faults."
+    },
+    {
+      "record": "run010",
+      "trackingRMSE_mm": 0.26833973336052963,
+      "syncRMS_mm": 0.053384080023917105,
+      "topHoldPriorQueuedMean_counts": [
+        504.44902588736096,
+        -1006.7771090626335
+      ],
+      "topHoldNativeNextCommandMean_counts": [
+        497.44,
+        -1011.82
+      ],
+      "nativeBatteryADCMedian_V": 24.445065,
+      "nativeBatteryADCRange_V": [
+        24.15511,
+        24.71271
+      ],
+      "motionPeakRPM": [
+        82,
+        62
+      ],
+      "limitation": "Battery ADC is not motor terminal voltage; queued command is not measured torque/current. Differences do not uniquely identify mechanical or drive faults."
+    }
+  ],
+  "interpretation": "New record differs materially in physical response: approximately double trackingRMSE and much higher sustained top-hold requests. This flags effective drive/friction/operating-condition mismatch; does not prove which component changed. Dense moving inputs are aligned, current snapshot CRC passes.",
+  "previousRun09": {
+    "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run09.csv",
+    "sourceSHA256": "1ac2b71efa4d7dcb5eae86cdad44167fa4d592046714961aeb26882e656e6e79",
+    "malformedMetadataRowIndices_zeroBased": [
+      2433,
+      2437
+    ],
+    "missingChunks": [
+      712,
+      715
+    ],
+    "singleCopyChunks": [
+      711,
+      713,
+      717,
+      718,
+      719,
+      722,
+      723,
+      724,
+      735
+    ],
+    "expectedCRC32": 128601232,
+    "incompleteBlobCRC32": 2626600526,
+    "completeSnapshotUsable": false,
+    "rawRetained": true,
+    "missingInputImputed": false,
+    "reason": "Two moving-data chunks absent from every usable repeat. Whole snapshot CRC cannot be verified; not used for model prediction. Operator confirms history cleared and board reset/power-cycled."
+  },
+  "modelsUnchanged": true,
+  "run010UsedForCalibration": false,
+  "newPhysicalRunReleased": false,
+  "assistantHardwareAction": false,
+  "nextStep": "Do not fit to this one record or repeat automatically. Check observed operating conditions and drive/transmission response before further model changes; existing six models fail aggregate screening."
+}

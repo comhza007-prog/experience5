@@ -1,0 +1,51 @@
+{
+  "date":"2026-10-15",
+  "status":"OFFLINE DESIGN ONLY, no new excitation/capture/firmware control modification released",
+  "goal":"Matched whole-task ordinaryBLNN/S3R2 predictive closure supporting observed synchronization-tracking tradeoff,not forced all-metric superiority",
+  "alreadyComplete":"Q2Slogger/transport/timing/40serror display qualification. Do not repeat it merely for a design audit",
+  "currentInputs":"All1ms movingqueuedcommands/encoder/RPM;40step holds onlyendpoints+commandintegrals;native40mssummary; recorded supplyvoltage",
+  "missingOrUnverified":["hold full1ms input/RPM timing or a justified multirate uncertainty model","low-speed RPM measurement quantization/bias/delay hypothesis","sticking versus actuator delivery deadzone","genuinely independent frozen-model test data"],
+  "offlineBeforeAnyNewCapture":[
+    "Check full-input recording feasibility without compromising existing guard deadlines; preserve107channels and40s summary",
+    "First evaluate whether multi-rate grey-box closed-loop prediction can be honestly validated from existing20s data. No substitution of40msmean as recovered1msinput",
+    "Choose ONE minimal effective mechanical plus measurement hypothesis. Stiction/delivery and measurement effects remain hypotheses; no parameter sweep chosen to makeS3R2win",
+    "Predefine parameter bounds/initialization/numerical solver/model-selection budget and all prediction acceptance metrics before opening independent validation outputs"
+  ],
+  "nextSingleMechanicalHypothesisToPrepare":{
+    "structure":"Keep8 effective nonnegative mechanical coefficients; replace smooth tanh friction with an explicit sticking-capable Coulomb graph. This is a candidate hypothesis,not an alreadyidentifiedplant",
+    "discreteSolver":"Implicit positive coupled two-axis step with Coulomb graph; solve the finite two-axis active-set cases and verify uniqueness/residual/passivity under stated parameter assumptions",
+    "sensorPriority":"Audit the low-speed integerRPM generator against recordedmotorangle before any force-gain retuning. Calibration must useordinarytrainingonly; no fixed0.8rpmcontrollercorrection basedononebiaseddiagnostic",
+    "existingDataUse":"Movingexactinput fortrainingdiagnostics; holds asendpoint/integral consistency checks orfullyclosedloopgreybox comparison with declaredactuationuncertainty. No segment-wise measured-state reset presented ascontinuousvalidation",
+    "fitBudget":"One initial structuredcandidate,not wideparametersearch. If itfails reportwhichgatefailed beforeanyrevision",
+    "controller":"No change tophysicalRPMdecoder/filter/BLNN/S3R2parameters"
+  },
+  "possibleTrainingCaptureNotReleased":{
+    "method":"OrdinaryBLNN, original2mm/1200_1200/guards/freshzero-weight initialization",
+    "perturbation":"If needed, reuse previously qualified20common/10sync requested-count design as an offline starting point,not automatic new approval",
+    "inputIndependence":"Store predetermined ungated sequence separately from actualgated perturbation; do not claim gatedclosed-loopsequence is exogenous proof",
+    "measurement":"Use exactprecedingqueuedinput intervals and signedencoder/RPM, plusvoltage; no torque/force calibration claim",
+    "budget":"At mostoneinitialtrainingcaptureproposal; if excitation/rank/fit inadequate report failure before proposing expansion"
+  },
+  "possibleIndependentValidationNotReleased":{
+    "methods":["ordinaryBLNN","frozenoriginalS3R2"],"initialMinimumRuns":2,
+    "frozenBeforeCapture":["model structure and parameters","sensor model","controller source/parameters","time/window definitions","initial state estimator","noise/actuation uncertainty treatment","acceptance budgets"],
+    "prediction":"One initial state estimate from pre-run data; simulate continuously acrossALL five phases; no resetting at4s/8s/10s/14s and no measuredfuture position/RPM corrections",
+    "forcedResponse":"If using recorded exogenouscommands/voltage, make it clear this is input-output validation,not closed-loopcounterfactual efficacy",
+    "closedLoop":"Separately simulate exactfrozen controller/trajectory/guards/sensor pipeline; verify command behavior and primarynative40ms positions/errors. Noactualfuturecontrollercommand substituted in a claimedcounterfactualclosedloop simulation",
+    "ordering":"Independent physical method order alternated/paired understablepower/mechanicalstate, not bothcontrollers in fixed blocked order",
+    "failure":"No validation-output-driven refit. A revisedmodel becomes a new exploration requiring a new untouchedvalidationdataset"
+  },
+  "proposedResolutionBudgetDiscussion":{
+    "previousExploratorySyncGains_um":[6.2706523,4.658752785631819],
+    "candidatePerMethodSyncPredictionRMSE_um":2,
+    "reason":"Two2um errors give4um worst-case empiricalRMS difference bound,below smallerobservedexploratorygain. This motivates model resolution,NOTapplication tracking tolerance or expected efficacy",
+    "notYetApproved":true,"notYetMet":true,"fewValidationRunsDoNotEstablishUniversalBound":true,
+    "alsoReport":["trackingpredictionRMSE and maximumerrors","phase-specificerrors including holds","initialization sensitivity","command predictions","sensor mismatch","supply variation","unsuccessful cases"],
+    "noModelBudgetRelaxedAfterSeeingValidationToGetAPass":true
+  },
+  "conditionalFutureMinimumTotal":3,
+  "minimumNotGuaranteedSufficient":true,
+  "doNotCollectTheseNow":true,
+  "rawNaming":"Use distinctversions and increment run numbers. Never overwrite previous CSV, training and validation directories separate",
+  "paperClosureStillRequired":["independent predictive admission","samefrozenmechanism ablations","method-specific conditional stability/safety analysis","fairphysicalrepeated evidence and statedcosts","reproducible archive"]
+}

@@ -1,0 +1,135 @@
+{
+  "source": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_故障保留回放_20261014\\E5REPLAY2_A_S3R2_B67712_HW6_STATE360_L1200_R1200_M0g_S2mm_run01.csv",
+  "sourceSHA256": "cfcb63b82bd8a04d4d7d573b249514a62980690c5ae444eca783dbc475423f18",
+  "snapshotSHA256": "dea4071535d7fab0a45934d733b72a12605e45e0b08d0f6ecba2ef9f5d938af6",
+  "header": [
+    1,
+    67712,
+    12,
+    5348,
+    48,
+    80,
+    360,
+    5360,
+    5719,
+    1000
+  ],
+  "CRC32": 3661474885,
+  "chunks": 2471,
+  "copies": 4942,
+  "snapshotValid": true,
+  "sourceKind": "PHYSICAL_SERIAL_SNAPSHOT",
+  "faultObserved": 0,
+  "physicalRunComplete": true,
+  "runMetrics": {
+    "rows": 5758,
+    "phases": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "missingFrames": 0,
+    "primaryWindow": "phase2..5 AND drivePermit1; unchanged40ms primary window",
+    "primarySamples": 400,
+    "trackingRMSE_mm": 0.17327092430135274,
+    "syncRMS_mm": 0.07997524682388989,
+    "corePeak_us": 160.125,
+    "bodyPeak_us": 269.9047546386719,
+    "late": 0,
+    "overruns": 0,
+    "UARTerrors": 0,
+    "steps": 20000
+  },
+  "baselineReplayPassed": true,
+  "baselineOutput": "PASS recorded-input baseline replay:360 integer commands/masks/causes exact;prediction/learning/final floats within predefined1e-5abs+2e-5rel;NOT a closed-loop counterfactual\r\n",
+  "ablations": [
+    {
+      "variant": "baseline_R2",
+      "steps": 360,
+      "changedCommandSteps": 0,
+      "changedLearningSteps": 0,
+      "meanActualModalLearning": [
+        0.40466224994777783,
+        0.492977431631111
+      ],
+      "repairSteps": [
+        5,
+        48
+      ],
+      "pureRateSteps": 86,
+      "bothAxesZeroLearningSteps": 147,
+      "finalNodes": [
+        7,
+        8
+      ]
+    },
+    {
+      "variant": "classification_off",
+      "steps": 360,
+      "changedCommandSteps": 113,
+      "changedLearningSteps": 87,
+      "meanActualModalLearning": [
+        0.2916666666666667,
+        0.41388888888888886
+      ],
+      "repairSteps": [
+        5,
+        49
+      ],
+      "pureRateSteps": 93,
+      "bothAxesZeroLearningSteps": 210,
+      "finalNodes": [
+        7,
+        8
+      ]
+    },
+    {
+      "variant": "repair_off",
+      "steps": 360,
+      "changedCommandSteps": 24,
+      "changedLearningSteps": 90,
+      "meanActualModalLearning": [
+        0.3909047112980557,
+        0.3909047112980557
+      ],
+      "repairSteps": [
+        0,
+        0
+      ],
+      "pureRateSteps": 86,
+      "bothAxesZeroLearningSteps": 176,
+      "finalNodes": [
+        7,
+        8
+      ]
+    },
+    {
+      "variant": "retention_off",
+      "steps": 360,
+      "changedCommandSteps": 0,
+      "changedLearningSteps": 0,
+      "meanActualModalLearning": [
+        0.40466224994777783,
+        0.492977431631111
+      ],
+      "repairSteps": [
+        5,
+        48
+      ],
+      "pureRateSteps": 86,
+      "bothAxesZeroLearningSteps": 147,
+      "finalNodes": [
+        7,
+        8
+      ]
+    }
+  ],
+  "closedLoopCounterfactual": false,
+  "performanceBenefitProven": false,
+  "formalEfficacyEvidence": false,
+  "finding": "Baseline recurrent snapshot validated. Single-factor branches explain only recorded-input learning/command effects, not alternative trajectory RMSE, stability or physical benefit. Faults remain failed runs."
+}

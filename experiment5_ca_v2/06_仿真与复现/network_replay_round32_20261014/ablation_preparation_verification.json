@@ -1,0 +1,66 @@
+{
+  "protocol": "ablation_protocol.json",
+  "sourceKind": "SYNTHETIC_LOGGER_TEST_NOT_PHYSICAL_DATA",
+  "baselineValidated": true,
+  "nativeBranches": [
+    "baseline_R2",
+    "classification_off",
+    "repair_off",
+    "retention_off"
+  ],
+  "stepsPerBranch": 360,
+  "retentionMovingNegativeControlExact": true,
+  "firmwareCoreChanged": false,
+  "hardwareUsed": false,
+  "physicalBenefitProven": false,
+  "realSnapshotAvailable": false,
+  "dedicatedRateClassificationTestPassed": true,
+  "fixtures": [
+    {
+      "name": "repair_active",
+      "branchComparisons": [
+        {
+          "variant": "classification_off",
+          "changedCommandSteps": 0,
+          "changedLearningSteps": 0
+        },
+        {
+          "variant": "repair_off",
+          "changedCommandSteps": 48,
+          "changedLearningSteps": 61
+        },
+        {
+          "variant": "retention_off",
+          "changedCommandSteps": 0,
+          "changedLearningSteps": 0
+        }
+      ]
+    },
+    {
+      "name": "rate_only",
+      "branchComparisons": [
+        {
+          "variant": "classification_off",
+          "changedCommandSteps": 36,
+          "changedLearningSteps": 18
+        },
+        {
+          "variant": "repair_off",
+          "changedCommandSteps": 0,
+          "changedLearningSteps": 0
+        },
+        {
+          "variant": "retention_off",
+          "changedCommandSteps": 0,
+          "changedLearningSteps": 0
+        }
+      ]
+    }
+  ],
+  "sourceHashes": {
+    "replay_ablation.c": "5a4ed60a100ab6da26eb578291c3512034700b6ab93a3a83fd38b5145e9fdbb7",
+    "test_replay.c": "3d99a75b73d930ac653b291ed4a1d0ec674049353542c4361032f6e3443f7a80",
+    "ablation_protocol.json": "adc7848dad4c82c8dadba59a8784b66b95f2087b2c7e4462346188de8fb41d5c"
+  },
+  "interpretation": "Toolchain readiness only. These synthetic request/update differences are not evidence of any real motor improvement. No baseline method chosen or discarded based on these outputs."
+}

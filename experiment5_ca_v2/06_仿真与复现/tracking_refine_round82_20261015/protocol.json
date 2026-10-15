@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-15",
+  "purpose": "Continue user-authorized offline cumulative parameter refinement. No new model structure, fitting target, record subset, waveform mapping, initial-state injection or hardware run.",
+  "records": [
+    {
+      "name": "T1",
+      "decoded": "identification_t1_fullmoving_round70_20261015/build68112_d1184a41428b_analysis.json",
+      "rawSHA256": "d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0",
+      "prefixRows": 0,
+      "nativeSamples": 400
+    },
+    {
+      "name": "Q2_run02",
+      "decoded": "q2_mechanical_recheck_round73_20261015/build68012_84bbb6e34165_analysis.json",
+      "rawSHA256": "84bbb6e3416540a238354d7636a6bc4e6f5ba0cd2d090470e3eb1bba1ce153db",
+      "prefixRows": 1,
+      "nativeSamples": 400
+    },
+    {
+      "name": "Q2_run03",
+      "decoded": "q2_frozen_r79_check_round80_20261015/capture_analysis.json",
+      "rawSHA256": "e8b6c897381bf15a77d4543d36f8564bab4318ae633bad56fc08b061fd173567",
+      "prefixRows": 1,
+      "nativeSamples": 399
+    }
+  ],
+  "parameterNames11": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "staticExtraL",
+    "staticExtraR"
+  ],
+  "parameterScales11": [
+    0.00001,
+    0.00001,
+    10,
+    10,
+    1000,
+    100,
+    0.01,
+    0.01,
+    0.2,
+    0.001,
+    0.001
+  ],
+  "lowerBounds11": [
+    1e-7,
+    1e-7,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -0.95,
+    0,
+    0
+  ],
+  "upperBounds11": [
+    0.001,
+    0.001,
+    1000,
+    1000,
+    100000,
+    10000,
+    1,
+    1,
+    0.95,
+    0.1,
+    0.1
+  ],
+  "recordWeights": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "waveformScale_mm": [
+    0.05,
+    0.05
+  ],
+  "metricRelativeScale": 0.1,
+  "objective": "Same normalized full-record waveform plus task-statistic calibration loss as R79, now equal-weighted over all three complete motion/holding snapshots. All native observed samples used:400/400/399. No absent native point imputed. Select lowest full cumulative calibration objective among declared candidates; report every record's before/after metrics and waveform errors.",
+  "stictionRule": "Use only simulated velocity, with fixed 1e-12 m/s numerical-zero tolerance. At rest OR when a kinetic-only trial crosses zero within the step, allow static reaction up to kinetic+extra and prefer feasible sticking. Otherwise use kinetic friction. This is an event-capture approximation, not phase-specific freezing or measured-velocity feedback. Numerical prototype omitting within-step capture retained separately.",
+  "inputLimitations": "Moving inputs 1ms recorded queued commands; hold inputs 40-step means, not recovered 1ms waveforms. Command-to-delivered-torque mapping uncalibrated.",
+  "recordingLimitations": "Run03 has one missing phase3 native CSV frame and 7.08s completion tail; its 8000 moving and300hold records have CRC verified four-copy recovery. T1 tail6.88s. These limitations are retained, not recast as full-protocol-qualified captures.",
+  "sourceModel": "cumulative_hold_calibration_round81_20261015/model_parameters.json",
+  "sourceModelSHA256": "eb5780d60421fc61155867fd06c2aac4988cbe05db91d217bcb1f80312428794",
+  "initialParameters": [
+    0.0000032005915077060694,
+    0.0000021263440377926,
+    1.2653427837041578,
+    0.014882433323175582,
+    9.020278798651365,
+    2.0595233070521055,
+    0.0004235482490954548,
+    0.00011240107340451455,
+    -0.88907131599331,
+    0.00014173839761819147,
+    0.0008519578476790697
+  ],
+  "optimizer": {
+    "method": "Bounded deterministic Nelder-Mead joint-coordinate simplex; avoids finite-difference Jacobian across stick/slip thresholds",
+    "maximumEvaluations": 2400,
+    "maximumIterations": 1600,
+    "initialScaledSimplexStep": 0.03,
+    "reflection": 1,
+    "expansion": 2,
+    "contraction": 0.5,
+    "shrink": 0.5,
+    "initializations": 1
+  },
+  "evaluation": "Keep exact full cumulative loss and compare all three records before/after, including worse results. All three remain training. Lowest objective only; no claim of global optimum or independent validation.",
+  "firmwareChanged": false,
+  "newPhysicalRunReleased": false
+}

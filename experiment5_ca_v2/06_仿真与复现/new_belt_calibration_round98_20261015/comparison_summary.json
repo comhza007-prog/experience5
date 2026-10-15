@@ -1,0 +1,112 @@
+{
+  "status": "New-belt regime established, parameter-only calibration attempted; none accepted",
+  "userConfirmedNewBelt": true,
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+  "sourceSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+  "newRegimeCalibrationRecords": 1,
+  "oldRegimeObservationsUsedInObjective": 0,
+  "oldModelUsedAsNominalStartAndFixedParameterReference": true,
+  "actualTrackingRMSE_mm": 0.26833973336052963,
+  "actualSyncRMS_mm": 0.053384080023917105,
+  "cases": [
+    {
+      "family": "effective_gains",
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.9105644056710102,
+      "predictedSyncRMS_mm": 0.017908028925596474,
+      "trackingDifference_percent": 239.3326788648237,
+      "syncDifference_percent": -66.45436445177415,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.7424948552010304,
+        0.7301959240505275
+      ]
+    },
+    {
+      "family": "friction_scales",
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.9930731833555874,
+      "predictedSyncRMS_mm": 0.09959201775242832,
+      "trackingDifference_percent": 270.08055829784155,
+      "syncDifference_percent": 86.55752371832419,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.8179735295228062,
+        0.8549851285256341
+      ]
+    },
+    {
+      "family": "damping_stiffness",
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.8924107802043855,
+      "predictedSyncRMS_mm": 0.054655123273120505,
+      "trackingDifference_percent": 232.56751396014135,
+      "syncDifference_percent": 2.380940626182837,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.7585086172878982,
+        0.7109561554695202
+      ]
+    }
+  ],
+  "models": [
+    {
+      "family": "effective_gains",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_calibration_round98_20261015\\model_parameters_effective_gains.json",
+      "sha256": "db6ff56b4a52c93637d4801540113d0ba4e17325e34b7b80fb45d82ac9afccd2"
+    },
+    {
+      "family": "friction_scales",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_calibration_round98_20261015\\model_parameters_friction_scales.json",
+      "sha256": "13ec4b574e2e60086d7a200c89a5cf08a2ad0929278063f55aa282178da3557f"
+    },
+    {
+      "family": "damping_stiffness",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_calibration_round98_20261015\\model_parameters_damping_stiffness.json",
+      "sha256": "0ba3cdc5eaebfc43cc938c48da1975410ac0283a71396fd747ae5247bc7ac660"
+    }
+  ],
+  "numericalVerification": {
+    "passed": true,
+    "checks": [
+      {
+        "family": "effective_gains",
+        "fullNativeStepChecks": 20000,
+        "independentPythonSteps": 500,
+        "maxNativePositionDifference_m": 0.0,
+        "maxIndependentStateDifference": 1.5178830414797062e-18
+      },
+      {
+        "family": "friction_scales",
+        "fullNativeStepChecks": 20000,
+        "independentPythonSteps": 500,
+        "maxNativePositionDifference_m": 0.0,
+        "maxIndependentStateDifference": 2.6020852139652106e-18
+      },
+      {
+        "family": "damping_stiffness",
+        "fullNativeStepChecks": 20000,
+        "independentPythonSteps": 500,
+        "maxNativePositionDifference_m": 0.0,
+        "maxIndependentStateDifference": 3.7947076036992655e-19
+      }
+    ]
+  },
+  "oldModelsAndRawUnchanged": true,
+  "previousFrozenRun010FailurePreserved": true,
+  "run010NowCalibrationForNewRegime": true,
+  "physicalModelValidated": false,
+  "uniqueMechanicalCauseEstablished": false,
+  "newPhysicalRunReleased": false,
+  "outputScalingOrMeasuredStateCorrectionAdded": false,
+  "controllerFirmwareChanged": false,
+  "assistantHardwareAction": false,
+  "stoppingRule": "All three bounded2-parameter families exhausted; no further widening or added parameters in this round.",
+  "nextStep": "Use new-belt regime for future work; do not mix old-belt observations without regime labels. Review existing model structure for changed low-speed/elastic response before another parameter search or physical repeat. New belt installation does not establish that reported sluggish/sticking response is safe or normal."
+}

@@ -1,0 +1,15 @@
+{
+  "date":"2026-10-15",
+  "authorization":"User continued the stated offline structural/identifiability audit and minimal independent-validation protocol design. No firmware control changes, new model fit or physical capture authorized here",
+  "source":"Qualified Q2S68012 full8000moving/300hold-integral capture,rawSHA0b743a60e6edce1ea432c30ae54acaac4f96972ede9262022bfbd116e6c4aa3b",
+  "auditOnly":true,"modelsFitted":0,"parametersChanged":0,
+  "movingIntervals":"Use interval-END raw encoder and previous queued commands, actual cumulative timestamps, right sign-1; prepend preceding recorded hold endpoint, not measured future states",
+  "fixedDiagnosticWindows_ms":[50,100],
+  "velocityComparison":"Causal finite encoder displacements and integrated raw RPM over the same actual interval. Diagnostic only, not exact independent carriage speed/force",
+  "weakRankAudit":"Fixed8column old effective mechanical hypothesis,100ms nonoverlapping moving windows after50ms derivative warmup. Normalize columns; report singular values and correlations. Full rank is not physical/causal identification",
+  "holdAudit":"40step current integrals are exact, but first-time moments and highrate waveform are unavailable. No assumed ZOH may be called recovered input. Analytic same-impulse different-position example uses OLD UNVALIDATED gains only for illustration,not a certified error bound",
+  "resolutionPlanning":"Compare physical gains already observed in exploratory complete pairs to the model-discrimination budget; this is not an application tracking tolerance or a new efficacy threshold. No per-method model budget automatically approved",
+  "preserve":"Raw data,all previous model failures, qualifiedlogger,andS3R2control untouched",
+  "notEstablished":["physical parameters","predictive model","independent future validation","method ranking reproduced","closed-loop theorem","model closure"],
+  "nextDesign":"Prefer one continuous complete-input record over additional sparse runs; investigate logger feasibility offline before requesting new excitation. Proposed eventual minimum: one bounded ordinary training capture,one frozen-parameter independent ordinary prediction capture,one independent S3R2 prediction capture. This is a conditional design minimum,not a released batch or sufficient-proof guarantee"
+}

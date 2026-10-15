@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "ordinaryOnly": true,
+  "S3R2DataRead": false,
+  "independentPythonContinuousSteps": 20000,
+  "maximumNativePythonPositionDifference_m": 4.7704895589362195e-18,
+  "maximumEnergyBalanceResidual": 1.9561125120388517e-21,
+  "native40msPoints": 400,
+  "meanPositionPredictionRMSE_mm": 0.10367240471793833,
+  "syncPredictionRMSE_mm": 0.05622855146631469,
+  "previousModelPredictionMeanSyncRMSE_mm": [
+    0.10396877235497205,
+    0.05587443512018711
+  ],
+  "meanPredictionErrorReduction_percent": 0.2850544738778481,
+  "syncPredictionErrorIncrease_percent": 0.6337716799567954,
+  "actualOrdinaryTrackingRMSE_mm": 0.12876494816136883,
+  "actualOrdinarySyncRMS_mm": 0.055314261271393654,
+  "objectiveRecomputed": 0.22056672462242974,
+  "objectiveReduction_percent": 0.20625940966216527,
+  "eta": -0.030628187904756653,
+  "massEigenvalues": [
+    0.9693718120952433,
+    1.0306281879047567
+  ],
+  "calibrationEvaluations": 158,
+  "lowerBoundHits": [
+    6
+  ],
+  "globalOptimumOrStructuralImpossibilityProven": false,
+  "holdInputRemainsMeanAbstraction": true,
+  "instantaneousSensorModelUnverified": true,
+  "trainingFitNotIndependentPredictionValidation": true,
+  "previousNegativeResultsAndRawHashesUnchanged": true,
+  "modelClosureComplete": false,
+  "predictiveAdmission": false,
+  "controllerChanged": false,
+  "physicalRunReleased": false,
+  "decision": "One inertial coefficient did not resolve sync prediction discrepancy under this fixed fit budget. Stop this round; do not use this model for claiming candidate efficacy or launch physical batch."
+}

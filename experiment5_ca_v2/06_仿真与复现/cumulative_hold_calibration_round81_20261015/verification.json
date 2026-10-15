@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "fitResultsSHA256": "ed02a4b4c14697871ca0573f8d00bb707c1ee3ca977d21a80d4bba8b6404d918",
+  "polishResultsSHA256": "48459fafaa8dda663b433137c6fbf1121ff2c2bad425c2cd533e1df711626f81",
+  "randomOneStepChecks": 160,
+  "staticHoldBreakawayAndZeroCrossCaptureFixturesPassed": true,
+  "zeroExtraBackCompatibilityAcross60000Steps": true,
+  "independentPythonSteps": 60000,
+  "nativePositionChecks": 1199,
+  "maximumNativePositionDifference_m": 3.5258254649228604e-16,
+  "maximumEnergyBalanceResidual": 7.989449962139861e-22,
+  "objectiveIndependentlyRecomputed": 11.18102612110386,
+  "checks": [
+    {
+      "record": "T1",
+      "steps": 20000,
+      "maxNativePositionDifference_m": 3.5258254649228604e-16,
+      "trackingRMSE_mm": 0.175575081873824,
+      "syncRMS_mm": 0.04330689898849836
+    },
+    {
+      "record": "Q2_run02",
+      "steps": 20000,
+      "maxNativePositionDifference_m": 3.126839065448195e-16,
+      "trackingRMSE_mm": 0.14512833975485281,
+      "syncRMS_mm": 0.04284425282345345
+    },
+    {
+      "record": "Q2_run03",
+      "steps": 20000,
+      "maxNativePositionDifference_m": 2.7972416050126014e-16,
+      "trackingRMSE_mm": 0.19093767927892352,
+      "syncRMS_mm": 0.04510502920016646
+    }
+  ],
+  "allRawFrozenR79AndFirmwareHashesUnchanged": true,
+  "modelPhysicalValidityProven": false,
+  "allThreeRecordsUsedForCalibration": true,
+  "noHardwareAction": true
+}

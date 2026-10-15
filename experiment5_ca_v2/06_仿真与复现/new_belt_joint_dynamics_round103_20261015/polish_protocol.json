@@ -1,0 +1,20 @@
+{
+  "status": "Declared before final bounded aggregate-margin polish",
+  "sourceSHA256": "e8a186162aabb4fd9e855c94808907fea0c498b8d6f06d0fb17e4e1538da20e5",
+  "reason": "Three of four aggregate checks already pass; remaining sync error18.44percent. Match original max15percent criterion rather than merely average squared error.",
+  "modalCoordinates": [
+    "commonDriveLogGain",
+    "differentialDriveLogGain",
+    "differentialSpringLogScale",
+    "sharedYieldLogScale"
+  ],
+  "radiusLog": 0.1,
+  "rule": "gL*=exp(common+0.5diff),gR*=exp(common-0.5diff),Kdiff*=exp(spring),Y*=exp(yield); all other refined coefficients fixed.",
+  "objective": "Maximum absolute continuous-RMS relative error over two records/two metrics plus tiny1e-5 normalized-coordinate regularizer. Full snapshot waveform loss may not worsen by more20percent; guard is fit regularization, not a new acceptance demand.",
+  "budget": "81grid points,3separatedseeds,each<=700evaluations/450iterations; no further refinement after this budget.",
+  "acceptance": "Original rounded-statistics both15percent for both calibration records, unchanged. No independent physical validation from this exercise.",
+  "bothRecordsCalibration": true,
+  "outputCorrection": false,
+  "firmwareChanged": false,
+  "assistantHardwareAction": false
+}

@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "analysisSHA256": "e195ebb82509aceb28bd5461d84c226c8dc382b314ae4cb48c082103e4da7cc7",
+  "checkerSHA256": "6cc19b6bc8a6224eff4bb5faee93506b146c8d1591723cc0f9cb75a99d57f096",
+  "independentPythonSteps": 40000,
+  "checks": [
+    {
+      "case": "hold_start_then_flat",
+      "steps": 20000,
+      "maxPythonAndCNativePositionDifference_m": 5.48172618408671e-16,
+      "maximumEnergyBalanceResidual": 7.852409802991336e-22,
+      "passed": true
+    },
+    {
+      "case": "hold_start_next_mean_quadratic",
+      "steps": 20000,
+      "maxPythonAndCNativePositionDifference_m": 5.512083844916305e-16,
+      "maximumEnergyBalanceResidual": 7.852409802991336e-22,
+      "passed": true
+    }
+  ],
+  "switchingSensitivity": {
+    "record": "Q2_run03",
+    "firstDifferentModelStickSlipStep": 14121,
+    "differentModelStickSlipIntervals": 3785,
+    "baselineHoldRestIntervalsPerAxis": [
+      5976,
+      10140
+    ],
+    "anchorFlatHoldRestIntervalsPerAxis": [
+      4557,
+      6808
+    ],
+    "holdingInputChangeRMS_counts": [
+      15.506060229971903,
+      6.170205992262165
+    ],
+    "holdingInputChangeMaximum_counts": [
+      290.9982,
+      114.81649335066493
+    ],
+    "unobservedWaveformHypothesisNotPhysicalSwitchMeasurements": true
+  },
+  "physicalCauseIdentified": false,
+  "actualHoldingWaveformRecovered": false,
+  "frozenParametersUnchanged": true,
+  "noNewHardwareAction": true
+}

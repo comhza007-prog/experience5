@@ -1,0 +1,262 @@
+{
+  "status": "Input reconstruction sensitivity only; alternatives are not observed actual commands",
+  "results": [
+    {
+      "hypothesis": "block_mean",
+      "maximumMeanDifference_counts": 0.0,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run01",
+      "actualTrackingRMSE_mm": 0.125197279323474,
+      "actualSyncRMS_mm": 0.08220440985737933,
+      "predictedTrackingRMSE_mm": 1.0214218866976563,
+      "predictedSyncRMS_mm": 0.07938553079749482,
+      "trackingDifference_percent": 715.8499068167399,
+      "syncDifference_percent": -3.4291092956875824,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.961185356734069,
+        0.8985387289928017
+      ]
+    },
+    {
+      "hypothesis": "linear_to_known_endpoint",
+      "maximumMeanDifference_counts": 2.2737367544323206e-13,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run01",
+      "actualTrackingRMSE_mm": 0.125197279323474,
+      "actualSyncRMS_mm": 0.08220440985737933,
+      "predictedTrackingRMSE_mm": 1.060681574507637,
+      "predictedSyncRMS_mm": 0.07960521339711363,
+      "trackingDifference_percent": 747.2081663748769,
+      "syncDifference_percent": -3.161869861696198,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        1.0017630146396903,
+        0.9403471686031701
+      ]
+    },
+    {
+      "hypothesis": "two_halves_to_known_endpoint",
+      "maximumMeanDifference_counts": 1.1368683772161603e-13,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run01",
+      "actualTrackingRMSE_mm": 0.125197279323474,
+      "actualSyncRMS_mm": 0.08220440985737933,
+      "predictedTrackingRMSE_mm": 1.060158431851108,
+      "predictedSyncRMS_mm": 0.0795763941128272,
+      "trackingDifference_percent": 746.7903117223191,
+      "syncDifference_percent": -3.196927937456895,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        1.0012058866686713,
+        0.9398597661353526
+      ]
+    },
+    {
+      "hypothesis": "block_mean",
+      "maximumMeanDifference_counts": 0.0,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run02",
+      "actualTrackingRMSE_mm": 0.10278312422280246,
+      "actualSyncRMS_mm": 0.09113118291781368,
+      "predictedTrackingRMSE_mm": 0.4081234777919545,
+      "predictedSyncRMS_mm": 0.045268007466642474,
+      "trackingDifference_percent": 297.0724580304324,
+      "syncDifference_percent": -50.32654463898789,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.41839037692088493,
+        0.436103729059958
+      ]
+    },
+    {
+      "hypothesis": "linear_to_known_endpoint",
+      "maximumMeanDifference_counts": 1.1368683772161603e-13,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run02",
+      "actualTrackingRMSE_mm": 0.10278312422280246,
+      "actualSyncRMS_mm": 0.09113118291781368,
+      "predictedTrackingRMSE_mm": 0.36771966564218456,
+      "predictedSyncRMS_mm": 0.04438547059568029,
+      "trackingDifference_percent": 257.7626856769605,
+      "syncDifference_percent": -51.2949693238272,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.37775044672376,
+        0.3937742468724949
+      ]
+    },
+    {
+      "hypothesis": "two_halves_to_known_endpoint",
+      "maximumMeanDifference_counts": 1.1368683772161603e-13,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run02",
+      "actualTrackingRMSE_mm": 0.10278312422280246,
+      "actualSyncRMS_mm": 0.09113118291781368,
+      "predictedTrackingRMSE_mm": 0.36661106263995913,
+      "predictedSyncRMS_mm": 0.04437876744570539,
+      "trackingDifference_percent": 256.68410102543504,
+      "syncDifference_percent": -51.302324819235345,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.37670390560757405,
+        0.3927076648093351
+      ]
+    },
+    {
+      "hypothesis": "block_mean",
+      "maximumMeanDifference_counts": 0.0,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run03",
+      "actualTrackingRMSE_mm": 0.1332225182730006,
+      "actualSyncRMS_mm": 0.04806493004259975,
+      "predictedTrackingRMSE_mm": 0.30320382274140284,
+      "predictedSyncRMS_mm": 0.0408323707369533,
+      "trackingDifference_percent": 127.59202173319922,
+      "syncDifference_percent": -15.047477025840383,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.31890152084930595,
+        0.3231593879187161
+      ]
+    },
+    {
+      "hypothesis": "linear_to_known_endpoint",
+      "maximumMeanDifference_counts": 2.2737367544323206e-13,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run03",
+      "actualTrackingRMSE_mm": 0.1332225182730006,
+      "actualSyncRMS_mm": 0.04806493004259975,
+      "predictedTrackingRMSE_mm": 0.39770087063017606,
+      "predictedSyncRMS_mm": 0.042468105679439004,
+      "trackingDifference_percent": 198.5237599361426,
+      "syncDifference_percent": -11.64429940540911,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.41573696612160965,
+        0.42596073469276535
+      ]
+    },
+    {
+      "hypothesis": "two_halves_to_known_endpoint",
+      "maximumMeanDifference_counts": 1.1368683772161603e-13,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run03",
+      "actualTrackingRMSE_mm": 0.1332225182730006,
+      "actualSyncRMS_mm": 0.04806493004259975,
+      "predictedTrackingRMSE_mm": 0.40020304455988337,
+      "predictedSyncRMS_mm": 0.04237543510101106,
+      "trackingDifference_percent": 200.40195137265323,
+      "syncDifference_percent": -11.837102304208324,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.4185150982939566,
+        0.4283534784497501
+      ]
+    },
+    {
+      "hypothesis": "block_mean",
+      "maximumMeanDifference_counts": 0.0,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run04",
+      "actualTrackingRMSE_mm": 0.13321667735310014,
+      "actualSyncRMS_mm": 0.0520746819481404,
+      "predictedTrackingRMSE_mm": 0.3538326502387817,
+      "predictedSyncRMS_mm": 0.040866092301564634,
+      "trackingDifference_percent": 165.60687240451392,
+      "syncDifference_percent": -21.524067410988813,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.36749404416942566,
+        0.37390428253765745
+      ]
+    },
+    {
+      "hypothesis": "linear_to_known_endpoint",
+      "maximumMeanDifference_counts": 1.1368683772161603e-13,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run04",
+      "actualTrackingRMSE_mm": 0.13321667735310014,
+      "actualSyncRMS_mm": 0.0520746819481404,
+      "predictedTrackingRMSE_mm": 0.42176962684029295,
+      "predictedSyncRMS_mm": 0.04214074631517576,
+      "trackingDifference_percent": 216.6042234504641,
+      "syncDifference_percent": -19.07632511871612,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.4368825700345575,
+        0.44728864282474173
+      ]
+    },
+    {
+      "hypothesis": "two_halves_to_known_endpoint",
+      "maximumMeanDifference_counts": 1.1368683772161603e-13,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run04",
+      "actualTrackingRMSE_mm": 0.13321667735310014,
+      "actualSyncRMS_mm": 0.0520746819481404,
+      "predictedTrackingRMSE_mm": 0.48517592234672985,
+      "predictedSyncRMS_mm": 0.04324710973001549,
+      "trackingDifference_percent": 264.2005880845812,
+      "syncDifference_percent": -16.951754457023892,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.5015696063359509,
+        0.515187310596835
+      ]
+    },
+    {
+      "hypothesis": "block_mean",
+      "maximumMeanDifference_counts": 0.0,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run05",
+      "actualTrackingRMSE_mm": 0.1541861111611547,
+      "actualSyncRMS_mm": 0.04734086501110851,
+      "predictedTrackingRMSE_mm": 0.3024294793832109,
+      "predictedSyncRMS_mm": 0.049219711498544996,
+      "trackingDifference_percent": 96.14573394818477,
+      "syncDifference_percent": 3.968762478242871,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.25408912806336315,
+        0.26189332274802296
+      ]
+    },
+    {
+      "hypothesis": "linear_to_known_endpoint",
+      "maximumMeanDifference_counts": 2.2737367544323206e-13,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run05",
+      "actualTrackingRMSE_mm": 0.1541861111611547,
+      "actualSyncRMS_mm": 0.04734086501110851,
+      "predictedTrackingRMSE_mm": 0.2987219202284961,
+      "predictedSyncRMS_mm": 0.049271315184395065,
+      "trackingDifference_percent": 93.74113399635145,
+      "syncDifference_percent": 4.077767004961941,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.24979462564274674,
+        0.2576416406561639
+      ]
+    },
+    {
+      "hypothesis": "two_halves_to_known_endpoint",
+      "maximumMeanDifference_counts": 1.7053025658242404e-13,
+      "overLimitBlocksLeftAsMean": 0,
+      "record": "M1_run05",
+      "actualTrackingRMSE_mm": 0.1541861111611547,
+      "actualSyncRMS_mm": 0.04734086501110851,
+      "predictedTrackingRMSE_mm": 0.29837298805354345,
+      "predictedSyncRMS_mm": 0.04936091571273775,
+      "trackingDifference_percent": 93.51482815575083,
+      "syncDifference_percent": 4.267033779706453,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.24932193545695103,
+        0.2575251832345721
+      ]
+    }
+  ],
+  "limitation": "No model fitting or output correction. Coarse endpoint and integral constrain but do not determine intervening commands. Constant means remain canonical baseline.",
+  "scriptSHA256": "4e6a103d2d640531a25a1685baaa770d92872507ac266925cb9eff358c18dde6"
+}

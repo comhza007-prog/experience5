@@ -1,0 +1,632 @@
+{
+  "cases": [
+    {
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.38876544985376466,
+      "predictedSyncRMS_mm": 0.06254550343549886,
+      "trackingDifference_percent": 44.87807861515471,
+      "syncDifference_percent": 17.161339874129624,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.43288075725307995,
+        0.44931529575566426
+      ],
+      "bothWithin20Percent": false
+    },
+    {
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.426609393942515,
+      "predictedSyncRMS_mm": 0.07472683587574146,
+      "trackingDifference_percent": 27.197587868170636,
+      "syncDifference_percent": -12.670228388004002,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.45729947244666697,
+        0.5010390179417165
+      ],
+      "bothWithin20Percent": false
+    }
+  ],
+  "previousR103Cases": [
+    {
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.3107580881891894,
+      "predictedSyncRMS_mm": 0.06182036476760712,
+      "trackingDifference_percent": 15.807705514735781,
+      "syncDifference_percent": 15.802997335367387,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.3285451262764375,
+        0.34471041106992933
+      ]
+    },
+    {
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.2912796068642637,
+      "predictedSyncRMS_mm": 0.07188544706684381,
+      "trackingDifference_percent": -13.152256104993743,
+      "syncDifference_percent": -15.990827110456607,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.30725875496070093,
+        0.3634592893296308
+      ]
+    }
+  ],
+  "boundaryAndStability": {
+    "globalCoordinates": [
+      -0.46427432442686195,
+      0.33073371534174933,
+      0.034723597586967435,
+      0.004418848877696556,
+      0.48044281489280083,
+      0.03756182883776245,
+      -0.25518904853449187,
+      -0.010193234296513268,
+      -0.06617343507072387,
+      -0.0420621039107881,
+      0.010296332505813938,
+      -0.014278973974531234
+    ],
+    "lower": [
+      -2.995732273553991,
+      -2.995732273553991,
+      -2.995732273553991,
+      -2.995732273553991,
+      -2.995732273553991,
+      -2.995732273553991,
+      -2.995732273553991,
+      -2.995732273553991,
+      -0.4687261984331348,
+      -2.995732273553991,
+      -2.995732273553991,
+      -2.995732273553991
+    ],
+    "upper": [
+      2.995732273553991,
+      2.995732273553991,
+      2.995732273553991,
+      6.907755278982137,
+      2.995732273553991,
+      2.995732273553991,
+      2.995732273553991,
+      2.995732273553991,
+      18.53127380156686,
+      2.995732273553991,
+      2.995732273553991,
+      2.995732273553991
+    ],
+    "allGlobalBoundsSatisfied": true,
+    "retainedRank": 6,
+    "retainedDataJacobianCondition": 66.00173783947274,
+    "retainedSingularValues": [
+      219.65206997416544,
+      49.011643946003844,
+      15.023105979405274,
+      8.03557524047209,
+      4.980546628310235,
+      3.3279740377199767
+    ],
+    "weakDirectionsFrozenNotIdentified": 6,
+    "physicalParametersIdentified": false,
+    "effectiveGainRightLeftRatio": 1.3437525433927304,
+    "massCondition": 21.159369304339723,
+    "multiStartObjectives": [
+      451.2116523284941,
+      249.50904389369595
+    ],
+    "multiStartMaxCoordinateDistance": 0.7937759651066395,
+    "perturbationMaxPositiveCoefficientChange_percent": 1.2913092817257166e-08
+  },
+  "sensitivity": [
+    {
+      "coordinates": [
+        0.07563832583802976,
+        0.09944521539384621,
+        0.2802139958366157,
+        0.6045991085612359,
+        0.29615721087063673,
+        0.2875773222529226
+      ],
+      "parameters": [
+        2.1870329699161687e-06,
+        2.9388311153875875e-06,
+        1.370845845083711,
+        0.01603015224907357,
+        14.364878818235251,
+        2.385288944916699,
+        0.00039290658992498283,
+        9.400862559736459e-05,
+        -0.9097447236626949,
+        1.6081912136482477,
+        0.8717041954288922,
+        0.002294900766279592
+      ],
+      "objective": 262.09445823564243,
+      "initialObjective": 262.09445824002245,
+      "evaluations": 41,
+      "history": [
+        {
+          "iteration": 0,
+          "objective": 262.09445824002245,
+          "accepted": false
+        },
+        {
+          "iteration": 1,
+          "objective": 262.09445823564243,
+          "accepted": true
+        },
+        {
+          "iteration": 2,
+          "objective": 262.09445823564243,
+          "accepted": false
+        }
+      ],
+      "maxPositiveCoefficientRelativeChange_percent": 1.264675031364959e-08,
+      "etaAbsoluteChange": 1.06403774680075e-12,
+      "onOriginalDataCases": [
+        {
+          "record": "new_belt_run010",
+          "actualTrackingRMSE_mm": 0.26833973336052963,
+          "actualSyncRMS_mm": 0.053384080023917105,
+          "predictedTrackingRMSE_mm": 0.38876544985376466,
+          "predictedSyncRMS_mm": 0.06254550343549886,
+          "trackingDifference_percent": 44.87807861515471,
+          "syncDifference_percent": 17.161339874129624,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.43288075725307995,
+            0.44931529575566426
+          ]
+        },
+        {
+          "record": "new_belt_run011",
+          "actualTrackingRMSE_mm": 0.33539110378780057,
+          "actualSyncRMS_mm": 0.08556856899586424,
+          "predictedTrackingRMSE_mm": 0.426609393942515,
+          "predictedSyncRMS_mm": 0.07472683587574146,
+          "trackingDifference_percent": 27.197587868170636,
+          "syncDifference_percent": -12.670228388004002,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.45729947244666697,
+            0.5010390179417165
+          ]
+        }
+      ]
+    },
+    {
+      "coordinates": [
+        0.07563832579505723,
+        0.09944521543075073,
+        0.2802139958421371,
+        0.6045991085669876,
+        0.2961572108681604,
+        0.2875773222544018
+      ],
+      "parameters": [
+        2.1870329699219937e-06,
+        2.938831115514624e-06,
+        1.3708458450874315,
+        0.01603015224907137,
+        14.364878818015002,
+        2.385288944914327,
+        0.00039290658992515603,
+        9.40086255972682e-05,
+        -0.9097447236626194,
+        1.6081912136676932,
+        0.8717041954078202,
+        0.0022949007662320616
+      ],
+      "objective": 237.87976329177886,
+      "initialObjective": 237.8797632924763,
+      "evaluations": 41,
+      "history": [
+        {
+          "iteration": 0,
+          "objective": 237.8797632924763,
+          "accepted": false
+        },
+        {
+          "iteration": 1,
+          "objective": 237.87976329177886,
+          "accepted": true
+        },
+        {
+          "iteration": 2,
+          "objective": 237.87976329177886,
+          "accepted": false
+        }
+      ],
+      "maxPositiveCoefficientRelativeChange_percent": 1.2913092817257166e-08,
+      "etaAbsoluteChange": 1.1395329124752607e-12,
+      "onOriginalDataCases": [
+        {
+          "record": "new_belt_run010",
+          "actualTrackingRMSE_mm": 0.26833973336052963,
+          "actualSyncRMS_mm": 0.053384080023917105,
+          "predictedTrackingRMSE_mm": 0.38876544985376466,
+          "predictedSyncRMS_mm": 0.06254550343549886,
+          "trackingDifference_percent": 44.87807861515471,
+          "syncDifference_percent": 17.161339874129624,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.43288075725307995,
+            0.44931529575566426
+          ]
+        },
+        {
+          "record": "new_belt_run011",
+          "actualTrackingRMSE_mm": 0.33539110378780057,
+          "actualSyncRMS_mm": 0.08556856899586424,
+          "predictedTrackingRMSE_mm": 0.426609393942515,
+          "predictedSyncRMS_mm": 0.07472683587574146,
+          "trackingDifference_percent": 27.197587868170636,
+          "syncDifference_percent": -12.670228388004002,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.45729947244666697,
+            0.5010390179417165
+          ]
+        }
+      ]
+    }
+  ],
+  "bothWithin15Percent": false,
+  "bothWithin20Percent": false,
+  "original15PercentFailuresPreserved": true,
+  "thresholdUsedToSelectFit": false,
+  "modelSHA256": "cd21488e7eb87f1ab1d541c04339c02225656291d42f6b4d32760aaf3f6dff9b",
+  "protocolSHA256": "21754d50d924809379e0f5afb73d5f37cd223ae83ad7342e0a8360ff82825e1e",
+  "scriptSHA256": "cdb47d9aa80e2c41f1b306fc71289e39d64fabb0ba271cf2ecdca4ca1f84585a",
+  "sourceHashes": [
+    {
+      "name": "new_belt_run010",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+      "rawSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_r96_frozen_check_round97_20261015\\capture_analysis.json",
+      "decodedSHA256": "7d2e50b8382219adf1b8d2252e02ce110a0edb6e8d4f00c4df266952ed2abffd"
+    },
+    {
+      "name": "new_belt_run011",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run011.csv",
+      "rawSHA256": "e7e38ee5980fca58f656ac36ffe52d37b505909b4dee49e53acba25dbd306173",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_frozen_check_round99_20261015\\capture_analysis.json",
+      "decodedSHA256": "6022ce98f46a4b09be546bfb8668a70e0ef5e4a7066ac303cb5d571019d41460"
+    }
+  ],
+  "verification": [
+    {
+      "record": "new_belt_run010",
+      "CSteps": 20000,
+      "independentSteps": 500,
+      "maxNativePositionDifference": 0.0,
+      "maxIndependentStateDifference": 1.951563910473908e-18,
+      "maxEnergyBalanceResidual": 9.054950881523185e-22
+    },
+    {
+      "record": "new_belt_run011",
+      "CSteps": 20000,
+      "independentSteps": 500,
+      "maxNativePositionDifference": 0.0,
+      "maxIndependentStateDifference": 2.3852447794681098e-18,
+      "maxEnergyBalanceResidual": 1.78100853941419e-21
+    }
+  ],
+  "rawAndDecodedHashesUnchanged": true,
+  "allFits": [
+    {
+      "coordinates": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parameters": [
+        3.4792617876182484e-06,
+        2.1112458155696005e-06,
+        1.3240620963223941,
+        0.015959473702735944,
+        8.884813239908434,
+        2.2973549492328535,
+        0.0005071267373837429,
+        9.497177802427479e-05,
+        -0.9031273801566865,
+        1.6772778997282725,
+        0.8627748876247483,
+        0.0023279046648120704
+      ],
+      "objective": 451.2116523284941,
+      "initialObjective": 451.2116523284941,
+      "evaluations": 28,
+      "history": [
+        {
+          "iteration": 0,
+          "objective": 451.2116523284941,
+          "accepted": false
+        },
+        {
+          "iteration": 1,
+          "objective": 451.2116523284941,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "rejectedStart": true,
+      "reason": "Bound-feasible projected seed exceeded solver state guards; no fit or seed replacement performed."
+    },
+    {
+      "coordinates": [
+        0.07563832592309867,
+        0.09944521542775119,
+        0.2802139958836078,
+        0.6045991086635186,
+        0.2961572108765218,
+        0.2875773223345609
+      ],
+      "parameters": [
+        2.1870329696395802e-06,
+        2.938831115436942e-06,
+        1.3708458451565528,
+        0.016030152249096475,
+        14.36487881939405,
+        2.3852889449328947,
+        0.0003929065899192672,
+        9.400862559793228e-05,
+        -0.9097447236637589,
+        1.6081912136064893,
+        0.8717041954202788,
+        0.002294900766350972
+      ],
+      "objective": 249.50904389369595,
+      "initialObjective": 542.8067368251312,
+      "evaluations": 357,
+      "history": [
+        {
+          "iteration": 0,
+          "objective": 523.5659567135517,
+          "accepted": true
+        },
+        {
+          "iteration": 1,
+          "objective": 407.7781976078834,
+          "accepted": true
+        },
+        {
+          "iteration": 2,
+          "objective": 379.78905474909465,
+          "accepted": true
+        },
+        {
+          "iteration": 3,
+          "objective": 350.97265787680124,
+          "accepted": true
+        },
+        {
+          "iteration": 4,
+          "objective": 319.3065776644789,
+          "accepted": true
+        },
+        {
+          "iteration": 5,
+          "objective": 303.5505576735831,
+          "accepted": true
+        },
+        {
+          "iteration": 6,
+          "objective": 297.4481390789837,
+          "accepted": true
+        },
+        {
+          "iteration": 7,
+          "objective": 296.62602548026024,
+          "accepted": true
+        },
+        {
+          "iteration": 8,
+          "objective": 294.1273917894879,
+          "accepted": true
+        },
+        {
+          "iteration": 9,
+          "objective": 282.24007837759933,
+          "accepted": true
+        },
+        {
+          "iteration": 10,
+          "objective": 269.57184840274243,
+          "accepted": true
+        },
+        {
+          "iteration": 11,
+          "objective": 258.9121192511348,
+          "accepted": true
+        },
+        {
+          "iteration": 12,
+          "objective": 254.50304566678577,
+          "accepted": true
+        },
+        {
+          "iteration": 13,
+          "objective": 253.68511480072277,
+          "accepted": true
+        },
+        {
+          "iteration": 14,
+          "objective": 252.45948693589042,
+          "accepted": true
+        },
+        {
+          "iteration": 15,
+          "objective": 252.2487523366094,
+          "accepted": true
+        },
+        {
+          "iteration": 16,
+          "objective": 251.72288688453438,
+          "accepted": true
+        },
+        {
+          "iteration": 17,
+          "objective": 250.6683642772536,
+          "accepted": true
+        },
+        {
+          "iteration": 18,
+          "objective": 250.25851855899398,
+          "accepted": true
+        },
+        {
+          "iteration": 19,
+          "objective": 249.9298523423478,
+          "accepted": true
+        },
+        {
+          "iteration": 20,
+          "objective": 249.57569062641625,
+          "accepted": true
+        },
+        {
+          "iteration": 21,
+          "objective": 249.52186935902802,
+          "accepted": true
+        },
+        {
+          "iteration": 22,
+          "objective": 249.51403413966386,
+          "accepted": true
+        },
+        {
+          "iteration": 23,
+          "objective": 249.5123190938188,
+          "accepted": true
+        },
+        {
+          "iteration": 24,
+          "objective": 249.5118567176189,
+          "accepted": true
+        },
+        {
+          "iteration": 25,
+          "objective": 249.5105233475431,
+          "accepted": true
+        },
+        {
+          "iteration": 26,
+          "objective": 249.51016406758907,
+          "accepted": true
+        },
+        {
+          "iteration": 27,
+          "objective": 249.50912839530972,
+          "accepted": true
+        },
+        {
+          "iteration": 28,
+          "objective": 249.50910046560313,
+          "accepted": true
+        },
+        {
+          "iteration": 29,
+          "objective": 249.50909211491157,
+          "accepted": true
+        },
+        {
+          "iteration": 30,
+          "objective": 249.5090670926824,
+          "accepted": true
+        },
+        {
+          "iteration": 31,
+          "objective": 249.50905960885143,
+          "accepted": true
+        },
+        {
+          "iteration": 32,
+          "objective": 249.50905736576652,
+          "accepted": true
+        },
+        {
+          "iteration": 33,
+          "objective": 249.5090506386424,
+          "accepted": true
+        },
+        {
+          "iteration": 34,
+          "objective": 249.509048622168,
+          "accepted": true
+        },
+        {
+          "iteration": 35,
+          "objective": 249.50904801739102,
+          "accepted": true
+        },
+        {
+          "iteration": 36,
+          "objective": 249.50904620318656,
+          "accepted": true
+        },
+        {
+          "iteration": 37,
+          "objective": 249.50904565902167,
+          "accepted": true
+        },
+        {
+          "iteration": 38,
+          "objective": 249.509044026726,
+          "accepted": true
+        },
+        {
+          "iteration": 39,
+          "objective": 249.50904397777686,
+          "accepted": true
+        },
+        {
+          "iteration": 40,
+          "objective": 249.50904396308556,
+          "accepted": true
+        },
+        {
+          "iteration": 41,
+          "objective": 249.50904391900576,
+          "accepted": true
+        },
+        {
+          "iteration": 42,
+          "objective": 249.50904390577264,
+          "accepted": true
+        },
+        {
+          "iteration": 43,
+          "objective": 249.50904389369595,
+          "accepted": true
+        },
+        {
+          "iteration": 44,
+          "objective": 249.50904389369595,
+          "accepted": false
+        }
+      ]
+    }
+  ],
+  "evaluations": 472,
+  "boundsRejectedBeforeRollout": 0,
+  "numericalVerificationPassed": true,
+  "physicalModelValidated": false,
+  "independentValidationPassed": false,
+  "firmwareChanged": false,
+  "assistantHardwareAction": false,
+  "limitation": "Reduced-space/prior stabilization trades freedom for robustness. Frozen weak combinations are assumptions, not identified physical truth. Recorded-input replay is not autonomous closed loop."
+}

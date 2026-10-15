@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-15",
+  "record": "Q2_run06",
+  "source": "D:/lunwen2/起重机/output/experiment5_ca_v2/01_原始数据/模型闭环_Q2_误差汇总40s_20261015/E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run06.csv",
+  "sourceSHA256": "170186d20947fc3fe622b020d454a72f559ff8ea1b133a9146f5d4717fb19fc6",
+  "captureQualified": true,
+  "fault": 0,
+  "missingCSVFrames": 0,
+  "nativeSamples": 400,
+  "movingSnapshotRows": 8000,
+  "holdingSnapshotRows": 300,
+  "CRC32": 3114989508,
+  "completionTail_s": 32.68000799999999,
+  "addendumSHA256": "a3e6c2f053a54cd9db68ee933e4ba4cbe9c3e92e695e48f0e45493935a1518c9",
+  "evaluations": [
+    {
+      "model": "R88",
+      "path": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_rms_check_round89_20261015\\frozen_model_evaluation_R88.json",
+      "sha256": "77cb2873db234e08b9814f0e01270d3aa4f966cad299e9184b26769c31a9a094"
+    },
+    {
+      "model": "R86",
+      "path": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_rms_check_round89_20261015\\frozen_model_evaluation_R86.json",
+      "sha256": "8088fcef427c14c9a12c6e1b3191713d8c4b79151067c5bcbf149f65615656ac"
+    }
+  ],
+  "R88Metrics": {
+    "observedNativeSamples": 400,
+    "expectedNativeSamples": 400,
+    "actualTrackingRMSE_mm": 0.12900318310026304,
+    "modeledTrackingRMSE_mm": 0.1516859708410768,
+    "actualSyncRMS_mm": 0.03954585945456237,
+    "modeledSyncRMS_mm": 0.04248429121451835,
+    "trackingRelativeDifference_percent": 17.58312252123606,
+    "syncRelativeDifference_percent": 7.430441013254985,
+    "trackingWaveformCorrelation": 0.7128535345411202,
+    "syncWaveformCorrelation": 0.16777639395117455
+  },
+  "R86Metrics": {
+    "observedNativeSamples": 400,
+    "expectedNativeSamples": 400,
+    "actualTrackingRMSE_mm": 0.12900318310026304,
+    "modeledTrackingRMSE_mm": 0.15170643320241894,
+    "actualSyncRMS_mm": 0.03954585945456237,
+    "modeledSyncRMS_mm": 0.04254312517904627,
+    "trackingRelativeDifference_percent": 17.598984425454557,
+    "syncRelativeDifference_percent": 7.5792150324301755,
+    "trackingWaveformCorrelation": 0.7134528927304583,
+    "syncWaveformCorrelation": 0.1663443706111314
+  },
+  "R88ProvisionalAggregateScreen": {
+    "trackingLimit_percent": 10,
+    "syncLimit_percent": 15,
+    "trackingPassed": false,
+    "syncPassed": true,
+    "waveformIsHardGate": false,
+    "scope": "This record and condition, frozen recorded-input replay aggregate metrics only",
+    "passed": false
+  },
+  "R86ProvisionalAggregateScreen": {
+    "trackingLimit_percent": 10,
+    "syncLimit_percent": 15,
+    "trackingPassed": false,
+    "syncPassed": true,
+    "waveformIsHardGate": false,
+    "scope": "This record and condition, frozen recorded-input replay aggregate metrics only",
+    "passed": false
+  },
+  "R88WaveformErrorsDiagnosticOnly": {
+    "axisRMSE_mm": [
+      0.1128880197363744,
+      0.11797578141296625
+    ],
+    "meanPositionWaveformRMSE_mm": 0.11208961258742933,
+    "syncWaveformRMSE_mm": 0.05538641530194927,
+    "meanMaximumAbsoluteDifference_mm": 0.27749999999999997,
+    "syncMaximumAbsoluteDifference_mm": 0.2180000000000003
+  },
+  "R86WaveformErrorsDiagnosticOnly": {
+    "axisRMSE_mm": [
+      0.1128205765806932,
+      0.1179395183982027
+    ],
+    "meanPositionWaveformRMSE_mm": 0.11203123169455917,
+    "syncWaveformRMSE_mm": 0.05542957243205112,
+    "meanMaximumAbsoluteDifference_mm": 0.27649999999999997,
+    "syncMaximumAbsoluteDifference_mm": 0.2180000000000003
+  },
+  "phaseComparison": [
+    {
+      "phase": 2,
+      "samples": 100,
+      "actualTrackingRMSE_mm": 0.18004243249856405,
+      "R88TrackingRMSE_mm": 0.20474810743936073,
+      "R86TrackingRMSE_mm": 0.20462835824977924,
+      "actualSyncRMS_mm": 0.058298799301529355,
+      "R88SyncRMS_mm": 0.05469616074277975
+    },
+    {
+      "phase": 3,
+      "samples": 50,
+      "actualTrackingRMSE_mm": 0.05520271732442144,
+      "R88TrackingRMSE_mm": 0.00520864665724242,
+      "R86TrackingRMSE_mm": 0.005659505278732354,
+      "actualSyncRMS_mm": 0.005837807807730626,
+      "R88SyncRMS_mm": 0.004951767361255994
+    },
+    {
+      "phase": 4,
+      "samples": 100,
+      "actualTrackingRMSE_mm": 0.17968334647373416,
+      "R88TrackingRMSE_mm": 0.172369407088381,
+      "R86TrackingRMSE_mm": 0.17257289764038847,
+      "actualSyncRMS_mm": 0.0479422569347752,
+      "R88SyncRMS_mm": 0.051534939604117126
+    },
+    {
+      "phase": 5,
+      "samples": 150,
+      "actualTrackingRMSE_mm": 0.015104800561410931,
+      "R88TrackingRMSE_mm": 0.11658464735976175,
+      "R86TrackingRMSE_mm": 0.11658811403111954,
+      "actualSyncRMS_mm": 0.01899561352874219,
+      "R88SyncRMS_mm": 0.032247790621994565
+    }
+  ],
+  "independentPythonSteps": 40000,
+  "modelsRefitted": 0,
+  "run06UsedForTraining": false,
+  "allRawParametersAndFirmwareUnchanged": true,
+  "conclusion": "Both declared models fail the pre-capture provisional RMS-only screen because tracking exceeds10percent; synchronization is within15percent. Waveform correlation is diagnostic only and is not a rejection reason. R88 and R86 predictions remain nearly identical; reduced parameter freedom has not resolved the aggregate tracking mismatch.",
+  "localization": "Return-hold phase5 trackingRMS actual0.015105 vsR88prediction0.116585mm; target-hold actual0.055203 vsprediction0.005209mm. These are model-output discrepancies, not identification of mechanical or motor cause.",
+  "physicalModelValidationDeclaredPassed": false,
+  "controlMethodBenefitProven": false,
+  "nextRecommendedStep": "No further identical capture automatically. Diagnose holding-segment input approximation/execution dynamics using existing data. Motor-response logging remains paused unless user resumes it; any refit or controller/logging changes require a new scoped request. Preserve this before-fit independent test.",
+  "newPhysicalRunReleased": false,
+  "assistantHardwareAction": false
+}

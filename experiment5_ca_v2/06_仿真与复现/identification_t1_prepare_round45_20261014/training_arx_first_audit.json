@@ -1,0 +1,179 @@
+{
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\辨识T1_训练采集_20261014\\E5ID_T1M_BLNN_B67832_HW6_PRBS20_10_seed39_L1200_R1200_M0g_S2mm_run01.csv",
+  "sourceSHA256": "0da7ed24d02bcce276f0448ae08ebcee6e0c36dc4b6dbb1cfb41b9838c58b403",
+  "decodedSHA256": "f4cb31604530c60aa478e2f43e2c130da97fe68d19d45273f0f860ed8202b725",
+  "protocolSHA256": "b1183604bdbafeee4a2acd1154cdfa435f82ac0567c7dfd0d56ac7aa079c6b4d",
+  "analysisCodeSHA256": "f77ee3bfef04c84a3758f9a49b70afe145e9cf89fb8733b251766f06f4376d68",
+  "selfTestKnownSyntheticARXPassed": true,
+  "trainingSamples": 800,
+  "trainingWindow_end_ms": [
+    4020,
+    20000
+  ],
+  "modelRegressors": [
+    "ownPreviousVelocity_mm_s",
+    "otherPreviousVelocity_mm_s",
+    "ownAttemptedCommand_counts/1000",
+    "otherAttemptedCommand_counts/1000",
+    "signOwnPreviousVelocity",
+    "intercept"
+  ],
+  "models": [
+    {
+      "axis": 0,
+      "beta": [
+        0.21170547619990687,
+        0.250085037694842,
+        -0.9568027422206559,
+        1.3282378265995034,
+        0.2395822397222453,
+        -0.07450603645158564
+      ],
+      "rank": 6,
+      "regressors": 6,
+      "scaledSingularValues": [
+        44.13300233620642,
+        31.917925974605428,
+        27.264694708526914,
+        24.340094127790397,
+        19.53186771842058,
+        14.836797861091112
+      ],
+      "scaledCondition": 2.9745638344203225
+    },
+    {
+      "axis": 1,
+      "beta": [
+        0.2283332121022019,
+        0.25077091043257654,
+        -1.3704327423678004,
+        1.4180337500901088,
+        0.33211637773603203,
+        0.1000626571100275
+      ],
+      "rank": 6,
+      "regressors": 6,
+      "scaledSingularValues": [
+        43.992233470819315,
+        31.96461828912711,
+        27.234462464165986,
+        24.421815014719,
+        19.656773683583552,
+        14.943976558660474
+      ],
+      "scaledCondition": 2.9438103906369233
+    }
+  ],
+  "linearA": [
+    [
+      0.21170547619990687,
+      0.250085037694842
+    ],
+    [
+      0.25077091043257654,
+      0.2283332121022019
+    ]
+  ],
+  "linearEigenvalues": [
+    [
+      -0.03054636177976508,
+      0.0
+    ],
+    [
+      0.4705850500818738,
+      0.0
+    ]
+  ],
+  "linearSpectralRadius": 0.4705850500818738,
+  "linearPartStable": true,
+  "nonlinearSignTermGlobalStabilityNotProven": true,
+  "oneStepUsesMeasuredPast": true,
+  "oneStepVelocityRMSE_mm_s": [
+    0.815615257578127,
+    0.8395237687942229
+  ],
+  "oneStepPositionErrors": {
+    "axisRMSE_mm": [
+      0.016308162571484975,
+      0.01678582134131752
+    ],
+    "meanPositionRMSE_mm": 0.012777399904180786,
+    "syncDifferenceRMSE_mm": 0.021033119974834705,
+    "axisMaxAbs_mm": [
+      0.12119380477180375,
+      0.11500987877575164
+    ],
+    "terminalAxisError_mm": [
+      -0.0007671525734836322,
+      0.0009537168262220173
+    ]
+  },
+  "recursiveFinite": true,
+  "trainingRecordedInputRecursiveErrors": {
+    "axisRMSE_mm": [
+      1.4258809259555836,
+      3.528110291781302
+    ],
+    "meanPositionRMSE_mm": 2.409885244335415,
+    "syncDifferenceRMSE_mm": 2.3939945130454947,
+    "axisMaxAbs_mm": [
+      2.610552448476457,
+      6.544815264886579
+    ],
+    "terminalAxisError_mm": [
+      1.0235634019932074,
+      6.544815264886579
+    ]
+  },
+  "actualCommandModalAudit": {
+    "samples": 800,
+    "mean": [
+      -34.22741360174865,
+      -37.88028891455559
+    ],
+    "RMS": [
+      180.7387810970759,
+      93.88677452910423
+    ],
+    "centeredRank": 2,
+    "centeredSingularValues": [
+      5020.899688303093,
+      2427.0161423142804
+    ],
+    "centeredCondition": 2.0687541383698487
+  },
+  "fastActualInjectedModalAudit": {
+    "samples": 400,
+    "mean": [
+      -0.0025,
+      -0.6475
+    ],
+    "RMS": [
+      14.829067738735297,
+      7.412911034134971
+    ],
+    "centeredRank": 2,
+    "centeredSingularValues": [
+      301.8428464682239,
+      136.6169500316861
+    ],
+    "centeredCondition": 2.209409933381007
+  },
+  "requestedExcitationSteps": 5701,
+  "requestedExposureFractionOf8000MotionSteps": 0.712625,
+  "fastExcitationSamples": 220,
+  "fastPriorRPMGateErrors": [],
+  "independentValidationPerformed": false,
+  "modelIdentified": false,
+  "Q0UsedForFitOrSelection": false,
+  "V1ReadOrAcquired": false,
+  "newControllerClosedLoopCounterfactual": false,
+  "modelResolutionBudget_mm": null,
+  "limitations": [
+    "Same-training forced-response fit,not independent validation.",
+    "Measured current-count exposure is release-aligned attempted command,not delivered torque.",
+    "Closed-loop gated excitation is not assumed exogenous or zero-bias.",
+    "20sample aggregates cannot certify1ms controller-counterfactual fidelity.",
+    "Encoder movement is not independently measured carriage displacement."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+ "date":"2026-10-15","scope":"ONE additional ordinary-only jointcalibration of SAME8coefficientCoulombhypothesis after reportedmoving-only/holdingfailure; notnewcontroller/hardware/independentvalidation",
+ "previousNegativeResult":"Round64 candidate_fit_results.json retainedunmodified; leftfriction0,strongcoupling,poorholding,and20sapproximatepredictionerrors retained",
+ "change":"Include ALL8300recordedendpoints withelapsedtime-weightedmean/syncpredictionloss; simulatecontinuouslyfromoneinitialstate ratherthanfitseparate4ssegmentinitializations",
+ "data":"SameQ2S68012ordinarytrainingonly;full8000movinginputsteps exact,300holdrows reconstructedasconstantmeanZOH ABSTRACTION,nottrue1mswaveform",
+ "holdingAssumptions":"No zeroendpointmotion imposedastruezerovelocity/frictionlabel. Holds contributeobservedpositionendpoints toloss,not artificialstickingstate resets",
+ "initialState":"p=v=0once, consistentwithprehold; notfit initialstates, notinject measuredfuturestates",
+ "fixedModelStructure":"Implicit two-axis effective positivegain/nonnegativeviscous/coupling/Coulomb, SAME native9active-setsolver verifiedround64",
+ "parameterScales":[0.00001,0.00001,10,10,100,10,0.005,0.005],
+ "lowerBounds":[0.000000001,0.000000001,0,0,0,0,0,0],
+ "upperBounds":[0.01,0.01,1000,1000,1000000,1000,10,10],
+ "boundsAreNumericalNotPhysical":true,
+ "objective":"Integral-like equallyweightedmeanposition/syncpredictionerrors inmm,8300endpoints weightedbyelapsedtimesincepreviousobservation,plus1e-8scaledparameternorm; not8300independenttrials",
+ "maxIterations":12,"maxEvaluations":160,"finiteDifference":"1e-3*(1+absscaledparameter)","lineSearch":[1,0.5,0.25,0.125,0.0625],
+ "initialParameters":"Round64moving-onlyfittedparameters,notanotherseedgrid",
+ "stop":"Endafterpredeclaredbudget; retainbadfits/boundaryhits. Noadditionalparametersearchormodelbranchthisround",
+ "afterFreeze":"Onefixedsame-mean100count holdorderingstress plus native40msmean/syncmetrics; notcertifiedinputuncertaintybound",
+ "admission":"NoS3R2dataaccess, noindependentvalidation, no2umbudgetclaimedapprovedorpassed. Counterfactualclosedloopandmodelclosure remainnotestablished",
+ "hardwareReleased":false,"controllerChanged":false
+}

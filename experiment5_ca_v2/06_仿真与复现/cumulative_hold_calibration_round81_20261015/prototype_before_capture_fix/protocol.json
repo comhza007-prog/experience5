@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-15",
+  "purpose": "User-authorized cumulative model correction using tightened T1, Q2 run02 and newly acquired Q2 run03. All three now calibration data. Preserve the frozen-R79 failure on run03; no retrospective validation claim.",
+  "records": [
+    {"name":"T1", "decoded":"identification_t1_fullmoving_round70_20261015/build68112_d1184a41428b_analysis.json", "rawSHA256":"d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0", "prefixRows":0, "nativeSamples":400},
+    {"name":"Q2_run02", "decoded":"q2_mechanical_recheck_round73_20261015/build68012_84bbb6e34165_analysis.json", "rawSHA256":"84bbb6e3416540a238354d7636a6bc4e6f5ba0cd2d090470e3eb1bba1ce153db", "prefixRows":1, "nativeSamples":400},
+    {"name":"Q2_run03", "decoded":"q2_frozen_r79_check_round80_20261015/capture_analysis.json", "rawSHA256":"e8b6c897381bf15a77d4543d36f8564bab4318ae633bad56fc08b061fd173567", "prefixRows":1, "nativeSamples":399}
+  ],
+  "frozenR79ParametersFile":"measurement_target_calibration_round79_20261015/model_parameters.json",
+  "frozenR79ParametersSHA256":"2ec09510d85313fa468343837b398add271e7ffe12a06c9c8088e2f79ee8299b",
+  "comparison": "First refit the existing nine parameters on all three. Then test one targeted model extension: separate static breakaway and kinetic friction, with two nonnegative static-minus-kinetic increments. This is a modeling hypothesis, not an identified physical cause.",
+  "parameterNames11":["gainL","gainR","dampingL","dampingR","reciprocalSpring","reciprocalDamping","CoulombKineticL","CoulombKineticR","inertiaEta","staticExtraL","staticExtraR"],
+  "parameterScales11":[0.00001,0.00001,10,10,1000,100,0.01,0.01,0.2,0.001,0.001],
+  "lowerBounds11":[0.0000001,0.0000001,0,0,0,0,0,0,-0.95,0,0],
+  "upperBounds11":[0.001,0.001,1000,1000,100000,10000,1,1,0.95,0.1,0.1],
+  "nineParameterBudget":{"iterations":80,"evaluations":1100},
+  "elevenParameterBudgetPerSeed":{"iterations":80,"evaluations":1300},
+  "staticExtraNumericalSeeds":[[0,0],[0.0008,0.0008],[0.0015,0.0008]],
+  "seedMeaning":"Declared numerical starting hypotheses; not measured friction. Three bounded starts for a nonsmooth friction model, all reported. No per-record parameter vectors.",
+  "finiteDifferenceRelativeStep":0.001,
+  "lineSearch":[1,0.5,0.25,0.125],
+  "recordWeights":[0.3333333333333333,0.3333333333333333,0.3333333333333333],
+  "waveformScale_mm":[0.05,0.05],
+  "metricRelativeScale":0.1,
+  "objective":"Same normalized full-record waveform plus task-statistic calibration loss as R79, now equal-weighted over all three complete motion/holding snapshots. All native observed samples used:400/400/399. No absent native point imputed. Select lowest full cumulative calibration objective among declared candidates; report every record's before/after metrics and waveform errors.",
+  "stictionRule":"Use only previous simulated velocity, with fixed 1e-12 m/s numerical-zero tolerance. At rest, static reaction may lie within kinetic+extra; motion uses kinetic friction. Prefer feasible retained sticking, otherwise slip. No measured velocity feedback or phase/trajectory-dependent freezing.",
+  "inputLimitations":"Moving inputs 1ms recorded queued commands; hold inputs 40-step means, not recovered 1ms waveforms. Command-to-delivered-torque mapping uncalibrated.",
+  "recordingLimitations":"Run03 has one missing phase3 native CSV frame and 7.08s completion tail; its 8000 moving and300hold records have CRC verified four-copy recovery. T1 tail6.88s. These limitations are retained, not recast as full-protocol-qualified captures.",
+  "candidateMeaning":"Training-calibrated offline input-replay model, not a validated autonomous plant or evidence of CA versus BLNN superiority.",
+  "newHardwareRunReleased":false,"firmwareChanged":false,"rawChanged":false
+}

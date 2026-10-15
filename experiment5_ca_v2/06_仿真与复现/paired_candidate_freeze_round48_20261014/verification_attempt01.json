@@ -1,0 +1,11 @@
+{
+  "passed": false,
+  "method": "BLNN",
+  "checkpoint": "Historical source and HEX checks passed; AXF container hash differs from previous sealed manifest. No bundle copied, no hardware access.",
+  "currentAXF_SHA256": "a942066be3946e2ac8afeb9cf32abd10e4f7c0d5079e758d2c5dffa2cb0e06b3",
+  "previousManifestAXF_SHA256": "2ef4e57d5640264c9b0719d6dc803002438b5aa30e944cb88a585b107501b70f",
+  "cause": "Not established. Do not attribute to migration or a benign metadata edit without evidence.",
+  "requiredBeforeRelease": "Extract complete Flash load image from current AXF and require address-for-address byte identity with historically sealed HEX. Retain both container hashes and discrepancy. Reject on any load-byte difference.",
+  "flashed": false,
+  "motorStarted": false
+}

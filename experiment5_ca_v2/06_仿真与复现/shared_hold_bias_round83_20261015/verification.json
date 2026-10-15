@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "model": "round83",
+  "parameterCount": 13,
+  "independentPythonSteps": 60000,
+  "nativePositionChecks": 1199,
+  "maximumCAndPythonPositionDifference_m": 7.480994990149981e-16,
+  "maximumEnergyBalanceResidual": 1.3891874367297634e-21,
+  "objectiveIndependentlyRecomputed": 10.964418787739401,
+  "checks": [
+    {
+      "record": "T1",
+      "steps": 20000,
+      "maxPositionDifference_m": 7.480994990149981e-16,
+      "trackingRMSE_mm": 0.17624019830901236,
+      "syncRMS_mm": 0.04414646078679469
+    },
+    {
+      "record": "Q2_run02",
+      "steps": 20000,
+      "maxPositionDifference_m": 6.94323071259717e-16,
+      "trackingRMSE_mm": 0.14457430831582765,
+      "syncRMS_mm": 0.04352243674244355
+    },
+    {
+      "record": "Q2_run03",
+      "steps": 20000,
+      "maxPositionDifference_m": 6.088879400678593e-16,
+      "trackingRMSE_mm": 0.18996429555040045,
+      "syncRMS_mm": 0.04476292325402368
+    }
+  ],
+  "allThreeRecordsUsedForCalibration": true,
+  "inputForceForEnergyCheck": "gain*(queuedCommand-neutralBias)",
+  "physicalCauseIdentified": false,
+  "independentPhysicalValidationPassed": false,
+  "allRawFilesUnchanged": true,
+  "firmwareChanged": false,
+  "newHardwareAction": false
+}

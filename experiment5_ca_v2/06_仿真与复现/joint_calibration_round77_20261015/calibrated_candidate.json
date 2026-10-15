@@ -1,0 +1,19 @@
+{
+  "version":"joint_calibration_round77_20261015",
+  "status":"Training-calibrated candidate only, not admitted final model or MCU firmware",
+  "parameterNames":["gainL","gainR","dampingL","dampingR","reciprocalSpring","reciprocalDamping","CoulombL","CoulombR","inertiaEta"],
+  "parameters":[0.00003454661968811278,0.000028796574877095468,9.175818241673966,6.1248922799875105,9.39233537439465,119.57344124453326,0.002370107000963872,0.004386450576495271,0.9499999999999998],
+  "input":"Rawqueuedcommand withphysicalrightsign=-1; nominal effective coefficient units, not physicalforce/current calibration",
+  "inertialNormalization":"M=[[1,eta],[eta,1]],eta reaches registerednumericalupperbound0.95; no actualhardwareinertia claim",
+  "solver":"Existing verified implicitCoulombsolver in inertia_coupling_round66_20261015/native_model.dll",
+  "trainingRecords":["T1build68112SHA256:d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0","tightenedQ2build68012run02SHA256:84bbb6e3416540a238354d7636a6bc4e6f5ba0cd2d090470e3eb1bba1ce153db"],
+  "bothRecordsAreCalibrationNotIndependentValidation":true,
+  "parameterFitProvenance":"protocol.json,fit_results.json,verification.json,decision.json in same directory",
+  "fittingTarget":"Waveform consistency across twoordinaryrecords,notCAadvantage or scalarRMStarget",
+  "newQ2TrainingPredictedTrackingRMSE_mm":0.1393862842965548,
+  "newQ2TrainingPredictedSyncRMS_mm":0.013994820470445483,
+  "newQ2ActualTrackingRMSE_mm":0.14094456135303696,
+  "newQ2ActualSyncRMS_mm":0.042799503501793096,
+  "modelClosureComplete":false,"independentValidationPassed":false,
+  "MCUParametersModified":false,"archivedModelsOverwritten":false
+}

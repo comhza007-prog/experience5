@@ -1,0 +1,155 @@
+{
+  "status": "Frozen prospective recorded-input run08 prediction, no fitting",
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run08.csv",
+  "sourceSHA256": "e99258658a2922e6cd1922c75f3a6a4a3c1b7405e03a6b46f8fe0839d3f877c4",
+  "captureVerificationSHA256": "3252009e0291acb5786741460e216566c608f732c8f9c776b328e9c09a97cdc4",
+  "preCaptureProtocolSHA256": "38cd6d2b0cf3d0d0e61c1cedd836a5826dd24b258d5714d43645f8ab65a65092",
+  "models": [
+    {
+      "label": "R90",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\cumulative_micro_round90_20261015\\model_parameters.json",
+      "sha256": "ffc2988f6943390e991294edb19ee0a7415f3e05b0dba3ffe80c9f585fe90b87"
+    },
+    {
+      "label": "R86",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\cumulative_micro_round86_20261015\\model_parameters.json",
+      "sha256": "b5fa79668e254f166c765a8444fd79733625633dc0e4ac8147e0c891da96580a"
+    },
+    {
+      "label": "R82",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\tracking_refine_round82_20261015\\model_parameters.json",
+      "sha256": "b0c586fc4e7f74c4a73b7140a372c4d60ee7a6940d9179a9a2cbd2a81a40d1a0"
+    },
+    {
+      "label": "R93_motor",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\motor_response_analysis_round93_20261015\\model_parameters.json",
+      "sha256": "73fbd019a99a69a792f6027e873840ddf9baae14723284e46b12a8182e317748"
+    }
+  ],
+  "actualTrackingRMSE_mm": 0.13453225681969358,
+  "actualSyncRMS_mm": 0.04707284248906153,
+  "cases": [
+    {
+      "model": "R90",
+      "record": "Q2_run08",
+      "actualTrackingRMSE_mm": 0.13453225681969358,
+      "actualSyncRMS_mm": 0.04707284248906153,
+      "predictedTrackingRMSE_mm": 0.20841203480125617,
+      "predictedSyncRMS_mm": 0.039372261809553194,
+      "trackingDifference_percent": 54.916032576915526,
+      "syncDifference_percent": -16.358860592065895,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.16500709075673084,
+        0.17326060573598373
+      ]
+    },
+    {
+      "model": "R86",
+      "record": "Q2_run08",
+      "actualTrackingRMSE_mm": 0.13453225681969358,
+      "actualSyncRMS_mm": 0.04707284248906153,
+      "predictedTrackingRMSE_mm": 0.20869597504504012,
+      "predictedSyncRMS_mm": 0.03944008113581919,
+      "trackingDifference_percent": 55.12708994746458,
+      "syncDifference_percent": -16.214787443558333,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.16472439102937972,
+        0.17372763884886014
+      ]
+    },
+    {
+      "model": "R82",
+      "record": "Q2_run08",
+      "actualTrackingRMSE_mm": 0.13453225681969358,
+      "actualSyncRMS_mm": 0.04707284248906153,
+      "predictedTrackingRMSE_mm": 0.2094118609343797,
+      "predictedSyncRMS_mm": 0.03862071982757443,
+      "trackingDifference_percent": 55.65921949487791,
+      "syncDifference_percent": -17.95541168658159,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.16573399621079563,
+        0.17483926904445696
+      ]
+    },
+    {
+      "model": "R93_motor",
+      "record": "Q2_run08",
+      "actualTrackingRMSE_mm": 0.13453225681969358,
+      "actualSyncRMS_mm": 0.04707284248906153,
+      "predictedTrackingRMSE_mm": 0.18293855013364463,
+      "predictedSyncRMS_mm": 0.03492824788047633,
+      "trackingDifference_percent": 35.98117987333509,
+      "syncDifference_percent": -25.799577774397786,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.158662298609342,
+        0.15816132586697673
+      ]
+    }
+  ],
+  "numericalVerification": {
+    "passed": true,
+    "checks": [
+      {
+        "model": "R90",
+        "nativeCPropagationSteps": 20000,
+        "independentPythonSteps": 500,
+        "maximumNativePositionDifference_m": 0.0,
+        "maximumIndependentStateDifference": 2.3852447794681098e-18,
+        "maximumFilterConvolutionDifference_counts": 0.0
+      },
+      {
+        "model": "R86",
+        "nativeCPropagationSteps": 20000,
+        "independentPythonSteps": 500,
+        "maximumNativePositionDifference_m": 0.0,
+        "maximumIndependentStateDifference": 2.4936649967166602e-18,
+        "maximumFilterConvolutionDifference_counts": 0.0
+      },
+      {
+        "model": "R82",
+        "nativeCPropagationSteps": 20000,
+        "independentPythonSteps": 500,
+        "maximumNativePositionDifference_m": 0.0,
+        "maximumIndependentStateDifference": 2.6020852139652106e-18,
+        "maximumFilterConvolutionDifference_counts": 0.0
+      },
+      {
+        "model": "R93_motor",
+        "nativeCPropagationSteps": 20000,
+        "independentPythonSteps": 500,
+        "maximumNativePositionDifference_m": 0.0,
+        "maximumIndependentStateDifference": 2.2768245622195593e-18,
+        "maximumFilterConvolutionDifference_counts": 0.0
+      }
+    ]
+  },
+  "modelsRefitted": 0,
+  "run08UsedForCalibration": false,
+  "all400MetricsAndFullMovingSnapshotsUsable": true,
+  "strictFullRecordingProtocolQualified": false,
+  "recordingLimitations": "Seven frames missing only in phase0 before start. CSV positions exported5 decimals; use CRC integer encoders and identical frozen C reference rounded6 decimals as firmware statistics. No motion metrics imputed.",
+  "movingInputResolution_ms": 1,
+  "holdingInputRepresentation": "40-control-step recorded integral held as mean, unchanged old approximation",
+  "provisionalAggregateScreen": {
+    "trackingAbsoluteRelativeErrorMaximum": 0.15,
+    "syncAbsoluteRelativeErrorMaximum": 0.15,
+    "waveformIsHardGate": false,
+    "candidateMetricsPassed": false,
+    "scope": "Current record aggregate prediction only; not full physical model validation"
+  },
+  "motorVsR90": {
+    "trackingAbsoluteRelativeErrorReduced": true,
+    "syncAbsoluteRelativeErrorReduced": false
+  },
+  "physicalModelValidated": false,
+  "simulationType": "Forced recorded queued-input replay; not autonomous closed loop",
+  "measuredFutureStateOrCurrentInjected": false,
+  "parametersOrFirmwareChanged": false,
+  "assistantHardwareAction": false,
+  "newPhysicalRunReleased": false,
+  "nextStep": "If both metrics fail or motor block worsens predictions, do not repeat same physical trial automatically; retain frozen result and diagnose drive mapping/friction/coupling offline before any refit or new excitation."
+}

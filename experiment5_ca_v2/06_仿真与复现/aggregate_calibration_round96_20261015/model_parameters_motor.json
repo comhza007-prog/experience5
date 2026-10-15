@@ -1,0 +1,73 @@
+{
+  "version": "R96_motor_shared11",
+  "status": "Calibration-only, not adopted or independently validated",
+  "parameters": [
+    3.385425368947621e-06,
+    2.052344948954101e-06,
+    1.3074793313082416,
+    0.016877178374373678,
+    8.30692328525853,
+    2.1625317778069197,
+    0.0004633162971165771,
+    0.00010135456236727688,
+    -0.8885944930817273,
+    0.0001685032123694849,
+    0.0007743314994144633
+  ],
+  "parameterNames": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "staticExtraL",
+    "staticExtraR"
+  ],
+  "solverRelativeToProject": "06_\u4eff\u771f\u4e0e\u590d\u73b0/cumulative_micro_round90_20261015/native_model.dll",
+  "solverSHA256": "1c58dafdcfdc53b7c4a11dcbce20e45428f0864f02f96ec9cd550f17e39a2053",
+  "actuator": [
+    {
+      "axis": 0,
+      "delay_steps": 0,
+      "tau_s": 0.01,
+      "gain": 0.9957388372120841,
+      "measurementOffset_counts": -0.30174209890127063,
+      "trainingRMSE_counts": 54.38858238582231,
+      "leaveOneRecordOutRMSE_counts": 54.42292132273156,
+      "perRecordLOORMSE_counts": [
+        49.33838337530205,
+        40.74499720568633,
+        66.12843685912628,
+        58.047258218108716,
+        54.519598375723945
+      ]
+    },
+    {
+      "axis": 1,
+      "delay_steps": 0,
+      "tau_s": 0.01,
+      "gain": 0.9968926345706813,
+      "measurementOffset_counts": -0.9042758846616468,
+      "trainingRMSE_counts": 53.097616287456695,
+      "leaveOneRecordOutRMSE_counts": 53.10636073994424,
+      "perRecordLOORMSE_counts": [
+        54.91496478850599,
+        54.77990537479689,
+        46.50923460165347,
+        49.35141430966054,
+        59.044604893381205
+      ]
+    }
+  ],
+  "objective": "Two aggregate RMS metrics only, equal-record Huber, all13 records calibration",
+  "protocolSHA256": "78d087c5e497c39f5fe8a3faf4102f5b2408643a4502ff8b17fa6619bd2126b0",
+  "fitResultsSHA256": "03ff97a309b5beb827bb0e55ce92fec002073dbfa75eb369c8905f91cf9d8876",
+  "all13Both15percent": false,
+  "physicalModelValidated": false,
+  "newPhysicalRunReleased": false,
+  "run08UsedForCalibration": true
+}

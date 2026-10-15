@@ -1,0 +1,15 @@
+{
+  "date":"2026-10-13",
+  "userConfirmedMotorDrivePowerDisconnected":true,
+  "target":"exp5OL_A_NO_DRIVE_PROTOCOL","intendedBuild":66812,"motionEnabled":false,
+  "AXFHashVerifiedBeforeDownload":true,
+  "optionsSource":"C:/Users/ele/Desktop/lunwen/eassy/MDK-ARM/eassy.uvoptx",
+  "optionsChange":"Copied into independent communication project,target name changed;existinguserproject untouched.",
+  "command":"UV4.exe -f <communicationproject> -t exp5OL_A_NO_DRIVE_PROTOCOL -j0 -sg -o flash_online_attempt01.log",
+  "exitCode":2,"log":"RDDI-DAP Error;Flash Download failed-Target DLL has been cancelled",
+  "downloadSuccessConfirmed":false,"attemptCount":1,"automaticRetryPerformed":false,
+  "postAttemptReadOnlySerial":{"port":"COM4","validFrames":38,"build":66712,"phase":9,"fault":515,"drive":0,"writes":0,"portReleased":true},
+  "interpretation":"ExistingR6 identity remains;new firmware/ACK not verified. Fault515 contains missingCANfeedbackbits1/2 andRPM/stationary-startgatebit512 in oldR6;drivepowerwasdisconnected. Not a new performance trial. ExactDAP failurecause unresolved.",
+  "probe":"Horco CMSIS-DAP v2 present/StatusOK;USB presence doesnotverifySWD target access.",
+  "next":"Stop flash retries. Keep motor drive disconnected. VerifyDAP-to-targetSWDIO/SWCLK/GND/target-voltage reference andcontrolboardpower,or obtain known-workingdownload configuration. No controlparameter change,motion or force-erase."
+}

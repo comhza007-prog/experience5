@@ -1,0 +1,12 @@
+{
+  "purpose": "Offline adequacy diagnosis only; no hardware command, parameter tuning or candidate release",
+  "inputs": ["S3R2_run01_samples.json", "BLNN_run01_samples.json"],
+  "features": "Own prior encoder-derived modal velocity, recorded input with fixed lag, own half-skew, tanh own velocity. No measured RPM feature.",
+  "initialization": "Measured position and past velocity once at50ms; after this no measured states in forced rollout",
+  "fixedRidgeLambda": 0.001,
+  "inputFamilies": ["feedbackCurrentCounts", "attemptedCommandCounts"],
+  "lag_ms": [0,10,20,30],
+  "validation": "Train S3R2/test BLNN, then reverse; retain all16 branches. No selection of best branch to declare plant identified.",
+  "divergence": "Stop only on nonfinite state or absolute predicted displacement exceeding1m. Preserve failed branch and actual/predicted step counts. This is a numerical stop, not a motor safety threshold.",
+  "limitations": "One diagnostic trajectory per method; closed-loop correlations,10ms decimation and uncalibrated counts cannot alone establish counterfactual plant validity or identify a causal implementation defect. No automatic physical release."
+}

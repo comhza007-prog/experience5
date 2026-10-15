@@ -1,0 +1,11 @@
+{
+  "date":"2026-10-15",
+  "scope":"ONE post-proxy-fit exploratory frozen mechanical-model sensitivity. No further fit or timeconstant/gain search. Motivated by reduction of reportedcurrent errors on all T1/newQ2axis/phase cases; not independent hypothesis validation.",
+  "mechanicalModel":"Frozen round72 nine coefficients, including current shortcomings. No simultaneous correction of damping/inertia/friction or RPM observation.",
+  "inputChange":"Continuous unit-DC-gain first-order filter per raw command axis, tau from T1-only reported-current fit. The fittedproxy gain k is NOT multiplied into the old mechanicalgain, to avoid assuming torque calibration/double-scaling. Initial filterstate0 once for whole20s; no measured future reportedcurrent/position injected.",
+  "integration":"For each actual moving1ms or holdmean subinterval, use exact first-order interval-average command-equivalent filteroutput and exact filterendstate. Original implicit mechanicalsolver with that interval-average input. This is an input-shape sensitivity, not exact within-interval continuous coupledmechanics integration.",
+  "holding":"Reuse explicit unverified40step holdmean ZOH; no claim of recovered hold waveform.",
+  "comparisons":"Unfiltered frozenRound72 versus one filteredinputcase on T1/newQ2, native400points and phase errors. Both benefits and regressions reported; no model or controller selected for favorable outcomes.",
+  "interpretation":"Reportedcurrent prediction improvement does not prove deliveredforce lag or mechanicalprediction improvement. NewQ2informedhypothesisdevelopment,so checking it is exploratory. No application tolerances invented and no complete closedloop admission.",
+  "modelsRefitted":0,"controllerChanged":false,"physicalRunReleased":false
+}

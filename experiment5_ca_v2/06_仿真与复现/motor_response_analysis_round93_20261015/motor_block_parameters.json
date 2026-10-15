@@ -1,0 +1,1392 @@
+{
+  "status": "Exploratory effective drive model, not calibrated motor physics",
+  "axes": [
+    {
+      "axis": 0,
+      "static": {
+        "delay_steps": 0,
+        "tau_s": 0.0,
+        "gain": 0.8896512694641949,
+        "measurementOffset_counts": 1.1874874346514284,
+        "trainingRMSE_counts": 63.590364337954846,
+        "leaveOneRecordOutRMSE_counts": 69.64207868660544,
+        "perRecordLOORMSE_counts": [
+          58.286275225327685,
+          76.40194275405287,
+          80.08882428349516,
+          74.7999730719446,
+          54.829673864106724
+        ]
+      },
+      "best": {
+        "delay_steps": 0,
+        "tau_s": 0.01,
+        "gain": 0.9957388372120841,
+        "measurementOffset_counts": -0.30174209890127063,
+        "trainingRMSE_counts": 54.38858238582231,
+        "leaveOneRecordOutRMSE_counts": 54.42292132273156,
+        "perRecordLOORMSE_counts": [
+          49.33838337530205,
+          40.74499720568633,
+          66.12843685912628,
+          58.047258218108716,
+          54.519598375723945
+        ]
+      },
+      "improvement_percent": 21.8533933088948,
+      "adoptDynamics": true,
+      "selected": {
+        "delay_steps": 0,
+        "tau_s": 0.01,
+        "gain": 0.9957388372120841,
+        "measurementOffset_counts": -0.30174209890127063,
+        "trainingRMSE_counts": 54.38858238582231,
+        "leaveOneRecordOutRMSE_counts": 54.42292132273156,
+        "perRecordLOORMSE_counts": [
+          49.33838337530205,
+          40.74499720568633,
+          66.12843685912628,
+          58.047258218108716,
+          54.519598375723945
+        ]
+      },
+      "allTrials": [
+        {
+          "delay_steps": 0,
+          "tau_s": 0.0,
+          "gain": 0.8896512694641949,
+          "measurementOffset_counts": 1.1874874346514284,
+          "trainingRMSE_counts": 63.590364337954846,
+          "leaveOneRecordOutRMSE_counts": 69.64207868660544,
+          "perRecordLOORMSE_counts": [
+            58.286275225327685,
+            76.40194275405287,
+            80.08882428349516,
+            74.7999730719446,
+            54.829673864106724
+          ]
+        },
+        {
+          "delay_steps": 0,
+          "tau_s": 0.00025,
+          "gain": 0.8899179940346423,
+          "measurementOffset_counts": 1.182841420019547,
+          "trainingRMSE_counts": 63.5455215444333,
+          "leaveOneRecordOutRMSE_counts": 69.57651285618351,
+          "perRecordLOORMSE_counts": [
+            58.24752719850146,
+            76.283801678689,
+            80.02970928373355,
+            74.71041835899673,
+            54.82756517869825
+          ]
+        },
+        {
+          "delay_steps": 0,
+          "tau_s": 0.0005,
+          "gain": 0.8919862442283405,
+          "measurementOffset_counts": 1.1471152894161625,
+          "trainingRMSE_counts": 63.21047393646695,
+          "leaveOneRecordOutRMSE_counts": 69.0820797536805,
+          "perRecordLOORMSE_counts": [
+            57.955648734695856,
+            75.37869972304928,
+            79.58738621637879,
+            74.04356332340096,
+            54.81114675766921
+          ]
+        },
+        {
+          "delay_steps": 0,
+          "tau_s": 0.001,
+          "gain": 0.8993074665335072,
+          "measurementOffset_counts": 1.0238709175895617,
+          "trainingRMSE_counts": 62.15108615339299,
+          "leaveOneRecordOutRMSE_counts": 67.47117816453525,
+          "perRecordLOORMSE_counts": [
+            57.01810813358867,
+            72.27673916103114,
+            78.17501066084652,
+            71.95288791273963,
+            54.756345430097895
+          ]
+        },
+        {
+          "delay_steps": 0,
+          "tau_s": 0.002,
+          "gain": 0.9187051243043892,
+          "measurementOffset_counts": 0.7115825838134211,
+          "trainingRMSE_counts": 59.834763094466446,
+          "leaveOneRecordOutRMSE_counts": 63.74803765362478,
+          "perRecordLOORMSE_counts": [
+            54.92645954568284,
+            64.37901921933279,
+            74.98197823227058,
+            67.44899054446611,
+            54.64269452068484
+          ]
+        },
+        {
+          "delay_steps": 0,
+          "tau_s": 0.005,
+          "gain": 0.9676920340561338,
+          "measurementOffset_counts": -0.009131202632818297,
+          "trainingRMSE_counts": 55.55483001859303,
+          "leaveOneRecordOutRMSE_counts": 56.43329013892253,
+          "perRecordLOORMSE_counts": [
+            50.73536861936868,
+            46.27687471583437,
+            68.48706879054012,
+            59.56847004955298,
+            54.48920261433578
+          ]
+        },
+        {
+          "delay_steps": 0,
+          "tau_s": 0.01,
+          "gain": 0.9957388372120841,
+          "measurementOffset_counts": -0.30174209890127063,
+          "trainingRMSE_counts": 54.38858238582231,
+          "leaveOneRecordOutRMSE_counts": 54.42292132273156,
+          "perRecordLOORMSE_counts": [
+            49.33838337530205,
+            40.74499720568633,
+            66.12843685912628,
+            58.047258218108716,
+            54.519598375723945
+          ]
+        },
+        {
+          "delay_steps": 1,
+          "tau_s": 0.0,
+          "gain": 0.8944047803257531,
+          "measurementOffset_counts": 1.0904963875722804,
+          "trainingRMSE_counts": 62.34540706128201,
+          "leaveOneRecordOutRMSE_counts": 68.00166550449038,
+          "perRecordLOORMSE_counts": [
+            57.01219512821983,
+            73.98585842612592,
+            78.78197708778902,
+            72.05238991786119,
+            54.76027857669833
+          ]
+        },
+        {
+          "delay_steps": 1,
+          "tau_s": 0.00025,
+          "gain": 0.8946087286660453,
+          "measurementOffset_counts": 1.0869882077933257,
+          "trainingRMSE_counts": 62.315836928412004,
+          "leaveOneRecordOutRMSE_counts": 67.95701044942153,
+          "perRecordLOORMSE_counts": [
+            56.97962223943138,
+            73.9007568005127,
+            78.74905527620469,
+            71.992808684192,
+            54.7576381041376
+          ]
+        },
+        {
+          "delay_steps": 1,
+          "tau_s": 0.0005,
+          "gain": 0.8962116456148969,
+          "measurementOffset_counts": 1.0597209183433396,
+          "trainingRMSE_counts": 62.09456931910382,
+          "leaveOneRecordOutRMSE_counts": 67.6178107112528,
+          "perRecordLOORMSE_counts": [
+            56.73921304102207,
+            73.23961911656265,
+            78.49822192554402,
+            71.54845487965191,
+            54.73855388044947
+          ]
+        },
+        {
+          "delay_steps": 1,
+          "tau_s": 0.001,
+          "gain": 0.902114777065858,
+          "measurementOffset_counts": 0.9626622327944387,
+          "trainingRMSE_counts": 61.388388502464856,
+          "leaveOneRecordOutRMSE_counts": 66.4838445799642,
+          "perRecordLOORMSE_counts": [
+            55.996677244456066,
+            70.8731309863692,
+            77.6560954028938,
+            70.14983431235258,
+            54.68465036149979
+          ]
+        },
+        {
+          "delay_steps": 1,
+          "tau_s": 0.002,
+          "gain": 0.9187151676051398,
+          "measurementOffset_counts": 0.7035207141401353,
+          "trainingRMSE_counts": 59.79981268097866,
+          "leaveOneRecordOutRMSE_counts": 63.72152740526806,
+          "perRecordLOORMSE_counts": [
+            54.39059596376448,
+            64.39664313395065,
+            75.57048436881314,
+            67.12710184334912,
+            54.588962148610044
+          ]
+        },
+        {
+          "delay_steps": 1,
+          "tau_s": 0.005,
+          "gain": 0.963777159608255,
+          "measurementOffset_counts": 0.06395961748063882,
+          "trainingRMSE_counts": 56.6270946648715,
+          "leaveOneRecordOutRMSE_counts": 57.72149584675393,
+          "perRecordLOORMSE_counts": [
+            51.18488499206484,
+            47.76089883383146,
+            70.57399234451293,
+            61.71301925918223,
+            54.48554270024486
+          ]
+        },
+        {
+          "delay_steps": 1,
+          "tau_s": 0.01,
+          "gain": 0.9918708133747762,
+          "measurementOffset_counts": -0.21942065905035474,
+          "trainingRMSE_counts": 55.47919707509081,
+          "leaveOneRecordOutRMSE_counts": 55.573919081083346,
+          "perRecordLOORMSE_counts": [
+            50.039656121735234,
+            41.21759668943136,
+            68.03724472461259,
+            60.294699014266364,
+            54.542896417242666
+          ]
+        },
+        {
+          "delay_steps": 2,
+          "tau_s": 0.0,
+          "gain": 0.8957467660855389,
+          "measurementOffset_counts": 1.0552910011131698,
+          "trainingRMSE_counts": 61.96906342915961,
+          "leaveOneRecordOutRMSE_counts": 67.52567522769533,
+          "perRecordLOORMSE_counts": [
+            56.101363471596635,
+            73.33812367539167,
+            78.9504293048253,
+            71.07618169975987,
+            54.66028553482134
+          ]
+        },
+        {
+          "delay_steps": 2,
+          "tau_s": 0.00025,
+          "gain": 0.8958848209629322,
+          "measurementOffset_counts": 1.053006508848734,
+          "trainingRMSE_counts": 61.95635773143941,
+          "leaveOneRecordOutRMSE_counts": 67.50333076203312,
+          "perRecordLOORMSE_counts": [
+            56.08168126014677,
+            73.28640860946236,
+            78.94207977098559,
+            71.04975624134165,
+            54.65826414625456
+          ]
+        },
+        {
+          "delay_steps": 2,
+          "tau_s": 0.0005,
+          "gain": 0.8970055370970915,
+          "measurementOffset_counts": 1.0347730638843102,
+          "trainingRMSE_counts": 61.85895286263479,
+          "leaveOneRecordOutRMSE_counts": 67.32785963351293,
+          "perRecordLOORMSE_counts": [
+            55.93412026644763,
+            72.86910581033068,
+            78.87314041614842,
+            70.84969460704323,
+            54.64448295623947
+          ]
+        },
+        {
+          "delay_steps": 2,
+          "tau_s": 0.001,
+          "gain": 0.9015006205609629,
+          "measurementOffset_counts": 0.9644967006729653,
+          "trainingRMSE_counts": 61.518663354819964,
+          "leaveOneRecordOutRMSE_counts": 66.67578477482826,
+          "perRecordLOORMSE_counts": [
+            55.464597482672914,
+            71.21118779576433,
+            78.56917203336802,
+            70.18418280201627,
+            54.60780370882665
+          ]
+        },
+        {
+          "delay_steps": 2,
+          "tau_s": 0.002,
+          "gain": 0.915537084417163,
+          "measurementOffset_counts": 0.7552841253518017,
+          "trainingRMSE_counts": 60.612709783018786,
+          "leaveOneRecordOutRMSE_counts": 64.79937117216296,
+          "perRecordLOORMSE_counts": [
+            54.40341979491315,
+            66.00756460683616,
+            77.44895010513338,
+            68.5906433378407,
+            54.543978814762056
+          ]
+        },
+        {
+          "delay_steps": 2,
+          "tau_s": 0.005,
+          "gain": 0.957816744201875,
+          "measurementOffset_counts": 0.17678231420103704,
+          "trainingRMSE_counts": 58.22705996242746,
+          "leaveOneRecordOutRMSE_counts": 59.68224114324587,
+          "perRecordLOORMSE_counts": [
+            52.06620675867029,
+            50.22755902628781,
+            73.39493996610376,
+            64.95890089220401,
+            54.49473322877871
+          ]
+        },
+        {
+          "delay_steps": 2,
+          "tau_s": 0.01,
+          "gain": 0.9870092077163269,
+          "measurementOffset_counts": -0.11702616325666372,
+          "trainingRMSE_counts": 56.81677265266498,
+          "leaveOneRecordOutRMSE_counts": 57.032408773429836,
+          "perRecordLOORMSE_counts": [
+            50.970928930434916,
+            42.135281525590386,
+            70.26978347633195,
+            63.03845706781713,
+            54.5744552691475
+          ]
+        },
+        {
+          "delay_steps": 3,
+          "tau_s": 0.0,
+          "gain": 0.8935343727026648,
+          "measurementOffset_counts": 1.0864236746718607,
+          "trainingRMSE_counts": 62.507241241092025,
+          "leaveOneRecordOutRMSE_counts": 68.25607783398566,
+          "perRecordLOORMSE_counts": [
+            55.9138086100406,
+            74.48252036974488,
+            80.41971644577337,
+            71.92190401335701,
+            54.59276419417405
+          ]
+        },
+        {
+          "delay_steps": 3,
+          "tau_s": 0.00025,
+          "gain": 0.8936088641036483,
+          "measurementOffset_counts": 1.0853861100697704,
+          "trainingRMSE_counts": 62.5109612811221,
+          "leaveOneRecordOutRMSE_counts": 68.25550131478106,
+          "perRecordLOORMSE_counts": [
+            55.90447904302971,
+            74.46267274827817,
+            80.4366406283999,
+            71.92830780704453,
+            54.59241952142603
+          ]
+        },
+        {
+          "delay_steps": 3,
+          "tau_s": 0.0005,
+          "gain": 0.8942731641174047,
+          "measurementOffset_counts": 1.0760945819031662,
+          "trainingRMSE_counts": 62.53156832133625,
+          "leaveOneRecordOutRMSE_counts": 68.23640644846931,
+          "perRecordLOORMSE_counts": [
+            55.836403374035214,
+            74.27453078269899,
+            80.54641266051397,
+            71.9651497766822,
+            54.58863055075976
+          ]
+        },
+        {
+          "delay_steps": 3,
+          "tau_s": 0.001,
+          "gain": 0.8974921707878258,
+          "measurementOffset_counts": 1.0308044114574035,
+          "trainingRMSE_counts": 62.52160273564869,
+          "leaveOneRecordOutRMSE_counts": 68.02165150006691,
+          "perRecordLOORMSE_counts": [
+            55.61920901222646,
+            73.26086894387772,
+            80.71985769437285,
+            71.97474106494789,
+            54.5711943873222
+          ]
+        },
+        {
+          "delay_steps": 3,
+          "tau_s": 0.002,
+          "gain": 0.9093790510740687,
+          "measurementOffset_counts": 0.8644376953964956,
+          "trainingRMSE_counts": 62.17485732770838,
+          "leaveOneRecordOutRMSE_counts": 66.87837446449939,
+          "perRecordLOORMSE_counts": [
+            55.049916971968145,
+            69.15072072191201,
+            80.34268262976957,
+            71.5697573456286,
+            54.53524091290437
+          ]
+        },
+        {
+          "delay_steps": 3,
+          "tau_s": 0.005,
+          "gain": 0.9501912898723721,
+          "measurementOffset_counts": 0.3230737151001897,
+          "trainingRMSE_counts": 60.20406129938811,
+          "leaveOneRecordOutRMSE_counts": 62.1752476068757,
+          "perRecordLOORMSE_counts": [
+            53.348064673496495,
+            53.70396977212732,
+            76.65659433414828,
+            68.91385441365225,
+            54.52817543373472
+          ]
+        },
+        {
+          "delay_steps": 3,
+          "tau_s": 0.01,
+          "gain": 0.9814658183850871,
+          "measurementOffset_counts": 0.00018329495970136026,
+          "trainingRMSE_counts": 58.29884052109903,
+          "leaveOneRecordOutRMSE_counts": 58.70881170898301,
+          "perRecordLOORMSE_counts": [
+            52.09141074819108,
+            43.590073547210736,
+            72.63788819014944,
+            66.03376456287357,
+            54.61952409849833
+          ]
+        },
+        {
+          "delay_steps": 4,
+          "tau_s": 0.0,
+          "gain": 0.887921870091945,
+          "measurementOffset_counts": 1.1843857458466918,
+          "trainingRMSE_counts": 63.89664541776334,
+          "leaveOneRecordOutRMSE_counts": 70.13129399732772,
+          "perRecordLOORMSE_counts": [
+            56.2825879415052,
+            77.34791295120868,
+            83.16610003901307,
+            74.44369488422824,
+            54.61775115914105
+          ]
+        },
+        {
+          "delay_steps": 4,
+          "tau_s": 0.00025,
+          "gain": 0.8879447905484605,
+          "measurementOffset_counts": 1.184339419004323,
+          "trainingRMSE_counts": 63.91301313350877,
+          "leaveOneRecordOutRMSE_counts": 70.14791005059986,
+          "perRecordLOORMSE_counts": [
+            56.287083533608204,
+            77.35475070651187,
+            83.19916381522205,
+            74.47550171612242,
+            54.61640758351787
+          ]
+        },
+        {
+          "delay_steps": 4,
+          "tau_s": 0.0005,
+          "gain": 0.8882368847267659,
+          "measurementOffset_counts": 1.182220577105096,
+          "trainingRMSE_counts": 64.02470151042401,
+          "leaveOneRecordOutRMSE_counts": 70.25280482108295,
+          "perRecordLOORMSE_counts": [
+            56.316656595743986,
+            77.36007258832583,
+            83.42409624711625,
+            74.69651077322995,
+            54.60757940806844
+          ]
+        },
+        {
+          "delay_steps": 4,
+          "tau_s": 0.001,
+          "gain": 0.8904169917304631,
+          "measurementOffset_counts": 1.1571757123710156,
+          "trainingRMSE_counts": 64.26716819037956,
+          "leaveOneRecordOutRMSE_counts": 70.38298842647772,
+          "perRecordLOORMSE_counts": [
+            56.36148847170231,
+            76.89610266549495,
+            83.90644226770455,
+            75.2264801919767,
+            54.58830401489693
+          ]
+        },
+        {
+          "delay_steps": 4,
+          "tau_s": 0.002,
+          "gain": 0.9006865266642485,
+          "measurementOffset_counts": 1.0235892142971648,
+          "trainingRMSE_counts": 64.30996624690148,
+          "leaveOneRecordOutRMSE_counts": 69.77142295154489,
+          "perRecordLOORMSE_counts": [
+            56.22244766599351,
+            73.68122082887635,
+            83.96167626595552,
+            75.65318677414965,
+            54.565590151251094
+          ]
+        },
+        {
+          "delay_steps": 4,
+          "tau_s": 0.005,
+          "gain": 0.9414060657469041,
+          "measurementOffset_counts": 0.4938448509988839,
+          "trainingRMSE_counts": 62.39047771069093,
+          "leaveOneRecordOutRMSE_counts": 65.02715857310956,
+          "perRecordLOORMSE_counts": [
+            54.91100422158524,
+            58.08095015062909,
+            80.09707818512385,
+            73.20538181327554,
+            54.58453760193973
+          ]
+        },
+        {
+          "delay_steps": 4,
+          "tau_s": 0.01,
+          "gain": 0.9756052150910136,
+          "measurementOffset_counts": 0.12566269927000345,
+          "trainingRMSE_counts": 59.821063410676054,
+          "leaveOneRecordOutRMSE_counts": 60.497220579492264,
+          "perRecordLOORMSE_counts": [
+            53.3192430223413,
+            45.55648166569531,
+            74.97962421928193,
+            69.06348391602822,
+            54.67654828445345
+          ]
+        },
+        {
+          "delay_steps": 5,
+          "tau_s": 0.0,
+          "gain": 0.8795837281027583,
+          "measurementOffset_counts": 1.334444230492459,
+          "trainingRMSE_counts": 65.9052610366848,
+          "leaveOneRecordOutRMSE_counts": 72.87931983348281,
+          "perRecordLOORMSE_counts": [
+            57.37699101456269,
+            81.6481162957139,
+            86.65800868538233,
+            78.16045986752556,
+            54.5873094080749
+          ]
+        },
+        {
+          "delay_steps": 5,
+          "tau_s": 0.00025,
+          "gain": 0.8795632389463302,
+          "measurementOffset_counts": 1.3352627617924064,
+          "trainingRMSE_counts": 65.93119300891658,
+          "leaveOneRecordOutRMSE_counts": 72.90972598431236,
+          "perRecordLOORMSE_counts": [
+            57.39065995528305,
+            81.67877911918232,
+            86.70160618027288,
+            78.21171437747186,
+            54.58744477379472
+          ]
+        },
+        {
+          "delay_steps": 5,
+          "tau_s": 0.0005,
+          "gain": 0.879544351391822,
+          "measurementOffset_counts": 1.339332360530976,
+          "trainingRMSE_counts": 66.11105920140616,
+          "leaveOneRecordOutRMSE_counts": 73.11318435110523,
+          "perRecordLOORMSE_counts": [
+            57.48638488529502,
+            81.85630441829679,
+            87.00097221986611,
+            78.5713290972194,
+            54.58870475003847
+          ]
+        },
+        {
+          "delay_steps": 5,
+          "tau_s": 0.001,
+          "gain": 0.8808953919095032,
+          "measurementOffset_counts": 1.330877066358512,
+          "trainingRMSE_counts": 66.53226308911677,
+          "leaveOneRecordOutRMSE_counts": 73.50467781455002,
+          "perRecordLOORMSE_counts": [
+            57.71302770456738,
+            81.86809838863594,
+            87.66866549504955,
+            79.4691382574622,
+            54.59276836210031
+          ]
+        },
+        {
+          "delay_steps": 5,
+          "tau_s": 0.002,
+          "gain": 0.8900945974780501,
+          "measurementOffset_counts": 1.2202700483241136,
+          "trainingRMSE_counts": 66.7986386588856,
+          "leaveOneRecordOutRMSE_counts": 73.22847826234346,
+          "perRecordLOORMSE_counts": [
+            57.86263649471346,
+            79.34701237290278,
+            87.90239928605833,
+            80.37405040319247,
+            54.600341482513194
+          ]
+        },
+        {
+          "delay_steps": 5,
+          "tau_s": 0.005,
+          "gain": 0.9320464469519663,
+          "measurementOffset_counts": 0.6780420550849412,
+          "trainingRMSE_counts": 64.62198095232014,
+          "leaveOneRecordOutRMSE_counts": 68.04403077615936,
+          "perRecordLOORMSE_counts": [
+            56.66451330118774,
+            63.102344689414814,
+            83.44590485648739,
+            77.50836371488526,
+            54.648075586387534
+          ]
+        },
+        {
+          "delay_steps": 5,
+          "tau_s": 0.01,
+          "gain": 0.9698151337853844,
+          "measurementOffset_counts": 0.2521469701963017,
+          "trainingRMSE_counts": 61.28533688976222,
+          "leaveOneRecordOutRMSE_counts": 62.28169649505399,
+          "perRecordLOORMSE_counts": [
+            54.59276025344123,
+            47.88854689868264,
+            77.13471010877784,
+            71.9407876406288,
+            54.736877563794444
+          ]
+        }
+      ]
+    },
+    {
+      "axis": 1,
+      "static": {
+        "delay_steps": 0,
+        "tau_s": 0.0,
+        "gain": 0.9852638077887151,
+        "measurementOffset_counts": -0.6848439815850443,
+        "trainingRMSE_counts": 54.93458557515248,
+        "leaveOneRecordOutRMSE_counts": 55.00014992777634,
+        "perRecordLOORMSE_counts": [
+          56.21981829981006,
+          57.4230448950422,
+          50.09891084614329,
+          51.71415696696955,
+          59.01485835731125
+        ]
+      },
+      "best": {
+        "delay_steps": 0,
+        "tau_s": 0.01,
+        "gain": 0.9968926345706813,
+        "measurementOffset_counts": -0.9042758846616468,
+        "trainingRMSE_counts": 53.097616287456695,
+        "leaveOneRecordOutRMSE_counts": 53.10636073994424,
+        "perRecordLOORMSE_counts": [
+          54.91496478850599,
+          54.77990537479689,
+          46.50923460165347,
+          49.35141430966054,
+          59.044604893381205
+        ]
+      },
+      "improvement_percent": 3.4432436826425605,
+      "adoptDynamics": true,
+      "selected": {
+        "delay_steps": 0,
+        "tau_s": 0.01,
+        "gain": 0.9968926345706813,
+        "measurementOffset_counts": -0.9042758846616468,
+        "trainingRMSE_counts": 53.097616287456695,
+        "leaveOneRecordOutRMSE_counts": 53.10636073994424,
+        "perRecordLOORMSE_counts": [
+          54.91496478850599,
+          54.77990537479689,
+          46.50923460165347,
+          49.35141430966054,
+          59.044604893381205
+        ]
+      },
+      "allTrials": [
+        {
+          "delay_steps": 0,
+          "tau_s": 0.0,
+          "gain": 0.9852638077887151,
+          "measurementOffset_counts": -0.6848439815850443,
+          "trainingRMSE_counts": 54.93458557515248,
+          "leaveOneRecordOutRMSE_counts": 55.00014992777634,
+          "perRecordLOORMSE_counts": [
+            56.21981829981006,
+            57.4230448950422,
+            50.09891084614329,
+            51.71415696696955,
+            59.01485835731125
+          ]
+        },
+        {
+          "delay_steps": 0,
+          "tau_s": 0.00025,
+          "gain": 0.9853013048116612,
+          "measurementOffset_counts": -0.6862155747222931,
+          "trainingRMSE_counts": 54.92250960212133,
+          "leaveOneRecordOutRMSE_counts": 54.98753796640473,
+          "perRecordLOORMSE_counts": [
+            56.21085172680209,
+            57.407520155447145,
+            50.07668621866943,
+            51.6964156311256,
+            59.01414698217915
+          ]
+        },
+        {
+          "delay_steps": 0,
+          "tau_s": 0.0005,
+          "gain": 0.9855858920455751,
+          "measurementOffset_counts": -0.6966758314195426,
+          "trainingRMSE_counts": 54.8331988453665,
+          "leaveOneRecordOutRMSE_counts": 54.89420031426168,
+          "perRecordLOORMSE_counts": [
+            56.14436707719059,
+            57.292833385014305,
+            49.909994712779294,
+            51.565769608866304,
+            59.009925108796466
+          ]
+        },
+        {
+          "delay_steps": 0,
+          "tau_s": 0.001,
+          "gain": 0.9865347844907953,
+          "measurementOffset_counts": -0.7318974728690526,
+          "trainingRMSE_counts": 54.55921664572749,
+          "leaveOneRecordOutRMSE_counts": 54.60748013615621,
+          "perRecordLOORMSE_counts": [
+            55.93838837077482,
+            56.937862428762806,
+            49.3835613653851,
+            51.17203262014686,
+            59.004643097141035
+          ]
+        },
+        {
+          "delay_steps": 0,
+          "tau_s": 0.002,
+          "gain": 0.9888059803055815,
+          "measurementOffset_counts": -0.8151036948771256,
+          "trainingRMSE_counts": 54.0018555230596,
+          "leaveOneRecordOutRMSE_counts": 54.025446728005676,
+          "perRecordLOORMSE_counts": [
+            55.52301389602321,
+            56.19146379304433,
+            48.29202161210986,
+            50.39326349885765,
+            59.00727445027528
+          ]
+        },
+        {
+          "delay_steps": 0,
+          "tau_s": 0.005,
+          "gain": 0.9937381779237429,
+          "measurementOffset_counts": -0.9518528772816713,
+          "trainingRMSE_counts": 53.17572467812832,
+          "leaveOneRecordOutRMSE_counts": 53.17929895076923,
+          "perRecordLOORMSE_counts": [
+            54.9546192049456,
+            54.98703679956606,
+            46.67791125250443,
+            49.337040491196476,
+            59.022316399751524
+          ]
+        },
+        {
+          "delay_steps": 0,
+          "tau_s": 0.01,
+          "gain": 0.9968926345706813,
+          "measurementOffset_counts": -0.9042758846616468,
+          "trainingRMSE_counts": 53.097616287456695,
+          "leaveOneRecordOutRMSE_counts": 53.10636073994424,
+          "perRecordLOORMSE_counts": [
+            54.91496478850599,
+            54.77990537479689,
+            46.50923460165347,
+            49.35141430966054,
+            59.044604893381205
+          ]
+        },
+        {
+          "delay_steps": 1,
+          "tau_s": 0.0,
+          "gain": 0.9863358445270957,
+          "measurementOffset_counts": -0.7123512661128439,
+          "trainingRMSE_counts": 54.53470747324789,
+          "leaveOneRecordOutRMSE_counts": 54.58911480764662,
+          "perRecordLOORMSE_counts": [
+            55.921216272198166,
+            56.92634216637354,
+            49.36969231120749,
+            51.13197499158349,
+            58.99339819135611
+          ]
+        },
+        {
+          "delay_steps": 1,
+          "tau_s": 0.00025,
+          "gain": 0.986366963482286,
+          "measurementOffset_counts": -0.7133545408325466,
+          "trainingRMSE_counts": 54.52603086628545,
+          "leaveOneRecordOutRMSE_counts": 54.58005546342479,
+          "perRecordLOORMSE_counts": [
+            55.91435299973155,
+            56.91543912113806,
+            49.351612351792454,
+            51.12030666045596,
+            58.99375217293286
+          ]
+        },
+        {
+          "delay_steps": 1,
+          "tau_s": 0.0005,
+          "gain": 0.9866050042677174,
+          "measurementOffset_counts": -0.7211491322087582,
+          "trainingRMSE_counts": 54.46159466579061,
+          "leaveOneRecordOutRMSE_counts": 54.51270508942834,
+          "perRecordLOORMSE_counts": [
+            55.86244922110238,
+            56.83336078459676,
+            49.21746204904047,
+            51.03470863945476,
+            58.99687189436209
+          ]
+        },
+        {
+          "delay_steps": 1,
+          "tau_s": 0.001,
+          "gain": 0.987416267953537,
+          "measurementOffset_counts": -0.7485903904764035,
+          "trainingRMSE_counts": 54.26160752173586,
+          "leaveOneRecordOutRMSE_counts": 54.303096382401264,
+          "perRecordLOORMSE_counts": [
+            55.6982768504758,
+            56.569365544188194,
+            48.80341442454117,
+            50.77498001908781,
+            59.00735857471754
+          ]
+        },
+        {
+          "delay_steps": 1,
+          "tau_s": 0.002,
+          "gain": 0.9894107638701247,
+          "measurementOffset_counts": -0.8161716421679477,
+          "trainingRMSE_counts": 53.851690104625256,
+          "leaveOneRecordOutRMSE_counts": 53.87330659264529,
+          "perRecordLOORMSE_counts": [
+            55.366693697969986,
+            55.997382149198614,
+            47.972039628060145,
+            50.25301162022736,
+            59.023778890703845
+          ]
+        },
+        {
+          "delay_steps": 1,
+          "tau_s": 0.005,
+          "gain": 0.9938893172259246,
+          "measurementOffset_counts": -0.925967141550369,
+          "trainingRMSE_counts": 53.256220331905325,
+          "leaveOneRecordOutRMSE_counts": 53.25959991711467,
+          "perRecordLOORMSE_counts": [
+            54.930257459808786,
+            55.064948873232375,
+            46.80368361048811,
+            49.567948231909554,
+            59.041314739859
+          ]
+        },
+        {
+          "delay_steps": 1,
+          "tau_s": 0.01,
+          "gain": 0.9969493962849812,
+          "measurementOffset_counts": -0.8699008827640673,
+          "trainingRMSE_counts": 53.223477302557455,
+          "leaveOneRecordOutRMSE_counts": 53.23078175301496,
+          "perRecordLOORMSE_counts": [
+            54.935126819395585,
+            54.928902438718296,
+            46.72416618450652,
+            49.61200329854569,
+            59.05954259446944
+          ]
+        },
+        {
+          "delay_steps": 2,
+          "tau_s": 0.0,
+          "gain": 0.9870629542250868,
+          "measurementOffset_counts": -0.7198926111786432,
+          "trainingRMSE_counts": 54.320728899717956,
+          "leaveOneRecordOutRMSE_counts": 54.370295063399745,
+          "perRecordLOORMSE_counts": [
+            55.72753507843458,
+            56.68319633895445,
+            48.87177297993763,
+            50.88433749729643,
+            59.02911160220701
+          ]
+        },
+        {
+          "delay_steps": 2,
+          "tau_s": 0.00025,
+          "gain": 0.9870881711724478,
+          "measurementOffset_counts": -0.7205873316600582,
+          "trainingRMSE_counts": 54.31530475297136,
+          "leaveOneRecordOutRMSE_counts": 54.36460660862776,
+          "perRecordLOORMSE_counts": [
+            55.7214114702425,
+            56.67540284419024,
+            48.859999821069124,
+            50.87936175910676,
+            59.030214629781085
+          ]
+        },
+        {
+          "delay_steps": 2,
+          "tau_s": 0.0005,
+          "gain": 0.9872831601679884,
+          "measurementOffset_counts": -0.726097385115517,
+          "trainingRMSE_counts": 54.274600412296785,
+          "leaveOneRecordOutRMSE_counts": 54.321817018507424,
+          "perRecordLOORMSE_counts": [
+            55.67724688864011,
+            56.6167987903898,
+            48.77182993750075,
+            50.840818011448526,
+            59.03728587143234
+          ]
+        },
+        {
+          "delay_steps": 2,
+          "tau_s": 0.001,
+          "gain": 0.9879665655659152,
+          "measurementOffset_counts": -0.7465379235914004,
+          "trainingRMSE_counts": 54.144553747532335,
+          "leaveOneRecordOutRMSE_counts": 54.18430174375289,
+          "perRecordLOORMSE_counts": [
+            55.54711197608726,
+            56.42751036623117,
+            48.495034474224525,
+            50.70823909506608,
+            59.051277052207716
+          ]
+        },
+        {
+          "delay_steps": 2,
+          "tau_s": 0.002,
+          "gain": 0.9897065672662888,
+          "measurementOffset_counts": -0.7998453129642048,
+          "trainingRMSE_counts": 53.869198232036354,
+          "leaveOneRecordOutRMSE_counts": 53.891909266837764,
+          "perRecordLOORMSE_counts": [
+            55.29008797593946,
+            56.00772022025486,
+            47.936284904177626,
+            50.41182582723249,
+            59.06429781025243
+          ]
+        },
+        {
+          "delay_steps": 2,
+          "tau_s": 0.005,
+          "gain": 0.9938294896167713,
+          "measurementOffset_counts": -0.8879784540712682,
+          "trainingRMSE_counts": 53.4470472510938,
+          "leaveOneRecordOutRMSE_counts": 53.4505015250485,
+          "perRecordLOORMSE_counts": [
+            54.95857959777698,
+            55.276689924624115,
+            47.131798368085754,
+            49.98313238932763,
+            59.06862707993886
+          ]
+        },
+        {
+          "delay_steps": 2,
+          "tau_s": 0.01,
+          "gain": 0.9968950225789458,
+          "measurementOffset_counts": -0.828856112273405,
+          "trainingRMSE_counts": 53.4064597120187,
+          "leaveOneRecordOutRMSE_counts": 53.412134177924024,
+          "perRecordLOORMSE_counts": [
+            54.98444854091367,
+            55.148969549257615,
+            47.044773635013485,
+            49.9616961526782,
+            59.07791596432012
+          ]
+        },
+        {
+          "delay_steps": 3,
+          "tau_s": 0.0,
+          "gain": 0.9874707631427759,
+          "measurementOffset_counts": -0.710790586427568,
+          "trainingRMSE_counts": 54.28356306301362,
+          "leaveOneRecordOutRMSE_counts": 54.3339088720994,
+          "perRecordLOORMSE_counts": [
+            55.56785010040445,
+            56.60958342929678,
+            48.72063611646686,
+            51.002252464289214,
+            59.10589840078743
+          ]
+        },
+        {
+          "delay_steps": 3,
+          "tau_s": 0.00025,
+          "gain": 0.9874905359874194,
+          "measurementOffset_counts": -0.7111704659717466,
+          "trainingRMSE_counts": 54.28116357041213,
+          "leaveOneRecordOutRMSE_counts": 54.3313121842582,
+          "perRecordLOORMSE_counts": [
+            55.56507796958713,
+            56.605407789208776,
+            48.71468087023032,
+            51.00164163831416,
+            59.106004394446224
+          ]
+        },
+        {
+          "delay_steps": 3,
+          "tau_s": 0.0005,
+          "gain": 0.9876459381475421,
+          "measurementOffset_counts": -0.7143753555877703,
+          "trainingRMSE_counts": 54.262305698525076,
+          "leaveOneRecordOutRMSE_counts": 54.310856387225044,
+          "perRecordLOORMSE_counts": [
+            55.54305049064312,
+            56.57350155090253,
+            48.669083241415144,
+            50.99474919120203,
+            59.10676749238972
+          ]
+        },
+        {
+          "delay_steps": 3,
+          "tau_s": 0.001,
+          "gain": 0.9882093646894252,
+          "measurementOffset_counts": -0.7278597511182279,
+          "trainingRMSE_counts": 54.196665168618466,
+          "leaveOneRecordOutRMSE_counts": 54.23910012429027,
+          "perRecordLOORMSE_counts": [
+            55.465970606022346,
+            56.46397039865315,
+            48.522419293833316,
+            50.95643497425172,
+            59.10805887190084
+          ]
+        },
+        {
+          "delay_steps": 3,
+          "tau_s": 0.002,
+          "gain": 0.9897164774673729,
+          "measurementOffset_counts": -0.767796397946146,
+          "trainingRMSE_counts": 54.03967535154488,
+          "leaveOneRecordOutRMSE_counts": 54.066534921548225,
+          "perRecordLOORMSE_counts": [
+            55.28789857332638,
+            56.18773428437085,
+            48.21040144727143,
+            50.83608644731188,
+            59.10657566179793
+          ]
+        },
+        {
+          "delay_steps": 3,
+          "tau_s": 0.005,
+          "gain": 0.9935889170585521,
+          "measurementOffset_counts": -0.8396615742470787,
+          "trainingRMSE_counts": 53.728803578619434,
+          "leaveOneRecordOutRMSE_counts": 53.73319879700631,
+          "perRecordLOORMSE_counts": [
+            55.037642311257095,
+            55.592526476623476,
+            47.64695701661195,
+            50.540812475507636,
+            59.09319719671418
+          ]
+        },
+        {
+          "delay_steps": 3,
+          "tau_s": 0.01,
+          "gain": 0.9967549352360998,
+          "measurementOffset_counts": -0.78258110149604,
+          "trainingRMSE_counts": 53.63161451663589,
+          "leaveOneRecordOutRMSE_counts": 53.63586496659958,
+          "perRecordLOORMSE_counts": [
+            55.06005739063954,
+            55.418995346264495,
+            47.45322236287629,
+            50.37108216824207,
+            59.09400017858274
+          ]
+        },
+        {
+          "delay_steps": 4,
+          "tau_s": 0.0,
+          "gain": 0.9875833951924882,
+          "measurementOffset_counts": -0.6846019554454791,
+          "trainingRMSE_counts": 54.409778527825026,
+          "leaveOneRecordOutRMSE_counts": 54.46478253548631,
+          "perRecordLOORMSE_counts": [
+            55.59370814992916,
+            56.73307592424754,
+            48.88399389921148,
+            51.35293740174565,
+            59.126908884004614
+          ]
+        },
+        {
+          "delay_steps": 4,
+          "tau_s": 0.00025,
+          "gain": 0.9875985587465884,
+          "measurementOffset_counts": -0.6846997635395037,
+          "trainingRMSE_counts": 54.4097769360443,
+          "leaveOneRecordOutRMSE_counts": 54.46465173650813,
+          "perRecordLOORMSE_counts": [
+            55.59146802317257,
+            56.7324600364143,
+            48.883116075959755,
+            51.35591040417879,
+            59.12714718640699
+          ]
+        },
+        {
+          "delay_steps": 4,
+          "tau_s": 0.0005,
+          "gain": 0.9877177023893176,
+          "measurementOffset_counts": -0.6857409822539675,
+          "trainingRMSE_counts": 54.40968022000182,
+          "leaveOneRecordOutRMSE_counts": 54.46345880177141,
+          "perRecordLOORMSE_counts": [
+            55.57554568912511,
+            56.72695318856121,
+            48.8777047961616,
+            51.376628456200464,
+            59.128379386660235
+          ]
+        },
+        {
+          "delay_steps": 4,
+          "tau_s": 0.001,
+          "gain": 0.9881639373457738,
+          "measurementOffset_counts": -0.6925150205316274,
+          "trainingRMSE_counts": 54.40297496714405,
+          "leaveOneRecordOutRMSE_counts": 54.45195110609837,
+          "perRecordLOORMSE_counts": [
+            55.525307692152055,
+            56.69263089713067,
+            48.85839062087908,
+            51.425125056780146,
+            59.12930646295711
+          ]
+        },
+        {
+          "delay_steps": 4,
+          "tau_s": 0.002,
+          "gain": 0.9894615699623072,
+          "measurementOffset_counts": -0.7205794151280551,
+          "trainingRMSE_counts": 54.345222125299415,
+          "leaveOneRecordOutRMSE_counts": 54.379509032369725,
+          "perRecordLOORMSE_counts": [
+            55.39671114936043,
+            56.53498899048032,
+            48.75975441553971,
+            51.452095533664775,
+            59.12548216479414
+          ]
+        },
+        {
+          "delay_steps": 4,
+          "tau_s": 0.005,
+          "gain": 0.9931992658453259,
+          "measurementOffset_counts": -0.7824540005938774,
+          "trainingRMSE_counts": 54.08036949437725,
+          "leaveOneRecordOutRMSE_counts": 54.087140386396996,
+          "perRecordLOORMSE_counts": [
+            55.1793143915782,
+            55.99512659262839,
+            48.30522414809937,
+            51.185982483797645,
+            59.10569646159509
+          ]
+        },
+        {
+          "delay_steps": 4,
+          "tau_s": 0.01,
+          "gain": 0.9965546623602368,
+          "measurementOffset_counts": -0.7323154320948074,
+          "trainingRMSE_counts": 53.88378523269439,
+          "leaveOneRecordOutRMSE_counts": 53.88713581111927,
+          "perRecordLOORMSE_counts": [
+            55.165397403316305,
+            55.72490364573679,
+            47.9182377786504,
+            50.80607863869868,
+            59.10343419958512
+          ]
+        },
+        {
+          "delay_steps": 5,
+          "tau_s": 0.0,
+          "gain": 0.9874487773277151,
+          "measurementOffset_counts": -0.643454262360317,
+          "trainingRMSE_counts": 54.66280197377338,
+          "leaveOneRecordOutRMSE_counts": 54.72712127023206,
+          "perRecordLOORMSE_counts": [
+            55.652273001769885,
+            57.04605221088008,
+            49.31366870902212,
+            51.890748615566544,
+            59.15550469817957
+          ]
+        },
+        {
+          "delay_steps": 5,
+          "tau_s": 0.00025,
+          "gain": 0.9874566359702015,
+          "measurementOffset_counts": -0.6431551864051185,
+          "trainingRMSE_counts": 54.66650726570652,
+          "leaveOneRecordOutRMSE_counts": 54.73079338852406,
+          "perRecordLOORMSE_counts": [
+            55.65322373905661,
+            57.04947440854507,
+            49.321196372071626,
+            51.8984787894734,
+            59.155239578687734
+          ]
+        },
+        {
+          "delay_steps": 5,
+          "tau_s": 0.0005,
+          "gain": 0.9875251440807131,
+          "measurementOffset_counts": -0.6414522584474998,
+          "trainingRMSE_counts": 54.691641776382546,
+          "leaveOneRecordOutRMSE_counts": 54.75547388971752,
+          "perRecordLOORMSE_counts": [
+            55.65823150612622,
+            57.070770914431286,
+            49.37231403602427,
+            51.95304050751184,
+            59.15364879729468
+          ]
+        },
+        {
+          "delay_steps": 5,
+          "tau_s": 0.001,
+          "gain": 0.9878423444869265,
+          "measurementOffset_counts": -0.6413316130932852,
+          "trainingRMSE_counts": 54.74591967322422,
+          "leaveOneRecordOutRMSE_counts": 54.80631337345593,
+          "perRecordLOORMSE_counts": [
+            55.65289918559104,
+            57.10071719404074,
+            49.485606414026016,
+            52.08922738030588,
+            59.15073951245911
+          ]
+        },
+        {
+          "delay_steps": 5,
+          "tau_s": 0.002,
+          "gain": 0.98896245622386,
+          "measurementOffset_counts": -0.6595690668147407,
+          "trainingRMSE_counts": 54.76516077453078,
+          "leaveOneRecordOutRMSE_counts": 54.81107562791775,
+          "perRecordLOORMSE_counts": [
+            55.57452830222023,
+            57.02532786435861,
+            49.550058975050945,
+            52.228032053848196,
+            59.1428623482657
+          ]
+        },
+        {
+          "delay_steps": 5,
+          "tau_s": 0.005,
+          "gain": 0.9926949403221134,
+          "measurementOffset_counts": -0.718343758606918,
+          "trainingRMSE_counts": 54.47930840894883,
+          "leaveOneRecordOutRMSE_counts": 54.49032287054582,
+          "perRecordLOORMSE_counts": [
+            55.360503964209286,
+            56.45659352493598,
+            49.06284443868156,
+            51.88400686752152,
+            59.11625164053687
+          ]
+        },
+        {
+          "delay_steps": 5,
+          "tau_s": 0.01,
+          "gain": 0.9963203662051646,
+          "measurementOffset_counts": -0.6795674107490068,
+          "trainingRMSE_counts": 54.14786821877359,
+          "leaveOneRecordOutRMSE_counts": 54.15100022567961,
+          "perRecordLOORMSE_counts": [
+            55.285963371617164,
+            56.04817718992987,
+            48.41018376976134,
+            51.244432364320886,
+            59.11159339759565
+          ]
+        }
+      ]
+    }
+  ],
+  "structure": "Causal delay in 1ms control steps plus first-order lag, static raw-current gain; sensor offset excluded from force input.",
+  "selection": "Equal record weights, leave-one-record-out raw-current MSE. Adoption >=2% pooled RMSE improvement and no record >10% worse; declared in script before fitting.",
+  "initialization": "Zero filter state independently for each contiguous fine window, discard first50ms; no measured current injection.",
+  "tauGrid_s": [
+    0,
+    0.00025,
+    0.0005,
+    0.001,
+    0.002,
+    0.005,
+    0.01
+  ],
+  "delayGrid_steps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "limitation": "LOO diagnostics used to select structure, not independent validation. Cannot separate motor, ESC and feedback timing. Coarse currents not fitted.",
+  "scriptSHA256": "d15e720ff672900f6cd55bc798b6f9770d6c7d019079934f27d7ec1e6131fe5d",
+  "captureManifestSHA256": "1be58e2e6479c2728ea3596dc501a0742cfa367b695ff6c4ce36da08fe1b4a62"
+}

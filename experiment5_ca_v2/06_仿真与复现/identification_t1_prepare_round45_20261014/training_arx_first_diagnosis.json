@@ -1,0 +1,85 @@
+{
+  "sourceSHA256": "0da7ed24d02bcce276f0448ae08ebcee6e0c36dc4b6dbb1cfb41b9838c58b403",
+  "frozenModelSHA256": "58d5d06f176ef6b17ba6e2b537622d7656ea9104e6f2a8eea05c24b588499bdb",
+  "diagnostics": [
+    {
+      "mode": "free_prediction",
+      "positionErrors": {
+        "axisRMSE_mm": [
+          1.4258809259555836,
+          3.528110291781302
+        ],
+        "meanPositionRMSE_mm": 2.409885244335415,
+        "syncDifferenceRMSE_mm": 2.3939945130454947,
+        "axisMaxAbs_mm": [
+          2.610552448476457,
+          6.544815264886579
+        ],
+        "terminalAxisError_mm": [
+          1.0235634019932074,
+          6.544815264886579
+        ]
+      },
+      "coefficientsRefit": false,
+      "autonomousStateUpdate": true,
+      "independentValidation": false
+    },
+    {
+      "mode": "measured_sign_oracle",
+      "positionErrors": {
+        "axisRMSE_mm": [
+          0.4920549042799803,
+          0.7048569353688456
+        ],
+        "meanPositionRMSE_mm": 0.5563624004156331,
+        "syncDifferenceRMSE_mm": 0.4896183962455873,
+        "axisMaxAbs_mm": [
+          1.1520261164020638,
+          1.6912221221597514
+        ],
+        "terminalAxisError_mm": [
+          -0.00019332695143702136,
+          -0.00017887353660297773
+        ]
+      },
+      "coefficientsRefit": false,
+      "autonomousStateUpdate": false,
+      "independentValidation": false
+    },
+    {
+      "mode": "zero_sign_diagnostic",
+      "positionErrors": {
+        "axisRMSE_mm": [
+          0.8830535333867408,
+          1.2245761399819501
+        ],
+        "meanPositionRMSE_mm": 1.0247663850476676,
+        "syncDifferenceRMSE_mm": 0.5984613230486543,
+        "axisMaxAbs_mm": [
+          1.884874956965412,
+          2.6023227957559305
+        ],
+        "terminalAxisError_mm": [
+          -0.06548706594388941,
+          -0.16768184007988318
+        ]
+      },
+      "coefficientsRefit": false,
+      "autonomousStateUpdate": false,
+      "independentValidation": false
+    }
+  ],
+  "sameAxisCommandGainCoefficients": [
+    -0.9568027422206559,
+    -1.3704327423678004
+  ],
+  "previousVelocitySignCoefficients": [
+    0.2395822397222453,
+    0.33211637773603203
+  ],
+  "interpretation": "The measured-sign oracle uses future unavailable measurements and is not a usable predictor. Its error reduction diagnoses recursive sign-closure sensitivity, not a validated friction law. Negative own-input coefficients and positive sign terms are statistical closed-loop fit coefficients, not calibrated physical gains/friction.",
+  "newFitOrParameterSearch": false,
+  "hardwareActions": 0,
+  "V1Read": false,
+  "modelIdentified": false
+}

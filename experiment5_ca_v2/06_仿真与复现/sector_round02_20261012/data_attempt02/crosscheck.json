@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-12",
+  "round": "sector_round02",
+  "averagePrecisionStillBelowBLNN": true,
+  "triggerComparison": [
+    {
+      "condition": "A",
+      "physicalRepeats": 3,
+      "modelCompleteConfigurations": 16,
+      "actualOnlyProjected_pct": 28.083333333333332,
+      "modelOnlyProjected_pct": 3.671875,
+      "modelProvenRateOnly_pct": 3.671875,
+      "actualAnyMask_pct": 49.5,
+      "modelAnyMask_pct": 44.421875
+    },
+    {
+      "condition": "B",
+      "physicalRepeats": 3,
+      "modelCompleteConfigurations": 15,
+      "actualOnlyProjected_pct": 26.583333333333332,
+      "modelOnlyProjected_pct": 3.8666666666666667,
+      "modelProvenRateOnly_pct": 3.8666666666666667,
+      "actualAnyMask_pct": 62,
+      "modelAnyMask_pct": 42.4
+    }
+  ],
+  "comparisonWindow": "phase2-5, nominal 40ms telemetry",
+  "physicalSource": "实验5整理_20261011/03_统计汇总/analysis.json",
+  "physicalMarkerMeaning": "mask==2 means only PROJECTED bit; not automatically proof of pure-slew cause",
+  "modelMarkerMeaning": "mask==2 and separately proven feasible-target RATE_ONLY classification",
+  "caveat": "uncalibrated parameter grid differs from real plant; not suitable for deciding firmware deployment",
+  "hardwareReleased": false,
+  "nextStep": "use existing physical telemetry for same-state reason diagnosis; do not add more speculative parameter sweeps first"
+}

@@ -1,0 +1,110 @@
+{
+  "status": "Global-bias hypothesis not adopted",
+  "sameBiasPairAllRecords": true,
+  "perRecordOffsets": false,
+  "beforeObjective": 11.047140730910195,
+  "afterObjective": 10.964418787742831,
+  "biasModelAddsParameters": 2,
+  "reason": "Adds two unknowns with only marginal cumulative objective improvement and no improvement in T1/run03 tracking fit relative to the eleven-parameter refinement.",
+  "cases": [
+    {
+      "case": "round83",
+      "record": "T1",
+      "nativeSamples": 400,
+      "actualTrackingRMSE_mm": 0.14362147950428583,
+      "modeledTrackingRMSE_mm": 0.17624019830901236,
+      "actualSyncRMS_mm": 0.04795641250135376,
+      "modeledSyncRMS_mm": 0.04414646078679469,
+      "trackingRelativeDifference_percent": 22.71158806977278,
+      "syncRelativeDifference_percent": -7.944613693635905,
+      "nativeWaveformError": {
+        "axisRMSE_mm": [
+          0.11497887849513944,
+          0.109942712355117
+        ],
+        "meanPositionRMSE_mm": 0.10838663144041337,
+        "syncRMSE_mm": 0.060203301404491115
+      },
+      "all8300EndpointWaveformError": {
+        "axisRMSE_mm": [
+          0.1400695982794236,
+          0.12883119966970658
+        ],
+        "meanPositionRMSE_mm": 0.1287254448729607,
+        "syncRMSE_mm": 0.07844093389311006
+      },
+      "returnHoldFinalTrackingError_mm": -0.0395,
+      "actualReturnHoldFinalTrackingError_mm": 0.0015,
+      "initialStateOnce": true,
+      "measuredStateInjected": false,
+      "recordUsedForCalibration": true
+    },
+    {
+      "case": "round83",
+      "record": "Q2_run02",
+      "nativeSamples": 400,
+      "actualTrackingRMSE_mm": 0.14094456135303696,
+      "modeledTrackingRMSE_mm": 0.14457430831582765,
+      "actualSyncRMS_mm": 0.042799503501793096,
+      "modeledSyncRMS_mm": 0.04352243674244355,
+      "trackingRelativeDifference_percent": 2.5753011878897114,
+      "syncRelativeDifference_percent": 1.6891159511235099,
+      "nativeWaveformError": {
+        "axisRMSE_mm": [
+          0.10930283619376036,
+          0.10701749856915929
+        ],
+        "meanPositionRMSE_mm": 0.10441977183464825,
+        "syncRMSE_mm": 0.05644249285777516
+      },
+      "all8300EndpointWaveformError": {
+        "axisRMSE_mm": [
+          0.1462734226404777,
+          0.1345676883767112
+        ],
+        "meanPositionRMSE_mm": 0.1351838474253911,
+        "syncRMSE_mm": 0.07687693693883144
+      },
+      "returnHoldFinalTrackingError_mm": -0.07150000000000001,
+      "actualReturnHoldFinalTrackingError_mm": -0.002,
+      "initialStateOnce": true,
+      "measuredStateInjected": false,
+      "recordUsedForCalibration": true
+    },
+    {
+      "case": "round83",
+      "record": "Q2_run03",
+      "nativeSamples": 399,
+      "actualTrackingRMSE_mm": 0.14591872115310425,
+      "modeledTrackingRMSE_mm": 0.18996429555040045,
+      "actualSyncRMS_mm": 0.04345665890295202,
+      "modeledSyncRMS_mm": 0.04476292325402368,
+      "trackingRelativeDifference_percent": 30.1850057684385,
+      "syncRelativeDifference_percent": 3.005901475280992,
+      "nativeWaveformError": {
+        "axisRMSE_mm": [
+          0.1620399328857675,
+          0.1453640921900783
+        ],
+        "meanPositionRMSE_mm": 0.15136208227252518,
+        "syncRMSE_mm": 0.055976767468661516
+      },
+      "all8300EndpointWaveformError": {
+        "axisRMSE_mm": [
+          0.17598554009083284,
+          0.15597428568266367
+        ],
+        "meanPositionRMSE_mm": 0.1626163575003663,
+        "syncRMSE_mm": 0.06943671452345332
+      },
+      "returnHoldFinalTrackingError_mm": 0.09999999999999999,
+      "actualReturnHoldFinalTrackingError_mm": -0.102,
+      "initialStateOnce": true,
+      "measuredStateInjected": false,
+      "recordUsedForCalibration": true
+    }
+  ],
+  "independentNumericalVerificationPassed": true,
+  "physicalCauseIdentified": false,
+  "newPhysicalRunReleased": false
+}

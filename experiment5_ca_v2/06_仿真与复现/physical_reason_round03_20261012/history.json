@@ -1,0 +1,229 @@
+{
+  "groups": [
+    {
+      "condition": "A",
+      "totalCoreSteps": 60000,
+      "totalWithdrawals": 433,
+      "totalContractions": 142,
+      "motionIntervals": 1197,
+      "intervalsWithWithdrawal": 320,
+      "intervalsWithContraction": 95,
+      "pureEndpoints": 337,
+      "pureEndpointsFollowingOtherConstraint": 234,
+      "sameStateLearningReplay": {
+        "frames": 1200,
+        "oldFrozen_pct": 49.5,
+        "newFrozen_pct": 21.416666666666668,
+        "oldMean": 0.505,
+        "newMean": 0.6224645964464967
+      }
+    },
+    {
+      "condition": "B",
+      "totalCoreSteps": 60000,
+      "totalWithdrawals": 562,
+      "totalContractions": 229,
+      "motionIntervals": 1197,
+      "intervalsWithWithdrawal": 397,
+      "intervalsWithContraction": 190,
+      "pureEndpoints": 319,
+      "pureEndpointsFollowingOtherConstraint": 258,
+      "sameStateLearningReplay": {
+        "frames": 1200,
+        "oldFrozen_pct": 62,
+        "newFrozen_pct": 35.416666666666664,
+        "oldMean": 0.38,
+        "newMean": 0.5086952621086164
+      }
+    }
+  ],
+  "results": [
+    {
+      "id": "A_CA_BLNN_1",
+      "totalCoreSteps": 20000,
+      "totalWithdrawals": 142,
+      "totalContractions": 52,
+      "totalSpeedGuardSteps": [
+        582,
+        664
+      ],
+      "motionIntervals": 399,
+      "intervalsWithWithdrawal": 94,
+      "intervalsWithContraction": 36,
+      "onlyProjectedEndpointsAfterWithdrawal": 51,
+      "onlyProjectedEndpointsAfterContraction": 22,
+      "pureEndpoints": 69,
+      "pureEndpointsFollowingOtherConstraint": 64,
+      "slewBoundExceededAcrossSampleInterval": 13,
+      "largestWithdrawalCountIn40ms": 3,
+      "sameStateLearningReplay": {
+        "oldFrozen": 169,
+        "newFrozen": 100,
+        "oldLearningSum": 231,
+        "newLearningSum": 255.79539595302901,
+        "claim": "Instantaneous rule evaluation on OLD trajectory, not a new hardware run or accuracy prediction.",
+        "frames": 400,
+        "oldMean": 0.5775,
+        "newMean": 0.6394884898825726,
+        "oldFrozen_pct": 42.25,
+        "newFrozen_pct": 25
+      }
+    },
+    {
+      "id": "A_CA_BLNN_2",
+      "totalCoreSteps": 20000,
+      "totalWithdrawals": 190,
+      "totalContractions": 23,
+      "totalSpeedGuardSteps": [
+        546,
+        633
+      ],
+      "motionIntervals": 399,
+      "intervalsWithWithdrawal": 155,
+      "intervalsWithContraction": 15,
+      "onlyProjectedEndpointsAfterWithdrawal": 119,
+      "onlyProjectedEndpointsAfterContraction": 8,
+      "pureEndpoints": 203,
+      "pureEndpointsFollowingOtherConstraint": 128,
+      "slewBoundExceededAcrossSampleInterval": 49,
+      "largestWithdrawalCountIn40ms": 2,
+      "sameStateLearningReplay": {
+        "oldFrozen": 276,
+        "newFrozen": 73,
+        "oldLearningSum": 124,
+        "newLearningSum": 210.38338901888847,
+        "claim": "Instantaneous rule evaluation on OLD trajectory, not a new hardware run or accuracy prediction.",
+        "frames": 400,
+        "oldMean": 0.31,
+        "newMean": 0.5259584725472212,
+        "oldFrozen_pct": 69,
+        "newFrozen_pct": 18.25
+      }
+    },
+    {
+      "id": "A_CA_BLNN_3",
+      "totalCoreSteps": 20000,
+      "totalWithdrawals": 101,
+      "totalContractions": 67,
+      "totalSpeedGuardSteps": [
+        682,
+        616
+      ],
+      "motionIntervals": 399,
+      "intervalsWithWithdrawal": 71,
+      "intervalsWithContraction": 44,
+      "onlyProjectedEndpointsAfterWithdrawal": 27,
+      "onlyProjectedEndpointsAfterContraction": 16,
+      "pureEndpoints": 65,
+      "pureEndpointsFollowingOtherConstraint": 42,
+      "slewBoundExceededAcrossSampleInterval": 19,
+      "largestWithdrawalCountIn40ms": 3,
+      "sameStateLearningReplay": {
+        "oldFrozen": 149,
+        "newFrozen": 84,
+        "oldLearningSum": 251,
+        "newLearningSum": 280.77873076387846,
+        "claim": "Instantaneous rule evaluation on OLD trajectory, not a new hardware run or accuracy prediction.",
+        "frames": 400,
+        "oldMean": 0.6275,
+        "newMean": 0.7019468269096961,
+        "oldFrozen_pct": 37.25,
+        "newFrozen_pct": 21
+      }
+    },
+    {
+      "id": "B_CA_BLNN_1",
+      "totalCoreSteps": 20000,
+      "totalWithdrawals": 136,
+      "totalContractions": 105,
+      "totalSpeedGuardSteps": [
+        599,
+        636
+      ],
+      "motionIntervals": 399,
+      "intervalsWithWithdrawal": 98,
+      "intervalsWithContraction": 84,
+      "onlyProjectedEndpointsAfterWithdrawal": 39,
+      "onlyProjectedEndpointsAfterContraction": 37,
+      "pureEndpoints": 107,
+      "pureEndpointsFollowingOtherConstraint": 76,
+      "slewBoundExceededAcrossSampleInterval": 25,
+      "largestWithdrawalCountIn40ms": 4,
+      "sameStateLearningReplay": {
+        "oldFrozen": 219,
+        "newFrozen": 112,
+        "oldLearningSum": 181,
+        "newLearningSum": 239.8573693484605,
+        "claim": "Instantaneous rule evaluation on OLD trajectory, not a new hardware run or accuracy prediction.",
+        "frames": 400,
+        "oldMean": 0.4525,
+        "newMean": 0.5996434233711513,
+        "oldFrozen_pct": 54.75,
+        "newFrozen_pct": 28
+      }
+    },
+    {
+      "id": "B_CA_BLNN_2",
+      "totalCoreSteps": 20000,
+      "totalWithdrawals": 233,
+      "totalContractions": 96,
+      "totalSpeedGuardSteps": [
+        657,
+        659
+      ],
+      "motionIntervals": 399,
+      "intervalsWithWithdrawal": 168,
+      "intervalsWithContraction": 82,
+      "onlyProjectedEndpointsAfterWithdrawal": 87,
+      "onlyProjectedEndpointsAfterContraction": 34,
+      "pureEndpoints": 143,
+      "pureEndpointsFollowingOtherConstraint": 120,
+      "slewBoundExceededAcrossSampleInterval": 22,
+      "largestWithdrawalCountIn40ms": 4,
+      "sameStateLearningReplay": {
+        "oldFrozen": 249,
+        "newFrozen": 106,
+        "oldLearningSum": 151,
+        "newLearningSum": 219.37018911975088,
+        "claim": "Instantaneous rule evaluation on OLD trajectory, not a new hardware run or accuracy prediction.",
+        "frames": 400,
+        "oldMean": 0.3775,
+        "newMean": 0.5484254727993771,
+        "oldFrozen_pct": 62.25,
+        "newFrozen_pct": 26.5
+      }
+    },
+    {
+      "id": "B_CA_BLNN_3",
+      "totalCoreSteps": 20000,
+      "totalWithdrawals": 193,
+      "totalContractions": 28,
+      "totalSpeedGuardSteps": [
+        491,
+        581
+      ],
+      "motionIntervals": 399,
+      "intervalsWithWithdrawal": 131,
+      "intervalsWithContraction": 24,
+      "onlyProjectedEndpointsAfterWithdrawal": 52,
+      "onlyProjectedEndpointsAfterContraction": 11,
+      "pureEndpoints": 69,
+      "pureEndpointsFollowingOtherConstraint": 62,
+      "slewBoundExceededAcrossSampleInterval": 9,
+      "largestWithdrawalCountIn40ms": 3,
+      "sameStateLearningReplay": {
+        "oldFrozen": 276,
+        "newFrozen": 207,
+        "oldLearningSum": 124,
+        "newLearningSum": 151.20675606212825,
+        "claim": "Instantaneous rule evaluation on OLD trajectory, not a new hardware run or accuracy prediction.",
+        "frames": 400,
+        "oldMean": 0.31,
+        "newMean": 0.37801689015532064,
+        "oldFrozen_pct": 69,
+        "newFrozen_pct": 51.75
+      }
+    }
+  ],
+  "limits": "Cumulative counters recover event totals, NOT timing/order inside 40-ms intervals. Pure at one endpoint does not imply pure constraints throughout the interval."
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-14",
+  "authorization": "User explicitly approved switching from identification to selecting/freezing a candidate and concurrent paired hardware comparison against ordinary BLNN. User manually flashes and records. No assistant hardware operation.",
+  "stage": "Prospectively fixed paired replication of an existing exploratory candidate. Not a newly designed controller, not proof of mechanism novelty or completed paper evidence.",
+  "candidate": "Original S3R2, build66312, NOT R8, a system-identification build or an unqualified newer host-only branch.",
+  "selectionRationale": "Traceable original implementation, completed physical runs and retained safety/timing evidence. Selected as the established implementation base, not as a claim that its historical best run will reproduce. Later concurrent runs also showed worse tracking and synchronization; retain those negative observations. This new comparison is allowed to refute the candidate.",
+  "predecessor": "06_仿真与复现/baseline_pair_round23_20261013/protocol.json",
+  "historicalManifest": "06_仿真与复现/baseline_pair_round23_20261013/sealed_manifest.json",
+  "sourceBundle": "05_实验代码/同期复核A_封存固件_20261013",
+  "frozenBundle": "05_实验代码/配对冻结A_BLNN_S3R2_20261014",
+  "dataRoot": "01_原始数据/配对验证A_BLNN_S3R2_20261014",
+  "conditions": {"load_g":0,"stroke_mm":2,"limits_counts":[1200,1200],"hardwareProfile":6,"controllerPeriod_ms":1,"telemetryPeriod_ms":40,"channels":107,"baud":115200,"engine":"JustFloat","initialNodesPerAxis":4,"initialWeights":0,"physicalExcitationAdded":false},
+  "methods": {
+    "BLNN": {"build":65511,"methodID":11,"activeSchema":4466,"eventMagic":4422,"eventWidth":40,"eventChunksPerRecord":5,"eventRecords":128,"eventTrigger_ms":5000,"dataSubfolder":"00_BLNN","project":"00_BLNN/eassy_E5F2_A_BLNN_HW6/MDK-ARM/eassy.uvprojx","target":"exp5F2_A_BLNN_HW6_F5_EVENT40","hexSHA256":"c5209744308528b11cb251de983c7ee452214b616d481a283c21c61ec8a4397f"},
+    "S3R2": {"build":66312,"methodID":12,"activeSchema":4472,"eventMagic":4424,"eventWidth":48,"eventChunksPerRecord":6,"eventRecords":128,"eventTrigger_ms":18000,"dataSubfolder":"01_S3R2","project":"01_R2/eassy_E5R2_A_S3R2_HW6/MDK-ARM/eassy.uvprojx","target":"exp5R2_A_S3R2_HW6_EVENT48","hexSHA256":"04422c515a47111d85f4273fc5a10957927b935ecb1117d3d8e2c2b8603ce7aa"}
+  },
+  "design": {
+    "plannedPairedBlocks":5,"plannedRuns":10,
+    "blockOrders":[["BLNN","S3R2"],["S3R2","BLNN"],["BLNN","S3R2"],["S3R2","BLNN"],["BLNN","S3R2"]],
+    "orderMeaning":"Prospectively alternating order, 3vs2 first-method counts because five blocks is odd. Not fully randomized and not guaranteed to remove nonlinear drift.",
+    "firstReview":"After pair01 check identity, safe completion and data quality only. Do not tune parameters, switch candidates or stop on an unfavorable performance result. Later pairs retain this exact protocol.",
+    "conditionsWithinPair":"Same load, secured mechanics, origin procedure, consistent rest/preparation and fresh controller initialization. Record battery voltage and temperature. Do not charge, repair or change hardware midway through a block; if required, mark interruption and pause review rather than silently treating it as matched.",
+    "operationalRest":"After successful stop and export completion retain drive off for at least60seconds before the next run; same minimum for both methods. This standardizes a minimum rest, not proof of equal motor temperature.",
+    "parameterFreeze":"No gain, allocator, learning, leakage, node-growth, limit, reference or guard edits during the series. Existing method differences are intentional whole-controller differences, including CA NN envelope versus ordinary output path. No equalized-envelope or isolated-module claim.",
+    "historicalData":"All prior R2/ordinary/Q0/T1 records remain exploratory/context and are excluded from this prospective paired summary.",
+    "failurePolicy":"Keep every attempt including faults, incomplete exports and negative outcomes. A fault or abnormal motion pauses the block for review. No automatic replacement, favorable-only selection or extension beyond ten planned runs. Any retry requires a logged reason and distinct attempt suffix. An incomplete event export alone does not invalidate an otherwise complete primary motion record."
+  },
+  "manualOperation": {
+    "noAssistantFlashOrStart":true,
+    "firmware":"Open the frozen copy, select the named target and download the existing verified AXF without rebuilding. If Keil requires rebuild or image hashes differ, stop for review. CMSIS-DAP options already exist. Do not flash an identification build.",
+    "safety":"Drive power off while flashing. Unloaded secured platform, clear travel, onsite operator and emergency stop. No unattended operation. Original guards stay intact; zero command is not a mechanical holding brake.",
+    "start":"These archived executables auto-arm once after about8seconds of healthy stationary operation. Enable VOFA reception and clear old history before a deliberate fresh control-board power-on/reset. Each run must start from fresh weights. No reset, reflash or concatenated reboot within one CSV. Do not rush drive-power switching to beat the auto-arm delay; if preparation was missed, safely stop and review the capture rather than improvising.",
+    "successExport":"All107 channels. Require phase6, fault0, I88 method-specific4422/4424 and I89=4. Keep receiving at least10seconds after status4 AND until I0>=100seconds. The100seconds alone is not completion. Export before clearing history. These are archived EVENT40/EVENT48 markers, not Q0/T1 markers.",
+    "abnormal":"If phase9, I22nonzero, vibration, jam or unusual sound: stop safely and preserve the same history, including fault replay and at least5seconds tail if safe. Do not reset or silently rerun."
+  },
+  "analysis": {
+    "primary":"Per-run left-right synchronization RMS_mm, then within-block S3R2-minus-BLNN differences. Negative means lower sync error.",
+    "primaryWindow":"Own native40ms telemetry rows with phase2..5 AND drivePermit(I106)=1, nominal elapsed4..20seconds. Use the same phase rule for both methods, not data-dependent windows or chosen favorable segments.",
+    "formulas":{"tracking_mm":"1000*((I5+I6)/2-I3)","sync_mm":"1000*(I5-I6)","RMSE":"sqrt(mean(error_mm^2))"},
+    "gridPolicy":"No interpolation, zero fill or forced exact timestamp intersection. Compute each method on its own complete native grid; report sample count, observed time span and grid offset. Expect399..401samples, span>=15.90seconds, all phases2..5, no sequence loss across active motion. Deviations require review and may not be silently repaired.",
+    "recordQuality":"One run per CSV, correct I21/I63 identity, same configured load/limits/HW6, complete phase progression, fault0 and no active-motion sequence gaps. Check overrun/late, UART/DMA/CAN counters and feedback freshness. Keep failed records in the outcome ledger; do not equate rejection with missing evidence.",
+    "secondary":["mean-position tracking RMSE and maximum absolute error","sync maximum absolute error","outward/return/hold phase-specific errors","per-axis terminal error","command and constraint activity, learning and nodes","voltage/temperature, faults, timing and communication quality"],
+    "eventEvidence":"Event windows differ at5s and18s, so never compare them as matched mechanism samples. Decode each mapping separately and check all128records with duplicate agreement. Event completeness is separate from motion-metric completeness.",
+    "reporting":"Show all run outcomes, every paired difference, per-method mean/SD and paired-difference mean/SD/range. Five blocks are a starting evidence size, not a guarantee of significance, innovation or superiority.",
+    "trackingTaskTolerance_mm":null,
+    "interpretation":"Research objective is sync benefit with tracking cost reported, not universal metric dominance. No task-based tracking tolerance has been supplied, so do not claim tracking meets application requirements. If both errors worsen or benefits are inconsistent, report that outcome; do not retune inside this series.",
+    "mechanismBoundary":"Two-method whole-controller comparison cannot independently attribute gains to classifier, repair or retention. Additional isolated evidence is required before claiming those components separately effective."
+  },
+  "identificationRoute":{"suspended":true,"Q0T1RemainQualified":true,"V1Released":false,"extraIdentificationCaptureRequested":false},
+  "assistantHardwareAction":false,"newFirmwareCompiled":false,"algorithmChanged":false
+}

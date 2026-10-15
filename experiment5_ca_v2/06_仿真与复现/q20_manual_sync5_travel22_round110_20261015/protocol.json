@@ -1,0 +1,15 @@
+{
+ "status":"Offline candidate preparation, negative22mm physical clearance verification pending",
+ "authorization":"User specifically requests travel protection positive22mm and negative22mm. This is a limit-envelope change, NOT a request to command a bipolar +/-20mm trajectory or alter other guards.",
+ "sourceBuild":68512,"newBuild":68612,"newSchema":4504,
+ "onlyBehaviorChange":"E5_TRAVEL_MIN_M changes-.004f to-.022f; maximum remains+.022f; strictless/greater fault comparisons retained. Same per-axis armed travel faultbit16.",
+ "unchanged":"20mm positive stroke and return-to-origin only,8s each moving leg/28s total; syncfault>5mm,tracking>1mm1000ms/finalorigin0.5mm, speed120rpm/taper,60C,CAN/battery/timing/numeric,1200/1200,manual8shealthcheckedbootone-shot and600pointRMS/ABI3 logging unchanged.",
+ "physicalClearance":"Previously user confirmed positive22mm/negative4mm. New question asks whether negative22mm is actually clear. A request to change the software limit is not proof of physical clearance; do not flash/run until checked. No assistant hardware action.",
+ "mechanicalRegime":"User reports previousbelt restored; original tension and normal motion not independently established. Do not pool with tighter-new-belt010/011 calibration.",
+ "captureFile":"E5Q20M_S5_T22_BLNN_B68612_HW6_L1200_R1200_M0g_S20mm_OLDBELT_run01.csv",
+ "rawDirectory":"D:/lunwen2/起重机/output/experiment5_ca_v2/01_原始数据/20mm手动VOFA_同步5mm_双向限位22mm_旧皮带_20261015",
+ "completion":"I63=68612,I2=6,I22=0,I88=4445,I89=4,I90=0; completiontail>=20seconds AND I0>=185seconds. Anyfault/abnormality: stop safely, retainhistory/board ifsafe, do not retry for success.",
+ "startupSafety":"User flash with driveOFF only; downloading may restart8sbootcountdown. No assistant serial/debug/flash/reset/start. Physical emergency stop and onsite operator required; no PCheartbeat in existing manual mode.",
+ "modelPolicy":"Frozen-parameter prediction only after quality audit, disclose4msmean-input approximation and restored-belt/20mm domainchange; no implicit refit.",
+ "assistantHardwareAction":false,"flashed":false,"physicalRuns":0,"batchReleased":false
+}

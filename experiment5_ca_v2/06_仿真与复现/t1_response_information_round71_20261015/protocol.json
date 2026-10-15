@@ -1,0 +1,17 @@
+{
+  "date":"2026-10-15",
+  "scope":"Offline response/information evaluation of the ONE collected T1F68112 ordinary-BLNN training trial. No firmware edits, serial operation, physical run or S3R2 outcomes.",
+  "sourceSHA256":"d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0",
+  "rawIntegrity":"Reuse round70 independent CRC/symbol/metric checks; retain short completion observation tail and overwritten live shadow fields as deviations. No padding or raw editing.",
+  "fixedDiagnostics":[
+    "Exact 8000 previous-queued-command intervals with endpoint encoder/RPM and appended ungated/gated symbol provenance; both motion phases retained.",
+    "Compare recorded ungated signs to seed39 manifest by original core step. Do not assume nominal signs are actual gated requests.",
+    "Reuse round63 weak mechanical regressor construction:50step encoder velocity and100step integral windows,8 columns; no coefficients fitted. Compare T1 vs historical Q2 rank/conditioning only.",
+    "16step nonoverlapping motion bins, actual-duration weighted input/request means and endpoint encoder displacement. Residualize separately by phase using a fixed cubic local-time nuisance basis. No frequency/lag/seed sweep for a winning setting.",
+    "Report the full fixed lag set[-128,-64,-32,-16,0,16,32,64,128] nominal milliseconds for ungated/gated requests and queued commands versus encoder-derived mean/sync velocity. Negative lags are controls; correlations are not causal or independent statistical evidence.",
+    "Evaluate the frozen round66 nine-parameter model once with T1 actual queued moving commands,40step hold means and one initial state. No parameter retuning, future measured-state injection or outcome-based run selection. Q2 was used for model development, not held-out validation."
+  ],
+  "units":"Pitch maps raw encoder to axis positions; physical right sign=-1. Common=(left+physicalRight)/2; sync=left-physicalRight. Queued command modes=(rawL-rawR)/2 and(rawL+rawR)/2. Requests are counts, not calibrated torque.",
+  "decision":"Full regressor rank and input variation can justify a bounded training hypothesis but cannot certify structural identifiability, instrument exogeneity, causal response or whole-model validity. Frozen prediction errors and waveform discrepancies must be reported without inventing application tolerances.",
+  "modelsFitted":0,"controllerChanged":false,"newPhysicalRunReleased":false,"modelClosureClaimed":false
+}

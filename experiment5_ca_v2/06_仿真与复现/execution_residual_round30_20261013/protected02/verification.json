@@ -1,0 +1,240 @@
+{
+  "protocol": "protected_protocol.json",
+  "tests": [
+    {
+      "policy": 1,
+      "precision": "float",
+      "result": "PASS60000 same-state outputs/original guards; disabled exactR2 or ordinary unchanged; local projected residual100000 when enabled; observed extra-update cycles=284."
+    },
+    {
+      "policy": 1,
+      "precision": "double",
+      "result": "PASS60000 same-state outputs/original guards; disabled exactR2 or ordinary unchanged; local projected residual100000 when enabled; observed extra-update cycles=284."
+    },
+    {
+      "policy": 2,
+      "precision": "float",
+      "result": "PASS60000 same-state outputs/original guards; disabled exactR2 or ordinary unchanged; local projected residual100000 when enabled; observed extra-update cycles=78."
+    },
+    {
+      "policy": 2,
+      "precision": "double",
+      "result": "PASS60000 same-state outputs/original guards; disabled exactR2 or ordinary unchanged; local projected residual100000 when enabled; observed extra-update cycles=78."
+    }
+  ],
+  "summaries": [
+    {
+      "policy": 1,
+      "stiffness": 2000,
+      "noisePeriod": 19,
+      "newFailures": [],
+      "n": 30,
+      "track": 0.16892686598666667,
+      "sync": 0.04621460049000001,
+      "trackingChangeVsR2_pct": 2.0929460929972166,
+      "syncChangeVsR2_pct": -3.8390506058956886,
+      "syncChangeVsOrdinary_pct": 44.074647860012675,
+      "applications": 22126
+    },
+    {
+      "policy": 2,
+      "stiffness": 2000,
+      "noisePeriod": 19,
+      "newFailures": [],
+      "n": 30,
+      "track": 0.16180482792666667,
+      "sync": 0.045315422356666676,
+      "trackingChangeVsR2_pct": -2.211341703292369,
+      "syncChangeVsR2_pct": -5.710013939105963,
+      "syncChangeVsOrdinary_pct": 41.271447755503374,
+      "applications": 2486
+    },
+    {
+      "policy": 1,
+      "stiffness": 1000,
+      "noisePeriod": 17,
+      "newFailures": [
+        5
+      ],
+      "n": 28,
+      "track": 0.15787867926428573,
+      "sync": 0.049794095110714295,
+      "trackingChangeVsR2_pct": 2.4482431559099904,
+      "syncChangeVsR2_pct": -3.7370158849041157,
+      "syncChangeVsOrdinary_pct": 23.86637843484525,
+      "applications": 24220
+    },
+    {
+      "policy": 2,
+      "stiffness": 1000,
+      "noisePeriod": 17,
+      "newFailures": [],
+      "n": 29,
+      "track": 0.16278549915172416,
+      "sync": 0.054768634013793095,
+      "trackingChangeVsR2_pct": 0.47252948124121286,
+      "syncChangeVsR2_pct": 2.6187034752205074,
+      "syncChangeVsOrdinary_pct": 31.668342787818094,
+      "applications": 2908
+    },
+    {
+      "policy": 1,
+      "stiffness": 1000,
+      "noisePeriod": 23,
+      "newFailures": [],
+      "n": 28,
+      "track": 0.16259578122142856,
+      "sync": 0.05618894623571428,
+      "trackingChangeVsR2_pct": 1.5086010040364473,
+      "syncChangeVsR2_pct": 12.68002677953377,
+      "syncChangeVsOrdinary_pct": 39.978855461572316,
+      "applications": 19465
+    },
+    {
+      "policy": 2,
+      "stiffness": 1000,
+      "noisePeriod": 23,
+      "newFailures": [],
+      "n": 28,
+      "track": 0.1549929515892857,
+      "sync": 0.05223906524642857,
+      "trackingChangeVsR2_pct": -3.2378480971235524,
+      "syncChangeVsR2_pct": 4.759025844908793,
+      "syncChangeVsOrdinary_pct": 30.1388449767662,
+      "applications": 2235
+    },
+    {
+      "policy": 1,
+      "stiffness": 2000,
+      "noisePeriod": 17,
+      "newFailures": [],
+      "n": 30,
+      "track": 0.17345272724666666,
+      "sync": 0.04652269477666668,
+      "trackingChangeVsR2_pct": 4.72877836128307,
+      "syncChangeVsR2_pct": -5.518338583062121,
+      "syncChangeVsOrdinary_pct": 39.23547759634476,
+      "applications": 22365
+    },
+    {
+      "policy": 2,
+      "stiffness": 2000,
+      "noisePeriod": 17,
+      "newFailures": [
+        29
+      ],
+      "n": 29,
+      "track": 0.1683410132896552,
+      "sync": 0.05028347808275863,
+      "trackingChangeVsR2_pct": 3.925236046558167,
+      "syncChangeVsR2_pct": 4.009077716224696,
+      "syncChangeVsOrdinary_pct": 48.577003291333675,
+      "applications": 2780
+    },
+    {
+      "policy": 1,
+      "stiffness": 2000,
+      "noisePeriod": 23,
+      "newFailures": [
+        5
+      ],
+      "n": 29,
+      "track": 0.16354457442758621,
+      "sync": 0.048253928417241396,
+      "trackingChangeVsR2_pct": 1.087376989485489,
+      "syncChangeVsR2_pct": -6.097485759467713,
+      "syncChangeVsOrdinary_pct": 59.240026726171436,
+      "applications": 22017
+    },
+    {
+      "policy": 2,
+      "stiffness": 2000,
+      "noisePeriod": 23,
+      "newFailures": [],
+      "n": 30,
+      "track": 0.17086108622000004,
+      "sync": 0.052811837616666656,
+      "trackingChangeVsR2_pct": 1.1129400654266597,
+      "syncChangeVsR2_pct": 0.059109237208621046,
+      "syncChangeVsOrdinary_pct": 64.97632781426815,
+      "applications": 3651
+    },
+    {
+      "policy": 1,
+      "stiffness": 3000,
+      "noisePeriod": 17,
+      "newFailures": [],
+      "n": 30,
+      "track": 0.1664675180866667,
+      "sync": 0.05135236695666667,
+      "trackingChangeVsR2_pct": 0.6629589463976737,
+      "syncChangeVsR2_pct": -7.402331615894397,
+      "syncChangeVsOrdinary_pct": 52.40710755209677,
+      "applications": 23395
+    },
+    {
+      "policy": 2,
+      "stiffness": 3000,
+      "noisePeriod": 17,
+      "newFailures": [],
+      "n": 30,
+      "track": 0.16429266992000002,
+      "sync": 0.04675953391266666,
+      "trackingChangeVsR2_pct": -0.6521724031418819,
+      "syncChangeVsR2_pct": -15.684045903976763,
+      "syncChangeVsOrdinary_pct": 38.776179881393546,
+      "applications": 2891
+    },
+    {
+      "policy": 1,
+      "stiffness": 3000,
+      "noisePeriod": 23,
+      "newFailures": [
+        5
+      ],
+      "n": 31,
+      "track": 0.1698809380322581,
+      "sync": 0.05061449866129033,
+      "trackingChangeVsR2_pct": 0.17346380519780435,
+      "syncChangeVsR2_pct": -9.144433242873651,
+      "syncChangeVsOrdinary_pct": 40.094059432000066,
+      "applications": 23845
+    },
+    {
+      "policy": 2,
+      "stiffness": 3000,
+      "noisePeriod": 23,
+      "newFailures": [],
+      "n": 32,
+      "track": 0.17518745548750006,
+      "sync": 0.05134670672500001,
+      "trackingChangeVsR2_pct": -0.4164609884142578,
+      "syncChangeVsR2_pct": -9.285472050346355,
+      "syncChangeVsOrdinary_pct": 42.0643688779178,
+      "applications": 4205
+    }
+  ],
+  "decisions": [
+    {
+      "policy": 1,
+      "newFailures": 3,
+      "baseSyncBenefit": true,
+      "holdoutBenefitSettings": 5,
+      "settings": 6,
+      "robustScreenPassed": false
+    },
+    {
+      "policy": 2,
+      "newFailures": 1,
+      "baseSyncBenefit": true,
+      "holdoutBenefitSettings": 2,
+      "settings": 6,
+      "robustScreenPassed": false
+    }
+  ],
+  "sourceSHA256": "b209fff87c1056cb43338579ddc105df951de10f182ecc22ca8ed6614b136b99",
+  "hardGuardsUnchanged": true,
+  "modelsIdentified": false,
+  "hardwareReleased": false,
+  "physicalBenefitProven": false
+}

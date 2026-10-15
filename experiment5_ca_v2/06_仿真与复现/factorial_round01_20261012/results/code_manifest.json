@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-12",
+  "hostOnly": true,
+  "hardwarePermission": false,
+  "factors": {
+    "learning": [
+      "old",
+      "realized-fraction-for-proven-pure-slew"
+    ],
+    "slew_counts_per_ms": [
+      2,
+      4
+    ]
+  },
+  "sources": {
+    "core/blnn_core.c": "89bc118cdec96e5383cae682a644e5e035ea0669f160bb30a81aecc39bd561de",
+    "core/blnn_core.h": "6734a1d9aeb5d8f19132440519f304bcc2cf3bd0318c19f127ef219e3adcd049",
+    "core/diagnostic_config.h": "e8374d855ddb473301d164551798a31bb8cd34cfa302d24b2556e3c40cb01417",
+    "core/experiment3_config.h": "4e7df901c40711a1e959a00f350281613882e0b345740babc680515ac308786a",
+    "core/experiment5_ca_actuator.h": "2bb0e80fba6d9e04131d555b9d499029545e596e8b5f1663fa16da02215cea05",
+    "core/experiment5_formal_actuator.h": "d7a181bad70783b52e794202807cb70df705877e8d5a402a7cabf80d46a15b6d",
+    "core/experiment5_formal_config.h": "8f5e2a36877ae546132499fbfede08d974842f0f4887c87be8ae8ed0de0cbe6d",
+    "core/experiment5_hw_profile.h": "e24b564fec82dd358ed8b818f072f03069de408ee73e4ad3ecbb13a1558d764d",
+    "core/experiment5_motion.h": "614333932d95cda077cddf3131f837da00d73a1baa19dc57b94924069c67ffbd",
+    "legacy_wrapper.c": "6af81254ab3599d091501b870c24ac81410a44b4ee41e63fe973f4793ab5a82e",
+    "PROTOCOL.md": "3fe9d2cd98e171338599c994e7c2238f62e6414a389d7a492ea0309e11b10904",
+    "run_diagnostics.mjs": "1e94b2d1b4cb8268fa4373701aeaea04e87a079810ff9b47985159cabed2f1c3",
+    "test_adapter.c": "e5f88607b0ab8314cfd793c68cf5877be65a2c315237dcfb0eaf8bb4ccca4272",
+    "test_equivalence.c": "f9a0cb1da37b1a07aeced88dd0a1f37ac961560551fc44aaa45c248f463a072a",
+    "test_export.h": "5677f1bcb517528cf908d73bd9a18d2b54ba97bf0401ba88dc80198879dfcac0",
+    "test_plant.c": "040da2fa0662572dcbbfcdd21c610ff5ccd8f49fa7c4a5959d2b3a0dabc28c20",
+    "test_reasons.c": "94b7d1c1b238686e59ce1b96aed82a5c145b785dc208420c1bb7de3f1fdb9361"
+  }
+}

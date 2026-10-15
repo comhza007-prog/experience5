@@ -1,0 +1,23 @@
+{
+  "date":"2026-10-15",
+  "scope":"ONE prospective ordinary-only elastic-deadzone effective model, ONE fixed-budget fit. No S3R2 fit/data opening or physical-code change.",
+  "motivation":"Round68 fixed spring knockout increases sync RMS from0.00503 to0.04803mm but worsens sync waveform prediction, while removing both couplings causes large drift. Inspect a declared deadzone restoring-force hypothesis; no claim actual transmission backlash is proven.",
+  "structure":"Same SPD mass, diagonal gains, nonnegative viscous/cross damping and set-valued Coulomb. Replace linear spring by k*softDeadzone(pL-pR,gap)*[1,-1]. Potential is0.5*k*max(abs(pL-pR)-gap,0)^2. Always-on cross damping unchanged.",
+  "candidateIsNotAFullBacklashMemoryModel":true,
+  "parameters":["gL","gR","bL","bR","k","dCross","FcL","FcR","eta","gap_m"],
+  "parameterScales":[0.00001,0.00001,10,10,100,10,0.005,0.005,1,0.0001],
+  "lowerBounds":[0.000000001,0.000000001,0,0,0,0,0,0,-0.95,0],
+  "upperBounds":[0.01,0.01,1000,1000,1000000,1000,10,10,0.95,0.001],
+  "boundsAreNumericalNotPhysical":true,
+  "training":"Same ordinary Q2S68012 full20s. Exact8000moving queued-input intervals;300hold endpoints with explicit unverified constant-mean input abstraction.",
+  "objective":"Unchanged round65/66 elapsed-time-weighted mean-position and full left-minus-right sync prediction errors inmm plus1e-8 scaled-parameter norm. 8300endpoints are not independent trials.",
+  "initialState":"p=v=0once; no future measured-state injection",
+  "initialParameters":"Frozen round66 nine coefficients plus gap=64configured encoder counts; numerical initialization, not physical gap estimate. No seed grid.",
+  "maxIterations":12,"maxEvaluations":190,
+  "finiteDifference":"1e-3*(1+abs(scaledParameter))","lineSearch":[1,0.5,0.25,0.125,0.0625],
+  "solver":"27elastic-region/stick-slip combinations, unique convex implicit step. Verify gap0 exactly recovers round66 and verify energy balance/convex dissipation before fit.",
+  "afterFreeze":"One full20000step Python/native check, native400point metrics, one same-mean100count holding-order stress, gap0 with other parameters fixed as conditional sensitivity only.",
+  "stop":"One structure/initialization/fit budget, retain all bad cases and boundaries. No result-driven objective/bound changes or next branch in this round.",
+  "acceptance":"Training improvement is not independent predictive validity or counterfactual closed-loop benefit. No tolerance back-solved from current errors; absolute/difference budgets still need claim-based rationale.",
+  "controllerChanged":false,"physicalCaptureReleased":false
+}

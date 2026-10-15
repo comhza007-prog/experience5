@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-13",
+  "purpose": "User-authorized focused S3 revision and first exploratory comparison with unchanged ordinary BLNN; no report requested.",
+  "status": "NO_DRIVE board preflight only; new motion not yet released",
+  "priorData": "Five complete F5 run01 records preserved. One each, not repeated causal or superiority evidence; ordinary motion has one missing tick, five-way comparison uses399 common motion timestamps without interpolation.",
+  "motivatingClue": "S3 return-start translation prediction often has sigma*dhat<0 and is sector-limited; mixed geometry constraints globally freeze the error update. This motivates bounded repair but does not prove the sole cause of the tracking gap.",
+  "mechanism": {
+    "eligible": "CA only; nonzero geometry constraint mask; no amplitude or speed bit and no hard-clip reason; raw prediction*sigma<0; pre-gate>nominal learn.",
+    "proposal": "min(pre-gate,0.99*[-(1-dt*gamma*0.01)*raw]/[dt*gamma*sigma*sum(feature^2)]); retain existing weight bounds and error-update/leak formula.",
+    "accept": "Actual projected candidate prediction computed with unchanged features and summation order is finite, same sign (zero allowed) and abs(new)<=abs(old). Commit weights only after this check.",
+    "reject": "No candidate weight is committed; original weights undergo leak-only legacy update. This leak-only fallback is not claimed to satisfy an extra floating-point contraction theorem.",
+    "growth": "No node growth on accepted or rejected repair cycles; ordinary and non-repair growth rules unchanged.",
+    "limits": "Local same-feature property only, not stability, future-state generalization or superiority proof. Corrective requests in other globally constrained modes retain the old rule."
+  },
+  "unchangedControls": {"limits_counts":[1200,1200],"nnCap_counts":300,"normalSlew_countsPerMs":2,"sectorFraction":0.25,"trajectory_mm":2,"addedMass_g":0,"gainsAwGuardsChanged":false},
+  "probe": {
+    "project": "05_实验代码/S3R1_有界纠错_20261013/eassy_E5T6_S3R1_HW6_NO_DRIVE/MDK-ARM/eassy.uvprojx",
+    "target": "exp5T6_S3R1_HW6_NO_DRIVE", "build":66212, "schema":4471,
+    "noDrive": "Task never arms, always CAN_cmd_3508(0,0); CAN sender also unconditionally forces M1=M2=0. Secure unloaded mechanism independently: zero current is not a holding brake.",
+    "cases": "3000 old/new ordinary and3000 same-state old/new S3 pairs;4,59-growth,60 nodes; pure-rate,mixed,wrong-direction repair,amplitude andbrake fixtures. Reference and candidate kernels run on alternating cycles.",
+    "expected": {"I2":6,"I22":0,"I63":66212,"I74":750,"I75":750,"I76":6000,"I78":750,"I88":4471,"I89":4,"I90":12000,"I92":0,"I13":0,"I14":0,"I106":0},
+    "screen": "I3..8 new optimized peak bins all<600us, I60 body<1000us, I58 remaining stack>=1024bytes; zero fault/overrun/late/communication errors. I93 old-kernel reference peak not the600us target. Finite fixture coverage, not WCET or motion qualification.",
+    "save": "All107 channels; retain5sec after completion, normally I0>=20sec. E5T6_S3R1_HW6_NO_DRIVE_run01.csv in00_静止测速.",
+    "released": true
+  },
+  "pairedMotionAfterProbeReview": {
+    "released":false, "plannedAttempts":2, "order":["BLNN","S3R1"],
+    "projects":["05_实验代码/S3R1_有界纠错_20261013/eassy_E5R1_A_BLNN_HW6/MDK-ARM/eassy.uvprojx","05_实验代码/S3R1_有界纠错_20261013/eassy_E5R1_A_S3R1_HW6/MDK-ARM/eassy.uvprojx"],
+    "builds":[66111,66112],
+    "files":["01_BLNN/E5R1_A_BLNN_HW6_EVENT48_L1200_R1200_M0g_S2mm_run01.csv","02_S3R1/E5R1_A_S3R1_HW6_EVENT48_L1200_R1200_M0g_S2mm_run01.csv"],
+    "sameCondition": "No added mass, same2mm trajectory and limits; clean history and fresh4-node zero-weight reset each. Record battery voltage and CAN/current/temperature health; no charging while moving.",
+    "save": "I2=6,I22=0 then keep receiving until I88=4423,I89=4 and retain5sec (normally I0>=100sec). Export all107 channels. Do not clear, reset or stop export at phase6 alone.",
+    "onFault": "Stop safely and preserve/export same history at least5sec after fault, no automatic retry/overwrite. Include failures, no success-only selection.",
+    "coPrimary": ["sqrt(mean((1000*((I5+I6)/2-I3))^2)) on phases2..5","sqrt(mean((1000*(I5-I6))^2)) on phases2..5"],
+    "secondary": ["max absolute sync","terminal mean and individual position errors","commands/current and constraint occupancy","per-modal repair activity and prediction check","deadline/stack/network counts"],
+    "decision": "Firstpair estimates direction only. S3R1 must improve tracking without worse sync/fault/timing to justify testing the joint-improvement hypothesis; mixed results reported as tradeoff, not superiority. Never tune ordinary BLNN to manufacture a win. Decide next repeats only after reviewing this pair; no old20-trial batch release.",
+    "analysis": "Check build/schema/boot, full motion and complete128x6 duplicate event chunks. Compare common timestamps without interpolation; active I17/I18 actual Y/alpha learning,I25/I26 mode0/1/2,I32 min actual learn. Eventv23 nominal old learning,v40/41 actual learning,v42/43 modes,v44/45 raw before,v46/47 repair check after only whenmode1/2. After-stop I88..93 are replay metadata. Old schema4466 decoder must not be reused blindly."
+  },
+  "assumedModelCaution": "36 unidentified-model cases each: BLNN31complete,oldS3 32,newS3R1 30. Two new terminal failures in asymmetric right800-count cases23/30 retained. Symmetric1200 subset16/18 complete in all three. No claim of physical efficacy or low-limit suitability; no800-count motion release.",
+  "oldFilesImmutable": true,
+  "sourceAndBuildVerification": "checks_final/verification.json and pending build_manifest.json"
+}

@@ -1,0 +1,82 @@
+{
+  "version": "R93_motor_response_candidate",
+  "status": "Exploratory candidate only; not accepted as a replacement model",
+  "parameters": [
+    3.2708228618239554e-06,
+    1.9249968356948434e-06,
+    1.2664310115393707,
+    0.016469415301482927,
+    8.717113104795002,
+    2.324466329054665,
+    0.0004585951646895183,
+    0.00010121381320468199,
+    -0.8897118441672984,
+    0.0001712487414768326,
+    0.0007938733680240917
+  ],
+  "parameterNames": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "staticExtraL",
+    "staticExtraR"
+  ],
+  "solverRelativeToProject": "06_\u4eff\u771f\u4e0e\u590d\u73b0/cumulative_micro_round90_20261015/native_model.dll",
+  "solverSHA256": "1c58dafdcfdc53b7c4a11dcbce20e45428f0864f02f96ec9cd550f17e39a2053",
+  "actuator": [
+    {
+      "axis": 0,
+      "delay_steps": 0,
+      "tau_s": 0.01,
+      "gain": 0.9957388372120841,
+      "measurementOffset_counts": -0.30174209890127063,
+      "trainingRMSE_counts": 54.38858238582231,
+      "leaveOneRecordOutRMSE_counts": 54.42292132273156,
+      "perRecordLOORMSE_counts": [
+        49.33838337530205,
+        40.74499720568633,
+        66.12843685912628,
+        58.047258218108716,
+        54.519598375723945
+      ]
+    },
+    {
+      "axis": 1,
+      "delay_steps": 0,
+      "tau_s": 0.01,
+      "gain": 0.9968926345706813,
+      "measurementOffset_counts": -0.9042758846616468,
+      "trainingRMSE_counts": 53.097616287456695,
+      "leaveOneRecordOutRMSE_counts": 53.10636073994424,
+      "perRecordLOORMSE_counts": [
+        54.91496478850599,
+        54.77990537479689,
+        46.50923460165347,
+        49.35141430966054,
+        59.044604893381205
+      ]
+    }
+  ],
+  "actuatorEquation": "s[k]=exp(-dt[k]/tau)*s[k-1]+(1-exp(-dt[k]/tau))*u[k-delay];forceInput=gain*s[k]. Initialize s=0 once, no measured-current/state injection. MeasurementOffset not fed into force.",
+  "actuatorDelayConvention": "Integer controller steps, no interpolated measured-current input",
+  "motorParametersSHA256": "924c8b1fb7d184bfbee98a0f0b21e619c1104900f943ad1a2d23fa30ddc037a7",
+  "preFitPredictionsSHA256": "30b521ea814777398dc573b19bb2390619069af9d5f50e617db183e614a06400",
+  "fitProtocolSHA256": "d9c6f2ceb892142efa6ff4c9a04f92d2d79b3335165c95ff00851c1605543b33",
+  "fitResultsSHA256": "521ba3f5b8ffdc3e3b8856139e981a6376e6c4868ba2a38ba6d4459a9984dcde",
+  "verificationSHA256": "6753a3395a2f2ca1e628d49b664567f401b81bb5df21499b0988b05995abce19",
+  "all12RecordsCalibration": true,
+  "calibrationLossReduction_percent": 14.539855498691745,
+  "physicalValidationPassed": false,
+  "notAllCalibrationMetricsWithin15Percent": true,
+  "limitations": [
+    "10ms effective drive lag is the upper grid boundary, not a well-identified motor constant.",
+    "Cumulative refit worsens several older records; it is not adopted as the final plant model.",
+    "Coarse M1 movement inputs remain20ms means; sensitivity does not prove that input reconstruction alone caused the error."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "build": 68212,
+  "schema": 4500,
+  "project": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\自动采集Q2_显式启动_20261015\\eassy_E5ID_Q2B_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+  "target": "exp5ID_Q2B_BLNN_HW6",
+  "hex": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\自动采集Q2_显式启动_20261015\\eassy_E5ID_Q2B_BLNN_HW6\\MDK-ARM\\exp5ID_Q2B_BLNN_HW6\\exp5ID_Q2B_BLNN_HW6.hex",
+  "hexSHA256": "d5ce251b290afc45307dc5cdeac4d7f31e5f19a8fb1d6a3fe8c6abbbde3c2cb0",
+  "axfSHA256": "534b0cf9e01e28de7a44fa5679e1bd7bc933f6fbb818fbb8d89791f088d29675",
+  "unchangedSourceFiles": 188,
+  "checks": [
+    "PASS explicit PREPARE/ARM, no idle watchdog, active heartbeat expiry, no done rearm, unconditional CRC-valid STOP action",
+    "PASS ABI/blob70944/trace71032 full20000intervals moving8000 hold300 exception4 packing100000 words65536 chunks2956 guards preserved; no hardware",
+    "PASS Q2 host idle/health/fault preservation, encoded payload, chunk bounds, completion state, CRC and no permissionless Run; no hardware opened"
+  ],
+  "compileErrors": 0,
+  "compileWarnings": 0,
+  "RAM": {
+    "used": 106136,
+    "max": 114688,
+    "remaining": 8552
+  },
+  "sourceHashes": {
+    "motor_task.c": "1a022ae2fcfa0634507dad8ec99830552a03922103d757e3e5c0a91135cbc722",
+    "experiment5_formal_config.h": "42fde7070b090fb9472cbdcbd2f0bb3ccab9f410badd233337c8f184df094652",
+    "blnn_core.c": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+    "experiment5_motion.h": "614333932d95cda077cddf3131f837da00d73a1baa19dc57b94924069c67ffbd",
+    "identification_trace.h": "f767d2145cc22111f80b0d24ff513c2151d8fefbff7272a92fd00cf0ea508654",
+    "online_protocol.h": "323764427a2b54a144932df29c1ba93b75321bf37ddaad6e7b8dce83d172c09b",
+    "vofa_task.c": "a172b111871dd24b91987794f3fa49cb5f38a8e6fd288241dea1d8d0e597d9f6"
+  },
+  "hostSHA256": "178e71bf167141948c6a52d0a16d0fbba13fafbd742579200edc93a32ada3b90",
+  "protocolSHA256": "edf05e585823bdc87279137db145b8b97c12a941570f880c5b05ffc09097baf7",
+  "physicalRuns": 0,
+  "flashed": false,
+  "onboardTimingQualified": false,
+  "scope": "Single explicit ARM, same core/trajectory/actuator/physical guards; new startup handshake and restored heartbeat abort. Native checks not proof of physical safety."
+}

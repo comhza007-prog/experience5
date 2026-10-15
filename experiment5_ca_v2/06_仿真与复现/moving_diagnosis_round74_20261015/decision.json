@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-15",
+  "auditSHA256": "d35a3fb9581fee7d6061a6de0342e534f97fbd375ce17361b53321b75a188e14",
+  "frozenModelSHA256": "0efb92bb13bb6b96059cce67592f044e88c5a2d234c956280099f6b54daa6589",
+  "records": [
+    {
+      "record": "T1",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\identification_t1_fullmoving_round70_20261015\\build68112_d1184a41428b_analysis.json",
+      "decodedSHA256": "16ae14e84c7cb662eafa59d49a8c4ad94115ae74ca85c2012984ecb5c874c021",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\辨识T1_全运动段_20261015\\E5ID_T1F_BLNN_B68112_HW6_PRBS20_10_seed39_L1200_R1200_M0g_S2mm_run01.csv",
+      "rawSHA256": "d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0"
+    },
+    {
+      "record": "newQ2",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_mechanical_recheck_round73_20261015\\build68012_84bbb6e34165_analysis.json",
+      "decodedSHA256": "1b23fd6f8ac066edbeb53ac54e8cabbd64a25d063f39e368ada73442d8b85da4",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run02.csv",
+      "rawSHA256": "84bbb6e3416540a238354d7636a6bc4e6f5ba0cd2d090470e3eb1bba1ce153db"
+    }
+  ],
+  "codePathAudit": {
+    "applicationSourceInspection": "CAN command calls occur in motor_task only; other calls there are zero-command fault stops. One motor_task registered. No duplicate motor command writer found in inspected application sources.",
+    "signedRPMAndCurrentFieldsDecodedDirectly": true,
+    "CANSlots": "0x203/0x204 -> M3/M4 in0x200",
+    "sourceHashes": {
+      "CAN-control/CAN_receive.c": "ddefd2dace49f8d3ec3edb9872d1f3056a274deae65f30a4d7a89ca0df812a7e",
+      "Core/Src/freertos.c": "a44fe47726f3979af23355cd70b00de1b67f5f51ad16722945e17dd81a66dbc7"
+    },
+    "T1AndQ2PathsByteExact": true,
+    "noMCUCodeOrFlashChanged": true,
+    "notProofOfDeliveredMotorTorque": true
+  },
+  "newQ2MotionResults": [
+    {
+      "phase": 2,
+      "fullSyncPredictionRMSE_mm": 0.054429930893750124,
+      "conditionalSyncPredictionRMSE_mm": 0.054429930893750054,
+      "conditionalMeanPositionPredictionRMSE_mm": 0.1228157149426171,
+      "alignment": {
+        "matchedMotionFrames": 99,
+        "rpmMismatchFrames": 0,
+        "encoderMismatchFrames": 0,
+        "currentLiveCommandVsNextIntervalMismatchFrames": 0,
+        "previousQueuedIntervalNotSameFrameNewCommand": true
+      },
+      "encoderVsRPM50stepMeanEquivalentRawRPM": [
+        0.8874748627905092,
+        0.8769719427003306
+      ]
+    },
+    {
+      "phase": 4,
+      "fullSyncPredictionRMSE_mm": 0.058624493562108956,
+      "conditionalSyncPredictionRMSE_mm": 0.06317729565582063,
+      "conditionalMeanPositionPredictionRMSE_mm": 0.1419344073058875,
+      "alignment": {
+        "matchedMotionFrames": 99,
+        "rpmMismatchFrames": 0,
+        "encoderMismatchFrames": 0,
+        "currentLiveCommandVsNextIntervalMismatchFrames": 0,
+        "previousQueuedIntervalNotSameFrameNewCommand": true
+      },
+      "encoderVsRPM50stepMeanEquivalentRawRPM": [
+        1.0603901617752571,
+        0.7960124018829461
+      ]
+    }
+  ],
+  "conditionalVelocityInitialization": "Preceding80step encoder estimate, not true measured instantaneous velocity; each4s prediction conditioned once, no future-state injection.",
+  "modelTimeConstants_ms": [
+    0.3518046083155342,
+    251.25473283122227
+  ],
+  "conclusions": [
+    "Timing/encoder/RPM/native-new-command mapping has0mismatches across396motion frames fromT1/newQ2; no indexing repair justified.",
+    "Outward starts at observedzero position/velocity, and its conditional/fullsweep errors coincide. Return conditional initial states do not remove sync mismatch. Holding-state accumulation is not a sufficient sole explanation, but conditional tests do not uniquely identify its contribution.",
+    "ESC reportedcurrent vs queuedcommand is not one-to-one; fixedlookback comparisons show improvements atshortpositive lags but no universal lag/gain has been identified. It is not calibrated deliveredtorque.",
+    "Encoder-vs-ENDsampleRPM-integral systematic differences persist inboth tightened records. No correction/filter/quantizer was fitted. This observation issue affects free closedloop sensor modeling, but the current forcedposition solver does not consumeRPM, so alteringRPM alone cannot fix its position replay.",
+    "Frozen model has0.3518msfast mass/damping timeconstant below1msrecording period; this is an estimatedmodel diagnostic, not evidence of actualhardware damping or a theorem of nonidentifiability."
+  ],
+  "decision": "Keep model unadmitted; stop blind mechanical-gain adjustments. Next prospectively define ONE actuator/reported-current dynamic hypothesis using T1 for calibration only and reserve newQ2for explicitly exploratory cross-record checking, because it has now informed hypothesis development. No old/newQ2 fitting or new hardware trial in this round.",
+  "independentChecks": {
+    "conditionalPythonSteps": 16000,
+    "maximumNativePythonPositionDifference_m": 3.0357660829594124e-17,
+    "allRawAndSourceHashesUnchanged": true
+  },
+  "modelClosureComplete": false,
+  "modelsFitted": 0,
+  "controllerChanged": false,
+  "newPhysicalRunReleased": false,
+  "assistantHardwareAction": false
+}

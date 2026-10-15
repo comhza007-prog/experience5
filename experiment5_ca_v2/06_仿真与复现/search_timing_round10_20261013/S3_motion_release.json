@@ -1,0 +1,16 @@
+{
+  "date":"2026-10-13","release":"ONE_UNLOADED_A_MOTION_QUALIFICATION_ONLY",
+  "build":65312,"method":12,
+  "project":"05_实验代码/准入A_S3_搜索计算优化V2/eassy_E5Q_A_CA_S3OPT2_HW6/MDK-ARM/eassy.uvprojx",
+  "target":"exp5Q_A_CA_S3OPT2_HW6_EVENT40",
+  "hexSHA256":"5727a321c9c4be939e7e3c9a3de8c6534806af799325835ee901c4af2d883d59",
+  "conditions":{"extraLoad_g":0,"stroke_mm":2,"currentCommandLimits_counts":[1200,1200],"HWprofile":6,"normalSlew_counts_per_ms":2,"sectorFraction":0.25,"newLearning":true,"balancedSearch":true},
+  "evidence":{"stationaryBuild":65412,"stationarySourceSHA256":"6770b4e7a3fde2cbe735bd8daf1b1237aaecb9410de1679359b76217e55c39e0","exactPairs":6000,"equalityAndRuleErrors":0,"S3CorePeak_us":553.726196,"unchangedScreen_us":600,"S1MotionBuild":65212,"S1MotionSourceSHA256":"d726b39f24814f8746c6bdcf1af4076cf63425d3c30f46790188f43bc46dc775","S1MotionQualificationPassed":true,"S1CompleteEventRecords":128,"candidateSourceAndBinaryHashesRechecked":true},
+  "dataFolder":"01_原始数据/准入A_S3OPT2",
+  "filename":"E5Q_A_CA_S3OPT2_HW6_EVENT40_L1200_R1200_M0g_S2mm_run01.csv",
+  "preparation":"No extra hanging mass. Clear VOFA history before reset; confirm build65312. Verify initial position and safe2mm out-and-back travel. Remain ready to stop safely, do not move mechanism manually during the run.",
+  "normalStop":"Complete phase0..6 with I22=0. After phase6 wait I88=4422/I89=4 then retain5sec. EVENT40:128 records,5 chunks,each repeated twice. Normally I0>=85sec, completion states authoritative. Export all107 channels; do not stop at55sec.",
+  "faultStop":"Unexpected strong oscillation or abnormal travel: stop safely. On I2=9/I22 nonzero retain at least5sec of same post-fault history and export before reset/clear. Do not repeatedly rerun.",
+  "review":"Check complete movement, faults/deadlines/period/stack, return positions and sync, pure-rate partial learning and mixed-cause freezes. Decode all distinct EVENT40 chunks with equal received duplicates; verify guards/history and balanced search where captured. Never interpolate missing payloads.",
+  "boundaries":"Finite stationary coverage and S1 qualification do not prove S3 full motion timing/mechanical behavior or superiority over ordinary BLNN. No formal batch. Zero current is not a holding brake."
+}

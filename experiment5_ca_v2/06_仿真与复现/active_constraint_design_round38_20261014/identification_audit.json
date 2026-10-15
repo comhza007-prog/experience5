@@ -1,0 +1,133 @@
+{
+  "protocolSHA256": "7fbd120c685ae8da904e88edf075b5b0094c64e6d8c7d5eb579affe121b6cf95",
+  "sources": [
+    {
+      "source": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_反馈辨识_20261014\\E5MODEL_A_BLNN_B67511_HW6_MODEL10_L1200_R1200_M0g_S2mm_run01.csv",
+      "sha256": "7c7e29db5ec9e1e8d57c99c550bc3dfd7d4831ec570c0163ee04f71b209adb9c"
+    },
+    {
+      "source": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_反馈辨识_20261014\\E5MODEL_A_S3R2_B67512_HW6_MODEL10_L1200_R1200_M0g_S2mm_run01.csv",
+      "sha256": "2804eb9c2a605a03fa73f5bf46c2d8c30d973af97a90bf8c565031cd905e87ec"
+    }
+  ],
+  "models": {
+    "BLNN": [
+      {
+        "axis": 0,
+        "beta": [
+          0.4070188020710423,
+          0.22128893138307174,
+          0.7425303993072244,
+          -0.49141165344650223,
+          -0.21896604990552174,
+          0.06613593874293067
+        ],
+        "rank": 6,
+        "columns": 6,
+        "scaledCondition": 3.8571928803696167,
+        "trainingOneStepVelocityRMSE_mm_s": 0.9629188363307313
+      },
+      {
+        "axis": 1,
+        "beta": [
+          0.5943726265303356,
+          0.11950105680128432,
+          -1.094796492683043,
+          -0.020782881876604174,
+          -0.24544165909421198,
+          0.021605795707353208
+        ],
+        "rank": 6,
+        "columns": 6,
+        "scaledCondition": 3.941227654947832,
+        "trainingOneStepVelocityRMSE_mm_s": 0.8941625904472847
+      }
+    ],
+    "S3R2": [
+      {
+        "axis": 0,
+        "beta": [
+          0.41969616156551387,
+          0.186162852056678,
+          0.9482216880767038,
+          -0.4252691654654298,
+          -0.27515441896633297,
+          0.029549129471950063
+        ],
+        "rank": 6,
+        "columns": 6,
+        "scaledCondition": 4.52148909068351,
+        "trainingOneStepVelocityRMSE_mm_s": 0.93136432509837
+      },
+      {
+        "axis": 1,
+        "beta": [
+          0.5576026606432922,
+          0.13071552643670825,
+          -1.159760099469688,
+          0.01722522710246795,
+          -0.32424395754286217,
+          0.03361282456413632
+        ],
+        "rank": 6,
+        "columns": 6,
+        "scaledCondition": 4.48224626642348,
+        "trainingOneStepVelocityRMSE_mm_s": 0.9212217147168993
+      }
+    ]
+  },
+  "crossControllerValidation": [
+    {
+      "train": "BLNN",
+      "test": "S3R2",
+      "samples": 1600,
+      "testOneStepVelocityRMSE_mm_s": [
+        0.9333430613844549,
+        0.9241686902670883
+      ],
+      "recursiveFinite": true,
+      "recursivePositionRMSE_mm": [
+        0.5144773426507013,
+        0.5363023867566246
+      ],
+      "recursiveMeanPositionRMSE_mm": 0.42986797240899804,
+      "recursiveSyncDifferenceRMSE_mm": 0.6045398890656147,
+      "endPositionPredictionError_mm": [
+        0.7160197317918406,
+        -0.10686639711329067
+      ],
+      "conditionSelectedByControllerPerformance": false,
+      "oneStepUsesMeasuredPast": true,
+      "recursiveUsesRecordedAttemptedCommands": true,
+      "newControllerClosedLoopCounterfactual": false
+    },
+    {
+      "train": "S3R2",
+      "test": "BLNN",
+      "samples": 1600,
+      "testOneStepVelocityRMSE_mm_s": [
+        0.965383616792638,
+        0.8969378515110334
+      ],
+      "recursiveFinite": true,
+      "recursivePositionRMSE_mm": [
+        0.7942830242063836,
+        0.5399525803422351
+      ],
+      "recursiveMeanPositionRMSE_mm": 0.6373831589336613,
+      "recursiveSyncDifferenceRMSE_mm": 0.4688704063516297,
+      "endPositionPredictionError_mm": [
+        -0.6930070193264789,
+        0.11521960892975683
+      ],
+      "conditionSelectedByControllerPerformance": false,
+      "oneStepUsesMeasuredPast": true,
+      "recursiveUsesRecordedAttemptedCommands": true,
+      "newControllerClosedLoopCounterfactual": false
+    }
+  ],
+  "modelsIdentified": false,
+  "interpretation": "Fixed diagnostic first-order10ms fit. Recorded closed-loop attempted commands and missing intra-interval inputs prevent causal/1ms identification claims. Do not use one-step accuracy as recurrent model or candidate validation.",
+  "hardwareReleased": false,
+  "physicalRuns": 0
+}

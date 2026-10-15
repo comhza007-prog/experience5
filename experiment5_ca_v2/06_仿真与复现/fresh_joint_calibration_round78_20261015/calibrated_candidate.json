@@ -1,0 +1,112 @@
+{
+  "version": "fresh_joint_calibration_round78_20261015",
+  "status": "Shared parameters calibrated on both tightened records; not an independently validated final plant model",
+  "parameterNames": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombL",
+    "CoulombR",
+    "inertiaEta"
+  ],
+  "parameters": [
+    0.000005336327662271736,
+    0.000004448479288029315,
+    1.3385792908827865,
+    1.0191556775946902,
+    2.493140465735669,
+    15.187971197263286,
+    0.000418542894291717,
+    0.0006276376997653077,
+    -0.696361027924568
+  ],
+  "initialParameters": [
+    0.00003,
+    0.00003,
+    10,
+    10,
+    0,
+    10,
+    0.003,
+    0.003,
+    0
+  ],
+  "oldFittedParametersUsedForInitialization": false,
+  "initializationMeaning": "Numerical hypothesis; not measured physical parameters. Model structure and numerical bounds inherited from earlier exploration.",
+  "solver": "../inertia_coupling_round66_20261015/native_model.dll",
+  "input": "Queued commands, physical right sign=-1, original dt; hold input remains 40-step mean approximation",
+  "massNormalization": "M=[[1,eta],[eta,1]], effective normalized model, not identified hardware inertia or torque",
+  "fitResults": "fit_results.json",
+  "verification": "verification.json",
+  "bothRecordsUsedForCalibration": true,
+  "independentValidationPassed": false,
+  "modelClosureComplete": false,
+  "newPhysicalRunReleased": false,
+  "MCUParametersModified": false,
+  "allOriginalRawRetained": true,
+  "cases": [
+    {
+      "record": "T1",
+      "case": "freshJointRefit",
+      "recordUsedForCalibration": true,
+      "parametersFrozenBeforePostFitEvaluation": true,
+      "initialStateOnlyOnce": true,
+      "futureMeasuredStatesInjected": false,
+      "independentValidation": false,
+      "nativePredictionError": {
+        "axisRMSE_mm": [
+          0.10258502571038362,
+          0.09469992080250106
+        ],
+        "meanPositionPredictionRMSE_mm": 0.09608503070197771,
+        "syncPredictionRMSE_mm": 0.045323200460691215
+      },
+      "endpointPredictionError": {
+        "axisRMSE_mm": [
+          0.13211409470012234,
+          0.12303678231567189
+        ],
+        "meanPositionPredictionRMSE_mm": 0.12406668203871857,
+        "syncPredictionRMSE_mm": 0.060118227466120715
+      },
+      "elapsedWeightedMeanSyncSquaredError": 0.1783271535185452,
+      "modeledTaskTrackingRMSE_mm": 0.16871866005276354,
+      "modeledTaskSyncRMS_mm": 0.01738807062327504,
+      "actualTaskTrackingRMSE_mm": 0.14362147950428583,
+      "actualTaskSyncRMS_mm": 0.04795641250135376
+    },
+    {
+      "record": "Q2",
+      "case": "freshJointRefit",
+      "recordUsedForCalibration": true,
+      "parametersFrozenBeforePostFitEvaluation": true,
+      "initialStateOnlyOnce": true,
+      "futureMeasuredStatesInjected": false,
+      "independentValidation": false,
+      "nativePredictionError": {
+        "axisRMSE_mm": [
+          0.09264182370830151,
+          0.08780576575601406
+        ],
+        "meanPositionPredictionRMSE_mm": 0.08804645080864985,
+        "syncPredictionRMSE_mm": 0.03969899243053908
+      },
+      "endpointPredictionError": {
+        "axisRMSE_mm": [
+          0.12929903586598476,
+          0.12141041735356388
+        ],
+        "meanPositionPredictionRMSE_mm": 0.12212967996523337,
+        "syncPredictionRMSE_mm": 0.05705107643189826
+      },
+      "elapsedWeightedMeanSyncSquaredError": 0.1522599667210618,
+      "modeledTaskTrackingRMSE_mm": 0.13993756420275433,
+      "modeledTaskSyncRMS_mm": 0.01587033395993921,
+      "actualTaskTrackingRMSE_mm": 0.14094456135303696,
+      "actualTaskSyncRMS_mm": 0.042799503501793096
+    }
+  ]
+}

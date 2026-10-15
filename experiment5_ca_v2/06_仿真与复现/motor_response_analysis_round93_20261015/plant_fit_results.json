@@ -1,0 +1,827 @@
+{
+  "protocolSHA256": "d9c6f2ceb892142efa6ff4c9a04f92d2d79b3335165c95ff00851c1605543b33",
+  "scriptSHA256": "9b9df73159d7911b96cda95a1a3b7d50d08561f8d88f0b357caaca751564ffdc",
+  "baselineLoss": 589.8105666323621,
+  "baselinePerRecordLoss": [
+    9.673638090445957,
+    5.340524263342212,
+    17.944045652403496,
+    6.52411886506829,
+    5.610870657292883,
+    8.547720441491034,
+    13.295810256091283,
+    5405.384510455032,
+    967.4205109799734,
+    198.74912111471446,
+    324.0453771836636,
+    115.1905516288265
+  ],
+  "fits": {
+    "static_refit_control": {
+      "parameters": [
+        3.2901719961697106e-06,
+        1.880825985259204e-06,
+        1.2664310115393707,
+        0.016469415301482927,
+        8.717113104795002,
+        2.324466329054665,
+        0.00043451891647322424,
+        0.00010429598336424418,
+        -0.8897118441672984,
+        0.00017749904632438561,
+        0.0008569386563738424
+      ],
+      "loss": 507.9491850768089,
+      "perRecordLoss": [
+        8.06458713924289,
+        9.179485828998137,
+        52.01745475568407,
+        22.639341942128386,
+        7.774470870793783,
+        15.855299906198937,
+        15.227876657932216,
+        4166.037702167302,
+        1075.088857117646,
+        251.27836116040137,
+        416.01402036751483,
+        56.21276300786418
+      ],
+      "evaluations": 892,
+      "boundCoordinates": [
+        0.17149777218279394,
+        -0.4889397049615233,
+        0.09969354012272968,
+        0.0050771535093798534,
+        0.2536932804294727,
+        0.030694408508840712
+      ]
+    },
+    "motor_refit_candidate": {
+      "parameters": [
+        3.2708228618239554e-06,
+        1.9249968356948434e-06,
+        1.2664310115393707,
+        0.016469415301482927,
+        8.717113104795002,
+        2.324466329054665,
+        0.0004585951646895183,
+        0.00010121381320468199,
+        -0.8897118441672984,
+        0.0001712487414768326,
+        0.0007938733680240917
+      ],
+      "loss": 504.0529625280017,
+      "perRecordLoss": [
+        22.033659821116604,
+        9.397430348123768,
+        98.26922345325511,
+        29.146770440109247,
+        10.350690573568471,
+        20.328637509434746,
+        18.300822890133166,
+        4021.0092527840866,
+        1177.0035281149496,
+        252.90902558618308,
+        335.89977216174884,
+        53.986736653311105
+      ],
+      "evaluations": 893,
+      "boundCoordinates": [
+        0.12929476354887484,
+        -0.41764947342068176,
+        0.3268533611125131,
+        -0.11328147250001701,
+        0.10390723773669372,
+        -0.26593931577427016
+      ]
+    }
+  },
+  "cases": [
+    {
+      "case": "unchangedR90",
+      "record": "T1",
+      "actualTrackingRMSE_mm": 0.14362147950428583,
+      "actualSyncRMS_mm": 0.04795641250135376,
+      "predictedTrackingRMSE_mm": 0.17398049998491208,
+      "predictedSyncRMS_mm": 0.045691766216682854,
+      "trackingDifference_percent": 21.1382173372753,
+      "syncDifference_percent": -4.722301286834119,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.1142167566515525,
+        0.11144006236538061
+      ]
+    },
+    {
+      "case": "unchangedR90",
+      "record": "Q2_run02",
+      "actualTrackingRMSE_mm": 0.14094456135303696,
+      "actualSyncRMS_mm": 0.042799503501793096,
+      "predictedTrackingRMSE_mm": 0.1462959884959256,
+      "predictedSyncRMS_mm": 0.04474030621263112,
+      "trackingDifference_percent": 3.796831244509269,
+      "syncDifference_percent": 4.534638376720235,
+      "bothWithin15Percent": true,
+      "nativePositionRMSE_mm": [
+        0.11365622508248273,
+        0.11269853592660342
+      ]
+    },
+    {
+      "case": "unchangedR90",
+      "record": "Q2_run03",
+      "actualTrackingRMSE_mm": 0.14591872115310425,
+      "actualSyncRMS_mm": 0.04345665890295202,
+      "predictedTrackingRMSE_mm": 0.19015629536427833,
+      "predictedSyncRMS_mm": 0.04637347029139795,
+      "trackingDifference_percent": 30.316585741426614,
+      "syncDifference_percent": 6.712001019129854,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.16173858824448256,
+        0.14432395334376036
+      ]
+    },
+    {
+      "case": "unchangedR90",
+      "record": "Q2_run04",
+      "actualTrackingRMSE_mm": 0.1326922449693274,
+      "actualSyncRMS_mm": 0.04179566365067075,
+      "predictedTrackingRMSE_mm": 0.12437778137593548,
+      "predictedSyncRMS_mm": 0.0365294401818588,
+      "trackingDifference_percent": -6.265975525030765,
+      "syncDifference_percent": -12.59992786052444,
+      "bothWithin15Percent": true,
+      "nativePositionRMSE_mm": [
+        0.11330188656858284,
+        0.10491084310022478
+      ]
+    },
+    {
+      "case": "unchangedR90",
+      "record": "Q2_run05",
+      "actualTrackingRMSE_mm": 0.13400969181368935,
+      "actualSyncRMS_mm": 0.035777367147402,
+      "predictedTrackingRMSE_mm": 0.13917202035610463,
+      "predictedSyncRMS_mm": 0.0400959474261427,
+      "trackingDifference_percent": 3.8522053685432933,
+      "syncDifference_percent": 12.07070453493193,
+      "bothWithin15Percent": true,
+      "nativePositionRMSE_mm": [
+        0.1016136924828541,
+        0.10222112061604505
+      ]
+    },
+    {
+      "case": "unchangedR90",
+      "record": "Q2_run06",
+      "actualTrackingRMSE_mm": 0.12900318310026304,
+      "actualSyncRMS_mm": 0.03954585945456237,
+      "predictedTrackingRMSE_mm": 0.1515888745093122,
+      "predictedSyncRMS_mm": 0.04243403704574902,
+      "trackingDifference_percent": 17.50785590421846,
+      "syncDifference_percent": 7.303362807186242,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.11319634490565524,
+        0.11828565001723577
+      ]
+    },
+    {
+      "case": "unchangedR90",
+      "record": "Q2_run07",
+      "actualTrackingRMSE_mm": 0.13237176813807391,
+      "actualSyncRMS_mm": 0.0396340762475928,
+      "predictedTrackingRMSE_mm": 0.16839302798809694,
+      "predictedSyncRMS_mm": 0.040822389689972836,
+      "trackingDifference_percent": 27.212192113691568,
+      "syncDifference_percent": 2.9982115262550346,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.12470263629931781,
+        0.12971137189930582
+      ]
+    },
+    {
+      "case": "unchangedR90",
+      "record": "M1_run01",
+      "actualTrackingRMSE_mm": 0.125197279323474,
+      "actualSyncRMS_mm": 0.08220440985737933,
+      "predictedTrackingRMSE_mm": 1.0214218866976563,
+      "predictedSyncRMS_mm": 0.07938553079749482,
+      "trackingDifference_percent": 715.8499068167399,
+      "syncDifference_percent": -3.4291092956875824,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.961185356734069,
+        0.8985387289928017
+      ]
+    },
+    {
+      "case": "unchangedR90",
+      "record": "M1_run02",
+      "actualTrackingRMSE_mm": 0.10278312422280246,
+      "actualSyncRMS_mm": 0.09113118291781368,
+      "predictedTrackingRMSE_mm": 0.4081234777919545,
+      "predictedSyncRMS_mm": 0.045268007466642474,
+      "trackingDifference_percent": 297.0724580304324,
+      "syncDifference_percent": -50.32654463898789,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.41839037692088493,
+        0.436103729059958
+      ]
+    },
+    {
+      "case": "unchangedR90",
+      "record": "M1_run03",
+      "actualTrackingRMSE_mm": 0.1332225182730006,
+      "actualSyncRMS_mm": 0.04806493004259975,
+      "predictedTrackingRMSE_mm": 0.30320382274140284,
+      "predictedSyncRMS_mm": 0.0408323707369533,
+      "trackingDifference_percent": 127.59202173319922,
+      "syncDifference_percent": -15.047477025840383,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.31890152084930595,
+        0.3231593879187161
+      ]
+    },
+    {
+      "case": "unchangedR90",
+      "record": "M1_run04",
+      "actualTrackingRMSE_mm": 0.13321667735310014,
+      "actualSyncRMS_mm": 0.0520746819481404,
+      "predictedTrackingRMSE_mm": 0.3538326502387817,
+      "predictedSyncRMS_mm": 0.040866092301564634,
+      "trackingDifference_percent": 165.60687240451392,
+      "syncDifference_percent": -21.524067410988813,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.36749404416942566,
+        0.37390428253765745
+      ]
+    },
+    {
+      "case": "unchangedR90",
+      "record": "M1_run05",
+      "actualTrackingRMSE_mm": 0.1541861111611547,
+      "actualSyncRMS_mm": 0.04734086501110851,
+      "predictedTrackingRMSE_mm": 0.3024294793832109,
+      "predictedSyncRMS_mm": 0.049219711498544996,
+      "trackingDifference_percent": 96.14573394818477,
+      "syncDifference_percent": 3.968762478242871,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.25408912806336315,
+        0.26189332274802296
+      ]
+    },
+    {
+      "case": "motorOnlyR90",
+      "record": "T1",
+      "actualTrackingRMSE_mm": 0.14362147950428583,
+      "actualSyncRMS_mm": 0.04795641250135376,
+      "predictedTrackingRMSE_mm": 0.17768349142506176,
+      "predictedSyncRMS_mm": 0.045500357141455505,
+      "trackingDifference_percent": 23.716516525482167,
+      "syncDifference_percent": -5.121432633912981,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.12658243361541105,
+        0.12463928955189041
+      ]
+    },
+    {
+      "case": "motorOnlyR90",
+      "record": "Q2_run02",
+      "actualTrackingRMSE_mm": 0.14094456135303696,
+      "actualSyncRMS_mm": 0.042799503501793096,
+      "predictedTrackingRMSE_mm": 0.1497345275813164,
+      "predictedSyncRMS_mm": 0.04480608217641887,
+      "trackingDifference_percent": 6.236470668962091,
+      "syncDifference_percent": 4.688322317901905,
+      "bothWithin15Percent": true,
+      "nativePositionRMSE_mm": [
+        0.11443078694127735,
+        0.1120630960664571
+      ]
+    },
+    {
+      "case": "motorOnlyR90",
+      "record": "Q2_run03",
+      "actualTrackingRMSE_mm": 0.14591872115310425,
+      "actualSyncRMS_mm": 0.04345665890295202,
+      "predictedTrackingRMSE_mm": 0.22424246186719557,
+      "predictedSyncRMS_mm": 0.04705427996641639,
+      "trackingDifference_percent": 53.67627957204384,
+      "syncDifference_percent": 8.27864164959995,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.18399585916665676,
+        0.18640650058044234
+      ]
+    },
+    {
+      "case": "motorOnlyR90",
+      "record": "Q2_run04",
+      "actualTrackingRMSE_mm": 0.1326922449693274,
+      "actualSyncRMS_mm": 0.04179566365067075,
+      "predictedTrackingRMSE_mm": 0.12984464996679687,
+      "predictedSyncRMS_mm": 0.03640772582845569,
+      "trackingDifference_percent": -2.146014639505711,
+      "syncDifference_percent": -12.891140734712547,
+      "bothWithin15Percent": true,
+      "nativePositionRMSE_mm": [
+        0.11446457967423816,
+        0.10420810908945617
+      ]
+    },
+    {
+      "case": "motorOnlyR90",
+      "record": "Q2_run05",
+      "actualTrackingRMSE_mm": 0.13400969181368935,
+      "actualSyncRMS_mm": 0.035777367147402,
+      "predictedTrackingRMSE_mm": 0.1439540855620291,
+      "predictedSyncRMS_mm": 0.040297208340032684,
+      "trackingDifference_percent": 7.420652651127058,
+      "syncDifference_percent": 12.633241495968761,
+      "bothWithin15Percent": true,
+      "nativePositionRMSE_mm": [
+        0.10331935927017756,
+        0.1029219607275339
+      ]
+    },
+    {
+      "case": "motorOnlyR90",
+      "record": "Q2_run06",
+      "actualTrackingRMSE_mm": 0.12900318310026304,
+      "actualSyncRMS_mm": 0.03954585945456237,
+      "predictedTrackingRMSE_mm": 0.1592630332186349,
+      "predictedSyncRMS_mm": 0.04185218034941548,
+      "trackingDifference_percent": 23.456669355866566,
+      "syncDifference_percent": 5.83201611158064,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.11872778739621144,
+        0.12178744803960696
+      ]
+    },
+    {
+      "case": "motorOnlyR90",
+      "record": "Q2_run07",
+      "actualTrackingRMSE_mm": 0.13237176813807391,
+      "actualSyncRMS_mm": 0.0396340762475928,
+      "predictedTrackingRMSE_mm": 0.16884507506883345,
+      "predictedSyncRMS_mm": 0.040732757088122566,
+      "trackingDifference_percent": 27.553690219439453,
+      "syncDifference_percent": 2.772061177019358,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.12303569603980813,
+        0.12513688504993242
+      ]
+    },
+    {
+      "case": "motorOnlyR90",
+      "record": "M1_run01",
+      "actualTrackingRMSE_mm": 0.125197279323474,
+      "actualSyncRMS_mm": 0.08220440985737933,
+      "predictedTrackingRMSE_mm": 1.0218886876759132,
+      "predictedSyncRMS_mm": 0.07930699843015118,
+      "trackingDifference_percent": 716.2227591508957,
+      "syncDifference_percent": -3.524642330326333,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.961364207779757,
+        0.8986649375601566
+      ]
+    },
+    {
+      "case": "motorOnlyR90",
+      "record": "M1_run02",
+      "actualTrackingRMSE_mm": 0.10278312422280246,
+      "actualSyncRMS_mm": 0.09113118291781368,
+      "predictedTrackingRMSE_mm": 0.4038921212712623,
+      "predictedSyncRMS_mm": 0.044872959563639216,
+      "trackingDifference_percent": 292.9556766495513,
+      "syncDifference_percent": -50.760038302029145,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.41309467740458755,
+        0.43012149155790796
+      ]
+    },
+    {
+      "case": "motorOnlyR90",
+      "record": "M1_run03",
+      "actualTrackingRMSE_mm": 0.1332225182730006,
+      "actualSyncRMS_mm": 0.04806493004259975,
+      "predictedTrackingRMSE_mm": 0.42193241461162956,
+      "predictedSyncRMS_mm": 0.04410294774728783,
+      "trackingDifference_percent": 216.71253484865252,
+      "syncDifference_percent": -8.24297942762099,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.43890250910652123,
+        0.4489939476206772
+      ]
+    },
+    {
+      "case": "motorOnlyR90",
+      "record": "M1_run04",
+      "actualTrackingRMSE_mm": 0.13321667735310014,
+      "actualSyncRMS_mm": 0.0520746819481404,
+      "predictedTrackingRMSE_mm": 0.460688444748726,
+      "predictedSyncRMS_mm": 0.04394522158323928,
+      "trackingDifference_percent": 245.81889737997216,
+      "syncDifference_percent": -15.611157016757204,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.47509388808950126,
+        0.48612341797119846
+      ]
+    },
+    {
+      "case": "motorOnlyR90",
+      "record": "M1_run05",
+      "actualTrackingRMSE_mm": 0.1541861111611547,
+      "actualSyncRMS_mm": 0.04734086501110851,
+      "predictedTrackingRMSE_mm": 0.3034568812039035,
+      "predictedSyncRMS_mm": 0.049424336110867474,
+      "trackingDifference_percent": 96.81207270785346,
+      "syncDifference_percent": 4.4009992197440395,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.2530329573395529,
+        0.2600477360024502
+      ]
+    },
+    {
+      "case": "static_refit_control",
+      "record": "T1",
+      "actualTrackingRMSE_mm": 0.14362147950428583,
+      "actualSyncRMS_mm": 0.04795641250135376,
+      "predictedTrackingRMSE_mm": 0.1511793926102364,
+      "predictedSyncRMS_mm": 0.03892447815963626,
+      "trackingDifference_percent": 5.262383545996707,
+      "syncDifference_percent": -18.83363218936057,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.11058687761212876,
+        0.09758752481746832
+      ]
+    },
+    {
+      "case": "static_refit_control",
+      "record": "Q2_run02",
+      "actualTrackingRMSE_mm": 0.14094456135303696,
+      "actualSyncRMS_mm": 0.042799503501793096,
+      "predictedTrackingRMSE_mm": 0.1521233073036476,
+      "predictedSyncRMS_mm": 0.03843179022632174,
+      "trackingDifference_percent": 7.931307063782467,
+      "syncDifference_percent": -10.205055942502629,
+      "bothWithin15Percent": true,
+      "nativePositionRMSE_mm": [
+        0.14844781069453317,
+        0.1403374593613553
+      ]
+    },
+    {
+      "case": "static_refit_control",
+      "record": "Q2_run03",
+      "actualTrackingRMSE_mm": 0.14591872115310425,
+      "actualSyncRMS_mm": 0.04345665890295202,
+      "predictedTrackingRMSE_mm": 0.23419879817725192,
+      "predictedSyncRMS_mm": 0.0440851022523653,
+      "trackingDifference_percent": 60.4994865131256,
+      "syncDifference_percent": 1.4461382105254161,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.2210402270060526,
+        0.20715791925188828
+      ]
+    },
+    {
+      "case": "static_refit_control",
+      "record": "Q2_run04",
+      "actualTrackingRMSE_mm": 0.1326922449693274,
+      "actualSyncRMS_mm": 0.04179566365067075,
+      "predictedTrackingRMSE_mm": 0.1666296192157925,
+      "predictedSyncRMS_mm": 0.03133352836818733,
+      "trackingDifference_percent": 25.576004275389195,
+      "syncDifference_percent": -25.031628567801256,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.17399104143604635,
+        0.16350015290512737
+      ]
+    },
+    {
+      "case": "static_refit_control",
+      "record": "Q2_run05",
+      "actualTrackingRMSE_mm": 0.13400969181368935,
+      "actualSyncRMS_mm": 0.035777367147402,
+      "predictedTrackingRMSE_mm": 0.14960717730109074,
+      "predictedSyncRMS_mm": 0.035299291777598024,
+      "trackingDifference_percent": 11.639072723998378,
+      "syncDifference_percent": -1.336250842143616,
+      "bothWithin15Percent": true,
+      "nativePositionRMSE_mm": [
+        0.13779122795011287,
+        0.1320571372550538
+      ]
+    },
+    {
+      "case": "static_refit_control",
+      "record": "Q2_run06",
+      "actualTrackingRMSE_mm": 0.12900318310026304,
+      "actualSyncRMS_mm": 0.03954585945456237,
+      "predictedTrackingRMSE_mm": 0.16521340555475517,
+      "predictedSyncRMS_mm": 0.037959945995746626,
+      "trackingDifference_percent": 28.06924727302973,
+      "syncDifference_percent": -4.0103148109296605,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.14993712849057791,
+        0.14943190756996985
+      ]
+    },
+    {
+      "case": "static_refit_control",
+      "record": "Q2_run07",
+      "actualTrackingRMSE_mm": 0.13237176813807391,
+      "actualSyncRMS_mm": 0.0396340762475928,
+      "predictedTrackingRMSE_mm": 0.1677589304627327,
+      "predictedSyncRMS_mm": 0.036216777879872195,
+      "trackingDifference_percent": 26.733164346454362,
+      "syncDifference_percent": -8.622121899278923,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.14503388397198777,
+        0.14459577275978694
+      ]
+    },
+    {
+      "case": "static_refit_control",
+      "record": "M1_run01",
+      "actualTrackingRMSE_mm": 0.125197279323474,
+      "actualSyncRMS_mm": 0.08220440985737933,
+      "predictedTrackingRMSE_mm": 0.9116827748043724,
+      "predictedSyncRMS_mm": 0.06835822920468317,
+      "trackingDifference_percent": 628.1969542236175,
+      "syncDifference_percent": -16.843598386897508,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.8474861945778227,
+        0.7846986475711554
+      ]
+    },
+    {
+      "case": "static_refit_control",
+      "record": "M1_run02",
+      "actualTrackingRMSE_mm": 0.10278312422280246,
+      "actualSyncRMS_mm": 0.09113118291781368,
+      "predictedTrackingRMSE_mm": 0.4246901414560974,
+      "predictedSyncRMS_mm": 0.040607819444043014,
+      "trackingDifference_percent": 313.19053557420455,
+      "syncDifference_percent": -55.440258598788276,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.4356952375227443,
+        0.4500691919027579
+      ]
+    },
+    {
+      "case": "static_refit_control",
+      "record": "M1_run03",
+      "actualTrackingRMSE_mm": 0.1332225182730006,
+      "actualSyncRMS_mm": 0.04806493004259975,
+      "predictedTrackingRMSE_mm": 0.3232909622151538,
+      "predictedSyncRMS_mm": 0.03456219032410996,
+      "trackingDifference_percent": 142.66990776488964,
+      "syncDifference_percent": -28.092706483755137,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.3504435903251759,
+        0.3493801690136411
+      ]
+    },
+    {
+      "case": "static_refit_control",
+      "record": "M1_run04",
+      "actualTrackingRMSE_mm": 0.13321667735310014,
+      "actualSyncRMS_mm": 0.0520746819481404,
+      "predictedTrackingRMSE_mm": 0.3826006085005616,
+      "predictedSyncRMS_mm": 0.034630369619742724,
+      "trackingDifference_percent": 187.20173487471982,
+      "syncDifference_percent": -33.498644016241784,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.40697678373587876,
+        0.40848286071755824
+      ]
+    },
+    {
+      "case": "static_refit_control",
+      "record": "M1_run05",
+      "actualTrackingRMSE_mm": 0.1541861111611547,
+      "actualSyncRMS_mm": 0.04734086501110851,
+      "predictedTrackingRMSE_mm": 0.2516181370152001,
+      "predictedSyncRMS_mm": 0.042948311957514675,
+      "trackingDifference_percent": 63.19118182584542,
+      "syncDifference_percent": -9.278565257654513,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.21020159966089697,
+        0.212617785003983
+      ]
+    },
+    {
+      "case": "motor_refit_candidate",
+      "record": "T1",
+      "actualTrackingRMSE_mm": 0.14362147950428583,
+      "actualSyncRMS_mm": 0.04795641250135376,
+      "predictedTrackingRMSE_mm": 0.19086630628531584,
+      "predictedSyncRMS_mm": 0.03857832940913851,
+      "trackingDifference_percent": 32.89537675290426,
+      "syncDifference_percent": -19.555430865372834,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.15600103365042137,
+        0.13176853759528498
+      ]
+    },
+    {
+      "case": "motor_refit_candidate",
+      "record": "Q2_run02",
+      "actualTrackingRMSE_mm": 0.14094456135303696,
+      "actualSyncRMS_mm": 0.042799503501793096,
+      "predictedTrackingRMSE_mm": 0.15480255165855633,
+      "predictedSyncRMS_mm": 0.039602020150492315,
+      "trackingDifference_percent": 9.832227772739643,
+      "syncDifference_percent": -7.470842158640512,
+      "bothWithin15Percent": true,
+      "nativePositionRMSE_mm": [
+        0.1547289646446322,
+        0.1438473670249134
+      ]
+    },
+    {
+      "case": "motor_refit_candidate",
+      "record": "Q2_run03",
+      "actualTrackingRMSE_mm": 0.14591872115310425,
+      "actualSyncRMS_mm": 0.04345665890295202,
+      "predictedTrackingRMSE_mm": 0.27383273689332,
+      "predictedSyncRMS_mm": 0.04302540486339608,
+      "trackingDifference_percent": 87.66114089363681,
+      "syncDifference_percent": -0.9923773489329268,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.2543965881456554,
+        0.25562492593034153
+      ]
+    },
+    {
+      "case": "motor_refit_candidate",
+      "record": "Q2_run04",
+      "actualTrackingRMSE_mm": 0.1326922449693274,
+      "actualSyncRMS_mm": 0.04179566365067075,
+      "predictedTrackingRMSE_mm": 0.1800910932694896,
+      "predictedSyncRMS_mm": 0.03280468716509883,
+      "trackingDifference_percent": 35.72088806781339,
+      "syncDifference_percent": -21.511744760697514,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.19134530958453103,
+        0.17994541533476213
+      ]
+    },
+    {
+      "case": "motor_refit_candidate",
+      "record": "Q2_run05",
+      "actualTrackingRMSE_mm": 0.13400969181368935,
+      "actualSyncRMS_mm": 0.035777367147402,
+      "predictedTrackingRMSE_mm": 0.15699143686838465,
+      "predictedSyncRMS_mm": 0.03584403716101187,
+      "trackingDifference_percent": 17.149315652965093,
+      "syncDifference_percent": 0.1863468972862048,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.15120491890146917,
+        0.14174186925534712
+      ]
+    },
+    {
+      "case": "motor_refit_candidate",
+      "record": "Q2_run06",
+      "actualTrackingRMSE_mm": 0.12900318310026304,
+      "actualSyncRMS_mm": 0.03954585945456237,
+      "predictedTrackingRMSE_mm": 0.17240272075869337,
+      "predictedSyncRMS_mm": 0.03783863766046553,
+      "trackingDifference_percent": 33.64222231997145,
+      "syncDifference_percent": -4.317068379961276,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.16194319991898412,
+        0.15829969204013
+      ]
+    },
+    {
+      "case": "motor_refit_candidate",
+      "record": "Q2_run07",
+      "actualTrackingRMSE_mm": 0.13237176813807391,
+      "actualSyncRMS_mm": 0.0396340762475928,
+      "predictedTrackingRMSE_mm": 0.17299669975175827,
+      "predictedSyncRMS_mm": 0.03650181502336562,
+      "trackingDifference_percent": 30.69002717506155,
+      "syncDifference_percent": -7.902949988439345,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.15610419597179323,
+        0.15166809981007867
+      ]
+    },
+    {
+      "case": "motor_refit_candidate",
+      "record": "M1_run01",
+      "actualTrackingRMSE_mm": 0.125197279323474,
+      "actualSyncRMS_mm": 0.08220440985737933,
+      "predictedTrackingRMSE_mm": 0.897981679935621,
+      "predictedSyncRMS_mm": 0.07044551085768347,
+      "trackingDifference_percent": 617.2533499034695,
+      "syncDifference_percent": -14.304462522262462,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.8348696020936444,
+        0.768834912383666
+      ]
+    },
+    {
+      "case": "motor_refit_candidate",
+      "record": "M1_run02",
+      "actualTrackingRMSE_mm": 0.10278312422280246,
+      "actualSyncRMS_mm": 0.09113118291781368,
+      "predictedTrackingRMSE_mm": 0.44027920686764216,
+      "predictedSyncRMS_mm": 0.04159471120226705,
+      "trackingDifference_percent": 328.3574859169012,
+      "syncDifference_percent": -54.35732328880325,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.4537777209163083,
+        0.46909848379631536
+      ]
+    },
+    {
+      "case": "motor_refit_candidate",
+      "record": "M1_run03",
+      "actualTrackingRMSE_mm": 0.1332225182730006,
+      "actualSyncRMS_mm": 0.04806493004259975,
+      "predictedTrackingRMSE_mm": 0.3242725474041859,
+      "predictedSyncRMS_mm": 0.035954137453149945,
+      "trackingDifference_percent": 143.40670902173164,
+      "syncDifference_percent": -25.19673404021614,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.35312542035373207,
+        0.35204929342352137
+      ]
+    },
+    {
+      "case": "motor_refit_candidate",
+      "record": "M1_run04",
+      "actualTrackingRMSE_mm": 0.13321667735310014,
+      "actualSyncRMS_mm": 0.0520746819481404,
+      "predictedTrackingRMSE_mm": 0.3560147618077093,
+      "predictedSyncRMS_mm": 0.037295475596913916,
+      "trackingDifference_percent": 167.24488921463433,
+      "syncDifference_percent": -28.38079043083671,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.3813488888144295,
+        0.38077195274862413
+      ]
+    },
+    {
+      "case": "motor_refit_candidate",
+      "record": "M1_run05",
+      "actualTrackingRMSE_mm": 0.1541861111611547,
+      "actualSyncRMS_mm": 0.04734086501110851,
+      "predictedTrackingRMSE_mm": 0.24960529591737432,
+      "predictedSyncRMS_mm": 0.04440669994494073,
+      "trackingDifference_percent": 61.8857198210855,
+      "syncDifference_percent": -6.197954062477063,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.20995974018844663,
+        0.21123915356770398
+      ]
+    }
+  ],
+  "candidateEligibleForOneExploratoryManualCapture": true,
+  "physicalModelValidated": false,
+  "all12RecordsUsedForCalibration": true,
+  "olderNegativeResultsPreserved": true,
+  "measuredCurrentInjectedIntoPlant": false,
+  "assistantHardwareAction": false
+}

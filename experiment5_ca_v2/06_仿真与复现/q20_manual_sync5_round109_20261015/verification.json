@@ -1,0 +1,74 @@
+{
+  "status": "Requested sync-only change prepared; user-operated SINGLE trial, not physically qualified",
+  "build": 68512,
+  "schema": 4503,
+  "stopMagic": 4445,
+  "project": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\20mm手动VOFA_同步保护5mm_20261015\\eassy_E5ID_Q20M_S5_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+  "target": "exp5ID_Q20M_S5_BLNN_HW6",
+  "hex": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\20mm手动VOFA_同步保护5mm_20261015\\eassy_E5ID_Q20M_S5_BLNN_HW6\\MDK-ARM\\exp5ID_Q20M_S5_BLNN_HW6\\exp5ID_Q20M_S5_BLNN_HW6.hex",
+  "hexSHA256": "263aa42067ef77f0f6ad4ca2d246f61deebd3addad0346018a6ee2c18096c4c5",
+  "axfSHA256": "9f27729eb9f0f55d9f1696007047e3f21b35c44685702418432ed7be48e66e6f",
+  "compileErrors": 0,
+  "compileWarnings": 0,
+  "RAM": {
+    "used": 104504,
+    "max": 114688,
+    "remaining": 10184
+  },
+  "unchangedSourceFiles": 189,
+  "soleBehaviorChange": {
+    "oldSyncFault_mm": 1.5,
+    "newSyncFault_mm": 5,
+    "comparison": "strict greater",
+    "faultBit": 8,
+    "armedOnly": true
+  },
+  "allOtherExecutableMotorTaskStatementsUnchanged": true,
+  "coreActuatorGainsTrajectoryLimitsOtherGuardsAndLoggingHashesEqual": true,
+  "checks": [
+    "PASS actual-source5mm threshold; strictgreater bothsign/nextfloat boundaries; armed-only;1.5/2mm no longer sync-fault. Other protection equality audited separately."
+  ],
+  "inheritedTrajectoryLoggerAnd600pointSummaryVerification": [
+    "PASS trajectory20mm/8s/28000steps; maxV=0.00468749972 maxA=0.00180421944; exact4ms/40ms integrals; ABI3/69312bytes/722chunks4copies; overflow/fault rejection; unchanged speed guard;600point RMS/fault/partial rejection",
+    "{\"passed\": true, \"version\": 3, \"blobBytes\": 69312, \"blobSHA256\": \"34db77cb8af0507b1da18c487c019d57f75546ca212f683836bcd3e04a856b9b\", \"CRC32\": 1541567316, \"independentIntervalRows\": 4300, \"independentIntegrationSteps\": 28000, \"slowRows\": 300, \"fastRows\": 4000, \"forwardFastRows\": 2000, \"controlPeriod_us\": 1000, \"movingLogIntervalSteps\": 4, \"holdingLogIntervalSteps\": 40, \"instruction\": \"Exact integrals, not recoverable1ms inputs. Fixture is NOT physical evidence.\", \"hardwareAction\": false}"
+  ],
+  "syntheticParserCompatibilityCheck": "Only build word in in-memory native fixture adapted for schema; no experimental data modified.",
+  "sourceHashes": {
+    "motor_task.c": "2b3791236f4b1b21615b20e85b783265e96187b0299b164330aca040c5e87f38",
+    "experiment5_formal_config.h": "984ee7861ac3de8120e59c4185cf9320125127904eb5ba3587a16b5ecd08d81c",
+    "blnn_core.c": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+    "experiment5_formal_actuator.h": "d7a181bad70783b52e794202807cb70df705877e8d5a402a7cabf80d46a15b6d",
+    "experiment5_motion.h": "d2338f5e7c3a6fad41c39c4f92046900775156d853251df775c91d3ab1425315",
+    "identification_trace_v3.h": "0593275a98fb1d7ef7004ce3bfb752846f79552fb254dd62ae2f7cc8ac41353d",
+    "experiment5_error_summary.h": "5c2fded9e368d1af9bbd77b4888fc1ad9fd4e76704366ed0293fb4b39631d807",
+    "experiment5_hw_profile.h": "e24b564fec82dd358ed8b818f072f03069de408ee73e4ad3ecbb13a1558d764d",
+    "online_protocol.h": "323764427a2b54a144932df29c1ba93b75321bf37ddaad6e7b8dce83d172c09b",
+    "vofa_task.c": "a172b111871dd24b91987794f3fa49cb5f38a8e6fd288241dea1d8d0e597d9f6"
+  },
+  "protocolSHA256": "e90d184d65f05786c39c48449a08a70b8f98d005b10f53ff5837310219bdc1a3",
+  "decoderSHA256": "40a40f2d928cc1ec4376e08e7cb4d377448880125eee803dccbeb4db06a03028",
+  "oldCodeAndDataPreserved": true,
+  "assistantHardwareAction": false,
+  "flashedByAssistant": false,
+  "physicalRuns": 0,
+  "tracking1024Retained": true,
+  "temperature60CRetained": true,
+  "travelEnvelope_mm": [
+    -4,
+    22
+  ],
+  "limits": [
+    1200,
+    1200
+  ],
+  "stroke_mm": 20,
+  "legDuration_s": 8,
+  "totalDuration_s": 28,
+  "manualBootDelay_s": 8,
+  "userReportsOldBeltRestored": true,
+  "oldTensionOrMotionHealthNotEstablished": true,
+  "noHostHeartbeatAsExistingManualMode": true,
+  "batchReleased": false,
+  "completion": "I63=68512,I2=6,I22=0,I88=4445,I89=4,I90=0; completiontail>=20seconds AND I0>=185seconds",
+  "nextStep": "User flash with driveOFF, prepareVOFA and clear history, confirm safe site and controlledfreshpoweron for ONE trial. Observe emergency stop. If1024orotherfault, stop/keeprecord; no immediate repeat. Audit then frozen cross-regime prediction before fitting."
+}

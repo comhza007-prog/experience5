@@ -1,0 +1,54 @@
+{
+  "prepared": true,
+  "protocolSHA256": "75eddf8d348d5ae3d63a32ad77f03e78f00ca41c91c206ef2d1833f8bb78a4f7",
+  "build": 68012,
+  "target": "exp5ID_Q2S_BLNN_HW6",
+  "hexSHA256": "70a59be4aa20d602436d07cfd78be847cdfce9bc8cc6d0cd25147eec27039394",
+  "oldQ2RawHashUnchanged": true,
+  "newRawDoesNotExist": true,
+  "frozenModels": [
+    {
+      "path": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\inertia_coupling_round66_20261015\\fit_results.json",
+      "SHA256": "0fce22d8ee14661a6394601bdb0a67b575950b81cf78c7805b8b7ad1cd25818b",
+      "parameters": [
+        0.000036917129770177045,
+        0.000024922683762114945,
+        9.74239166885276,
+        4.882157822472511,
+        508.9629006613067,
+        248.92150653313465,
+        0,
+        0.006170731977857422,
+        -0.030628187904756653
+      ]
+    },
+    {
+      "path": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\t1_training_fit_round72_20261015\\fit_results.json",
+      "SHA256": "0efb92bb13bb6b96059cce67592f044e88c5a2d234c956280099f6b54daa6589",
+      "parameters": [
+        0.000032629200416386004,
+        0.000028588655584849626,
+        10.121592590693442,
+        4.879953945366028,
+        0,
+        167.42807854209846,
+        0.001397030566709087,
+        0.00521100861901815,
+        0.879556801282464
+      ]
+    }
+  ],
+  "currentSourceHashes": {
+    "Task/motor_task.c": "309f416254ca8f76591ece466d139b9c06788b0c45bc09dd74c609b001441aa7",
+    "Task/blnn_core.c": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+    "Task/experiment5_formal_config.h": "a2636fb9e69d6f7a6a9f4d09a77573a66e1d65aaeeb08c88f6508f468c2bddf0",
+    "Task/identification_trace.h": "f767d2145cc22111f80b0d24ff513c2151d8fefbff7272a92fd00cf0ea508654",
+    "Task/vofa_task.c": "a172b111871dd24b91987794f3fa49cb5f38a8e6fd288241dea1d8d0e597d9f6",
+    "Task/experiment5_error_summary.h": "7b788aebd3dfe733118a1d03103a1c412c93d81c45b07b91b3da6dfc463923a9",
+    "Task/experiment5_error_wave.h": "ea2d590bf55cd4e97fcc55d73c9dd8e71b7f5a485815f84baa510022e0abb40c"
+  },
+  "noFirmwareEdited": true,
+  "noFlashingOrSerialPerformed": true,
+  "manualRunsApproved": 1,
+  "modelsAccepted": false
+}

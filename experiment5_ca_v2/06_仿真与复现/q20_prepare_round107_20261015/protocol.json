@@ -1,0 +1,19 @@
+{
+ "status":"Offline preparation only; not flashed, no hardware run or batch release",
+ "authorization":"User selected20mm single stroke and confirmed preparation. User confirms >=22mm clear positive travel and >=4mm negative clearance, effective drive radius30mm verified. This is NOT fresh drive-off/on or ARM permission.",
+ "sourceBuild":68212,"newBuild":68312,"newSchema":4501,"stroke_mm":20,"load_g":0,"limits_counts":[1200,1200],
+ "timeline_ms":{"initialHold":4000,"forward":8000,"endHold":2000,"return":8000,"finalHold":6000,"total":28000},
+ "trajectory":"Same quintic shape. Stroke and duration doubled from archived10mm/4s timing, matching nominal peak speed, not a guarantee current plant can track.",
+ "nominalPeakSpeed_mm_s":4.6875,"nominalPeakRotorRPM":28.34947423824386,
+ "existingSpeedGuard":"10rpm taper onset,30rpm braking transition,120rpm hard stop retained. Peak demand is inside taper region; feasible tracking under1200 limits is NOT established.",
+ "travelEnvelope_m":{"minimum":-0.004,"maximum":0.022},
+ "travelEnvelopeChange":"Necessary NEW positive stroke envelope, explicitly expanded from old+4mm to+22mm; negative4mm retained. Not a general protection removal. User confirmed physical clearance; hardware state still requires action-time confirmation.",
+ "otherGuardsUnchanged":"Skew1.5mm, tracking>1mm for1000ms, finalorigin0.5mm, direction, CAN, temperature60C, battery23..30V, hardRPM120 and timing900/950/1000us unchanged. No gain/current increase or friction compensation.",
+ "startup":"Explicit PREPARE/ARM only, SET disabled, heartbeat abort, one run per boot. No boot autostart, fault clear or auto repeat.",
+ "recordingChange":"ABI3: moving4ms intervals store actual endpoint time, absolute16bit encoders and exact actual-us queued-command integrals. Holding40ms intervals same fields. Controller stays1ms. Intrablock1ms commands NOT reconstructible; future replay uses4ms block means with approximation disclosed. RawRPM remains in native40ms telemetry, not the packed intervals.",
+ "recordingCapacity":{"fastRecords":4020,"expectedFastRecords":4000,"slowRecords":304,"expectedSlowRecords":300,"blobBytes":69312,"chunks96bytes":722,"exportCopiesEachChunk":4,"stopMagic":4445},
+ "metricWindow":"Phase2..5, elapsed4..28s, native40ms600points. I53trackingRMSE_mm/I54syncRMS_mm only when uptime>=40s AND healthyphase6 AND complete valid statistics; before completion instantaneous errors.",
+ "testGate":"Offline trajectory/guard/logging/transport/summary/RAM/Keil checks first. Only then propose ONE onsite qualification. Mechanical sticking/failed2mm baseline remains unresolved; larger stroke is not a proven remedy.",
+ "dataPolicy":"New20mm regime and namespace. Preserve old2mm data/failedR106/old16-4batch allocation. No new20run batch or model-transfer claim.",
+ "hardwareAction":false,"firmwareFlashed":false,"physicalRuns":0
+}

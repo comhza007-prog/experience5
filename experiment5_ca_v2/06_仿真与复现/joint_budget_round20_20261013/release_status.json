@@ -1,0 +1,9 @@
+{
+  "released": false,
+  "reason": "Two new failures against R2 in the same 36 assumed-model cases (5 and 29); no mean performance benefit. Model is not hardware identified, but this candidate does not pass the predeclared release gate.",
+  "compilerWasSuccessful": true,
+  "arbitraryInputGuardsPassed": true,
+  "candidateCompileBlockedAfterRejection": true,
+  "doNotFlash": true,
+  "physicalRunRequested": false
+}

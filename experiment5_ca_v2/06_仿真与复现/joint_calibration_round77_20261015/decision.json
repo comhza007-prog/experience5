@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-15",
+  "fitResultsSHA256": "fe87d5dadff40df59278a6424c916e6e5bda91585c8bdc1093b180f362f739bc",
+  "fitBudget": {
+    "evaluations": 139,
+    "maximum": 180,
+    "iterations": 12
+  },
+  "trainingObjectiveReduction_percent": 4.393822701152191,
+  "waveformChanges": [
+    {
+      "record": "T1",
+      "nativeWaveformErrorChange_percent": {
+        "meanPositionPredictionRMSE_mm": 2.3402090420642008,
+        "syncPredictionRMSE_mm": -0.35002978662020956
+      }
+    },
+    {
+      "record": "Q2",
+      "nativeWaveformErrorChange_percent": {
+        "meanPositionPredictionRMSE_mm": -7.484402957309689,
+        "syncPredictionRMSE_mm": -1.8173036301456058
+      }
+    }
+  ],
+  "fittedInertiaEta": 0.9499999999999998,
+  "massEigenvalues": [
+    0.050000000000000155,
+    1.9499999999999997
+  ],
+  "reciprocalSpringAtNumericalLowerBound": false,
+  "physicalZeroSpringOrInertiaProven": false,
+  "decision": "Joint calibration is completed, not independent validation. Training objective decreases but record/metric tradeoffs remain, sync magnitude is still underpredicted, and eta reaches numericalupperbound0.95. Do not admit model or claim CAadvantage. Do not widen bounds/alter objective merely for favorablepaperresults. Preserve all predictions and fitting provenance.",
+  "nextOfflineStep": "Retain calibratedcandidate,limit applicability to training records, and address justified input/observation/structure information gaps before requesting independent validation. No further plant search or hardware trial automatically released.",
+  "bothT1AndNewQ2NowTraining": true,
+  "independentValidationDataAvailableForThisNewFit": false,
+  "favorableMethodRankingNotOptimizationObjective": true,
+  "modelClosureComplete": false,
+  "independentValidationPassed": false,
+  "Q2NotUntouchedHeldOut": true,
+  "S3R2DataRead": false,
+  "controlRawAndFirmwareUnchanged": true,
+  "newPhysicalRunReleased": false
+}

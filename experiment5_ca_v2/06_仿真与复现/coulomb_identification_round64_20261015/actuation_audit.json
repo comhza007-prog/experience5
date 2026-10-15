@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-15",
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run01.csv",
+  "sourceSHA256": "0b743a60e6edce1ea432c30ae54acaac4f96972ede9262022bfbd116e6c4aa3b",
+  "zeroCommandPreholdFeedback": {
+    "nativeSamples": 100,
+    "queuedCommandsExactlyZero": true,
+    "ESCFeedbackMean_rawCounts": [
+      -1.1,
+      4.19
+    ],
+    "ESCFeedbackStd_rawCounts": [
+      65.62888083763121,
+      58.21214563989204
+    ],
+    "ESCFeedbackRange_rawCounts": [
+      [
+        -137,
+        241
+      ],
+      [
+        -185,
+        217
+      ]
+    ],
+    "rawPositionRange_mm": [
+      0,
+      0
+    ],
+    "notAForceZeroCalibration": true
+  },
+  "alignedNative40msMovingSamples": 198,
+  "alignedEncoderAndRawRPMMatchFastRecordsExactlyWithinCSVPrecision": true,
+  "excludedFirstMotionBoundaryStepsWithNoExactHoldCommand": [
+    4000,
+    10000
+  ],
+  "fixedLagAssociations": [
+    {
+      "lagControlSteps": 0,
+      "nominalLag_ms": 0,
+      "samples": 198,
+      "axes": [
+        {
+          "axis": 0,
+          "correlation": 0.9614324687891956,
+          "associationSlope": 0.935961239633962,
+          "associationOffset_counts": 1.9727005136651128,
+          "residualRMS_counts": 70.40799267836339
+        },
+        {
+          "axis": 1,
+          "correlation": 0.9692561725641914,
+          "associationSlope": 0.9426156474579096,
+          "associationOffset_counts": -2.4715770839329334,
+          "residualRMS_counts": 73.20841986202343
+        }
+      ]
+    },
+    {
+      "lagControlSteps": 1,
+      "nominalLag_ms": 1,
+      "samples": 198,
+      "axes": [
+        {
+          "axis": 0,
+          "correlation": 0.9650734414147615,
+          "associationSlope": 0.9293946263050463,
+          "associationOffset_counts": 3.343880049816353,
+          "residualRMS_counts": 67.06433980700655
+        },
+        {
+          "axis": 1,
+          "correlation": 0.9741212629892622,
+          "associationSlope": 0.9438993417349202,
+          "associationOffset_counts": -3.1033368334741063,
+          "residualRMS_counts": 67.24955427318447
+        }
+      ]
+    },
+    {
+      "lagControlSteps": 2,
+      "nominalLag_ms": 2,
+      "samples": 198,
+      "axes": [
+        {
+          "axis": 0,
+          "correlation": 0.9614417371849433,
+          "associationSlope": 0.9139568174019002,
+          "associationOffset_counts": 2.1412276176948373,
+          "residualRMS_counts": 70.39969841556386
+        },
+        {
+          "axis": 1,
+          "correlation": 0.9763175178344206,
+          "associationSlope": 0.9415634071678406,
+          "associationOffset_counts": -2.5333794993141816,
+          "residualRMS_counts": 64.36843171987252
+        }
+      ]
+    },
+    {
+      "lagControlSteps": 5,
+      "nominalLag_ms": 5,
+      "samples": 198,
+      "axes": [
+        {
+          "axis": 0,
+          "correlation": 0.9423740583043294,
+          "associationSlope": 0.8714117399084829,
+          "associationOffset_counts": -1.4805223294399787,
+          "residualRMS_counts": 85.64456645192121
+        },
+        {
+          "axis": 1,
+          "correlation": 0.969384103655213,
+          "associationSlope": 0.9178137922709959,
+          "associationOffset_counts": 0.7424009645841899,
+          "residualRMS_counts": 73.05831675568068
+        }
+      ]
+    },
+    {
+      "lagControlSteps": 10,
+      "nominalLag_ms": 10,
+      "samples": 198,
+      "axes": [
+        {
+          "axis": 0,
+          "correlation": 0.9219024066660557,
+          "associationSlope": 0.8687398130861448,
+          "associationOffset_counts": -6.147873950680309,
+          "residualRMS_counts": 99.17651733757393
+        },
+        {
+          "axis": 1,
+          "correlation": 0.9488425213778764,
+          "associationSlope": 0.9020353769079951,
+          "associationOffset_counts": 10.393526368776362,
+          "residualRMS_counts": 93.94504907680495
+        }
+      ]
+    },
+    {
+      "lagControlSteps": 20,
+      "nominalLag_ms": 20,
+      "samples": 198,
+      "axes": [
+        {
+          "axis": 0,
+          "correlation": 0.8240221402410175,
+          "associationSlope": 0.7524583515537742,
+          "associationOffset_counts": -12.597716684199925,
+          "residualRMS_counts": 145.03353466435817
+        },
+        {
+          "axis": 1,
+          "correlation": 0.874127853731561,
+          "associationSlope": 0.821047719449012,
+          "associationOffset_counts": 19.393668097065657,
+          "residualRMS_counts": 144.5091627649569
+        }
+      ]
+    }
+  ],
+  "lagsNotCertifiedActuatorDelay": true,
+  "noLagSelectedToRetuneMechanicalModel": true,
+  "feedbackCurrentNotCalibratedForce": true,
+  "measurementEndpointSamplesNotFull1msCurrentWaveform": true,
+  "holdingFailureDiagnostic": [
+    {
+      "phase": 3,
+      "bothUnchangedEndpointRows": 38,
+      "fittedCoulombThreshold_normalized": [
+        0,
+        0.0047445497550289645
+      ],
+      "meanInputBalanceRequiredThresholdMedian_normalized": [
+        0.22597669368669704,
+        0.22757449331741347
+      ],
+      "meanInputBalanceRequiredThresholdMaximum_normalized": [
+        0.5247383081344227,
+        0.5256598558531612
+      ],
+      "springAccelerationMedianMagnitude_normalized": [
+        0.22655493645030803,
+        0.22655493645030803
+      ],
+      "commandAccelerationMedianMagnitude_normalized": [
+        0.0006009818034976478,
+        0.0014274446022543006
+      ],
+      "appliesOnlyToUnvalidatedFittedHypothesis": true,
+      "notPhysicalForceOrActualStaticFriction": true
+    },
+    {
+      "phase": 5,
+      "bothUnchangedEndpointRows": 123,
+      "fittedCoulombThreshold_normalized": [
+        0,
+        0.0047445497550289645
+      ],
+      "meanInputBalanceRequiredThresholdMedian_normalized": [
+        0.055396164439104514,
+        0.05606803033077794
+      ],
+      "meanInputBalanceRequiredThresholdMaximum_normalized": [
+        0.19406199765855014,
+        0.19887133749931485
+      ],
+      "springAccelerationMedianMagnitude_normalized": [
+        0.056638734112576944,
+        0.056638734112576944
+      ],
+      "commandAccelerationMedianMagnitude_normalized": [
+        0.0007674683815427973,
+        0.0008009445089143352
+      ],
+      "appliesOnlyToUnvalidatedFittedHypothesis": true,
+      "notPhysicalForceOrActualStaticFriction": true
+    }
+  ],
+  "fittedSpringDampingLargeAndLeftCoulombZero": true,
+  "mechanicalStructureOrActuationMappingMismatchNotSoleCauseIdentified": true,
+  "modelRefitted": false,
+  "controllerChanged": false,
+  "newPhysicalCaptureReleased": false,
+  "recommendation": "Do not declare instantqueuedcommand=deliveredforce or a fittedcouplingvalue as physicalidentification. Existingmovingtrainingresponse errors are alreadylarge before holdabstraction,so merely fillingholdinput cannotbeclaimed tofix thiscandidate. Do notstart independentphysicalvalidation ofthisfailedmechanicalcandidate; nextdefineactuator/transmissionmemoryhypothesis and its necessaryobservations before anotherfit."
+}

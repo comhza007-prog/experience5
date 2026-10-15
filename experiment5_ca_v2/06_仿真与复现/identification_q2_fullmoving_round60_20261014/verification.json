@@ -1,0 +1,38 @@
+{
+  "created": "2026-10-14",
+  "checked": "2026-10-15",
+  "build": 68011,
+  "schema": 4498,
+  "magic": 4443,
+  "project": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\模型闭环_高采样率准入Q2_20261014\\eassy_E5ID_Q2M_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+  "target": "exp5ID_Q2M_BLNN_HW6",
+  "hex": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\模型闭环_高采样率准入Q2_20261014\\eassy_E5ID_Q2M_BLNN_HW6\\MDK-ARM\\exp5ID_Q2M_BLNN_HW6\\exp5ID_Q2M_BLNN_HW6.hex",
+  "hexSHA256": "794ea9e30b8c6c4bd2ae8a9baf16d53f9b7a6e69724be0905d08c4683a59c34f",
+  "unchangedSourceFiles": 185,
+  "motorTaskExceptCommentExact": true,
+  "controlAndProtectionUnchanged": true,
+  "compileErrors": 0,
+  "compileWarnings": 0,
+  "ARMTraceBytes": 71032,
+  "RAM": {
+    "used": 106032,
+    "max": 114688,
+    "remaining": 8656
+  },
+  "blobBytes": 70944,
+  "chunks": 739,
+  "exportFrames": 2956,
+  "checks": [
+    "PASS ABI/blob70944/trace71032 full20000intervals moving8000 hold300 exception4 packing100000 words65536 chunks2956 guards preserved; no hardware",
+    "PASS independent decoder:8000 exact moving rows,300exact integral holds;4copies/loss recovery;active gaps/CRC/duplicate/version/identity/tail checks; no hardware",
+    "PASS old zero/65408 delimiter; all65536 split-range words exact includingCSV6decimals, all encoded pairs and zero boundaries delimiter-free"
+  ],
+  "AXF_HEX_ByteExact": true,
+  "manualQualificationUserApproved": true,
+  "releaseOnlyOneZeroExcitationRun": true,
+  "assistantFlashed": false,
+  "assistantMotorRun": false,
+  "onBoardTimingQualified": false,
+  "modelIdentified": false,
+  "paperModelClosureComplete": false
+}

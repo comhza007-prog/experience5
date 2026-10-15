@@ -1,0 +1,136 @@
+{
+  "protocolSHA256": "edf05e585823bdc87279137db145b8b97c12a941570f880c5b05ffc09097baf7",
+  "records": [
+    {
+      "slot": 1,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run01.csv",
+      "status": "faulted_attempt_preserved_not_qualified",
+      "sourceSHA256": "b7985052b496d07d33b5d46c73409deeef59bb020268d63b4486eee23cfae787",
+      "fault": 1024,
+      "completeFaultSnapshotCRCVerified": true,
+      "usedForTraining": false
+    },
+    {
+      "slot": 2,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run02.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 3,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run03.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 4,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run04.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 5,
+      "role": "heldout",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run05.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 6,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run06.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 7,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run07.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 8,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run08.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 9,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run09.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 10,
+      "role": "heldout",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run10.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 11,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run11.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 12,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run12.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 13,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run13.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 14,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run14.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 15,
+      "role": "heldout",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run15.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 16,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run16.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 17,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run17.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 18,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run18.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 19,
+      "role": "training",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run19.csv",
+      "status": "not_collected"
+    },
+    {
+      "slot": 20,
+      "role": "heldout",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run20.csv",
+      "status": "not_collected"
+    }
+  ],
+  "completed": 0,
+  "attempted": 1,
+  "batchHalted": true,
+  "haltReason": "First attempt tracking fault1024, onsite almost no motion. Drive disconnected confirmed; no reset or retry. Failure retained, no slot reassignment.",
+  "faultSummarySHA256": "9cebd13d6bea7b7880757352c5564f41f9028f571018e685985143a61c63a8be",
+  "firmwareFlashed": true,
+  "modelRetrained": false
+}

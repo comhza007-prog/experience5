@@ -1,0 +1,192 @@
+{
+  "file": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_反馈辨识_20261014\\E5MODEL_A_S3R2_B67512_HW6_MODEL10_L1200_R1200_M0g_S2mm_run01.csv",
+  "sha256": "2804eb9c2a605a03fa73f5bf46c2d8c30d973af97a90bf8c565031cd905e87ec",
+  "method": "S3R2",
+  "build": 67512,
+  "schema": 4484,
+  "rows": 4663,
+  "missingTelemetryFrames": 0,
+  "fault": 0,
+  "controllerSteps": 20000,
+  "motion": {
+    "n": 400,
+    "trackingRMSE_mm": 0.1456333328475013,
+    "syncRMS_mm": 0.05192572868556011,
+    "maxSync_mm": 0.27248344849795103
+  },
+  "phases": [
+    {
+      "phase": 2,
+      "n": 100,
+      "trackingRMSE_mm": 0.1999003771560987,
+      "syncRMS_mm": 0.069369931519121,
+      "maxSync_mm": 0.2022433327510953
+    },
+    {
+      "phase": 3,
+      "n": 50,
+      "trackingRMSE_mm": 0.0288524545802308,
+      "syncRMS_mm": 0.0021254194108203195,
+      "maxSync_mm": 0.004844041541218758
+    },
+    {
+      "phase": 4,
+      "n": 100,
+      "trackingRMSE_mm": 0.21084101651814147,
+      "syncRMS_mm": 0.07708041813484005,
+      "maxSync_mm": 0.27248344849795103
+    },
+    {
+      "phase": 5,
+      "n": 150,
+      "trackingRMSE_mm": 0.0019905516619873366,
+      "syncRMS_mm": 0.0044187656994803415,
+      "maxSync_mm": 0.010899336984948604
+    }
+  ],
+  "modelRecords": 2001,
+  "modelCopies": 4002,
+  "modelInterval_ms": [
+    10,
+    10
+  ],
+  "modelDuration_ms": 20000,
+  "retainedAfterCompletion_s": 5,
+  "corePeak_us": 165.14285278320312,
+  "bodyPeak_us": 269.5178527832031,
+  "stackRemaining_bytes": 1904,
+  "late": 0,
+  "overruns": 0,
+  "voltageRange": [
+    23.96471405029297,
+    24.528718948364258
+  ],
+  "encoderRPMIntegrationResidualRMS_mm": [
+    0.003686755682176771,
+    0.003610273864703725
+  ],
+  "commandFeedbackCorrelation": [
+    [
+      {
+        "lagSamples": 0,
+        "nominalLag_ms": 0,
+        "correlation": 0.9065738772001163
+      },
+      {
+        "lagSamples": 1,
+        "nominalLag_ms": 10,
+        "correlation": 0.8938421158647519
+      },
+      {
+        "lagSamples": 2,
+        "nominalLag_ms": 20,
+        "correlation": 0.8335360931532069
+      },
+      {
+        "lagSamples": 3,
+        "nominalLag_ms": 30,
+        "correlation": 0.8294676544438362
+      },
+      {
+        "lagSamples": 4,
+        "nominalLag_ms": 40,
+        "correlation": 0.8211341971120328
+      },
+      {
+        "lagSamples": 5,
+        "nominalLag_ms": 50,
+        "correlation": 0.804986654735676
+      },
+      {
+        "lagSamples": 6,
+        "nominalLag_ms": 60,
+        "correlation": 0.7954969294661076
+      },
+      {
+        "lagSamples": 7,
+        "nominalLag_ms": 70,
+        "correlation": 0.7808302050306503
+      },
+      {
+        "lagSamples": 8,
+        "nominalLag_ms": 80,
+        "correlation": 0.7779208276486959
+      },
+      {
+        "lagSamples": 9,
+        "nominalLag_ms": 90,
+        "correlation": 0.7707526795098334
+      },
+      {
+        "lagSamples": 10,
+        "nominalLag_ms": 100,
+        "correlation": 0.7544645744315344
+      }
+    ],
+    [
+      {
+        "lagSamples": 0,
+        "nominalLag_ms": 0,
+        "correlation": 0.9173731648980549
+      },
+      {
+        "lagSamples": 1,
+        "nominalLag_ms": 10,
+        "correlation": 0.9080750716334384
+      },
+      {
+        "lagSamples": 2,
+        "nominalLag_ms": 20,
+        "correlation": 0.8623136443388051
+      },
+      {
+        "lagSamples": 3,
+        "nominalLag_ms": 30,
+        "correlation": 0.8430852796827449
+      },
+      {
+        "lagSamples": 4,
+        "nominalLag_ms": 40,
+        "correlation": 0.8257299601272878
+      },
+      {
+        "lagSamples": 5,
+        "nominalLag_ms": 50,
+        "correlation": 0.807152397039379
+      },
+      {
+        "lagSamples": 6,
+        "nominalLag_ms": 60,
+        "correlation": 0.7971847966735853
+      },
+      {
+        "lagSamples": 7,
+        "nominalLag_ms": 70,
+        "correlation": 0.7870260450455058
+      },
+      {
+        "lagSamples": 8,
+        "nominalLag_ms": 80,
+        "correlation": 0.7753230414657252
+      },
+      {
+        "lagSamples": 9,
+        "nominalLag_ms": 90,
+        "correlation": 0.7670048971443632
+      },
+      {
+        "lagSamples": 10,
+        "nominalLag_ms": 100,
+        "correlation": 0.7547851819232408
+      }
+    ]
+  ],
+  "configuredKinematics": {
+    "metersPerCount": 0.0000012110374427720672,
+    "metersPerSecondPerRPM": 0.00016534697885314624
+  },
+  "interpretation": "Diagnostic encoder/RPM/current consistency only. Positions are inferred from motor encoders using configured rigid-transmission kinematics, not independent linear-displacement measurements.10ms decimation does not recover every1ms controller state. Closed-loop identification and model adequacy still require independent prediction checks.",
+  "dataValid": true,
+  "formalEfficacyEvidence": false,
+  "modelIdentified": false
+}

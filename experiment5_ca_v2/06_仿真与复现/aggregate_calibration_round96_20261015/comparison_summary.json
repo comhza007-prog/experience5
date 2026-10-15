@@ -1,0 +1,205 @@
+{
+  "status": "Offline diagnosis and bounded RMS-only recalibration complete; no accepted model and no new physical trial",
+  "diagnosisSHA256": "ea4137b8453f579c86b49bc318930be08506d71efd117ece908084cae6813cbe",
+  "priorM1Run01ShareOfSquaredCalibrationLoss_percent": 66.47795555413663,
+  "run08ControlledAblations": [
+    {
+      "case": "R90_original",
+      "rolloutValid": true,
+      "record": "Q2_run08",
+      "actualTrackingRMSE_mm": 0.1345322568196936,
+      "actualSyncRMS_mm": 0.047072842489061566,
+      "predictedTrackingRMSE_mm": 0.20841203480125617,
+      "predictedSyncRMS_mm": 0.039372261809553194,
+      "trackingDifference_percent": 54.916032576915484,
+      "syncDifference_percent": -16.35886059206596,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.16500709075673084,
+        0.17326060573598373
+      ]
+    },
+    {
+      "case": "R90_drive_only",
+      "rolloutValid": true,
+      "record": "Q2_run08",
+      "actualTrackingRMSE_mm": 0.1345322568196936,
+      "actualSyncRMS_mm": 0.047072842489061566,
+      "predictedTrackingRMSE_mm": 0.20664380585926112,
+      "predictedSyncRMS_mm": 0.03935301767336274,
+      "trackingDifference_percent": 53.601679436787244,
+      "syncDifference_percent": -16.399742202720613,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.1600142571772903,
+        0.16838108563612478
+      ]
+    },
+    {
+      "case": "R93_no_lag_same_DC_gain",
+      "rolloutValid": true,
+      "record": "Q2_run08",
+      "actualTrackingRMSE_mm": 0.1345322568196936,
+      "actualSyncRMS_mm": 0.047072842489061566,
+      "predictedTrackingRMSE_mm": 0.17473374924438612,
+      "predictedSyncRMS_mm": 0.03501774550138828,
+      "trackingDifference_percent": 29.882418815416443,
+      "syncDifference_percent": -25.60945196898734,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.15296365581405277,
+        0.15367190699669211
+      ]
+    },
+    {
+      "case": "R93_motor",
+      "rolloutValid": true,
+      "record": "Q2_run08",
+      "actualTrackingRMSE_mm": 0.1345322568196936,
+      "actualSyncRMS_mm": 0.047072842489061566,
+      "predictedTrackingRMSE_mm": 0.18293855013364463,
+      "predictedSyncRMS_mm": 0.03492824788047633,
+      "trackingDifference_percent": 35.981179873335044,
+      "syncDifference_percent": -25.799577774397843,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.158662298609342,
+        0.15816132586697673
+      ]
+    },
+    {
+      "case": "R93_no_extra_static",
+      "rolloutValid": true,
+      "record": "Q2_run08",
+      "actualTrackingRMSE_mm": 0.1345322568196936,
+      "actualSyncRMS_mm": 0.047072842489061566,
+      "predictedTrackingRMSE_mm": 0.15952780713718848,
+      "predictedSyncRMS_mm": 0.03579029197980926,
+      "trackingDifference_percent": 18.579596379621478,
+      "syncDifference_percent": -23.968279612334985,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.13701378580274323,
+        0.14874592431391187
+      ]
+    },
+    {
+      "case": "R93_half_extra_static",
+      "rolloutValid": true,
+      "record": "Q2_run08",
+      "actualTrackingRMSE_mm": 0.1345322568196936,
+      "actualSyncRMS_mm": 0.047072842489061566,
+      "predictedTrackingRMSE_mm": 0.16571825299284323,
+      "predictedSyncRMS_mm": 0.035599403084883324,
+      "trackingDifference_percent": 23.181054797100863,
+      "syncDifference_percent": -24.373797709038612,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.1409234810100857,
+        0.150499144515841
+      ]
+    }
+  ],
+  "run08HoldDiagnostics": [
+    {
+      "case": "R93_motor",
+      "phase": 5,
+      "samples": 150,
+      "actualTrackingRMSE_mm": 0.024119597840760114,
+      "predictedTrackingRMSE_mm": 0.1730957875474348,
+      "actualSyncRMS_mm": 0.04248866515515246,
+      "predictedSyncRMS_mm": 0.004152910625894404,
+      "trackingSSEFraction": 0.3357328214335745,
+      "commonPositionBias_mm": 0.19118666666666667
+    }
+  ],
+  "inference": "Drive block alone does not repair errors; static-extra removal helps run08 tracking but worsens old-group average and does not repair sync. Current static coupling/friction representation needs further discrimination; no unique physical fault proven.",
+  "calibrationObjective": "User requested final tracking/sync RMS only. Removed waveform objective, retained all13 records, used equal-record Huber loss and bounded shared11 parameters. No outputs rescaled.",
+  "calibration": [
+    {
+      "scheme": "no_motor_shared11",
+      "initialLoss": 8.049980085412393,
+      "finalLoss": 7.367240200066101,
+      "both15percentPassCount": 5,
+      "totalRecords": 13,
+      "run08": {
+        "record": "Q2_run08",
+        "actualTrackingRMSE_mm": 0.1345322568196936,
+        "actualSyncRMS_mm": 0.047072842489061566,
+        "predictedTrackingRMSE_mm": 0.1748522787240704,
+        "predictedSyncRMS_mm": 0.04192931552028962,
+        "trackingDifference_percent": 29.97052369263049,
+        "syncDifference_percent": -10.926739701277144,
+        "bothWithin15Percent": false,
+        "nativePositionRMSE_mm": [
+          0.14547446511329745,
+          0.151617825469171
+        ]
+      }
+    },
+    {
+      "scheme": "motor_shared11",
+      "initialLoss": 8.449884692950626,
+      "finalLoss": 7.73892702242021,
+      "both15percentPassCount": 4,
+      "totalRecords": 13,
+      "run08": {
+        "record": "Q2_run08",
+        "actualTrackingRMSE_mm": 0.1345322568196936,
+        "actualSyncRMS_mm": 0.047072842489061566,
+        "predictedTrackingRMSE_mm": 0.18006941022838946,
+        "predictedSyncRMS_mm": 0.03989573912086353,
+        "trackingDifference_percent": 33.84850182787527,
+        "syncDifference_percent": -15.246802590826757,
+        "bothWithin15Percent": false,
+        "nativePositionRMSE_mm": [
+          0.14405992676660645,
+          0.1497521953094512
+        ]
+      }
+    }
+  ],
+  "models": [
+    {
+      "scheme": "no_motor_shared11",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\aggregate_calibration_round96_20261015\\model_parameters_no_motor.json",
+      "sha256": "2d66275627876b0e229abcbbf096d821a8960eff5f9e42b941c9a4b12ebf1db6"
+    },
+    {
+      "scheme": "motor_shared11",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\aggregate_calibration_round96_20261015\\model_parameters_motor.json",
+      "sha256": "566272cfd29e22b75a905a27c26d8f4c499c95e73a54d42fd98c23e7e3f68fdb"
+    }
+  ],
+  "numericalVerification": {
+    "passed": true,
+    "checks": [
+      {
+        "scheme": "no_motor_shared11",
+        "all13AggregateSummariesReproduced": true,
+        "nativeStepwiseSteps": 20000,
+        "independentPythonSteps": 500,
+        "maxMetricDifference_mm": 0.0,
+        "maxStepwisePositionDifference_m": 0.0,
+        "maxIndependentStateDifference": 2.6020852139652106e-18
+      },
+      {
+        "scheme": "motor_shared11",
+        "all13AggregateSummariesReproduced": true,
+        "nativeStepwiseSteps": 20000,
+        "independentPythonSteps": 500,
+        "maxMetricDifference_mm": 0.0,
+        "maxStepwisePositionDifference_m": 0.0,
+        "maxIndependentStateDifference": 1.5178830414797062e-18
+      }
+    ]
+  },
+  "currentRecordsNowCalibrationIncludingRun08": true,
+  "priorProspectiveFailuresPreserved": true,
+  "physicalModelValidated": false,
+  "newPhysicalRunReleased": false,
+  "firmwareChanged": false,
+  "assistantHardwareAction": false,
+  "stoppingRule": "Bounded calibration budget exhausted; do not expand parameter search or request identical trials automatically.",
+  "nextStep": "Review model structure for low-speed sticking and finite differential hold offset (e.g. testable coupling dead-zone hypothesis), with an identifiable shared law and controlled ablation, before implementation. No ad hoc final-output offset/scale. Existing drive block remains tentative."
+}

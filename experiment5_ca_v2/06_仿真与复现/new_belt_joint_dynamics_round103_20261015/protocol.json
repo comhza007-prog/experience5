@@ -1,0 +1,52 @@
+{
+  "status": "Declared before new-belt joint dynamics calibration",
+  "authorization": "User requests continuing model improvement and confirms same belt specifications/pulleys/ratio, tighter tension. Keep encoder conversion unchanged.",
+  "sources": [
+    {
+      "name": "new_belt_run010",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+      "rawSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_r96_frozen_check_round97_20261015\\capture_analysis.json",
+      "decodedSHA256": "7d2e50b8382219adf1b8d2252e02ce110a0edb6e8d4f00c4df266952ed2abffd"
+    },
+    {
+      "name": "new_belt_run011",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run011.csv",
+      "rawSHA256": "e7e38ee5980fca58f656ac36ffe52d37b505909b4dee49e53acba25dbd306173",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_frozen_check_round99_20261015\\capture_analysis.json",
+      "decodedSHA256": "6022ce98f46a4b09be546bfb8668a70e0ef5e4a7066ac303cb5d571019d41460"
+    }
+  ],
+  "modelStructure": "R100 elastic-slider memory unchanged. No common-centering or speed-weakening terms adopted because bounded tests did not improve fixed-base fit.",
+  "rationale": "Earlier memory fit inherited most kinetic/inertial coefficients from nominal old-regime model. Reidentify them jointly using new-regime time-resolved responses; nominal coefficients are starting values, not assumed truth.",
+  "parameters": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "preSlidingStiffnessL",
+    "preSlidingStiffnessR",
+    "sharedYieldForce"
+  ],
+  "parameterization": "Positive parameters=initial*exp(x). eta=initialEta+0.1*xEta, bounded[-0.95,0.95].",
+  "factorBounds": [
+    0.05,
+    20.0
+  ],
+  "rightDampingFactorUpperBound": 1000,
+  "calibrationObjective": "Equal-record time-weighted mean-position and differential-position residuals scaled0.05mm each, plus final tracking/sync RMS relative residuals scaled0.15. Tiny1e-3 normalized-coordinate regularizer. Full snapshots used for identification, not a waveform acceptance gate.",
+  "acceptance": "Only final aggregate trackingRMSE and syncRMS relative error both<=15percent for both calibration records; future independent capture required.",
+  "initialization": "Zero positions/velocities/unstrained memory once. Recorded inputs only. No per-run offsets/scales, desired-trajectory force or measured-state/current injection.",
+  "search": "Three declared bounded Nelder-Mead seeds, each<=1800evaluations/1250iterations. Seed0R100,seed1eta0,seed2doublekineticfriction. No additional seeds or bound widening this round.",
+  "inputLimitations": "Moving1ms commands known; holding40ms command integrals represented by means. Parameter nonuniqueness remains possible under closed-loop inputs and only two trajectories.",
+  "bothRecordsDevelopment": true,
+  "oldRecordsInObjective": 0,
+  "independentValidationRequired": true,
+  "firmwareChanged": false,
+  "assistantHardwareAction": false
+}

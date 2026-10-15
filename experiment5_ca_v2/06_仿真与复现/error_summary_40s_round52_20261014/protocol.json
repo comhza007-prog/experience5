@@ -1,0 +1,18 @@
+{
+  "authorization": "User requested the same tracking/synchronization summary display at40seconds rather than100seconds. Display threshold only; no motor-control/parameter/guard change.",
+  "codeRoot": "05_实验代码/误差汇总40s_A_BLNN_S3R2_20261014",
+  "dataRoot": "01_原始数据/误差汇总40s_A_BLNN_S3R2_20261014",
+  "previousVerification": "06_仿真与复现/error_summary_display_round51_20261014/verification.json",
+  "priorPairAnalysis": "06_仿真与复现/error_wave_preview_round49_20261014/pair01_analysis.json",
+  "methods": {
+    "BLNN": {"build":67931,"schema":4496,"previousBuild":67921,"previousSchema":4494,"methodID":11,"project":"00_BLNN/eassy_E5F2_A_BLNN_HW6/MDK-ARM/eassy.uvprojx","target":"exp5F2_A_BLNN_HW6_F5_EVENT40","subfolder":"00_BLNN","eventMagic":4422,"filename":"E5S40_A_BLNN_B67931_HW6_L1200_R1200_M0g_S2mm_pair01_attempt01.csv"},
+    "S3R2": {"build":67932,"schema":4497,"previousBuild":67922,"previousSchema":4495,"methodID":12,"project":"01_R2/eassy_E5R2_A_S3R2_HW6/MDK-ARM/eassy.uvprojx","target":"exp5R2_A_S3R2_HW6_EVENT48","subfolder":"01_S3R2","eventMagic":4424,"filename":"E5S40_A_S3R2_B67932_HW6_L1200_R1200_M0g_S2mm_pair01_attempt01.csv"}
+  },
+  "behavior": "BeforeI0=40s,or while a healthy run has not reachedphase6,keep instantaneous signedI53tracking/I54sync errors_mm. OnceI0>=40s ANDphase6,display fixed I53trackingRMSE/I54syncRMS_mm if valid;fault/invalid completed summary=-1/-1. Delayed runs are not cut short or given partial RMS. Each boot computes its own result.",
+  "statisticsUnchanged": "Native40ms phase2..5 ANDI106=1 completedUARTTC samples,399..401/allphases/fullspan/20000coresteps. Same six-decimal-metreCSV I3/I5/I6 rounding definition. TX/sequence/fault checks and sums unchanged fromround51. Not40seconds of waiting data and not1ms core RMS.",
+  "unchanged": "All motor/core/guards/gains/reference/limits/weights/learning,UART task hooks and accumulation functions,107channels/432bytes/40ms/115200,event/fault payloads. Only summary display time/phase gate and build/schema identity differ. Old sources/raw data are preserved.",
+  "displayNotExportCompletion": "Summary can be read at40s afterphase6,but event replay still takes longer. Full CSV export continues until correctI88magic/I89=4,then>=10seconds. Do not stop capture just because I53/I54 became summary values. No fixed100second minimum is needed if completion+10seconds are met; metadata completion is mandatory.",
+  "manualScope": "At most one manually operated display preview per method,empty0g2mm/1200-1200HW6. Driveoff while flashing,onsite operator/emergency stop,clear secured platform. ReceiveVOFA before freshpower/reset. No assistant flashing/start,no automatic repetitions or batch revival.",
+  "tests": "Prior unit/RMS/decimal/TC error fixtures plus39.999/40 boundary,late-motion-after40phase6 gate,and both old CSV native replays with first summary time and unchanged numerical results. Exact source-difference checks and fresh ARM rebuilds0errors0warnings.",
+  "newBoardTimingVerified":false,"algorithmChanged":false,"tenRunBatchReleased":false,"V1Released":false
+}

@@ -1,0 +1,38 @@
+{
+  "build": 66812,
+  "schema": 4477,
+  "project": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\在线调参_通信准入_20261013\\eassy_E5OL_A_NO_DRIVE\\MDK-ARM\\eassy.uvprojx",
+  "target": "exp5OL_A_NO_DRIVE_PROTOCOL",
+  "hex": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\在线调参_通信准入_20261013\\eassy_E5OL_A_NO_DRIVE\\MDK-ARM\\exp5OL_A_NO_DRIVE_PROTOCOL\\exp5OL_A_NO_DRIVE_PROTOCOL.hex",
+  "hexSHA256": "100cd1f6549bd1417c95e0dae5fc464025633bae0ab26ea0729337fe3c59733f",
+  "axfSHA256": "6099596d84ca6a291081227ea3f50afa6b02e96cc9e5fa32f60883e59391324d",
+  "errors": 0,
+  "warnings": 0,
+  "hexChecksumsAndFlashRangePassed": true,
+  "programBytes": {
+    "code": 24232,
+    "ro": 748,
+    "rw": 236,
+    "zi": 67772
+  },
+  "hostChecksPassed": true,
+  "defaultExactlyR2": true,
+  "motionEnabled": false,
+  "noMotorCoreCallInLinkedQualificationBinary": true,
+  "canCallSitesReviewed": 4,
+  "powerShellOfflineTests": "PASS PowerShell syntax,CRC-CCITT,packet endianness,107-channel decode,NaN rejection; no hardware opened",
+  "wrongFirmwareReadOnlyRefusalVerified": true,
+  "sources": {
+    "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\在线调参_通信准入_20261013\\eassy_E5OL_A_NO_DRIVE\\Task\\blnn_core.c": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+    "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\在线调参_通信准入_20261013\\eassy_E5OL_A_NO_DRIVE\\Task\\online_uart.c": "e59adc4197ec6d5b26e26872c9c38fe044961863ca9fba2d7c66b861a428884f",
+    "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\在线调参_通信准入_20261013\\eassy_E5OL_A_NO_DRIVE\\Task\\online_uart.h": "1204586a64ea7b657c96bb1ad31819553f023f75d50fa5794bdcb0ade847da9f",
+    "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\在线调参_通信准入_20261013\\eassy_E5OL_A_NO_DRIVE\\Task\\online_protocol.h": "2aba92746df735ddf411955b2d5a3e24ecce151536816d9c79e67b458bda4bca",
+    "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\在线调参_通信准入_20261013\\eassy_E5OL_A_NO_DRIVE\\Task\\motor_task.c": "dc01f32793856a1f41c59077abd017b6f6734b9e54a53d8049cb93d3b98ab6eb",
+    "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\在线调参_通信准入_20261013\\eassy_E5OL_A_NO_DRIVE\\Task\\vofa_task.c": "f83c9b868219e31176863eb7d7fc161988535717e70a2a1ea12761bd8626bcd5",
+    "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\在线调参_通信准入_20261013\\eassy_E5OL_A_NO_DRIVE\\Task\\experiment5_formal_config.h": "9125ff62e2debeec5cb72006b8f89d53a6a8befdeb99cf634b3b17ba1e4b9b5c"
+  },
+  "onBoardCommunicationVerified": false,
+  "onBoardTimingMeasured": false,
+  "flashed": false,
+  "physicalPerformanceProven": false
+}

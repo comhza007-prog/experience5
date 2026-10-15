@@ -1,0 +1,735 @@
+{
+  "protocolSHA256": "e71f604ddef159f229de0dfb2ba46555e923c337f03892807b75a2d9816e4927",
+  "sources": [
+    {
+      "id": "R33_S3R2",
+      "file": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_故障保留回放_20261014\\E5REPLAY2_A_S3R2_B67712_HW6_STATE360_L1200_R1200_M0g_S2mm_run01.csv",
+      "sha256": "cfcb63b82bd8a04d4d7d573b249514a62980690c5ae444eca783dbc475423f18",
+      "build": 67712,
+      "method": 12,
+      "rows": 5758,
+      "gaps": 0,
+      "motionRows": 400,
+      "limits": [
+        1200,
+        1200
+      ],
+      "sampledCommands": [
+        {
+          "peakAbs": 563,
+          "p95Abs": 474.2499999999998
+        },
+        {
+          "peakAbs": 649,
+          "p95Abs": 513.1999999999998
+        }
+      ],
+      "full1msNearHardEdgeCounts": [
+        0,
+        0
+      ],
+      "nearEdgeCounterScope": "Entire20s active control; NOT all clipping interventions",
+      "sampledSpeedIntervention_pct": 8.5,
+      "sampledCA": {
+        "maskBits_pct": [
+          {
+            "bit": 1,
+            "pct": 0.25
+          },
+          {
+            "bit": 2,
+            "pct": 57.25
+          },
+          {
+            "bit": 4,
+            "pct": 17
+          },
+          {
+            "bit": 8,
+            "pct": 8.5
+          },
+          {
+            "bit": 16,
+            "pct": 1.25
+          },
+          {
+            "bit": 32,
+            "pct": 0.75
+          }
+        ],
+        "reasonBits_pct": [
+          {
+            "bit": 1,
+            "pct": 31.75
+          },
+          {
+            "bit": 2,
+            "pct": 0
+          },
+          {
+            "bit": 4,
+            "pct": 25.75
+          }
+        ],
+        "nominalVsActualLearningDistinct": true
+      },
+      "hypotheticalExposure": [
+        {
+          "id": "A_REF",
+          "limits": [
+            1200,
+            1200
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "B_SYM1000",
+          "limits": [
+            1000,
+            1000
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "C_SYM800",
+          "limits": [
+            800,
+            800
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "D_R800",
+          "limits": [
+            1200,
+            800
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "D_L800_MIRROR",
+          "limits": [
+            800,
+            1200
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        }
+      ],
+      "batteryRange": [
+        23.13517189025879,
+        23.666812896728516
+      ],
+      "notFormalRepeatedComparison": true
+    },
+    {
+      "id": "R31_S3R2",
+      "file": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_反馈辨识_20261014\\E5MODEL_A_S3R2_B67512_HW6_MODEL10_L1200_R1200_M0g_S2mm_run01.csv",
+      "sha256": "2804eb9c2a605a03fa73f5bf46c2d8c30d973af97a90bf8c565031cd905e87ec",
+      "build": 67512,
+      "method": 12,
+      "rows": 4663,
+      "gaps": 0,
+      "motionRows": 400,
+      "limits": [
+        1200,
+        1200
+      ],
+      "sampledCommands": [
+        {
+          "peakAbs": 634,
+          "p95Abs": 445.14999999999986
+        },
+        {
+          "peakAbs": 706,
+          "p95Abs": 476.49999999999955
+        }
+      ],
+      "full1msNearHardEdgeCounts": [
+        0,
+        0
+      ],
+      "nearEdgeCounterScope": "Entire20s active control; NOT all clipping interventions",
+      "sampledSpeedIntervention_pct": 8.5,
+      "sampledCA": {
+        "maskBits_pct": [
+          {
+            "bit": 1,
+            "pct": 0
+          },
+          {
+            "bit": 2,
+            "pct": 35.75
+          },
+          {
+            "bit": 4,
+            "pct": 9.5
+          },
+          {
+            "bit": 8,
+            "pct": 8.5
+          },
+          {
+            "bit": 16,
+            "pct": 0.75
+          },
+          {
+            "bit": 32,
+            "pct": 0.25
+          }
+        ],
+        "reasonBits_pct": [
+          {
+            "bit": 1,
+            "pct": 18
+          },
+          {
+            "bit": 2,
+            "pct": 0
+          },
+          {
+            "bit": 4,
+            "pct": 17.75
+          }
+        ],
+        "nominalVsActualLearningDistinct": true
+      },
+      "hypotheticalExposure": [
+        {
+          "id": "A_REF",
+          "limits": [
+            1200,
+            1200
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "B_SYM1000",
+          "limits": [
+            1000,
+            1000
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "C_SYM800",
+          "limits": [
+            800,
+            800
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "D_R800",
+          "limits": [
+            1200,
+            800
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "D_L800_MIRROR",
+          "limits": [
+            800,
+            1200
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        }
+      ],
+      "batteryRange": [
+        23.96471405029297,
+        24.528718948364258
+      ],
+      "notFormalRepeatedComparison": true
+    },
+    {
+      "id": "R31_BLNN",
+      "file": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_反馈辨识_20261014\\E5MODEL_A_BLNN_B67511_HW6_MODEL10_L1200_R1200_M0g_S2mm_run01.csv",
+      "sha256": "7c7e29db5ec9e1e8d57c99c550bc3dfd7d4831ec570c0163ee04f71b209adb9c",
+      "build": 67511,
+      "method": 11,
+      "rows": 4663,
+      "gaps": 0,
+      "motionRows": 400,
+      "limits": [
+        1200,
+        1200
+      ],
+      "sampledCommands": [
+        {
+          "peakAbs": 643,
+          "p95Abs": 471.5499999999995
+        },
+        {
+          "peakAbs": 699,
+          "p95Abs": 487.1999999999998
+        }
+      ],
+      "full1msNearHardEdgeCounts": [
+        0,
+        0
+      ],
+      "nearEdgeCounterScope": "Entire20s active control; NOT all clipping interventions",
+      "sampledSpeedIntervention_pct": 6.75,
+      "sampledCA": null,
+      "hypotheticalExposure": [
+        {
+          "id": "A_REF",
+          "limits": [
+            1200,
+            1200
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "B_SYM1000",
+          "limits": [
+            1000,
+            1000
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "C_SYM800",
+          "limits": [
+            800,
+            800
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "D_R800",
+          "limits": [
+            1200,
+            800
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "D_L800_MIRROR",
+          "limits": [
+            800,
+            1200
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        }
+      ],
+      "batteryRange": [
+        24.00497817993164,
+        24.470247268676758
+      ],
+      "notFormalRepeatedComparison": true
+    },
+    {
+      "id": "R29_S3R2",
+      "file": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_受控S3R2_20261013\\E5SUP_A_S3R2_B67412_HW6_EVENT48_L1200_R1200_M0g_S2mm_run01.csv",
+      "sha256": "469932327edd21ea7443c20516d5ca94bf7859b687d6c2142ad4b7a131958dd6",
+      "build": 67412,
+      "method": 12,
+      "rows": 2196,
+      "gaps": 0,
+      "motionRows": 400,
+      "limits": [
+        1200,
+        1200
+      ],
+      "sampledCommands": [
+        {
+          "peakAbs": 604,
+          "p95Abs": 550
+        },
+        {
+          "peakAbs": 716,
+          "p95Abs": 465.0999999999999
+        }
+      ],
+      "full1msNearHardEdgeCounts": [
+        0,
+        0
+      ],
+      "nearEdgeCounterScope": "Entire20s active control; NOT all clipping interventions",
+      "sampledSpeedIntervention_pct": 6.25,
+      "sampledCA": {
+        "maskBits_pct": [
+          {
+            "bit": 1,
+            "pct": 33.5
+          },
+          {
+            "bit": 2,
+            "pct": 39.75
+          },
+          {
+            "bit": 4,
+            "pct": 9.75
+          },
+          {
+            "bit": 8,
+            "pct": 6.25
+          },
+          {
+            "bit": 16,
+            "pct": 0
+          },
+          {
+            "bit": 32,
+            "pct": 1
+          }
+        ],
+        "reasonBits_pct": [
+          {
+            "bit": 1,
+            "pct": 25
+          },
+          {
+            "bit": 2,
+            "pct": 0
+          },
+          {
+            "bit": 4,
+            "pct": 48.75
+          }
+        ],
+        "nominalVsActualLearningDistinct": true
+      },
+      "hypotheticalExposure": [
+        {
+          "id": "A_REF",
+          "limits": [
+            1200,
+            1200
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "B_SYM1000",
+          "limits": [
+            1000,
+            1000
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "C_SYM800",
+          "limits": [
+            800,
+            800
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "D_R800",
+          "limits": [
+            1200,
+            800
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "D_L800_MIRROR",
+          "limits": [
+            800,
+            1200
+          ],
+          "samples": 400,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        }
+      ],
+      "batteryRange": [
+        24.030672073364258,
+        24.57879066467285
+      ],
+      "notFormalRepeatedComparison": true
+    }
+  ],
+  "dense": [
+    {
+      "method": "S3R2",
+      "source": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_反馈辨识_20261014\\E5MODEL_A_S3R2_B67512_HW6_MODEL10_L1200_R1200_M0g_S2mm_run01.csv",
+      "sha256": "2804eb9c2a605a03fa73f5bf46c2d8c30d973af97a90bf8c565031cd905e87ec",
+      "samples": 1600,
+      "interval_ms": 10,
+      "sampledPeaksLowerBounds": [
+        639,
+        695
+      ],
+      "hypotheticalExposure": [
+        {
+          "id": "A_REF",
+          "limits": [
+            1200,
+            1200
+          ],
+          "samples": 1600,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "B_SYM1000",
+          "limits": [
+            1000,
+            1000
+          ],
+          "samples": 1600,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "C_SYM800",
+          "limits": [
+            800,
+            800
+          ],
+          "samples": 1600,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "D_R800",
+          "limits": [
+            1200,
+            800
+          ],
+          "samples": 1600,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "D_L800_MIRROR",
+          "limits": [
+            800,
+            1200
+          ],
+          "samples": 1600,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        }
+      ],
+      "notFull1msPeaks": true
+    },
+    {
+      "method": "BLNN",
+      "source": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_反馈辨识_20261014\\E5MODEL_A_BLNN_B67511_HW6_MODEL10_L1200_R1200_M0g_S2mm_run01.csv",
+      "sha256": "7c7e29db5ec9e1e8d57c99c550bc3dfd7d4831ec570c0163ee04f71b209adb9c",
+      "samples": 1600,
+      "interval_ms": 10,
+      "sampledPeaksLowerBounds": [
+        632,
+        718
+      ],
+      "hypotheticalExposure": [
+        {
+          "id": "A_REF",
+          "limits": [
+            1200,
+            1200
+          ],
+          "samples": 1600,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "B_SYM1000",
+          "limits": [
+            1000,
+            1000
+          ],
+          "samples": 1600,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "C_SYM800",
+          "limits": [
+            800,
+            800
+          ],
+          "samples": 1600,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "D_R800",
+          "limits": [
+            1200,
+            800
+          ],
+          "samples": 1600,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        },
+        {
+          "id": "D_L800_MIRROR",
+          "limits": [
+            800,
+            1200
+          ],
+          "samples": 1600,
+          "axisExceed_pct": [
+            0,
+            0
+          ],
+          "anyExceed_pct": 0,
+          "closedLoopCounterfactual": false
+        }
+      ],
+      "notFull1msPeaks": true
+    }
+  ],
+  "interpretation": "Only observed attempted-command exposure and sampled constraint diagnostics. No lower-limit closed-loop claim. No current-to-amp calibration. Do not select condition by candidate errors.",
+  "hardwareReleased": false
+}

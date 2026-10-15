@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {fileURLToPath} from 'node:url';
+import {decode,crc32} from './decode.mjs';
+const dir=path.dirname(fileURLToPath(import.meta.url));
+assert.equal(crc32(Buffer.from('123456789')),0xcbf43926);
+const rows=fs.readFileSync(path.join(dir,'synthetic_replay.csv'),'utf8').trim().split(/\r?\n/).slice(1).map(l=>l.split(',').map(Number));
+const decoded=decode(rows);assert.deepEqual(decoded.bytes,fs.readFileSync(path.join(dir,'synthetic_replay.bin')));
+assert.throws(()=>decode(rows.filter(r=>!(r[89]===3&&r[90]===100))));
+const broken=rows.map(r=>r.slice());broken.find(r=>r[89]===3)[96]^=1;assert.throws(()=>decode(broken));
+const coherentWrong=rows.map(r=>r.slice());for(const r of coherentWrong.filter(r=>r[89]===3&&r[90]===100))r[96]^=1;assert.throws(()=>decode(coherentWrong));
+assert.throws(()=>decode(rows.filter(r=>r[89]!==4)));
+console.log('PASS exact binary reconstruction;CRC known vector;missing copies/chunks, unequal copies, coherent corruption and missing completion all rejected;no hardware');

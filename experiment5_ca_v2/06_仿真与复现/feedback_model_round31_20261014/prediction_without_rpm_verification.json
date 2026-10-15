@@ -1,0 +1,893 @@
+{
+  "protocol": "predictive_without_rpm_protocol.json",
+  "lambda": 0.001,
+  "causalFeatures": true,
+  "noFutureFeatureLeakage": true,
+  "results": [
+    {
+      "train": "S3R2",
+      "test": "BLNN",
+      "input": "feedbackCurrentCounts",
+      "lag_ms": 0,
+      "conditionNumber": 2.9099742806618107,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.00663560942860017,
+            0.006493832873982089
+          ],
+          "persistence": [
+            0.009016156478314916,
+            0.0067060685819263265
+          ],
+          "constantVelocity": [
+            0.0076583158328028264,
+            0.008413551353386945
+          ],
+          "rawRPM": [
+            0.006735347318822578,
+            0.007487404146374662
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009315565397888489,
+            0.009163882072760652
+          ],
+          "persistence": [
+            0.012738022182852516,
+            0.009466666018135502
+          ],
+          "constantVelocity": [
+            0.010812791059041146,
+            0.011882369594660491
+          ],
+          "rawRPM": [
+            0.009505093066073177,
+            0.010570332058872459
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.6465026562461006,
+        0.022668110372096536
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "S3R2",
+      "test": "BLNN",
+      "input": "feedbackCurrentCounts",
+      "lag_ms": 10,
+      "conditionNumber": 2.740121443600381,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.006598493167474548,
+            0.006487704049577774
+          ],
+          "persistence": [
+            0.009016156478314916,
+            0.0067060685819263265
+          ],
+          "constantVelocity": [
+            0.0076583158328028264,
+            0.008413551353386945
+          ],
+          "rawRPM": [
+            0.006735347318822578,
+            0.007487404146374662
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009274354323518356,
+            0.009151535531169498
+          ],
+          "persistence": [
+            0.012738022182852516,
+            0.009466666018135502
+          ],
+          "constantVelocity": [
+            0.010812791059041146,
+            0.011882369594660491
+          ],
+          "rawRPM": [
+            0.009505093066073177,
+            0.010570332058872459
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.6393321710728352,
+        0.022697403969359313
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "S3R2",
+      "test": "BLNN",
+      "input": "feedbackCurrentCounts",
+      "lag_ms": 20,
+      "conditionNumber": 2.847776919793004,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.00674172551201011,
+            0.00647160033054114
+          ],
+          "persistence": [
+            0.009016156478314916,
+            0.0067060685819263265
+          ],
+          "constantVelocity": [
+            0.0076583158328028264,
+            0.008413551353386945
+          ],
+          "rawRPM": [
+            0.006735347318822578,
+            0.007487404146374662
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009482763931014555,
+            0.009110145768058206
+          ],
+          "persistence": [
+            0.012738022182852516,
+            0.009466666018135502
+          ],
+          "constantVelocity": [
+            0.010812791059041146,
+            0.011882369594660491
+          ],
+          "rawRPM": [
+            0.009505093066073177,
+            0.010570332058872459
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.698869218773344,
+        0.022919039709873742
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "S3R2",
+      "test": "BLNN",
+      "input": "feedbackCurrentCounts",
+      "lag_ms": 30,
+      "conditionNumber": 2.842388434330534,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.006699453409965922,
+            0.006492374078761904
+          ],
+          "persistence": [
+            0.009016156478314916,
+            0.0067060685819263265
+          ],
+          "constantVelocity": [
+            0.0076583158328028264,
+            0.008413551353386945
+          ],
+          "rawRPM": [
+            0.006735347318822578,
+            0.007487404146374662
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009417729043678246,
+            0.00916534919441134
+          ],
+          "persistence": [
+            0.012738022182852516,
+            0.009466666018135502
+          ],
+          "constantVelocity": [
+            0.010812791059041146,
+            0.011882369594660491
+          ],
+          "rawRPM": [
+            0.009505093066073177,
+            0.010570332058872459
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.6850241219357845,
+        0.023068258007481503
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "S3R2",
+      "test": "BLNN",
+      "input": "attemptedCommandCounts",
+      "lag_ms": 0,
+      "conditionNumber": 5.9924012165657174,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.006678916071097918,
+            0.006661517775197956
+          ],
+          "persistence": [
+            0.009016156478314916,
+            0.0067060685819263265
+          ],
+          "constantVelocity": [
+            0.0076583158328028264,
+            0.008413551353386945
+          ],
+          "rawRPM": [
+            0.006735347318822578,
+            0.007487404146374662
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009344304473855952,
+            0.009105728145619512
+          ],
+          "persistence": [
+            0.012738022182852516,
+            0.009466666018135502
+          ],
+          "constantVelocity": [
+            0.010812791059041146,
+            0.011882369594660491
+          ],
+          "rawRPM": [
+            0.009505093066073177,
+            0.010570332058872459
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.51748534427074,
+        0.021592765160059445
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "S3R2",
+      "test": "BLNN",
+      "input": "attemptedCommandCounts",
+      "lag_ms": 10,
+      "conditionNumber": 2.984470556356536,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.006571456495751687,
+            0.00643790345659573
+          ],
+          "persistence": [
+            0.009016156478314916,
+            0.0067060685819263265
+          ],
+          "constantVelocity": [
+            0.0076583158328028264,
+            0.008413551353386945
+          ],
+          "rawRPM": [
+            0.006735347318822578,
+            0.007487404146374662
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009199359507248978,
+            0.009076955278701598
+          ],
+          "persistence": [
+            0.012738022182852516,
+            0.009466666018135502
+          ],
+          "constantVelocity": [
+            0.010812791059041146,
+            0.011882369594660491
+          ],
+          "rawRPM": [
+            0.009505093066073177,
+            0.010570332058872459
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.6619836528709263,
+        0.030712911429853662
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "S3R2",
+      "test": "BLNN",
+      "input": "attemptedCommandCounts",
+      "lag_ms": 20,
+      "conditionNumber": 2.9118537345996605,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.00673627779239319,
+            0.006392844693294788
+          ],
+          "persistence": [
+            0.009016156478314916,
+            0.0067060685819263265
+          ],
+          "constantVelocity": [
+            0.0076583158328028264,
+            0.008413551353386945
+          ],
+          "rawRPM": [
+            0.006735347318822578,
+            0.007487404146374662
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009499729517679032,
+            0.008890831222561676
+          ],
+          "persistence": [
+            0.012738022182852516,
+            0.009466666018135502
+          ],
+          "constantVelocity": [
+            0.010812791059041146,
+            0.011882369594660491
+          ],
+          "rawRPM": [
+            0.009505093066073177,
+            0.010570332058872459
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.6699397841279895,
+        0.021504950419050876
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "S3R2",
+      "test": "BLNN",
+      "input": "attemptedCommandCounts",
+      "lag_ms": 30,
+      "conditionNumber": 2.938105187579045,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.006714657410537372,
+            0.006474290231775711
+          ],
+          "persistence": [
+            0.009016156478314916,
+            0.0067060685819263265
+          ],
+          "constantVelocity": [
+            0.0076583158328028264,
+            0.008413551353386945
+          ],
+          "rawRPM": [
+            0.006735347318822578,
+            0.007487404146374662
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009458255821014361,
+            0.009133810705217673
+          ],
+          "persistence": [
+            0.012738022182852516,
+            0.009466666018135502
+          ],
+          "constantVelocity": [
+            0.010812791059041146,
+            0.011882369594660491
+          ],
+          "rawRPM": [
+            0.009505093066073177,
+            0.010570332058872459
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.5900977200941179,
+        0.027229304526329597
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "BLNN",
+      "test": "S3R2",
+      "input": "feedbackCurrentCounts",
+      "lag_ms": 0,
+      "conditionNumber": 2.947524518913039,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.00672028250139776,
+            0.006342276379313229
+          ],
+          "persistence": [
+            0.008773689940544227,
+            0.006505928126256742
+          ],
+          "constantVelocity": [
+            0.007993621185451903,
+            0.008348668285801514
+          ],
+          "rawRPM": [
+            0.007019379139011844,
+            0.007560680253472493
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009474162697570584,
+            0.008933736823892246
+          ],
+          "persistence": [
+            0.012394474217775321,
+            0.009182696900013687
+          ],
+          "constantVelocity": [
+            0.011249842844128341,
+            0.01175429832007299
+          ],
+          "rawRPM": [
+            0.009851856123314328,
+            0.01062278089158364
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.45478788531051917,
+        0.02313129507037999
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "BLNN",
+      "test": "S3R2",
+      "input": "feedbackCurrentCounts",
+      "lag_ms": 10,
+      "conditionNumber": 2.8760579814997347,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.006750504655498403,
+            0.006336067963440862
+          ],
+          "persistence": [
+            0.008773689940544227,
+            0.006505928126256742
+          ],
+          "constantVelocity": [
+            0.007993621185451903,
+            0.008348668285801514
+          ],
+          "rawRPM": [
+            0.007019379139011844,
+            0.007560680253472493
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009492685397448913,
+            0.008922374702659285
+          ],
+          "persistence": [
+            0.012394474217775321,
+            0.009182696900013687
+          ],
+          "constantVelocity": [
+            0.011249842844128341,
+            0.01175429832007299
+          ],
+          "rawRPM": [
+            0.009851856123314328,
+            0.01062278089158364
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.3965721403339658,
+        0.021743693051352576
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "BLNN",
+      "test": "S3R2",
+      "input": "feedbackCurrentCounts",
+      "lag_ms": 20,
+      "conditionNumber": 2.973037445369908,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.006834433804754429,
+            0.006313462294850382
+          ],
+          "persistence": [
+            0.008773689940544227,
+            0.006505928126256742
+          ],
+          "constantVelocity": [
+            0.007993621185451903,
+            0.008348668285801514
+          ],
+          "rawRPM": [
+            0.007019379139011844,
+            0.007560680253472493
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009634355227755218,
+            0.008884372659052342
+          ],
+          "persistence": [
+            0.012394474217775321,
+            0.009182696900013687
+          ],
+          "constantVelocity": [
+            0.011249842844128341,
+            0.01175429832007299
+          ],
+          "rawRPM": [
+            0.009851856123314328,
+            0.01062278089158364
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.49525247661451915,
+        0.02041806098515372
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "BLNN",
+      "test": "S3R2",
+      "input": "feedbackCurrentCounts",
+      "lag_ms": 30,
+      "conditionNumber": 2.928870871140855,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.0068032065693631495,
+            0.006348481961462517
+          ],
+          "persistence": [
+            0.008773689940544227,
+            0.006505928126256742
+          ],
+          "constantVelocity": [
+            0.007993621185451903,
+            0.008348668285801514
+          ],
+          "rawRPM": [
+            0.007019379139011844,
+            0.007560680253472493
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009586447581972754,
+            0.00894032030763764
+          ],
+          "persistence": [
+            0.012394474217775321,
+            0.009182696900013687
+          ],
+          "constantVelocity": [
+            0.011249842844128341,
+            0.01175429832007299
+          ],
+          "rawRPM": [
+            0.009851856123314328,
+            0.01062278089158364
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.43891091048415415,
+        0.025840583593786468
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "BLNN",
+      "test": "S3R2",
+      "input": "attemptedCommandCounts",
+      "lag_ms": 0,
+      "conditionNumber": 3.9612096438579547,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.006705961950783757,
+            0.006297544722917493
+          ],
+          "persistence": [
+            0.008773689940544227,
+            0.006505928126256742
+          ],
+          "constantVelocity": [
+            0.007993621185451903,
+            0.008348668285801514
+          ],
+          "rawRPM": [
+            0.007019379139011844,
+            0.007560680253472493
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009469234138126566,
+            0.008862277612694867
+          ],
+          "persistence": [
+            0.012394474217775321,
+            0.009182696900013687
+          ],
+          "constantVelocity": [
+            0.011249842844128341,
+            0.01175429832007299
+          ],
+          "rawRPM": [
+            0.009851856123314328,
+            0.01062278089158364
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.36760291043373283,
+        0.018218547871076973
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "BLNN",
+      "test": "S3R2",
+      "input": "attemptedCommandCounts",
+      "lag_ms": 10,
+      "conditionNumber": 2.9219700261352526,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.006613528998594575,
+            0.006349520656187177
+          ],
+          "persistence": [
+            0.008773689940544227,
+            0.006505928126256742
+          ],
+          "constantVelocity": [
+            0.007993621185451903,
+            0.008348668285801514
+          ],
+          "rawRPM": [
+            0.007019379139011844,
+            0.007560680253472493
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009337959775775125,
+            0.008933650768602601
+          ],
+          "persistence": [
+            0.012394474217775321,
+            0.009182696900013687
+          ],
+          "constantVelocity": [
+            0.011249842844128341,
+            0.01175429832007299
+          ],
+          "rawRPM": [
+            0.009851856123314328,
+            0.01062278089158364
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.4627404051079455,
+        0.08075414662739053
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "BLNN",
+      "test": "S3R2",
+      "input": "attemptedCommandCounts",
+      "lag_ms": 20,
+      "conditionNumber": 3.0573773208388304,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.006865119293518149,
+            0.006213368889998217
+          ],
+          "persistence": [
+            0.008773689940544227,
+            0.006505928126256742
+          ],
+          "constantVelocity": [
+            0.007993621185451903,
+            0.008348668285801514
+          ],
+          "rawRPM": [
+            0.007019379139011844,
+            0.007560680253472493
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009689493122032525,
+            0.00872201083678828
+          ],
+          "persistence": [
+            0.012394474217775321,
+            0.009182696900013687
+          ],
+          "constantVelocity": [
+            0.011249842844128341,
+            0.01175429832007299
+          ],
+          "rawRPM": [
+            0.009851856123314328,
+            0.01062278089158364
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.5228924886253772,
+        0.016972337371181454
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    },
+    {
+      "train": "BLNN",
+      "test": "S3R2",
+      "input": "attemptedCommandCounts",
+      "lag_ms": 30,
+      "conditionNumber": 2.9715122939249508,
+      "designRank": 8,
+      "scores_nextPositionRMSE_mm_meanAndHalfSkew": {
+        "motion": {
+          "ridge": [
+            0.006777579515330137,
+            0.006336125755876355
+          ],
+          "persistence": [
+            0.008773689940544227,
+            0.006505928126256742
+          ],
+          "constantVelocity": [
+            0.007993621185451903,
+            0.008348668285801514
+          ],
+          "rawRPM": [
+            0.007019379139011844,
+            0.007560680253472493
+          ]
+        },
+        "moving": {
+          "ridge": [
+            0.009567374552139723,
+            0.00892155791539292
+          ],
+          "persistence": [
+            0.012394474217775321,
+            0.009182696900013687
+          ],
+          "constantVelocity": [
+            0.011249842844128341,
+            0.01175429832007299
+          ],
+          "rawRPM": [
+            0.009851856123314328,
+            0.01062278089158364
+          ]
+        }
+      },
+      "measuredRPMForcedRolloutCompleted": true,
+      "forcedRolloutRMSE_mm": [
+        0.4465777613394638,
+        0.030606610762270732
+      ],
+      "forcedRolloutPredictedSteps": 1995,
+      "forcedRolloutExpectedSteps": 1995,
+      "rolloutUsesMeasuredRPM": false,
+      "parametersNotPhysicalMassOrFriction": true
+    }
+  ],
+  "samplesPerController": 2001,
+  "physicalPlantIdentified": false,
+  "counterfactualClosedLoopValidated": false,
+  "rolloutUsesMeasuredRPM": false,
+  "finding": "After initialization, forced rollout uses only its own predicted state and the recorded inputs, not measured future positions or RPM. Feedback-current input remains unavailable for a new-controller counterfactual. Fixed closed-loop trajectories and unknown1ms dynamics do not establish causal plant identification.10ms recording cannot recover1ms feedback, filter history or all actuation dynamics."
+}

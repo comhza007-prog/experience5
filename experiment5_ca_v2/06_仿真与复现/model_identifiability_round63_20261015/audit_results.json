@@ -1,0 +1,339 @@
+{
+  "date": "2026-10-15",
+  "sources": {
+    "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\identification_q2_summary40s_round61_20261015\\build68012_0b743a60e6ed_analysis.json",
+    "decodedSHA256": "64e9056d69596192e92afbf291a1e0c85818cf8168b8c73673e265d35d220d73",
+    "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run01.csv",
+    "rawSHA256": "0b743a60e6edce1ea432c30ae54acaac4f96972ede9262022bfbd116e6c4aa3b"
+  },
+  "moving": [
+    {
+      "phase": 2,
+      "rows": 4000,
+      "actualDuration_s": 4,
+      "positionRange_mm": [
+        2.1326369367216103,
+        2.057552615269742
+      ],
+      "commandRange_counts": [
+        [
+          -367,
+          617
+        ],
+        [
+          -567,
+          675
+        ]
+      ],
+      "rawRPMRange": [
+        [
+          -30,
+          50
+        ],
+        [
+          -41,
+          76
+        ]
+      ],
+      "RPMEncoderDiagnostics": [
+        {
+          "window_steps": 50,
+          "windows": 3951,
+          "actualWindowRange_ms": [
+            49.99399999999987,
+            50.00600000000066
+          ],
+          "encoderMeanVelocityRMS_mm_s": [
+            1.1257436186719483,
+            1.205539955478829
+          ],
+          "RPMMeanVelocityRMS_mm_s": [
+            1.0291430219823505,
+            1.2994970814242526
+          ],
+          "encoderMinusRPMRMS_mm_s": [
+            0.16822662187307752,
+            0.16917375973151125
+          ],
+          "meanDifference_mm_s": [
+            0.10997580929677299,
+            -0.11499039064357607
+          ],
+          "correlation": [
+            0.9928214659110391,
+            0.9946199151963802
+          ],
+          "zeroEncoderDisplacementFraction": [
+            0.2417109592508226,
+            0.20982029865856744
+          ]
+        },
+        {
+          "window_steps": 100,
+          "windows": 3901,
+          "actualWindowRange_ms": [
+            99.99399999999969,
+            100.00600000000048
+          ],
+          "encoderMeanVelocityRMS_mm_s": [
+            1.032514288819049,
+            1.0582513490375942
+          ],
+          "RPMMeanVelocityRMS_mm_s": [
+            0.9293514104379378,
+            1.1651607680047822
+          ],
+          "encoderMinusRPMRMS_mm_s": [
+            0.1499003352237083,
+            0.15142220420305846
+          ],
+          "meanDifference_mm_s": [
+            0.11138544284600621,
+            -0.11636007880685885
+          ],
+          "correlation": [
+            0.9951857941387905,
+            0.9963555656740216
+          ],
+          "zeroEncoderDisplacementFraction": [
+            0.143809279671879,
+            0.1453473468341451
+          ]
+        }
+      ],
+      "commandAxisCorrelation": 0.4555063407672663,
+      "bothFreshFraction": 0.994
+    },
+    {
+      "phase": 4,
+      "rows": 4000,
+      "actualDuration_s": 4,
+      "positionRange_mm": [
+        2.0672409148119186,
+        2.1338479741643823
+      ],
+      "commandRange_counts": [
+        [
+          -618,
+          632
+        ],
+        [
+          -698,
+          395
+        ]
+      ],
+      "rawRPMRange": [
+        [
+          -80,
+          52
+        ],
+        [
+          -64,
+          32
+        ]
+      ],
+      "RPMEncoderDiagnostics": [
+        {
+          "window_steps": 50,
+          "windows": 3951,
+          "actualWindowRange_ms": [
+            49.99399999999987,
+            50.00600000000155
+          ],
+          "encoderMeanVelocityRMS_mm_s": [
+            1.0677738845818574,
+            1.2349664177976913
+          ],
+          "RPMMeanVelocityRMS_mm_s": [
+            1.1875737337798453,
+            1.134769889660889
+          ],
+          "encoderMinusRPMRMS_mm_s": [
+            0.212620762808561,
+            0.1891158997784704
+          ],
+          "meanDifference_mm_s": [
+            0.16473417764656503,
+            -0.14027941458545645
+          ],
+          "correlation": [
+            0.9908098305260857,
+            0.9942178722895592
+          ],
+          "zeroEncoderDisplacementFraction": [
+            0.11465451784358391,
+            0.13591495823842065
+          ]
+        },
+        {
+          "window_steps": 100,
+          "windows": 3901,
+          "actualWindowRange_ms": [
+            99.9939999999988,
+            100.00600000000048
+          ],
+          "encoderMeanVelocityRMS_mm_s": [
+            0.941488066430159,
+            1.1246962658160584
+          ],
+          "RPMMeanVelocityRMS_mm_s": [
+            1.072723328003077,
+            1.017472894369992
+          ],
+          "encoderMinusRPMRMS_mm_s": [
+            0.19536609708547809,
+            0.17451632543834336
+          ],
+          "meanDifference_mm_s": [
+            0.1652229849627825,
+            -0.14063853562043388
+          ],
+          "correlation": [
+            0.9927345199930078,
+            0.9955818290780556
+          ],
+          "zeroEncoderDisplacementFraction": [
+            0.0651115098692643,
+            0.04486029223276083
+          ]
+        }
+      ],
+      "commandAxisCorrelation": 0.0033779628486725714,
+      "bothFreshFraction": 0.99675
+    }
+  ],
+  "weakRegressorRank": {
+    "hypothesis": [
+      "gainL",
+      "gainR",
+      "dampingL",
+      "dampingR",
+      "reciprocalSpring",
+      "reciprocalDamping",
+      "smoothFrictionL",
+      "smoothFrictionR"
+    ],
+    "rows": 156,
+    "normalizedRank": 8,
+    "columns": 8,
+    "singularValues": [
+      1.528963404710652,
+      1.4992648069438774,
+      1.1176715163005873,
+      1.0073693085417879,
+      0.7722402624054898,
+      0.6362845539127356,
+      0.29970022105933675,
+      0.24384446814000957
+    ],
+    "conditionNumber": 6.270240273946909,
+    "columnNorms": [
+      217.97241122726027,
+      257.52113992421334,
+      0.0008855590713242826,
+      0.0009494819314796517,
+      0.00008795185225375525,
+      0.0010104857525239496,
+      0.670771760747614,
+      0.6869528188587356
+    ],
+    "largestAbsoluteColumnCorrelations": [
+      {
+        "a": "gainR",
+        "b": "smoothFrictionR",
+        "correlation": -0.8638944208496374
+      },
+      {
+        "a": "gainL",
+        "b": "smoothFrictionL",
+        "correlation": -0.8361011100175023
+      },
+      {
+        "a": "dampingL",
+        "b": "smoothFrictionL",
+        "correlation": 0.6740988326287702
+      },
+      {
+        "a": "dampingR",
+        "b": "smoothFrictionR",
+        "correlation": 0.623707693993131
+      },
+      {
+        "a": "gainL",
+        "b": "dampingL",
+        "correlation": -0.3950134359756243
+      },
+      {
+        "a": "dampingR",
+        "b": "reciprocalDamping",
+        "correlation": 0.3271969298685025
+      }
+    ],
+    "overlapWindowsNotPretendedIndependent": true,
+    "fullRankNotCausalOrPhysicalIdentification": true,
+    "smoothFrictionNotProofOfNoStiction": true,
+    "noRegressionCoefficientsFitted": true
+  },
+  "holds": {
+    "rows": 300,
+    "nominalStepInterval": 40,
+    "durationRange_ms": [
+      39.995,
+      40.004999999999995
+    ],
+    "commandMeanRange_counts": [
+      [
+        -291.18835,
+        2.67355
+      ],
+      [
+        -180.0502,
+        129.90025
+      ]
+    ],
+    "firstCommandTimeMomentRecorded": false,
+    "fullCommandWaveformRecovered": false,
+    "sameImpulseDifferentPositionAnalyticExample": "qdd=g*u;mean+A firsthalf/mean-A secondhalf vsconstantmean produces g*A*T^2/4 displacementdifference,zero velocitydifference atintervalend",
+    "oldUnvalidatedGainUsedForIllustrationOnly": [
+      0.000006255890569243181,
+      0.00001086923432719292
+    ],
+    "illustrativeOffsetMedian_um": [
+      2.9755323980238435,
+      5.012564631633045
+    ],
+    "illustrativeOffsetMax_um": [
+      3.002977616487155,
+      5.217232477052602
+    ],
+    "illustrationNotActualErrorOrCertifiedBound": true
+  },
+  "supplyVoltageDuringArmed": {
+    "range_V": [
+      24.096941,
+      24.629219
+    ],
+    "notAutomaticallyCalibratedCommandForceGain": true
+  },
+  "methodDiscriminationPlanning": {
+    "previousExploratorySyncGains_um": [
+      6.270652300000005,
+      4.658752785631819
+    ],
+    "provisionalEachMethodSyncPredictionRMSEBudget_um": 2,
+    "sumOfTwoProvisionalBudgets_um": 4,
+    "source": "Observed exploratory gains motivate required resolution only; not application tracking tolerance/efficacy cutoff. Must freeze before independent data",
+    "budgetApproved": false,
+    "budgetMet": false,
+    "RMSDifferenceBound": "|RMS(pred)-RMS(actual)|<=RMS(pred-actual) on same fixed clock/window",
+    "modelRankingBeyondVerifiedScopeNotEstablished": true
+  },
+  "modelsFitted": 0,
+  "modelParametersChanged": false,
+  "closedLoopModelIdentified": false,
+  "independentValidationPassed": false,
+  "controlOrRawChanged": false,
+  "newPhysicalRunReleased": false,
+  "assistantHardwareAction": false,
+  "conclusion": "Highrate moving data permit substantially stronger endpoint/input diagnostics,notproof of causalplantidentification. Full-task input remains nonunique within40step holds. Exact1ms whole-taskinput or justified uncertainty-aware multirate treatment is required before a micrometer-resolution whole-taskprediction claim."
+}

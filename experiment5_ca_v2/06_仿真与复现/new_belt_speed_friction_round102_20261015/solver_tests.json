@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "randomCases": 400,
+  "maximumIndependentStateDifference": 1.3877787807814457e-17,
+  "maximumEnergyBalanceResidual": 1.0842021724855044e-19,
+  "minimumPlasticDissipation": -4.615153912698918e-22,
+  "zeroTermsEquivalence": [
+    {
+      "record": "new_belt_run010",
+      "constantYieldLegacyDifference_m": 0.0
+    },
+    {
+      "record": "new_belt_run011",
+      "constantYieldLegacyDifference_m": 0.0
+    }
+  ],
+  "sourceSHA256": "c6cef497c8e0f85c2b4b8edea5d76228127953d7eb9dbce8ab752d3df810b79b",
+  "solverSHA256": "dd06fbff3bebec7b1c43d03ad1a784c83def86a146cc89b0606147a04ddbb72d",
+  "scope": "Numerical checks only, no physical validation"
+}

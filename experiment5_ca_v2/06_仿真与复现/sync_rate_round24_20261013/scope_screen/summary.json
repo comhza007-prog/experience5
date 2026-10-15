@@ -1,0 +1,40 @@
+{
+  "summary": [
+    {
+      "scope": 0,
+      "positionSupport": true,
+      "complete": 30,
+      "newFailures": [],
+      "n": 30,
+      "track": 0.16916956982000003,
+      "sync": 0.04938573435999998,
+      "baseTrack": 0.16546379789333335,
+      "baseSync": 0.04805963416666668
+    },
+    {
+      "scope": 1,
+      "positionSupport": true,
+      "complete": 30,
+      "newFailures": [],
+      "n": 30,
+      "track": 0.16834286083333336,
+      "sync": 0.04954320100999999,
+      "baseTrack": 0.16546379789333335,
+      "baseSync": 0.04805963416666668
+    },
+    {
+      "scope": 2,
+      "positionSupport": true,
+      "complete": 30,
+      "newFailures": [],
+      "n": 30,
+      "track": 0.16546379789333335,
+      "sync": 0.04805963416666668,
+      "baseTrack": 0.16546379789333335,
+      "baseSync": 0.04805963416666668
+    }
+  ],
+  "assumedModelIdentified": false,
+  "exploratoryDevelopmentOnly": true,
+  "notValidationOrHardwareEvidence": true
+}

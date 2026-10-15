@@ -1,0 +1,14 @@
+{
+ "authorization":"User explicitly narrows requested change to synchronism protection1.5mm->5mm only, and will manually flash/run. Previous blanket rollback NOT performed.",
+ "sourceBuild":68412,"newBuild":68512,"newSchema":4503,
+ "onlyBehaviorChange":"Armed absolute left-right encoder-derived displacement greater than0.005m triggers same latched faultbit8; strictgreater comparison retained. No other protection threshold or control rule changed.",
+ "unchanged":"Manual health-checked8second boot one-shot,20mm stroke,8s eachleg,28s total,1200/1200 limits,[-4,+22]mm travel; tracking>1mm1000ms and finalorigin0.5mm fault1024 retained; RPM120/taper10..30/temperature60C/CAN/battery/timing/numeric protections unchanged. No repeated run/faultclear. CRCvalidSTOP retained, no PCheartbeat by existing manual workflow.",
+ "userReportedMechanicalChange":"User reports restoring previous belt. No evidence original tension/state reproduced. Pending record must be marked OLDBELT; not pooled with tighter-new-belt calibration010/011.",
+ "safety":"This loosens synchronism stop threshold and does not resolve earlier tracking1024/sticking. Offline verification is not physical qualification. User flash only with driveOFF; prepareVOFA and check clear travel, emptyload and physical emergency stop before controlled freshpoweron. One attempt only. Fault/abnormality: stop safely, retain history and board ifsafe, no immediate repeat.",
+ "captureFile":"E5Q20M_S5_BLNN_B68512_HW6_L1200_R1200_M0g_S20mm_OLDBELT_run01.csv",
+ "rawDirectory":"D:/lunwen2/起重机/output/experiment5_ca_v2/01_原始数据/20mm手动VOFA_同步保护5mm_旧皮带_20261015",
+ "completion":"I63=68512,I2=6,I22=0,I88=4445,I89=4,I90=0; >=20s completiontail AND I0>=185s. I53/I54 remain full600point RMS after uptime40s and healthyphase6.",
+ "logging":"Unchanged ABI3 moving4ms/holding40ms exact integrals and endpoint encoders;1ms control; intra4ms command history not recoverible. Native40ms rawRPM/ESCCurrentCounts remain available.",
+ "predictionPolicy":"Quality audit first, then frozen-parameter prediction without fitting this record; disclose cross-regime and mean-input approximation. Not a same-regime validation of R104new-belt model.",
+ "assistantHardwareAction":false,"flashedByAssistant":false,"physicalRuns":0,"batchReleased":false
+}

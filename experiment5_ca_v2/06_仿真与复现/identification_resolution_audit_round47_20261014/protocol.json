@@ -1,0 +1,17 @@
+{
+  "scope": "Bounded T1-only resolution audit. No new model fitting, tuning or physical acquisition.",
+  "sourceBuild": 67832,
+  "sourceSHA256": "0da7ed24d02bcce276f0448ae08ebcee6e0c36dc4b6dbb1cfb41b9838c58b403",
+  "models": "Reuse all five saved round46 coupled-state coefficient sets unchanged. Reconstruct the same recorded-input 16-second training span from the same observed initial state. Model spread is descriptive sensitivity, not an independent confidence interval.",
+  "fastData": "Keep the two 200-sample windows separate. Group each into ten complete 20-sample intervals. Compare commands within each interval and encoder position against the nominal-index chord between its observed slow endpoints. Chord departures describe actual captured within-interval variation, not measurement noise or an unseen trajectory error bound.",
+  "coverage": "Report observed fast samples relative to all core intervals and phase2/4 intervals. Do not extrapolate the two windows to the full run.",
+  "initialQuantization": "No statistical sensor accuracy assumption or invented carriage measurement tolerance.",
+  "effectIllustrations_mm": [0.005, 0.01, 0.02, 0.05],
+  "effectIllustrationMeaning": "Divide worst prior internal held-block sync reconstruction RMSE by illustrative effects, not acceptance requirements, causal treatment effects or prediction guarantees.",
+  "tests": "Known coupled-model roundtrip; exact full-fit reconstruction; all fast/slow shared endpoints; constant/linear chord fixtures; raw and predecessor hashes before and after.",
+  "stopRule": "No model expansion. If independent accuracy and one-millisecond compatibility remain unestablished, keep controller screening, V1 and formal acquisition unreleased. No automatic extra capture.",
+  "Q0UsedForFitOrSelection": false,
+  "V1ReadOrAcquired": false,
+  "modelResolutionBudget_mm": null,
+  "MCUFirmwareChanged": false
+}

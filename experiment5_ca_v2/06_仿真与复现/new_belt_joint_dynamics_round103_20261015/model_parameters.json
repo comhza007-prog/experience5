@@ -1,0 +1,141 @@
+{
+  "version": "R103_new_belt_joint_dynamics_development",
+  "status": "Development only, not accepted: max rounded aggregate error still exceeds15percent and boundary/identifiability issues remain",
+  "parameters": [
+    1.6114933756813664e-07,
+    1.3649949935808572e-05,
+    0.06620310481611973,
+    0.0007979736851367973,
+    94.50380999858025,
+    6.389035110093454,
+    0.006652578882520533,
+    4.74858890121374e-06,
+    -0.907732038464188,
+    3.411277618322525,
+    1.9128970510853485,
+    0.005903977198848077
+  ],
+  "parameterNames": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "preSlidingStiffnessL",
+    "preSlidingStiffnessR",
+    "sharedYieldForce"
+  ],
+  "solverRelativeToProject": "06_仿真与复现\\new_belt_memory_model_round100_20261015\\native_model.dll",
+  "solverSHA256": "22e77b041e02b62f6f69429a0695840c53139a6eefe28a17c3d02deb30ae6a17",
+  "solverSourceSHA256": "d7c3bfd43884452adadb6626d27417b36f8a126ba6e091d1c11d6de3c0c585ff",
+  "memoryState": "Two independent plastic anchors, initialized at initial positions once. Velocity and anchor evolve only from simulated states and recorded queued inputs.",
+  "equations": [
+    "M*v_dot+B*v+Kdiff*p+Fc*Sign(v)+f_el=G*u",
+    "trial_i=k_i*(p_new_i-anchor_old_i)",
+    "f_el_i=clip(trial_i,-Y,Y)",
+    "anchor_new_i=p_new_i-f_el_i/k_i"
+  ],
+  "regime": "Same-specification new synchronous belt, tighter tension, same pulleys and ratio; position conversion unchanged",
+  "sourceHashes": [
+    {
+      "name": "new_belt_run010",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+      "rawSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_r96_frozen_check_round97_20261015\\capture_analysis.json",
+      "decodedSHA256": "7d2e50b8382219adf1b8d2252e02ce110a0edb6e8d4f00c4df266952ed2abffd"
+    },
+    {
+      "name": "new_belt_run011",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run011.csv",
+      "rawSHA256": "e7e38ee5980fca58f656ac36ffe52d37b505909b4dee49e53acba25dbd306173",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_frozen_check_round99_20261015\\capture_analysis.json",
+      "decodedSHA256": "6022ce98f46a4b09be546bfb8668a70e0ef5e4a7066ac303cb5d571019d41460"
+    }
+  ],
+  "stages": [
+    "joint full-snapshot identification",
+    "bounded LM with aggregate priority",
+    "bounded local minimax aggregate polish"
+  ],
+  "sourceResultsSHA256": "731a28cef813309541b705e5c7cf36d68998bd9dfd90cf374f9f5d80d0535b4c",
+  "verificationSHA256": "d17a266dfd138cd46ee0d19003f383621a2033cfe1fbde50070aacdda8aa616b",
+  "calibrationCases": [
+    {
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.3107580881891894,
+      "predictedSyncRMS_mm": 0.06182036476760712,
+      "trackingDifference_percent": 15.807705514735781,
+      "syncDifference_percent": 15.802997335367387,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.3285451262764375,
+        0.34471041106992933
+      ]
+    },
+    {
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.2912796068642637,
+      "predictedSyncRMS_mm": 0.07188544706684381,
+      "trackingDifference_percent": -13.152256104993743,
+      "syncDifference_percent": -15.990827110456607,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.30725875496070093,
+        0.3634592893296308
+      ]
+    }
+  ],
+  "identifiabilityAndBounds": {
+    "fullSnapshotJacobianSingularValues": [
+      99.98106493693565,
+      51.184670695762996,
+      26.46645779633379,
+      6.650652415053854,
+      1.377917675576411,
+      0.7063105286874631,
+      0.2958861127173788,
+      0.17395255564201273,
+      0.09299330261935858,
+      0.036317591713681575,
+      0.0008943860789070177,
+      0.0001323076981826281
+    ],
+    "fullSnapshotJacobianRankRelative1e6": 12,
+    "fullSnapshotConditionNumber": 755670.8060851374,
+    "aggregateJacobianSingularValues": [
+      40.7831162590845,
+      10.909676083908149,
+      4.091492401407355,
+      0.43945217069285725
+    ],
+    "aggregateJacobianMaximumRank": 4,
+    "caveat": "Local finite-difference sensitivity, not proof of globally identifiable physical parameters. Four summaries alone cannot uniquely identify12 coefficients.",
+    "normalizedMassConditionNumber": 20.675996377396288,
+    "effectiveRightLeftGainRatio": 84.70372973166671,
+    "originalJointBoundsExceededByLocalPolish": [
+      {
+        "parameter": "gainL",
+        "value": 1.6114933756813664e-07,
+        "originalJointLower": 1.7396308938091242e-07,
+        "originalJointUpper": 6.958523575236497e-05
+      }
+    ],
+    "inference": "Do not adopt as physical model: original joint boundary exceeded for listed parameters; final local modal box was respected, but acceptance still fails."
+  },
+  "bothRecordsCalibration": true,
+  "independentValidationPassed": false,
+  "physicalParametersIdentified": false,
+  "noOutputCorrections": true,
+  "noMeasuredStateInjection": true,
+  "firmwareChanged": false,
+  "newPhysicalRunReleased": false,
+  "assistantHardwareAction": false
+}

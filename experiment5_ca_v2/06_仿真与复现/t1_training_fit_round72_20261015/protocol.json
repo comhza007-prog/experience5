@@ -1,0 +1,19 @@
+{
+  "date":"2026-10-15",
+  "scope":"ONE bounded T1-only training refit of the existing nine-parameter round66 effective queued-command model. No new model structure, branch, seed/lag search, control retuning, S3R2 outcome or physical trial.",
+  "motivation":"T1 has complete queued moving inputs and exact requested/gated metadata, variation in both requested modes and full8-column weak rank. Rank/correlations do not certify exogenous excitation or physical parameter identification. The frozen old model underpredicts T1 sync response.",
+  "trainingSHA256":"d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0",
+  "initialization":"Frozen round66 nine coefficients; exactly one starting point. Its prior Q2 training is disclosed.",
+  "parameterNames":["gainL","gainR","dampingL","dampingR","reciprocalSpring","reciprocalDamping","CoulombL","CoulombR","inertiaEta"],
+  "parameterScales":[0.00001,0.00001,10,10,1000,100,0.01,0.01,0.2],
+  "lowerBounds":[0.0000001,0.0000001,0,0,0,0,0,0,-0.95],
+  "upperBounds":[0.001,0.001,1000,1000,100000,10000,1,1,0.95],
+  "boundsMeaning":"Numerical admissibility/search bounds, not independently identified physical bounds. Gains are effective command-count coefficients, not calibrated current/torque.",
+  "maxEvaluations":180,"maxIterations":12,"lineSearch":[1,0.5,0.25,0.125],
+  "objective":"T1 only:actual-duration-weighted squared mean-position and full left-minus-right sync prediction errors in mm at8300recorded endpoints plus1e-8scaled-parameter regularization. One zero initial state for whole20s. No measured future-state injection.",
+  "input":"All8000moving actual queued-command intervals with actual dt.300holds represented by recorded40step command means; this is an unverified within-hold waveform abstraction, not a recovered waveform.",
+  "evaluation":"Freeze the resulting parameters before evaluating T1 native400points and historical Q2. Q2 is cross-record checking, NOT untouched independent validation because it was used for initial model development. Report both improvements and regressions; do not accept based on scalar tracking/sync closeness alone.",
+  "sensorMap":"Retain prior encoder/display rounding for comparability without declaring real hardware quantizer identified. Report continuous endpoint errors as well.",
+  "admission":"No task-derived numeric tolerance supplied. This fit cannot by itself establish full closed-loop counterfactual validity, robustness, physical parameter truth, causal perturbation response or a thesis evidence closure.",
+  "formalBatchReleased":false,"independentValidationReleased":false,"newPhysicalRunReleased":false
+}

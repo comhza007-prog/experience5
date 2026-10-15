@@ -1,0 +1,41 @@
+{
+  "status": "Declared before predictions, after user supplied extra capture",
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run011.csv",
+  "sourceSHA256": "e7e38ee5980fca58f656ac36ffe52d37b505909b4dee49e53acba25dbd306173",
+  "primaryComparisons": [
+    "R98_damping_stiffness"
+  ],
+  "additionalFamilyComparisons": [
+    "R98_effective_gains",
+    "R98_friction_scales"
+  ],
+  "allModels": [
+    {
+      "label": "nominal_R96",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\aggregate_calibration_round96_20261015\\model_parameters_no_motor.json",
+      "sha256": "2d66275627876b0e229abcbbf096d821a8960eff5f9e42b941c9a4b12ebf1db6"
+    },
+    {
+      "label": "R98_effective_gains",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_calibration_round98_20261015\\model_parameters_effective_gains.json",
+      "sha256": "db6ff56b4a52c93637d4801540113d0ba4e17325e34b7b80fb45d82ac9afccd2"
+    },
+    {
+      "label": "R98_friction_scales",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_calibration_round98_20261015\\model_parameters_friction_scales.json",
+      "sha256": "13ec4b574e2e60086d7a200c89a5cf08a2ad0929278063f55aa282178da3557f"
+    },
+    {
+      "label": "R98_damping_stiffness",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_calibration_round98_20261015\\model_parameters_damping_stiffness.json",
+      "sha256": "0ba3cdc5eaebfc43cc938c48da1975410ac0283a71396fd747ae5247bc7ac660"
+    }
+  ],
+  "oldSetupReference": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\motor_response_analysis_round93_20261015\\next_capture_protocol.json",
+  "modelsRefitted": 0,
+  "criterion": "Final active-window trackingRMSE and syncRMS relative errors both<=15percent; waveform not hard gate.",
+  "captureWasOperatorManualAfterOneRunInstructions": true,
+  "parametersFrozenBeforeCapture": true,
+  "modelNotSelectedFromNewPerformance": true,
+  "assistantHardwareAction": false
+}

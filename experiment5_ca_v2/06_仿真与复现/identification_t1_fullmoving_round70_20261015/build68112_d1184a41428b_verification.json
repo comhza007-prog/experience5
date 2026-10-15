@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "sourceSHA256": "d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0",
+  "CRC32": 1733231737,
+  "minimumCopies": 4,
+  "independentlyDecodedMovingRows": 8000,
+  "independentlyDecodedHoldRows": 300,
+  "requestedMovingIntervals": 5568,
+  "gateChecks": 7998,
+  "freshMaskCounts": [
+    0,
+    20,
+    21,
+    7959
+  ],
+  "nativeSamples": 400,
+  "trackingRMSE_mm": 0.14362147950428583,
+  "syncRMS_mm": 0.04795641250135376,
+  "completionTail_s": 6.879989999999992,
+  "completionTailProtocolMet": false,
+  "modelIdentified": false,
+  "noLiveShadowDataInvented": true
+}

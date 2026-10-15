@@ -1,0 +1,101 @@
+{
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run08.csv",
+  "sourceSHA256": "e99258658a2922e6cd1922c75f3a6a4a3c1b7405e03a6b46f8fe0839d3f877c4",
+  "bytes": 8256561,
+  "totalRawRows": 7449,
+  "sessions": 1,
+  "excludedResetPrefixRows": 0,
+  "fullRecordingProtocolQualified": false,
+  "completeCRCVerifiedMotionSnapshotUsable": true,
+  "all400MetricSamplesUsable": true,
+  "reasons": [
+    "Active CSV gaps"
+  ],
+  "missingCSVFrames": 7,
+  "gaps": [
+    {
+      "before": 1.441,
+      "after": 1.761,
+      "missing": 7,
+      "priorPhase": 0,
+      "nextPhase": 0
+    }
+  ],
+  "missingMotionCSVFrames": 0,
+  "missingSamplesImputed": false,
+  "metricBasis": "CRC integer encoder snapshots and identical frozen production C trajectory, rounded6 decimal meters as firmware statistics; native CSV exported5 decimal positions.",
+  "metrics": {
+    "native40msSamples": 400,
+    "trackingRMSE_mm": 0.13453225681969358,
+    "syncRMS_mm": 0.04707284248906153
+  },
+  "firmware400PointMetrics": {
+    "trackingRMSE_mm": 0.13453,
+    "syncRMS_mm": 0.04707
+  },
+  "completionTail_s": 142.24002000000002,
+  "exportComplete_s": 157.401,
+  "lastUptime_s": 299.64102,
+  "referenceFileSHA256": "2e711984d8015b4060504f829b46bdf002d08c3dec449295ea7572090decf4fb",
+  "phaseCounts": {
+    "0": 157,
+    "1": 100,
+    "2": 100,
+    "3": 50,
+    "4": 100,
+    "5": 150,
+    "6": 6792
+  },
+  "periodRange_us": [
+    993,
+    1006
+  ],
+  "corePeak_us": 208.32143,
+  "bodyPeak_us": 350.3512,
+  "stackMinimum_bytes": 2640,
+  "preCaptureProtocol": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\motor_response_analysis_round93_20261015\\next_capture_protocol.json",
+  "preCaptureProtocolSHA256": "38cd6d2b0cf3d0d0e61c1cedd836a5826dd24b258d5714d43645f8ab65a65092",
+  "noParameterFit": true,
+  "assistantHardwareAction": false,
+  "CRC32": 2998525255,
+  "minimumChunkCopies": 4,
+  "header": {
+    "version": 2,
+    "build": 68012,
+    "method": 11,
+    "max_age_ms": [
+      1,
+      1
+    ],
+    "slow_count": 300,
+    "fast_count": 8000,
+    "exception_count": 0,
+    "forward_count": 4000,
+    "first_ms": 1,
+    "last_ms": 20000,
+    "fault": 0,
+    "quality_flags": 0,
+    "steps": 20000,
+    "period_min_us": 993,
+    "period_max_us": 1006,
+    "configured_meters_per_count": 0.0000012110374427720672,
+    "right_sign": -1,
+    "clock": 168000000,
+    "manual_mode": 1,
+    "passes": 2,
+    "encoding": 1
+  },
+  "independentPythonFullDecodeCRCAndMetrics": {
+    "passed": true,
+    "sourceSHA256": "e99258658a2922e6cd1922c75f3a6a4a3c1b7405e03a6b46f8fe0839d3f877c4",
+    "crc32": 2998525255,
+    "minimumCopies": 4,
+    "independentlyDecodedMovingRows": 8000,
+    "independentlyDecodedHoldRows": 300,
+    "native40msSamples": 400,
+    "trackingRMSE_mm": 0.1345322568196936,
+    "syncRMS_mm": 0.047072842489061566,
+    "completionTail_s": 142.24002000000002,
+    "excludedResetPrefixRows": 0
+  }
+}

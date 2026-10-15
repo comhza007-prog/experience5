@@ -1,0 +1,11 @@
+{
+ "purpose":"Parameter-sensitivity follow-up of a diagnosed retention tradeoff, NOT a new method or hardware admission",
+ "selection":"CA_CLASS_REPAIR from exploratorychecks02, equivalent to R2 with static translation retention disabled; fixed before this sensitivity run",
+ "variants":["ordinary_BLNN","exact_R2","no_retention_ablation"],
+ "couplingStiffness":[1000,2000,3000],"noisePeriods_ms":[17,23],"casesPerSetting":36,
+ "allOtherParametersUnchanged":true,"allFailuresRetained":true,"noRetuning":true,
+ "population":"Within each setting, fixed ordinary+R2 completed cases. New failures invalidate the ablation's primary population mean; do not substitute survivors.",
+ "questions":"Does the exploratory sync gain versus R2 repeat across assumed coupling/noise settings? What tracking cost and ordinary-BLNN gap remain?",
+ "interpretation":"These are uncalibrated assumed-model sensitivity settings, not independent physical validation. Removing an old rule is an ablation/rollback, not itself a new innovation. No hardware release, including if all settings improve against R2. Latest paper sync-benefit claim must also be evaluated against ordinary BLNN.",
+ "hardwareReleased":false,"physicalBenefitProven":false
+}

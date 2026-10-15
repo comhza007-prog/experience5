@@ -1,0 +1,17 @@
+{
+  "date":"2026-10-15","build":68012,"schema":4499,"magic":4444,
+  "parentBuild":68011,"scope":"User requested error wave/40s statistics added to the ONE already approved manual Q2 qualification; replaces68011,not an additional run",
+  "control":"Ordinary BLNN unchanged; empty2mm,1200/1200,no excitation; all motor loop control, timing/health protections unchanged",
+  "summarySource":"Exact reused wave+summary headers from archived67931 ordinary40s display",
+  "I53":"Instantaneous signed mean-position-minus-reference error mm, then tracking RMSE mm",
+  "I54":"Instantaneous signed left-minus-right synchronization error mm, then sync RMS mm",
+  "summaryGate":"I0>=40s AND phase6 after valid complete motion; invalid/fault after40s=-1/-1; delayed healthy motion continues instantaneous display",
+  "statistics":"Native40ms phase2..5/drive-permitted UART-completed samples,6decimal metre-rounded I3/I5/I6; same previous comparison definition,not1ms moving-only RMS",
+  "hostValidation":"UART completion does not acknowledge host reception; full CSV identity/gap/CRC and summary-recalculation checks still required",
+  "capture":"Version2 Q2 moving1ms/hold40step recorder unchanged",
+  "payloadChange":"Stopped encoded words previouslyI53/I54 moved toI104/I105. Conversion reads original published positions before packing; summary writes onlyI53/I54",
+  "telemetry":"107channels/432bytes/40ms/115200/JustFloat unchanged",
+  "finish":"I88=4444,I89=4,I90=0 followed by10seconds. 40s or phase6 alone is not export complete",
+  "onBoardTimingQualified":false,"modelIdentified":false,"modelValidationClosureComplete":false,
+  "rawName":"E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run01.csv"
+}

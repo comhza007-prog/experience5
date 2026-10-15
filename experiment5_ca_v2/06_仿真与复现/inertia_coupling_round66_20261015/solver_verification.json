@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "randomCases": 1500,
+  "freeDecaySteps": 9000,
+  "stickCases": 3,
+  "invalidMassRejected": 3,
+  "maximumNativePythonStateDifference": 2.220446049250313e-16,
+  "maximumEnergyBalanceResidual": 8.239936510889834e-17,
+  "maximumKKTResidual": 5.877731027587041e-17,
+  "maximumEtaZeroOldSolverDifference": 0,
+  "nativeLibrarySHA256": "48405f957eabf032172f8f77898ce2825ac928d6693964aa5a916777ae51b377",
+  "nativeSourceSHA256": "0e8760653451059b0843da456ae23179909a27f25d5300db78051c3db33f34fb",
+  "referenceSHA256": "b301b58b34eab4df0cc65e9d92865c08d35c3943c747e0af3395a08d7526cbbf",
+  "notPhysicalValidation": true,
+  "hardwareAction": false
+}

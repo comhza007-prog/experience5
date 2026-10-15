@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "frozenChecks": [
+    {
+      "model": "R90",
+      "allFiveFrozenPredictionsReproduced": true,
+      "fullStepwiseNativePropagation": 20000,
+      "independentPythonSteps": 500,
+      "maximumPositionDifference_m": 0.0,
+      "maximumIndependentStateDifference": 1.5178830414797062e-18
+    },
+    {
+      "model": "R86",
+      "allFiveFrozenPredictionsReproduced": true,
+      "fullStepwiseNativePropagation": 20000,
+      "independentPythonSteps": 500,
+      "maximumPositionDifference_m": 0.0,
+      "maximumIndependentStateDifference": 1.734723475976807e-18
+    },
+    {
+      "model": "R82",
+      "allFiveFrozenPredictionsReproduced": true,
+      "fullStepwiseNativePropagation": 20000,
+      "independentPythonSteps": 500,
+      "maximumPositionDifference_m": 0.0,
+      "maximumIndependentStateDifference": 1.8431436932253575e-18
+    }
+  ],
+  "independentPythonMechanicalSteps": 1500,
+  "motorChecks": [
+    {
+      "record": "M1_run01",
+      "recursiveVsClosedFormFilterDifference_counts": 0.0,
+      "refitMetricsReproduced": true
+    },
+    {
+      "record": "M1_run02",
+      "recursiveVsClosedFormFilterDifference_counts": 0.0,
+      "refitMetricsReproduced": true
+    },
+    {
+      "record": "M1_run03",
+      "recursiveVsClosedFormFilterDifference_counts": 0.0,
+      "refitMetricsReproduced": true
+    },
+    {
+      "record": "M1_run04",
+      "recursiveVsClosedFormFilterDifference_counts": 0.0,
+      "refitMetricsReproduced": true
+    },
+    {
+      "record": "M1_run05",
+      "recursiveVsClosedFormFilterDifference_counts": 0.0,
+      "refitMetricsReproduced": true
+    }
+  ],
+  "scope": "Full15 frozen rollouts reproduced,60k one-step C propagation checks,1500 independent Python mechanical steps; filter convolution cross-checks and all five motor-refit metrics reproduced. Numerical verification is not physical validation.",
+  "rawFilesAndFrozenModelsUnchanged": true,
+  "assistantHardwareAction": false
+}

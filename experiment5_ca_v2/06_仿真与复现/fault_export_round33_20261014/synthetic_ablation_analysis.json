@@ -1,0 +1,112 @@
+{
+  "source": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\fault_export_round33_20261014\\synthetic_replay.csv",
+  "sourceSHA256": "b9017df9be87672222cfc6c240f78fc3e5bcae5edc62185398a22902ddedf534",
+  "snapshotSHA256": "77070f4c6285fb730993c9ebd7a40463f2f6295d5e34b3207da07b3ffc770c62",
+  "header": [
+    1,
+    67712,
+    12,
+    5348,
+    48,
+    80,
+    360,
+    5360,
+    5719,
+    1000
+  ],
+  "CRC32": 1680167372,
+  "chunks": 2471,
+  "copies": 4942,
+  "snapshotValid": true,
+  "sourceKind": "SYNTHETIC_NOT_PHYSICAL",
+  "faultObserved": 0,
+  "physicalRunComplete": false,
+  "baselineReplayPassed": true,
+  "baselineOutput": "PASS recorded-input baseline replay:360 integer commands/masks/causes exact;prediction/learning/final floats within predefined1e-5abs+2e-5rel;NOT a closed-loop counterfactual\r\n",
+  "ablations": [
+    {
+      "variant": "baseline_R2",
+      "steps": 360,
+      "changedCommandSteps": 0,
+      "changedLearningSteps": 0,
+      "meanActualModalLearning": [
+        0.46944444444444444,
+        0.5222222222222223
+      ],
+      "repairSteps": [
+        16,
+        35
+      ],
+      "pureRateSteps": 0,
+      "bothAxesZeroLearningSteps": 156,
+      "finalNodes": [
+        7,
+        7
+      ]
+    },
+    {
+      "variant": "classification_off",
+      "steps": 360,
+      "changedCommandSteps": 0,
+      "changedLearningSteps": 0,
+      "meanActualModalLearning": [
+        0.46944444444444444,
+        0.5222222222222223
+      ],
+      "repairSteps": [
+        16,
+        35
+      ],
+      "pureRateSteps": 0,
+      "bothAxesZeroLearningSteps": 156,
+      "finalNodes": [
+        7,
+        7
+      ]
+    },
+    {
+      "variant": "repair_off",
+      "steps": 360,
+      "changedCommandSteps": 48,
+      "changedLearningSteps": 61,
+      "meanActualModalLearning": [
+        0.42777777777777776,
+        0.42777777777777776
+      ],
+      "repairSteps": [
+        0,
+        0
+      ],
+      "pureRateSteps": 0,
+      "bothAxesZeroLearningSteps": 206,
+      "finalNodes": [
+        7,
+        7
+      ]
+    },
+    {
+      "variant": "retention_off",
+      "steps": 360,
+      "changedCommandSteps": 0,
+      "changedLearningSteps": 0,
+      "meanActualModalLearning": [
+        0.46944444444444444,
+        0.5222222222222223
+      ],
+      "repairSteps": [
+        16,
+        35
+      ],
+      "pureRateSteps": 0,
+      "bothAxesZeroLearningSteps": 156,
+      "finalNodes": [
+        7,
+        7
+      ]
+    }
+  ],
+  "closedLoopCounterfactual": false,
+  "performanceBenefitProven": false,
+  "formalEfficacyEvidence": false,
+  "finding": "Baseline recurrent snapshot validated. Single-factor branches explain only recorded-input learning/command effects, not alternative trajectory RMSE, stability or physical benefit. Faults remain failed runs."
+}

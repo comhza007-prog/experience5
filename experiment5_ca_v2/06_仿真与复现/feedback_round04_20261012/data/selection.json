@@ -1,0 +1,2188 @@
+{
+  "old": {
+    "profile": 0,
+    "caseA": 15,
+    "caseB": 33,
+    "parameters": {
+      "type": "start",
+      "case": 15,
+      "method": 10,
+      "massAxis": 9,
+      "friction_counts": 400,
+      "delay_ms": 6,
+      "right_limit": 1200
+    },
+    "training": {
+      "A": {
+        "complete": true,
+        "positionRMSE_mm": 0.15579215353764483,
+        "commandRMSRelativeError": 0.09993021707311202,
+        "fitScore": 0.16078866439130043
+      },
+      "B": {
+        "complete": true,
+        "positionRMSE_mm": 0.17887559688357135,
+        "commandRMSRelativeError": 0.09377354137065029,
+        "fitScore": 0.18356427395210387
+      }
+    },
+    "score": 0.17217646917170215
+  },
+  "alternative": {
+    "profile": 1,
+    "caseA": 9,
+    "caseB": 27,
+    "parameters": {
+      "type": "start",
+      "case": 9,
+      "method": 10,
+      "massAxis": 6,
+      "friction_counts": 400,
+      "delay_ms": 6,
+      "right_limit": 1200
+    },
+    "training": {
+      "A": {
+        "complete": true,
+        "positionRMSE_mm": 0.1508270334137833,
+        "commandRMSRelativeError": 0.24665749749335047,
+        "fitScore": 0.16315990828845084
+      },
+      "B": {
+        "complete": true,
+        "positionRMSE_mm": 0.14680875389647619,
+        "commandRMSRelativeError": 0.26415275823175155,
+        "fitScore": 0.16001639180806376
+      }
+    },
+    "score": 0.1615881500482573
+  },
+  "candidates": [
+    {
+      "profile": 0,
+      "caseA": 1,
+      "caseB": 19,
+      "parameters": {
+        "type": "start",
+        "case": 1,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 400,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.22886915458123708,
+          "commandRMSRelativeError": 0.6051711953330833,
+          "fitScore": 0.2591277143478912
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.23062716004133446,
+          "commandRMSRelativeError": 0.5999256631149495,
+          "fitScore": 0.2606234431970819
+        }
+      },
+      "score": 0.25987557877248657
+    },
+    {
+      "profile": 0,
+      "caseA": 2,
+      "caseB": 20,
+      "parameters": {
+        "type": "start",
+        "case": 2,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 400,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.19301581563640396,
+          "commandRMSRelativeError": 0.25826464904889596,
+          "fitScore": 0.20592904808884877
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.21083348175425748,
+          "commandRMSRelativeError": 0.2788095169339158,
+          "fitScore": 0.22477395760095326
+        }
+      },
+      "score": 0.215351502844901
+    },
+    {
+      "profile": 0,
+      "caseA": 3,
+      "caseB": 21,
+      "parameters": {
+        "type": "start",
+        "case": 3,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 400,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 0,
+      "caseA": 4,
+      "caseB": 22,
+      "parameters": {
+        "type": "start",
+        "case": 4,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 600,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.20107469395334654,
+          "commandRMSRelativeError": 0.3937459787623091,
+          "fitScore": 0.220761992891462
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20510624209374348,
+          "commandRMSRelativeError": 0.3855929007624781,
+          "fitScore": 0.22438588713186738
+        }
+      },
+      "score": 0.2225739400116647
+    },
+    {
+      "profile": 0,
+      "caseA": 5,
+      "caseB": 23,
+      "parameters": {
+        "type": "start",
+        "case": 5,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 600,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 0,
+      "caseA": 6,
+      "caseB": 24,
+      "parameters": {
+        "type": "start",
+        "case": 6,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 600,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 0,
+      "caseA": 7,
+      "caseB": 25,
+      "parameters": {
+        "type": "start",
+        "case": 7,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 400,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.23256286848144872,
+          "commandRMSRelativeError": 0.625567481371512,
+          "fitScore": 0.26384124255002434
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.23359689948742676,
+          "commandRMSRelativeError": 0.6206031547814027,
+          "fitScore": 0.2646270572264969
+        }
+      },
+      "score": 0.2642341498882606
+    },
+    {
+      "profile": 0,
+      "caseA": 8,
+      "caseB": 26,
+      "parameters": {
+        "type": "start",
+        "case": 8,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 400,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.2290878453046413,
+          "commandRMSRelativeError": 0.5925510140866579,
+          "fitScore": 0.2587153960089742
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.23121598727000037,
+          "commandRMSRelativeError": 0.5873467448866294,
+          "fitScore": 0.26058332451433186
+        }
+      },
+      "score": 0.25964936026165303
+    },
+    {
+      "profile": 0,
+      "caseA": 9,
+      "caseB": 27,
+      "parameters": {
+        "type": "start",
+        "case": 9,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 400,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.1778054158128773,
+          "commandRMSRelativeError": 0.1793214290864397,
+          "fitScore": 0.18677148726719928
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.18544246148583407,
+          "commandRMSRelativeError": 0.19632339521721712,
+          "fitScore": 0.19525863124669493
+        }
+      },
+      "score": 0.19101505925694712
+    },
+    {
+      "profile": 0,
+      "caseA": 10,
+      "caseB": 28,
+      "parameters": {
+        "type": "start",
+        "case": 10,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 600,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.20457197039189695,
+          "commandRMSRelativeError": 0.40664785990393015,
+          "fitScore": 0.22490436338709346
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20776186290887239,
+          "commandRMSRelativeError": 0.3986906643918144,
+          "fitScore": 0.2276963961284631
+        }
+      },
+      "score": 0.22630037975777828
+    },
+    {
+      "profile": 0,
+      "caseA": 11,
+      "caseB": 29,
+      "parameters": {
+        "type": "start",
+        "case": 11,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 600,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.20226667019671465,
+          "commandRMSRelativeError": 0.35156173488749204,
+          "fitScore": 0.21984475694108926
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20606795457639424,
+          "commandRMSRelativeError": 0.34289032049298884,
+          "fitScore": 0.22321247060104368
+        }
+      },
+      "score": 0.22152861377106647
+    },
+    {
+      "profile": 0,
+      "caseA": 12,
+      "caseB": 30,
+      "parameters": {
+        "type": "start",
+        "case": 12,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 600,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.21772591453288878,
+          "commandRMSRelativeError": 0.3780958569020272,
+          "fitScore": 0.23663070737799013
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.21120782229824928,
+          "commandRMSRelativeError": 0.4074687704464488,
+          "fitScore": 0.23158126082057173
+        }
+      },
+      "score": 0.23410598409928093
+    },
+    {
+      "profile": 0,
+      "caseA": 13,
+      "caseB": 31,
+      "parameters": {
+        "type": "start",
+        "case": 13,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 400,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.23311407627975778,
+          "commandRMSRelativeError": 0.6261023083442459,
+          "fitScore": 0.2644191916969701
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.2340757216513087,
+          "commandRMSRelativeError": 0.621107951061555,
+          "fitScore": 0.2651311192043864
+        }
+      },
+      "score": 0.26477515545067826
+    },
+    {
+      "profile": 0,
+      "caseA": 14,
+      "caseB": 32,
+      "parameters": {
+        "type": "start",
+        "case": 14,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 400,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.2309947024788921,
+          "commandRMSRelativeError": 0.6152088160669157,
+          "fitScore": 0.26175514328223787
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.23249292541695427,
+          "commandRMSRelativeError": 0.6101295517233117,
+          "fitScore": 0.26299940300311986
+        }
+      },
+      "score": 0.2623772731426789
+    },
+    {
+      "profile": 0,
+      "caseA": 15,
+      "caseB": 33,
+      "parameters": {
+        "type": "start",
+        "case": 15,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 400,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.15579215353764483,
+          "commandRMSRelativeError": 0.09993021707311202,
+          "fitScore": 0.16078866439130043
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.17887559688357135,
+          "commandRMSRelativeError": 0.09377354137065029,
+          "fitScore": 0.18356427395210387
+        }
+      },
+      "score": 0.17217646917170215
+    },
+    {
+      "profile": 0,
+      "caseA": 16,
+      "caseB": 34,
+      "parameters": {
+        "type": "start",
+        "case": 16,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 600,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.20519607306338047,
+          "commandRMSRelativeError": 0.40767795476225605,
+          "fitScore": 0.22557997080149328
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20828362397380676,
+          "commandRMSRelativeError": 0.3997422162352715,
+          "fitScore": 0.22827073478557033
+        }
+      },
+      "score": 0.22692535279353182
+    },
+    {
+      "profile": 0,
+      "caseA": 17,
+      "caseB": 35,
+      "parameters": {
+        "type": "start",
+        "case": 17,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 600,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.20346293806271806,
+          "commandRMSRelativeError": 0.3968624028457952,
+          "fitScore": 0.22330605820500782
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20699190828376296,
+          "commandRMSRelativeError": 0.3889013966170524,
+          "fitScore": 0.22643697811461558
+        }
+      },
+      "score": 0.2248715181598117
+    },
+    {
+      "profile": 0,
+      "caseA": 18,
+      "caseB": 36,
+      "parameters": {
+        "type": "start",
+        "case": 18,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 600,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.2663815446441385,
+          "commandRMSRelativeError": 0.36740880677028764,
+          "fitScore": 0.28475198498265286
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 1,
+      "caseA": 1,
+      "caseB": 19,
+      "parameters": {
+        "type": "start",
+        "case": 1,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 400,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.22899681344151437,
+          "commandRMSRelativeError": 0.6042056599064606,
+          "fitScore": 0.2592070964368374
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.2309002568136536,
+          "commandRMSRelativeError": 0.5989884493963377,
+          "fitScore": 0.26084967928347047
+        }
+      },
+      "score": 0.2600283878601539
+    },
+    {
+      "profile": 1,
+      "caseA": 2,
+      "caseB": 20,
+      "parameters": {
+        "type": "start",
+        "case": 2,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 400,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.14794625316192966,
+          "commandRMSRelativeError": 0.15826004068880561,
+          "fitScore": 0.15585925519636995
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.16533547915574384,
+          "commandRMSRelativeError": 0.17406680865329288,
+          "fitScore": 0.1740388195884085
+        }
+      },
+      "score": 0.16494903739238923
+    },
+    {
+      "profile": 1,
+      "caseA": 3,
+      "caseB": 21,
+      "parameters": {
+        "type": "start",
+        "case": 3,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 400,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 1,
+      "caseA": 4,
+      "caseB": 22,
+      "parameters": {
+        "type": "start",
+        "case": 4,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 600,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.20102955125171393,
+          "commandRMSRelativeError": 0.39329441177736774,
+          "fitScore": 0.22069427184058232
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20510390556999133,
+          "commandRMSRelativeError": 0.38524083665147935,
+          "fitScore": 0.2243659474025653
+        }
+      },
+      "score": 0.22253010962157382
+    },
+    {
+      "profile": 1,
+      "caseA": 5,
+      "caseB": 23,
+      "parameters": {
+        "type": "start",
+        "case": 5,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 600,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 1,
+      "caseA": 6,
+      "caseB": 24,
+      "parameters": {
+        "type": "start",
+        "case": 6,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 600,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 1,
+      "caseA": 7,
+      "caseB": 25,
+      "parameters": {
+        "type": "start",
+        "case": 7,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 400,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.23292439738228607,
+          "commandRMSRelativeError": 0.6267300704021834,
+          "fitScore": 0.26426090090239523
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.2339376639228582,
+          "commandRMSRelativeError": 0.6217363466170077,
+          "fitScore": 0.2650244812537086
+        }
+      },
+      "score": 0.26464269107805194
+    },
+    {
+      "profile": 1,
+      "caseA": 8,
+      "caseB": 26,
+      "parameters": {
+        "type": "start",
+        "case": 8,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 400,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.22041081242113714,
+          "commandRMSRelativeError": 0.5221748476208754,
+          "fitScore": 0.2465195548021809
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.22244899121906922,
+          "commandRMSRelativeError": 0.5160415384656714,
+          "fitScore": 0.2482510681423528
+        }
+      },
+      "score": 0.24738531147226683
+    },
+    {
+      "profile": 1,
+      "caseA": 9,
+      "caseB": 27,
+      "parameters": {
+        "type": "start",
+        "case": 9,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 400,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.1508270334137833,
+          "commandRMSRelativeError": 0.24665749749335047,
+          "fitScore": 0.16315990828845084
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.14680875389647619,
+          "commandRMSRelativeError": 0.26415275823175155,
+          "fitScore": 0.16001639180806376
+        }
+      },
+      "score": 0.1615881500482573
+    },
+    {
+      "profile": 1,
+      "caseA": 10,
+      "caseB": 28,
+      "parameters": {
+        "type": "start",
+        "case": 10,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 600,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.2047509268257574,
+          "commandRMSRelativeError": 0.4068387702129829,
+          "fitScore": 0.22509286533640654
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20803944875675703,
+          "commandRMSRelativeError": 0.3988779750252299,
+          "fitScore": 0.22798334750801852
+        }
+      },
+      "score": 0.22653810642221253
+    },
+    {
+      "profile": 1,
+      "caseA": 11,
+      "caseB": 29,
+      "parameters": {
+        "type": "start",
+        "case": 11,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 600,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 1,
+      "caseA": 12,
+      "caseB": 30,
+      "parameters": {
+        "type": "start",
+        "case": 12,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 600,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.2639618845060074,
+          "commandRMSRelativeError": 0.5084674039359727,
+          "fitScore": 0.289385254702806
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.2548796879156283,
+          "commandRMSRelativeError": 0.5272443646291656,
+          "fitScore": 0.2812419061470866
+        }
+      },
+      "score": 0.2853135804249463
+    },
+    {
+      "profile": 1,
+      "caseA": 13,
+      "caseB": 31,
+      "parameters": {
+        "type": "start",
+        "case": 13,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 400,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.23300741929965968,
+          "commandRMSRelativeError": 0.6266860419530367,
+          "fitScore": 0.2643417213973115
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.23402988360259458,
+          "commandRMSRelativeError": 0.6216891640404671,
+          "fitScore": 0.26511434180461796
+        }
+      },
+      "score": 0.2647280316009647
+    },
+    {
+      "profile": 1,
+      "caseA": 14,
+      "caseB": 32,
+      "parameters": {
+        "type": "start",
+        "case": 14,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 400,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.2310262606297293,
+          "commandRMSRelativeError": 0.6167606898810366,
+          "fitScore": 0.2618642951237811
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.2324482995024484,
+          "commandRMSRelativeError": 0.6116725783431854,
+          "fitScore": 0.2630319284196077
+        }
+      },
+      "score": 0.2624481117716944
+    },
+    {
+      "profile": 1,
+      "caseA": 15,
+      "caseB": 33,
+      "parameters": {
+        "type": "start",
+        "case": 15,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 400,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.19719978966386054,
+          "commandRMSRelativeError": 0.23856345694210995,
+          "fitScore": 0.20912796251096605
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20785134796083363,
+          "commandRMSRelativeError": 0.2561846876343906,
+          "fitScore": 0.22066058234255315
+        }
+      },
+      "score": 0.2148942724267596
+    },
+    {
+      "profile": 1,
+      "caseA": 16,
+      "caseB": 34,
+      "parameters": {
+        "type": "start",
+        "case": 16,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 600,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.20497550485487806,
+          "commandRMSRelativeError": 0.4080032231178888,
+          "fitScore": 0.2253756660107725
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20827656216240611,
+          "commandRMSRelativeError": 0.4000935076021167,
+          "fitScore": 0.22828123754251195
+        }
+      },
+      "score": 0.22682845177664224
+    },
+    {
+      "profile": 1,
+      "caseA": 17,
+      "caseB": 35,
+      "parameters": {
+        "type": "start",
+        "case": 17,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 600,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.20334371566035447,
+          "commandRMSRelativeError": 0.39474763289846315,
+          "fitScore": 0.22308109730527764
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.2070597942362632,
+          "commandRMSRelativeError": 0.3867366735681105,
+          "fitScore": 0.22639662791466872
+        }
+      },
+      "score": 0.22473886260997317
+    },
+    {
+      "profile": 1,
+      "caseA": 18,
+      "caseB": 36,
+      "parameters": {
+        "type": "start",
+        "case": 18,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 600,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 2,
+      "caseA": 1,
+      "caseB": 19,
+      "parameters": {
+        "type": "start",
+        "case": 1,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 400,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.22377721590049404,
+          "commandRMSRelativeError": 0.5907385563869377,
+          "fitScore": 0.25331414371984096
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.22613530283982025,
+          "commandRMSRelativeError": 0.5853841029653589,
+          "fitScore": 0.2554045079880882
+        }
+      },
+      "score": 0.2543593258539646
+    },
+    {
+      "profile": 2,
+      "caseA": 2,
+      "caseB": 20,
+      "parameters": {
+        "type": "start",
+        "case": 2,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 400,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.18770896544440793,
+          "commandRMSRelativeError": 0.295515221673973,
+          "fitScore": 0.2024847265281066
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20002084519596133,
+          "commandRMSRelativeError": 0.31541238225609164,
+          "fitScore": 0.21579146430876592
+        }
+      },
+      "score": 0.20913809541843625
+    },
+    {
+      "profile": 2,
+      "caseA": 3,
+      "caseB": 21,
+      "parameters": {
+        "type": "start",
+        "case": 3,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 400,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 2,
+      "caseA": 4,
+      "caseB": 22,
+      "parameters": {
+        "type": "start",
+        "case": 4,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 600,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.1976916702145803,
+          "commandRMSRelativeError": 0.33725783172831514,
+          "fitScore": 0.21455456180099608
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.2040676601390372,
+          "commandRMSRelativeError": 0.3179081945599784,
+          "fitScore": 0.21996306986703612
+        }
+      },
+      "score": 0.2172588158340161
+    },
+    {
+      "profile": 2,
+      "caseA": 5,
+      "caseB": 23,
+      "parameters": {
+        "type": "start",
+        "case": 5,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 600,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 2,
+      "caseA": 6,
+      "caseB": 24,
+      "parameters": {
+        "type": "start",
+        "case": 6,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 600,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 2,
+      "caseA": 7,
+      "caseB": 25,
+      "parameters": {
+        "type": "start",
+        "case": 7,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 400,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.22894247285905656,
+          "commandRMSRelativeError": 0.6087998506324318,
+          "fitScore": 0.25938246539067816
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.23093443276850487,
+          "commandRMSRelativeError": 0.6036362086021169,
+          "fitScore": 0.2611162431986107
+        }
+      },
+      "score": 0.26024935429464446
+    },
+    {
+      "profile": 2,
+      "caseA": 8,
+      "caseB": 26,
+      "parameters": {
+        "type": "start",
+        "case": 8,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 400,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.2163325327694948,
+          "commandRMSRelativeError": 0.10410363855396121,
+          "fitScore": 0.22153771469719286
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.24404818683133025,
+          "commandRMSRelativeError": 0.09383443716128077,
+          "fitScore": 0.2487399086893943
+        }
+      },
+      "score": 0.2351388116932936
+    },
+    {
+      "profile": 2,
+      "caseA": 9,
+      "caseB": 27,
+      "parameters": {
+        "type": "start",
+        "case": 9,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 400,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.16794879849280242,
+          "commandRMSRelativeError": 0.2857473017678083,
+          "fitScore": 0.18223616358119282
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.17419275122205222,
+          "commandRMSRelativeError": 0.30194082997861177,
+          "fitScore": 0.1892897927209828
+        }
+      },
+      "score": 0.18576297815108783
+    },
+    {
+      "profile": 2,
+      "caseA": 10,
+      "caseB": 28,
+      "parameters": {
+        "type": "start",
+        "case": 10,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 600,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.20150069849889068,
+          "commandRMSRelativeError": 0.3877889262873009,
+          "fitScore": 0.22089014481325572
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20603157497435853,
+          "commandRMSRelativeError": 0.3797058506181851,
+          "fitScore": 0.22501686750526778
+        }
+      },
+      "score": 0.22295350615926174
+    },
+    {
+      "profile": 2,
+      "caseA": 11,
+      "caseB": 29,
+      "parameters": {
+        "type": "start",
+        "case": 11,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 600,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 2,
+      "caseA": 12,
+      "caseB": 30,
+      "parameters": {
+        "type": "start",
+        "case": 12,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 600,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.26286617915292626,
+          "commandRMSRelativeError": 0.505115627172211,
+          "fitScore": 0.2881219605115368
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.2576470935046916,
+          "commandRMSRelativeError": 0.5335143234989499,
+          "fitScore": 0.28432280967963913
+        }
+      },
+      "score": 0.28622238509558795
+    },
+    {
+      "profile": 2,
+      "caseA": 13,
+      "caseB": 31,
+      "parameters": {
+        "type": "start",
+        "case": 13,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 400,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.23087424584075772,
+          "commandRMSRelativeError": 0.6131713579569018,
+          "fitScore": 0.2615328137386028
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.23280354046658303,
+          "commandRMSRelativeError": 0.6079341788940663,
+          "fitScore": 0.26320024941128634
+        }
+      },
+      "score": 0.2623665315749446
+    },
+    {
+      "profile": 2,
+      "caseA": 14,
+      "caseB": 32,
+      "parameters": {
+        "type": "start",
+        "case": 14,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 400,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.2296551582702734,
+          "commandRMSRelativeError": 0.6053112520853078,
+          "fitScore": 0.2599207208745388
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.23230322448378316,
+          "commandRMSRelativeError": 0.6000533933439496,
+          "fitScore": 0.26230589415098066
+        }
+      },
+      "score": 0.26111330751275974
+    },
+    {
+      "profile": 2,
+      "caseA": 15,
+      "caseB": 33,
+      "parameters": {
+        "type": "start",
+        "case": 15,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 400,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.18118449353282282,
+          "commandRMSRelativeError": 0.08039482762455778,
+          "fitScore": 0.1852042349140507
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20109597429481968,
+          "commandRMSRelativeError": 0.08452376957782257,
+          "fitScore": 0.20532216277371082
+        }
+      },
+      "score": 0.19526319884388077
+    },
+    {
+      "profile": 2,
+      "caseA": 16,
+      "caseB": 34,
+      "parameters": {
+        "type": "start",
+        "case": 16,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 600,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.20318943707016332,
+          "commandRMSRelativeError": 0.396245544828653,
+          "fitScore": 0.22300171431159596
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20728868996345445,
+          "commandRMSRelativeError": 0.38809788234307224,
+          "fitScore": 0.22669358408060808
+        }
+      },
+      "score": 0.224847649196102
+    },
+    {
+      "profile": 2,
+      "caseA": 17,
+      "caseB": 35,
+      "parameters": {
+        "type": "start",
+        "case": 17,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 600,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.20258538433926848,
+          "commandRMSRelativeError": 0.391572418617124,
+          "fitScore": 0.2221640052701247
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20648083822852564,
+          "commandRMSRelativeError": 0.38332964161469785,
+          "fitScore": 0.22564732030926055
+        }
+      },
+      "score": 0.22390566278969262
+    },
+    {
+      "profile": 2,
+      "caseA": 18,
+      "caseB": 36,
+      "parameters": {
+        "type": "start",
+        "case": 18,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 600,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.27203838272849734,
+          "commandRMSRelativeError": 0.5234353589601025,
+          "fitScore": 0.2982101506765025
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.19774335050897682,
+          "commandRMSRelativeError": 0.28997347815283736,
+          "fitScore": 0.21224202441661869
+        }
+      },
+      "score": 0.25522608754656056
+    },
+    {
+      "profile": 3,
+      "caseA": 1,
+      "caseB": 19,
+      "parameters": {
+        "type": "start",
+        "case": 1,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 400,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.159914975404776,
+          "commandRMSRelativeError": 0.12606910324285375,
+          "fitScore": 0.1662184305669187
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.1729042710753601,
+          "commandRMSRelativeError": 0.11651431509530444,
+          "fitScore": 0.17872998683012534
+        }
+      },
+      "score": 0.17247420869852204
+    },
+    {
+      "profile": 3,
+      "caseA": 2,
+      "caseB": 20,
+      "parameters": {
+        "type": "start",
+        "case": 2,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 400,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 3,
+      "caseA": 3,
+      "caseB": 21,
+      "parameters": {
+        "type": "start",
+        "case": 3,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 400,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 3,
+      "caseA": 4,
+      "caseB": 22,
+      "parameters": {
+        "type": "start",
+        "case": 4,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 600,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 3,
+      "caseA": 5,
+      "caseB": 23,
+      "parameters": {
+        "type": "start",
+        "case": 5,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 600,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 3,
+      "caseA": 6,
+      "caseB": 24,
+      "parameters": {
+        "type": "start",
+        "case": 6,
+        "method": 10,
+        "massAxis": 3,
+        "friction_counts": 600,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 512
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 3,
+      "caseA": 7,
+      "caseB": 25,
+      "parameters": {
+        "type": "start",
+        "case": 7,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 400,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.2031779799562511,
+          "commandRMSRelativeError": 0.4945729423888992,
+          "fitScore": 0.22790662707569603
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20802202031999534,
+          "commandRMSRelativeError": 0.4884554653587211,
+          "fitScore": 0.2324447935879314
+        }
+      },
+      "score": 0.23017571033181372
+    },
+    {
+      "profile": 3,
+      "caseA": 8,
+      "caseB": 26,
+      "parameters": {
+        "type": "start",
+        "case": 8,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 400,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.20029639844944094,
+          "commandRMSRelativeError": 0.19373359176836805,
+          "fitScore": 0.20998307803785934
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.21136360807099158,
+          "commandRMSRelativeError": 0.20954386873219927,
+          "fitScore": 0.22184080150760155
+        }
+      },
+      "score": 0.21591193977273043
+    },
+    {
+      "profile": 3,
+      "caseA": 9,
+      "caseB": 27,
+      "parameters": {
+        "type": "start",
+        "case": 9,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 400,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.16078067272469646,
+          "commandRMSRelativeError": 0.30342750547701036,
+          "fitScore": 0.17595204799854697
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.16498212611893295,
+          "commandRMSRelativeError": 0.32061562296634954,
+          "fitScore": 0.18101290726725044
+        }
+      },
+      "score": 0.1784824776328987
+    },
+    {
+      "profile": 3,
+      "caseA": 10,
+      "caseB": 28,
+      "parameters": {
+        "type": "start",
+        "case": 10,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 600,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.18447259605357597,
+          "commandRMSRelativeError": 0.30097139636548115,
+          "fitScore": 0.19952116587185004
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.19208267392893502,
+          "commandRMSRelativeError": 0.29222879524288575,
+          "fitScore": 0.20669411369107932
+        }
+      },
+      "score": 0.20310763978146468
+    },
+    {
+      "profile": 3,
+      "caseA": 11,
+      "caseB": 29,
+      "parameters": {
+        "type": "start",
+        "case": 11,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 600,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 3,
+      "caseA": 12,
+      "caseB": 30,
+      "parameters": {
+        "type": "start",
+        "case": 12,
+        "method": 10,
+        "massAxis": 6,
+        "friction_counts": 600,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.2563664389768619,
+          "commandRMSRelativeError": 0.4774758432325264,
+          "fitScore": 0.2802402311384882
+        },
+        "B": {
+          "complete": false,
+          "positionRMSE_mm": null,
+          "commandRMSRelativeError": null,
+          "fitScore": null,
+          "fault": 1024
+        }
+      },
+      "score": null
+    },
+    {
+      "profile": 3,
+      "caseA": 13,
+      "caseB": 31,
+      "parameters": {
+        "type": "start",
+        "case": 13,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 400,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.2265712941542399,
+          "commandRMSRelativeError": 0.5863124325214998,
+          "fitScore": 0.2558869157803149
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.2298806967392786,
+          "commandRMSRelativeError": 0.5808491722297116,
+          "fitScore": 0.25892315535076416
+        }
+      },
+      "score": 0.2574050355655395
+    },
+    {
+      "profile": 3,
+      "caseA": 14,
+      "caseB": 32,
+      "parameters": {
+        "type": "start",
+        "case": 14,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 400,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.22110491423002884,
+          "commandRMSRelativeError": 0.5333719886366532,
+          "fitScore": 0.2477735136618615
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.2290145198180203,
+          "commandRMSRelativeError": 0.5273652753186041,
+          "fitScore": 0.2553827835839505
+        }
+      },
+      "score": 0.251578148622906
+    },
+    {
+      "profile": 3,
+      "caseA": 15,
+      "caseB": 33,
+      "parameters": {
+        "type": "start",
+        "case": 15,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 400,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.20251608509798444,
+          "commandRMSRelativeError": 0.2376824538409093,
+          "fitScore": 0.2144002077900299
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.21472629793682738,
+          "commandRMSRelativeError": 0.25450441067992713,
+          "fitScore": 0.22745151847082373
+        }
+      },
+      "score": 0.22092586313042684
+    },
+    {
+      "profile": 3,
+      "caseA": 16,
+      "caseB": 34,
+      "parameters": {
+        "type": "start",
+        "case": 16,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 600,
+        "delay_ms": 0,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.1996309369045695,
+          "commandRMSRelativeError": 0.3799879621187351,
+          "fitScore": 0.21863033501050627
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20501921058832126,
+          "commandRMSRelativeError": 0.37177927402553756,
+          "fitScore": 0.22360817428959814
+        }
+      },
+      "score": 0.22111925465005222
+    },
+    {
+      "profile": 3,
+      "caseA": 17,
+      "caseB": 35,
+      "parameters": {
+        "type": "start",
+        "case": 17,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 600,
+        "delay_ms": 3,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.19386443829845243,
+          "commandRMSRelativeError": 0.3149343528848352,
+          "fitScore": 0.2096111559426942
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.20305624230367184,
+          "commandRMSRelativeError": 0.30607656641571446,
+          "fitScore": 0.21836007062445756
+        }
+      },
+      "score": 0.21398561328357588
+    },
+    {
+      "profile": 3,
+      "caseA": 18,
+      "caseB": 36,
+      "parameters": {
+        "type": "start",
+        "case": 18,
+        "method": 10,
+        "massAxis": 9,
+        "friction_counts": 600,
+        "delay_ms": 6,
+        "right_limit": 1200
+      },
+      "training": {
+        "A": {
+          "complete": true,
+          "positionRMSE_mm": 0.16678956203929082,
+          "commandRMSRelativeError": 0.26415037498152794,
+          "fitScore": 0.1799970807883672
+        },
+        "B": {
+          "complete": true,
+          "positionRMSE_mm": 0.19744790775743176,
+          "commandRMSRelativeError": 0.44489107713942366,
+          "fitScore": 0.21969246161440295
+        }
+      },
+      "score": 0.19984477120138508
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "status": "Frozen new-belt run011 prediction, no fitting",
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run011.csv",
+  "sourceSHA256": "e7e38ee5980fca58f656ac36ffe52d37b505909b4dee49e53acba25dbd306173",
+  "captureVerificationSHA256": "e99a474a1c8c4b191d32f7d40fa0ea08196b2f28cd8778c0b6ef6b738d7d50fd",
+  "preCaptureProtocolSHA256": "38cd6d2b0cf3d0d0e61c1cedd836a5826dd24b258d5714d43645f8ab65a65092",
+  "models": [
+    {
+      "label": "nominal_R96",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\aggregate_calibration_round96_20261015\\model_parameters_no_motor.json",
+      "sha256": "2d66275627876b0e229abcbbf096d821a8960eff5f9e42b941c9a4b12ebf1db6"
+    },
+    {
+      "label": "R98_effective_gains",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_calibration_round98_20261015\\model_parameters_effective_gains.json",
+      "sha256": "db6ff56b4a52c93637d4801540113d0ba4e17325e34b7b80fb45d82ac9afccd2"
+    },
+    {
+      "label": "R98_friction_scales",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_calibration_round98_20261015\\model_parameters_friction_scales.json",
+      "sha256": "13ec4b574e2e60086d7a200c89a5cf08a2ad0929278063f55aa282178da3557f"
+    },
+    {
+      "label": "R98_damping_stiffness",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_calibration_round98_20261015\\model_parameters_damping_stiffness.json",
+      "sha256": "0ba3cdc5eaebfc43cc938c48da1975410ac0283a71396fd747ae5247bc7ac660"
+    }
+  ],
+  "actualTrackingRMSE_mm": 0.33539110378780057,
+  "actualSyncRMS_mm": 0.08556856899586424,
+  "cases": [
+    {
+      "model": "nominal_R96",
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 11.290097612731255,
+      "predictedSyncRMS_mm": 0.1509740043848609,
+      "trackingDifference_percent": 3266.2483844158296,
+      "syncDifference_percent": 76.4362851412858,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        11.238091343617889,
+        11.284901981076326
+      ]
+    },
+    {
+      "model": "R98_effective_gains",
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 1.9763153447451145,
+      "predictedSyncRMS_mm": 0.011489886857580463,
+      "trackingDifference_percent": 489.25693687913514,
+      "syncDifference_percent": -86.57230453610157,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        1.8662974253853544,
+        1.8680518428298518
+      ]
+    },
+    {
+      "model": "R98_friction_scales",
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 1.313985231794863,
+      "predictedSyncRMS_mm": 0.13565547353498125,
+      "trackingDifference_percent": 291.77700808254343,
+      "syncDifference_percent": 58.53423181768746,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        1.0424803403422078,
+        1.0993642856214692
+      ]
+    },
+    {
+      "model": "R98_damping_stiffness",
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 1.0822831009606497,
+      "predictedSyncRMS_mm": 0.043412123882620626,
+      "trackingDifference_percent": 222.6928468697256,
+      "syncDifference_percent": -49.26627336175407,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.8991970376396947,
+        0.88163524203607
+      ]
+    }
+  ],
+  "numericalVerification": {
+    "passed": true,
+    "checks": [
+      {
+        "model": "nominal_R96",
+        "nativeCPropagationSteps": 20000,
+        "independentPythonSteps": 500,
+        "maximumNativePositionDifference_m": 0.0,
+        "maximumIndependentStateDifference": 6.938893903907228e-18,
+        "maximumFilterConvolutionDifference_counts": 0.0
+      },
+      {
+        "model": "R98_effective_gains",
+        "nativeCPropagationSteps": 20000,
+        "independentPythonSteps": 500,
+        "maximumNativePositionDifference_m": 0.0,
+        "maximumIndependentStateDifference": 1.4094628242311558e-18,
+        "maximumFilterConvolutionDifference_counts": 0.0
+      },
+      {
+        "model": "R98_friction_scales",
+        "nativeCPropagationSteps": 20000,
+        "independentPythonSteps": 500,
+        "maximumNativePositionDifference_m": 0.0,
+        "maximumIndependentStateDifference": 3.0357660829594124e-18,
+        "maximumFilterConvolutionDifference_counts": 0.0
+      },
+      {
+        "model": "R98_damping_stiffness",
+        "nativeCPropagationSteps": 20000,
+        "independentPythonSteps": 500,
+        "maximumNativePositionDifference_m": 0.0,
+        "maximumIndependentStateDifference": 4.87890977618477e-19,
+        "maximumFilterConvolutionDifference_counts": 0.0
+      }
+    ]
+  },
+  "modelsRefitted": 0,
+  "run011UsedForCalibration": false,
+  "evaluationProtocolSHA256": "209430de5cf15392ff86502c7ce395485907c1ddf75ea22179a00190bd3b9800",
+  "allParametersFrozenBeforeNewCapture": true,
+  "all400MetricsAndFullMovingSnapshotsUsable": true,
+  "strictFullRecordingProtocolQualified": true,
+  "qualificationScope": "Entire capture; no excluded rows or missing frames",
+  "recordingLimitations": "CSV positions exported5 decimals; use CRC integer encoders and identical frozen C reference rounded6 decimals as firmware statistics. No motion metrics imputed.",
+  "movingInputResolution_ms": 1,
+  "holdingInputRepresentation": "40-control-step recorded integral held as mean, unchanged old approximation",
+  "provisionalAggregateScreen": {
+    "trackingAbsoluteRelativeErrorMaximum": 0.15,
+    "syncAbsoluteRelativeErrorMaximum": 0.15,
+    "waveformIsHardGate": false,
+    "R98dampingMetricsPassed": false,
+    "allFamiliesPassed": {
+      "nominal_R96": false,
+      "R98_effective_gains": false,
+      "R98_friction_scales": false,
+      "R98_damping_stiffness": false
+    },
+    "scope": "Current record aggregate prediction only; not full physical model validation"
+  },
+  "dampingVsNominal": {
+    "trackingAbsoluteRelativeErrorReduced": true,
+    "syncAbsoluteRelativeErrorReduced": true
+  },
+  "physicalModelValidated": false,
+  "simulationType": "Forced recorded queued-input replay; not autonomous closed loop",
+  "measuredFutureStateOrCurrentInjected": false,
+  "parametersOrFirmwareChanged": false,
+  "assistantHardwareAction": false,
+  "newPhysicalRunReleased": false,
+  "nextStep": "Report frozen result before any optional new-regime cumulative refit. No further identical trial automatically. User-selected regime is new synchronous belt; do not merge earlier unknown-belt-condition observations into objective."
+}

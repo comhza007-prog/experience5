@@ -1,0 +1,17 @@
+{
+  "date":"2026-10-15",
+  "scope":"One bounded offline finite-resolution low-motion/release diagnostic using existing tightened T1/newQ2. No model fit, friction parameter, controller edit or hardware trial.",
+  "sources":["identification_t1_fullmoving_round70_20261015/build68112_d1184a41428b_analysis.json","q2_mechanical_recheck_round73_20261015/build68012_84bbb6e34165_analysis.json"],
+  "tests":[
+    "All complete moving phases2/4 retained. Distinguish single1mszero encoder increments from all-endpoint encoder range<=1count over fixed20/50step windows, with actualelapsed duration.",
+    "Report both low-motion alone and low-motion with meanabsqueuedcommand>=50counts.50counts is a diagnostic command-presence threshold,not identified breakawayforce. Count nonoverlap windows separately from overlapping endpoint coverage; do not treat either as independent experiments.",
+    "For fixed50step low-motion windows require next20step endpoint displacement magnitude>=5counts for a resolvable release candidate. Enumerate all candidates,merge adjacent candidate endpoint indices and retain the LAST endpoint of each cluster before comparing events. Require meanabsqueuedcommand>=50and at least80percentnonzero commands with the majority sign for loaded candidates. Exclude events without full prior/future windows. No fitted friction threshold or outcome-based selection.",
+    "Report whether the other axis moves>=5counts during the preceding50steps. A rotorencoder plateau/release need not mean actual carriage stiction,staticfriction, backlashor single physicalcause.",
+    "At native40ms motion samples, report fraction of frozenRound72 sync waveform predictionSSE falling inside each low-motion-window class. Use previous rawendpoint/corestep alignment. Windows adjacent to phase boundaries are explicitly counted as unavailable rather than padded.",
+    "Compare outward/return and T1/newQ2,including all negative cases. No RPMoffset/quantizer fit or mechanicalstructure added."
+  ],
+  "windowSteps":[20,50],"rangeMaximumCounts":1,"commandPresenceMeanAbsCounts":50,
+  "releaseLookaheadSteps":20,"releaseMinimumCounts":5,"signConsistencyMinimum":0.8,
+  "interpretation":"Finiteencoderresolution and closedloop/coupledloads preclude identifying intrinsicstaticfriction from these events alone. Plateau co-occurrence cannot prove causation. Do not add friction-memory parameters unless evidence distinguishes that hypothesis from quantization, slowtracking or feedbackdynamics.",
+  "modelsFitted":0,"newQ2CalibrationAllowed":false,"physicalRunReleased":false
+}

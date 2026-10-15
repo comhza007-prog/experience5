@@ -1,0 +1,13 @@
+{
+  "offlineDesignComplete":true,
+  "chosenHardAmplitudeCondition":null,
+  "reason":"Observed2mm attempted commands do not establish hard clipping at800. Symmetric1000 and mirrored-left800 have no hard clipping in successful assumed cases. Symmetric800/right800 add terminal failures. Models are not identified, so neither absence nor presence predicts hardware safety.",
+  "maskSemanticsConfirmedInSource":"CA mask1 denotes NN300-count increment cap; reason2 denotes hard clipping. Near-hard-edge counters are not general clipping counters.",
+  "archiveAndBenchmarkRetained":true,
+  "doNotFurtherReduceLimitsOrAddLoad":true,
+  "nextOfflineScope":"ExistingA2mm condition has observed normal projection/rate/sector/speed activity. Investigate exactly one synchronization-component-priority normal projection rule on this feasible set, not stronger current/load/stroke or a hard-saturation benefit claim.",
+  "candidateNotChosenByConditionPerformance":true,
+  "hardwareReleased":false,
+  "firmwareBuilt":false,
+  "physicalRuns":0
+}

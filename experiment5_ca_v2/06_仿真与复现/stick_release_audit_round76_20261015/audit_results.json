@@ -1,0 +1,899 @@
+{
+  "date": "2026-10-15",
+  "protocolSHA256": "8527e480d11b7850389c619aecfa91ab82d02d66afa724abe3a5858f5bff002a",
+  "scriptSHA256": "292e3700c7aba322f846761b0f4f79017274286a4387c86830cc1aad6110b8b8",
+  "sources": [
+    {
+      "record": "T1",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\identification_t1_fullmoving_round70_20261015\\build68112_d1184a41428b_analysis.json",
+      "decodedSHA256": "16ae14e84c7cb662eafa59d49a8c4ad94115ae74ca85c2012984ecb5c874c021",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\辨识T1_全运动段_20261015\\E5ID_T1F_BLNN_B68112_HW6_PRBS20_10_seed39_L1200_R1200_M0g_S2mm_run01.csv",
+      "rawSHA256": "d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0"
+    },
+    {
+      "record": "newQ2",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_mechanical_recheck_round73_20261015\\build68012_84bbb6e34165_analysis.json",
+      "decodedSHA256": "1b23fd6f8ac066edbeb53ac54e8cabbd64a25d063f39e368ada73442d8b85da4",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run02.csv",
+      "rawSHA256": "84bbb6e3416540a238354d7636a6bc4e6f5ba0cd2d090470e3eb1bba1ce153db"
+    }
+  ],
+  "records": [
+    {
+      "record": "T1",
+      "phases": [
+        {
+          "phase": 2,
+          "movingRows": 4000,
+          "encoderPitch_mm": 0.0012110374427720672,
+          "single1msZeroIncrementFractions": [
+            0.558,
+            0.69975
+          ],
+          "windowAxisDiagnostics": [
+            {
+              "axis": 0,
+              "windowSteps": 20,
+              "actualDurationRange_ms": [
+                19.993999999999687,
+                20.006000000000313
+              ],
+              "overlapWindows": 3981,
+              "lowMotionOverlapWindows": 1346,
+              "loadedLowMotionOverlapWindows": 829,
+              "nonoverlapWindows": 200,
+              "lowMotionNonoverlapWindows": 69,
+              "loadedLowMotionNonoverlapWindows": 43,
+              "nativeSamplesWithFullPriorWindow": 99,
+              "nativeSamplesWithoutFullPriorWindow": 1,
+              "nativeLowMotionSamples": 36,
+              "nativeLoadedLowMotionSamples": 24,
+              "nativeSyncErrorSSEInLowMotion_percent": 9.610795074631467,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 9.608223349209444
+            },
+            {
+              "axis": 1,
+              "windowSteps": 20,
+              "actualDurationRange_ms": [
+                19.993999999999687,
+                20.006000000000313
+              ],
+              "overlapWindows": 3981,
+              "lowMotionOverlapWindows": 1821,
+              "loadedLowMotionOverlapWindows": 1086,
+              "nonoverlapWindows": 200,
+              "lowMotionNonoverlapWindows": 88,
+              "loadedLowMotionNonoverlapWindows": 51,
+              "nativeSamplesWithFullPriorWindow": 99,
+              "nativeSamplesWithoutFullPriorWindow": 1,
+              "nativeLowMotionSamples": 42,
+              "nativeLoadedLowMotionSamples": 24,
+              "nativeSyncErrorSSEInLowMotion_percent": 2.328183024554829,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 2.2235137998786088
+            },
+            {
+              "axis": 0,
+              "windowSteps": 50,
+              "actualDurationRange_ms": [
+                49.99399999999969,
+                50.00600000000031
+              ],
+              "overlapWindows": 3951,
+              "lowMotionOverlapWindows": 837,
+              "loadedLowMotionOverlapWindows": 294,
+              "nonoverlapWindows": 80,
+              "lowMotionNonoverlapWindows": 16,
+              "loadedLowMotionNonoverlapWindows": 5,
+              "nativeSamplesWithFullPriorWindow": 98,
+              "nativeSamplesWithoutFullPriorWindow": 2,
+              "nativeLowMotionSamples": 23,
+              "nativeLoadedLowMotionSamples": 10,
+              "nativeSyncErrorSSEInLowMotion_percent": 7.016695641439747,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 7.0118093631379095
+            },
+            {
+              "axis": 1,
+              "windowSteps": 50,
+              "actualDurationRange_ms": [
+                49.99399999999969,
+                50.00600000000031
+              ],
+              "overlapWindows": 3951,
+              "lowMotionOverlapWindows": 1085,
+              "loadedLowMotionOverlapWindows": 411,
+              "nonoverlapWindows": 80,
+              "lowMotionNonoverlapWindows": 24,
+              "loadedLowMotionNonoverlapWindows": 10,
+              "nativeSamplesWithFullPriorWindow": 98,
+              "nativeSamplesWithoutFullPriorWindow": 2,
+              "nativeLowMotionSamples": 25,
+              "nativeLoadedLowMotionSamples": 9,
+              "nativeSyncErrorSSEInLowMotion_percent": 0.27414592998734727,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 0.19030768122948905
+            }
+          ],
+          "windowUnionNativeErrorDiagnostics": [
+            {
+              "windowSteps": 20,
+              "validNativeSamples": 99,
+              "missingPriorWindowNativeSamples": 1,
+              "anyAxisLowMotionNativeSamples": 53,
+              "anyAxisLoadedLowMotionNativeSamples": 37,
+              "syncPredictionSSEInAnyAxisLowMotion_percent": 11.608254209914504,
+              "syncPredictionSSEInAnyAxisLoadedLowMotion_percent": 11.5058995381181
+            },
+            {
+              "windowSteps": 50,
+              "validNativeSamples": 98,
+              "missingPriorWindowNativeSamples": 2,
+              "anyAxisLowMotionNativeSamples": 32,
+              "anyAxisLoadedLowMotionNativeSamples": 16,
+              "syncPredictionSSEInAnyAxisLowMotion_percent": 7.2638384544958825,
+              "syncPredictionSSEInAnyAxisLoadedLowMotion_percent": 7.180000205738026
+            }
+          ],
+          "releaseEvents": [
+            {
+              "axis": 0,
+              "overlapReleaseCandidates": 92,
+              "releaseClusters": 9,
+              "loadedSignConsistentClusters": 9,
+              "interiorLoadedClusters": 9,
+              "events": [
+                {
+                  "endpointStep": 844,
+                  "phaseTime_ms": 843.9979999999996,
+                  "priorRange_counts": 0,
+                  "priorMeanAbsCommand_counts": 176.52,
+                  "priorMeanCommand_counts": 176.52,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 5,
+                  "otherAxisPriorDisplacement_counts": -3,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 947,
+                  "phaseTime_ms": 946.9979999999996,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 216.68,
+                  "priorMeanCommand_counts": 216.68,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 13,
+                  "otherAxisPriorDisplacement_counts": -4,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 1452,
+                  "phaseTime_ms": 1451.9979999999996,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 463.78,
+                  "priorMeanCommand_counts": 463.78,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 9,
+                  "otherAxisPriorDisplacement_counts": -2,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 1520,
+                  "phaseTime_ms": 1520.0,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 514.5,
+                  "priorMeanCommand_counts": 514.5,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 14,
+                  "otherAxisPriorDisplacement_counts": -21,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 1946,
+                  "phaseTime_ms": 1945.9979999999996,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 276.72,
+                  "priorMeanCommand_counts": 276.72,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 7,
+                  "otherAxisPriorDisplacement_counts": 0,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 2065,
+                  "phaseTime_ms": 2064.9979999999996,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 389.3,
+                  "priorMeanCommand_counts": 389.3,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 7,
+                  "otherAxisPriorDisplacement_counts": -4,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 2220,
+                  "phaseTime_ms": 2219.999,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 518.9,
+                  "priorMeanCommand_counts": 518.9,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 7,
+                  "otherAxisPriorDisplacement_counts": -3,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 3170,
+                  "phaseTime_ms": 3169.999,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 506.2,
+                  "priorMeanCommand_counts": 506.2,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 5,
+                  "otherAxisPriorDisplacement_counts": -66,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 3551,
+                  "phaseTime_ms": 3550.9979999999996,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 243.8,
+                  "priorMeanCommand_counts": 243.8,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 10,
+                  "otherAxisPriorDisplacement_counts": -111,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                }
+              ],
+              "clusteringRule": "Consecutive candidate endpoints, last endpoint retained; all clusters reported."
+            },
+            {
+              "axis": 1,
+              "overlapReleaseCandidates": 46,
+              "releaseClusters": 8,
+              "loadedSignConsistentClusters": 8,
+              "interiorLoadedClusters": 8,
+              "events": [
+                {
+                  "endpointStep": 739,
+                  "phaseTime_ms": 738.9979999999996,
+                  "priorRange_counts": 0,
+                  "priorMeanAbsCommand_counts": 107.52,
+                  "priorMeanCommand_counts": -107.52,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": -5,
+                  "otherAxisPriorDisplacement_counts": 0,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 936,
+                  "phaseTime_ms": 935.9979999999996,
+                  "priorRange_counts": 0,
+                  "priorMeanAbsCommand_counts": 189.66,
+                  "priorMeanCommand_counts": -189.66,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": -5,
+                  "otherAxisPriorDisplacement_counts": 0,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 1218,
+                  "phaseTime_ms": 1217.9979999999996,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 303.12,
+                  "priorMeanCommand_counts": -303.12,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": -5,
+                  "otherAxisPriorDisplacement_counts": 0,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 1323,
+                  "phaseTime_ms": 1322.9979999999996,
+                  "priorRange_counts": 0,
+                  "priorMeanAbsCommand_counts": 396.36,
+                  "priorMeanCommand_counts": -396.36,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": -5,
+                  "otherAxisPriorDisplacement_counts": 2,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 1329,
+                  "phaseTime_ms": 1328.9979999999996,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 400.84,
+                  "priorMeanCommand_counts": -400.84,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": -5,
+                  "otherAxisPriorDisplacement_counts": 1,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 1451,
+                  "phaseTime_ms": 1450.9979999999996,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 491.24,
+                  "priorMeanCommand_counts": -491.24,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": -6,
+                  "otherAxisPriorDisplacement_counts": 1,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 2794,
+                  "phaseTime_ms": 2793.9979999999996,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 391.04,
+                  "priorMeanCommand_counts": -391.04,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": -5,
+                  "otherAxisPriorDisplacement_counts": 8,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 3350,
+                  "phaseTime_ms": 3349.999,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 463.52,
+                  "priorMeanCommand_counts": -463.52,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": -7,
+                  "otherAxisPriorDisplacement_counts": 84,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                }
+              ],
+              "clusteringRule": "Consecutive candidate endpoints, last endpoint retained; all clusters reported."
+            }
+          ],
+          "rawCountsRetainedNotConvertedToExactVelocity": true
+        },
+        {
+          "phase": 4,
+          "movingRows": 4000,
+          "encoderPitch_mm": 0.0012110374427720672,
+          "single1msZeroIncrementFractions": [
+            0.39525,
+            0.696
+          ],
+          "windowAxisDiagnostics": [
+            {
+              "axis": 0,
+              "windowSteps": 20,
+              "actualDurationRange_ms": [
+                19.993999999998778,
+                20.006000000001222
+              ],
+              "overlapWindows": 3981,
+              "lowMotionOverlapWindows": 755,
+              "loadedLowMotionOverlapWindows": 755,
+              "nonoverlapWindows": 200,
+              "lowMotionNonoverlapWindows": 37,
+              "loadedLowMotionNonoverlapWindows": 37,
+              "nativeSamplesWithFullPriorWindow": 99,
+              "nativeSamplesWithoutFullPriorWindow": 1,
+              "nativeLowMotionSamples": 17,
+              "nativeLoadedLowMotionSamples": 17,
+              "nativeSyncErrorSSEInLowMotion_percent": 3.3301059516444664,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 3.3301059516444664
+            },
+            {
+              "axis": 1,
+              "windowSteps": 20,
+              "actualDurationRange_ms": [
+                19.993999999998778,
+                20.006000000001222
+              ],
+              "overlapWindows": 3981,
+              "lowMotionOverlapWindows": 1898,
+              "loadedLowMotionOverlapWindows": 1848,
+              "nonoverlapWindows": 200,
+              "lowMotionNonoverlapWindows": 95,
+              "loadedLowMotionNonoverlapWindows": 92,
+              "nativeSamplesWithFullPriorWindow": 99,
+              "nativeSamplesWithoutFullPriorWindow": 1,
+              "nativeLowMotionSamples": 46,
+              "nativeLoadedLowMotionSamples": 44,
+              "nativeSyncErrorSSEInLowMotion_percent": 6.567300107400529,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 5.901048937378842
+            },
+            {
+              "axis": 0,
+              "windowSteps": 50,
+              "actualDurationRange_ms": [
+                49.99399999999878,
+                50.00600000000122
+              ],
+              "overlapWindows": 3951,
+              "lowMotionOverlapWindows": 617,
+              "loadedLowMotionOverlapWindows": 617,
+              "nonoverlapWindows": 80,
+              "lowMotionNonoverlapWindows": 12,
+              "loadedLowMotionNonoverlapWindows": 12,
+              "nativeSamplesWithFullPriorWindow": 98,
+              "nativeSamplesWithoutFullPriorWindow": 2,
+              "nativeLowMotionSamples": 15,
+              "nativeLoadedLowMotionSamples": 15,
+              "nativeSyncErrorSSEInLowMotion_percent": 1.960919603676208,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 1.960919603676208
+            },
+            {
+              "axis": 1,
+              "windowSteps": 50,
+              "actualDurationRange_ms": [
+                49.99399999999878,
+                50.00600000000122
+              ],
+              "overlapWindows": 3951,
+              "lowMotionOverlapWindows": 1275,
+              "loadedLowMotionOverlapWindows": 1244,
+              "nonoverlapWindows": 80,
+              "lowMotionNonoverlapWindows": 25,
+              "loadedLowMotionNonoverlapWindows": 25,
+              "nativeSamplesWithFullPriorWindow": 98,
+              "nativeSamplesWithoutFullPriorWindow": 2,
+              "nativeLowMotionSamples": 31,
+              "nativeLoadedLowMotionSamples": 30,
+              "nativeSyncErrorSSEInLowMotion_percent": 3.4383940974618117,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 3.0517760052990495
+            }
+          ],
+          "windowUnionNativeErrorDiagnostics": [
+            {
+              "windowSteps": 20,
+              "validNativeSamples": 99,
+              "missingPriorWindowNativeSamples": 1,
+              "anyAxisLowMotionNativeSamples": 48,
+              "anyAxisLoadedLowMotionNativeSamples": 46,
+              "syncPredictionSSEInAnyAxisLowMotion_percent": 7.936599198290799,
+              "syncPredictionSSEInAnyAxisLoadedLowMotion_percent": 7.270348028269112
+            },
+            {
+              "windowSteps": 50,
+              "validNativeSamples": 98,
+              "missingPriorWindowNativeSamples": 2,
+              "anyAxisLowMotionNativeSamples": 33,
+              "anyAxisLoadedLowMotionNativeSamples": 32,
+              "syncPredictionSSEInAnyAxisLowMotion_percent": 3.7107057102641368,
+              "syncPredictionSSEInAnyAxisLoadedLowMotion_percent": 3.324087618101375
+            }
+          ],
+          "releaseEvents": [
+            {
+              "axis": 0,
+              "overlapReleaseCandidates": 5,
+              "releaseClusters": 1,
+              "loadedSignConsistentClusters": 1,
+              "interiorLoadedClusters": 1,
+              "events": [
+                {
+                  "endpointStep": 2797,
+                  "phaseTime_ms": 2796.999,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 468.52,
+                  "priorMeanCommand_counts": -468.52,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": -5,
+                  "otherAxisPriorDisplacement_counts": 6,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                }
+              ],
+              "clusteringRule": "Consecutive candidate endpoints, last endpoint retained; all clusters reported."
+            },
+            {
+              "axis": 1,
+              "overlapReleaseCandidates": 32,
+              "releaseClusters": 5,
+              "loadedSignConsistentClusters": 5,
+              "interiorLoadedClusters": 5,
+              "events": [
+                {
+                  "endpointStep": 1027,
+                  "phaseTime_ms": 1026.9989999999998,
+                  "priorRange_counts": 0,
+                  "priorMeanAbsCommand_counts": 562.18,
+                  "priorMeanCommand_counts": 562.18,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 6,
+                  "otherAxisPriorDisplacement_counts": 1,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 1680,
+                  "phaseTime_ms": 1680.0010000000002,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 250.4,
+                  "priorMeanCommand_counts": 250.4,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 7,
+                  "otherAxisPriorDisplacement_counts": -33,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 1763,
+                  "phaseTime_ms": 1762.9989999999998,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 356.58,
+                  "priorMeanCommand_counts": 356.58,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 7,
+                  "otherAxisPriorDisplacement_counts": -5,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 1829,
+                  "phaseTime_ms": 1828.9989999999998,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 416.48,
+                  "priorMeanCommand_counts": 416.48,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 5,
+                  "otherAxisPriorDisplacement_counts": -2,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 2777,
+                  "phaseTime_ms": 2776.999,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 591.02,
+                  "priorMeanCommand_counts": 591.02,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 5,
+                  "otherAxisPriorDisplacement_counts": 0,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                }
+              ],
+              "clusteringRule": "Consecutive candidate endpoints, last endpoint retained; all clusters reported."
+            }
+          ],
+          "rawCountsRetainedNotConvertedToExactVelocity": true
+        }
+      ]
+    },
+    {
+      "record": "newQ2",
+      "phases": [
+        {
+          "phase": 2,
+          "movingRows": 4000,
+          "encoderPitch_mm": 0.0012110374427720672,
+          "single1msZeroIncrementFractions": [
+            0.485,
+            0.62725
+          ],
+          "windowAxisDiagnostics": [
+            {
+              "axis": 0,
+              "windowSteps": 20,
+              "actualDurationRange_ms": [
+                19.993999999999687,
+                20.006000000000313
+              ],
+              "overlapWindows": 3981,
+              "lowMotionOverlapWindows": 1146,
+              "loadedLowMotionOverlapWindows": 649,
+              "nonoverlapWindows": 200,
+              "lowMotionNonoverlapWindows": 60,
+              "loadedLowMotionNonoverlapWindows": 35,
+              "nativeSamplesWithFullPriorWindow": 99,
+              "nativeSamplesWithoutFullPriorWindow": 1,
+              "nativeLowMotionSamples": 25,
+              "nativeLoadedLowMotionSamples": 13,
+              "nativeSyncErrorSSEInLowMotion_percent": 0.6919137867970808,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 0.6919137867970808
+            },
+            {
+              "axis": 1,
+              "windowSteps": 20,
+              "actualDurationRange_ms": [
+                19.993999999999687,
+                20.006000000000313
+              ],
+              "overlapWindows": 3981,
+              "lowMotionOverlapWindows": 1322,
+              "loadedLowMotionOverlapWindows": 819,
+              "nonoverlapWindows": 200,
+              "lowMotionNonoverlapWindows": 68,
+              "loadedLowMotionNonoverlapWindows": 42,
+              "nativeSamplesWithFullPriorWindow": 99,
+              "nativeSamplesWithoutFullPriorWindow": 1,
+              "nativeLowMotionSamples": 32,
+              "nativeLoadedLowMotionSamples": 19,
+              "nativeSyncErrorSSEInLowMotion_percent": 2.8760312665104286,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 2.8760312665104286
+            },
+            {
+              "axis": 0,
+              "windowSteps": 50,
+              "actualDurationRange_ms": [
+                49.99399999999969,
+                50.00600000000031
+              ],
+              "overlapWindows": 3951,
+              "lowMotionOverlapWindows": 757,
+              "loadedLowMotionOverlapWindows": 275,
+              "nonoverlapWindows": 80,
+              "lowMotionNonoverlapWindows": 15,
+              "loadedLowMotionNonoverlapWindows": 5,
+              "nativeSamplesWithFullPriorWindow": 98,
+              "nativeSamplesWithoutFullPriorWindow": 2,
+              "nativeLowMotionSamples": 17,
+              "nativeLoadedLowMotionSamples": 5,
+              "nativeSyncErrorSSEInLowMotion_percent": 0.11718167901702874,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 0.11718167901702874
+            },
+            {
+              "axis": 1,
+              "windowSteps": 50,
+              "actualDurationRange_ms": [
+                49.99399999999969,
+                50.00600000000031
+              ],
+              "overlapWindows": 3951,
+              "lowMotionOverlapWindows": 720,
+              "loadedLowMotionOverlapWindows": 226,
+              "nonoverlapWindows": 80,
+              "lowMotionNonoverlapWindows": 14,
+              "loadedLowMotionNonoverlapWindows": 4,
+              "nativeSamplesWithFullPriorWindow": 98,
+              "nativeSamplesWithoutFullPriorWindow": 2,
+              "nativeLowMotionSamples": 18,
+              "nativeLoadedLowMotionSamples": 6,
+              "nativeSyncErrorSSEInLowMotion_percent": 1.044474849966814,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 1.044474849966814
+            }
+          ],
+          "windowUnionNativeErrorDiagnostics": [
+            {
+              "windowSteps": 20,
+              "validNativeSamples": 99,
+              "missingPriorWindowNativeSamples": 1,
+              "anyAxisLowMotionNativeSamples": 38,
+              "anyAxisLoadedLowMotionNativeSamples": 26,
+              "syncPredictionSSEInAnyAxisLowMotion_percent": 3.3894631317989137,
+              "syncPredictionSSEInAnyAxisLoadedLowMotion_percent": 3.3894631317989137
+            },
+            {
+              "windowSteps": 50,
+              "validNativeSamples": 98,
+              "missingPriorWindowNativeSamples": 2,
+              "anyAxisLowMotionNativeSamples": 21,
+              "anyAxisLoadedLowMotionNativeSamples": 9,
+              "syncPredictionSSEInAnyAxisLowMotion_percent": 1.1609791782380796,
+              "syncPredictionSSEInAnyAxisLoadedLowMotion_percent": 1.1609791782380796
+            }
+          ],
+          "releaseEvents": [
+            {
+              "axis": 0,
+              "overlapReleaseCandidates": 4,
+              "releaseClusters": 1,
+              "loadedSignConsistentClusters": 1,
+              "interiorLoadedClusters": 1,
+              "events": [
+                {
+                  "endpointStep": 1278,
+                  "phaseTime_ms": 1277.9979999999996,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 324.56,
+                  "priorMeanCommand_counts": 324.56,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 5,
+                  "otherAxisPriorDisplacement_counts": -4,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                }
+              ],
+              "clusteringRule": "Consecutive candidate endpoints, last endpoint retained; all clusters reported."
+            },
+            {
+              "axis": 1,
+              "overlapReleaseCandidates": 18,
+              "releaseClusters": 2,
+              "loadedSignConsistentClusters": 2,
+              "interiorLoadedClusters": 2,
+              "events": [
+                {
+                  "endpointStep": 923,
+                  "phaseTime_ms": 922.9979999999996,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 200.68,
+                  "priorMeanCommand_counts": -200.68,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": -5,
+                  "otherAxisPriorDisplacement_counts": 12,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                },
+                {
+                  "endpointStep": 3291,
+                  "phaseTime_ms": 3290.9979999999996,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 443.88,
+                  "priorMeanCommand_counts": -443.88,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": -8,
+                  "otherAxisPriorDisplacement_counts": 41,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                }
+              ],
+              "clusteringRule": "Consecutive candidate endpoints, last endpoint retained; all clusters reported."
+            }
+          ],
+          "rawCountsRetainedNotConvertedToExactVelocity": true
+        },
+        {
+          "phase": 4,
+          "movingRows": 4000,
+          "encoderPitch_mm": 0.0012110374427720672,
+          "single1msZeroIncrementFractions": [
+            0.399,
+            0.6095
+          ],
+          "windowAxisDiagnostics": [
+            {
+              "axis": 0,
+              "windowSteps": 20,
+              "actualDurationRange_ms": [
+                19.993999999998778,
+                20.006000000001222
+              ],
+              "overlapWindows": 3981,
+              "lowMotionOverlapWindows": 930,
+              "loadedLowMotionOverlapWindows": 930,
+              "nonoverlapWindows": 200,
+              "lowMotionNonoverlapWindows": 45,
+              "loadedLowMotionNonoverlapWindows": 45,
+              "nativeSamplesWithFullPriorWindow": 99,
+              "nativeSamplesWithoutFullPriorWindow": 1,
+              "nativeLowMotionSamples": 23,
+              "nativeLoadedLowMotionSamples": 23,
+              "nativeSyncErrorSSEInLowMotion_percent": 2.0224462888198254,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 2.0224462888198254
+            },
+            {
+              "axis": 1,
+              "windowSteps": 20,
+              "actualDurationRange_ms": [
+                19.993999999998778,
+                20.006000000001222
+              ],
+              "overlapWindows": 3981,
+              "lowMotionOverlapWindows": 1544,
+              "loadedLowMotionOverlapWindows": 1534,
+              "nonoverlapWindows": 200,
+              "lowMotionNonoverlapWindows": 77,
+              "loadedLowMotionNonoverlapWindows": 77,
+              "nativeSamplesWithFullPriorWindow": 99,
+              "nativeSamplesWithoutFullPriorWindow": 1,
+              "nativeLowMotionSamples": 33,
+              "nativeLoadedLowMotionSamples": 33,
+              "nativeSyncErrorSSEInLowMotion_percent": 2.394894477885523,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 2.394894477885523
+            },
+            {
+              "axis": 0,
+              "windowSteps": 50,
+              "actualDurationRange_ms": [
+                49.99399999999878,
+                50.00600000000122
+              ],
+              "overlapWindows": 3951,
+              "lowMotionOverlapWindows": 673,
+              "loadedLowMotionOverlapWindows": 673,
+              "nonoverlapWindows": 80,
+              "lowMotionNonoverlapWindows": 15,
+              "loadedLowMotionNonoverlapWindows": 15,
+              "nativeSamplesWithFullPriorWindow": 98,
+              "nativeSamplesWithoutFullPriorWindow": 2,
+              "nativeLowMotionSamples": 17,
+              "nativeLoadedLowMotionSamples": 17,
+              "nativeSyncErrorSSEInLowMotion_percent": 1.4854119160381207,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 1.4854119160381207
+            },
+            {
+              "axis": 1,
+              "windowSteps": 50,
+              "actualDurationRange_ms": [
+                49.99399999999878,
+                50.00600000000122
+              ],
+              "overlapWindows": 3951,
+              "lowMotionOverlapWindows": 1096,
+              "loadedLowMotionOverlapWindows": 1096,
+              "nonoverlapWindows": 80,
+              "lowMotionNonoverlapWindows": 21,
+              "loadedLowMotionNonoverlapWindows": 21,
+              "nativeSamplesWithFullPriorWindow": 98,
+              "nativeSamplesWithoutFullPriorWindow": 2,
+              "nativeLowMotionSamples": 26,
+              "nativeLoadedLowMotionSamples": 26,
+              "nativeSyncErrorSSEInLowMotion_percent": 1.7087645442320043,
+              "nativeSyncErrorSSEInLoadedLowMotion_percent": 1.7087645442320043
+            }
+          ],
+          "windowUnionNativeErrorDiagnostics": [
+            {
+              "windowSteps": 20,
+              "validNativeSamples": 99,
+              "missingPriorWindowNativeSamples": 1,
+              "anyAxisLowMotionNativeSamples": 37,
+              "anyAxisLoadedLowMotionNativeSamples": 37,
+              "syncPredictionSSEInAnyAxisLowMotion_percent": 2.755941191775737,
+              "syncPredictionSSEInAnyAxisLoadedLowMotion_percent": 2.755941191775737
+            },
+            {
+              "windowSteps": 50,
+              "validNativeSamples": 98,
+              "missingPriorWindowNativeSamples": 2,
+              "anyAxisLowMotionNativeSamples": 30,
+              "anyAxisLoadedLowMotionNativeSamples": 30,
+              "syncPredictionSSEInAnyAxisLowMotion_percent": 2.0519791849383116,
+              "syncPredictionSSEInAnyAxisLoadedLowMotion_percent": 2.0519791849383116
+            }
+          ],
+          "releaseEvents": [
+            {
+              "axis": 0,
+              "overlapReleaseCandidates": 0,
+              "releaseClusters": 0,
+              "loadedSignConsistentClusters": 0,
+              "interiorLoadedClusters": 0,
+              "events": [],
+              "clusteringRule": "Consecutive candidate endpoints, last endpoint retained; all clusters reported."
+            },
+            {
+              "axis": 1,
+              "overlapReleaseCandidates": 5,
+              "releaseClusters": 1,
+              "loadedSignConsistentClusters": 1,
+              "interiorLoadedClusters": 1,
+              "events": [
+                {
+                  "endpointStep": 1678,
+                  "phaseTime_ms": 1677.9979999999996,
+                  "priorRange_counts": 1,
+                  "priorMeanAbsCommand_counts": 268.38,
+                  "priorMeanCommand_counts": 268.38,
+                  "commandMajoritySignFraction": 1.0,
+                  "future20stepDisplacement_counts": 5,
+                  "otherAxisPriorDisplacement_counts": -51,
+                  "loadedSignConsistent": true,
+                  "nearPhaseBoundary250steps": false
+                }
+              ],
+              "clusteringRule": "Consecutive candidate endpoints, last endpoint retained; all clusters reported."
+            }
+          ],
+          "rawCountsRetainedNotConvertedToExactVelocity": true
+        }
+      ]
+    }
+  ],
+  "modelsFitted": 0,
+  "frictionParametersIdentified": false,
+  "newQ2UsedForCalibration": false,
+  "controllerChanged": false,
+  "rawChanged": false,
+  "newPhysicalRunReleased": false,
+  "modelClosureComplete": false
+}

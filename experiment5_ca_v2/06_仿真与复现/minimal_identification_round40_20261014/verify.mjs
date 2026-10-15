@@ -1,0 +1,21 @@
+import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';import crypto from 'node:crypto';import {spawnSync} from 'node:child_process';import {fileURLToPath} from 'node:url';
+const dir=path.dirname(fileURLToPath(import.meta.url)),root=path.resolve(dir,'../..');
+const out=path.join(dir,process.argv[2]||'checks01');assert(!fs.existsSync(out));fs.mkdirSync(out);
+const original=path.join(root,'05_实验代码/自动监视_故障保留回放_20261014/eassy_E5REPLAY2_A_S3R2_HW6/Task');
+const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const protectedFiles=['blnn_core.c','experiment5_ca_actuator.h','experiment5_hw_profile.h','experiment5_motion.h','online_protocol.h','motor_task.c','network_trace.h','experiment5_event_trace.h'];
+const before=Object.fromEntries(protectedFiles.map(f=>[f,hash(path.join(original,f))]));
+const env={...process.env,PATH:'D:/MinGW/mingw64/bin;'+process.env.PATH};
+const call=(exe,args)=>{const r=spawnSync(exe,args,{env,encoding:'utf8',maxBuffer:5e6});assert.equal(r.status,0,(r.stderr||'')+'\n'+(r.stdout||''));return r.stdout;};
+const exe=path.join(out,'host_design_checks.exe');
+call('D:/MinGW/mingw64/bin/gcc.exe',['-std=c99','-O2','-Wall','-Wextra','-Werror','-Wno-unused-function','-I',original,'-I',dir,path.join(dir,'test_design.c'),'-lm','-o',exe]);
+const result=call(exe,[]).trim();console.log(result);
+const size=result.match(/sizeofSlow(\d+) sizeofFast(\d+) blob(\d+) trace(\d+)/);assert(size);const [slow,fast,blob,trace]=size.slice(1).map(Number);assert.equal(slow,48);assert.equal(fast,36);assert.equal(blob,63488);assert(trace<=64200);
+for(const f of protectedFiles)assert.equal(hash(path.join(original,f)),before[f]);
+const linkmap=path.join(original,'../MDK-ARM/exp5REPLAY2_A_S3R2_HW6/exp5REPLAY2_A_S3R2_HW6.map');const text=fs.readFileSync(linkmap,'utf8');
+assert(/event_trace\s+0x[0-9a-f]+\s+Data\s+24624\b/i.test(text));assert(/replay_trace\s+0x[0-9a-f]+\s+Data\s+39576\b/i.test(text));assert(/fault_trace\s+0x[0-9a-f]+\s+Data\s+1300\b/i.test(text));
+const protocol=JSON.parse(fs.readFileSync(path.join(dir,'protocol.json'),'utf8'));assert.equal(protocol.memoryPlan.oldBuffers_bytes,64200);assert.equal(protocol.memoryPlan.plannedBlob_bytes,blob);
+const wire={baud:115200,frameDataBytes:432,livePeriod_ms:40,liveWireBytesPerSecond:432*25,lineCapacityBytesPerSecond:115200/10,legacyDuplicateChunks:2*Math.ceil(blob/16),legacyDataOnly_s:2*Math.ceil(blob/16)*.04,binaryProposedPayloadBytes:512,binaryProposedOverheadBytes:28,binaryDuplicateWireEstimate_s:2*(blob+Math.ceil(blob/512)*28)/(115200/10),estimatesNotMeasuredTiming:true};
+const verification={protocolSHA256:hash(path.join(dir,'protocol.json')),prototypeSHA256:hash(path.join(dir,'offline_design.h')),hostResult:result,sizes:{slowRow:slow,fastRow:fast,blob,trace,replacedBuffers:64200,estimatedSavedBytes:64200-trace},wire,
+ originalCoreMotionGuardsAndDiagnosticSourcesUnchanged:true,sourceHashes:before,designedSignalNotMeasuredPersistentExcitation:true,hardwareSafetyProven:false,ARMABIAndLinkerChecked:false,MCUTimingChecked:false,modelIdentified:false,firmwareBuilt:false,hardwareReleased:false,physicalRuns:0};
+fs.writeFileSync(path.join(out,'verification.json'),JSON.stringify(verification,null,2),{flag:'wx'});console.log(JSON.stringify({sizes:verification.sizes,wire,physicalRuns:0},null,2));

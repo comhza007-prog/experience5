@@ -1,0 +1,39 @@
+{
+  "build": 67823,
+  "method": 11,
+  "schema": 4490,
+  "stopMagic": 4441,
+  "wordEncoding": 1,
+  "target": "exp5ID_Q0M3_BLNN_HW6",
+  "project": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\辨识Q0_手动VOFA_安全编码_20261014\\eassy_E5ID_Q0M3_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+  "hex": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\辨识Q0_手动VOFA_安全编码_20261014\\eassy_E5ID_Q0M3_BLNN_HW6\\MDK-ARM\\exp5ID_Q0M3_BLNN_HW6\\exp5ID_Q0M3_BLNN_HW6.hex",
+  "hexSHA256": "be74d38164bdc04cd9efc5f4419c15f34eb7ba491c5cd837ca969e3b98106ee7",
+  "unchangedSourceFiles": 185,
+  "motorControlGuardsExact": true,
+  "coreAndOtherSourcesExact": true,
+  "collectionAndFaultExportGateExact": true,
+  "compileErrors": 0,
+  "compileWarnings": 0,
+  "ARMTraceBytes": 63580,
+  "RAM": {
+    "used": 103168,
+    "max": 114688,
+    "remaining": 11520
+  },
+  "checks": [
+    "PASS old zero/65408 delimiter; all65536 split-range words exact includingCSV6decimals, all encoded pairs and zero boundaries delimiter-free",
+    "PASS exactCoreStateOutputCommands100000 intervalIntegralPartialFaultCRC15872TwoPassChunksBurstRecoveryNoTXAdvance traceBytes63580",
+    "PASS float/double native ABI: two-pass4copies,14lostFramesRecovered, both-pass loss/active gap/CRC/corrupt duplicate/identity/tail rejected; no hardware",
+    "PASS exactCoreStateOutputCommands100000 intervalIntegralPartialFaultCRC15872TwoPassChunksBurstRecoveryNoTXAdvance traceBytes63580",
+    "PASS float/double native ABI: two-pass4copies,14lostFramesRecovered, both-pass loss/active gap/CRC/corrupt duplicate/identity/tail rejected; no hardware",
+    "PASS manual identity/schema/reset,3968 duplicate chunks,CRC,ABI,transition,completion tail,fault and timing rejection; no hardware",
+    "PASS float/double native ABI: two-pass4copies,14lostFramesRecovered, both-pass loss/active gap/CRC/corrupt duplicate/identity/tail rejected; no hardware",
+    "PASS float/double native ABI: two-pass4copies,14lostFramesRecovered, both-pass loss/active gap/CRC/corrupt duplicate/identity/tail rejected; no hardware"
+  ],
+  "protocolSHA256": "1ffabfd9c79695f73b1d2e90a635ed7831fdbcae7e50052e263f7dcfa0c1680f",
+  "flashed": false,
+  "physicalRuns": 0,
+  "onBoardTimingQualified": false,
+  "modelIdentified": false,
+  "performanceBenefitProven": false
+}

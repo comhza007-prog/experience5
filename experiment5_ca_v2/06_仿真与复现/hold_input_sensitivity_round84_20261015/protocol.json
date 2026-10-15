@@ -1,0 +1,14 @@
+{
+  "date":"2026-10-15",
+  "scope":"User-authorized OFFLINE diagnosis of 40-step holding-command mean approximation. No parameter optimization, model-structure changes, raw edits, firmware edits or new hardware run.",
+  "modelParameters":"tracking_refine_round82_20261015/model_parameters.json",
+  "cases":["baseline_holdMeans","hold_start_then_flat","hold_start_mean_ramp","hold_start_next_mean_quadratic","known_moving_mean40"],
+  "holdingInputs":"All alternatives preserve every decoded40-step command integral and the actually observed first-interval command where available. Interior waveforms are hypotheses, NOT recovered measurements. If start anchor absent, retain baseline block. Ramp/quadratic exceeding1200-count bounds fall back to first-anchor+flat-interior; no outcome-based waveform selection.",
+  "quadratic":"Fit start command, next start command within SAME holding phase, and block integral. Last blocks/missing next anchors use mean-constrained ramp. No cross-phase future interpolation.",
+  "motionTest":"The8000 genuine1ms moving commands provide a direct controlled comparison: replace each40-step moving block by its duration-weighted mean, with holding inputs unchanged. This quantifies averaging sensitivity where input is known, not the unknown holding-waveform error.",
+  "localMotionTest":"For each known moving40-step block, replay true versus mean input from the SAME frozen model's simulated pre-block state. Not a measured-state reset and not a trajectory prediction validation.",
+  "evaluation":"Fixed R82 parameter vector on all three records. Report every scenario's task metrics and waveform errors and all numerical caveats; never select favorable reconstructed inputs as actual truth. Cases do not bound every possible unobserved holding waveform. R82 remains calibrated on these records.",
+  "independentCheck":"Independently recompute all constructed holding integrals/anchors and bounds. Independently replay newest Q2run03 quadratic case for20000steps with Python matrix formulation; same unchanged solver has been verified on all three records previously.",
+  "sampleMissingness":"Keep run03's missing phase3 CSV frame explicit. Do not impute its command anchor or actual measurement. T1/run03 short export tails remain disclosed.",
+  "parameterFit":false,"measuredFutureStateInjected":false,"newPhysicalRunReleased":false
+}

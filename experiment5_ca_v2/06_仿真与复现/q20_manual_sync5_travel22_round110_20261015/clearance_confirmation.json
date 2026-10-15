@@ -1,0 +1,10 @@
+{
+ "date":"2026-10-15",
+ "source":"Direct user reply to physical-clearance question",
+ "userAnswer":"已核实，正反方向均至少22毫米",
+ "userConfirmedPositiveClearance_mm":22,
+ "userConfirmedNegativeClearance_mm":22,
+ "assistantPhysicalInspectionPerformed":false,
+ "notPermissionForAssistantHardwareAction":true,
+ "scope":"Same20mm positive stroke and return, manual operator, one trial only; confirms requested software travel envelope is within user-reported available space, not a guarantee of stopping distance or mechanical health."
+}

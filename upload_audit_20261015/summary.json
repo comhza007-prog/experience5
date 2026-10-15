@@ -1,0 +1,18 @@
+{
+  "source": "D:\\lunwen2\\起重机\\output",
+  "destination": "D:\\experience5_ca_v2_upload_20261015",
+  "groups": [
+    "experiment5_ca_v2"
+  ],
+  "includedFiles": 17049,
+  "includedBytes": 2248183396,
+  "excludedEntries": 29887,
+  "credentialRedactedFiles": 0,
+  "largeFilesForLFS": [],
+  "sourceFilesChanged": false,
+  "containsNegativeAndExploratoryResults": true,
+  "currentFirmware": 68612,
+  "currentTrial": "20mm manual trial failed RPM fault512; no guard deletion implemented",
+  "newestRaw": "experiment5_ca_v2/01_原始数据/20mm手动VOFA_20261015/1.csv",
+  "status": "snapshot prepared; upload not yet confirmed"
+}

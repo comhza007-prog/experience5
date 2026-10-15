@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "record": "run03",
+      "CSVAndBlobPositionAlignmentsChecked": 399,
+      "mismatches": 0,
+      "missingCSVCoreSteps": [
+        

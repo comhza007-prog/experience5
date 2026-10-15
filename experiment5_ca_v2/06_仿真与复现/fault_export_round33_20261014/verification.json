@@ -1,0 +1,40 @@
+{
+  "build": 67712,
+  "method": 12,
+  "schema": 4486,
+  "replayMagic": 4437,
+  "project": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\自动监视_故障保留回放_20261014\\eassy_E5REPLAY2_A_S3R2_HW6\\MDK-ARM\\eassy.uvprojx",
+  "target": "exp5REPLAY2_A_S3R2_HW6",
+  "hex": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\自动监视_故障保留回放_20261014\\eassy_E5REPLAY2_A_S3R2_HW6\\MDK-ARM\\exp5REPLAY2_A_S3R2_HW6\\exp5REPLAY2_A_S3R2_HW6.hex",
+  "hexSHA256": "3b15748ac102cf61b0d4cf172f38d1161aa92d00d5dd65d5bd87abaf6f9681aa",
+  "axfSHA256": "e619a3230321289bde756131b18913e3b81cb3a3e8399336ede6179bb1b2a3ef",
+  "unchangedSourceFiles": 184,
+  "controlCoreAndSafetyIdentical": true,
+  "onlyPostStopSerialExportEligibilityChanged": true,
+  "checks": [
+    "PASS unchanged controller/state/commands for5725steps;360 full-state recurrent replay exact;CRC32 vector;TC-only two-copy bytes;bounds;trace=39576 blob=39536 row=80 state=5348;artificialRateFixture=0",
+    "PASS unchanged controller/state/commands for5725steps;360 full-state recurrent replay exact;CRC32 vector;TC-only two-copy bytes;bounds;trace=39576 blob=39536 row=80 state=5348;artificialRateFixture=0",
+    "PASS success/fault snapshot bytes exact;CRC/duplicates/missing chunks/completion rejected;fault phase or bits cannot be cleared/relabelled;nonzero postfault command rejected;legacy64row history not mistaken for network bytes",
+    "PASS host syntax/CRC, identity/startup/nonfinite rejection, genuine fault preserved, session/default/health guards, event schema, zero after fault, explicit site confirmation; no hardware opened"
+  ],
+  "compileErrors": 0,
+  "compileWarnings": 0,
+  "RAM": {
+    "used": 103976,
+    "max": 114688,
+    "remaining": 10712
+  },
+  "CMSISDAPOptionsIncluded": true,
+  "sourceHashes": {
+    "motor_task.c": "f55ad8cda840c9a41008f4422e17c42d12a1cc9eb5f55e651705074575f5a1c5",
+    "network_trace.h": "7f97c9750cec9f7751ea7d75da693f08f2e7826b945958f884762c3edb8f5b44",
+    "experiment5_formal_config.h": "99efd30f293a392cad87f458d0b6b1ec53eb515de518206d1de7e3bd4192c0fe"
+  },
+  "flashed": false,
+  "physicalRuns": 0,
+  "onBoardTimingQualified": false,
+  "newPerformanceCandidate": false,
+  "formalEfficacyEvidence": false,
+  "faultCaptureRemainsFailedEvenIfSnapshotValid": true,
+  "releaseScope": "One explicitly ready diagnostic run only; no change to control gains/current/guards; no positive scientific result promised"
+}

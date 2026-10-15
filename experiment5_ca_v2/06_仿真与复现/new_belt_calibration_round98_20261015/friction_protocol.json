@@ -1,0 +1,27 @@
+{
+  "status": "Declared before alternative-family fit",
+  "calibrationSourceSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+  "oldObservationsInObjective": 0,
+  "motivation": "Two effective drive gains alone failed to match aggregates. New belt can alter friction; test a separate parsimonious friction family, without inheriting fitted gains.",
+  "freeParameters": [
+    "leftFrictionMultiplier",
+    "rightFrictionMultiplier"
+  ],
+  "rule": "Scale kinetic and extra-static friction together per axis; preserve each nominal static/kinetic ratio. All gains, damping, coupling and inertia remain original nominal, not first-stage fitted values.",
+  "fixedGains": [
+    3.4792617876182484e-06,
+    2.1112458155696005e-06
+  ],
+  "range": [
+    0.1,
+    20.0
+  ],
+  "logGridPerAxis": 17,
+  "seeds": 8,
+  "maximumEvaluationsPerSeed": 600,
+  "objective": "Same two final continuous RMS relative residuals and1e-6 log-deviation tie breaker. No waveform objective or output correction.",
+  "interpretation": "Conditional equivalent friction fit, not identified material friction or proof of a hardware fault. Both families retained.",
+  "independentValidationRequired": true,
+  "MCUFirmwareChanged": false,
+  "assistantHardwareAction": false
+}

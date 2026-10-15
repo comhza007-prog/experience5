@@ -1,0 +1,56 @@
+{
+  "status": "Frozen R104 independent-record aggregate check, no parameter fitting",
+  "case": {
+    "record": "new_belt_run012",
+    "actualTrackingRMSE_mm": 0.3625242285006616,
+    "actualSyncRMS_mm": 0.09554734428543789,
+    "predictedTrackingRMSE_mm": 0.6710572982242275,
+    "predictedSyncRMS_mm": 0.05284931409204853,
+    "trackingDifference_percent": 85.1068826488111,
+    "syncDifference_percent": -44.68782519567826,
+    "bothWithin15Percent": false,
+    "nativePositionRMSE_mm": [
+      0.8443449502424928,
+      0.8939086586447189
+    ],
+    "bothWithin20Percent": false
+  },
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run012.csv",
+  "sourceSHA256": "464f071330ffa1feda53e39da635e0a79087debb838f38f63460aa5ca1f52ccb",
+  "captureAnalysisSHA256": "cb8ccba19845fbba38432988289ca03897dcd2455d7bd024cbd815ae26b046cb",
+  "captureProtocolQualified": true,
+  "CRC32": 3350406892,
+  "minimumChunkCopies": 4,
+  "missingCSVFrames": 0,
+  "fault": 0,
+  "completionTail_s": 83.36001999999999,
+  "nativeMetricSamples": 400,
+  "frozenModel": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_identifiability_round104_20261015\\recovered_model_parameters.json",
+  "frozenModelSHA256": "c7313508d7cfb2fd477b25df917e7b942749fb2d0175650a0ac7c2f6dc96c519",
+  "evaluationProtocolSHA256": "842162b156fe73d243979c76f5cfa38eeb5019d3ecca18fdfac10c55df4b33ce",
+  "scriptSHA256": "e02efd7d21e044b4273ecdf3c4950c0b75e5fa88c4d248acb391ba9796a3c5af",
+  "verification": {
+    "nativeSteps": 20000,
+    "independentPythonSteps": 500,
+    "maxNativePositionDifference_m": 0.0,
+    "maxIndependentStateDifference": 3.903127820947816e-18,
+    "maxEnergyBalanceResidual": 1.7346494433119836e-21,
+    "passed": true
+  },
+  "modelRefitted": false,
+  "parametersChanged": 0,
+  "newRecordUsedForCalibration": false,
+  "previousCalibrationRecords": [
+    "run010",
+    "run011"
+  ],
+  "passedAggregate20Percent": false,
+  "passedAggregate15Percent": false,
+  "physicalParameterIdentificationPassed": false,
+  "autonomousClosedLoopValidationPassed": false,
+  "previousGainLBoundaryDependenceRetained": true,
+  "previousWeakParameterAssumptionsRetained": true,
+  "aggregateAcceptanceNotPhysicalValidation": true,
+  "firmwareChanged": false,
+  "assistantHardwareAction": false
+}

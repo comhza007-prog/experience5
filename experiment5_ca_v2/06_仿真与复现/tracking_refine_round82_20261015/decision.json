@@ -1,0 +1,28 @@
+{
+  "status": "Marginal numerical refinement, not promoted",
+  "sameModelAndLoss": true,
+  "startingPointsChecked": 3,
+  "initialObjective": 11.181026121103299,
+  "finalObjective": 11.047140730910195,
+  "objectiveReduction_percent": 1.1974338378514815,
+  "trackingErrorsRemain_percent": [
+    {
+      "record": "T1",
+      "tracking": 22.13205475723634,
+      "sync": -7.315829080253322
+    },
+    {
+      "record": "Q2_run02",
+      "tracking": 3.827598341817029,
+      "sync": 2.866908475297758
+    },
+    {
+      "record": "Q2_run03",
+      "tracking": 30.051794766111573,
+      "sync": 5.276491069563982
+    }
+  ],
+  "allRecordsNowCalibration": true,
+  "independentNumericalVerificationPassed": true,
+  "nextStep": "Stop repeating the same parameter search now; examine justified input/holding-state assumptions using existing records before another model change. No new physical run requested."
+}

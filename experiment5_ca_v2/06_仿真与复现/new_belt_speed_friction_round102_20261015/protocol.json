@@ -1,0 +1,58 @@
+{
+  "status": "Declared before extension fitting",
+  "sources": [
+    {
+      "name": "new_belt_run010",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+      "rawSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b"
+    },
+    {
+      "name": "new_belt_run011",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run011.csv",
+      "rawSHA256": "e7e38ee5980fca58f656ac36ffe52d37b505909b4dee49e53acba25dbd306173"
+    }
+  ],
+  "motivation": "User confirms same belt specification/pulleys/ratio but tighter tension. Retain encoder mapping. Test high rest yield and lower moving yield as an effective friction hypothesis, not proven cause.",
+  "addedLaw": "Y_i=Yrest*(ratio+(1-ratio)*exp(-(previous_simulated_velocity_i/vscale)^2)). Convex implicit return mapping conditional on previous simulated velocity. No measured velocity, reference phases or output corrections.",
+  "physicalCaveat": "Effective low-speed friction hypothesis, not identified belt material friction. Original4calibration parameters inherited plus2newshared; fouraggregate targets do not identify six coefficients uniquely.",
+  "sourceModelSHA256": "a44665e79b254514302e0c39c3a3ebf288df7e684920e5dc2b76df49683ce486",
+  "primaryFreeParameters": [
+    "movingYieldRatio",
+    "velocityScale_m_per_s"
+  ],
+  "fixedR100Parameters": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "preSlidingStiffnessL",
+    "preSlidingStiffnessR",
+    "sharedYieldForce"
+  ],
+  "bounds": [
+    [
+      0.01,
+      1.0
+    ],
+    [
+      1e-05,
+      0.02
+    ]
+  ],
+  "transform": "log",
+  "gridPerAxis": 17,
+  "localSeeds": 6,
+  "maximumEvaluationsPerSeed": 700,
+  "objective": "Two final tracking/sync RMS relative errors divided0.15, equal record weights. Tiny1e-6 log-coordinate regularizer. No waveform objective or output correction.",
+  "criterion": "Both records each tracking/sync<=15percent; waveform diagnostic only",
+  "oldRegimeDataUsed": 0,
+  "bothRecordsCalibration": true,
+  "independentValidationRequired": true,
+  "firmwareChanged": false,
+  "assistantHardwareAction": false
+}

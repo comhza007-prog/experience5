@@ -1,0 +1,1633 @@
+{
+  "results": [
+    {
+      "method": "BLNN",
+      "attempt": 1,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\E5S40_A_BLNN_B67931_HW6_L1200_R1200_M0g_S2mm_pair01_attempt01.csv",
+      "sourceSHA256": "4ca44028b2fad50c13205074ed6b449daba971a38881db1ceff6c7aa8134dc15",
+      "primaryWindowComplete": true,
+      "phaseStats": [
+        {
+          "phase": 1,
+          "N": 100,
+          "maskHistogram": null,
+          "maskFlagSampleCounts": null,
+          "reasonHistogram": null,
+          "actualLearning": null,
+          "repairModeHistograms": null,
+          "speedGuardSampleCount": 0,
+          "sectorReducedSamples": [
+            0,
+            0
+          ],
+          "maxAttemptedCommand_counts": [
+            0,
+            0
+          ],
+          "maxAdmittedNNIncrement_counts": null
+        },
+        {
+          "phase": 2,
+          "N": 100,
+          "maskHistogram": null,
+          "maskFlagSampleCounts": null,
+          "reasonHistogram": null,
+          "actualLearning": null,
+          "repairModeHistograms": null,
+          "speedGuardSampleCount": 19,
+          "sectorReducedSamples": [
+            0,
+            0
+          ],
+          "maxAttemptedCommand_counts": [
+            629,
+            585
+          ],
+          "maxAdmittedNNIncrement_counts": null
+        },
+        {
+          "phase": 3,
+          "N": 50,
+          "maskHistogram": null,
+          "maskFlagSampleCounts": null,
+          "reasonHistogram": null,
+          "actualLearning": null,
+          "repairModeHistograms": null,
+          "speedGuardSampleCount": 0,
+          "sectorReducedSamples": [
+            0,
+            0
+          ],
+          "maxAttemptedCommand_counts": [
+            454,
+            282
+          ],
+          "maxAdmittedNNIncrement_counts": null
+        },
+        {
+          "phase": 4,
+          "N": 100,
+          "maskHistogram": null,
+          "maskFlagSampleCounts": null,
+          "reasonHistogram": null,
+          "actualLearning": null,
+          "repairModeHistograms": null,
+          "speedGuardSampleCount": 20,
+          "sectorReducedSamples": [
+            0,
+            0
+          ],
+          "maxAttemptedCommand_counts": [
+            627,
+            641
+          ],
+          "maxAdmittedNNIncrement_counts": null
+        },
+        {
+          "phase": 5,
+          "N": 150,
+          "maskHistogram": null,
+          "maskFlagSampleCounts": null,
+          "reasonHistogram": null,
+          "actualLearning": null,
+          "repairModeHistograms": null,
+          "speedGuardSampleCount": 0,
+          "sectorReducedSamples": [
+            0,
+            0
+          ],
+          "maxAttemptedCommand_counts": [
+            113,
+            165
+          ],
+          "maxAdmittedNNIncrement_counts": null
+        }
+      ],
+      "event": {
+        "elapsed_ms": [
+          4936,
+          5063
+        ],
+        "phaseHistogram": {
+          "2": 128
+        },
+        "notMatchedToOtherMethodEventTime": true
+      },
+      "counters": {
+        "growth": 19,
+        "projectionY": 0,
+        "projectionAlpha": 0,
+        "withdrawal": 0,
+        "contraction": 0,
+        "hardSaturationL": 0,
+        "hardSaturationR": 0,
+        "speedGuardL": 787,
+        "speedGuardR": 601
+      },
+      "mechanism": null,
+      "finalNodes": [
+        9,
+        18
+      ],
+      "extrema": [
+        {
+          "metric": "tracking",
+          "absolute_mm": 0.37299999999999994,
+          "signed_mm": -0.37299999999999994,
+          "phase": 2,
+          "elapsed_s": 5.48,
+          "uptime_s": 13.481001,
+          "sequence": 337,
+          "rawRPM": [
+            0,
+            -7
+          ],
+          "speedGuardMask": 0,
+          "caMask": 0
+        },
+        {
+          "metric": "sync",
+          "absolute_mm": 0.18600000000000003,
+          "signed_mm": -0.18600000000000003,
+          "phase": 4,
+          "elapsed_s": 13.000001,
+          "uptime_s": 21.001001,
+          "sequence": 525,
+          "rawRPM": [
+            -30,
+            8
+          ],
+          "speedGuardMask": 0,
+          "caMask": 0
+        }
+      ],
+      "sampleCountsAre40msSnapshotsNotCountsOfAll1msUpdates": true,
+      "rawUnchanged": true
+    },
+    {
+      "method": "BLNN",
+      "attempt": 2,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\E5S40_A_BLNN_B67931_HW6_L1200_R1200_M0g_S2mm_pair01_attempt02.csv",
+      "sourceSHA256": "3e3f97b2eda0a2ab110dfd813fb9950eb6bbf83f0763edd71370b08817c805d9",
+      "primaryWindowComplete": true,
+      "phaseStats": [
+        {
+          "phase": 1,
+          "N": 100,
+          "maskHistogram": null,
+          "maskFlagSampleCounts": null,
+          "reasonHistogram": null,
+          "actualLearning": null,
+          "repairModeHistograms": null,
+          "speedGuardSampleCount": 0,
+          "sectorReducedSamples": [
+            0,
+            0
+          ],
+          "maxAttemptedCommand_counts": [
+            3,
+            6
+          ],
+          "maxAdmittedNNIncrement_counts": null
+        },
+        {
+          "phase": 2,
+          "N": 100,
+          "maskHistogram": null,
+          "maskFlagSampleCounts": null,
+          "reasonHistogram": null,
+          "actualLearning": null,
+          "repairModeHistograms": null,
+          "speedGuardSampleCount": 16,
+          "sectorReducedSamples": [
+            0,
+            0
+          ],
+          "maxAttemptedCommand_counts": [
+            620,
+            596
+          ],
+          "maxAdmittedNNIncrement_counts": null
+        },
+        {
+          "phase": 3,
+          "N": 50,
+          "maskHistogram": null,
+          "maskFlagSampleCounts": null,
+          "reasonHistogram": null,
+          "actualLearning": null,
+          "repairModeHistograms": null,
+          "speedGuardSampleCount": 0,
+          "sectorReducedSamples": [
+            0,
+            0
+          ],
+          "maxAttemptedCommand_counts": [
+            410,
+            281
+          ],
+          "maxAdmittedNNIncrement_counts": null
+        },
+        {
+          "phase": 4,
+          "N": 100,
+          "maskHistogram": null,
+          "maskFlagSampleCounts": null,
+          "reasonHistogram": null,
+          "actualLearning": null,
+          "repairModeHistograms": null,
+          "speedGuardSampleCount": 6,
+          "sectorReducedSamples": [
+            0,
+            0
+          ],
+          "maxAttemptedCommand_counts": [
+            624,
+            675
+          ],
+          "maxAdmittedNNIncrement_counts": null
+        },
+        {
+          "phase": 5,
+          "N": 150,
+          "maskHistogram": null,
+          "maskFlagSampleCounts": null,
+          "reasonHistogram": null,
+          "actualLearning": null,
+          "repairModeHistograms": null,
+          "speedGuardSampleCount": 0,
+          "sectorReducedSamples": [
+            0,
+            0
+          ],
+          "maxAttemptedCommand_counts": [
+            111,
+            138
+          ],
+          "maxAdmittedNNIncrement_counts": null
+        }
+      ],
+      "event": {
+        "elapsed_ms": [
+          4936,
+          5063
+        ],
+        "phaseHistogram": {
+          "2": 128
+        },
+        "notMatchedToOtherMethodEventTime": true
+      },
+      "counters": {
+        "growth": 18,
+        "projectionY": 0,
+        "projectionAlpha": 0,
+        "withdrawal": 0,
+        "contraction": 0,
+        "hardSaturationL": 0,
+        "hardSaturationR": 0,
+        "speedGuardL": 642,
+        "speedGuardR": 648
+      },
+      "mechanism": null,
+      "finalNodes": [
+        8,
+        18
+      ],
+      "extrema": [
+        {
+          "metric": "tracking",
+          "absolute_mm": 0.37749999999999995,
+          "signed_mm": -0.37749999999999995,
+          "phase": 2,
+          "elapsed_s": 5.48,
+          "uptime_s": 13.481001,
+          "sequence": 337,
+          "rawRPM": [
+            0,
+            -9
+          ],
+          "speedGuardMask": 0,
+          "caMask": 0
+        },
+        {
+          "metric": "sync",
+          "absolute_mm": 0.2279999999999999,
+          "signed_mm": 0.2279999999999999,
+          "phase": 4,
+          "elapsed_s": 11.48,
+          "uptime_s": 19.481001,
+          "sequence": 487,
+          "rawRPM": [
+            0,
+            4
+          ],
+          "speedGuardMask": 0,
+          "caMask": 0
+        }
+      ],
+      "sampleCountsAre40msSnapshotsNotCountsOfAll1msUpdates": true,
+      "rawUnchanged": true
+    },
+    {
+      "method": "S3R2",
+      "attempt": 1,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\误差汇总40s_A_BLNN_S3R2_20261014\\01_S3R2\\E5S40_A_S3R2_B67932_HW6_L1200_R1200_M0g_S2mm_pair01_attempt01.csv",
+      "sourceSHA256": "3d07d951639f43157e278f99b61b5f5e8af523c31d86e3fd97ac160f8f59d2be",
+      "primaryWindowComplete": false,
+      "phaseStats": [
+        {
+          "phase": 1,
+          "N": 100,
+          "maskHistogram": {
+            "0": 100
+          },
+          "maskFlagSampleCounts": {
+            "amplitude": 0,
+            "projected": 0,
+            "sector": 0,
+            "speed": 0,
+            "withdrawn": 0,
+            "contracted": 0
+          },
+          "reasonHistogram": {
+            "0": 100
+          },
+          "actualLearning": [
+            {
+              "range": [
+                1,
+                1
+              ],
+              "zeroSamples": 0,
+              "positiveSamples": 100
+            },
+            {
+              "range": [
+                1,
+                1
+              ],
+              "zeroSamples": 0,
+              "positiveSamples": 100
+            }
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 100
+            },
+            {
+              "0": 100
+            }
+          ],
+          "speedGuardSampleCount": 0,
+          "sectorReducedSamples": [
+            0,
+            0
+          ],
+          "maxAttemptedCommand_counts": [
+            0,
+            0
+          ],
+          "maxAdmittedNNIncrement_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "phase": 2,
+          "N": 100,
+          "maskHistogram": {
+            "0": 46,
+            "2": 27,
+            "6": 6,
+            "8": 1,
+            "10": 17,
+            "14": 1,
+            "34": 1,
+            "38": 1
+          },
+          "maskFlagSampleCounts": {
+            "amplitude": 0,
+            "projected": 53,
+            "sector": 8,
+            "speed": 19,
+            "withdrawn": 0,
+            "contracted": 2
+          },
+          "reasonHistogram": {
+            "0": 46,
+            "1": 27,
+            "4": 27
+          },
+          "actualLearning": [
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 27,
+              "positiveSamples": 73
+            },
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 19,
+              "positiveSamples": 81
+            }
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 99,
+              "1": 1
+            },
+            {
+              "0": 84,
+              "1": 16
+            }
+          ],
+          "speedGuardSampleCount": 19,
+          "sectorReducedSamples": [
+            2,
+            30
+          ],
+          "maxAttemptedCommand_counts": [
+            519,
+            616
+          ],
+          "maxAdmittedNNIncrement_counts": [
+            142,
+            164
+          ]
+        },
+        {
+          "phase": 3,
+          "N": 50,
+          "maskHistogram": {
+            "0": 2,
+            "2": 29,
+            "6": 5,
+            "8": 2,
+            "10": 9,
+            "26": 2,
+            "38": 1
+          },
+          "maskFlagSampleCounts": {
+            "amplitude": 0,
+            "projected": 46,
+            "sector": 6,
+            "speed": 13,
+            "withdrawn": 2,
+            "contracted": 1
+          },
+          "reasonHistogram": {
+            "0": 2,
+            "1": 29,
+            "4": 19
+          },
+          "actualLearning": [
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 19,
+              "positiveSamples": 31
+            },
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 13,
+              "positiveSamples": 37
+            }
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 50
+            },
+            {
+              "0": 36,
+              "1": 14
+            }
+          ],
+          "speedGuardSampleCount": 13,
+          "sectorReducedSamples": [
+            0,
+            24
+          ],
+          "maxAttemptedCommand_counts": [
+            491,
+            278
+          ],
+          "maxAdmittedNNIncrement_counts": [
+            142,
+            146
+          ]
+        },
+        {
+          "phase": 4,
+          "N": 99,
+          "maskHistogram": {
+            "0": 21,
+            "2": 32,
+            "6": 17,
+            "8": 6,
+            "10": 13,
+            "14": 3,
+            "18": 1,
+            "26": 4,
+            "30": 1,
+            "34": 1
+          },
+          "maskFlagSampleCounts": {
+            "amplitude": 0,
+            "projected": 72,
+            "sector": 21,
+            "speed": 27,
+            "withdrawn": 6,
+            "contracted": 1
+          },
+          "reasonHistogram": {
+            "0": 21,
+            "1": 32,
+            "4": 46
+          },
+          "actualLearning": [
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 32,
+              "positiveSamples": 67
+            },
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 38,
+              "positiveSamples": 61
+            }
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 80,
+              "1": 19
+            },
+            {
+              "0": 87,
+              "1": 12
+            }
+          ],
+          "speedGuardSampleCount": 27,
+          "sectorReducedSamples": [
+            33,
+            20
+          ],
+          "maxAttemptedCommand_counts": [
+            546,
+            643
+          ],
+          "maxAdmittedNNIncrement_counts": [
+            104,
+            140
+          ]
+        },
+        {
+          "phase": 5,
+          "N": 150,
+          "maskHistogram": {
+            "0": 13,
+            "2": 95,
+            "6": 18,
+            "10": 16,
+            "14": 4,
+            "18": 1,
+            "22": 2,
+            "34": 1
+          },
+          "maskFlagSampleCounts": {
+            "amplitude": 0,
+            "projected": 137,
+            "sector": 24,
+            "speed": 20,
+            "withdrawn": 3,
+            "contracted": 1
+          },
+          "reasonHistogram": {
+            "0": 13,
+            "1": 95,
+            "4": 42
+          },
+          "actualLearning": [
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 22,
+              "positiveSamples": 128
+            },
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 30,
+              "positiveSamples": 120
+            }
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 125,
+              "1": 25
+            },
+            {
+              "0": 126,
+              "1": 24
+            }
+          ],
+          "speedGuardSampleCount": 20,
+          "sectorReducedSamples": [
+            37,
+            22
+          ],
+          "maxAttemptedCommand_counts": [
+            289,
+            218
+          ],
+          "maxAdmittedNNIncrement_counts": [
+            78,
+            100
+          ]
+        }
+      ],
+      "event": {
+        "elapsed_ms": [
+          17936,
+          18063
+        ],
+        "phaseHistogram": {
+          "5": 128
+        },
+        "notMatchedToOtherMethodEventTime": true,
+        "maskHistogram": {
+          "0": 16,
+          "2": 78,
+          "6": 17,
+          "10": 8,
+          "14": 2,
+          "16": 1,
+          "18": 1,
+          "26": 5
+        },
+        "reasonHistogram": {
+          "0": 16,
+          "1": 78,
+          "4": 34
+        },
+        "repairModeHistograms": [
+          {
+            "0": 106,
+            "1": 22
+          },
+          {
+            "0": 107,
+            "1": 21
+          }
+        ],
+        "actualLearningRange": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "acceptedLocalRepairChecks": [
+          {
+            "index": 2,
+            "axis": 0,
+            "before": 0.493205,
+            "after": 0.493051,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 3,
+            "axis": 0,
+            "before": 0.493069,
+            "after": 0.492881,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 5,
+            "axis": 0,
+            "before": 0.492826,
+            "after": 0.492612,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 8,
+            "axis": 0,
+            "before": 0.492403,
+            "after": 0.492208,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 8,
+            "axis": 1,
+            "before": -0.020605,
+            "after": -0.019585,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 10,
+            "axis": 1,
+            "before": -0.050002,
+            "after": -0.049446,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 11,
+            "axis": 1,
+            "before": -0.069975,
+            "after": -0.069786,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 33,
+            "axis": 0,
+            "before": 0.490947,
+            "after": 0.490802,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 36,
+            "axis": 0,
+            "before": 0.49062,
+            "after": 0.490457,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 36,
+            "axis": 1,
+            "before": -0.014237,
+            "after": -0.013378,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 38,
+            "axis": 0,
+            "before": 0.490379,
+            "after": 0.490232,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 38,
+            "axis": 1,
+            "before": -0.030648,
+            "after": -0.029895,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 39,
+            "axis": 0,
+            "before": 0.490249,
+            "after": 0.490122,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 39,
+            "axis": 1,
+            "before": -0.039648,
+            "after": -0.039006,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 40,
+            "axis": 1,
+            "before": -0.049666,
+            "after": -0.049189,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 41,
+            "axis": 1,
+            "before": -0.065467,
+            "after": -0.065275,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 62,
+            "axis": 0,
+            "before": 0.489137,
+            "after": 0.489004,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 62,
+            "axis": 1,
+            "before": -0.001907,
+            "after": -0.001219,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 64,
+            "axis": 0,
+            "before": 0.488951,
+            "after": 0.488801,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 64,
+            "axis": 1,
+            "before": -0.011425,
+            "after": -0.01064,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 67,
+            "axis": 0,
+            "before": 0.488598,
+            "after": 0.488453,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 67,
+            "axis": 1,
+            "before": -0.029663,
+            "after": -0.028915,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 69,
+            "axis": 1,
+            "before": -0.043542,
+            "after": -0.042947,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 70,
+            "axis": 1,
+            "before": -0.056412,
+            "after": -0.056037,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 71,
+            "axis": 1,
+            "before": -0.073833,
+            "after": -0.073786,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 91,
+            "axis": 0,
+            "before": 0.487182,
+            "after": 0.487038,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 92,
+            "axis": 0,
+            "before": 0.487048,
+            "after": 0.486871,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 93,
+            "axis": 0,
+            "before": 0.486903,
+            "after": 0.486699,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 94,
+            "axis": 0,
+            "before": 0.486774,
+            "after": 0.486563,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 94,
+            "axis": 1,
+            "before": -0.001245,
+            "after": -0.000109,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 95,
+            "axis": 0,
+            "before": 0.486623,
+            "after": 0.486401,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 95,
+            "axis": 1,
+            "before": -0.006058,
+            "after": -0.004867,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 96,
+            "axis": 0,
+            "before": 0.486471,
+            "after": 0.486255,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 96,
+            "axis": 1,
+            "before": -0.013659,
+            "after": -0.012494,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 98,
+            "axis": 0,
+            "before": 0.48614,
+            "after": 0.485947,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 98,
+            "axis": 1,
+            "before": -0.030771,
+            "after": -0.029741,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 100,
+            "axis": 1,
+            "before": -0.059546,
+            "after": -0.058992,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 101,
+            "axis": 1,
+            "before": -0.078832,
+            "after": -0.07865,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 121,
+            "axis": 0,
+            "before": 0.484675,
+            "after": 0.484522,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 122,
+            "axis": 0,
+            "before": 0.484538,
+            "after": 0.484352,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 123,
+            "axis": 0,
+            "before": 0.484421,
+            "after": 0.484221,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 127,
+            "axis": 0,
+            "before": 0.48378,
+            "after": 0.483566,
+            "passesRoundedLocalNonEnlargement": true
+          },
+          {
+            "index": 127,
+            "axis": 1,
+            "before": -0.021367,
+            "after": -0.020214,
+            "passesRoundedLocalNonEnlargement": true
+          }
+        ],
+        "localCheckNotClosedLoopCausalProof": true
+      },
+      "counters": {
+        "growth": 15,
+        "projectionY": 0,
+        "projectionAlpha": 0,
+        "withdrawal": 413,
+        "contraction": 131,
+        "hardSaturationL": 0,
+        "hardSaturationR": 0,
+        "speedGuardL": 2417,
+        "speedGuardR": 640
+      },
+      "mechanism": {
+        "rateOnlySamples": 183,
+        "rateOnlyPositiveLearningSamples": [
+          183,
+          183
+        ],
+        "rateOnlyFractionalLearningSamples": [
+          169,
+          148
+        ],
+        "liveRepairAcceptedSamples": [
+          45,
+          66
+        ],
+        "retentionObservations": [],
+        "sampledAmplitudeMaskSeen": false,
+        "sampledHardClipReasonSeen": false
+      },
+      "finalNodes": [
+        7,
+        16
+      ],
+      "extrema": [
+        {
+          "metric": "tracking",
+          "absolute_mm": 0.44299999999999984,
+          "signed_mm": 0.44299999999999984,
+          "phase": 4,
+          "elapsed_s": 12.080001,
+          "uptime_s": 20.081001,
+          "sequence": 502,
+          "rawRPM": [
+            0,
+            4
+          ],
+          "speedGuardMask": 0,
+          "caMask": 6
+        },
+        {
+          "metric": "sync",
+          "absolute_mm": 0.23499999999999996,
+          "signed_mm": 0.23499999999999996,
+          "phase": 4,
+          "elapsed_s": 12.320001,
+          "uptime_s": 20.321001,
+          "sequence": 508,
+          "rawRPM": [
+            0,
+            18
+          ],
+          "speedGuardMask": 0,
+          "caMask": 0
+        }
+      ],
+      "sampleCountsAre40msSnapshotsNotCountsOfAll1msUpdates": true,
+      "rawUnchanged": true
+    },
+    {
+      "method": "S3R2",
+      "attempt": 2,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\误差汇总40s_A_BLNN_S3R2_20261014\\01_S3R2\\E5S40_A_S3R2_B67932_HW6_L1200_R1200_M0g_S2mm_pair01_attempt02.csv",
+      "sourceSHA256": "cc305f4f162b97cd36e6bdd7308a44388b3906bb71366e636e0b447d1a3934bf",
+      "primaryWindowComplete": true,
+      "phaseStats": [
+        {
+          "phase": 1,
+          "N": 100,
+          "maskHistogram": {
+            "0": 100
+          },
+          "maskFlagSampleCounts": {
+            "amplitude": 0,
+            "projected": 0,
+            "sector": 0,
+            "speed": 0,
+            "withdrawn": 0,
+            "contracted": 0
+          },
+          "reasonHistogram": {
+            "0": 100
+          },
+          "actualLearning": [
+            {
+              "range": [
+                1,
+                1
+              ],
+              "zeroSamples": 0,
+              "positiveSamples": 100
+            },
+            {
+              "range": [
+                1,
+                1
+              ],
+              "zeroSamples": 0,
+              "positiveSamples": 100
+            }
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 100
+            },
+            {
+              "0": 100
+            }
+          ],
+          "speedGuardSampleCount": 0,
+          "sectorReducedSamples": [
+            7,
+            7
+          ],
+          "maxAttemptedCommand_counts": [
+            0,
+            1
+          ],
+          "maxAdmittedNNIncrement_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "phase": 2,
+          "N": 100,
+          "maskHistogram": {
+            "0": 52,
+            "2": 13,
+            "6": 17,
+            "10": 13,
+            "14": 2,
+            "18": 1,
+            "26": 2
+          },
+          "maskFlagSampleCounts": {
+            "amplitude": 0,
+            "projected": 48,
+            "sector": 19,
+            "speed": 17,
+            "withdrawn": 3,
+            "contracted": 0
+          },
+          "reasonHistogram": {
+            "0": 52,
+            "1": 13,
+            "4": 35
+          },
+          "actualLearning": [
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 33,
+              "positiveSamples": 67
+            },
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 18,
+              "positiveSamples": 82
+            }
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 97,
+              "1": 3
+            },
+            {
+              "0": 80,
+              "1": 20
+            }
+          ],
+          "speedGuardSampleCount": 17,
+          "sectorReducedSamples": [
+            3,
+            39
+          ],
+          "maxAttemptedCommand_counts": [
+            633,
+            602
+          ],
+          "maxAdmittedNNIncrement_counts": [
+            194,
+            188
+          ]
+        },
+        {
+          "phase": 3,
+          "N": 50,
+          "maskHistogram": {
+            "0": 33,
+            "2": 13,
+            "6": 3,
+            "18": 1
+          },
+          "maskFlagSampleCounts": {
+            "amplitude": 0,
+            "projected": 17,
+            "sector": 3,
+            "speed": 0,
+            "withdrawn": 1,
+            "contracted": 0
+          },
+          "reasonHistogram": {
+            "0": 33,
+            "1": 13,
+            "4": 4
+          },
+          "actualLearning": [
+            {
+              "range": [
+                0.107331,
+                1
+              ],
+              "zeroSamples": 0,
+              "positiveSamples": 50
+            },
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 3,
+              "positiveSamples": 47
+            }
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 41,
+              "1": 7,
+              "3": 2
+            },
+            {
+              "0": 49,
+              "1": 1
+            }
+          ],
+          "speedGuardSampleCount": 0,
+          "sectorReducedSamples": [
+            40,
+            1
+          ],
+          "maxAttemptedCommand_counts": [
+            250,
+            116
+          ],
+          "maxAdmittedNNIncrement_counts": [
+            160,
+            96
+          ]
+        },
+        {
+          "phase": 4,
+          "N": 100,
+          "maskHistogram": {
+            "0": 36,
+            "2": 19,
+            "6": 24,
+            "8": 1,
+            "10": 14,
+            "14": 3,
+            "22": 1,
+            "38": 2
+          },
+          "maskFlagSampleCounts": {
+            "amplitude": 0,
+            "projected": 63,
+            "sector": 30,
+            "speed": 18,
+            "withdrawn": 1,
+            "contracted": 2
+          },
+          "reasonHistogram": {
+            "0": 36,
+            "1": 19,
+            "4": 45
+          },
+          "actualLearning": [
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 32,
+              "positiveSamples": 68
+            },
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 27,
+              "positiveSamples": 73
+            }
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 84,
+              "1": 16
+            },
+            {
+              "0": 75,
+              "1": 25
+            }
+          ],
+          "speedGuardSampleCount": 18,
+          "sectorReducedSamples": [
+            34,
+            33
+          ],
+          "maxAttemptedCommand_counts": [
+            649,
+            672
+          ],
+          "maxAdmittedNNIncrement_counts": [
+            142,
+            139
+          ]
+        },
+        {
+          "phase": 5,
+          "N": 150,
+          "maskHistogram": {
+            "0": 129,
+            "2": 15,
+            "6": 6
+          },
+          "maskFlagSampleCounts": {
+            "amplitude": 0,
+            "projected": 21,
+            "sector": 6,
+            "speed": 0,
+            "withdrawn": 0,
+            "contracted": 0
+          },
+          "reasonHistogram": {
+            "0": 129,
+            "1": 15,
+            "4": 6
+          },
+          "actualLearning": [
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 4,
+              "positiveSamples": 146
+            },
+            {
+              "range": [
+                0,
+                1
+              ],
+              "zeroSamples": 2,
+              "positiveSamples": 148
+            }
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 148,
+              "1": 2
+            },
+            {
+              "0": 138,
+              "1": 12
+            }
+          ],
+          "speedGuardSampleCount": 0,
+          "sectorReducedSamples": [
+            3,
+            9
+          ],
+          "maxAttemptedCommand_counts": [
+            103,
+            99
+          ],
+          "maxAdmittedNNIncrement_counts": [
+            97,
+            97
+          ]
+        }
+      ],
+      "event": {
+        "elapsed_ms": [
+          17936,
+          18063
+        ],
+        "phaseHistogram": {
+          "5": 128
+        },
+        "notMatchedToOtherMethodEventTime": true,
+        "maskHistogram": {
+          "0": 128
+        },
+        "reasonHistogram": {
+          "0": 128
+        },
+        "repairModeHistograms": [
+          {
+            "0": 128
+          },
+          {
+            "0": 128
+          }
+        ],
+        "actualLearningRange": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "acceptedLocalRepairChecks": [],
+        "localCheckNotClosedLoopCausalProof": true
+      },
+      "counters": {
+        "growth": 10,
+        "projectionY": 0,
+        "projectionAlpha": 0,
+        "withdrawal": 124,
+        "contraction": 51,
+        "hardSaturationL": 0,
+        "hardSaturationR": 0,
+        "speedGuardL": 728,
+        "speedGuardR": 711
+      },
+      "mechanism": {
+        "rateOnlySamples": 60,
+        "rateOnlyPositiveLearningSamples": [
+          60,
+          60
+        ],
+        "rateOnlyFractionalLearningSamples": [
+          53,
+          43
+        ],
+        "liveRepairAcceptedSamples": [
+          28,
+          58
+        ],
+        "retentionObservations": [
+          {
+            "phase": 3,
+            "elapsed_s": 8,
+            "tracking_mm": -0.015499999999999889,
+            "sync_mm": -0.10899999999999994,
+            "rawRPM": [
+              2,
+              0
+            ],
+            "learning": 0.84461,
+            "mask": 2
+          },
+          {
+            "phase": 3,
+            "elapsed_s": 8.240001,
+            "tracking_mm": -0.010500000000000093,
+            "sync_mm": -0.09899999999999991,
+            "rawRPM": [
+              0,
+              0
+            ],
+            "learning": 0.799918,
+            "mask": 2
+          }
+        ],
+        "sampledAmplitudeMaskSeen": false,
+        "sampledHardClipReasonSeen": false
+      },
+      "finalNodes": [
+        7,
+        11
+      ],
+      "extrema": [
+        {
+          "metric": "tracking",
+          "absolute_mm": 0.43100000000000005,
+          "signed_mm": 0.43100000000000005,
+          "phase": 4,
+          "elapsed_s": 13.040001,
+          "uptime_s": 21.041,
+          "sequence": 526,
+          "rawRPM": [
+            -15,
+            0
+          ],
+          "speedGuardMask": 1,
+          "caMask": 10
+        },
+        {
+          "metric": "sync",
+          "absolute_mm": 0.24799999999999994,
+          "signed_mm": -0.24799999999999994,
+          "phase": 4,
+          "elapsed_s": 13.200001,
+          "uptime_s": 21.201,
+          "sequence": 530,
+          "rawRPM": [
+            -5,
+            -7
+          ],
+          "speedGuardMask": 0,
+          "caMask": 2
+        }
+      ],
+      "sampleCountsAre40msSnapshotsNotCountsOfAll1msUpdates": true,
+      "rawUnchanged": true
+    }
+  ],
+  "attempt02PhaseDecomposition": [
+    {
+      "phase": 2,
+      "N": 100,
+      "trackingRMSE_mm": {
+        "BLNN": 0.18331208361698367,
+        "S3R2": 0.22647634534317265,
+        "changePercent": 23.54687201983767,
+        "contributionToTotalMSEChange_mm2": 0.004422053749999997
+      },
+      "syncRMS_mm": {
+        "BLNN": 0.07085308744155049,
+        "S3R2": 0.06997270896571031,
+        "changePercent": -1.2425407383502285,
+        "contributionToTotalMSEChange_mm2": -0.000030995000000000675
+      }
+    },
+    {
+      "phase": 3,
+      "N": 50,
+      "trackingRMSE_mm": {
+        "BLNN": 0.08531711434407516,
+        "S3R2": 0.028452592149046767,
+        "changePercent": -66.65078001313971,
+        "contributionToTotalMSEChange_mm2": -0.0008086824999999996
+      },
+      "syncRMS_mm": {
+        "BLNN": 0.050667149120510076,
+        "S3R2": 0.048020412326426364,
+        "changePercent": -5.22377287853425,
+        "contributionToTotalMSEChange_mm2": -0.000032650000000000495
+      }
+    },
+    {
+      "phase": 4,
+      "N": 100,
+      "trackingRMSE_mm": {
+        "BLNN": 0.16992692547092114,
+        "S3R2": 0.22220071444529613,
+        "changePercent": 30.76251090255875,
+        "contributionToTotalMSEChange_mm2": 0.0051244993750000105
+      },
+      "syncRMS_mm": {
+        "BLNN": 0.08412276742951337,
+        "S3R2": 0.06771521247105407,
+        "changePercent": -19.504297659022242,
+        "contributionToTotalMSEChange_mm2": -0.0006228224999999996
+      }
+    },
+    {
+      "phase": 5,
+      "N": 150,
+      "trackingRMSE_mm": {
+        "BLNN": 0.008240853515666136,
+        "S3R2": 0.003527274679787033,
+        "changePercent": -57.197701996746254,
+        "contributionToTotalMSEChange_mm2": -0.000020801250000000068
+      },
+      "syncRMS_mm": {
+        "BLNN": 0.0033813212407775334,
+        "S3R2": 0.0033714487489307494,
+        "changePercent": -0.29197142607230164,
+        "contributionToTotalMSEChange_mm2": -2.4999999999976044e-8
+      }
+    }
+  ],
+  "returnShareOfNetSyncMSEDecrease_pct": 90.72531746522976,
+  "units": "errors:mm; squared contributions:mm^2; command counts NOT calibrated amperes",
+  "limitations": [
+    "Only one complete filename-matched pair, fixed BLNN thenS3R2 order; not randomized or replicated causal validation.",
+    "Attempt01S3R2 missing active sequence500; retain all recorded activity descriptively, never fill or substitute its incomplete primary window.",
+    "Live flag/mode counts are40ms snapshots, not duty fractions/counts of all1ms control updates.",
+    "BLNN andS3R2 event snapshots areat5s and18s respectively; no matched-event comparison.",
+    "CompositeCA differs in output envelope,sector,gating,allocation,learning andrepair; mechanism activation alone does not isolate cause.",
+    "No task-derived tracking tolerance provided; cannot assert acceptable cost.",
+    "Common stopped1022framing vulnerability already documented; active500loss cause remains unknown."
+  ],
+  "sourceHashes": {
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\blnn_core.c": "2614e4bb025461295fee4cbc9025a8f868ee4a4b82b2ca12789ff564ecac430d",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\experiment5_ca_actuator.h": "eca877ea5c4a117d054004ad0706bd414aa1cac5f2625eb83bdd111a43543d43",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\motor_task.c": "d064e4a7a71a6c82a2967d1f47e09b115547d5510b312446c8bf5111736d4d4a",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\diagnostic_config.h": "b9f69656ef3bbdb9f83f613339aa026a9a6fea8f5e259436476c18c142b9da42",
+    "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\误差汇总40s_A_BLNN_S3R2_20261014\\01_R2\\eassy_E5R2_A_S3R2_HW6\\Task\\experiment5_formal_config.h": "b7b96aa3c3380cc605b3995e1dee390e2691dd663e620d69fd05d13f95402946"
+  },
+  "noFirmwareChanges": true,
+  "noNewCapture": true,
+  "noHardwareActions": true,
+  "noControllerTuning": true,
+  "noImputation": true,
+  "analysisSHA256": "0666e52a358b8545e24765cc748695fd87ea8fea710c9ebd0fdcb7895b8339e6"
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "name": "equivalence_float",
+    "output": "PASS exact D0 equivalence: 90000 steps, all commands, predictions, weights, centers, scratch features, growth, AW and gates."
+  },
+  {
+    "name": "adapter_S0_old_float",
+    "output": "recorded_sample final=100,-172 BASE=100,-174 NN=0,2 mask=14\r\ntight_sector retained=3,3 mask=38\r\ntight_headroom retained=30,-50 mask=32\r\nPASS cases=305844 explicit_NN_withdrawals=5583 feasible_contractions=29; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.\r\nLIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction."
+  },
+  {
+    "name": "reasons_S0_old_float",
+    "output": "PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification."
+  },
+  {
+    "name": "adapter_S1_learning_float",
+    "output": "recorded_sample final=100,-172 BASE=100,-174 NN=0,2 mask=14\r\ntight_sector retained=3,3 mask=38\r\ntight_headroom retained=30,-50 mask=32\r\nPASS cases=305844 explicit_NN_withdrawals=5281 feasible_contractions=25; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.\r\nLIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction."
+  },
+  {
+    "name": "reasons_S1_learning_float",
+    "output": "PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification."
+  },
+  {
+    "name": "adapter_S2_projection_float",
+    "output": "recorded_sample final=100,-172 BASE=100,-174 NN=0,2 mask=14\r\ntight_sector retained=3,3 mask=38\r\ntight_headroom retained=30,-50 mask=32\r\nPASS cases=305844 explicit_NN_withdrawals=5583 feasible_contractions=29; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.\r\nLIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction."
+  },
+  {
+    "name": "reasons_S2_projection_float",
+    "output": "PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification."
+  },
+  {
+    "name": "adapter_S3_both_float",
+    "output": "recorded_sample final=100,-172 BASE=100,-174 NN=0,2 mask=14\r\ntight_sector retained=3,3 mask=38\r\ntight_headroom retained=30,-50 mask=32\r\nPASS cases=305844 explicit_NN_withdrawals=5281 feasible_contractions=25; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.\r\nLIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction."
+  },
+  {
+    "name": "reasons_S3_both_float",
+    "output": "PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification."
+  },
+  {
+    "name": "projection_0_float",
+    "output": "PASS recorded contraction regression, 100000 same-state guarded cases, no-worse target distance; improvements=0; max exceptional candidates=56"
+  },
+  {
+    "name": "projection_1_float",
+    "output": "PASS recorded contraction regression, 100000 same-state guarded cases, no-worse target distance; improvements=1153; max exceptional candidates=56"
+  },
+  {
+    "name": "equivalence_double",
+    "output": "PASS exact D0 equivalence: 90000 steps, all commands, predictions, weights, centers, scratch features, growth, AW and gates."
+  },
+  {
+    "name": "adapter_S0_old_double",
+    "output": "recorded_sample final=100,-172 BASE=100,-174 NN=0,2 mask=14\r\ntight_sector retained=3,3 mask=38\r\ntight_headroom retained=30,-50 mask=32\r\nPASS cases=305844 explicit_NN_withdrawals=5583 feasible_contractions=29; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.\r\nLIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction."
+  },
+  {
+    "name": "reasons_S0_old_double",
+    "output": "PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification."
+  },
+  {
+    "name": "adapter_S1_learning_double",
+    "output": "recorded_sample final=100,-172 BASE=100,-174 NN=0,2 mask=14\r\ntight_sector retained=3,3 mask=38\r\ntight_headroom retained=30,-50 mask=32\r\nPASS cases=305844 explicit_NN_withdrawals=5315 feasible_contractions=22; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.\r\nLIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction."
+  },
+  {
+    "name": "reasons_S1_learning_double",
+    "output": "PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification."
+  },
+  {
+    "name": "adapter_S2_projection_double",
+    "output": "recorded_sample final=100,-172 BASE=100,-174 NN=0,2 mask=14\r\ntight_sector retained=3,3 mask=38\r\ntight_headroom retained=30,-50 mask=32\r\nPASS cases=305844 explicit_NN_withdrawals=5583 feasible_contractions=29; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.\r\nLIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction."
+  },
+  {
+    "name": "reasons_S2_projection_double",
+    "output": "PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification."
+  },
+  {
+    "name": "adapter_S3_both_double",
+    "output": "recorded_sample final=100,-172 BASE=100,-174 NN=0,2 mask=14\r\ntight_sector retained=3,3 mask=38\r\ntight_headroom retained=30,-50 mask=32\r\nPASS cases=305844 explicit_NN_withdrawals=5315 feasible_contractions=22; 65536 zero-NN equivalence, 200000 signed-RPM allocation, 40000 actual-core AW/gating steps.\r\nLIMITATION: arbitrary-input invariants only; no physical plant or hardware success prediction."
+  },
+  {
+    "name": "reasons_S3_both_double",
+    "output": "PASS explicit pure-slew, hidden hard clip, amplitude, sector, speed, reversal and zero-target classification."
+  },
+  {
+    "name": "projection_0_double",
+    "output": "PASS recorded contraction regression, 100000 same-state guarded cases, no-worse target distance; improvements=0; max exceptional candidates=56"
+  },
+  {
+    "name": "projection_1_double",
+    "output": "PASS recorded contraction regression, 100000 same-state guarded cases, no-worse target distance; improvements=1153; max exceptional candidates=56"
+  }
+]

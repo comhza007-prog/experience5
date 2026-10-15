@@ -1,0 +1,48 @@
+{
+  "status": "Declared before predictions, after user supplied extra capture",
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+  "sourceSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+  "primaryComparisons": [
+    "R96_no_motor",
+    "R96_motor"
+  ],
+  "allModels": [
+    {
+      "label": "R90",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\cumulative_micro_round90_20261015\\model_parameters.json",
+      "sha256": "ffc2988f6943390e991294edb19ee0a7415f3e05b0dba3ffe80c9f585fe90b87"
+    },
+    {
+      "label": "R86",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\cumulative_micro_round86_20261015\\model_parameters.json",
+      "sha256": "b5fa79668e254f166c765a8444fd79733625633dc0e4ac8147e0c891da96580a"
+    },
+    {
+      "label": "R82",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\tracking_refine_round82_20261015\\model_parameters.json",
+      "sha256": "b0c586fc4e7f74c4a73b7140a372c4d60ee7a6940d9179a9a2cbd2a81a40d1a0"
+    },
+    {
+      "label": "R93_motor",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\motor_response_analysis_round93_20261015\\model_parameters.json",
+      "sha256": "73fbd019a99a69a792f6027e873840ddf9baae14723284e46b12a8182e317748"
+    },
+    {
+      "label": "R96_no_motor",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\aggregate_calibration_round96_20261015\\model_parameters_no_motor.json",
+      "sha256": "2d66275627876b0e229abcbbf096d821a8960eff5f9e42b941c9a4b12ebf1db6"
+    },
+    {
+      "label": "R96_motor",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\aggregate_calibration_round96_20261015\\model_parameters_motor.json",
+      "sha256": "566272cfd29e22b75a905a27c26d8f4c499c95e73a54d42fd98c23e7e3f68fdb"
+    }
+  ],
+  "oldSetupReference": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\motor_response_analysis_round93_20261015\\next_capture_protocol.json",
+  "modelsRefitted": 0,
+  "criterion": "Final active-window trackingRMSE and syncRMS relative errors both<=15percent; waveform not hard gate.",
+  "captureWasNotAssistantReleased": true,
+  "parametersFrozenBeforeCapture": true,
+  "modelNotSelectedFromNewPerformance": true,
+  "assistantHardwareAction": false
+}

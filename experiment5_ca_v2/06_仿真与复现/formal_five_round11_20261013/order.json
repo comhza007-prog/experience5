@@ -1,0 +1,283 @@
+{
+  "plannedAttempts": 25,
+  "repeatsPerMethod": 5,
+  "condition": "A",
+  "schema": 4466,
+  "order": [
+    {
+      "step": 1,
+      "block": 1,
+      "position": 1,
+      "method": "BLNN",
+      "build": 65511,
+      "filename": "E5F2_A_BLNN_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run01.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/00_BLNN",
+      "project": "05_实验代码/正式对照A_五方案_F5/00_BLNN/eassy_E5F2_A_BLNN_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_BLNN_HW6_F5_EVENT40"
+    },
+    {
+      "step": 2,
+      "block": 1,
+      "position": 2,
+      "method": "S0",
+      "build": 65612,
+      "filename": "E5F2_A_S0_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run01.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/01_S0",
+      "project": "05_实验代码/正式对照A_五方案_F5/01_S0/eassy_E5F2_A_S0_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S0_HW6_F5_EVENT40"
+    },
+    {
+      "step": 3,
+      "block": 1,
+      "position": 3,
+      "method": "S1",
+      "build": 65712,
+      "filename": "E5F2_A_S1_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run01.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/02_S1",
+      "project": "05_实验代码/正式对照A_五方案_F5/02_S1/eassy_E5F2_A_S1_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S1_HW6_F5_EVENT40"
+    },
+    {
+      "step": 4,
+      "block": 1,
+      "position": 4,
+      "method": "S2",
+      "build": 65812,
+      "filename": "E5F2_A_S2_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run01.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/03_S2",
+      "project": "05_实验代码/正式对照A_五方案_F5/03_S2/eassy_E5F2_A_S2_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S2_HW6_F5_EVENT40"
+    },
+    {
+      "step": 5,
+      "block": 1,
+      "position": 5,
+      "method": "S3",
+      "build": 65912,
+      "filename": "E5F2_A_S3_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run01.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/04_S3",
+      "project": "05_实验代码/正式对照A_五方案_F5/04_S3/eassy_E5F2_A_S3_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S3_HW6_F5_EVENT40"
+    },
+    {
+      "step": 6,
+      "block": 2,
+      "position": 1,
+      "method": "S0",
+      "build": 65612,
+      "filename": "E5F2_A_S0_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run02.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/01_S0",
+      "project": "05_实验代码/正式对照A_五方案_F5/01_S0/eassy_E5F2_A_S0_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S0_HW6_F5_EVENT40"
+    },
+    {
+      "step": 7,
+      "block": 2,
+      "position": 2,
+      "method": "S1",
+      "build": 65712,
+      "filename": "E5F2_A_S1_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run02.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/02_S1",
+      "project": "05_实验代码/正式对照A_五方案_F5/02_S1/eassy_E5F2_A_S1_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S1_HW6_F5_EVENT40"
+    },
+    {
+      "step": 8,
+      "block": 2,
+      "position": 3,
+      "method": "S2",
+      "build": 65812,
+      "filename": "E5F2_A_S2_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run02.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/03_S2",
+      "project": "05_实验代码/正式对照A_五方案_F5/03_S2/eassy_E5F2_A_S2_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S2_HW6_F5_EVENT40"
+    },
+    {
+      "step": 9,
+      "block": 2,
+      "position": 4,
+      "method": "S3",
+      "build": 65912,
+      "filename": "E5F2_A_S3_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run02.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/04_S3",
+      "project": "05_实验代码/正式对照A_五方案_F5/04_S3/eassy_E5F2_A_S3_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S3_HW6_F5_EVENT40"
+    },
+    {
+      "step": 10,
+      "block": 2,
+      "position": 5,
+      "method": "BLNN",
+      "build": 65511,
+      "filename": "E5F2_A_BLNN_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run02.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/00_BLNN",
+      "project": "05_实验代码/正式对照A_五方案_F5/00_BLNN/eassy_E5F2_A_BLNN_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_BLNN_HW6_F5_EVENT40"
+    },
+    {
+      "step": 11,
+      "block": 3,
+      "position": 1,
+      "method": "S1",
+      "build": 65712,
+      "filename": "E5F2_A_S1_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run03.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/02_S1",
+      "project": "05_实验代码/正式对照A_五方案_F5/02_S1/eassy_E5F2_A_S1_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S1_HW6_F5_EVENT40"
+    },
+    {
+      "step": 12,
+      "block": 3,
+      "position": 2,
+      "method": "S2",
+      "build": 65812,
+      "filename": "E5F2_A_S2_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run03.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/03_S2",
+      "project": "05_实验代码/正式对照A_五方案_F5/03_S2/eassy_E5F2_A_S2_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S2_HW6_F5_EVENT40"
+    },
+    {
+      "step": 13,
+      "block": 3,
+      "position": 3,
+      "method": "S3",
+      "build": 65912,
+      "filename": "E5F2_A_S3_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run03.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/04_S3",
+      "project": "05_实验代码/正式对照A_五方案_F5/04_S3/eassy_E5F2_A_S3_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S3_HW6_F5_EVENT40"
+    },
+    {
+      "step": 14,
+      "block": 3,
+      "position": 4,
+      "method": "BLNN",
+      "build": 65511,
+      "filename": "E5F2_A_BLNN_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run03.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/00_BLNN",
+      "project": "05_实验代码/正式对照A_五方案_F5/00_BLNN/eassy_E5F2_A_BLNN_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_BLNN_HW6_F5_EVENT40"
+    },
+    {
+      "step": 15,
+      "block": 3,
+      "position": 5,
+      "method": "S0",
+      "build": 65612,
+      "filename": "E5F2_A_S0_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run03.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/01_S0",
+      "project": "05_实验代码/正式对照A_五方案_F5/01_S0/eassy_E5F2_A_S0_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S0_HW6_F5_EVENT40"
+    },
+    {
+      "step": 16,
+      "block": 4,
+      "position": 1,
+      "method": "S2",
+      "build": 65812,
+      "filename": "E5F2_A_S2_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run04.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/03_S2",
+      "project": "05_实验代码/正式对照A_五方案_F5/03_S2/eassy_E5F2_A_S2_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S2_HW6_F5_EVENT40"
+    },
+    {
+      "step": 17,
+      "block": 4,
+      "position": 2,
+      "method": "S3",
+      "build": 65912,
+      "filename": "E5F2_A_S3_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run04.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/04_S3",
+      "project": "05_实验代码/正式对照A_五方案_F5/04_S3/eassy_E5F2_A_S3_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S3_HW6_F5_EVENT40"
+    },
+    {
+      "step": 18,
+      "block": 4,
+      "position": 3,
+      "method": "BLNN",
+      "build": 65511,
+      "filename": "E5F2_A_BLNN_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run04.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/00_BLNN",
+      "project": "05_实验代码/正式对照A_五方案_F5/00_BLNN/eassy_E5F2_A_BLNN_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_BLNN_HW6_F5_EVENT40"
+    },
+    {
+      "step": 19,
+      "block": 4,
+      "position": 4,
+      "method": "S0",
+      "build": 65612,
+      "filename": "E5F2_A_S0_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run04.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/01_S0",
+      "project": "05_实验代码/正式对照A_五方案_F5/01_S0/eassy_E5F2_A_S0_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S0_HW6_F5_EVENT40"
+    },
+    {
+      "step": 20,
+      "block": 4,
+      "position": 5,
+      "method": "S1",
+      "build": 65712,
+      "filename": "E5F2_A_S1_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run04.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/02_S1",
+      "project": "05_实验代码/正式对照A_五方案_F5/02_S1/eassy_E5F2_A_S1_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S1_HW6_F5_EVENT40"
+    },
+    {
+      "step": 21,
+      "block": 5,
+      "position": 1,
+      "method": "S3",
+      "build": 65912,
+      "filename": "E5F2_A_S3_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run05.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/04_S3",
+      "project": "05_实验代码/正式对照A_五方案_F5/04_S3/eassy_E5F2_A_S3_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S3_HW6_F5_EVENT40"
+    },
+    {
+      "step": 22,
+      "block": 5,
+      "position": 2,
+      "method": "BLNN",
+      "build": 65511,
+      "filename": "E5F2_A_BLNN_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run05.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/00_BLNN",
+      "project": "05_实验代码/正式对照A_五方案_F5/00_BLNN/eassy_E5F2_A_BLNN_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_BLNN_HW6_F5_EVENT40"
+    },
+    {
+      "step": 23,
+      "block": 5,
+      "position": 3,
+      "method": "S0",
+      "build": 65612,
+      "filename": "E5F2_A_S0_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run05.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/01_S0",
+      "project": "05_实验代码/正式对照A_五方案_F5/01_S0/eassy_E5F2_A_S0_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S0_HW6_F5_EVENT40"
+    },
+    {
+      "step": 24,
+      "block": 5,
+      "position": 4,
+      "method": "S1",
+      "build": 65712,
+      "filename": "E5F2_A_S1_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run05.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/02_S1",
+      "project": "05_实验代码/正式对照A_五方案_F5/02_S1/eassy_E5F2_A_S1_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S1_HW6_F5_EVENT40"
+    },
+    {
+      "step": 25,
+      "block": 5,
+      "position": 5,
+      "method": "S2",
+      "build": 65812,
+      "filename": "E5F2_A_S2_HW6_F5_EVENT40_L1200_R1200_M0g_S2mm_run05.csv",
+      "dataFolder": "01_原始数据/正式对照A_五方案_F5/03_S2",
+      "project": "05_实验代码/正式对照A_五方案_F5/03_S2/eassy_E5F2_A_S2_HW6/MDK-ARM/eassy.uvprojx",
+      "target": "exp5F2_A_S2_HW6_F5_EVENT40"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"status":"Historical design checks only, superseded by checks03","reason":"Nominal index/time conflation removed; retain actual board-ms and microsecond timing independently of sample sequence. Add health-permit gating, partial/fault sealing and capacity tests. No outcome-based controller tuning or hardware operations."}

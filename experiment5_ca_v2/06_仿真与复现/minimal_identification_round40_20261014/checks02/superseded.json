@@ -1,0 +1,1 @@
+{"status":"Historical design checks only, superseded by checks03","reason":"Extended explicit partial/fault sealing, full capacity/overflow, LFSR balance/period and repeated board-ms timing tests. No controller or physical changes."}

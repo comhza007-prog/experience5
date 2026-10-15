@@ -1,0 +1,15 @@
+{
+  "date":"2026-10-13",
+  "authorization":"User clarified: first formal run for each of five methods; if records are satisfactory, continue to five runs per method,25 total. No extra pilot.",
+  "supersedesNarrowStep1OnlyRelease":true,
+  "protocol":"protocol.json","order":"order.json",
+  "releasedSteps":[1,2,3,4,5],"methodOrder":["BLNN","S0","S1","S2","S3"],
+  "builds":[65511,65612,65712,65812,65912],"repeatNumberForEach":1,
+  "conditions":"Same qualified unloaded A2mm out-and-back,1200/1200 counts,HW6. No retuning or hardware change; each run fresh4-node/zero-weight reset.",
+  "preflightSourceSHA256":"ee2b797310e7a8e94133d1c73a6c89df472a51ddc1dea24206751b55fd0f0cd1",
+  "safety":"Clear VOFA history before each reset; verify the method-specific build. On abnormal motion or I2=9/I22 nonzero, stop safely, retain at least5sec and export same history. Pause the block for review; no retry, overwriting or failure deletion. Zero current is not a holding brake.",
+  "normalStop":"For all five: I2=6,I22=0; wait I88=4422/I89=4 then retain5sec, typically I0>=85sec. All107 channels. Ordinary BLNN activeI88/I89=-1 is not a fault.",
+  "interimReview":"After five files, check identity/data completeness/safety and inspect both predeclared primary errors plus learning/search activity. One run per method is a preliminary within-block comparison, not repeatability or superiority proof. If there is no useful trend, pause and diagnose rather than finish blindly.",
+  "retentionAndInference":"If unchanged, first five are formal block1; remaining four per method give25 total. Record that an interim look occurred; do not present it as an untouched independent confirmatory set, choose a favorable metric, or omit unfavorable/faulted attempts. If control version changes after the review, retain old block and start a separate version/protocol; never mix for a superiority claim.",
+  "fullBatchReleased":false
+}

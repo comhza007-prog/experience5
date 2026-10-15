@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "independentPythonContinuousSteps": 20000,
+  "maximumNativePythonPositionDifference_m": 3.3393426912553537e-17,
+  "native40msPoints": 400,
+  "meanPositionPredictionRMSE_mm": 0.10396877235497205,
+  "syncPredictionRMSE_mm": 0.05587443512018711,
+  "ordinaryTrainingOnly": true,
+  "holdInputRemainsMeanAbstraction": true,
+  "notIndependentPredictionValidation": true,
+  "previousFailureAndRawHashesUnchanged": true,
+  "calibrationEvaluations": 143,
+  "controllerChanged": false,
+  "physicalRunReleased": false
+}

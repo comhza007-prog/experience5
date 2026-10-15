@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "build": 68112,
+  "schema": 4500,
+  "magic": 4445,
+  "unchangedSourceFiles": 187,
+  "guardFilterArmingStopBlocksExact": true,
+  "excitationHeaderByteExact": true,
+  "originalRecordingAndSafeExportExact": true,
+  "originalSummaryUARTHeadersExact": true,
+  "originalPrefixSameExceptVersionBuild": true,
+  "checks": [
+    "PASS exactDisabledCoreOutputAW100000 guardFixtures1677360 seedPhaseRPMbalanceAndNominalRank symbolIntervals8000 traceABI75076 offlineOnlyNoHardware",
+    "PASS exactDisabledCoreOutputAW100000 guardFixtures1677360 seedPhaseRPMbalanceAndNominalRank symbolIntervals8000 traceABI75076 offlineOnlyNoHardware",
+    "PASS ABI/blob74988/trace75076 full20000intervals moving8000 hold300 exception4 packing100000 words65536 chunks3128 guards preserved; no hardware",
+    "PASS: six-decimal100000fixtures; all105otherchannels; TCcommit/errors; 39.999/40s boundary and delayed-motion phase6 gate.",
+    "PASS independent decoder:8000 exact moving rows,300exact integral holds;4copies/loss recovery;active gaps/CRC/duplicate/version/identity/tail checks; no hardware",
+    "PASS old zero/65408 delimiter; all65536 split-range words exact includingCSV6decimals, all encoded pairs and zero boundaries delimiter-free",
+    "Saved frozen nominal8000interval request manifest,seed39/profile1"
+  ],
+  "protocolSHA256": "3ab12f0d40aba7a381c01e44fd2e38abda3b200e2856ce8fac3f7785cb946992",
+  "requestManifestSHA256": "5039b32b059bdcce6d4764e735636c94ee77b584afdd850c6fdcbd26731c126f",
+  "sourceHashes": {
+    "Task/motor_task.c": "54b575ed24145bb04418e3aaf96d093ffbb89906c525d96f9ef210b4ffb9e325",
+    "Task/identification_trace.h": "d9d3c6aa1d223732ceda914b0d438f8f516483e477de6537f2bb95f94c6f03ec",
+    "Task/experiment5_formal_config.h": "85d7b3295ff73526e894d99d4bd3fc27cc9ea7773c815acd4a256a356cf53a6b",
+    "Task/identification_excitation.h": "6901addfa9eba70cbd58b12dbf1c539151d3e62d21156d44d55a4a37354db4ce"
+  },
+  "assistantHardwareActions": false,
+  "project": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\辨识T1_全运动段_20261015\\eassy_E5ID_T1F_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+  "target": "exp5ID_T1F_BLNN_HW6",
+  "hex": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\辨识T1_全运动段_20261015\\eassy_E5ID_T1F_BLNN_HW6\\MDK-ARM\\exp5ID_T1F_BLNN_HW6\\exp5ID_T1F_BLNN_HW6.hex",
+  "hexSHA256": "2a44620c4161e0a6180c01d066f7473093c498353c12d484b1bd4b245b31feeb",
+  "compileErrors": 0,
+  "compileWarnings": 0,
+  "blobBytes": 74988,
+  "traceBytes": 75076,
+  "RAM": {
+    "used": 108368,
+    "max": 114688,
+    "remaining": 6320
+  },
+  "AXFHEXByteExact": true,
+  "hardwareReleasedForOneManualTrainingTrial": true,
+  "onBoardTimingQualified": false,
+  "physicalRunsCollected": 0,
+  "modelIdentified": false,
+  "independentValidationReleased": false,
+  "formalBatchReleased": false
+}

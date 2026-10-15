@@ -1,0 +1,33 @@
+{
+  "authorization": "User requests repairing parameter boundaries/identification instability before comparing run010 andrun011.",
+  "originalBoundsRetained": true,
+  "parameterBounds": "Same R103 joint bounds: positive factors[.05,20], right damping upper1000; eta[-.95,.95]. Applied at EVERY evaluation and final export. These are numerical search bounds, not experimentally identified physical bounds.",
+  "method": "SVD of time-weighted snapshot and aggregate residual Jacobian at fixed R100 anchor. Keep singular directions >=1percent of largest, at most6. Freeze orthogonal weak combinations at anchor. Fit only retained coordinates with ridge prior0.1.",
+  "coordinateMetric": "Log-positive coefficients relative R100; eta increment divided0.1. SVD conditioning is coordinate/scale-dependent.",
+  "objective": "Equal-record timeweighted mean/difference position residuals /0.05mm plus aggregate relative residuals /0.15 weighted5, then ridge0.1*||retained coordinates||^2. No changing objectives or polish after seeing results.",
+  "starts": "Three fixed starts: anchor, projected oldR103 shrunk into bounds, +0.05 in every retained coordinate. <=70 LMiterations each.",
+  "sensitivity": "After selection, refit from chosen point under +1percent and-1percent uniform observation/target perturbation, <=35iterations each; diagnostic, not statistical confidence.",
+  "acceptance": "Report original15percent and requested20percent descriptively; neither gate selects a fit. Both records calibration only.",
+  "previousResultsPreserved": true,
+  "oldDataInObjective": false,
+  "modelStructureChanged": false,
+  "firmwareChanged": false,
+  "assistantHardwareAction": false,
+  "fundamentalLimitation": "Freezing weak directions stabilizes reduced fitting, does not make all12 physical coefficients identifiable. No manufactured physical motor bounds.",
+  "sources": [
+    {
+      "name": "new_belt_run010",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+      "rawSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_r96_frozen_check_round97_20261015\\capture_analysis.json",
+      "decodedSHA256": "7d2e50b8382219adf1b8d2252e02ce110a0edb6e8d4f00c4df266952ed2abffd"
+    },
+    {
+      "name": "new_belt_run011",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run011.csv",
+      "rawSHA256": "e7e38ee5980fca58f656ac36ffe52d37b505909b4dee49e53acba25dbd306173",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_frozen_check_round99_20261015\\capture_analysis.json",
+      "decodedSHA256": "6022ce98f46a4b09be546bfb8668a70e0ef5e4a7066ac303cb5d571019d41460"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+ "status":"Prepare one user-operated20mm qualification only, no assistant hardware action",
+ "authorization":"User explicitly requests own flashing/manualVOFA capture and confirms restoring power-on one-shot operation. Assistant must not connect serial, flash, reset or start hardware.",
+ "sourceBuild":68312,"newBuild":68412,"newSchema":4502,
+ "scope":"Same20mm stroke,8s per leg,total28s,emptyload,1200/1200. Same4ms moving/40ms holding integral loggerABI3 and600point40s RMS display. No control/trajectory/current/physical guard changes from checkedR107.",
+ "startupChange":"One boot-start attempt after8seconds, requires healthy CAN/battery/temperatures/speeds and500msstationary. Unhealthy attempt faults and never retries until new boot. CRC-valid serial STOP retained; remote ARM/SET/PING disabled. Host-heartbeat abort not used in manual mode, user must remain onsite with physical emergency stop.",
+ "safety":"Drive power off while flashing; downloading may reset/run MCU and start8second countdown. Do not flash with drive energized. PrepareVOFA/clearhistory before intended controlled power-on; do not reset/reflash/restart after fault just to finish recording. Last2mm mechanical difficulty unresolved;20mm is not proven remedy.",
+ "operatorConfirmedGeometry":"Prior turn user confirmed >=22mm positive/4mm negative clear travel and30mm effective drive radius. New code has[-4,+22]mm travel guard, others unchanged. This statement is not a fresh motor-start confirmation.",
+ "dataFile":"E5Q20M_BLNN_B68412_HW6_L1200_R1200_M0g_S20mm_run01.csv",
+ "rawDirectory":"D:/lunwen2/起重机/output/experiment5_ca_v2/01_原始数据/20mm手动VOFA_20261015",
+ "VOFA":"JustFloat,115200,107channels,6decimalplaces. UseI63=68412 to verify identity. No manual HEX start command.",
+ "saveCondition":"Healthyphase6,fault0,I88=4445,I89=4,I90=0; retain20seconds after first complete marker AND I0>=185seconds. Do not stop onphase6alone. On fault stop drive safely, keep board/history and export full fault replay; no rerun.",
+ "prediction":"After recording first audit quality, then evaluate a frozen model with clearly documented4ms-mean-input approximation BEFORE fitting. No automatic training/batch transfer from2mm or using heldout record to secretly tune parameters.",
+ "oldDataAndCodePreserved":true,"assistantHardwareAction":false,"flashed":false,"physicalRuns":0
+}

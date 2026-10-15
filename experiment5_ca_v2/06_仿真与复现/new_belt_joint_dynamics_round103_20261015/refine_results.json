@@ -1,0 +1,2597 @@
+{
+  "protocolSHA256": "a3069903dd15474a968c145dcc82a855c9c7b7e6211cae779e7d9a5423af6f70",
+  "scriptSHA256": "8f05b32186d60493dc294cf36ad3962af3b76cb6f18e23f8f47aa005be303173",
+  "selected": {
+    "seed": 2,
+    "coordinates": [
+      -2.995732273553991,
+      1.8515385469020764,
+      -2.995732273553991,
+      -2.995732273553991,
+      2.3767846176280787,
+      1.0228248179228003,
+      2.573998912888498,
+      -2.995732273553991,
+      -0.046046583075015385,
+      0.7099147077223759,
+      0.7962203441459446,
+      0.868493094232549
+    ],
+    "parameters": [
+      1.7396308938091245e-07,
+      1.3447816543170776e-05,
+      0.06620310481611973,
+      0.0007979736851367973,
+      95.691364502832,
+      6.389035110093454,
+      0.006652578882520533,
+      4.74858890121374e-06,
+      -0.907732038464188,
+      3.411277618322525,
+      1.9128970510853485,
+      0.005548134092727148
+    ],
+    "initialLoss": 97.71438879134872,
+    "objective": 70.60335166757318,
+    "evaluations": 1352,
+    "history": [
+      {
+        "iteration": 0,
+        "loss": 93.35553582117987,
+        "damping": 0.03333333333333333,
+        "accepted": true,
+        "evaluations": 15
+      },
+      {
+        "iteration": 1,
+        "loss": 81.8681595465429,
+        "damping": 0.011111111111111112,
+        "accepted": true,
+        "evaluations": 28
+      },
+      {
+        "iteration": 2,
+        "loss": 74.99890578299868,
+        "damping": 0.3703703703703704,
+        "accepted": true,
+        "evaluations": 43
+      },
+      {
+        "iteration": 3,
+        "loss": 73.49831780129487,
+        "damping": 0.1234567901234568,
+        "accepted": true,
+        "evaluations": 56
+      },
+      {
+        "iteration": 4,
+        "loss": 72.58050627980063,
+        "damping": 0.41152263374485604,
+        "accepted": true,
+        "evaluations": 70
+      },
+      {
+        "iteration": 5,
+        "loss": 71.46361186671663,
+        "damping": 1.3717421124828535,
+        "accepted": true,
+        "evaluations": 84
+      },
+      {
+        "iteration": 6,
+        "loss": 71.14232233854862,
+        "damping": 0.45724737082761785,
+        "accepted": true,
+        "evaluations": 97
+      },
+      {
+        "iteration": 7,
+        "loss": 71.0091583398825,
+        "damping": 1.5241579027587262,
+        "accepted": true,
+        "evaluations": 111
+      },
+      {
+        "iteration": 8,
+        "loss": 70.93796590300828,
+        "damping": 0.5080526342529087,
+        "accepted": true,
+        "evaluations": 124
+      },
+      {
+        "iteration": 9,
+        "loss": 70.87312526043152,
+        "damping": 1.693508780843029,
+        "accepted": true,
+        "evaluations": 138
+      },
+      {
+        "iteration": 10,
+        "loss": 70.84727663669969,
+        "damping": 0.5645029269476763,
+        "accepted": true,
+        "evaluations": 151
+      },
+      {
+        "iteration": 11,
+        "loss": 70.80427740431574,
+        "damping": 1.8816764231589211,
+        "accepted": true,
+        "evaluations": 165
+      },
+      {
+        "iteration": 12,
+        "loss": 70.79430728857523,
+        "damping": 0.627225474386307,
+        "accepted": true,
+        "evaluations": 178
+      },
+      {
+        "iteration": 13,
+        "loss": 70.76686483030647,
+        "damping": 2.0907515812876905,
+        "accepted": true,
+        "evaluations": 192
+      },
+      {
+        "iteration": 14,
+        "loss": 70.75987639072974,
+        "damping": 0.6969171937625634,
+        "accepted": true,
+        "evaluations": 205
+      },
+      {
+        "iteration": 15,
+        "loss": 70.7390004384094,
+        "damping": 2.323057312541878,
+        "accepted": true,
+        "evaluations": 219
+      },
+      {
+        "iteration": 16,
+        "loss": 70.73372862055126,
+        "damping": 0.7743524375139593,
+        "accepted": true,
+        "evaluations": 232
+      },
+      {
+        "iteration": 17,
+        "loss": 70.71791629523355,
+        "damping": 2.5811747917131975,
+        "accepted": true,
+        "evaluations": 246
+      },
+      {
+        "iteration": 18,
+        "loss": 70.7134615597244,
+        "damping": 0.8603915972377325,
+        "accepted": true,
+        "evaluations": 259
+      },
+      {
+        "iteration": 19,
+        "loss": 70.70062786107495,
+        "damping": 2.867971990792442,
+        "accepted": true,
+        "evaluations": 273
+      },
+      {
+        "iteration": 20,
+        "loss": 70.69644213924971,
+        "damping": 0.9559906635974807,
+        "accepted": true,
+        "evaluations": 286
+      },
+      {
+        "iteration": 21,
+        "loss": 70.68645231019372,
+        "damping": 3.1866355453249358,
+        "accepted": true,
+        "evaluations": 300
+      },
+      {
+        "iteration": 22,
+        "loss": 70.68322652770593,
+        "damping": 1.0622118484416452,
+        "accepted": true,
+        "evaluations": 313
+      },
+      {
+        "iteration": 23,
+        "loss": 70.67511513310657,
+        "damping": 3.540706161472151,
+        "accepted": true,
+        "evaluations": 327
+      },
+      {
+        "iteration": 24,
+        "loss": 70.67230493439604,
+        "damping": 1.1802353871573836,
+        "accepted": true,
+        "evaluations": 340
+      },
+      {
+        "iteration": 25,
+        "loss": 70.66587053183434,
+        "damping": 3.9341179571912783,
+        "accepted": true,
+        "evaluations": 354
+      },
+      {
+        "iteration": 26,
+        "loss": 70.66262431976557,
+        "damping": 1.3113726523970928,
+        "accepted": true,
+        "evaluations": 367
+      },
+      {
+        "iteration": 27,
+        "loss": 70.65737367387135,
+        "damping": 4.3712421746569765,
+        "accepted": true,
+        "evaluations": 381
+      },
+      {
+        "iteration": 28,
+        "loss": 70.65486933992541,
+        "damping": 1.4570807248856588,
+        "accepted": true,
+        "evaluations": 394
+      },
+      {
+        "iteration": 29,
+        "loss": 70.65058250951674,
+        "damping": 4.856935749618862,
+        "accepted": true,
+        "evaluations": 408
+      },
+      {
+        "iteration": 30,
+        "loss": 70.64808818657524,
+        "damping": 1.6189785832062873,
+        "accepted": true,
+        "evaluations": 421
+      },
+      {
+        "iteration": 31,
+        "loss": 70.64474377734393,
+        "damping": 5.396595277354291,
+        "accepted": true,
+        "evaluations": 435
+      },
+      {
+        "iteration": 32,
+        "loss": 70.64252525886614,
+        "damping": 1.7988650924514304,
+        "accepted": true,
+        "evaluations": 448
+      },
+      {
+        "iteration": 33,
+        "loss": 70.63975783216463,
+        "damping": 5.996216974838101,
+        "accepted": true,
+        "evaluations": 462
+      },
+      {
+        "iteration": 34,
+        "loss": 70.63743704468592,
+        "damping": 1.9987389916127005,
+        "accepted": true,
+        "evaluations": 475
+      },
+      {
+        "iteration": 35,
+        "loss": 70.63527887035309,
+        "damping": 6.662463305375668,
+        "accepted": true,
+        "evaluations": 489
+      },
+      {
+        "iteration": 36,
+        "loss": 70.63343695666262,
+        "damping": 2.220821101791889,
+        "accepted": true,
+        "evaluations": 502
+      },
+      {
+        "iteration": 37,
+        "loss": 70.63167081778181,
+        "damping": 7.402737005972964,
+        "accepted": true,
+        "evaluations": 516
+      },
+      {
+        "iteration": 38,
+        "loss": 70.62983820765368,
+        "damping": 2.467579001990988,
+        "accepted": true,
+        "evaluations": 529
+      },
+      {
+        "iteration": 39,
+        "loss": 70.6284021607531,
+        "damping": 8.22526333996996,
+        "accepted": true,
+        "evaluations": 543
+      },
+      {
+        "iteration": 40,
+        "loss": 70.62678854673169,
+        "damping": 2.7417544466566532,
+        "accepted": true,
+        "evaluations": 556
+      },
+      {
+        "iteration": 41,
+        "loss": 70.62556844978079,
+        "damping": 9.139181488855511,
+        "accepted": true,
+        "evaluations": 570
+      },
+      {
+        "iteration": 42,
+        "loss": 70.62411300806075,
+        "damping": 3.046393829618504,
+        "accepted": true,
+        "evaluations": 583
+      },
+      {
+        "iteration": 43,
+        "loss": 70.62311599011468,
+        "damping": 10.154646098728346,
+        "accepted": true,
+        "evaluations": 597
+      },
+      {
+        "iteration": 44,
+        "loss": 70.62182935168279,
+        "damping": 3.3848820329094487,
+        "accepted": true,
+        "evaluations": 610
+      },
+      {
+        "iteration": 45,
+        "loss": 70.62100014610473,
+        "damping": 11.282940109698162,
+        "accepted": true,
+        "evaluations": 624
+      },
+      {
+        "iteration": 46,
+        "loss": 70.61984956972302,
+        "damping": 3.7609800365660537,
+        "accepted": true,
+        "evaluations": 637
+      },
+      {
+        "iteration": 47,
+        "loss": 70.61918912075501,
+        "damping": 12.536600121886847,
+        "accepted": true,
+        "evaluations": 651
+      },
+      {
+        "iteration": 48,
+        "loss": 70.61820318280748,
+        "damping": 4.178866707295616,
+        "accepted": true,
+        "evaluations": 664
+      },
+      {
+        "iteration": 49,
+        "loss": 70.61763241324333,
+        "damping": 13.929555690985387,
+        "accepted": true,
+        "evaluations": 678
+      },
+      {
+        "iteration": 50,
+        "loss": 70.61672408097215,
+        "damping": 4.643185230328462,
+        "accepted": true,
+        "evaluations": 691
+      },
+      {
+        "iteration": 51,
+        "loss": 70.61624268236534,
+        "damping": 15.477284101094874,
+        "accepted": true,
+        "evaluations": 705
+      },
+      {
+        "iteration": 52,
+        "loss": 70.61546063027444,
+        "damping": 5.159094700364958,
+        "accepted": true,
+        "evaluations": 718
+      },
+      {
+        "iteration": 53,
+        "loss": 70.61506825617036,
+        "damping": 17.19698233454986,
+        "accepted": true,
+        "evaluations": 732
+      },
+      {
+        "iteration": 54,
+        "loss": 70.61436353590213,
+        "damping": 5.732327444849953,
+        "accepted": true,
+        "evaluations": 745
+      },
+      {
+        "iteration": 55,
+        "loss": 70.6140358977746,
+        "damping": 19.107758149499844,
+        "accepted": true,
+        "evaluations": 759
+      },
+      {
+        "iteration": 56,
+        "loss": 70.6134062044961,
+        "damping": 6.369252716499948,
+        "accepted": true,
+        "evaluations": 772
+      },
+      {
+        "iteration": 57,
+        "loss": 70.61312727461724,
+        "damping": 21.23084238833316,
+        "accepted": true,
+        "evaluations": 786
+      },
+      {
+        "iteration": 58,
+        "loss": 70.61256751373833,
+        "damping": 7.07694746277772,
+        "accepted": true,
+        "evaluations": 799
+      },
+      {
+        "iteration": 59,
+        "loss": 70.61232982488482,
+        "damping": 23.589824875925732,
+        "accepted": true,
+        "evaluations": 813
+      },
+      {
+        "iteration": 60,
+        "loss": 70.61183331690017,
+        "damping": 7.86327495864191,
+        "accepted": true,
+        "evaluations": 826
+      },
+      {
+        "iteration": 61,
+        "loss": 70.61182357150126,
+        "damping": 2.621091652880637,
+        "accepted": true,
+        "evaluations": 839
+      },
+      {
+        "iteration": 62,
+        "loss": 70.6113424088575,
+        "damping": 8.73697217626879,
+        "accepted": true,
+        "evaluations": 853
+      },
+      {
+        "iteration": 63,
+        "loss": 70.6112006766886,
+        "damping": 2.9123240587562633,
+        "accepted": true,
+        "evaluations": 866
+      },
+      {
+        "iteration": 64,
+        "loss": 70.61072441655108,
+        "damping": 9.707746862520878,
+        "accepted": true,
+        "evaluations": 880
+      },
+      {
+        "iteration": 65,
+        "loss": 70.61052828039635,
+        "damping": 3.235915620840293,
+        "accepted": true,
+        "evaluations": 893
+      },
+      {
+        "iteration": 66,
+        "loss": 70.61008985868337,
+        "damping": 10.786385402800976,
+        "accepted": true,
+        "evaluations": 907
+      },
+      {
+        "iteration": 67,
+        "loss": 70.60980643540364,
+        "damping": 3.5954618009336587,
+        "accepted": true,
+        "evaluations": 920
+      },
+      {
+        "iteration": 68,
+        "loss": 70.60944240998373,
+        "damping": 11.984872669778861,
+        "accepted": true,
+        "evaluations": 934
+      },
+      {
+        "iteration": 69,
+        "loss": 70.60912699579586,
+        "damping": 3.994957556592954,
+        "accepted": true,
+        "evaluations": 947
+      },
+      {
+        "iteration": 70,
+        "loss": 70.6087857940441,
+        "damping": 13.316525188643178,
+        "accepted": true,
+        "evaluations": 961
+      },
+      {
+        "iteration": 71,
+        "loss": 70.60841247526398,
+        "damping": 4.438841729547726,
+        "accepted": true,
+        "evaluations": 974
+      },
+      {
+        "iteration": 72,
+        "loss": 70.60811144033181,
+        "damping": 14.79613909849242,
+        "accepted": true,
+        "evaluations": 988
+      },
+      {
+        "iteration": 73,
+        "loss": 70.6077809356939,
+        "damping": 4.93204636616414,
+        "accepted": true,
+        "evaluations": 1001
+      },
+      {
+        "iteration": 74,
+        "loss": 70.60753012667149,
+        "damping": 16.440154553880465,
+        "accepted": true,
+        "evaluations": 1015
+      },
+      {
+        "iteration": 75,
+        "loss": 70.6072045180992,
+        "damping": 5.480051517960155,
+        "accepted": true,
+        "evaluations": 1028
+      },
+      {
+        "iteration": 76,
+        "loss": 70.60699155870752,
+        "damping": 18.26683839320052,
+        "accepted": true,
+        "evaluations": 1042
+      },
+      {
+        "iteration": 77,
+        "loss": 70.60668929041283,
+        "damping": 6.08894613106684,
+        "accepted": true,
+        "evaluations": 1055
+      },
+      {
+        "iteration": 78,
+        "loss": 70.60650503273737,
+        "damping": 20.296487103556135,
+        "accepted": true,
+        "evaluations": 1069
+      },
+      {
+        "iteration": 79,
+        "loss": 70.60622126824542,
+        "damping": 6.765495701185379,
+        "accepted": true,
+        "evaluations": 1082
+      },
+      {
+        "iteration": 80,
+        "loss": 70.60607399468735,
+        "damping": 22.551652337284594,
+        "accepted": true,
+        "evaluations": 1096
+      },
+      {
+        "iteration": 81,
+        "loss": 70.60581280014864,
+        "damping": 7.517217445761531,
+        "accepted": true,
+        "evaluations": 1109
+      },
+      {
+        "iteration": 82,
+        "loss": 70.60568721195045,
+        "damping": 25.057391485871772,
+        "accepted": true,
+        "evaluations": 1123
+      },
+      {
+        "iteration": 83,
+        "loss": 70.60545041041604,
+        "damping": 8.352463828623923,
+        "accepted": true,
+        "evaluations": 1136
+      },
+      {
+        "iteration": 84,
+        "loss": 70.60534140207267,
+        "damping": 27.84154609541308,
+        "accepted": true,
+        "evaluations": 1150
+      },
+      {
+        "iteration": 85,
+        "loss": 70.60512574617475,
+        "damping": 9.280515365137694,
+        "accepted": true,
+        "evaluations": 1163
+      },
+      {
+        "iteration": 86,
+        "loss": 70.6050310311158,
+        "damping": 30.935051217125647,
+        "accepted": true,
+        "evaluations": 1177
+      },
+      {
+        "iteration": 87,
+        "loss": 70.60483583763201,
+        "damping": 10.311683739041882,
+        "accepted": true,
+        "evaluations": 1190
+      },
+      {
+        "iteration": 88,
+        "loss": 70.60475391988203,
+        "damping": 34.37227913013961,
+        "accepted": true,
+        "evaluations": 1204
+      },
+      {
+        "iteration": 89,
+        "loss": 70.60457801464034,
+        "damping": 11.457426376713203,
+        "accepted": true,
+        "evaluations": 1217
+      },
+      {
+        "iteration": 90,
+        "loss": 70.60455845232967,
+        "damping": 3.8191421255710676,
+        "accepted": true,
+        "evaluations": 1230
+      },
+      {
+        "iteration": 91,
+        "loss": 70.60436746651261,
+        "damping": 12.73047375190356,
+        "accepted": true,
+        "evaluations": 1244
+      },
+      {
+        "iteration": 92,
+        "loss": 70.60428286885286,
+        "damping": 4.24349125063452,
+        "accepted": true,
+        "evaluations": 1257
+      },
+      {
+        "iteration": 93,
+        "loss": 70.60412566145496,
+        "damping": 14.1449708354484,
+        "accepted": true,
+        "evaluations": 1271
+      },
+      {
+        "iteration": 94,
+        "loss": 70.6040111159304,
+        "damping": 4.7149902784828,
+        "accepted": true,
+        "evaluations": 1284
+      },
+      {
+        "iteration": 95,
+        "loss": 70.60386700519587,
+        "damping": 15.716634261609334,
+        "accepted": true,
+        "evaluations": 1298
+      },
+      {
+        "iteration": 96,
+        "loss": 70.60373727291659,
+        "damping": 5.238878087203111,
+        "accepted": true,
+        "evaluations": 1311
+      },
+      {
+        "iteration": 97,
+        "loss": 70.60360720485622,
+        "damping": 17.462926957343704,
+        "accepted": true,
+        "evaluations": 1325
+      },
+      {
+        "iteration": 98,
+        "loss": 70.6034657825872,
+        "damping": 5.820975652447902,
+        "accepted": true,
+        "evaluations": 1338
+      },
+      {
+        "iteration": 99,
+        "loss": 70.60335166757318,
+        "damping": 19.40325217482634,
+        "accepted": true,
+        "evaluations": 1352
+      }
+    ],
+    "cases": [
+      {
+        "record": "new_belt_run010",
+        "actualTrackingRMSE_mm": 0.26833973336052963,
+        "actualSyncRMS_mm": 0.053384080023917105,
+        "predictedTrackingRMSE_mm": 0.29498069640232394,
+        "predictedSyncRMS_mm": 0.06029208074034267,
+        "trackingDifference_percent": 9.92807241333904,
+        "syncDifference_percent": 12.940188747901328,
+        "bothWithin15Percent": true,
+        "nativePositionRMSE_mm": [
+          0.28661267854022165,
+          0.30070897475798664
+        ]
+      },
+      {
+        "record": "new_belt_run011",
+        "actualTrackingRMSE_mm": 0.33539110378780057,
+        "actualSyncRMS_mm": 0.08556856899586424,
+        "predictedTrackingRMSE_mm": 0.33013533872489326,
+        "predictedSyncRMS_mm": 0.0697903825752517,
+        "trackingDifference_percent": -1.5670555967497002,
+        "syncDifference_percent": -18.43923137405177,
+        "bothWithin15Percent": false,
+        "nativePositionRMSE_mm": [
+          0.3263444882329104,
+          0.37923547104668404
+        ]
+      }
+    ],
+    "calibrationBothRecordsPassed": false
+  },
+  "fits": [
+    {
+      "seed": 0,
+      "coordinates": [
+        -2.995732273553991,
+        1.5485398347342454,
+        1.6129923752870803,
+        2.4722557221944417,
+        1.6393939165933562,
+        -0.3356180128423787,
+        -2.995732273553991,
+        1.9181418327136326,
+        -0.4687261984331348,
+        -2.521140419358781,
+        1.5588905844607657,
+        1.4582929881878828
+      ],
+      "parameters": [
+        1.7396308938091245e-07,
+        9.932557938401357e-06,
+        6.643884000072509,
+        0.18910611975112798,
+        45.77496647953166,
+        1.6423701734897058,
+        2.535633686918715e-05,
+        0.0006465959532401188,
+        -0.95,
+        0.1347993047947055,
+        4.1012389619237135,
+        0.010006767015425327
+      ],
+      "initialLoss": 163.8918381208415,
+      "objective": 117.10521581957352,
+      "evaluations": 434,
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 161.4128929385297,
+          "damping": 0.03333333333333333,
+          "accepted": true,
+          "evaluations": 15
+        },
+        {
+          "iteration": 1,
+          "loss": 130.53332383182723,
+          "damping": 0.1111111111111111,
+          "accepted": true,
+          "evaluations": 29
+        },
+        {
+          "iteration": 2,
+          "loss": 119.65961911783134,
+          "damping": 0.3703703703703704,
+          "accepted": true,
+          "evaluations": 43
+        },
+        {
+          "iteration": 3,
+          "loss": 117.937010196572,
+          "damping": 1.234567901234568,
+          "accepted": true,
+          "evaluations": 57
+        },
+        {
+          "iteration": 4,
+          "loss": 117.50719472188797,
+          "damping": 4.1152263374485605,
+          "accepted": true,
+          "evaluations": 71
+        },
+        {
+          "iteration": 5,
+          "loss": 117.38982008933127,
+          "damping": 13.717421124828535,
+          "accepted": true,
+          "evaluations": 85
+        },
+        {
+          "iteration": 6,
+          "loss": 117.1805556758406,
+          "damping": 4.572473708276179,
+          "accepted": true,
+          "evaluations": 98
+        },
+        {
+          "iteration": 7,
+          "loss": 117.11739374242885,
+          "damping": 15.241579027587262,
+          "accepted": true,
+          "evaluations": 112
+        },
+        {
+          "iteration": 8,
+          "loss": 117.11530679380965,
+          "damping": 508.0526342529087,
+          "accepted": true,
+          "evaluations": 127
+        },
+        {
+          "iteration": 9,
+          "loss": 117.1091298499218,
+          "damping": 169.3508780843029,
+          "accepted": true,
+          "evaluations": 140
+        },
+        {
+          "iteration": 10,
+          "loss": 117.1072397467498,
+          "damping": 564.5029269476763,
+          "accepted": true,
+          "evaluations": 154
+        },
+        {
+          "iteration": 11,
+          "loss": 117.10665179569227,
+          "damping": 1881.6764231589211,
+          "accepted": true,
+          "evaluations": 168
+        },
+        {
+          "iteration": 12,
+          "loss": 117.10647367102618,
+          "damping": 6272.254743863071,
+          "accepted": true,
+          "evaluations": 182
+        },
+        {
+          "iteration": 13,
+          "loss": 117.1059384576966,
+          "damping": 2090.7515812876904,
+          "accepted": true,
+          "evaluations": 195
+        },
+        {
+          "iteration": 14,
+          "loss": 117.10577744040614,
+          "damping": 6969.171937625634,
+          "accepted": true,
+          "evaluations": 209
+        },
+        {
+          "iteration": 15,
+          "loss": 117.10529528502732,
+          "damping": 2323.057312541878,
+          "accepted": true,
+          "evaluations": 222
+        },
+        {
+          "iteration": 16,
+          "loss": 117.1052808568814,
+          "damping": 77435.24375139594,
+          "accepted": true,
+          "evaluations": 237
+        },
+        {
+          "iteration": 17,
+          "loss": 117.10523758318305,
+          "damping": 25811.747917131983,
+          "accepted": true,
+          "evaluations": 250
+        },
+        {
+          "iteration": 18,
+          "loss": 117.10522461299064,
+          "damping": 86039.15972377328,
+          "accepted": true,
+          "evaluations": 264
+        },
+        {
+          "iteration": 19,
+          "loss": 117.10522072300614,
+          "damping": 286797.1990792442,
+          "accepted": true,
+          "evaluations": 278
+        },
+        {
+          "iteration": 20,
+          "loss": 117.105219556108,
+          "damping": 955990.6635974807,
+          "accepted": true,
+          "evaluations": 292
+        },
+        {
+          "iteration": 21,
+          "loss": 117.1052160555287,
+          "damping": 318663.5545324936,
+          "accepted": true,
+          "evaluations": 305
+        },
+        {
+          "iteration": 22,
+          "loss": 117.10521595052064,
+          "damping": 10622118.484416453,
+          "accepted": true,
+          "evaluations": 320
+        },
+        {
+          "iteration": 23,
+          "loss": 117.10521591902052,
+          "damping": 35407061.614721514,
+          "accepted": true,
+          "evaluations": 334
+        },
+        {
+          "iteration": 24,
+          "loss": 117.10521582450932,
+          "damping": 11802353.871573837,
+          "accepted": true,
+          "evaluations": 347
+        },
+        {
+          "iteration": 25,
+          "loss": 117.10521582167297,
+          "damping": 393411795.7191279,
+          "accepted": true,
+          "evaluations": 362
+        },
+        {
+          "iteration": 26,
+          "loss": 117.10521582082805,
+          "damping": 1311372652.397093,
+          "accepted": true,
+          "evaluations": 376
+        },
+        {
+          "iteration": 27,
+          "loss": 117.10521582056869,
+          "damping": 4371242174.656977,
+          "accepted": true,
+          "evaluations": 390
+        },
+        {
+          "iteration": 28,
+          "loss": 117.10521581980444,
+          "damping": 1457080724.885659,
+          "accepted": true,
+          "evaluations": 403
+        },
+        {
+          "iteration": 29,
+          "loss": 117.10521581957352,
+          "damping": 4856935749.618863,
+          "accepted": true,
+          "evaluations": 417
+        },
+        {
+          "iteration": 30,
+          "loss": 117.10521581957352,
+          "damping": 1000000000000.0,
+          "accepted": false,
+          "evaluations": 434
+        }
+      ],
+      "cases": [
+        {
+          "record": "new_belt_run010",
+          "actualTrackingRMSE_mm": 0.26833973336052963,
+          "actualSyncRMS_mm": 0.053384080023917105,
+          "predictedTrackingRMSE_mm": 0.33589076535385726,
+          "predictedSyncRMS_mm": 0.062395793127421655,
+          "trackingDifference_percent": 25.173697218581115,
+          "syncDifference_percent": 16.88089988526005,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.26897658820053505,
+            0.27489430696178446
+          ]
+        },
+        {
+          "record": "new_belt_run011",
+          "actualTrackingRMSE_mm": 0.33539110378780057,
+          "actualSyncRMS_mm": 0.08556856899586424,
+          "predictedTrackingRMSE_mm": 0.3931145721987421,
+          "predictedSyncRMS_mm": 0.07104391247672105,
+          "trackingDifference_percent": 17.21079293965493,
+          "syncDifference_percent": -16.97428937936919,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.33163495744568366,
+            0.3505689482826463
+          ]
+        }
+      ],
+      "calibrationBothRecordsPassed": false
+    },
+    {
+      "seed": 1,
+      "coordinates": [
+        -2.995732273553991,
+        2.557322152103493,
+        2.670987782831139,
+        -2.995732273553991,
+        2.9445729481057126,
+        1.980171792863253,
+        -2.995732273553991,
+        -2.995732273553991,
+        -0.4687261984331348,
+        1.3542103989300696,
+        1.8999849385496326,
+        1.844055865833854
+      ],
+      "parameters": [
+        1.7396308938091245e-07,
+        2.7237654137515246e-05,
+        19.138311041622927,
+        0.0007979736851367973,
+        168.83406856431682,
+        16.64201017599761,
+        2.535633686918715e-05,
+        4.74858890121374e-06,
+        -0.95,
+        6.497273195263488,
+        5.768334945963666,
+        0.014717311343508132
+      ],
+      "initialLoss": 189.46775429584554,
+      "objective": 97.63332694475932,
+      "evaluations": 1352,
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 151.25692161011182,
+          "damping": 0.3333333333333333,
+          "accepted": true,
+          "evaluations": 16
+        },
+        {
+          "iteration": 1,
+          "loss": 146.49562859774437,
+          "damping": 1.111111111111111,
+          "accepted": true,
+          "evaluations": 30
+        },
+        {
+          "iteration": 2,
+          "loss": 145.37587528926983,
+          "damping": 0.3703703703703703,
+          "accepted": true,
+          "evaluations": 43
+        },
+        {
+          "iteration": 3,
+          "loss": 136.50263069429676,
+          "damping": 1.2345679012345676,
+          "accepted": true,
+          "evaluations": 57
+        },
+        {
+          "iteration": 4,
+          "loss": 131.92274281850393,
+          "damping": 4.115226337448559,
+          "accepted": true,
+          "evaluations": 71
+        },
+        {
+          "iteration": 5,
+          "loss": 125.58621371139988,
+          "damping": 1.3717421124828528,
+          "accepted": true,
+          "evaluations": 84
+        },
+        {
+          "iteration": 6,
+          "loss": 123.01934268817098,
+          "damping": 0.4572473708276176,
+          "accepted": true,
+          "evaluations": 97
+        },
+        {
+          "iteration": 7,
+          "loss": 116.11535494911163,
+          "damping": 1.5241579027587253,
+          "accepted": true,
+          "evaluations": 111
+        },
+        {
+          "iteration": 8,
+          "loss": 112.51542650488332,
+          "damping": 0.5080526342529085,
+          "accepted": true,
+          "evaluations": 124
+        },
+        {
+          "iteration": 9,
+          "loss": 109.3374046452416,
+          "damping": 1.6935087808430282,
+          "accepted": true,
+          "evaluations": 138
+        },
+        {
+          "iteration": 10,
+          "loss": 108.73496237600487,
+          "damping": 0.5645029269476761,
+          "accepted": true,
+          "evaluations": 151
+        },
+        {
+          "iteration": 11,
+          "loss": 106.37514516639523,
+          "damping": 1.8816764231589203,
+          "accepted": true,
+          "evaluations": 165
+        },
+        {
+          "iteration": 12,
+          "loss": 105.93174095024986,
+          "damping": 0.6272254743863067,
+          "accepted": true,
+          "evaluations": 178
+        },
+        {
+          "iteration": 13,
+          "loss": 104.14242099110322,
+          "damping": 2.090751581287689,
+          "accepted": true,
+          "evaluations": 192
+        },
+        {
+          "iteration": 14,
+          "loss": 103.64327855664123,
+          "damping": 0.696917193762563,
+          "accepted": true,
+          "evaluations": 205
+        },
+        {
+          "iteration": 15,
+          "loss": 102.23334123494215,
+          "damping": 2.3230573125418768,
+          "accepted": true,
+          "evaluations": 219
+        },
+        {
+          "iteration": 16,
+          "loss": 101.76364817834117,
+          "damping": 0.7743524375139589,
+          "accepted": true,
+          "evaluations": 232
+        },
+        {
+          "iteration": 17,
+          "loss": 100.63489897427961,
+          "damping": 2.581174791713196,
+          "accepted": true,
+          "evaluations": 246
+        },
+        {
+          "iteration": 18,
+          "loss": 100.23671278166512,
+          "damping": 0.8603915972377321,
+          "accepted": true,
+          "evaluations": 259
+        },
+        {
+          "iteration": 19,
+          "loss": 99.26800914504248,
+          "damping": 2.8679719907924404,
+          "accepted": true,
+          "evaluations": 273
+        },
+        {
+          "iteration": 20,
+          "loss": 99.09776608552605,
+          "damping": 0.9559906635974801,
+          "accepted": true,
+          "evaluations": 286
+        },
+        {
+          "iteration": 21,
+          "loss": 98.79536052152324,
+          "damping": 3.186635545324934,
+          "accepted": true,
+          "evaluations": 300
+        },
+        {
+          "iteration": 22,
+          "loss": 98.65760210870356,
+          "damping": 10.622118484416447,
+          "accepted": true,
+          "evaluations": 314
+        },
+        {
+          "iteration": 23,
+          "loss": 98.48079898732166,
+          "damping": 3.540706161472149,
+          "accepted": true,
+          "evaluations": 327
+        },
+        {
+          "iteration": 24,
+          "loss": 98.40496439016007,
+          "damping": 11.80235387157383,
+          "accepted": true,
+          "evaluations": 341
+        },
+        {
+          "iteration": 25,
+          "loss": 98.28482691936003,
+          "damping": 3.9341179571912765,
+          "accepted": true,
+          "evaluations": 354
+        },
+        {
+          "iteration": 26,
+          "loss": 98.23215682801441,
+          "damping": 13.113726523970923,
+          "accepted": true,
+          "evaluations": 368
+        },
+        {
+          "iteration": 27,
+          "loss": 98.14787641536077,
+          "damping": 4.371242174656975,
+          "accepted": true,
+          "evaluations": 381
+        },
+        {
+          "iteration": 28,
+          "loss": 98.10993595093214,
+          "damping": 14.570807248856582,
+          "accepted": true,
+          "evaluations": 395
+        },
+        {
+          "iteration": 29,
+          "loss": 98.05142536348859,
+          "damping": 4.85693574961886,
+          "accepted": true,
+          "evaluations": 408
+        },
+        {
+          "iteration": 30,
+          "loss": 98.02709259449105,
+          "damping": 16.189785832062867,
+          "accepted": true,
+          "evaluations": 422
+        },
+        {
+          "iteration": 31,
+          "loss": 97.98948374858432,
+          "damping": 5.396595277354289,
+          "accepted": true,
+          "evaluations": 435
+        },
+        {
+          "iteration": 32,
+          "loss": 97.97193323928893,
+          "damping": 17.9886509245143,
+          "accepted": true,
+          "evaluations": 449
+        },
+        {
+          "iteration": 33,
+          "loss": 97.94376590617802,
+          "damping": 5.9962169748381,
+          "accepted": true,
+          "evaluations": 462
+        },
+        {
+          "iteration": 34,
+          "loss": 97.9301361238116,
+          "damping": 19.987389916126997,
+          "accepted": true,
+          "evaluations": 476
+        },
+        {
+          "iteration": 35,
+          "loss": 97.90695465139603,
+          "damping": 6.662463305375666,
+          "accepted": true,
+          "evaluations": 489
+        },
+        {
+          "iteration": 36,
+          "loss": 97.89548764232438,
+          "damping": 22.208211017918885,
+          "accepted": true,
+          "evaluations": 503
+        },
+        {
+          "iteration": 37,
+          "loss": 97.87504159215823,
+          "damping": 7.402737005972962,
+          "accepted": true,
+          "evaluations": 516
+        },
+        {
+          "iteration": 38,
+          "loss": 97.86520234784666,
+          "damping": 24.675790019909872,
+          "accepted": true,
+          "evaluations": 530
+        },
+        {
+          "iteration": 39,
+          "loss": 97.84670046357866,
+          "damping": 8.225263339969958,
+          "accepted": true,
+          "evaluations": 543
+        },
+        {
+          "iteration": 40,
+          "loss": 97.83828982838844,
+          "damping": 27.417544466566525,
+          "accepted": true,
+          "evaluations": 557
+        },
+        {
+          "iteration": 41,
+          "loss": 97.82194112181224,
+          "damping": 9.139181488855508,
+          "accepted": true,
+          "evaluations": 570
+        },
+        {
+          "iteration": 42,
+          "loss": 97.81492629101838,
+          "damping": 30.463938296185024,
+          "accepted": true,
+          "evaluations": 584
+        },
+        {
+          "iteration": 43,
+          "loss": 97.8009180383866,
+          "damping": 10.15464609872834,
+          "accepted": true,
+          "evaluations": 597
+        },
+        {
+          "iteration": 44,
+          "loss": 97.79526066633015,
+          "damping": 33.84882032909447,
+          "accepted": true,
+          "evaluations": 611
+        },
+        {
+          "iteration": 45,
+          "loss": 97.78352644467823,
+          "damping": 11.282940109698158,
+          "accepted": true,
+          "evaluations": 624
+        },
+        {
+          "iteration": 46,
+          "loss": 97.78347242589146,
+          "damping": 3.760980036566053,
+          "accepted": true,
+          "evaluations": 637
+        },
+        {
+          "iteration": 47,
+          "loss": 97.77309686226765,
+          "damping": 12.536600121886842,
+          "accepted": true,
+          "evaluations": 651
+        },
+        {
+          "iteration": 48,
+          "loss": 97.77092943720874,
+          "damping": 4.178866707295614,
+          "accepted": true,
+          "evaluations": 664
+        },
+        {
+          "iteration": 49,
+          "loss": 97.76177858223747,
+          "damping": 13.929555690985381,
+          "accepted": true,
+          "evaluations": 678
+        },
+        {
+          "iteration": 50,
+          "loss": 97.75805828664605,
+          "damping": 4.64318523032846,
+          "accepted": true,
+          "evaluations": 691
+        },
+        {
+          "iteration": 51,
+          "loss": 97.75024003762584,
+          "damping": 15.477284101094867,
+          "accepted": true,
+          "evaluations": 705
+        },
+        {
+          "iteration": 52,
+          "loss": 97.74546559006671,
+          "damping": 5.159094700364956,
+          "accepted": true,
+          "evaluations": 718
+        },
+        {
+          "iteration": 53,
+          "loss": 97.73869730459941,
+          "damping": 17.196982334549855,
+          "accepted": true,
+          "evaluations": 732
+        },
+        {
+          "iteration": 54,
+          "loss": 97.73345781785886,
+          "damping": 5.732327444849951,
+          "accepted": true,
+          "evaluations": 745
+        },
+        {
+          "iteration": 55,
+          "loss": 97.72788603746706,
+          "damping": 19.107758149499837,
+          "accepted": true,
+          "evaluations": 759
+        },
+        {
+          "iteration": 56,
+          "loss": 97.72256584718544,
+          "damping": 6.369252716499946,
+          "accepted": true,
+          "evaluations": 772
+        },
+        {
+          "iteration": 57,
+          "loss": 97.71771444396873,
+          "damping": 21.230842388333155,
+          "accepted": true,
+          "evaluations": 786
+        },
+        {
+          "iteration": 58,
+          "loss": 97.71252336497722,
+          "damping": 7.076947462777718,
+          "accepted": true,
+          "evaluations": 799
+        },
+        {
+          "iteration": 59,
+          "loss": 97.70845496863313,
+          "damping": 23.58982487592573,
+          "accepted": true,
+          "evaluations": 813
+        },
+        {
+          "iteration": 60,
+          "loss": 97.70339963857256,
+          "damping": 7.8632749586419095,
+          "accepted": true,
+          "evaluations": 826
+        },
+        {
+          "iteration": 61,
+          "loss": 97.69997319029187,
+          "damping": 26.210916528806365,
+          "accepted": true,
+          "evaluations": 840
+        },
+        {
+          "iteration": 62,
+          "loss": 97.69545237474192,
+          "damping": 8.736972176268788,
+          "accepted": true,
+          "evaluations": 853
+        },
+        {
+          "iteration": 63,
+          "loss": 97.69257406210264,
+          "damping": 29.123240587562623,
+          "accepted": true,
+          "evaluations": 867
+        },
+        {
+          "iteration": 64,
+          "loss": 97.68837290306443,
+          "damping": 9.707746862520874,
+          "accepted": true,
+          "evaluations": 880
+        },
+        {
+          "iteration": 65,
+          "loss": 97.68587862628604,
+          "damping": 32.359156208402915,
+          "accepted": true,
+          "evaluations": 894
+        },
+        {
+          "iteration": 66,
+          "loss": 97.68198021779314,
+          "damping": 10.786385402800972,
+          "accepted": true,
+          "evaluations": 907
+        },
+        {
+          "iteration": 67,
+          "loss": 97.67985501545527,
+          "damping": 35.95461800933658,
+          "accepted": true,
+          "evaluations": 921
+        },
+        {
+          "iteration": 68,
+          "loss": 97.67638642444585,
+          "damping": 11.98487266977886,
+          "accepted": true,
+          "evaluations": 934
+        },
+        {
+          "iteration": 69,
+          "loss": 97.67466630623576,
+          "damping": 39.94957556592953,
+          "accepted": true,
+          "evaluations": 948
+        },
+        {
+          "iteration": 70,
+          "loss": 97.67165400271206,
+          "damping": 13.316525188643176,
+          "accepted": true,
+          "evaluations": 961
+        },
+        {
+          "iteration": 71,
+          "loss": 97.67021009463754,
+          "damping": 44.38841729547725,
+          "accepted": true,
+          "evaluations": 975
+        },
+        {
+          "iteration": 72,
+          "loss": 97.66749521477897,
+          "damping": 14.796139098492416,
+          "accepted": true,
+          "evaluations": 988
+        },
+        {
+          "iteration": 73,
+          "loss": 97.66623630638736,
+          "damping": 49.320463661641384,
+          "accepted": true,
+          "evaluations": 1002
+        },
+        {
+          "iteration": 74,
+          "loss": 97.66374816627993,
+          "damping": 16.44015455388046,
+          "accepted": true,
+          "evaluations": 1015
+        },
+        {
+          "iteration": 75,
+          "loss": 97.66266102864405,
+          "damping": 54.80051517960154,
+          "accepted": true,
+          "evaluations": 1029
+        },
+        {
+          "iteration": 76,
+          "loss": 97.6604436121722,
+          "damping": 18.266838393200512,
+          "accepted": true,
+          "evaluations": 1042
+        },
+        {
+          "iteration": 77,
+          "loss": 97.65950490946706,
+          "damping": 60.88946131066837,
+          "accepted": true,
+          "evaluations": 1056
+        },
+        {
+          "iteration": 78,
+          "loss": 97.65753506555363,
+          "damping": 20.296487103556125,
+          "accepted": true,
+          "evaluations": 1069
+        },
+        {
+          "iteration": 79,
+          "loss": 97.65672254978759,
+          "damping": 67.65495701185375,
+          "accepted": true,
+          "evaluations": 1083
+        },
+        {
+          "iteration": 80,
+          "loss": 97.65493453034517,
+          "damping": 22.551652337284583,
+          "accepted": true,
+          "evaluations": 1096
+        },
+        {
+          "iteration": 81,
+          "loss": 97.65446195223578,
+          "damping": 7.517217445761528,
+          "accepted": true,
+          "evaluations": 1109
+        },
+        {
+          "iteration": 82,
+          "loss": 97.65283838400134,
+          "damping": 25.05739148587176,
+          "accepted": true,
+          "evaluations": 1123
+        },
+        {
+          "iteration": 83,
+          "loss": 97.65197800877755,
+          "damping": 8.35246382862392,
+          "accepted": true,
+          "evaluations": 1136
+        },
+        {
+          "iteration": 84,
+          "loss": 97.65049174620995,
+          "damping": 27.841546095413065,
+          "accepted": true,
+          "evaluations": 1150
+        },
+        {
+          "iteration": 85,
+          "loss": 97.64931732599092,
+          "damping": 9.280515365137688,
+          "accepted": true,
+          "evaluations": 1163
+        },
+        {
+          "iteration": 86,
+          "loss": 97.64793576315589,
+          "damping": 30.93505121712563,
+          "accepted": true,
+          "evaluations": 1177
+        },
+        {
+          "iteration": 87,
+          "loss": 97.6465655375726,
+          "damping": 10.311683739041877,
+          "accepted": true,
+          "evaluations": 1190
+        },
+        {
+          "iteration": 88,
+          "loss": 97.64532578396809,
+          "damping": 34.37227913013959,
+          "accepted": true,
+          "evaluations": 1204
+        },
+        {
+          "iteration": 89,
+          "loss": 97.64386602789153,
+          "damping": 11.457426376713196,
+          "accepted": true,
+          "evaluations": 1217
+        },
+        {
+          "iteration": 90,
+          "loss": 97.64280314685858,
+          "damping": 38.19142125571065,
+          "accepted": true,
+          "evaluations": 1231
+        },
+        {
+          "iteration": 91,
+          "loss": 97.64138551720887,
+          "damping": 12.730473751903551,
+          "accepted": true,
+          "evaluations": 1244
+        },
+        {
+          "iteration": 92,
+          "loss": 97.64048298461557,
+          "damping": 42.43491250634517,
+          "accepted": true,
+          "evaluations": 1258
+        },
+        {
+          "iteration": 93,
+          "loss": 97.63913531183212,
+          "damping": 14.14497083544839,
+          "accepted": true,
+          "evaluations": 1271
+        },
+        {
+          "iteration": 94,
+          "loss": 97.63834556894709,
+          "damping": 47.149902784827965,
+          "accepted": true,
+          "evaluations": 1285
+        },
+        {
+          "iteration": 95,
+          "loss": 97.63706081079717,
+          "damping": 15.716634261609322,
+          "accepted": true,
+          "evaluations": 1298
+        },
+        {
+          "iteration": 96,
+          "loss": 97.63635077122369,
+          "damping": 52.38878087203108,
+          "accepted": true,
+          "evaluations": 1312
+        },
+        {
+          "iteration": 97,
+          "loss": 97.63509401588132,
+          "damping": 17.462926957343694,
+          "accepted": true,
+          "evaluations": 1325
+        },
+        {
+          "iteration": 98,
+          "loss": 97.63446417534973,
+          "damping": 58.20975652447898,
+          "accepted": true,
+          "evaluations": 1339
+        },
+        {
+          "iteration": 99,
+          "loss": 97.63332694475932,
+          "damping": 19.403252174826328,
+          "accepted": true,
+          "evaluations": 1352
+        }
+      ],
+      "cases": [
+        {
+          "record": "new_belt_run010",
+          "actualTrackingRMSE_mm": 0.26833973336052963,
+          "actualSyncRMS_mm": 0.053384080023917105,
+          "predictedTrackingRMSE_mm": 0.3248032972046312,
+          "predictedSyncRMS_mm": 0.06027393715363216,
+          "trackingDifference_percent": 21.04182006033357,
+          "syncDifference_percent": 12.906201861356914,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.3205956682489643,
+            0.3379481986932318
+          ]
+        },
+        {
+          "record": "new_belt_run011",
+          "actualTrackingRMSE_mm": 0.33539110378780057,
+          "actualSyncRMS_mm": 0.08556856899586424,
+          "predictedTrackingRMSE_mm": 0.36126390890178883,
+          "predictedSyncRMS_mm": 0.0697884481844954,
+          "trackingDifference_percent": 7.714219256798716,
+          "syncDifference_percent": -18.441492006406623,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.33294365138863946,
+            0.3887994309409417
+          ]
+        }
+      ],
+      "calibrationBothRecordsPassed": false
+    },
+    {
+      "seed": 2,
+      "coordinates": [
+        -2.995732273553991,
+        1.8515385469020764,
+        -2.995732273553991,
+        -2.995732273553991,
+        2.3767846176280787,
+        1.0228248179228003,
+        2.573998912888498,
+        -2.995732273553991,
+        -0.046046583075015385,
+        0.7099147077223759,
+        0.7962203441459446,
+        0.868493094232549
+      ],
+      "parameters": [
+        1.7396308938091245e-07,
+        1.3447816543170776e-05,
+        0.06620310481611973,
+        0.0007979736851367973,
+        95.691364502832,
+        6.389035110093454,
+        0.006652578882520533,
+        4.74858890121374e-06,
+        -0.907732038464188,
+        3.411277618322525,
+        1.9128970510853485,
+        0.005548134092727148
+      ],
+      "initialLoss": 97.71438879134872,
+      "objective": 70.60335166757318,
+      "evaluations": 1352,
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 93.35553582117987,
+          "damping": 0.03333333333333333,
+          "accepted": true,
+          "evaluations": 15
+        },
+        {
+          "iteration": 1,
+          "loss": 81.8681595465429,
+          "damping": 0.011111111111111112,
+          "accepted": true,
+          "evaluations": 28
+        },
+        {
+          "iteration": 2,
+          "loss": 74.99890578299868,
+          "damping": 0.3703703703703704,
+          "accepted": true,
+          "evaluations": 43
+        },
+        {
+          "iteration": 3,
+          "loss": 73.49831780129487,
+          "damping": 0.1234567901234568,
+          "accepted": true,
+          "evaluations": 56
+        },
+        {
+          "iteration": 4,
+          "loss": 72.58050627980063,
+          "damping": 0.41152263374485604,
+          "accepted": true,
+          "evaluations": 70
+        },
+        {
+          "iteration": 5,
+          "loss": 71.46361186671663,
+          "damping": 1.3717421124828535,
+          "accepted": true,
+          "evaluations": 84
+        },
+        {
+          "iteration": 6,
+          "loss": 71.14232233854862,
+          "damping": 0.45724737082761785,
+          "accepted": true,
+          "evaluations": 97
+        },
+        {
+          "iteration": 7,
+          "loss": 71.0091583398825,
+          "damping": 1.5241579027587262,
+          "accepted": true,
+          "evaluations": 111
+        },
+        {
+          "iteration": 8,
+          "loss": 70.93796590300828,
+          "damping": 0.5080526342529087,
+          "accepted": true,
+          "evaluations": 124
+        },
+        {
+          "iteration": 9,
+          "loss": 70.87312526043152,
+          "damping": 1.693508780843029,
+          "accepted": true,
+          "evaluations": 138
+        },
+        {
+          "iteration": 10,
+          "loss": 70.84727663669969,
+          "damping": 0.5645029269476763,
+          "accepted": true,
+          "evaluations": 151
+        },
+        {
+          "iteration": 11,
+          "loss": 70.80427740431574,
+          "damping": 1.8816764231589211,
+          "accepted": true,
+          "evaluations": 165
+        },
+        {
+          "iteration": 12,
+          "loss": 70.79430728857523,
+          "damping": 0.627225474386307,
+          "accepted": true,
+          "evaluations": 178
+        },
+        {
+          "iteration": 13,
+          "loss": 70.76686483030647,
+          "damping": 2.0907515812876905,
+          "accepted": true,
+          "evaluations": 192
+        },
+        {
+          "iteration": 14,
+          "loss": 70.75987639072974,
+          "damping": 0.6969171937625634,
+          "accepted": true,
+          "evaluations": 205
+        },
+        {
+          "iteration": 15,
+          "loss": 70.7390004384094,
+          "damping": 2.323057312541878,
+          "accepted": true,
+          "evaluations": 219
+        },
+        {
+          "iteration": 16,
+          "loss": 70.73372862055126,
+          "damping": 0.7743524375139593,
+          "accepted": true,
+          "evaluations": 232
+        },
+        {
+          "iteration": 17,
+          "loss": 70.71791629523355,
+          "damping": 2.5811747917131975,
+          "accepted": true,
+          "evaluations": 246
+        },
+        {
+          "iteration": 18,
+          "loss": 70.7134615597244,
+          "damping": 0.8603915972377325,
+          "accepted": true,
+          "evaluations": 259
+        },
+        {
+          "iteration": 19,
+          "loss": 70.70062786107495,
+          "damping": 2.867971990792442,
+          "accepted": true,
+          "evaluations": 273
+        },
+        {
+          "iteration": 20,
+          "loss": 70.69644213924971,
+          "damping": 0.9559906635974807,
+          "accepted": true,
+          "evaluations": 286
+        },
+        {
+          "iteration": 21,
+          "loss": 70.68645231019372,
+          "damping": 3.1866355453249358,
+          "accepted": true,
+          "evaluations": 300
+        },
+        {
+          "iteration": 22,
+          "loss": 70.68322652770593,
+          "damping": 1.0622118484416452,
+          "accepted": true,
+          "evaluations": 313
+        },
+        {
+          "iteration": 23,
+          "loss": 70.67511513310657,
+          "damping": 3.540706161472151,
+          "accepted": true,
+          "evaluations": 327
+        },
+        {
+          "iteration": 24,
+          "loss": 70.67230493439604,
+          "damping": 1.1802353871573836,
+          "accepted": true,
+          "evaluations": 340
+        },
+        {
+          "iteration": 25,
+          "loss": 70.66587053183434,
+          "damping": 3.9341179571912783,
+          "accepted": true,
+          "evaluations": 354
+        },
+        {
+          "iteration": 26,
+          "loss": 70.66262431976557,
+          "damping": 1.3113726523970928,
+          "accepted": true,
+          "evaluations": 367
+        },
+        {
+          "iteration": 27,
+          "loss": 70.65737367387135,
+          "damping": 4.3712421746569765,
+          "accepted": true,
+          "evaluations": 381
+        },
+        {
+          "iteration": 28,
+          "loss": 70.65486933992541,
+          "damping": 1.4570807248856588,
+          "accepted": true,
+          "evaluations": 394
+        },
+        {
+          "iteration": 29,
+          "loss": 70.65058250951674,
+          "damping": 4.856935749618862,
+          "accepted": true,
+          "evaluations": 408
+        },
+        {
+          "iteration": 30,
+          "loss": 70.64808818657524,
+          "damping": 1.6189785832062873,
+          "accepted": true,
+          "evaluations": 421
+        },
+        {
+          "iteration": 31,
+          "loss": 70.64474377734393,
+          "damping": 5.396595277354291,
+          "accepted": true,
+          "evaluations": 435
+        },
+        {
+          "iteration": 32,
+          "loss": 70.64252525886614,
+          "damping": 1.7988650924514304,
+          "accepted": true,
+          "evaluations": 448
+        },
+        {
+          "iteration": 33,
+          "loss": 70.63975783216463,
+          "damping": 5.996216974838101,
+          "accepted": true,
+          "evaluations": 462
+        },
+        {
+          "iteration": 34,
+          "loss": 70.63743704468592,
+          "damping": 1.9987389916127005,
+          "accepted": true,
+          "evaluations": 475
+        },
+        {
+          "iteration": 35,
+          "loss": 70.63527887035309,
+          "damping": 6.662463305375668,
+          "accepted": true,
+          "evaluations": 489
+        },
+        {
+          "iteration": 36,
+          "loss": 70.63343695666262,
+          "damping": 2.220821101791889,
+          "accepted": true,
+          "evaluations": 502
+        },
+        {
+          "iteration": 37,
+          "loss": 70.63167081778181,
+          "damping": 7.402737005972964,
+          "accepted": true,
+          "evaluations": 516
+        },
+        {
+          "iteration": 38,
+          "loss": 70.62983820765368,
+          "damping": 2.467579001990988,
+          "accepted": true,
+          "evaluations": 529
+        },
+        {
+          "iteration": 39,
+          "loss": 70.6284021607531,
+          "damping": 8.22526333996996,
+          "accepted": true,
+          "evaluations": 543
+        },
+        {
+          "iteration": 40,
+          "loss": 70.62678854673169,
+          "damping": 2.7417544466566532,
+          "accepted": true,
+          "evaluations": 556
+        },
+        {
+          "iteration": 41,
+          "loss": 70.62556844978079,
+          "damping": 9.139181488855511,
+          "accepted": true,
+          "evaluations": 570
+        },
+        {
+          "iteration": 42,
+          "loss": 70.62411300806075,
+          "damping": 3.046393829618504,
+          "accepted": true,
+          "evaluations": 583
+        },
+        {
+          "iteration": 43,
+          "loss": 70.62311599011468,
+          "damping": 10.154646098728346,
+          "accepted": true,
+          "evaluations": 597
+        },
+        {
+          "iteration": 44,
+          "loss": 70.62182935168279,
+          "damping": 3.3848820329094487,
+          "accepted": true,
+          "evaluations": 610
+        },
+        {
+          "iteration": 45,
+          "loss": 70.62100014610473,
+          "damping": 11.282940109698162,
+          "accepted": true,
+          "evaluations": 624
+        },
+        {
+          "iteration": 46,
+          "loss": 70.61984956972302,
+          "damping": 3.7609800365660537,
+          "accepted": true,
+          "evaluations": 637
+        },
+        {
+          "iteration": 47,
+          "loss": 70.61918912075501,
+          "damping": 12.536600121886847,
+          "accepted": true,
+          "evaluations": 651
+        },
+        {
+          "iteration": 48,
+          "loss": 70.61820318280748,
+          "damping": 4.178866707295616,
+          "accepted": true,
+          "evaluations": 664
+        },
+        {
+          "iteration": 49,
+          "loss": 70.61763241324333,
+          "damping": 13.929555690985387,
+          "accepted": true,
+          "evaluations": 678
+        },
+        {
+          "iteration": 50,
+          "loss": 70.61672408097215,
+          "damping": 4.643185230328462,
+          "accepted": true,
+          "evaluations": 691
+        },
+        {
+          "iteration": 51,
+          "loss": 70.61624268236534,
+          "damping": 15.477284101094874,
+          "accepted": true,
+          "evaluations": 705
+        },
+        {
+          "iteration": 52,
+          "loss": 70.61546063027444,
+          "damping": 5.159094700364958,
+          "accepted": true,
+          "evaluations": 718
+        },
+        {
+          "iteration": 53,
+          "loss": 70.61506825617036,
+          "damping": 17.19698233454986,
+          "accepted": true,
+          "evaluations": 732
+        },
+        {
+          "iteration": 54,
+          "loss": 70.61436353590213,
+          "damping": 5.732327444849953,
+          "accepted": true,
+          "evaluations": 745
+        },
+        {
+          "iteration": 55,
+          "loss": 70.6140358977746,
+          "damping": 19.107758149499844,
+          "accepted": true,
+          "evaluations": 759
+        },
+        {
+          "iteration": 56,
+          "loss": 70.6134062044961,
+          "damping": 6.369252716499948,
+          "accepted": true,
+          "evaluations": 772
+        },
+        {
+          "iteration": 57,
+          "loss": 70.61312727461724,
+          "damping": 21.23084238833316,
+          "accepted": true,
+          "evaluations": 786
+        },
+        {
+          "iteration": 58,
+          "loss": 70.61256751373833,
+          "damping": 7.07694746277772,
+          "accepted": true,
+          "evaluations": 799
+        },
+        {
+          "iteration": 59,
+          "loss": 70.61232982488482,
+          "damping": 23.589824875925732,
+          "accepted": true,
+          "evaluations": 813
+        },
+        {
+          "iteration": 60,
+          "loss": 70.61183331690017,
+          "damping": 7.86327495864191,
+          "accepted": true,
+          "evaluations": 826
+        },
+        {
+          "iteration": 61,
+          "loss": 70.61182357150126,
+          "damping": 2.621091652880637,
+          "accepted": true,
+          "evaluations": 839
+        },
+        {
+          "iteration": 62,
+          "loss": 70.6113424088575,
+          "damping": 8.73697217626879,
+          "accepted": true,
+          "evaluations": 853
+        },
+        {
+          "iteration": 63,
+          "loss": 70.6112006766886,
+          "damping": 2.9123240587562633,
+          "accepted": true,
+          "evaluations": 866
+        },
+        {
+          "iteration": 64,
+          "loss": 70.61072441655108,
+          "damping": 9.707746862520878,
+          "accepted": true,
+          "evaluations": 880
+        },
+        {
+          "iteration": 65,
+          "loss": 70.61052828039635,
+          "damping": 3.235915620840293,
+          "accepted": true,
+          "evaluations": 893
+        },
+        {
+          "iteration": 66,
+          "loss": 70.61008985868337,
+          "damping": 10.786385402800976,
+          "accepted": true,
+          "evaluations": 907
+        },
+        {
+          "iteration": 67,
+          "loss": 70.60980643540364,
+          "damping": 3.5954618009336587,
+          "accepted": true,
+          "evaluations": 920
+        },
+        {
+          "iteration": 68,
+          "loss": 70.60944240998373,
+          "damping": 11.984872669778861,
+          "accepted": true,
+          "evaluations": 934
+        },
+        {
+          "iteration": 69,
+          "loss": 70.60912699579586,
+          "damping": 3.994957556592954,
+          "accepted": true,
+          "evaluations": 947
+        },
+        {
+          "iteration": 70,
+          "loss": 70.6087857940441,
+          "damping": 13.316525188643178,
+          "accepted": true,
+          "evaluations": 961
+        },
+        {
+          "iteration": 71,
+          "loss": 70.60841247526398,
+          "damping": 4.438841729547726,
+          "accepted": true,
+          "evaluations": 974
+        },
+        {
+          "iteration": 72,
+          "loss": 70.60811144033181,
+          "damping": 14.79613909849242,
+          "accepted": true,
+          "evaluations": 988
+        },
+        {
+          "iteration": 73,
+          "loss": 70.6077809356939,
+          "damping": 4.93204636616414,
+          "accepted": true,
+          "evaluations": 1001
+        },
+        {
+          "iteration": 74,
+          "loss": 70.60753012667149,
+          "damping": 16.440154553880465,
+          "accepted": true,
+          "evaluations": 1015
+        },
+        {
+          "iteration": 75,
+          "loss": 70.6072045180992,
+          "damping": 5.480051517960155,
+          "accepted": true,
+          "evaluations": 1028
+        },
+        {
+          "iteration": 76,
+          "loss": 70.60699155870752,
+          "damping": 18.26683839320052,
+          "accepted": true,
+          "evaluations": 1042
+        },
+        {
+          "iteration": 77,
+          "loss": 70.60668929041283,
+          "damping": 6.08894613106684,
+          "accepted": true,
+          "evaluations": 1055
+        },
+        {
+          "iteration": 78,
+          "loss": 70.60650503273737,
+          "damping": 20.296487103556135,
+          "accepted": true,
+          "evaluations": 1069
+        },
+        {
+          "iteration": 79,
+          "loss": 70.60622126824542,
+          "damping": 6.765495701185379,
+          "accepted": true,
+          "evaluations": 1082
+        },
+        {
+          "iteration": 80,
+          "loss": 70.60607399468735,
+          "damping": 22.551652337284594,
+          "accepted": true,
+          "evaluations": 1096
+        },
+        {
+          "iteration": 81,
+          "loss": 70.60581280014864,
+          "damping": 7.517217445761531,
+          "accepted": true,
+          "evaluations": 1109
+        },
+        {
+          "iteration": 82,
+          "loss": 70.60568721195045,
+          "damping": 25.057391485871772,
+          "accepted": true,
+          "evaluations": 1123
+        },
+        {
+          "iteration": 83,
+          "loss": 70.60545041041604,
+          "damping": 8.352463828623923,
+          "accepted": true,
+          "evaluations": 1136
+        },
+        {
+          "iteration": 84,
+          "loss": 70.60534140207267,
+          "damping": 27.84154609541308,
+          "accepted": true,
+          "evaluations": 1150
+        },
+        {
+          "iteration": 85,
+          "loss": 70.60512574617475,
+          "damping": 9.280515365137694,
+          "accepted": true,
+          "evaluations": 1163
+        },
+        {
+          "iteration": 86,
+          "loss": 70.6050310311158,
+          "damping": 30.935051217125647,
+          "accepted": true,
+          "evaluations": 1177
+        },
+        {
+          "iteration": 87,
+          "loss": 70.60483583763201,
+          "damping": 10.311683739041882,
+          "accepted": true,
+          "evaluations": 1190
+        },
+        {
+          "iteration": 88,
+          "loss": 70.60475391988203,
+          "damping": 34.37227913013961,
+          "accepted": true,
+          "evaluations": 1204
+        },
+        {
+          "iteration": 89,
+          "loss": 70.60457801464034,
+          "damping": 11.457426376713203,
+          "accepted": true,
+          "evaluations": 1217
+        },
+        {
+          "iteration": 90,
+          "loss": 70.60455845232967,
+          "damping": 3.8191421255710676,
+          "accepted": true,
+          "evaluations": 1230
+        },
+        {
+          "iteration": 91,
+          "loss": 70.60436746651261,
+          "damping": 12.73047375190356,
+          "accepted": true,
+          "evaluations": 1244
+        },
+        {
+          "iteration": 92,
+          "loss": 70.60428286885286,
+          "damping": 4.24349125063452,
+          "accepted": true,
+          "evaluations": 1257
+        },
+        {
+          "iteration": 93,
+          "loss": 70.60412566145496,
+          "damping": 14.1449708354484,
+          "accepted": true,
+          "evaluations": 1271
+        },
+        {
+          "iteration": 94,
+          "loss": 70.6040111159304,
+          "damping": 4.7149902784828,
+          "accepted": true,
+          "evaluations": 1284
+        },
+        {
+          "iteration": 95,
+          "loss": 70.60386700519587,
+          "damping": 15.716634261609334,
+          "accepted": true,
+          "evaluations": 1298
+        },
+        {
+          "iteration": 96,
+          "loss": 70.60373727291659,
+          "damping": 5.238878087203111,
+          "accepted": true,
+          "evaluations": 1311
+        },
+        {
+          "iteration": 97,
+          "loss": 70.60360720485622,
+          "damping": 17.462926957343704,
+          "accepted": true,
+          "evaluations": 1325
+        },
+        {
+          "iteration": 98,
+          "loss": 70.6034657825872,
+          "damping": 5.820975652447902,
+          "accepted": true,
+          "evaluations": 1338
+        },
+        {
+          "iteration": 99,
+          "loss": 70.60335166757318,
+          "damping": 19.40325217482634,
+          "accepted": true,
+          "evaluations": 1352
+        }
+      ],
+      "cases": [
+        {
+          "record": "new_belt_run010",
+          "actualTrackingRMSE_mm": 0.26833973336052963,
+          "actualSyncRMS_mm": 0.053384080023917105,
+          "predictedTrackingRMSE_mm": 0.29498069640232394,
+          "predictedSyncRMS_mm": 0.06029208074034267,
+          "trackingDifference_percent": 9.92807241333904,
+          "syncDifference_percent": 12.940188747901328,
+          "bothWithin15Percent": true,
+          "nativePositionRMSE_mm": [
+            0.28661267854022165,
+            0.30070897475798664
+          ]
+        },
+        {
+          "record": "new_belt_run011",
+          "actualTrackingRMSE_mm": 0.33539110378780057,
+          "actualSyncRMS_mm": 0.08556856899586424,
+          "predictedTrackingRMSE_mm": 0.33013533872489326,
+          "predictedSyncRMS_mm": 0.0697903825752517,
+          "trackingDifference_percent": -1.5670555967497002,
+          "syncDifference_percent": -18.43923137405177,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.3263444882329104,
+            0.37923547104668404
+          ]
+        }
+      ],
+      "calibrationBothRecordsPassed": false
+    }
+  ],
+  "evaluations": 3138,
+  "bothRecordsCalibration": true,
+  "oldFrozenFailuresPreserved": true,
+  "physicalModelValidated": false,
+  "firmwareChanged": false,
+  "assistantHardwareAction": false
+}

@@ -1,0 +1,19 @@
+{
+ "authorization":"User explicitly agreed to prepare ONE T1 small-excitation capture via question call_deca63cd54a84e33b180f4198c9088c1 on2026-10-14. User flashes and recordsVOFA; assistant does not connect,start,reset or flash hardware.",
+ "baseline":"Qualified Q0 build67823; original CSV renamed canonically and SHA preserved",
+ "build":67832,"method":11,"schema":4491,"stopMagic":4442,"profile":1,"seed":39,
+ "trajectory":"Unchanged unloaded2mm20s,original1200/1200counts limits,8s one-shot healthy manual boot-start; no automatic repeat/fault clear",
+ "excitation":"Common20/sync10 requested command counts,axis=[common+sync,-common+sync]. Onlyphase2/4,both rawRPM magnitudes<=10,health permitted. Original amplitude clip,integer truncation and ONE actual-command speed guard remain. Not amperes,torque or proven-safe mechanical force.",
+ "sequence":"Fixed31-state5bit LFSR plus balancing32nd symbol,seed39 and118 for two modal tables,precomputed once.32/16ms periods; negate same local sequence on return. No real-time LFSR loop. Feedback gating means actual exposure is NOT assumed balanced or noise-independent.",
+ "AW":"Original internal coreAW unchanged. Outer residual exactly command-core_current-requested_injection. For requested0 retain original arithmetic and state bitwise. Separate diagnostic zero-injection finalized shadow never goes to CAN.",
+ "quantization":"Requested per-axis amplitude<=30counts. Float addition then truncation may yield an extra one-count actual-vs-shadow boundary difference; decoder allows31, hard1200 limit unchanged. No claim calibrated actuation gain.",
+ "logging":"Same qualified63488-byte ABI,1000slow/400fast windows,timing/age freshness,stop-only safe split-range encoding and two-pass export. Header seed/profile;reserved4 motionEnabled,reserved5 requested-injection steps,reserved6 actual-vs-shadow increment steps. Fastflags bit2 indicates requested injection in preceding permitted command interval; endpointRPM can differ from preceding gateRPM.",
+ "liveDuringDrive":{"I96":"common requested counts","I97":"sync requested counts","I98":"left requested increment","I99":"right requested increment","I100_I101":"signed16 zero-injection shadow encoded using safe split-range mapping","I102":"profile1","I103":"seed39"},
+ "compileAndTesting":"Offline67831motion-disabled draft retained. Active67832 is separately linked/checked after explicit admission. Disabled chain bitwise regression,float/double guard/AW/seed checks,ABI/transport tests,legacyQ0 decoder regression. No hardware or active on-board timing implied by host tests.",
+ "captureStop":"I88=4442,I89=4,I90=0 then10seconds; approximately12minutes total. Onphase9 maintain safe stopped state,preserve full fault export,no reset/retry.",
+ "rawFolder":"01_原始数据/辨识T1_训练采集_20261014",
+ "filename":"E5ID_T1M_BLNN_B67832_HW6_PRBS20_10_seed39_L1200_R1200_M0g_S2mm_run01.csv",
+ "trainingBoundary":"T1 only for rank,input/output timing,closed-loop fit and recursive error diagnostics. Model/parameters/code freeze before independently collecting/openingV1 outputs. Model-resolution budget still needs predefinition before validation; no invented positioning tolerance or efficacy claims.",
+ "V1Released":false,"formalCollectionReleased":false,"physicalRuns":0,"modelIdentified":false,
+ "PCHeartbeatWatchdogNotEnabledInManualMode":true
+}

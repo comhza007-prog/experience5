@@ -1,0 +1,15 @@
+.git-credentials
+.env
+.env.local
+node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.o
+*.obj
+*.crf
+*.d
+*.dep
+Thumbs.db
+Desktop.ini

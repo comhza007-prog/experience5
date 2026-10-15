@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "independentPythonSteps": 100000,
+  "nativePointsChecked": 1999,
+  "maximumCAndPythonPositionDifference_m": 6.401129626354418e-16,
+  "maximumEnergyBalanceResidual": 1.1551758502984615e-21,
+  "independentlyRecomputedDataLoss": 9.022089704562427,
+  "checks": [
+    {
+      "record": "T1",
+      "steps": 20000,
+      "maxPositionDifference_m": 6.401129626354418e-16,
+      "trackingRMSE_mm": 0.17475324031330577,
+      "syncRMS_mm": 0.045667712883392775,
+      "trackingWaveformCorrelation": 0.7781657826148812,
+      "syncWaveformCorrelation": 0.11400164134523885
+    },
+    {
+      "record": "Q2_run02",
+      "steps": 20000,
+      "maxPositionDifference_m": 5.95443833129039e-16,
+      "trackingRMSE_mm": 0.14676062780936852,
+      "syncRMS_mm": 0.04472256142038379,
+      "trackingWaveformCorrelation": 0.7837500263165513,
+      "syncWaveformCorrelation": 0.10602190579487872
+    },
+    {
+      "record": "Q2_run03",
+      "steps": 20000,
+      "maxPositionDifference_m": 5.342948306008566e-16,
+      "trackingRMSE_mm": 0.18965356888410034,
+      "syncRMS_mm": 0.046772954505600324,
+      "trackingWaveformCorrelation": 0.6025808147989732,
+      "syncWaveformCorrelation": 0.13343955557886292
+    },
+    {
+      "record": "Q2_run04",
+      "steps": 20000,
+      "maxPositionDifference_m": 5.418842458082551e-16,
+      "trackingRMSE_mm": 0.12391645370974753,
+      "syncRMS_mm": 0.036606829963819594,
+      "trackingWaveformCorrelation": 0.7512930295011779,
+      "syncWaveformCorrelation": 0.09136592483619682
+    },
+    {
+      "record": "Q2_run05",
+      "steps": 20000,
+      "maxPositionDifference_m": 5.728924279413405e-16,
+      "trackingRMSE_mm": 0.139277187651101,
+      "syncRMS_mm": 0.04021728484122219,
+      "trackingWaveformCorrelation": 0.7601024497014633,
+      "syncWaveformCorrelation": 0.13350245775843853
+    }
+  ],
+  "fitResultsSHA256": "3eb417251f0a6cbcbba39762a8eaff18d16c5b2d051c289da9c96b889dc8cffd",
+  "allRawDecodedFirmwareAndSourceParametersUnchanged": true,
+  "fixedCoreExactlyPreserved": true,
+  "physicalValidationPassed": false
+}

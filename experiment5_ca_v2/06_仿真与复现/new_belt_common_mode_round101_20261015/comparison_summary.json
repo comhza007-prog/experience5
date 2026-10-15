@@ -1,0 +1,238 @@
+{
+  "status": "Common-mode extension tested and rejected; no improvement, R100 retained as experimental baseline",
+  "modifiedSource": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_common_mode_round101_20261015\\native_model.c",
+  "sourceSHA256": "2fdde59f075d34f346243ef6989b0b733c08752b5d902ef61992e40eab598908",
+  "solverSHA256": "d70bcf29dc99c49db38b42a05447cd487ac16987c970f5ffe047e2771c9b90d0",
+  "selectedAddedCommonStiffness": 0.0,
+  "selectedAddedCommonDamping": 0.0,
+  "addedTermsAdopted": false,
+  "cases": [
+    {
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.45504046317333147,
+      "predictedSyncRMS_mm": 0.05604821585028377,
+      "trackingDifference_percent": 69.57625226598807,
+      "syncDifference_percent": 4.990506205544953,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.4926788101796139,
+        0.5039219756073354
+      ]
+    },
+    {
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.4730801094952101,
+      "predictedSyncRMS_mm": 0.08045769074488777,
+      "trackingDifference_percent": 41.053267111856485,
+      "syncDifference_percent": -5.972845299333551,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.506595459908594,
+        0.5240315973297791
+      ]
+    }
+  ],
+  "phaseDiagnosis": [
+    {
+      "record": "new_belt_run010",
+      "phase": 2,
+      "actualTrackingRMSE_mm": 0.33975219646089116,
+      "predictedTrackingRMSE_mm": 0.5881548756344733,
+      "meanPositionBias_mm": -0.1859363186170208
+    },
+    {
+      "record": "new_belt_run010",
+      "phase": 3,
+      "actualTrackingRMSE_mm": 0.34047177562905273,
+      "predictedTrackingRMSE_mm": 0.2440920407455828,
+      "meanPositionBias_mm": 0.07257707934693174
+    },
+    {
+      "record": "new_belt_run010",
+      "phase": 4,
+      "actualTrackingRMSE_mm": 0.335970259100415,
+      "predictedTrackingRMSE_mm": 0.5197480171591148,
+      "meanPositionBias_mm": -0.7640636187666949
+    },
+    {
+      "record": "new_belt_run010",
+      "phase": 5,
+      "actualTrackingRMSE_mm": 0.03422245851289277,
+      "predictedTrackingRMSE_mm": 0.34874301722454987,
+      "meanPositionBias_mm": -0.2950040899205838
+    },
+    {
+      "record": "new_belt_run011",
+      "phase": 2,
+      "actualTrackingRMSE_mm": 0.36350163342136443,
+      "predictedTrackingRMSE_mm": 0.4980203159965628,
+      "meanPositionBias_mm": -0.096410479422175
+    },
+    {
+      "record": "new_belt_run011",
+      "phase": 3,
+      "actualTrackingRMSE_mm": 0.5251681730645908,
+      "predictedTrackingRMSE_mm": 0.46204402066584127,
+      "meanPositionBias_mm": 0.8254322343391061
+    },
+    {
+      "record": "new_belt_run011",
+      "phase": 4,
+      "actualTrackingRMSE_mm": 0.42240412521659865,
+      "predictedTrackingRMSE_mm": 0.5207575589019013,
+      "meanPositionBias_mm": 0.2568192243645388
+    },
+    {
+      "record": "new_belt_run011",
+      "phase": 5,
+      "actualTrackingRMSE_mm": 0.031509601711224466,
+      "predictedTrackingRMSE_mm": 0.42363071765571153,
+      "meanPositionBias_mm": 0.3971976158132056
+    }
+  ],
+  "inputSensitivityResults": [
+    {
+      "inputHypothesis": "canonical_block_mean",
+      "maximumMeanDifference_counts": 0.0,
+      "maximumFirstCommandDifference_counts": 312.618775,
+      "infeasibleBlocks": [],
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.45504046317333147,
+      "predictedSyncRMS_mm": 0.05604821585028377,
+      "trackingDifference_percent": 69.57625226598807,
+      "syncDifference_percent": 4.990506205544953,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.4926788101796139,
+        0.5039219756073354
+      ]
+    },
+    {
+      "inputHypothesis": "known_first_then_constant",
+      "maximumMeanDifference_counts": 1.1368683772161603e-12,
+      "maximumFirstCommandDifference_counts": 0.0,
+      "infeasibleBlocks": [],
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.4550391137034266,
+      "predictedSyncRMS_mm": 0.056045874067588604,
+      "trackingDifference_percent": 69.57574936994358,
+      "syncDifference_percent": 4.986119536908684,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.4926751820418805,
+        0.5039219185548491
+      ]
+    },
+    {
+      "inputHypothesis": "known_first_clipped_linear",
+      "maximumMeanDifference_counts": 4.547473508864641e-13,
+      "maximumFirstCommandDifference_counts": 0.0,
+      "infeasibleBlocks": [],
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.45492953025715976,
+      "predictedSyncRMS_mm": 0.056128513253069515,
+      "trackingDifference_percent": 69.53491179255819,
+      "syncDifference_percent": 5.140920716293795,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.49253417901705054,
+        0.5037646052473318
+      ]
+    },
+    {
+      "inputHypothesis": "canonical_block_mean",
+      "maximumMeanDifference_counts": 0.0,
+      "maximumFirstCommandDifference_counts": 210.300925,
+      "infeasibleBlocks": [],
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.4730801094952101,
+      "predictedSyncRMS_mm": 0.08045769074488777,
+      "trackingDifference_percent": 41.053267111856485,
+      "syncDifference_percent": -5.972845299333551,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.506595459908594,
+        0.5240315973297791
+      ]
+    },
+    {
+      "inputHypothesis": "known_first_then_constant",
+      "maximumMeanDifference_counts": 1.1368683772161603e-12,
+      "maximumFirstCommandDifference_counts": 0.0,
+      "infeasibleBlocks": [],
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.47307897662546794,
+      "predictedSyncRMS_mm": 0.08047212250214356,
+      "trackingDifference_percent": 41.052929336128564,
+      "syncDifference_percent": -5.955979576995151,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.506596770123932,
+        0.5240314303550884
+      ]
+    },
+    {
+      "inputHypothesis": "known_first_clipped_linear",
+      "maximumMeanDifference_counts": 7.958078640513122e-13,
+      "maximumFirstCommandDifference_counts": 0.0,
+      "infeasibleBlocks": [],
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.4730258608152413,
+      "predictedSyncRMS_mm": 0.08047366028707778,
+      "trackingDifference_percent": 41.03709235964743,
+      "syncDifference_percent": -5.954182439386946,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.5065508390082876,
+        0.524010694070264
+      ]
+    }
+  ],
+  "inputSensitivityInterpretation": "Two first-command/integral-consistent hold-input hypotheses change current predictions only slightly; these hypotheses do not explain observed tracking error. Unknown high-frequency hold inputs remain uncertain; this is not waveform recovery or exclusion of all input errors.",
+  "numericalVerification": {
+    "passed": true,
+    "randomCases": 400,
+    "maximumIndependentStateDifference": 1.474514954580286e-17,
+    "maximumEnergyBalanceResidual": 8.131516293641283e-20,
+    "minimumPlasticDissipation": -1.2145591017140236e-22,
+    "zeroTermsEquivalence": [
+      {
+        "record": "new_belt_run010",
+        "zeroCommonTermsOldModelDifference_m": 0.0
+      },
+      {
+        "record": "new_belt_run011",
+        "zeroCommonTermsOldModelDifference_m": 0.0
+      }
+    ],
+    "sourceSHA256": "2fdde59f075d34f346243ef6989b0b733c08752b5d902ef61992e40eab598908",
+    "solverSHA256": "d70bcf29dc99c49db38b42a05447cd487ac16987c970f5ffe047e2771c9b90d0",
+    "scope": "Numerical checks only, no physical validation"
+  },
+  "currentModelUnchanged": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_memory_model_round100_20261015\\model_parameters.json",
+  "currentModelSHA256": "a44665e79b254514302e0c39c3a3ebf288df7e684920e5dc2b76df49683ce486",
+  "bothNewBeltRecordsDevelopmentOnly": true,
+  "previousFrozenFailuresRetained": true,
+  "physicalModelValidated": false,
+  "newPhysicalRunReleased": false,
+  "firmwareChanged": false,
+  "assistantHardwareAction": false,
+  "requiredHardwareMetadata": "Whether only belt or also pulley/gearing changed; old/new belt pitch/model/width and tension. Requested from user. No guessed geometry or encoder scaling applied.",
+  "nextStep": "Clarify new transmission geometry and tension before selecting another physical model law or widening parameters. Keep existing correctable partial result: sync aggregates within15percent but tracking not. Do not convert unsupported common elastic term into final model."
+}

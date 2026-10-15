@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-15",
+  "authorization": "User requests testing motor performance and using observations to improve simulation parameters. This releases ONE operator-run admission record only, not automatic hardware operation or additional excitation.",
+  "project": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\模型闭环_电机响应M1_20261015\\eassy_E5ID_MOTOR_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+  "target": "exp5ID_MOTOR_BLNN_HW6",
+  "hex": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\模型闭环_电机响应M1_20261015\\eassy_E5ID_MOTOR_BLNN_HW6\\MDK-ARM\\exp5ID_MOTOR_BLNN_HW6\\exp5ID_MOTOR_BLNN_HW6.hex",
+  "hexSHA256": "2330d597ae7c4c0238e4c7960df85b9115b7911cfed39ec8083751710b7cf46f",
+  "sourceHashes": {
+    "Task/motor_task.c": "58833591d2f48cbf82f8d9ecb4112136ba2f9bf989d076a3a6fa27ccad653fee",
+    "Task/identification_trace.h": "c4696d30e0d39b4cd6dfc16d628fbb11b251602faaf66d69cda97fc3cc428608",
+    "Task/experiment5_formal_config.h": "33244efcb81d44d1cd4f270c9f10a57d9eff81292d97c31da0519d3ff0eaea1d",
+    "Task/vofa_task.c": "a172b111871dd24b91987794f3fa49cb5f38a8e6fd288241dea1d8d0e597d9f6",
+    "Task/blnn_core.c": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+    "Task/experiment5_motion.h": "614333932d95cda077cddf3131f837da00d73a1baa19dc57b94924069c67ffbd",
+    "Task/experiment5_error_summary.h": "7b788aebd3dfe733118a1d03103a1c412c93d81c45b07b91b3da6dfc463923a9",
+    "Task/experiment5_error_wave.h": "ea2d590bf55cd4e97fcc55d73c9dd8e71b7f5a485815f84baa510022e0abb40c"
+  },
+  "verification": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\motor_response_prepare_round92_20261015\\verification.json",
+  "verificationSHA256": "bbbed93f53f9eb05986e61ec4d1a4ea28b78d17571a2a1d7bcc33b874737cedb",
+  "build": 68212,
+  "schema": 4501,
+  "magic": 4446,
+  "ABI": 4,
+  "telemetryChannels": 107,
+  "rawPath": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\电机响应M1_20261015\\E5ID_M1_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_run01.csv",
+  "rawAbsentAtPreparation": true,
+  "manualRunsAuthorized": 1,
+  "manualRunsCollected": 0,
+  "scope": "Same ordinaryBLNN/HW6,empty2mm out/back,1200/1200limits,one boot-start attempt after8s. No controller/trajectory/guard/voltage-threshold change. Operator remains responsible for physical safety and emergency stop. No automatic repeat.",
+  "intent": "Identify effective queued-command to ESC-current-feedback response and characterize left/right differences, input representation and battery covariation. Not a full unloaded-motor bench test, torque calibration or saturated-performance test.",
+  "records": {
+    "fineRows": 1800,
+    "fineCadence_ms": 1,
+    "fineStepWindows": [
+      [
+        0,
+        200
+      ],
+      [
+        3800,
+        4200
+      ],
+      [
+        7800,
+        8200
+      ],
+      [
+        9800,
+        10200
+      ],
+      [
+        13800,
+        14200
+      ]
+    ],
+    "coarseRows": 910,
+    "coarseCadence_ms": 20,
+    "coarseCommandIntegralsExact": true,
+    "allControlIntervals": 20000,
+    "blobBytes": 83872,
+    "chunkCount": 874,
+    "copiesPerChunk": 4
+  },
+  "recordedFields": [
+    "actual_us",
+    "interval_steps",
+    "phase",
+    "previous_queued_command_counts_LR",
+    "encoder_counts_LR",
+    "ESC_current_raw_LR",
+    "motor_RPM_LR",
+    "CAN_feedback_age_ms_LR",
+    "fresh_since_previous_control_snapshot_mask",
+    "battery_ADC_mV",
+    "battery_age_ms",
+    "battery_valid",
+    "drive_flags"
+  ],
+  "units": "Current remains raw signed ESC protocol counts until independent scaling verified. Battery ADC estimate is not motor terminal voltage. Encoder is motor-side derived, not an independent carriage sensor. Fresh mask does not imply synchronous actuator feedback.",
+  "recording": "VOFA115200 JustFloat107channels, clear history before one run, capture before phase1. I63=68212. Existing I53/I54 summary after40s retained. Do not decode stopped payload channels as live motor values.",
+  "completion": "Normal phaseI2=6/faultI22=0; wait forI88=4446,I89=4,I90=0,then retain>=20s AND I0>=230s. Typically about4minutes total, status takes precedence over estimate. Do not reset/reflash/clear history before complete export. Abnormal motion: stop safely,preserve history,no automatic rerun.",
+  "analysisPlan": [
+    "First verify source identity/sessions/CRC/four-copy agreement, timestamps,1ms-window/20ms coverage, native400point metrics, runtime guards and feedback freshness.",
+    "Check units/signs/age and excitation before fitting. Separate raw sampled-feedback artifacts from actual motor/driver response; closed-loop associations alone do not establish causality.",
+    "Compare a static current-response baseline with parsimonious causal nonnegative-delay/first-order effective-current candidates per axis using valid fine windows. Reject unidentifiable time constants or unsupported voltage/dead-zone terms rather than inventing values.",
+    "Any accepted actuator block must generate its own response from command in forward replay, not inject future measured current and call it autonomous prediction. Keep mechanical/actuator gain confounding explicit; current feedback is not calibrated torque.",
+    "Refit shared plant parameters cumulatively only if response data support the block, retain no-actuator baseline and all previous errors. New fitted record is calibration, not independent proof. A subsequent frozen new-record test needs separate user authorization."
+  ],
+  "futureAggregateModelScreen": {
+    "trackingRelativeErrorMaximum": 0.15,
+    "syncRelativeErrorMaximum": 0.15,
+    "waveformIsHardGate": false,
+    "status": "Future engineering screen only; not admission to full model/control-benefit validation."
+  },
+  "rawArchivesAndOldFirmwarePreserved": true,
+  "motorModelIdentified": false,
+  "newParametersDerived": false,
+  "onBoardTimingQualified": false,
+  "formalBatchReleased": false,
+  "assistantHardwareAction": false
+}

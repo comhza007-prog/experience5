@@ -1,0 +1,259 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "record": "run03",
+      "CSVAndBlobPositionAlignmentsChecked": 399,
+      "mismatches": 0,
+      "missingCSVCoreSteps": [
+        9961
+      ],
+      "sumDt_s": 20.000000000001155,
+      "modelTrackingRMSE_mm": 0.3637902041790593,
+      "modelSyncRMS_mm": 0.11619949788304025,
+      "phaseInputStatistics": [
+        {
+          "phase": "prehold",
+          "startStep": 0,
+          "endStep": 4000,
+          "duration_s": 4.0,
+          "meanPhysicalCommand_counts": [
+            0.0,
+            0.0
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "phase": "outward",
+          "startStep": 4000,
+          "endStep": 8000,
+          "duration_s": 4.0,
+          "meanPhysicalCommand_counts": [
+            197.4985,
+            198.99775
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            208.2115,
+            213.37875
+          ]
+        },
+        {
+          "phase": "targethold",
+          "startStep": 8000,
+          "endStep": 10000,
+          "duration_s": 2.0,
+          "meanPhysicalCommand_counts": [
+            169.16599328744337,
+            20.890414937503202
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            169.16599328744337,
+            25.81344993750242
+          ]
+        },
+        {
+          "phase": "return",
+          "startStep": 10000,
+          "endStep": 14000,
+          "duration_s": 4.0,
+          "meanPhysicalCommand_counts": [
+            -154.283,
+            -228.695
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            222.2885,
+            260.2565
+          ]
+        },
+        {
+          "phase": "returnhold",
+          "startStep": 14000,
+          "endStep": 20000,
+          "duration_s": 6.0,
+          "meanPhysicalCommand_counts": [
+            246.3518815502047,
+            72.79428658811047
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            253.7616888495973,
+            73.06053725477715
+          ]
+        }
+      ]
+    },
+    {
+      "record": "T1_calibration",
+      "CSVAndBlobPositionAlignmentsChecked": 400,
+      "mismatches": 0,
+      "missingCSVCoreSteps": [],
+      "sumDt_s": 20.000000000001442,
+      "modelTrackingRMSE_mm": 0.15438048573249147,
+      "modelSyncRMS_mm": 0.04757244475534129,
+      "phaseInputStatistics": [
+        {
+          "phase": "prehold",
+          "startStep": 0,
+          "endStep": 4000,
+          "duration_s": 4.0,
+          "meanPhysicalCommand_counts": [
+            0.0,
+            0.0
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "phase": "outward",
+          "startStep": 4000,
+          "endStep": 8000,
+          "duration_s": 4.0,
+          "meanPhysicalCommand_counts": [
+            214.27675,
+            240.38125
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            233.84725,
+            259.66175
+          ]
+        },
+        {
+          "phase": "targethold",
+          "startStep": 8000,
+          "endStep": 10000,
+          "duration_s": 1.999999,
+          "meanPhysicalCommand_counts": [
+            23.248475476300484,
+            -146.93912113029106
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            33.79656619244046,
+            146.93912113029106
+          ]
+        },
+        {
+          "phase": "return",
+          "startStep": 10000,
+          "endStep": 14000,
+          "duration_s": 4.000001,
+          "meanPhysicalCommand_counts": [
+            -206.179,
+            -277.38325
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            235.942,
+            295.08125
+          ]
+        },
+        {
+          "phase": "returnhold",
+          "startStep": 14000,
+          "endStep": 20000,
+          "duration_s": 6.0,
+          "meanPhysicalCommand_counts": [
+            -52.95845322081641,
+            -88.04815224565164
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            52.95845322081641,
+            88.04815224565164
+          ]
+        }
+      ]
+    },
+    {
+      "record": "Q2_calibration",
+      "CSVAndBlobPositionAlignmentsChecked": 400,
+      "mismatches": 0,
+      "missingCSVCoreSteps": [],
+      "sumDt_s": 19.9999990000011,
+      "modelTrackingRMSE_mm": 0.1331287182579326,
+      "modelSyncRMS_mm": 0.04265363407729756,
+      "phaseInputStatistics": [
+        {
+          "phase": "prehold",
+          "startStep": 0,
+          "endStep": 4000,
+          "duration_s": 4.0,
+          "meanPhysicalCommand_counts": [
+            0.0,
+            0.0
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "phase": "outward",
+          "startStep": 4000,
+          "endStep": 8000,
+          "duration_s": 4.0,
+          "meanPhysicalCommand_counts": [
+            200.956,
+            242.91725
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            224.5805,
+            264.93725
+          ]
+        },
+        {
+          "phase": "targethold",
+          "startStep": 8000,
+          "endStep": 10000,
+          "duration_s": 2.0,
+          "meanPhysicalCommand_counts": [
+            32.15393196530379,
+            -152.03631442679068
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            41.11336868308899,
+            152.03631442679068
+          ]
+        },
+        {
+          "phase": "return",
+          "startStep": 10000,
+          "endStep": 14000,
+          "duration_s": 4.0,
+          "meanPhysicalCommand_counts": [
+            -201.33725,
+            -272.1925
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            241.15175,
+            293.1535
+          ]
+        },
+        {
+          "phase": "returnhold",
+          "startStep": 14000,
+          "endStep": 20000,
+          "duration_s": 5.999999,
+          "meanPhysicalCommand_counts": [
+            -55.965963008416004,
+            -64.37281055396832
+          ],
+          "meanAbsolutePhysicalCommand_counts": [
+            55.965963008416004,
+            64.37281055396832
+          ]
+        }
+      ]
+    }
+  ],
+  "frozenModelSHA256": "2ec09510d85313fa468343837b398add271e7ffe12a06c9c8088e2f79ee8299b",
+  "sameEvaluationPipelineReproducesOriginalTrainingMetrics": true,
+  "nativeCSVAndBlobAlignmentMismatches": 0,
+  "run03OnlyGapIsCoreStep": [
+    9961
+  ],
+  "noDataOrParametersModified": true,
+  "modelRefitted": false,
+  "interpretation": "Numerical implementation, data mapping and frozen parameter provenance cross-checks agree. New-record mismatch is not explained by the single absent CSV point. This audit does not identify the physical cause of model error."
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-15",
+  "fitResultsSHA256": "222b6b285153579ecb0aa46fc2181f1de529dde05e7586d78f51edcbaf20b869",
+  "fitBudget": {
+    "evaluations": 282,
+    "maximum": 350,
+    "iterations": 24
+  },
+  "trainingObjectiveReduction_percent": 93.50279136565194,
+  "waveformChanges": [
+    {
+      "record": "T1",
+      "nativeWaveformErrorChange_percent": {
+        "meanPositionPredictionRMSE_mm": -68.68799671128676,
+        "syncPredictionRMSE_mm": -82.37073472577731
+      }
+    },
+    {
+      "record": "Q2",
+      "nativeWaveformErrorChange_percent": {
+        "meanPositionPredictionRMSE_mm": -73.4610299901619,
+        "syncPredictionRMSE_mm": -81.67185021899476
+      }
+    }
+  ],
+  "fittedInertiaEta": -0.696361027924568,
+  "massEigenvalues": [
+    0.30363897207543195,
+    1.696361027924568
+  ],
+  "reciprocalSpringAtNumericalLowerBound": false,
+  "physicalZeroSpringOrInertiaProven": false,
+  "decision": "Fresh-initialization joint calibration completed within its fixed budget. Both records are training, not independent validation. Numerical cross-check does not establish physical parameter identification, CA advantage or model closure. Preserve every whole-record prediction and report actual error levels before assessing applicability.",
+  "nextOfflineStep": "Retain calibratedcandidate,limit applicability to training records, and address justified input/observation/structure information gaps before requesting independent validation. No further plant search or hardware trial automatically released.",
+  "bothT1AndNewQ2NowTraining": true,
+  "independentValidationDataAvailableForThisNewFit": false,
+  "oldFittedParametersUsedForInitialization": false,
+  "favorableMethodRankingNotOptimizationObjective": true,
+  "modelClosureComplete": false,
+  "independentValidationPassed": false,
+  "Q2NotUntouchedHeldOut": true,
+  "S3R2DataRead": false,
+  "controlRawAndFirmwareUnchanged": true,
+  "newPhysicalRunReleased": false
+}

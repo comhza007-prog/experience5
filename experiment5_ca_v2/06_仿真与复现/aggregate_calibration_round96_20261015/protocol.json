@@ -1,0 +1,99 @@
+{
+  "status": "Declared before bounded RMS-only calibration",
+  "reason": "User prioritizes two final RMS summaries. Prior squared objective was66.48percent dominated by M1run01; use equal-record Huber loss retaining all13 records, no waveform matching term.",
+  "sources": [
+    {
+      "name": "T1",
+      "raw": "D:\\lunwen2\\\u8d77\u91cd\u673a\\output\\experiment5_ca_v2\\01_\u539f\u59cb\u6570\u636e\\\u8fa8\u8bc6T1_\u5168\u8fd0\u52a8\u6bb5_20261015\\E5ID_T1F_BLNN_B68112_HW6_PRBS20_10_seed39_L1200_R1200_M0g_S2mm_run01.csv",
+      "rawSHA256": "d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0"
+    },
+    {
+      "name": "Q2_run02",
+      "raw": "D:\\lunwen2\\\u8d77\u91cd\u673a\\output\\experiment5_ca_v2\\01_\u539f\u59cb\u6570\u636e\\\u6a21\u578b\u95ed\u73af_Q2_\u8bef\u5dee\u6c47\u603b40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run02.csv",
+      "rawSHA256": "84bbb6e3416540a238354d7636a6bc4e6f5ba0cd2d090470e3eb1bba1ce153db"
+    },
+    {
+      "name": "Q2_run03",
+      "raw": "D:\\lunwen2\\\u8d77\u91cd\u673a\\output\\experiment5_ca_v2\\01_\u539f\u59cb\u6570\u636e\\\u6a21\u578b\u95ed\u73af_Q2_\u8bef\u5dee\u6c47\u603b40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run03.csv",
+      "rawSHA256": "e8b6c897381bf15a77d4543d36f8564bab4318ae633bad56fc08b061fd173567"
+    },
+    {
+      "name": "Q2_run04",
+      "raw": "D:\\lunwen2\\\u8d77\u91cd\u673a\\output\\experiment5_ca_v2\\01_\u539f\u59cb\u6570\u636e\\\u6a21\u578b\u95ed\u73af_Q2_\u8bef\u5dee\u6c47\u603b40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run04.csv",
+      "rawSHA256": "62dee22d4a81c135b355ce8d178b7b15d616357926465d4983285febefd36cb0"
+    },
+    {
+      "name": "Q2_run05",
+      "raw": "D:\\lunwen2\\\u8d77\u91cd\u673a\\output\\experiment5_ca_v2\\01_\u539f\u59cb\u6570\u636e\\\u6a21\u578b\u95ed\u73af_Q2_\u8bef\u5dee\u6c47\u603b40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run05.csv",
+      "rawSHA256": "1a2901e72e3430f86212668ad8ee9c7883d7cd6fef7d43023cd8b9e0f1a8eb00"
+    },
+    {
+      "name": "Q2_run06",
+      "raw": "D:\\lunwen2\\\u8d77\u91cd\u673a\\output\\experiment5_ca_v2\\01_\u539f\u59cb\u6570\u636e\\\u6a21\u578b\u95ed\u73af_Q2_\u8bef\u5dee\u6c47\u603b40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run06.csv",
+      "rawSHA256": "170186d20947fc3fe622b020d454a72f559ff8ea1b133a9146f5d4717fb19fc6"
+    },
+    {
+      "name": "Q2_run07",
+      "raw": "D:\\lunwen2\\\u8d77\u91cd\u673a\\output\\experiment5_ca_v2\\01_\u539f\u59cb\u6570\u636e\\\u6a21\u578b\u95ed\u73af_Q2_\u8bef\u5dee\u6c47\u603b40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run07.csv",
+      "rawSHA256": "0282b1facb8f17e6d242d40a1fe59cfabeccb5a45d57208e15f1aecd1e8d0c35"
+    },
+    {
+      "name": "Q2_run08",
+      "raw": "D:\\lunwen2\\\u8d77\u91cd\u673a\\output\\experiment5_ca_v2\\01_\u539f\u59cb\u6570\u636e\\\u6a21\u578b\u95ed\u73af_Q2_\u8bef\u5dee\u6c47\u603b40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run08.csv",
+      "rawSHA256": "e99258658a2922e6cd1922c75f3a6a4a3c1b7405e03a6b46f8fe0839d3f877c4"
+    },
+    {
+      "name": "M1_run01",
+      "raw": "D:\\lunwen2\\\u8d77\u91cd\u673a\\output\\experiment5_ca_v2\\01_\u539f\u59cb\u6570\u636e\\\u7535\u673a\u54cd\u5e94M1_20261015\\E5ID_M1_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_run01.csv",
+      "rawSHA256": "cd00273f19f4d7ee0bc7bb312131aaea6ba21c165fb5c4df1e9c79bfdaebde2a"
+    },
+    {
+      "name": "M1_run02",
+      "raw": "D:\\lunwen2\\\u8d77\u91cd\u673a\\output\\experiment5_ca_v2\\01_\u539f\u59cb\u6570\u636e\\\u7535\u673a\u54cd\u5e94M1_20261015\\E5ID_M1_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_run02.csv",
+      "rawSHA256": "cf7d4bf04bc0b85be0339a3e36a079309d6fbbbf08ab4f963e496ff7b0d62810"
+    },
+    {
+      "name": "M1_run03",
+      "raw": "D:\\lunwen2\\\u8d77\u91cd\u673a\\output\\experiment5_ca_v2\\01_\u539f\u59cb\u6570\u636e\\\u7535\u673a\u54cd\u5e94M1_20261015\\E5ID_M1_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_run03.csv",
+      "rawSHA256": "464eef43ad2a8a7a7d73a03603d6e452926120f855bd41ce608fa9f67beb85b6"
+    },
+    {
+      "name": "M1_run04",
+      "raw": "D:\\lunwen2\\\u8d77\u91cd\u673a\\output\\experiment5_ca_v2\\01_\u539f\u59cb\u6570\u636e\\\u7535\u673a\u54cd\u5e94M1_20261015\\E5ID_M1_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_run04.csv",
+      "rawSHA256": "0043405db0908460704f6191445475b99f0f4e8357eb9b0274964fbca4e01874"
+    },
+    {
+      "name": "M1_run05",
+      "raw": "D:\\lunwen2\\\u8d77\u91cd\u673a\\output\\experiment5_ca_v2\\01_\u539f\u59cb\u6570\u636e\\\u7535\u673a\u54cd\u5e94M1_20261015\\E5ID_M1_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_run05.csv",
+      "rawSHA256": "87652da419784272d018dddcc5c95d35b93569f99ee1510578ddf824deb55db0"
+    }
+  ],
+  "schemes": [
+    "no_motor_shared11",
+    "motor_shared11"
+  ],
+  "freeParameters": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "staticExtraL",
+    "staticExtraR"
+  ],
+  "relativeBounds": 0.25,
+  "inertiaEtaAbsoluteRadius": 0.03,
+  "objective": "For each record and metric r=(continuousPredictedRMS/actualRMS-1)/0.15; Huber(r)=r*r if abs(r)<=1 else2*abs(r)-1. Mean over all13records/two metrics plus0.01*mean(normalizedDeviation^2). No direct output scaling, per-run offsets, measured-state/current injection or noise correction.",
+  "oneSeedPerScheme": true,
+  "maximumEvaluationsPerScheme": 1600,
+  "maximumIterations": 1050,
+  "initialSimplexStep": 0.1,
+  "acceptance": "All13 rounded-encoder aggregate tracking/sync relative errors <=15percent needed for recommending another physical validation trial. Fitted results are calibration only, not validation.",
+  "run08NowCalibration": true,
+  "oldRun08FrozenFailurePreserved": true,
+  "noNewHardwareAuthorized": true
+}

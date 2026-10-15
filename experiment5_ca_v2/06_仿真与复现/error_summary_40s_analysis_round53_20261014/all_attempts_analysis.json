@@ -1,0 +1,1051 @@
+{
+  "results": [
+    {
+      "method": "BLNN",
+      "attempt": 1,
+      "filenamePair": 1,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\E5S40_A_BLNN_B67931_HW6_L1200_R1200_M0g_S2mm_pair01_attempt01.csv",
+      "sourceSHA256": "4ca44028b2fad50c13205074ed6b449daba971a38881db1ceff6c7aa8134dc15",
+      "rawUnchanged": true,
+      "totalRows": 2536,
+      "allSessionSegments": [
+        {
+          "rows": 2536,
+          "firstLine": 2,
+          "lastLine": 2537,
+          "methodID": 11,
+          "build": 67931,
+          "uptime_s": [
+            1.441,
+            102.881004
+          ],
+          "containsActive": true
+        }
+      ],
+      "excludedPrefixRows": [],
+      "prefixExcludedByIdentityOrClockNotOutcome": true,
+      "wholeCSVPristineSingleSession": true,
+      "currentRunCompleted": true,
+      "completeCSVPrimaryWindow": true,
+      "activeSamples": 500,
+      "primarySamples": 400,
+      "counters": {
+        "fault": 0,
+        "late": 0,
+        "overrun": 0,
+        "UARTerror": 0,
+        "DMAskipped": 0,
+        "CANrejected": 0
+      },
+      "allSequenceGaps": [
+        {
+          "sourceLine": 988,
+          "sequence": [
+            1021,
+            1023
+          ],
+          "missing": 1,
+          "uptime_s": [
+            40.841003,
+            40.921001
+          ],
+          "elapsed_s": [
+            20,
+            20
+          ],
+          "phase": [
+            6,
+            6
+          ],
+          "drivePermit": [
+            0,
+            0
+          ],
+          "precedingDMACompleted": 1021,
+          "followingDMACompleted": 1023,
+          "precedingMask": 0,
+          "followingMask": 0
+        }
+      ],
+      "motionSequenceGaps": [],
+      "settingsErrors": [],
+      "primaryMetrics": {
+        "N": 400,
+        "elapsed_s": [
+          4,
+          19.960001
+        ],
+        "trackingRMSE_mm": 0.12205576850358196,
+        "syncRMS_mm": 0.05903949948974822,
+        "maxTracking_mm": 0.37299999999999994,
+        "maxSync_mm": 0.18600000000000003
+      },
+      "primaryMetricsFromIncompleteWindowAreNotQualified": false,
+      "phaseMetrics": [
+        {
+          "phase": 2,
+          "N": 100,
+          "elapsed_s": [
+            4,
+            7.960001
+          ],
+          "trackingRMSE_mm": 0.1772302739376092,
+          "syncRMS_mm": 0.07243617880589781,
+          "maxTracking_mm": 0.37299999999999994,
+          "maxSync_mm": 0.14599999999999996
+        },
+        {
+          "phase": 3,
+          "N": 50,
+          "elapsed_s": [
+            8,
+            9.96
+          ],
+          "trackingRMSE_mm": 0.08964103413058104,
+          "syncRMS_mm": 0.05210124758583042,
+          "maxTracking_mm": 0.0955000000000001,
+          "maxSync_mm": 0.07499999999999998
+        },
+        {
+          "phase": 4,
+          "N": 100,
+          "elapsed_s": [
+            10,
+            13.960001
+          ],
+          "trackingRMSE_mm": 0.15536139320951006,
+          "syncRMS_mm": 0.08528428929175644,
+          "maxTracking_mm": 0.3365,
+          "maxSync_mm": 0.18600000000000003
+        },
+        {
+          "phase": 5,
+          "N": 150,
+          "elapsed_s": [
+            14.000001,
+            19.960001
+          ],
+          "trackingRMSE_mm": 0.004078602701906631,
+          "syncRMS_mm": 0.006581286601670947,
+          "maxTracking_mm": 0.009000000000000001,
+          "maxSync_mm": 0.016
+        }
+      ],
+      "onboardSummary": {
+        "firstUptime_s": 40.001003,
+        "trackingRMSE_mm": 0.122056,
+        "syncRMS_mm": 0.059039
+      },
+      "onboardSummaryStable": true,
+      "summaryMinusObservedCSV_mm": {
+        "tracking_mm": 2.314964180349932e-7,
+        "sync_mm": -4.994897482221705e-7
+      },
+      "summaryAgreesWithCompleteCSV": true,
+      "summaryComparisonTolerance_mm": 5.1e-7,
+      "noImputationOrSummarySubstitution": false,
+      "instantaneousWaveMaxDifference_mm": [
+        0.000905000000000003,
+        0.0009160000000000001
+      ],
+      "environment": {
+        "motionBatteryMean_V": 24.654636262500027,
+        "motionBatteryRange_V": [
+          24.403446,
+          24.85458
+        ],
+        "temperatureMax_C": [
+          28,
+          27
+        ],
+        "rpmPeak": [
+          84,
+          70
+        ]
+      },
+      "timing": {
+        "activePeriodRange_us": [
+          995.440491,
+          1006.458313
+        ],
+        "corePeak_us": 152.738098,
+        "bodyPeak_us": 290.470245,
+        "observedFiniteCoverageNotWCET": true
+      },
+      "event": {
+        "completeRecords": 128,
+        "missingChunks": [],
+        "duplicateConflicts": [],
+        "metadataErrors": 0,
+        "status4Seen": true,
+        "tail_s": 23.680000000000007,
+        "complete": true,
+        "notMatchedMechanismWindows": true
+      }
+    },
+    {
+      "method": "BLNN",
+      "attempt": 2,
+      "filenamePair": 1,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\误差汇总40s_A_BLNN_S3R2_20261014\\00_BLNN\\E5S40_A_BLNN_B67931_HW6_L1200_R1200_M0g_S2mm_pair01_attempt02.csv",
+      "sourceSHA256": "3e3f97b2eda0a2ab110dfd813fb9950eb6bbf83f0763edd71370b08817c805d9",
+      "rawUnchanged": true,
+      "totalRows": 2509,
+      "allSessionSegments": [
+        {
+          "rows": 1,
+          "firstLine": 2,
+          "lastLine": 2,
+          "methodID": 11,
+          "build": 67931,
+          "uptime_s": [
+            5.441,
+            5.441
+          ],
+          "containsActive": false
+        },
+        {
+          "rows": 2508,
+          "firstLine": 3,
+          "lastLine": 2510,
+          "methodID": 11,
+          "build": 67931,
+          "uptime_s": [
+            2.201,
+            102.521004
+          ],
+          "containsActive": true
+        }
+      ],
+      "excludedPrefixRows": [
+        {
+          "line": 2,
+          "uptime_s": 5.441,
+          "sequence": 136,
+          "phase": 0,
+          "methodID": 11,
+          "build": 67931
+        }
+      ],
+      "prefixExcludedByIdentityOrClockNotOutcome": true,
+      "wholeCSVPristineSingleSession": false,
+      "currentRunCompleted": true,
+      "completeCSVPrimaryWindow": true,
+      "activeSamples": 500,
+      "primarySamples": 400,
+      "counters": {
+        "fault": 0,
+        "late": 0,
+        "overrun": 0,
+        "UARTerror": 0,
+        "DMAskipped": 0,
+        "CANrejected": 0
+      },
+      "allSequenceGaps": [
+        {
+          "sourceLine": 970,
+          "sequence": [
+            1021,
+            1023
+          ],
+          "missing": 1,
+          "uptime_s": [
+            40.841003,
+            40.921001
+          ],
+          "elapsed_s": [
+            20,
+            20
+          ],
+          "phase": [
+            6,
+            6
+          ],
+          "drivePermit": [
+            0,
+            0
+          ],
+          "precedingDMACompleted": 1021,
+          "followingDMACompleted": 1023,
+          "precedingMask": 0,
+          "followingMask": 0
+        }
+      ],
+      "motionSequenceGaps": [],
+      "settingsErrors": [],
+      "primaryMetrics": {
+        "N": 400,
+        "elapsed_s": [
+          4,
+          19.960001
+        ],
+        "trackingRMSE_mm": 0.12866609158981998,
+        "syncRMS_mm": 0.05787384988058066,
+        "maxTracking_mm": 0.37749999999999995,
+        "maxSync_mm": 0.2279999999999999
+      },
+      "primaryMetricsFromIncompleteWindowAreNotQualified": false,
+      "phaseMetrics": [
+        {
+          "phase": 2,
+          "N": 100,
+          "elapsed_s": [
+            4,
+            7.960001
+          ],
+          "trackingRMSE_mm": 0.18331208361698367,
+          "syncRMS_mm": 0.07085308744155049,
+          "maxTracking_mm": 0.37749999999999995,
+          "maxSync_mm": 0.15899999999999997
+        },
+        {
+          "phase": 3,
+          "N": 50,
+          "elapsed_s": [
+            8,
+            9.96
+          ],
+          "trackingRMSE_mm": 0.08531711434407516,
+          "syncRMS_mm": 0.050667149120510076,
+          "maxTracking_mm": 0.08950000000000016,
+          "maxSync_mm": 0.07300000000000015
+        },
+        {
+          "phase": 4,
+          "N": 100,
+          "elapsed_s": [
+            10,
+            13.960001
+          ],
+          "trackingRMSE_mm": 0.16992692547092114,
+          "syncRMS_mm": 0.08412276742951337,
+          "maxTracking_mm": 0.3634999999999999,
+          "maxSync_mm": 0.2279999999999999
+        },
+        {
+          "phase": 5,
+          "N": 150,
+          "elapsed_s": [
+            14.000001,
+            19.960001
+          ],
+          "trackingRMSE_mm": 0.008240853515666136,
+          "syncRMS_mm": 0.0033813212407775334,
+          "maxTracking_mm": 0.012,
+          "maxSync_mm": 0.008
+        }
+      ],
+      "onboardSummary": {
+        "firstUptime_s": 40.001003,
+        "trackingRMSE_mm": 0.128666,
+        "syncRMS_mm": 0.057874
+      },
+      "onboardSummaryStable": true,
+      "summaryMinusObservedCSV_mm": {
+        "tracking_mm": -9.1589819978255e-8,
+        "sync_mm": 1.5011941933984474e-7
+      },
+      "summaryAgreesWithCompleteCSV": true,
+      "summaryComparisonTolerance_mm": 5.1e-7,
+      "noImputationOrSummarySubstitution": false,
+      "instantaneousWaveMaxDifference_mm": [
+        0.0008399999999999241,
+        0.0009579999999999866
+      ],
+      "environment": {
+        "motionBatteryMean_V": 24.610499202500005,
+        "motionBatteryRange_V": [
+          24.362055,
+          24.939219
+        ],
+        "temperatureMax_C": [
+          28,
+          27
+        ],
+        "rpmPeak": [
+          82,
+          92
+        ]
+      },
+      "timing": {
+        "activePeriodRange_us": [
+          995.363098,
+          1006.470215
+        ],
+        "corePeak_us": 148.630951,
+        "bodyPeak_us": 285.351196,
+        "observedFiniteCoverageNotWCET": true
+      },
+      "event": {
+        "completeRecords": 128,
+        "missingChunks": [],
+        "duplicateConflicts": [],
+        "metadataErrors": 0,
+        "status4Seen": true,
+        "tail_s": 23.320000000000007,
+        "complete": true,
+        "notMatchedMechanismWindows": true
+      }
+    },
+    {
+      "method": "S3R2",
+      "attempt": 1,
+      "filenamePair": 1,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\误差汇总40s_A_BLNN_S3R2_20261014\\01_S3R2\\E5S40_A_S3R2_B67932_HW6_L1200_R1200_M0g_S2mm_pair01_attempt01.csv",
+      "sourceSHA256": "3d07d951639f43157e278f99b61b5f5e8af523c31d86e3fd97ac160f8f59d2be",
+      "rawUnchanged": true,
+      "totalRows": 2528,
+      "allSessionSegments": [
+        {
+          "rows": 1,
+          "firstLine": 2,
+          "lastLine": 2,
+          "methodID": 0,
+          "build": 0,
+          "uptime_s": [
+            0,
+            0
+          ],
+          "containsActive": false
+        },
+        {
+          "rows": 2527,
+          "firstLine": 3,
+          "lastLine": 2529,
+          "methodID": 12,
+          "build": 67932,
+          "uptime_s": [
+            2.201,
+            103.321007
+          ],
+          "containsActive": true
+        }
+      ],
+      "excludedPrefixRows": [
+        {
+          "line": 2,
+          "uptime_s": 0,
+          "sequence": 0,
+          "phase": 0,
+          "methodID": 0,
+          "build": 0
+        }
+      ],
+      "prefixExcludedByIdentityOrClockNotOutcome": true,
+      "wholeCSVPristineSingleSession": false,
+      "currentRunCompleted": true,
+      "completeCSVPrimaryWindow": false,
+      "activeSamples": 499,
+      "primarySamples": 399,
+      "counters": {
+        "fault": 0,
+        "late": 0,
+        "overrun": 0,
+        "UARTerror": 0,
+        "DMAskipped": 0,
+        "CANrejected": 0
+      },
+      "allSequenceGaps": [
+        {
+          "sourceLine": 448,
+          "sequence": [
+            499,
+            501
+          ],
+          "missing": 1,
+          "uptime_s": [
+            19.961,
+            20.041
+          ],
+          "elapsed_s": [
+            11.960001,
+            12.040001
+          ],
+          "phase": [
+            4,
+            4
+          ],
+          "drivePermit": [
+            1,
+            1
+          ],
+          "precedingDMACompleted": 499,
+          "followingDMACompleted": 501,
+          "precedingMask": 0,
+          "followingMask": 0
+        },
+        {
+          "sourceLine": 969,
+          "sequence": [
+            1021,
+            1023
+          ],
+          "missing": 1,
+          "uptime_s": [
+            40.841003,
+            40.921001
+          ],
+          "elapsed_s": [
+            20,
+            20
+          ],
+          "phase": [
+            6,
+            6
+          ],
+          "drivePermit": [
+            0,
+            0
+          ],
+          "precedingDMACompleted": 1021,
+          "followingDMACompleted": 1023,
+          "precedingMask": 0,
+          "followingMask": 0
+        }
+      ],
+      "motionSequenceGaps": [
+        {
+          "sourceLine": 448,
+          "sequence": [
+            499,
+            501
+          ],
+          "missing": 1,
+          "uptime_s": [
+            19.961,
+            20.041
+          ],
+          "elapsed_s": [
+            11.960001,
+            12.040001
+          ],
+          "phase": [
+            4,
+            4
+          ],
+          "drivePermit": [
+            1,
+            1
+          ],
+          "precedingDMACompleted": 499,
+          "followingDMACompleted": 501,
+          "precedingMask": 0,
+          "followingMask": 0
+        }
+      ],
+      "settingsErrors": [],
+      "primaryMetrics": {
+        "N": 399,
+        "elapsed_s": [
+          4,
+          19.960001
+        ],
+        "trackingRMSE_mm": 0.15370317511391954,
+        "syncRMS_mm": 0.05194278228569344,
+        "maxTracking_mm": 0.44299999999999984,
+        "maxSync_mm": 0.23499999999999996
+      },
+      "primaryMetricsFromIncompleteWindowAreNotQualified": true,
+      "phaseMetrics": [
+        {
+          "phase": 2,
+          "N": 100,
+          "elapsed_s": [
+            4,
+            7.960001
+          ],
+          "trackingRMSE_mm": 0.21476114639291716,
+          "syncRMS_mm": 0.05651902334612657,
+          "maxTracking_mm": 0.4054999999999998,
+          "maxSync_mm": 0.14899999999999983
+        },
+        {
+          "phase": 3,
+          "N": 50,
+          "elapsed_s": [
+            8,
+            9.96
+          ],
+          "trackingRMSE_mm": 0.09891486238174729,
+          "syncRMS_mm": 0.01992485884517127,
+          "maxTracking_mm": 0.11099999999999999,
+          "maxSync_mm": 0.03699999999999992
+        },
+        {
+          "phase": 4,
+          "N": 99,
+          "elapsed_s": [
+            10,
+            13.960001
+          ],
+          "trackingRMSE_mm": 0.20308407474280551,
+          "syncRMS_mm": 0.06106628291529548,
+          "maxTracking_mm": 0.44299999999999984,
+          "maxSync_mm": 0.23499999999999996
+        },
+        {
+          "phase": 5,
+          "N": 150,
+          "elapsed_s": [
+            14.000001,
+            19.960001
+          ],
+          "trackingRMSE_mm": 0.04014376248767254,
+          "syncRMS_mm": 0.049534701641038126,
+          "maxTracking_mm": 0.06099999999999999,
+          "maxSync_mm": 0.07100000000000001
+        }
+      ],
+      "onboardSummary": {
+        "firstUptime_s": 40.001003,
+        "trackingRMSE_mm": 0.154707,
+        "syncRMS_mm": 0.051878
+      },
+      "onboardSummaryStable": true,
+      "summaryMinusObservedCSV_mm": {
+        "tracking_mm": 0.0010038248860804733,
+        "sync_mm": -0.00006478228569344047
+      },
+      "summaryAgreesWithCompleteCSV": false,
+      "summaryComparisonTolerance_mm": 5.1e-7,
+      "noImputationOrSummarySubstitution": true,
+      "instantaneousWaveMaxDifference_mm": [
+        0.0008859999999997759,
+        0.0009900000000000013
+      ],
+      "environment": {
+        "motionBatteryMean_V": 24.690150759398513,
+        "motionBatteryRange_V": [
+          24.461277,
+          25.040138
+        ],
+        "temperatureMax_C": [
+          28,
+          27
+        ],
+        "rpmPeak": [
+          67,
+          65
+        ]
+      },
+      "timing": {
+        "activePeriodRange_us": [
+          995.523804,
+          1006.380981
+        ],
+        "corePeak_us": 182.642853,
+        "bodyPeak_us": 286.970245,
+        "observedFiniteCoverageNotWCET": true
+      },
+      "event": {
+        "completeRecords": 128,
+        "missingChunks": [],
+        "duplicateConflicts": [],
+        "metadataErrors": 0,
+        "status4Seen": true,
+        "tail_s": 13.880004999999997,
+        "complete": true,
+        "notMatchedMechanismWindows": true
+      }
+    },
+    {
+      "method": "S3R2",
+      "attempt": 2,
+      "filenamePair": 1,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\误差汇总40s_A_BLNN_S3R2_20261014\\01_S3R2\\E5S40_A_S3R2_B67932_HW6_L1200_R1200_M0g_S2mm_pair01_attempt02.csv",
+      "sourceSHA256": "cc305f4f162b97cd36e6bdd7308a44388b3906bb71366e636e0b447d1a3934bf",
+      "rawUnchanged": true,
+      "totalRows": 2541,
+      "allSessionSegments": [
+        {
+          "rows": 2541,
+          "firstLine": 2,
+          "lastLine": 2542,
+          "methodID": 12,
+          "build": 67932,
+          "uptime_s": [
+            1.441,
+            103.081001
+          ],
+          "containsActive": true
+        }
+      ],
+      "excludedPrefixRows": [],
+      "prefixExcludedByIdentityOrClockNotOutcome": true,
+      "wholeCSVPristineSingleSession": true,
+      "currentRunCompleted": true,
+      "completeCSVPrimaryWindow": true,
+      "activeSamples": 500,
+      "primarySamples": 400,
+      "counters": {
+        "fault": 0,
+        "late": 0,
+        "overrun": 0,
+        "UARTerror": 0,
+        "DMAskipped": 0,
+        "CANrejected": 0
+      },
+      "allSequenceGaps": [
+        {
+          "sourceLine": 988,
+          "sequence": [
+            1021,
+            1023
+          ],
+          "missing": 1,
+          "uptime_s": [
+            40.841003,
+            40.921001
+          ],
+          "elapsed_s": [
+            20,
+            20
+          ],
+          "phase": [
+            6,
+            6
+          ],
+          "drivePermit": [
+            0,
+            0
+          ],
+          "precedingDMACompleted": 1021,
+          "followingDMACompleted": 1023,
+          "precedingMask": 0,
+          "followingMask": 0
+        }
+      ],
+      "motionSequenceGaps": [],
+      "settingsErrors": [],
+      "primaryMetrics": {
+        "N": 400,
+        "elapsed_s": [
+          4,
+          19.960001
+        ],
+        "trackingRMSE_mm": 0.15897179781332255,
+        "syncRMS_mm": 0.0516031975753439,
+        "maxTracking_mm": 0.43100000000000005,
+        "maxSync_mm": 0.24799999999999994
+      },
+      "primaryMetricsFromIncompleteWindowAreNotQualified": false,
+      "phaseMetrics": [
+        {
+          "phase": 2,
+          "N": 100,
+          "elapsed_s": [
+            4,
+            7.960001
+          ],
+          "trackingRMSE_mm": 0.22647634534317265,
+          "syncRMS_mm": 0.06997270896571031,
+          "maxTracking_mm": 0.406,
+          "maxSync_mm": 0.1519999999999998
+        },
+        {
+          "phase": 3,
+          "N": 50,
+          "elapsed_s": [
+            8,
+            9.96
+          ],
+          "trackingRMSE_mm": 0.028452592149046767,
+          "syncRMS_mm": 0.048020412326426364,
+          "maxTracking_mm": 0.03549999999999994,
+          "maxSync_mm": 0.11300000000000003
+        },
+        {
+          "phase": 4,
+          "N": 100,
+          "elapsed_s": [
+            10,
+            13.960001
+          ],
+          "trackingRMSE_mm": 0.22220071444529613,
+          "syncRMS_mm": 0.06771521247105407,
+          "maxTracking_mm": 0.43100000000000005,
+          "maxSync_mm": 0.24799999999999994
+        },
+        {
+          "phase": 5,
+          "N": 150,
+          "elapsed_s": [
+            14.000001,
+            19.960001
+          ],
+          "trackingRMSE_mm": 0.003527274679787033,
+          "syncRMS_mm": 0.0033714487489307494,
+          "maxTracking_mm": 0.0055,
+          "maxSync_mm": 0.006
+        }
+      ],
+      "onboardSummary": {
+        "firstUptime_s": 40.001003,
+        "trackingRMSE_mm": 0.158972,
+        "syncRMS_mm": 0.051603
+      },
+      "onboardSummaryStable": true,
+      "summaryMinusObservedCSV_mm": {
+        "tracking_mm": 2.021866774559733e-7,
+        "sync_mm": -1.9757534389791553e-7
+      },
+      "summaryAgreesWithCompleteCSV": true,
+      "summaryComparisonTolerance_mm": 5.1e-7,
+      "noImputationOrSummarySubstitution": false,
+      "instantaneousWaveMaxDifference_mm": [
+        0.0008890000000000564,
+        0.0009540000000000451
+      ],
+      "environment": {
+        "motionBatteryMean_V": 24.668161722500002,
+        "motionBatteryRange_V": [
+          24.428255,
+          25.006617
+        ],
+        "temperatureMax_C": [
+          28,
+          27
+        ],
+        "rpmPeak": [
+          82,
+          70
+        ]
+      },
+      "timing": {
+        "activePeriodRange_us": [
+          995.511902,
+          1006.410706
+        ],
+        "corePeak_us": 160.595245,
+        "bodyPeak_us": 273.898804,
+        "observedFiniteCoverageNotWCET": true
+      },
+      "event": {
+        "completeRecords": 128,
+        "missingChunks": [],
+        "duplicateConflicts": [],
+        "metadataErrors": 0,
+        "status4Seen": true,
+        "tail_s": 13.639999000000003,
+        "complete": true,
+        "notMatchedMechanismWindows": true
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "attempt": 1,
+      "matchingIsByUserFilenameNotPreregisteredRandomizedBlock": true,
+      "completePairedCSV": false,
+      "S3R2_minus_BLNN": null,
+      "secondaryOnboardSummaryComparison": {
+        "trackingRMSE_mm": {
+          "absolute_mm": 0.03265100000000001,
+          "percent": 26.750835681982043
+        },
+        "syncRMS_mm": {
+          "absolute_mm": -0.007161000000000001,
+          "percent": -12.12927048222362
+        }
+      },
+      "onboardSummaryDoesNotReplaceIncompleteCSV": true,
+      "reason": "S3R2 attempt01 has one missing active return frame. Do not fill it or silently replace primary metrics with board summary."
+    },
+    {
+      "attempt": 2,
+      "matchingIsByUserFilenameNotPreregisteredRandomizedBlock": true,
+      "completePairedCSV": true,
+      "S3R2_minus_BLNN": {
+        "trackingRMSE_mm": {
+          "absolute_mm": 0.030305706223502565,
+          "percent": 23.5537629604196
+        },
+        "syncRMS_mm": {
+          "absolute_mm": -0.006270652305236761,
+          "percent": -10.83503571678036
+        },
+        "maxTracking_mm": {
+          "absolute_mm": 0.0535000000000001,
+          "percent": 14.172185430463614
+        },
+        "maxSync_mm": {
+          "absolute_mm": 0.020000000000000046,
+          "percent": 8.77192982456143
+        }
+      },
+      "secondaryOnboardSummaryComparison": {
+        "trackingRMSE_mm": {
+          "absolute_mm": 0.030306,
+          "percent": 23.55400805185519
+        },
+        "syncRMS_mm": {
+          "absolute_mm": -0.006270999999999999,
+          "percent": -10.835608390641738
+        }
+      },
+      "onboardSummaryDoesNotReplaceIncompleteCSV": false,
+      "reason": "Complete same-window CSV comparison; retain prefix disclosure and stopped-only gaps."
+    }
+  ],
+  "filesAnalyzed": 4,
+  "allOutcomesRetained": true,
+  "rawUnchanged": true,
+  "primaryFormula": "RMS over native40ms phase2..5/I106=1,using unchanged six-decimal metre I3/I5/I6 fields",
+  "noInterpolation": true,
+  "noMissingFrameReconstruction": true,
+  "noControllerChanges": true,
+  "noAutomaticExtraCapture": true,
+  "transportAudit": {
+    "stoppedSequence1022AbsentInAllFiles": true,
+    "stoppedSequenceGaps": [
+      {
+        "method": "BLNN",
+        "attempt": 1,
+        "gaps": [
+          {
+            "sourceLine": 988,
+            "sequence": [
+              1021,
+              1023
+            ],
+            "missing": 1,
+            "uptime_s": [
+              40.841003,
+              40.921001
+            ],
+            "elapsed_s": [
+              20,
+              20
+            ],
+            "phase": [
+              6,
+              6
+            ],
+            "drivePermit": [
+              0,
+              0
+            ],
+            "precedingDMACompleted": 1021,
+            "followingDMACompleted": 1023,
+            "precedingMask": 0,
+            "followingMask": 0
+          }
+        ]
+      },
+      {
+        "method": "BLNN",
+        "attempt": 2,
+        "gaps": [
+          {
+            "sourceLine": 970,
+            "sequence": [
+              1021,
+              1023
+            ],
+            "missing": 1,
+            "uptime_s": [
+              40.841003,
+              40.921001
+            ],
+            "elapsed_s": [
+              20,
+              20
+            ],
+            "phase": [
+              6,
+              6
+            ],
+            "drivePermit": [
+              0,
+              0
+            ],
+            "precedingDMACompleted": 1021,
+            "followingDMACompleted": 1023,
+            "precedingMask": 0,
+            "followingMask": 0
+          }
+        ]
+      },
+      {
+        "method": "S3R2",
+        "attempt": 1,
+        "gaps": [
+          {
+            "sourceLine": 969,
+            "sequence": [
+              1021,
+              1023
+            ],
+            "missing": 1,
+            "uptime_s": [
+              40.841003,
+              40.921001
+            ],
+            "elapsed_s": [
+              20,
+              20
+            ],
+            "phase": [
+              6,
+              6
+            ],
+            "drivePermit": [
+              0,
+              0
+            ],
+            "precedingDMACompleted": 1021,
+            "followingDMACompleted": 1023,
+            "precedingMask": 0,
+            "followingMask": 0
+          }
+        ]
+      },
+      {
+        "method": "S3R2",
+        "attempt": 2,
+        "gaps": [
+          {
+            "sourceLine": 988,
+            "sequence": [
+              1021,
+              1023
+            ],
+            "missing": 1,
+            "uptime_s": [
+              40.841003,
+              40.921001
+            ],
+            "elapsed_s": [
+              20,
+              20
+            ],
+            "phase": [
+              6,
+              6
+            ],
+            "drivePermit": [
+              0,
+              0
+            ],
+            "precedingDMACompleted": 1021,
+            "followingDMACompleted": 1023,
+            "precedingMask": 0,
+            "followingMask": 0
+          }
+        ]
+      }
+    ],
+    "adjacentFloat0And1022BytesHex": "0000000000807f44",
+    "embeddedTailOffset": 3,
+    "sourcePattern": "At phase6 I68 mask is0 and I69 DMA-completed can reach1022; this adjacent-float pattern is structurally delimiter-vulnerable.",
+    "actualWireBytesCaptured": false,
+    "actualLossCauseIndependentlyProven": false,
+    "interpretation": "Same stopped-frame sequence loss is consistent with a JustFloat payload delimiter collision, not independently confirmed wire loss. Do not attribute active missingsequence500 to this fixture."
+  },
+  "validPairedCSVComparisons": 1,
+  "repeatedCausalSuperiorityProven": false,
+  "trackingTaskTolerance_mm": null,
+  "conclusion": "All four identified motion runs completed with fault0. Completeattempt02 pair shows lower S3R2 syncRMS,higher trackingRMSE ANDhighermaxSync. Attempt01S3R2CSV lacks an active frame; its board summary is descriptive secondary evidence,not a repaired primary trace. Three complete-windowCSV summaries agree with40s displays. No broad all-metric/all-phase superiority or acceptable-tracking claim.",
+  "protocolSHA256": "2b2bacdc30b1565da37be72c7c74b805a6a6f04acc2b47d0d9b0a1e26b15226c",
+  "analysisCodeSHA256": "9383f47d790b1cc9ac2dd4a428f65781771a4cfc4466d8ed65f5b78a04254e1f"
+}

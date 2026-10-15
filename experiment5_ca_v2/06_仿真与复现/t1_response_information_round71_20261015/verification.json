@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "sourceSHA256": "d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0",
+  "independentPythonSteps": 20000,
+  "nativePositionChecks": 400,
+  "maximumNativePythonPositionDifference_m": 6.5052130349130266e-18,
+  "maximumEnergyBalanceResidual": 2.2981840070722065e-21,
+  "independentExactBinChecks": 500,
+  "historicalQ2RankAndConditionReproduced": true,
+  "modelValidityNotEstablished": true,
+  "parametersChanged": false,
+  "hardwareAction": false
+}

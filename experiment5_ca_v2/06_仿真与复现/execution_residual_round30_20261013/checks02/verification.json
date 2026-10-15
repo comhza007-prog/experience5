@@ -1,0 +1,222 @@
+{
+  "tests": [
+    {
+      "precision": "float",
+      "enabled": false,
+      "result": "PASS60000 same-state outputs/original guards; disabled exactR2 or ordinary unchanged; local projected residual100000 when enabled; observed extra-update cycles=0."
+    },
+    {
+      "precision": "float",
+      "enabled": true,
+      "result": "PASS60000 same-state outputs/original guards; disabled exactR2 or ordinary unchanged; local projected residual100000 when enabled; observed extra-update cycles=2144."
+    },
+    {
+      "precision": "double",
+      "enabled": false,
+      "result": "PASS60000 same-state outputs/original guards; disabled exactR2 or ordinary unchanged; local projected residual100000 when enabled; observed extra-update cycles=0."
+    },
+    {
+      "precision": "double",
+      "enabled": true,
+      "result": "PASS60000 same-state outputs/original guards; disabled exactR2 or ordinary unchanged; local projected residual100000 when enabled; observed extra-update cycles=2144."
+    }
+  ],
+  "protocol": "protocol.json",
+  "performance": [
+    {
+      "name": "BLNN",
+      "scope": 2,
+      "gain": 5,
+      "n": 29,
+      "track": 0.1094717091862069,
+      "sync": 0.03003265359034483,
+      "newFailures": [],
+      "trackingChangeVsR2_pct": -30.755971894817147,
+      "syncChangeVsR2_pct": -35.53117076181731,
+      "syncChangeVsOrdinary_pct": 0
+    },
+    {
+      "name": "S3R2",
+      "scope": 2,
+      "gain": 5,
+      "n": 29,
+      "track": 0.15809552416551723,
+      "sync": 0.04658476653793104,
+      "newFailures": [],
+      "trackingChangeVsR2_pct": 0,
+      "syncChangeVsR2_pct": 0,
+      "syncChangeVsOrdinary_pct": 55.11372112954924
+    },
+    {
+      "name": "RES_0_K5",
+      "scope": 0,
+      "gain": 5,
+      "n": 29,
+      "track": 0.15963662304137932,
+      "sync": 0.044003212972413795,
+      "newFailures": [],
+      "trackingChangeVsR2_pct": 0.9747896937605027,
+      "syncChangeVsR2_pct": -5.541626066571026,
+      "syncChangeVsOrdinary_pct": 46.51789872660586
+    },
+    {
+      "name": "RES_1_K5",
+      "scope": 1,
+      "gain": 5,
+      "n": 29,
+      "track": 0.14989128828275858,
+      "sync": 0.04681968706551724,
+      "newFailures": [],
+      "trackingChangeVsR2_pct": -5.189416921233814,
+      "syncChangeVsR2_pct": 0.5042861541334931,
+      "syncChangeVsOrdinary_pct": 55.89593814836682
+    },
+    {
+      "name": "RES_2_K5",
+      "scope": 2,
+      "gain": 5,
+      "n": 29,
+      "track": 0.15594289079310344,
+      "sync": 0.046219752213793104,
+      "newFailures": [
+        5
+      ],
+      "trackingChangeVsR2_pct": -1.3616029826120202,
+      "syncChangeVsR2_pct": -0.7835486818222548,
+      "syncChangeVsOrdinary_pct": 53.8983296123132
+    },
+    {
+      "name": "RES_0_K20",
+      "scope": 0,
+      "gain": 20,
+      "n": 29,
+      "track": 0.17223902239310346,
+      "sync": 0.04693362755172414,
+      "newFailures": [],
+      "trackingChangeVsR2_pct": 8.946172450004841,
+      "syncChangeVsR2_pct": 0.7488735904880972,
+      "syncChangeVsOrdinary_pct": 56.275326822311776
+    },
+    {
+      "name": "RES_1_K20",
+      "scope": 1,
+      "gain": 20,
+      "n": 29,
+      "track": 0.14255576113793103,
+      "sync": 0.05084489847931035,
+      "newFailures": [],
+      "trackingChangeVsR2_pct": -9.82935039408005,
+      "syncChangeVsR2_pct": 9.14490349095245,
+      "syncChangeVsOrdinary_pct": 69.29872122807166
+    },
+    {
+      "name": "RES_2_K20",
+      "scope": 2,
+      "gain": 20,
+      "n": 29,
+      "track": 0.1527037314137931,
+      "sync": 0.049113927779310326,
+      "newFailures": [],
+      "trackingChangeVsR2_pct": -3.4104651476908554,
+      "syncChangeVsR2_pct": 5.429159421288388,
+      "syncChangeVsOrdinary_pct": 63.53509233396517
+    }
+  ],
+  "allCasesRetained": true,
+  "disabledExactlyR2": true,
+  "allocatorAndHardGuardsUnchanged": true,
+  "localFixedFeaturePropertyOnly": true,
+  "assumedPlantIdentified": false,
+  "hardwareReleased": false,
+  "physicalPerformanceProven": false,
+  "primaryComparisons": [
+    {
+      "name": "RES_0_K5",
+      "baselineCompletedCases": 30,
+      "newFailures": [],
+      "performanceOnlyOnCompletedOverlap": false,
+      "n": 30,
+      "track": 0.16765612417333334,
+      "sync": 0.044353836146666666,
+      "trackingChangeVsR2_pct": 1.3249582735996857,
+      "syncChangeVsR2_pct": -7.710832769031539,
+      "syncChangeVsBLNN_pct": 38.27368962011122,
+      "casesWithSyncBenefitVsR2": 13,
+      "qualifiedForFurtherOfflineCheck": true
+    },
+    {
+      "name": "RES_1_K5",
+      "baselineCompletedCases": 30,
+      "newFailures": [],
+      "performanceOnlyOnCompletedOverlap": false,
+      "n": 30,
+      "track": 0.15750198584,
+      "sync": 0.04711546206333333,
+      "trackingChangeVsR2_pct": -4.811815124941077,
+      "syncChangeVsR2_pct": -1.9645844578405236,
+      "syncChangeVsBLNN_pct": 46.88309611170101,
+      "casesWithSyncBenefitVsR2": 11,
+      "qualifiedForFurtherOfflineCheck": true
+    },
+    {
+      "name": "RES_2_K5",
+      "baselineCompletedCases": 30,
+      "newFailures": [
+        5
+      ],
+      "performanceOnlyOnCompletedOverlap": true,
+      "n": 29,
+      "track": 0.15594289079310344,
+      "sync": 0.046219752213793104,
+      "trackingChangeVsR2_pct": -1.3616029826120202,
+      "syncChangeVsR2_pct": -0.7835486818222548,
+      "syncChangeVsBLNN_pct": 53.8983296123132,
+      "casesWithSyncBenefitVsR2": 10,
+      "qualifiedForFurtherOfflineCheck": false
+    },
+    {
+      "name": "RES_0_K20",
+      "baselineCompletedCases": 30,
+      "newFailures": [],
+      "performanceOnlyOnCompletedOverlap": false,
+      "n": 30,
+      "track": 0.17973608131333335,
+      "sync": 0.04729021671333333,
+      "trackingChangeVsR2_pct": 8.625623007396864,
+      "syncChangeVsR2_pct": -1.600964024538909,
+      "syncChangeVsBLNN_pct": 47.427896118488874,
+      "casesWithSyncBenefitVsR2": 13,
+      "qualifiedForFurtherOfflineCheck": true
+    },
+    {
+      "name": "RES_1_K20",
+      "baselineCompletedCases": 30,
+      "newFailures": [],
+      "performanceOnlyOnCompletedOverlap": false,
+      "n": 30,
+      "track": 0.1471573814,
+      "sync": 0.05211262382000001,
+      "trackingChangeVsR2_pct": -11.063698964008195,
+      "syncChangeVsR2_pct": 8.433251154758924,
+      "syncChangeVsBLNN_pct": 62.46181609970698,
+      "casesWithSyncBenefitVsR2": 12,
+      "qualifiedForFurtherOfflineCheck": false
+    },
+    {
+      "name": "RES_2_K20",
+      "baselineCompletedCases": 30,
+      "newFailures": [],
+      "performanceOnlyOnCompletedOverlap": false,
+      "n": 30,
+      "track": 0.15776569166666665,
+      "sync": 0.05014766081666666,
+      "trackingChangeVsR2_pct": -4.652441394841733,
+      "syncChangeVsR2_pct": 4.344657811499131,
+      "syncChangeVsBLNN_pct": 56.336017114936745,
+      "casesWithSyncBenefitVsR2": 12,
+      "qualifiedForFurtherOfflineCheck": false
+    }
+  ],
+  "exploratorySelection": "RES_0_K5 selected for fixed independent sensitivity checks, not firmware release: largest primary30-case mean synchronization gain among no-new-failure branches, with tracking cost and benefit in only13/30 cases. Other mildly improving branches are retained, not claimed nonexistent.",
+  "firstTestAttempt": "checks01 stopped at a harness error: ordinary BLNN requires its existing outer finalize speed guard. Corrected harness applied original finalize for every method; no controller guard relaxed."
+}

@@ -1,0 +1,13 @@
+{
+ "scope":"Training-only first fixed model and exposure audit,after qualifiedT1. No V1 acquisition/output inspected,hardware action,new excitation,reference or controller tuning.",
+ "model":"Same prespecified6-regressor two-axis first-order encoder-interval-velocity ARX used in round38: own/other previous interval velocity,present own/other time-weighted attempted current-count command,sign of previous own velocity,intercept.",
+ "grid":"1000actual20-control-sample intervals,20ms nominal,observed elapsed_us sums. Encoder differences/right sign from qualified header,command means from count*us integrals/elapsed_us. No interpolation to fabricate1ms inputs. Integer-us durations include MCU quantization.",
+ "fitWindow":"Recorded intervals whose endpoint_ms is4000<end<=20000,phases2..5. First interval's prior state initialized from last measured prewindow interval. All800intervals retained; not only favourable motion segments.",
+ "selection":"One fixed ordinary least-squares fit,columns scaled bytraining standard deviation. No delay/gain/order/threshold sweep. If linear autoregressive spectral radius>=1,flag inadmissible; do not project eigenvalues to force a pass.",
+ "diagnostics":"SVD rank/condition,coupled linearA eigenvalues,one-step velocity and position errors,continuous16s recorded-input recursive position/mean/sync error,terminal error,input modal covariance rank,fast-window actual-vs-shadow excitation rank,interval timing/freshness. Same-training rollout is NOT validation.",
+ "exogeneity":"Closed-loop/gated inputs and averaged interval data do not establish unbiased causal input-gain estimates; no IV consistency claimed. Do not claim calibrated torque,mass or independent carriage motion.",
+ "freeze":"Preserve first fit and source/model/code hashes. Only report it as a candidate,not a validated plant. Do not fit/select using Q0 held-out context or V1 outputs.",
+ "resolutionBudget_mm":null,
+ "budgetBoundary":"Must define model-resolution budget linked to intended synchronization effect BEFORE independentV1. This audit does not invent a positioning tolerance or qualify a model for small controller-effect adjudication.",
+ "modelIdentified":false,"V1Released":false,"formalCollectionReleased":false
+}

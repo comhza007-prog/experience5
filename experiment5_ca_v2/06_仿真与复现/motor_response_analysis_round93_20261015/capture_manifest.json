@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-15",
+  "authorization": "User states five records already collected and requests all three frozen predictions, then motor-informed model update. Additional collection beyond original one was operator action, not assistant-generated trials.",
+  "records": [
+    {
+      "run": 1,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\电机响应M1_20261015\\E5ID_M1_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_run01.csv",
+      "sourceSHA256": "cd00273f19f4d7ee0bc7bb312131aaea6ba21c165fb5c4df1e9c79bfdaebde2a",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\motor_response_analysis_round93_20261015\\run01_decoded.json",
+      "decodedSHA256": "282c530a11eb9364cd0382560f4651be56b93d16248b64f5ee0a72724b8e569e",
+      "prefixRows": 1,
+      "metrics": {
+        "trackingRMSE_mm": 0.125197279323474,
+        "syncRMS_mm": 0.08220440985737933
+      },
+      "strictFullProtocolQualified": false,
+      "snapshotUsable": true,
+      "activeSamples": 400,
+      "CRC32": 2156285904,
+      "minimumCopies": 4,
+      "completionTail_s": 50.63999900000002
+    },
+    {
+      "run": 2,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\电机响应M1_20261015\\E5ID_M1_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_run02.csv",
+      "sourceSHA256": "cf7d4bf04bc0b85be0339a3e36a079309d6fbbbf08ab4f963e496ff7b0d62810",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\motor_response_analysis_round93_20261015\\run02_decoded.json",
+      "decodedSHA256": "bb21bdbb4e498e94e1ff9794976d9d867519debd7a17c245e9172b4cf826e37d",
+      "prefixRows": 0,
+      "metrics": {
+        "trackingRMSE_mm": 0.10278312422280246,
+        "syncRMS_mm": 0.09113118291781368
+      },
+      "strictFullProtocolQualified": false,
+      "snapshotUsable": true,
+      "activeSamples": 400,
+      "CRC32": 2437934045,
+      "minimumCopies": 4,
+      "completionTail_s": 51.08000200000001
+    },
+    {
+      "run": 3,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\电机响应M1_20261015\\E5ID_M1_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_run03.csv",
+      "sourceSHA256": "464eef43ad2a8a7a7d73a03603d6e452926120f855bd41ce608fa9f67beb85b6",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\motor_response_analysis_round93_20261015\\run03_decoded.json",
+      "decodedSHA256": "e25a1d2cb00fab834f02bb727cd957340cede769290d4fb054551536f21c6828",
+      "prefixRows": 1,
+      "metrics": {
+        "trackingRMSE_mm": 0.1332225182730006,
+        "syncRMS_mm": 0.04806493004259975
+      },
+      "strictFullProtocolQualified": false,
+      "snapshotUsable": true,
+      "activeSamples": 400,
+      "CRC32": 3072213171,
+      "minimumCopies": 4,
+      "completionTail_s": 57.199997000000025
+    },
+    {
+      "run": 4,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\电机响应M1_20261015\\E5ID_M1_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_run04.csv",
+      "sourceSHA256": "0043405db0908460704f6191445475b99f0f4e8357eb9b0274964fbca4e01874",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\motor_response_analysis_round93_20261015\\run04_decoded.json",
+      "decodedSHA256": "4532ba010b4b4a8324735ff6ba2b45ac5199a29afeae8d0b6a6532b3aa16426e",
+      "prefixRows": 1,
+      "metrics": {
+        "trackingRMSE_mm": 0.13321667735310014,
+        "syncRMS_mm": 0.0520746819481404
+      },
+      "strictFullProtocolQualified": false,
+      "snapshotUsable": true,
+      "activeSamples": 400,
+      "CRC32": 1940864274,
+      "minimumCopies": 4,
+      "completionTail_s": 52.31999999999999
+    },
+    {
+      "run": 5,
+      "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\电机响应M1_20261015\\E5ID_M1_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_run05.csv",
+      "sourceSHA256": "87652da419784272d018dddcc5c95d35b93569f99ee1510578ddf824deb55db0",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\motor_response_analysis_round93_20261015\\run05_decoded.json",
+      "decodedSHA256": "6918e1146fb53b0c4132bab91ad68bd739a8ae50e636927e6978c9aa2a44e212",
+      "prefixRows": 0,
+      "metrics": {
+        "trackingRMSE_mm": 0.1541861111611547,
+        "syncRMS_mm": 0.04734086501110851
+      },
+      "strictFullProtocolQualified": false,
+      "snapshotUsable": true,
+      "activeSamples": 400,
+      "CRC32": 3359429981,
+      "minimumCopies": 4,
+      "completionTail_s": 67.23999999999998
+    }
+  ],
+  "registry": [
+    {
+      "label": "R90",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\cumulative_micro_round90_20261015\\model_parameters.json",
+      "sha256": "ffc2988f6943390e991294edb19ee0a7415f3e05b0dba3ffe80c9f585fe90b87"
+    },
+    {
+      "label": "R86",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\cumulative_micro_round86_20261015\\model_parameters.json",
+      "sha256": "b5fa79668e254f166c765a8444fd79733625633dc0e4ac8147e0c891da96580a"
+    },
+    {
+      "label": "R82",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\tracking_refine_round82_20261015\\model_parameters.json",
+      "sha256": "b0c586fc4e7f74c4a73b7140a372c4d60ee7a6940d9179a9a2cbd2a81a40d1a0"
+    }
+  ],
+  "firmwareProject": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\模型闭环_电机响应M1_20261015\\eassy_E5ID_MOTOR_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+  "firmwareHEX": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\模型闭环_电机响应M1_20261015\\eassy_E5ID_MOTOR_BLNN_HW6\\MDK-ARM\\exp5ID_MOTOR_BLNN_HW6\\exp5ID_MOTOR_BLNN_HW6.hex",
+  "firmwareHEXSHA256": "2330d597ae7c4c0238e4c7960df85b9115b7911cfed39ec8083751710b7cf46f",
+  "limitations": "Each CSV has one missing stopped CRC-preparation frame; active400 frames and full four-copy blob restored. Run04/05 CSV positions rounded5decimal metres; metrics independently reconstructed from integer encoder snapshots and frozen trajectory, checked against firmware RMS. Cached prior fault rows inrun01/03 retained and separated by reset boundary. No full old fault run can be assessed from one row.",
+  "inputApproximation": "M1 fine1ms windows plus20ms means outside windows differ from Q2 old1ms motion/40ms holding. Frozen model errors must not be attributed solely to motor dynamics.",
+  "modelsRefitted": 0,
+  "oldRawAndFrozenModelsUnchanged": true,
+  "assistantHardwareAction": false
+}

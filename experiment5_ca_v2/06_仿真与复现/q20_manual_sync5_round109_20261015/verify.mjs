@@ -1,0 +1,29 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import assert from 'node:assert/strict';import {spawnSync} from 'node:child_process';import {fileURLToPath} from 'node:url';import {decodeBlob} from './decode.mjs';
+const dir=path.dirname(fileURLToPath(import.meta.url)),root=path.resolve(dir,'../..'),prior=path.join(root,'05_实验代码/20mm手动VOFA_20261015/eassy_E5ID_Q20M_BLNN_HW6'),fresh=path.join(root,'05_实验代码/20mm手动VOFA_同步保护5mm_20261015/eassy_E5ID_Q20M_S5_BLNN_HW6');
+const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex'),read=p=>fs.readFileSync(p,'utf8').replaceAll('\r\n','\n'),normalize=s=>s.replace(/\/\*[\s\S]*?\*\//g,'').replace(/\/\/[^\n]*/g,'').replace(/\s/g,'');
+let unchanged=0;for(const folder of ['Task','Core','Drivers','Middlewares','CAN-control']){function walk(rel){for(const e of fs.readdirSync(path.join(prior,rel),{withFileTypes:true})){const p=path.join(rel,e.name);if(e.isDirectory())walk(p);else if(!['Task/motor_task.c','Task/experiment5_formal_config.h'].includes(p.replaceAll('\\','/'))){assert.equal(sha(path.join(prior,p)),sha(path.join(fresh,p)),p);unchanged++;}}}walk(folder);}
+const old=read(path.join(prior,'Task/motor_task.c')),motor=read(path.join(fresh,'Task/motor_task.c'));
+const current='if(armed && fabsf(position[0]-position[1])>.005f) f|=8U;',previous='if(armed && fabsf(position[0]-position[1])>.0015f) f|=8U;';
+assert(motor.includes(current)&&old.includes(previous));assert.equal(normalize(motor.replace(current,previous)),normalize(old),'A behavior change other than the requested sync threshold was found');
+const macro=s=>s.match(/^#define E5_\w+ .+$/gm).filter(v=>!/^#define E5_(SELECTED_BUILD|FORMAL_SCHEMA) /.test(v));assert.deepEqual(macro(read(path.join(fresh,'Task/experiment5_formal_config.h'))),macro(read(path.join(prior,'Task/experiment5_formal_config.h'))));
+const threshold=motor.match(/fabsf\(position\[0\]-position\[1\]\)>(\.[0-9]+f)\) f\|=8U/)[1];assert.equal(threshold,'.005f');
+const checks=[],env={...process.env,PATH:'D:/MinGW/mingw64/bin;'+process.env.PATH};function run(exe,args){const r=spawnSync(exe,args,{cwd:dir,env,encoding:'utf8'});assert.equal(r.status,0,r.stdout+r.stderr);if(r.stdout.trim())checks.push(r.stdout.trim());}
+run('D:/MinGW/mingw64/bin/gcc.exe',['-std=c99','-O2','-Wall','-Wextra','-Werror','-DE5_SYNC_THRESHOLD_M='+threshold,path.join(dir,'test_sync.c'),'-lm','-o',path.join(dir,'test_sync.exe')]);run(path.join(dir,'test_sync.exe'),[]);
+const inherited=JSON.parse(read(path.join(dir,'../q20_manual_prepare_round108_20261015/verification.json')));assert(inherited.compileErrors===0);
+const fixture=fs.readFileSync(path.join(dir,'../q20_manual_prepare_round108_20261015/native_blob.bin'));fixture.writeUInt32LE(68512,4);const decoded=decodeBlob(fixture);assert(decoded.fast.length===4000&&decoded.slow.length===300&&decoded.header.steps===28000&&decoded.header.manual_mode===1);
+const target='exp5ID_Q20M_S5_BLNN_HW6',build=path.join(fresh,'MDK-ARM',target),hex=path.join(build,target+'.hex'),axf=path.join(build,target+'.axf');assert(read(path.join(dir,'build01.log')).includes('0 Error(s), 0 Warning(s).'));
+for(const f of ['motor_task.c','experiment5_formal_config.h'])assert(fs.statSync(path.join(fresh,'Task',f)).mtimeMs<=fs.statSync(axf).mtimeMs);
+const map=read(path.join(build,target+'.map')),m=map.match(/Execution Region RW_IRAM1[^\n]*Size: 0x([0-9a-f]+), Max: 0x([0-9a-f]+)/i);assert(m);const used=parseInt(m[1],16),max=parseInt(m[2],16);assert(max-used>=8192);
+assert.equal(sha(path.join(prior,'MDK-ARM/exp5ID_Q20M_BLNN_HW6/exp5ID_Q20M_BLNN_HW6.hex')),'2c2e6017b7b4f5357f1d46ce8cd63d77ae8ac48b1ebbb2a6b7a3f9e15a2a35ca');
+const out={status:'Requested sync-only change prepared; user-operated SINGLE trial, not physically qualified',build:68512,schema:4503,stopMagic:4445,project:path.join(fresh,'MDK-ARM/eassy.uvprojx'),target,hex,hexSHA256:sha(hex),axfSHA256:sha(axf),compileErrors:0,compileWarnings:0,RAM:{used,max,remaining:max-used},
+ unchangedSourceFiles:unchanged,soleBehaviorChange:{oldSyncFault_mm:1.5,newSyncFault_mm:5,comparison:'strict greater',faultBit:8,armedOnly:true},
+ allOtherExecutableMotorTaskStatementsUnchanged:true,coreActuatorGainsTrajectoryLimitsOtherGuardsAndLoggingHashesEqual:true,checks,
+ inheritedTrajectoryLoggerAnd600pointSummaryVerification:inherited.checks,
+ syntheticParserCompatibilityCheck:'Only build word in in-memory native fixture adapted for schema; no experimental data modified.',
+ sourceHashes:Object.fromEntries(['motor_task.c','experiment5_formal_config.h','blnn_core.c','experiment5_formal_actuator.h','experiment5_motion.h','identification_trace_v3.h','experiment5_error_summary.h','experiment5_hw_profile.h','online_protocol.h','vofa_task.c'].map(f=>[f,sha(path.join(fresh,'Task',f))])),
+ protocolSHA256:sha(path.join(dir,'protocol.json')),decoderSHA256:sha(path.join(dir,'decode.mjs')),oldCodeAndDataPreserved:true,assistantHardwareAction:false,flashedByAssistant:false,physicalRuns:0,
+ tracking1024Retained:true,temperature60CRetained:true,travelEnvelope_mm:[-4,22],limits:[1200,1200],stroke_mm:20,legDuration_s:8,totalDuration_s:28,manualBootDelay_s:8,
+ userReportsOldBeltRestored:true,oldTensionOrMotionHealthNotEstablished:true,noHostHeartbeatAsExistingManualMode:true,batchReleased:false,
+ completion:'I63=68512,I2=6,I22=0,I88=4445,I89=4,I90=0; completiontail>=20seconds AND I0>=185seconds',
+ nextStep:'User flash with driveOFF, prepareVOFA and clear history, confirm safe site and controlledfreshpoweron for ONE trial. Observe emergency stop. If1024orotherfault, stop/keeprecord; no immediate repeat. Audit then frozen cross-regime prediction before fitting.'};
+fs.writeFileSync(path.join(dir,'verification.json'),JSON.stringify(out,null,2)+'\n',{flag:'wx'});console.log(JSON.stringify(out,null,2));

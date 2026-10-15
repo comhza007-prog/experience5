@@ -1,0 +1,13 @@
+{
+ "sourceSHA256":"0da7ed24d02bcce276f0448ae08ebcee6e0c36dc4b6dbb1cfb41b9838c58b403",
+ "T1RecordingRemainsQualified":true,
+ "timeAlignment":{"previousAttemptedCommandToIntervalEndPairingConfirmedInSource":true,"deliveredCANDelayKnown":false,"integerMicrosecondSpanShortfall_us":5055,"nominalTimeReplaySyncRMSE_mm":2.394608991473707,"observedIntegerTimeReplaySyncRMSE_mm":2.3939945130454947,"quantizationDoesNotExplainGrossDrift":true},
+ "fixedFactorial":{"result":"audit.json","allFourCellsRetained":true,"originalExactlyReproduced":true,"bestTrainingCell":"one previous input tap,no recursive sign term","trainingMeanPositionRMSE_mm":0.21098121613170798,"trainingSyncRMSE_mm":0.10011037341956025,"observation":"Both aggregate-input memory and recursive sign closure affect forced-response prediction; this is diagnostic model structure,not new physical controller efficacy."},
+ "singleCoupledStateExtension":{"protocol":"coupled_state_protocol.json","result":"coupled_state.json","fullTrainingMeanPositionRMSE_mm":0.19680243070366038,"fullTrainingSyncRMSE_mm":0.045207613374919305,"relativePositionRestoringSignsValid":true,"translationNeutralOtherPolesStable":true,"allFourInternalChecksRetained":true,"internalHeldMeanPositionRMSE_mm":[0.1288523575139079,0.3190173221112888,0.4255875014523111,0.06972003791111846],"internalHeldSyncRMSE_mm":[0.05547830167689989,0.10814260315302962,0.050965710216023176,0.005915150797198592],"sameRunInternalChecksNotIndependentValidation":true},
+ "candidateQualifiedForControllerScreening":false,
+ "reason":"Training reconstruction improved materially,but held-block prediction varies and can be comparable to or larger than observed synchronization error. No predeclared effect-linked resolution budget,independent trial validation or1ms controller-compatible plant established. Do not transfer good final-hold-only error to moving phases.",
+ "nextBoundary":"Stop model expansion in this round. Keep the coupled-state model as an explicitly unvalidated20sample aggregate candidate; review time-resolution/uncertainty limits and define effect-resolution objective before considering more model complexity orV1. No extra capture requested automatically.",
+ "rawDataModified":false,"firstFitAndAllNegativeResultsRetained":true,
+ "Q0UsedForFitOrSelection":false,"V1ReadOrAcquired":false,"modelResolutionBudget_mm":null,
+ "MCUFirmwareChanged":false,"newPhysicalRuns":0,"modelIdentified":false,"V1Released":false,"formalCollectionReleased":false
+}

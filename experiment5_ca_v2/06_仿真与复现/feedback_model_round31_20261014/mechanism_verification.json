@@ -1,0 +1,1025 @@
+{
+  "runs": [
+    {
+      "method": "BLNN",
+      "source": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_反馈辨识_20261014\\E5MODEL_A_BLNN_B67511_HW6_MODEL10_L1200_R1200_M0g_S2mm_run01.csv",
+      "sha256": "7c7e29db5ec9e1e8d57c99c550bc3dfd7d4831ec570c0163ee04f71b209adb9c",
+      "motion": {
+        "n": 400,
+        "rawRPM_RMS": [
+          8.267859456957405,
+          5.929586832149437
+        ],
+        "rawRPM_Above10_observed": [
+          38,
+          22
+        ],
+        "rawRPM_Above30_observed": [
+          9,
+          5
+        ],
+        "observedSpeedGuardFrames": 27,
+        "maxAbsCommandCounts": [
+          643,
+          699
+        ],
+        "filteredVelocityRMS_mmPerS": [
+          1.2743892199113194,
+          1.0330788644425541
+        ],
+        "actualModalLearningMean": [
+          1,
+          1
+        ],
+        "actualModalLearningZeroFrames": [
+          0,
+          0
+        ],
+        "sectorMean": [
+          1,
+          1
+        ],
+        "repairModeHistograms": [
+          {
+            "0": 400
+          },
+          {
+            "0": 400
+          }
+        ],
+        "classifierHistogram": {
+          "-1": 400
+        },
+        "maskHistogram": {
+          "0": 400
+        },
+        "growthNodesEnd": [
+          7,
+          18
+        ],
+        "fractionNearAmplitudeEdge": [
+          0,
+          0
+        ],
+        "admittedNNRMS_counts": [
+          99.39894365635884,
+          113.84332435413154
+        ],
+        "maxCANAge_ms": [
+          1,
+          1
+        ],
+        "gateMin": 1
+      },
+      "phases": [
+        {
+          "phase": 2,
+          "n": 100,
+          "rawRPM_RMS": [
+            10.036931802099684,
+            7.531932023060219
+          ],
+          "rawRPM_Above10_observed": [
+            17,
+            12
+          ],
+          "rawRPM_Above30_observed": [
+            4,
+            1
+          ],
+          "observedSpeedGuardFrames": 15,
+          "maxAbsCommandCounts": [
+            629,
+            609
+          ],
+          "filteredVelocityRMS_mmPerS": [
+            1.6301308163910353,
+            1.428853821405035
+          ],
+          "actualModalLearningMean": [
+            1,
+            1
+          ],
+          "actualModalLearningZeroFrames": [
+            0,
+            0
+          ],
+          "sectorMean": [
+            1,
+            1
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 100
+            },
+            {
+              "0": 100
+            }
+          ],
+          "classifierHistogram": {
+            "-1": 100
+          },
+          "maskHistogram": {
+            "0": 100
+          },
+          "growthNodesEnd": [
+            7,
+            15
+          ],
+          "fractionNearAmplitudeEdge": [
+            0,
+            0
+          ],
+          "admittedNNRMS_counts": [
+            83.62463751789899,
+            132.7396323635108
+          ],
+          "maxCANAge_ms": [
+            1,
+            1
+          ],
+          "gateMin": 1
+        },
+        {
+          "phase": 3,
+          "n": 50,
+          "rawRPM_RMS": [
+            0.7071067811865476,
+            1.2569805089976536
+          ],
+          "rawRPM_Above10_observed": [
+            0,
+            0
+          ],
+          "rawRPM_Above30_observed": [
+            0,
+            0
+          ],
+          "observedSpeedGuardFrames": 0,
+          "maxAbsCommandCounts": [
+            227,
+            179
+          ],
+          "filteredVelocityRMS_mmPerS": [
+            0.061683105941961254,
+            0.13990440397093393
+          ],
+          "actualModalLearningMean": [
+            1,
+            1
+          ],
+          "actualModalLearningZeroFrames": [
+            0,
+            0
+          ],
+          "sectorMean": [
+            1,
+            1
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 50
+            },
+            {
+              "0": 50
+            }
+          ],
+          "classifierHistogram": {
+            "-1": 50
+          },
+          "maskHistogram": {
+            "0": 50
+          },
+          "growthNodesEnd": [
+            7,
+            15
+          ],
+          "fractionNearAmplitudeEdge": [
+            0,
+            0
+          ],
+          "admittedNNRMS_counts": [
+            82.10066991200499,
+            134.59123299829005
+          ],
+          "maxCANAge_ms": [
+            1,
+            1
+          ],
+          "gateMin": 1
+        },
+        {
+          "phase": 4,
+          "n": 100,
+          "rawRPM_RMS": [
+            13.131641176943573,
+            9.117017056033186
+          ],
+          "rawRPM_Above10_observed": [
+            21,
+            10
+          ],
+          "rawRPM_Above30_observed": [
+            5,
+            4
+          ],
+          "observedSpeedGuardFrames": 12,
+          "maxAbsCommandCounts": [
+            643,
+            699
+          ],
+          "filteredVelocityRMS_mmPerS": [
+            1.9588370667254833,
+            1.489131749618197
+          ],
+          "actualModalLearningMean": [
+            1,
+            1
+          ],
+          "actualModalLearningZeroFrames": [
+            0,
+            0
+          ],
+          "sectorMean": [
+            1,
+            1
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 100
+            },
+            {
+              "0": 100
+            }
+          ],
+          "classifierHistogram": {
+            "-1": 100
+          },
+          "maskHistogram": {
+            "0": 100
+          },
+          "growthNodesEnd": [
+            7,
+            18
+          ],
+          "fractionNearAmplitudeEdge": [
+            0,
+            0
+          ],
+          "admittedNNRMS_counts": [
+            142.2958889075858,
+            139.83747709394646
+          ],
+          "maxCANAge_ms": [
+            1,
+            1
+          ],
+          "gateMin": 1
+        },
+        {
+          "phase": 5,
+          "n": 150,
+          "rawRPM_RMS": [
+            0,
+            0
+          ],
+          "rawRPM_Above10_observed": [
+            0,
+            0
+          ],
+          "rawRPM_Above30_observed": [
+            0,
+            0
+          ],
+          "observedSpeedGuardFrames": 0,
+          "maxAbsCommandCounts": [
+            107,
+            132
+          ],
+          "filteredVelocityRMS_mmPerS": [
+            6.652382763319967e-10,
+            0.007506834295698958
+          ],
+          "actualModalLearningMean": [
+            1,
+            1
+          ],
+          "actualModalLearningZeroFrames": [
+            0,
+            0
+          ],
+          "sectorMean": [
+            1,
+            1
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 150
+            },
+            {
+              "0": 150
+            }
+          ],
+          "classifierHistogram": {
+            "-1": 150
+          },
+          "maskHistogram": {
+            "0": 150
+          },
+          "growthNodesEnd": [
+            7,
+            18
+          ],
+          "fractionNearAmplitudeEdge": [
+            0,
+            0
+          ],
+          "admittedNNRMS_counts": [
+            77.06767588727888,
+            61.15270503692648
+          ],
+          "maxCANAge_ms": [
+            1,
+            1
+          ],
+          "gateMin": 1
+        }
+      ],
+      "finalCumulativeGuardedMs_byAxis": [
+        741,
+        613
+      ],
+      "finalAmplitudeEdgeMs_byAxis": [
+        0,
+        0
+      ],
+      "finalNodeCounts": [
+        7,
+        18
+      ],
+      "sampledRPMNonzeroSignSwitches": [
+        152,
+        142
+      ],
+      "learningOverrides": null,
+      "prospectiveReplayWindowObserved": [
+        {
+          "ms": 5393,
+          "cause": -1,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            1,
+            1
+          ]
+        },
+        {
+          "ms": 5433,
+          "cause": -1,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            1,
+            1
+          ]
+        },
+        {
+          "ms": 5473,
+          "cause": -1,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            1,
+            1
+          ]
+        },
+        {
+          "ms": 5513,
+          "cause": -1,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            1,
+            1
+          ]
+        },
+        {
+          "ms": 5553,
+          "cause": -1,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            1,
+            1
+          ]
+        },
+        {
+          "ms": 5593,
+          "cause": -1,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            1,
+            1
+          ]
+        },
+        {
+          "ms": 5633,
+          "cause": -1,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            1,
+            1
+          ]
+        },
+        {
+          "ms": 5673,
+          "cause": -1,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            1,
+            1
+          ]
+        },
+        {
+          "ms": 5713,
+          "cause": -1,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            1,
+            1
+          ]
+        }
+      ],
+      "eventFullNetworkStateAvailable": false
+    },
+    {
+      "method": "S3R2",
+      "source": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_反馈辨识_20261014\\E5MODEL_A_S3R2_B67512_HW6_MODEL10_L1200_R1200_M0g_S2mm_run01.csv",
+      "sha256": "2804eb9c2a605a03fa73f5bf46c2d8c30d973af97a90bf8c565031cd905e87ec",
+      "motion": {
+        "n": 400,
+        "rawRPM_RMS": [
+          6.476495966184183,
+          5.734762418792953
+        ],
+        "rawRPM_Above10_observed": [
+          34,
+          27
+        ],
+        "rawRPM_Above30_observed": [
+          5,
+          3
+        ],
+        "observedSpeedGuardFrames": 34,
+        "maxAbsCommandCounts": [
+          634,
+          706
+        ],
+        "filteredVelocityRMS_mmPerS": [
+          0.9940890946237033,
+          0.9187873548002422
+        ],
+        "actualModalLearningMean": [
+          0.7768528771307319,
+          0.8035588024370373
+        ],
+        "actualModalLearningZeroFrames": [
+          50,
+          49
+        ],
+        "sectorMean": [
+          0.7834789043906131,
+          0.8891759163865935
+        ],
+        "repairModeHistograms": [
+          {
+            "0": 377,
+            "1": 23
+          },
+          {
+            "0": 360,
+            "1": 40
+          }
+        ],
+        "classifierHistogram": {
+          "0": 257,
+          "1": 72,
+          "4": 71
+        },
+        "maskHistogram": {
+          "0": 257,
+          "2": 72,
+          "6": 34,
+          "10": 30,
+          "14": 3,
+          "18": 1,
+          "22": 1,
+          "26": 1,
+          "34": 1
+        },
+        "growthNodesEnd": [
+          7,
+          11
+        ],
+        "fractionNearAmplitudeEdge": [
+          0,
+          0
+        ],
+        "admittedNNRMS_counts": [
+          55.849485225917704,
+          49.051146775585174
+        ],
+        "maxCANAge_ms": [
+          1,
+          1
+        ],
+        "gateMin": 1
+      },
+      "phases": [
+        {
+          "phase": 2,
+          "n": 100,
+          "rawRPM_RMS": [
+            8.143709228600933,
+            7.387827826905551
+          ],
+          "rawRPM_Above10_observed": [
+            16,
+            14
+          ],
+          "rawRPM_Above30_observed": [
+            1,
+            1
+          ],
+          "observedSpeedGuardFrames": 17,
+          "maxAbsCommandCounts": [
+            634,
+            602
+          ],
+          "filteredVelocityRMS_mmPerS": [
+            1.2238812774484868,
+            1.3377347154454997
+          ],
+          "actualModalLearningMean": [
+            0.6596174246817827,
+            0.6871125444024802
+          ],
+          "actualModalLearningZeroFrames": [
+            21,
+            20
+          ],
+          "sectorMean": [
+            0.9204169109481154,
+            0.8198864303436131
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 95,
+              "1": 5
+            },
+            {
+              "0": 90,
+              "1": 10
+            }
+          ],
+          "classifierHistogram": {
+            "0": 48,
+            "1": 27,
+            "4": 25
+          },
+          "maskHistogram": {
+            "0": 48,
+            "2": 27,
+            "6": 6,
+            "10": 16,
+            "14": 1,
+            "22": 1,
+            "34": 1
+          },
+          "growthNodesEnd": [
+            7,
+            10
+          ],
+          "fractionNearAmplitudeEdge": [
+            0,
+            0
+          ],
+          "admittedNNRMS_counts": [
+            48.810449700858115,
+            67.35287670174155
+          ],
+          "maxCANAge_ms": [
+            1,
+            1
+          ],
+          "gateMin": 1
+        },
+        {
+          "phase": 3,
+          "n": 50,
+          "rawRPM_RMS": [
+            0.4242640687119285,
+            0
+          ],
+          "rawRPM_Above10_observed": [
+            0,
+            0
+          ],
+          "rawRPM_Above30_observed": [
+            0,
+            0
+          ],
+          "observedSpeedGuardFrames": 0,
+          "maxAbsCommandCounts": [
+            35,
+            71
+          ],
+          "filteredVelocityRMS_mmPerS": [
+            0.057860020932645334,
+            2.3551706314390174e-14
+          ],
+          "actualModalLearningMean": [
+            1,
+            0.98
+          ],
+          "actualModalLearningZeroFrames": [
+            0,
+            1
+          ],
+          "sectorMean": [
+            0.009900084603577853,
+            1
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 49,
+              "1": 1
+            },
+            {
+              "0": 50
+            }
+          ],
+          "classifierHistogram": {
+            "0": 49,
+            "4": 1
+          },
+          "maskHistogram": {
+            "0": 49,
+            "6": 1
+          },
+          "growthNodesEnd": [
+            7,
+            10
+          ],
+          "fractionNearAmplitudeEdge": [
+            0,
+            0
+          ],
+          "admittedNNRMS_counts": [
+            35.7359762704197,
+            35.323080273384996
+          ],
+          "maxCANAge_ms": [
+            1,
+            1
+          ],
+          "gateMin": 1
+        },
+        {
+          "phase": 4,
+          "n": 100,
+          "rawRPM_RMS": [
+            10.059324032955693,
+            8.657944328765344
+          ],
+          "rawRPM_Above10_observed": [
+            18,
+            13
+          ],
+          "rawRPM_Above30_observed": [
+            4,
+            2
+          ],
+          "observedSpeedGuardFrames": 17,
+          "maxAbsCommandCounts": [
+            594,
+            706
+          ],
+          "filteredVelocityRMS_mmPerS": [
+            1.5655663611829107,
+            1.2462476185788844
+          ],
+          "actualModalLearningMean": [
+            0.5789884950220585,
+            0.643760671839118
+          ],
+          "actualModalLearningZeroFrames": [
+            27,
+            26
+          ],
+          "sectorMean": [
+            0.7584819457714912,
+            0.7612233002122957
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 87,
+              "1": 13
+            },
+            {
+              "0": 77,
+              "1": 23
+            }
+          ],
+          "classifierHistogram": {
+            "0": 36,
+            "1": 25,
+            "4": 39
+          },
+          "maskHistogram": {
+            "0": 36,
+            "2": 25,
+            "6": 22,
+            "10": 14,
+            "14": 2,
+            "26": 1
+          },
+          "growthNodesEnd": [
+            7,
+            11
+          ],
+          "fractionNearAmplitudeEdge": [
+            0,
+            0
+          ],
+          "admittedNNRMS_counts": [
+            58.132521018789475,
+            47.913881078451574
+          ],
+          "maxCANAge_ms": [
+            1,
+            1
+          ],
+          "gateMin": 1
+        },
+        {
+          "phase": 5,
+          "n": 150,
+          "rawRPM_RMS": [
+            0.34641016151377546,
+            1.1575836902790226
+          ],
+          "rawRPM_Above10_observed": [
+            0,
+            0
+          ],
+          "rawRPM_Above30_observed": [
+            0,
+            0
+          ],
+          "observedSpeedGuardFrames": 0,
+          "maxAbsCommandCounts": [
+            97,
+            97
+          ],
+          "filteredVelocityRMS_mmPerS": [
+            0.039116992313618607,
+            0.15058445612946736
+          ],
+          "actualModalLearningMean": [
+            0.9125370592127243,
+            0.9289079956710339
+          ],
+          "actualModalLearningZeroFrames": [
+            2,
+            2
+          ],
+          "sectorMean": [
+            0.9667111456940377,
+            0.9837292899936437
+          ],
+          "repairModeHistograms": [
+            {
+              "0": 146,
+              "1": 4
+            },
+            {
+              "0": 143,
+              "1": 7
+            }
+          ],
+          "classifierHistogram": {
+            "0": 124,
+            "1": 20,
+            "4": 6
+          },
+          "maskHistogram": {
+            "0": 124,
+            "2": 20,
+            "6": 5,
+            "18": 1
+          },
+          "growthNodesEnd": [
+            7,
+            11
+          ],
+          "fractionNearAmplitudeEdge": [
+            0,
+            0
+          ],
+          "admittedNNRMS_counts": [
+            63.646314373523104,
+            38.017978203300956
+          ],
+          "maxCANAge_ms": [
+            1,
+            1
+          ],
+          "gateMin": 1
+        }
+      ],
+      "finalCumulativeGuardedMs_byAxis": [
+        769,
+        705
+      ],
+      "finalAmplitudeEdgeMs_byAxis": [
+        0,
+        0
+      ],
+      "finalNodeCounts": [
+        7,
+        11
+      ],
+      "sampledRPMNonzeroSignSwitches": [
+        167,
+        204
+      ],
+      "learningOverrides": [
+        {
+          "axis": "Y",
+          "acceptedRepairFrames": 23,
+          "acceptedRepairsAboveNominalLearningFrames": 23,
+          "acceptedRepairCauseHistogram": {
+            "1": 2,
+            "4": 21
+          },
+          "stationaryRetentionFrames": 0,
+          "note": "Nominal pre-repair learning reconstructed from raw BASE=requested-admittedDelta,headroom,gate and classifier. Floating additions introduce small reconstruction error; override count uses1e-6 tolerance. Actual modal learning is I17/I18, not I32."
+        },
+        {
+          "axis": "alpha",
+          "acceptedRepairFrames": 40,
+          "acceptedRepairsAboveNominalLearningFrames": 40,
+          "acceptedRepairCauseHistogram": {
+            "1": 18,
+            "4": 22
+          },
+          "stationaryRetentionFrames": 0,
+          "note": "Nominal pre-repair learning reconstructed from raw BASE=requested-admittedDelta,headroom,gate and classifier. Floating additions introduce small reconstruction error; override count uses1e-6 tolerance. Actual modal learning is I17/I18, not I32."
+        }
+      ],
+      "prospectiveReplayWindowObserved": [
+        {
+          "ms": 5391,
+          "cause": 1,
+          "repairModes": [
+            0,
+            1
+          ],
+          "actualLearning": [
+            0.4399256110191345,
+            1
+          ]
+        },
+        {
+          "ms": 5431,
+          "cause": 0,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            1,
+            1
+          ]
+        },
+        {
+          "ms": 5471,
+          "cause": 4,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            0,
+            0
+          ]
+        },
+        {
+          "ms": 5511,
+          "cause": 4,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            0,
+            0
+          ]
+        },
+        {
+          "ms": 5551,
+          "cause": 4,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            0,
+            0
+          ]
+        },
+        {
+          "ms": 5591,
+          "cause": 4,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            0,
+            0
+          ]
+        },
+        {
+          "ms": 5631,
+          "cause": 1,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            0.30000001192092896,
+            0.30000001192092896
+          ]
+        },
+        {
+          "ms": 5671,
+          "cause": 0,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            1,
+            1
+          ]
+        },
+        {
+          "ms": 5711,
+          "cause": 4,
+          "repairModes": [
+            0,
+            0
+          ],
+          "actualLearning": [
+            0,
+            0
+          ]
+        }
+      ],
+      "eventFullNetworkStateAvailable": false
+    }
+  ],
+  "limitations": [
+    "40ms histograms are observations, not1ms trigger durations; speed intervention cumulative counters are authoritative only for their encoded guard definition.",
+    "10msRPM sign changes may describe oscillation or feedback characteristics, not a demonstrated mechanical or sensor defect.",
+    "Different closed-loop states prevent attributing a performance difference solely to learning suppression or a specific guard.",
+    "No full1ms continuous input history or saved full initial network state; exact recurrent learning replay is not possible from these records."
+  ],
+  "codeFinding": "Both methods use identical filtered RPM velocity,1ms acceleration filter and baseline gains. Ordinary BLNN updates learning continuously; S3R2 changes output sector/allocation and actual per-mode learning. No hard-current limit increase is justified by these records.",
+  "causalDefectIdentified": false,
+  "newPerformanceCandidateReleased": false
+}

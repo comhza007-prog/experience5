@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "run": 1,
+      "passed": true,
+      "CRC32": 2156285904,
+      "fineRows": 1800,
+      "coarseRows": 910,
+      "coveredIntervals": 20000,
+      "nativeSamples": 400
+    },
+    {
+      "run": 2,
+      "passed": true,
+      "CRC32": 2437934045,
+      "fineRows": 1800,
+      "coarseRows": 910,
+      "coveredIntervals": 20000,
+      "nativeSamples": 400
+    },
+    {
+      "run": 3,
+      "passed": true,
+      "CRC32": 3072213171,
+      "fineRows": 1800,
+      "coarseRows": 910,
+      "coveredIntervals": 20000,
+      "nativeSamples": 400
+    },
+    {
+      "run": 4,
+      "passed": true,
+      "CRC32": 1940864274,
+      "fineRows": 1800,
+      "coarseRows": 910,
+      "coveredIntervals": 20000,
+      "nativeSamples": 400
+    },
+    {
+      "run": 5,
+      "passed": true,
+      "CRC32": 3359429981,
+      "fineRows": 1800,
+      "coarseRows": 910,
+      "coveredIntervals": 20000,
+      "nativeSamples": 400
+    }
+  ],
+  "allFiveStrictRecordingProtocolsQualified": false,
+  "snapshotsAndMetricsUsable": true
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-12",
+  "hostOnly": true,
+  "registeredBeforeDynamicSweep": true,
+  "recordedRegressionAlreadyInspected": true,
+  "variants": [
+    {
+      "name": "BLNN",
+      "method": 11,
+      "projection": 0,
+      "learning": 0
+    },
+    {
+      "name": "S0_old",
+      "method": 12,
+      "projection": 0,
+      "learning": 0
+    },
+    {
+      "name": "S1_learning",
+      "method": 12,
+      "projection": 0,
+      "learning": 1
+    },
+    {
+      "name": "S2_projection",
+      "method": 12,
+      "projection": 1,
+      "learning": 0
+    },
+    {
+      "name": "S3_both",
+      "method": 12,
+      "projection": 1,
+      "learning": 1
+    }
+  ],
+  "sectorFraction": 0.25,
+  "slew_counts_per_ms": 2,
+  "nnCap_counts": 300,
+  "newProjection": "Old 36 ray candidates retained; up to 20 strictly balanced [z,-z] candidates, only in existing contraction exception when normal slew is infeasible. Select only strictly closer to current target under original magnitude/history sign/envelope/sector bounds. No assertion of global optimality.",
+  "learning": "Existing round01 rule, partial target-aligned learning for proven pure-rate states ONLY; all contraction/withdrawal/mixed states freeze. Weight leakage unchanged.",
+  "requiredChecks": [
+    "Float/double legacy exact 90000-step equivalence",
+    "Float/double same-state no-worse-distance stress",
+    "Full archived adapter and actual-core invariants",
+    "127 complete recorded snapshots with missing row excluded",
+    "Five-method 36-case assumed-plant factorial, all fault outcomes retained, exact rerun"
+  ],
+  "model": "UNCHANGED UNCALIBRATED round02 assumed coupled plant. Feedback identification failed. Dynamic comparison is a sensitivity diagnostic, NOT validation of physical superiority.",
+  "physicalCase": "One recorded diagnostic; same-state inputs and rounded sigma. Not independent holdout. No closed-loop counterfactual claim.",
+  "reportGenerated": false,
+  "hardwareReleased": false,
+  "newFirmwareGenerated": false
+}

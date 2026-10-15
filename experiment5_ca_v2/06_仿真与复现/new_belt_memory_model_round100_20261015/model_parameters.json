@@ -1,0 +1,106 @@
+{
+  "version": "R100_new_belt_elastic_slider",
+  "status": "Exploratory modified model; sync aggregates fit but tracking still fails15percent; not accepted for validation batch",
+  "parameters": [
+    3.4792617876182484e-06,
+    2.1112458155696005e-06,
+    1.3240620963223941,
+    0.015959473702735944,
+    8.884813239908434,
+    2.2973549492328535,
+    0.0005071267373837429,
+    9.497177802427479e-05,
+    -0.9031273801566865,
+    1.6772778997282725,
+    0.8627748876247483,
+    0.0023279046648120704
+  ],
+  "parameterNames": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "preSlidingStiffnessL",
+    "preSlidingStiffnessR",
+    "sharedYieldForce"
+  ],
+  "selectedVariant": "coupling_variant",
+  "solverRelativeToProject": "06_仿真与复现\\new_belt_memory_model_round100_20261015\\native_model.dll",
+  "solverSHA256": "22e77b041e02b62f6f69429a0695840c53139a6eefe28a17c3d02deb30ae6a17",
+  "solverSourceSHA256": "d7c3bfd43884452adadb6626d27417b36f8a126ba6e091d1c11d6de3c0c585ff",
+  "memoryState": "Two independent plastic anchors, initialized at initial positions once. Velocity and anchor evolve only from simulated states and recorded queued inputs.",
+  "equations": [
+    "M*v_dot+B*v+Kdiff*p+Fc*Sign(v)+f_el=G*u",
+    "trial_i=k_i*(p_new_i-anchor_old_i)",
+    "f_el_i=clip(trial_i,-Y,Y)",
+    "anchor_new_i=p_new_i-f_el_i/k_i"
+  ],
+  "sourceResultsSHA256": "d7380018415fa794d181dae16c81b6f809815d3aba7691cd2fbd2906f58fd488",
+  "verificationSHA256": "4a7cef6f699ac23fce076983f890956313c56652c5eba11f06413fa634e19cf4",
+  "regime": "New synchronous belt; onlyrun010/run011 in objective",
+  "sourceHashes": [
+    {
+      "name": "new_belt_run010",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+      "rawSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_r96_frozen_check_round97_20261015\\capture_analysis.json",
+      "decodedSHA256": "7d2e50b8382219adf1b8d2252e02ce110a0edb6e8d4f00c4df266952ed2abffd"
+    },
+    {
+      "name": "new_belt_run011",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run011.csv",
+      "rawSHA256": "e7e38ee5980fca58f656ac36ffe52d37b505909b4dee49e53acba25dbd306173",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_frozen_check_round99_20261015\\capture_analysis.json",
+      "decodedSHA256": "6022ce98f46a4b09be546bfb8668a70e0ef5e4a7066ac303cb5d571019d41460"
+    }
+  ],
+  "bothRecordsCalibration": true,
+  "independentValidationPassed": false,
+  "physicalParametersUniquelyIdentified": false,
+  "calibrationCases": [
+    {
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.45504046317333147,
+      "predictedSyncRMS_mm": 0.05604821585028377,
+      "trackingDifference_percent": 69.57625226598807,
+      "syncDifference_percent": 4.990506205544953,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.4926788101796139,
+        0.5039219756073354
+      ]
+    },
+    {
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.4730801094952101,
+      "predictedSyncRMS_mm": 0.08045769074488777,
+      "trackingDifference_percent": 41.053267111856485,
+      "syncDifference_percent": -5.972845299333551,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.506595459908594,
+        0.5240315973297791
+      ]
+    }
+  ],
+  "allBoth15percentPassed": false,
+  "assumptionsAndLimitations": [
+    "Equivalent friction memory, not proof of actual belt plasticity or unique physical cause.",
+    "Four shared effective parameters from four aggregate values can be nonunique; nominal remaining coefficients inherited, not reidentified.",
+    "Only aggregate RMS is fitted; waveform agreement not promised or a hard acceptance gate.",
+    "Moving inputs1ms; unknown40ms hold waveforms still represented by means.",
+    "Forced recorded-input replay, not autonomous controller-plant simulation."
+  ],
+  "firmwareChanged": false,
+  "assistantHardwareAction": false,
+  "newPhysicalRunReleased": false
+}

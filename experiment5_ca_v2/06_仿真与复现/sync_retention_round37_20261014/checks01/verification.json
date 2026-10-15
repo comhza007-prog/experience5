@@ -1,0 +1,597 @@
+{
+  "protocol": "protocol.json",
+  "native": [
+    {
+      "precision": "float",
+      "scope": 0,
+      "result": "PASS100000 same-state commands/learning/alpha/guards;disabled exactR2;only eligible Y leakage selection changes;predicate boundaries. blocked=0"
+    },
+    {
+      "precision": "float",
+      "scope": 1,
+      "result": "PASS100000 same-state commands/learning/alpha/guards;disabled exactR2;only eligible Y leakage selection changes;predicate boundaries. blocked=345"
+    },
+    {
+      "precision": "double",
+      "scope": 0,
+      "result": "PASS100000 same-state commands/learning/alpha/guards;disabled exactR2;only eligible Y leakage selection changes;predicate boundaries. blocked=0"
+    },
+    {
+      "precision": "double",
+      "scope": 1,
+      "result": "PASS100000 same-state commands/learning/alpha/guards;disabled exactR2;only eligible Y leakage selection changes;predicate boundaries. blocked=345"
+    }
+  ],
+  "replayEffects": [
+    {
+      "scope": 0,
+      "changedCommandSteps": 0,
+      "changedLearningSteps": 0,
+      "finalNodes": [
+        7,
+        8
+      ],
+      "closedLoopCounterfactual": false
+    },
+    {
+      "scope": 1,
+      "changedCommandSteps": 0,
+      "changedLearningSteps": 0,
+      "finalNodes": [
+        7,
+        8
+      ],
+      "closedLoopCounterfactual": false
+    }
+  ],
+  "initialMetrics": [
+    {
+      "name": "BLNN",
+      "scope": 0,
+      "completed": 31,
+      "baselinePopulationN": 30,
+      "newFailures": [],
+      "failedBaselinePopulationCases": [],
+      "track": 0.11182471394666667,
+      "sync": 0.03207684431400001,
+      "secondarySurvivorOnly": {
+        "n": 30,
+        "track": 0.11182471394666667,
+        "sync": 0.03207684431400001,
+        "efficacyEvidence": false
+      },
+      "caps": [
+        0,
+        0
+      ],
+      "syncChangeVsR2_pct": -33.25616211983581,
+      "trackingChangeVsR2_pct": -32.41741373617282,
+      "syncChangeVsOrdinary_pct": 0
+    },
+    {
+      "name": "S3R2",
+      "scope": 0,
+      "completed": 30,
+      "baselinePopulationN": 30,
+      "newFailures": [],
+      "failedBaselinePopulationCases": [],
+      "track": 0.16546379789333335,
+      "sync": 0.04805963416666668,
+      "secondarySurvivorOnly": {
+        "n": 30,
+        "track": 0.16546379789333335,
+        "sync": 0.04805963416666668,
+        "efficacyEvidence": false
+      },
+      "caps": [
+        0,
+        0
+      ],
+      "syncChangeVsR2_pct": 0,
+      "trackingChangeVsR2_pct": 0,
+      "syncChangeVsOrdinary_pct": 49.82656553185609
+    },
+    {
+      "name": "SYNC_RETENTION",
+      "scope": 1,
+      "completed": 30,
+      "baselinePopulationN": 30,
+      "newFailures": [],
+      "failedBaselinePopulationCases": [],
+      "track": 0.1654474506933333,
+      "sync": 0.047960298030000015,
+      "secondarySurvivorOnly": {
+        "n": 30,
+        "track": 0.1654474506933333,
+        "sync": 0.047960298030000015,
+        "efficacyEvidence": false
+      },
+      "caps": [
+        3308,
+        0
+      ],
+      "syncChangeVsR2_pct": -0.20669349317594676,
+      "trackingChangeVsR2_pct": -0.009879623342490262,
+      "syncChangeVsOrdinary_pct": 49.51688376985277
+    }
+  ],
+  "holdout": [
+    {
+      "stiffness": 1000,
+      "noise": 17,
+      "metrics": [
+        {
+          "name": "BLNN",
+          "scope": 0,
+          "completed": 31,
+          "baselinePopulationN": 29,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.11517863859310343,
+          "sync": 0.041595901379310345,
+          "secondarySurvivorOnly": {
+            "n": 29,
+            "track": 0.11517863859310343,
+            "sync": 0.041595901379310345,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            0,
+            0
+          ],
+          "syncChangeVsR2_pct": -22.062736340056098,
+          "trackingChangeVsR2_pct": -28.910810717428447,
+          "syncChangeVsOrdinary_pct": 0
+        },
+        {
+          "name": "S3R2",
+          "scope": 0,
+          "completed": 29,
+          "baselinePopulationN": 29,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.16201990732413793,
+          "sync": 0.053371005634482764,
+          "secondarySurvivorOnly": {
+            "n": 29,
+            "track": 0.16201990732413793,
+            "sync": 0.053371005634482764,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            0,
+            0
+          ],
+          "syncChangeVsR2_pct": 0,
+          "trackingChangeVsR2_pct": 0,
+          "syncChangeVsOrdinary_pct": 28.308328139823203
+        },
+        {
+          "name": "SYNC_RETENTION",
+          "scope": 1,
+          "completed": 29,
+          "baselinePopulationN": 29,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.16163833249655174,
+          "sync": 0.05282918871724138,
+          "secondarySurvivorOnly": {
+            "n": 29,
+            "track": 0.16163833249655174,
+            "sync": 0.05282918871724138,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            2170,
+            0
+          ],
+          "syncChangeVsR2_pct": -1.0151896348966738,
+          "trackingChangeVsR2_pct": -0.23551107631657464,
+          "syncChangeVsOrdinary_pct": 27.005755291838508
+        }
+      ]
+    },
+    {
+      "stiffness": 1000,
+      "noise": 23,
+      "metrics": [
+        {
+          "name": "BLNN",
+          "scope": 0,
+          "completed": 31,
+          "baselinePopulationN": 28,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.11310676655000003,
+          "sync": 0.040141024192857144,
+          "secondarySurvivorOnly": {
+            "n": 28,
+            "track": 0.11310676655000003,
+            "sync": 0.040141024192857144,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            0,
+            0
+          ],
+          "syncChangeVsR2_pct": -19.50210879494779,
+          "trackingChangeVsR2_pct": -29.38740753091863,
+          "syncChangeVsOrdinary_pct": 0
+        },
+        {
+          "name": "S3R2",
+          "scope": 0,
+          "completed": 28,
+          "baselinePopulationN": 28,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.16017931447500003,
+          "sync": 0.04986593262500001,
+          "secondarySurvivorOnly": {
+            "n": 28,
+            "track": 0.16017931447500003,
+            "sync": 0.04986593262500001,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            0,
+            0
+          ],
+          "syncChangeVsR2_pct": 0,
+          "trackingChangeVsR2_pct": 0,
+          "syncChangeVsOrdinary_pct": 24.226856757365333
+        },
+        {
+          "name": "SYNC_RETENTION",
+          "scope": 1,
+          "completed": 28,
+          "baselinePopulationN": 28,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.15976485047500003,
+          "sync": 0.05023799745357144,
+          "secondarySurvivorOnly": {
+            "n": 28,
+            "track": 0.15976485047500003,
+            "sync": 0.05023799745357144,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            1010,
+            0
+          ],
+          "syncChangeVsR2_pct": 0.7461302917352697,
+          "trackingChangeVsR2_pct": -0.25875001485581306,
+          "syncChangeVsOrdinary_pct": 25.153750966102617
+        }
+      ]
+    },
+    {
+      "stiffness": 2000,
+      "noise": 17,
+      "metrics": [
+        {
+          "name": "BLNN",
+          "scope": 0,
+          "completed": 31,
+          "baselinePopulationN": 30,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.1122922018533333,
+          "sync": 0.033412960245333335,
+          "secondarySurvivorOnly": {
+            "n": 30,
+            "track": 0.1122922018533333,
+            "sync": 0.033412960245333335,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            0,
+            0
+          ],
+          "syncChangeVsR2_pct": -32.14253791634336,
+          "trackingChangeVsR2_pct": -32.1992492924368,
+          "syncChangeVsOrdinary_pct": 0
+        },
+        {
+          "name": "S3R2",
+          "scope": 0,
+          "completed": 30,
+          "baselinePopulationN": 30,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.16562088278000003,
+          "sync": 0.04923992029666667,
+          "secondarySurvivorOnly": {
+            "n": 30,
+            "track": 0.16562088278000003,
+            "sync": 0.04923992029666667,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            0,
+            0
+          ],
+          "syncChangeVsR2_pct": 0,
+          "trackingChangeVsR2_pct": 0,
+          "syncChangeVsOrdinary_pct": 47.36772777725922
+        },
+        {
+          "name": "SYNC_RETENTION",
+          "scope": 1,
+          "completed": 30,
+          "baselinePopulationN": 30,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.16483282984666667,
+          "sync": 0.04964621692333335,
+          "secondarySurvivorOnly": {
+            "n": 30,
+            "track": 0.16483282984666667,
+            "sync": 0.04964621692333335,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            3729,
+            0
+          ],
+          "syncChangeVsR2_pct": 0.8251366456703657,
+          "trackingChangeVsR2_pct": -0.47581737284915215,
+          "syncChangeVsOrdinary_pct": 48.58371290304111
+        }
+      ]
+    },
+    {
+      "stiffness": 2000,
+      "noise": 23,
+      "metrics": [
+        {
+          "name": "BLNN",
+          "scope": 0,
+          "completed": 30,
+          "baselinePopulationN": 30,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.11345182290666665,
+          "sync": 0.03201176697066667,
+          "secondarySurvivorOnly": {
+            "n": 30,
+            "track": 0.11345182290666665,
+            "sync": 0.03201176697066667,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            0,
+            0
+          ],
+          "syncChangeVsR2_pct": -39.349414208166834,
+          "trackingChangeVsR2_pct": -32.860971309145285,
+          "syncChangeVsOrdinary_pct": 0
+        },
+        {
+          "name": "S3R2",
+          "scope": 0,
+          "completed": 30,
+          "baselinePopulationN": 30,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.16898043525333334,
+          "sync": 0.052780639383333335,
+          "secondarySurvivorOnly": {
+            "n": 30,
+            "track": 0.16898043525333334,
+            "sync": 0.052780639383333335,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            0,
+            0
+          ],
+          "syncChangeVsR2_pct": 0,
+          "trackingChangeVsR2_pct": 0,
+          "syncChangeVsOrdinary_pct": 64.87886917238215
+        },
+        {
+          "name": "SYNC_RETENTION",
+          "scope": 1,
+          "completed": 30,
+          "baselinePopulationN": 30,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.16892709211,
+          "sync": 0.05282424726,
+          "secondarySurvivorOnly": {
+            "n": 30,
+            "track": 0.16892709211,
+            "sync": 0.05282424726,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            4250,
+            0
+          ],
+          "syncChangeVsR2_pct": 0.08262097082596398,
+          "trackingChangeVsR2_pct": -0.0315676446526858,
+          "syncChangeVsOrdinary_pct": 65.01509369477925
+        }
+      ]
+    },
+    {
+      "stiffness": 3000,
+      "noise": 17,
+      "metrics": [
+        {
+          "name": "BLNN",
+          "scope": 0,
+          "completed": 31,
+          "baselinePopulationN": 30,
+          "newFailures": [
+            {
+              "case": 23,
+              "fault": 1024,
+              "stop_ms": 20000,
+              "terminalMax_mm": 0.526801288
+            }
+          ],
+          "failedBaselinePopulationCases": [],
+          "track": 0.11897619000000001,
+          "sync": 0.03369420743,
+          "secondarySurvivorOnly": {
+            "n": 30,
+            "track": 0.11897619000000001,
+            "sync": 0.03369420743,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            0,
+            0
+          ],
+          "syncChangeVsR2_pct": -39.24320861974676,
+          "trackingChangeVsR2_pct": -28.055061628698176,
+          "syncChangeVsOrdinary_pct": 0
+        },
+        {
+          "name": "S3R2",
+          "scope": 0,
+          "completed": 31,
+          "baselinePopulationN": 30,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.1653711750866667,
+          "sync": 0.05545751621266666,
+          "secondarySurvivorOnly": {
+            "n": 30,
+            "track": 0.1653711750866667,
+            "sync": 0.05545751621266666,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            0,
+            0
+          ],
+          "syncChangeVsR2_pct": 0,
+          "trackingChangeVsR2_pct": 0,
+          "syncChangeVsOrdinary_pct": 64.59065353556727
+        },
+        {
+          "name": "SYNC_RETENTION",
+          "scope": 1,
+          "completed": 31,
+          "baselinePopulationN": 30,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.16541374628666666,
+          "sync": 0.055430911395999996,
+          "secondarySurvivorOnly": {
+            "n": 30,
+            "track": 0.16541374628666666,
+            "sync": 0.055430911395999996,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            3466,
+            0
+          ],
+          "syncChangeVsR2_pct": -0.04797332892558792,
+          "trackingChangeVsR2_pct": 0.025742817620821867,
+          "syncChangeVsOrdinary_pct": 64.51169391996588
+        }
+      ]
+    },
+    {
+      "stiffness": 3000,
+      "noise": 23,
+      "metrics": [
+        {
+          "name": "BLNN",
+          "scope": 0,
+          "completed": 32,
+          "baselinePopulationN": 32,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.13092254933124997,
+          "sync": 0.036143268808750004,
+          "secondarySurvivorOnly": {
+            "n": 32,
+            "track": 0.13092254933124997,
+            "sync": 0.036143268808750004,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            0,
+            0
+          ],
+          "syncChangeVsR2_pct": -36.145474994079166,
+          "trackingChangeVsR2_pct": -25.578399648854678,
+          "syncChangeVsOrdinary_pct": 0
+        },
+        {
+          "name": "S3R2",
+          "scope": 0,
+          "completed": 32,
+          "baselinePopulationN": 32,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.17592009404999998,
+          "sync": 0.056602517684375006,
+          "secondarySurvivorOnly": {
+            "n": 32,
+            "track": 0.17592009404999998,
+            "sync": 0.056602517684375006,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            0,
+            0
+          ],
+          "syncChangeVsR2_pct": 0,
+          "trackingChangeVsR2_pct": 0,
+          "syncChangeVsOrdinary_pct": 56.60597270236936
+        },
+        {
+          "name": "SYNC_RETENTION",
+          "scope": 1,
+          "completed": 32,
+          "baselinePopulationN": 32,
+          "newFailures": [],
+          "failedBaselinePopulationCases": [],
+          "track": 0.17564062308124997,
+          "sync": 0.0559989738625,
+          "secondarySurvivorOnly": {
+            "n": 32,
+            "track": 0.17564062308124997,
+            "sync": 0.0559989738625,
+            "efficacyEvidence": false
+          },
+          "caps": [
+            5166,
+            0
+          ],
+          "syncChangeVsR2_pct": -1.0662844102456104,
+          "trackingChangeVsR2_pct": -0.15886244846513575,
+          "syncChangeVsOrdinary_pct": 54.93610762993049
+        }
+      ]
+    }
+  ],
+  "admission": [
+    {
+      "name": "SYNC_RETENTION",
+      "initialPassed": true,
+      "holdoutSettings": 6,
+      "newFailureInstances": 0,
+      "settingsWithSyncGain": 3,
+      "screenPassed": false,
+      "settingsWithSyncGainVsOrdinary": 0,
+      "initialOrdinarySyncGoalMet": false,
+      "paperOrdinarySyncBenefitNotProven": true
+    }
+  ],
+  "sourceSHA256": "145657dc39443d587cbb00d4a0b7c16037ce6f193c44c3370ce112c68663fe43",
+  "copiedHeadersUnchanged": true,
+  "disabledExactlyR2": true,
+  "allCasesRetained": true,
+  "assumedModelsIdentified": false,
+  "physicalBenefitProven": false,
+  "hardwareReleased": false
+}

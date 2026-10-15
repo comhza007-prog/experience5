@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-15",
+  "record": "Q2_run05",
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run05.csv",
+  "sourceSHA256": "1a2901e72e3430f86212668ad8ee9c7883d7cd6fef7d43023cd8b9e0f1a8eb00",
+  "captureQualified": true,
+  "fault": 0,
+  "missingCSVFrames": 0,
+  "nativeSamples": 400,
+  "movingSnapshotRows": 8000,
+  "holdingSnapshotRows": 300,
+  "CRC32": 18690254,
+  "completionTail_s": 29.360000999999983,
+  "evaluations": [
+    {
+      "model": "R82",
+      "path": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_frozen_r86_check_round87_20261015\\frozen_model_evaluation_R82.json",
+      "sha256": "3f8b81cf53c2225455bab7c6300b89605a4c43146a58f168e2ca291d1c0c7a3c"
+    },
+    {
+      "model": "R86",
+      "path": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_frozen_r86_check_round87_20261015\\frozen_model_evaluation_R86.json",
+      "sha256": "8a1888d63197dc2b09eaf2d7f71d6a15caf030511879ef60dccdf783bb92b100"
+    }
+  ],
+  "comparisons": [
+    {
+      "metric": "TrackingRMSE_mm",
+      "actual": 0.13400969181368935,
+      "R82": 0.13998267749975352,
+      "R86": 0.1392837436673785,
+      "absolutePredictionErrorR82": 0.005972985686064164,
+      "absolutePredictionErrorR86": 0.005274051853689149,
+      "absolutePredictionErrorReduction_percent": 11.70158224229012
+    },
+    {
+      "metric": "SyncRMS_mm",
+      "actual": 0.035777367147402,
+      "R82": 0.03959431777414533,
+      "R86": 0.04015887199611065,
+      "absolutePredictionErrorR82": 0.0038169506267433304,
+      "absolutePredictionErrorR86": 0.004381504848708653,
+      "absolutePredictionErrorReduction_percent": -14.790713246584698
+    }
+  ],
+  "R82Metrics": {
+    "observedNativeSamples": 400,
+    "expectedNativeSamples": 400,
+    "actualTrackingRMSE_mm": 0.13400969181368935,
+    "modeledTrackingRMSE_mm": 0.13998267749975352,
+    "actualSyncRMS_mm": 0.035777367147402,
+    "modeledSyncRMS_mm": 0.03959431777414533,
+    "trackingRelativeDifference_percent": 4.457129633853851,
+    "syncRelativeDifference_percent": 10.668617986945694,
+    "trackingWaveformCorrelation": 0.7557145705550127,
+    "syncWaveformCorrelation": 0.129424432495654
+  },
+  "R86Metrics": {
+    "observedNativeSamples": 400,
+    "expectedNativeSamples": 400,
+    "actualTrackingRMSE_mm": 0.13400969181368935,
+    "modeledTrackingRMSE_mm": 0.1392837436673785,
+    "actualSyncRMS_mm": 0.035777367147402,
+    "modeledSyncRMS_mm": 0.04015887199611065,
+    "trackingRelativeDifference_percent": 3.9355749441029486,
+    "syncRelativeDifference_percent": 12.246582680768391,
+    "trackingWaveformCorrelation": 0.7606226398176406,
+    "syncWaveformCorrelation": 0.13289232675292048
+  },
+  "R82WaveformErrors": {
+    "axisRMSE_mm": [
+      0.1019337897853309,
+      0.10391098353879637
+    ],
+    "meanPositionWaveformRMSE_mm": 0.09959693142863388,
+    "syncWaveformRMSE_mm": 0.05194020600652254,
+    "meanMaximumAbsoluteDifference_mm": 0.2474999999999999,
+    "syncMaximumAbsoluteDifference_mm": 0.1929999999999998
+  },
+  "R86WaveformErrors": {
+    "axisRMSE_mm": [
+      0.10119514563456118,
+      0.10187213799660845
+    ],
+    "meanPositionWaveformRMSE_mm": 0.09812393948471496,
+    "syncWaveformRMSE_mm": 0.052187642215375064,
+    "meanMaximumAbsoluteDifference_mm": 0.2474999999999999,
+    "syncMaximumAbsoluteDifference_mm": 0.1969999999999999
+  },
+  "independentPythonSteps": 40000,
+  "modelsRefitted": 0,
+  "run05UsedForTraining": false,
+  "allRawParametersAndFirmwareUnchanged": true,
+  "conclusion": "Both scalar RMS predictions are relatively close, but R86 improves tracking and slightly worsens sync relative to frozen R82 on this held-out run. Sync waveform prediction remains weak (R86 correlation0.1329, waveformRMSE0.05219mm). This does not demonstrate uniformly improved modeling or autonomous closed-loop predictive validity.",
+  "remainingPhaseMismatch": "R86 target-hold tracking RMS0.003118 vsactual0.047975mm; return-hold tracking0.083039 vsactual0.020232mm. Aggregate tracking RMS closeness conceals these discrepancies.",
+  "predeclaredApplicationTolerance": false,
+  "physicalCauseIdentified": false,
+  "physicalModelValidationDeclaredPassed": false,
+  "modelSelectedFromRun05Outcome": false,
+  "newPhysicalRunReleased": false,
+  "assistantHardwareAction": false,
+  "nextRecommendedStep": "Pause identical repeat acquisition. Diagnose systematic holding and differential-waveform mismatch using existing data. Any subsequent refit must retain this before-fit test and treat run05 as calibration thereafter.",
+  "analysisLabelBug": "Initial evaluator reused the model label variable while packing inputs. This affected output filenames/modelLabel only, not theta or rollout. Debug artifacts and original script retained; label fixed, both declared evaluations independently rerun and verified."
+}

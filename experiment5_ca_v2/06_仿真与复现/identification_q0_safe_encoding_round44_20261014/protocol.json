@@ -1,0 +1,15 @@
+{
+ "build":67823,"method":11,"schema":4490,"stopMagic":4441,
+ "scope":"Stop-only transport encoding fix; control,guards,trajectory and collection unchanged from67822",
+ "finding":"Raw uint16 words converted to float may mimic JustFloat0000807f across a preceding zero. Exact examples:0 followed by1022,4088,16352 or65408. Synthetic byte-level reproduction confirms protocol collision; CSV alone does not independently prove which bytes were lost on the actual UART.",
+ "wordEncoding":1,"fields":[91,93,96,97,98,99,100,101,102,103],
+ "encoding":"For word<32768 send65536+2*word; otherwise262144+8*(word-32768). Both ranges are exact integers in float32 andCSV6decimals, low byte always00, third byte>=80. Decoder inverts before CRC; sealed raw record fields unaltered.",
+ "header":"reserved[3]=1 split-range encoding marker; build/schema/magic are new to reject mixed formats",
+ "export":"Two copies per index, ascending then descending; status4 only after both, last index0. No motion rerun. Still require two identical copies of every index and wholeCRC.",
+ "stop":"I88=4441,I89=4,I90=0 then at least5seconds; estimated12minutes total, flags mandatory",
+ "noT1V1":true,"noFormalCollection":true,"assistantWillNotFlashOrStart":true,
+ "PCHeartbeatWatchdogNotEnabledInManualMode":true,
+ "rawFolder":"01_原始数据/辨识Q0_手动VOFA_安全编码_20261014",
+ "filename":"E5ID_Q0M3_BLNN_B67823_HW6_L1200_R1200_M0g_S2mm_run01.csv",
+ "qualification":"Native/compile checks are not on-board timing or physical qualification. Missing motion frames, faults, incomplete chunks or CRC failure remain invalid. No fabricated filling, no controller efficacy claim."
+}

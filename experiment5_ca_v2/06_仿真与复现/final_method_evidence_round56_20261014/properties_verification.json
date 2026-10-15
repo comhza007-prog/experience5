@@ -1,0 +1,18 @@
+{
+  "tests": [
+    {
+      "precision": "float",
+      "result": "PASS rejectionBoundaries=13; eligible3000+random60000; mode3=4217; exact unaffected/rotation/ordinary30000; all current/sector/slew and numerical guards."
+    },
+    {
+      "precision": "double",
+      "result": "PASS rejectionBoundaries=13; eligible3000+random60000; mode3=4217; exact unaffected/rotation/ordinary30000; all current/sector/slew and numerical guards."
+    }
+  ],
+  "currentCoreSHA256": "2614e4bb025461295fee4cbc9025a8f868ee4a4b82b2ca12789ff564ecac430d",
+  "fixture": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\retention_round13_20261013\\test_retention.c",
+  "fixtureSHA256": "49b7b2916d63f8a460bbba7fe7a3a86061e86c451399b96fe30b6fe0e725bcb6",
+  "scope": "Finite synthetic boundaries/same-state regression. Not closed-loop theorem, physical efficacy orWCET.",
+  "noSourceChanges": true,
+  "noNewPhysicalRuns": true
+}

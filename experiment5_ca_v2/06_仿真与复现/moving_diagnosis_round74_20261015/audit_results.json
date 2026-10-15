@@ -1,0 +1,1295 @@
+{
+  "date": "2026-10-15",
+  "protocolSHA256": "0d0b7669658a8bcd89b163e4649b122a991819047a489432ae9001cd15a06f56",
+  "scriptSHA256": "5ee58c896c2394c40ac2476f4fe2a10564f3cf3e602aa87ed5911d6a348dea37",
+  "sourceInfo": [
+    {
+      "record": "T1",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\identification_t1_fullmoving_round70_20261015\\build68112_d1184a41428b_analysis.json",
+      "decodedSHA256": "16ae14e84c7cb662eafa59d49a8c4ad94115ae74ca85c2012984ecb5c874c021",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\辨识T1_全运动段_20261015\\E5ID_T1F_BLNN_B68112_HW6_PRBS20_10_seed39_L1200_R1200_M0g_S2mm_run01.csv",
+      "rawSHA256": "d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0"
+    },
+    {
+      "record": "newQ2",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_mechanical_recheck_round73_20261015\\build68012_84bbb6e34165_analysis.json",
+      "decodedSHA256": "1b23fd6f8ac066edbeb53ac54e8cabbd64a25d063f39e368ada73442d8b85da4",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run02.csv",
+      "rawSHA256": "84bbb6e3416540a238354d7636a6bc4e6f5ba0cd2d090470e3eb1bba1ce153db"
+    }
+  ],
+  "frozenModelSHA256": "0efb92bb13bb6b96059cce67592f044e88c5a2d234c956280099f6b54daa6589",
+  "nativeLibrarySHA256": "48405f957eabf032172f8f77898ce2825ac928d6693964aa5a916777ae51b377",
+  "modelModeDiagnostics": {
+    "massEigenvalues": [
+      0.1204431987175359,
+      1.879556801282464
+    ],
+    "massDampingGeneralizedPoles_per_s": [
+      3.9800245302114945,
+      2842.4869270134695
+    ],
+    "timeConstants_ms": [
+      0.3518046083155342,
+      251.25473283122227
+    ],
+    "nominalLoggedPeriod_ms": 1,
+    "springCoefficient": 0.0,
+    "physicalHardwareConstantsIdentified": false,
+    "subSampleTimeConstantAloneNotUnidentifiabilityProof": true
+  },
+  "records": [
+    {
+      "record": "T1",
+      "phases": [
+        {
+          "phase": 2,
+          "initialPosition_mm": [
+            0.0,
+            -0.0
+          ],
+          "initialEncoder80StepVelocity_mm_s": [
+            0.0,
+            -0.0
+          ],
+          "initialVelocityWindow_ms": 80.0,
+          "conditional4s1msErrors": {
+            "axisRMSE_mm": [
+              0.13574558723997443,
+              0.13059032457734976
+            ],
+            "meanPositionPredictionRMSE_mm": 0.1296431277707231,
+            "syncPredictionRMSE_mm": 0.06109036212024184,
+            "syncMaximumAbsolute_mm": 0.2594870469895775
+          },
+          "fullTask4s1msErrors": {
+            "axisRMSE_mm": [
+              0.13574558723997557,
+              0.13059032457735031
+            ],
+            "meanPositionPredictionRMSE_mm": 0.1296431277707238,
+            "syncPredictionRMSE_mm": 0.061090362120241874,
+            "syncMaximumAbsolute_mm": 0.2594870469895783
+          },
+          "conditionalNative100Errors": {
+            "axisRMSE_mm": [
+              0.13534675734552748,
+              0.13102771325140472
+            ],
+            "meanPositionPredictionRMSE_mm": 0.1295166202529551,
+            "syncPredictionRMSE_mm": 0.06225586752017969,
+            "syncMaximumAbsolute_mm": 0.21916841727379544
+          },
+          "fullTaskNative100Errors": {
+            "axisRMSE_mm": [
+              0.1353467573455285,
+              0.13102771325140508
+            ],
+            "meanPositionPredictionRMSE_mm": 0.1295166202529558,
+            "syncPredictionRMSE_mm": 0.06225586752017972,
+            "syncMaximumAbsolute_mm": 0.2191684172737963
+          },
+          "conditionalVsFullNativeDifference": {
+            "axisRMSE_mm": [
+              4.818206168122824e-15,
+              4.177234088004356e-15
+            ],
+            "meanPositionPredictionRMSE_mm": 4.4676940464099854e-15,
+            "syncPredictionRMSE_mm": 1.219684483682521e-15,
+            "syncMaximumAbsolute_mm": 3.469446951953614e-15
+          },
+          "nativeInitialStateNotGroundTruthVelocity": true,
+          "conditionalPredictionNotFullModelValidation": true,
+          "alignment": {
+            "matchedMotionFrames": 99,
+            "rpmMismatchFrames": 0,
+            "encoderMismatchFrames": 0,
+            "currentLiveCommandVsNextIntervalMismatchFrames": 0,
+            "previousQueuedIntervalNotSameFrameNewCommand": true
+          },
+          "reportedCurrentAssociationsFixedLookbacks": [
+            {
+              "queuedLookback_steps": -5,
+              "negativeMeansFutureControlNotCausalInput": true,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.7295599621054251,
+                  "intercept_counts": 59.47539839273346,
+                  "correlation": 0.7991114478966553,
+                  "residualRMS_counts": 111.03577288767654,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8248971585506567,
+                  "intercept_counts": -51.73252233118195,
+                  "correlation": 0.8422873145063028,
+                  "residualRMS_counts": 115.47709142620042,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": -2,
+              "negativeMeansFutureControlNotCausalInput": true,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.7917896509293924,
+                  "intercept_counts": 44.27148152202899,
+                  "correlation": 0.8506426140300445,
+                  "residualRMS_counts": 97.10261444648638,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8968065237273082,
+                  "intercept_counts": -34.66007344555232,
+                  "correlation": 0.9019350041656266,
+                  "residualRMS_counts": 92.52065211492223,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": -1,
+              "negativeMeansFutureControlNotCausalInput": true,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.820463383197824,
+                  "intercept_counts": 36.64707439811849,
+                  "correlation": 0.8668504880428044,
+                  "residualRMS_counts": 92.08329483066122,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.926831803984056,
+                  "intercept_counts": -24.12137256961829,
+                  "correlation": 0.9294074906433003,
+                  "residualRMS_counts": 79.06333553606547,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 0,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.8534464606266082,
+                  "intercept_counts": 29.629721633177308,
+                  "correlation": 0.8903840969521541,
+                  "residualRMS_counts": 84.07523747343154,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.9429093254006541,
+                  "intercept_counts": -14.642604364182057,
+                  "correlation": 0.9446390791825833,
+                  "residualRMS_counts": 70.29185417296402,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 1,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.8888939303362872,
+                  "intercept_counts": 21.7867375875131,
+                  "correlation": 0.910378440482393,
+                  "residualRMS_counts": 76.42267668190198,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.9458289814185992,
+                  "intercept_counts": -13.127160118608506,
+                  "correlation": 0.9502937009138795,
+                  "residualRMS_counts": 66.70210899031422,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 2,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.9163135085459969,
+                  "intercept_counts": 16.55178981698522,
+                  "correlation": 0.9233315440622957,
+                  "residualRMS_counts": 70.92375611696843,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.9526060618517939,
+                  "intercept_counts": -7.837946442247448,
+                  "correlation": 0.9584684319440052,
+                  "residualRMS_counts": 61.09860497671923,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 5,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.907090318202011,
+                  "intercept_counts": 22.569689791222437,
+                  "correlation": 0.9202353209408247,
+                  "residualRMS_counts": 72.28344290318645,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.929604033546508,
+                  "intercept_counts": -1.8167632797166628,
+                  "correlation": 0.9404561992357877,
+                  "residualRMS_counts": 72.82056442296583,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 10,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.7626155658480726,
+                  "intercept_counts": 62.457868607680105,
+                  "correlation": 0.8289870736760385,
+                  "residualRMS_counts": 103.29423401201947,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8554539989329272,
+                  "intercept_counts": -15.48943356752278,
+                  "correlation": 0.8837701214635711,
+                  "residualRMS_counts": 100.24360727911062,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            }
+          ],
+          "encoderRPMDiagnostics": [
+            {
+              "windowSteps": 50,
+              "windows": 3951,
+              "encoderMinusRPMVelocityMean_mm_s": [
+                0.14056752567836764,
+                -0.11279527459284998
+              ],
+              "encoderMinusRPMVelocityRMS_mm_s": [
+                0.1914404814092626,
+                0.15764970338572123
+              ],
+              "meanResidualEquivalentRawRPM": [
+                0.8501366438827612,
+                0.6821731813620234
+              ],
+              "encoderRMS_mm_s": [
+                1.1313009612826936,
+                1.1919343243202631
+              ],
+              "rpmRMS_mm_s": [
+                1.02785000910311,
+                1.2846512412511772
+              ],
+              "noSensorBiasDelayOrQuantizerFitted": true,
+              "endSampleRPMIntegralNotContinuousTruth": true
+            },
+            {
+              "windowSteps": 100,
+              "windows": 3901,
+              "encoderMinusRPMVelocityMean_mm_s": [
+                0.14082184503314088,
+                -0.1141075716348634
+              ],
+              "encoderMinusRPMVelocityRMS_mm_s": [
+                0.1739557729623815,
+                0.14207128956625995
+              ],
+              "meanResidualEquivalentRawRPM": [
+                0.8516747388424467,
+                0.6901098068215
+              ],
+              "encoderRMS_mm_s": [
+                1.0222757567616687,
+                1.0643709723831487
+              ],
+              "rpmRMS_mm_s": [
+                0.9109651414411445,
+                1.1659598406728402
+              ],
+              "noSensorBiasDelayOrQuantizerFitted": true,
+              "endSampleRPMIntegralNotContinuousTruth": true
+            }
+          ]
+        },
+        {
+          "phase": 4,
+          "initialPosition_mm": [
+            2.1156824125228013,
+            2.125370712064978
+          ],
+          "initialEncoder80StepVelocity_mm_s": [
+            -0.03027631452323322,
+            -0.0
+          ],
+          "initialVelocityWindow_ms": 79.999,
+          "conditional4s1msErrors": {
+            "axisRMSE_mm": [
+              0.15705544502531907,
+              0.13347158643857826
+            ],
+            "meanPositionPredictionRMSE_mm": 0.14194323798015335,
+            "syncPredictionRMSE_mm": 0.06611068872657376,
+            "syncMaximumAbsolute_mm": 0.29116183872261897
+          },
+          "fullTask4s1msErrors": {
+            "axisRMSE_mm": [
+              0.1388576634338425,
+              0.1236594165227739
+            ],
+            "meanPositionPredictionRMSE_mm": 0.1277538699829192,
+            "syncPredictionRMSE_mm": 0.06214498206346096,
+            "syncMaximumAbsolute_mm": 0.2717095060776062
+          },
+          "conditionalNative100Errors": {
+            "axisRMSE_mm": [
+              0.15831980472540133,
+              0.13268172509612677
+            ],
+            "meanPositionPredictionRMSE_mm": 0.1418360204069387,
+            "syncPredictionRMSE_mm": 0.0697809053110996,
+            "syncMaximumAbsolute_mm": 0.2914231752835874
+          },
+          "fullTaskNative100Errors": {
+            "axisRMSE_mm": [
+              0.14004942849705823,
+              0.12289582029794588
+            ],
+            "meanPositionPredictionRMSE_mm": 0.12757156852830104,
+            "syncPredictionRMSE_mm": 0.06585157364126723,
+            "syncMaximumAbsolute_mm": 0.2719708428879431
+          },
+          "conditionalVsFullNativeDifference": {
+            "axisRMSE_mm": [
+              0.0766666933015085,
+              0.05721530550558736
+            ],
+            "meanPositionPredictionRMSE_mm": 0.06694099580625774,
+            "syncPredictionRMSE_mm": 0.019451437315449377,
+            "syncMaximumAbsolute_mm": 0.019452395423894445
+          },
+          "nativeInitialStateNotGroundTruthVelocity": true,
+          "conditionalPredictionNotFullModelValidation": true,
+          "alignment": {
+            "matchedMotionFrames": 99,
+            "rpmMismatchFrames": 0,
+            "encoderMismatchFrames": 0,
+            "currentLiveCommandVsNextIntervalMismatchFrames": 0,
+            "previousQueuedIntervalNotSameFrameNewCommand": true
+          },
+          "reportedCurrentAssociationsFixedLookbacks": [
+            {
+              "queuedLookback_steps": -5,
+              "negativeMeansFutureControlNotCausalInput": true,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.5961921877734812,
+                  "intercept_counts": -88.23883013781845,
+                  "correlation": 0.6937686245810747,
+                  "residualRMS_counts": 123.66367338843435,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8702850146238212,
+                  "intercept_counts": 29.253781595574903,
+                  "correlation": 0.8904856079416992,
+                  "residualRMS_counts": 90.98711923334355,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": -2,
+              "negativeMeansFutureControlNotCausalInput": true,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.6739028263710526,
+                  "intercept_counts": -69.55523233312775,
+                  "correlation": 0.811703309028741,
+                  "residualRMS_counts": 100.28942500852774,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.9055241664087589,
+                  "intercept_counts": 19.83384428027019,
+                  "correlation": 0.9271780158064545,
+                  "residualRMS_counts": 74.91172527582201,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": -1,
+              "negativeMeansFutureControlNotCausalInput": true,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.70369786167306,
+                  "intercept_counts": -62.11755608391431,
+                  "correlation": 0.8421969478086153,
+                  "residualRMS_counts": 92.5797465025346,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.9114905428849561,
+                  "intercept_counts": 17.866373113778685,
+                  "correlation": 0.9380009280407952,
+                  "residualRMS_counts": 69.31499777080764,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 0,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.7201590762481871,
+                  "intercept_counts": -57.95160038262411,
+                  "correlation": 0.8707411882502799,
+                  "residualRMS_counts": 84.4359107791612,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.9227788295318707,
+                  "intercept_counts": 12.970665582883877,
+                  "correlation": 0.9505765207200249,
+                  "residualRMS_counts": 62.08773012169241,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 1,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.7445421632318382,
+                  "intercept_counts": -50.735422346360735,
+                  "correlation": 0.888892739856008,
+                  "residualRMS_counts": 78.66202574056327,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.9257884027377833,
+                  "intercept_counts": 12.138704471056364,
+                  "correlation": 0.9596641159287931,
+                  "residualRMS_counts": 56.220439848257804,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 2,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.7627077928984994,
+                  "intercept_counts": -46.1850764641215,
+                  "correlation": 0.8991682405298953,
+                  "residualRMS_counts": 75.13990659320501,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.9241201998326143,
+                  "intercept_counts": 12.987742606317024,
+                  "correlation": 0.9637738716260813,
+                  "residualRMS_counts": 53.3352491831787,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 5,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.7760323255777424,
+                  "intercept_counts": -36.09944386503062,
+                  "correlation": 0.8751622055824628,
+                  "residualRMS_counts": 83.07736678220073,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8980627909249743,
+                  "intercept_counts": 21.14083827363528,
+                  "correlation": 0.9546479781101916,
+                  "residualRMS_counts": 59.537450438096364,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 10,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.6451004487833809,
+                  "intercept_counts": -63.11170052342218,
+                  "correlation": 0.7447097537199282,
+                  "residualRMS_counts": 114.59586951088959,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8246788933948055,
+                  "intercept_counts": 44.93395577978698,
+                  "correlation": 0.9001551184840441,
+                  "residualRMS_counts": 87.099379242188,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            }
+          ],
+          "encoderRPMDiagnostics": [
+            {
+              "windowSteps": 50,
+              "windows": 3951,
+              "encoderMinusRPMVelocityMean_mm_s": [
+                0.1843282762454594,
+                -0.11063991933490057
+              ],
+              "encoderMinusRPMVelocityRMS_mm_s": [
+                0.23109094647490946,
+                0.17053075424319772
+              ],
+              "meanResidualEquivalentRawRPM": [
+                1.1147967596624277,
+                0.6691378342822095
+              ],
+              "encoderRMS_mm_s": [
+                1.189036900589679,
+                1.2086654033261106
+              ],
+              "rpmRMS_mm_s": [
+                1.3008341478956549,
+                1.0996398863825472
+              ],
+              "noSensorBiasDelayOrQuantizerFitted": true,
+              "endSampleRPMIntegralNotContinuousTruth": true
+            },
+            {
+              "windowSteps": 100,
+              "windows": 3901,
+              "encoderMinusRPMVelocityMean_mm_s": [
+                0.18526447598478618,
+                -0.11205804079876798
+              ],
+              "encoderMinusRPMVelocityRMS_mm_s": [
+                0.2127544719874468,
+                0.15667002507654745
+              ],
+              "meanResidualEquivalentRawRPM": [
+                1.1204587907791757,
+                0.6777144739868087
+              ],
+              "encoderRMS_mm_s": [
+                1.0908287890487804,
+                1.112603426558413
+              ],
+              "rpmRMS_mm_s": [
+                1.2138836327590077,
+                1.0000513881382262
+              ],
+              "noSensorBiasDelayOrQuantizerFitted": true,
+              "endSampleRPMIntegralNotContinuousTruth": true
+            }
+          ]
+        }
+      ],
+      "supplyVoltageDuringActive_V": [
+        24.163731,
+        24.771008
+      ],
+      "reportedBMSValidDuringActive": true
+    },
+    {
+      "record": "newQ2",
+      "phases": [
+        {
+          "phase": 2,
+          "initialPosition_mm": [
+            0.0,
+            -0.0
+          ],
+          "initialEncoder80StepVelocity_mm_s": [
+            0.0,
+            -0.0
+          ],
+          "initialVelocityWindow_ms": 80.0,
+          "conditional4s1msErrors": {
+            "axisRMSE_mm": [
+              0.12882897860263526,
+              0.12421542760843754
+            ],
+            "meanPositionPredictionRMSE_mm": 0.12332762320104892,
+            "syncPredictionRMSE_mm": 0.05669167302003821,
+            "syncMaximumAbsolute_mm": 0.23626620685803412
+          },
+          "fullTask4s1msErrors": {
+            "axisRMSE_mm": [
+              0.1288289786026367,
+              0.12421542760843862
+            ],
+            "meanPositionPredictionRMSE_mm": 0.12332762320105027,
+            "syncPredictionRMSE_mm": 0.056691673020038226,
+            "syncMaximumAbsolute_mm": 0.2362662068580363
+          },
+          "conditionalNative100Errors": {
+            "axisRMSE_mm": [
+              0.12722937101521814,
+              0.12434385997448184
+            ],
+            "meanPositionPredictionRMSE_mm": 0.1228157149426171,
+            "syncPredictionRMSE_mm": 0.054429930893750054,
+            "syncMaximumAbsolute_mm": 0.19499052044181847
+          },
+          "fullTaskNative100Errors": {
+            "axisRMSE_mm": [
+              0.1272293710152195,
+              0.12434385997448305
+            ],
+            "meanPositionPredictionRMSE_mm": 0.12281571494261842,
+            "syncPredictionRMSE_mm": 0.054429930893750124,
+            "syncMaximumAbsolute_mm": 0.19499052044182064
+          },
+          "conditionalVsFullNativeDifference": {
+            "axisRMSE_mm": [
+              4.4256141682906266e-15,
+              3.2439915382923893e-15
+            ],
+            "meanPositionPredictionRMSE_mm": 3.6960285843300675e-15,
+            "syncPredictionRMSE_mm": 2.361477196467295e-15,
+            "syncMaximumAbsolute_mm": 8.673617379884035e-15
+          },
+          "nativeInitialStateNotGroundTruthVelocity": true,
+          "conditionalPredictionNotFullModelValidation": true,
+          "alignment": {
+            "matchedMotionFrames": 99,
+            "rpmMismatchFrames": 0,
+            "encoderMismatchFrames": 0,
+            "currentLiveCommandVsNextIntervalMismatchFrames": 0,
+            "previousQueuedIntervalNotSameFrameNewCommand": true
+          },
+          "reportedCurrentAssociationsFixedLookbacks": [
+            {
+              "queuedLookback_steps": -5,
+              "negativeMeansFutureControlNotCausalInput": true,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.560894358145727,
+                  "intercept_counts": 108.45873189585286,
+                  "correlation": 0.6509297866396204,
+                  "residualRMS_counts": 138.63535077223838,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.6966059880104034,
+                  "intercept_counts": -74.59599930144162,
+                  "correlation": 0.768656558560462,
+                  "residualRMS_counts": 131.11325273696036,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": -2,
+              "negativeMeansFutureControlNotCausalInput": true,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.6231425941760311,
+                  "intercept_counts": 93.96991566693374,
+                  "correlation": 0.7053582370640967,
+                  "residualRMS_counts": 129.45184722875624,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.7873603916797762,
+                  "intercept_counts": -50.18331462019891,
+                  "correlation": 0.8318370952167369,
+                  "residualRMS_counts": 113.76397713720331,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": -1,
+              "negativeMeansFutureControlNotCausalInput": true,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.6437536827435753,
+                  "intercept_counts": 90.07329605910097,
+                  "correlation": 0.7230302649701578,
+                  "residualRMS_counts": 126.15832055290288,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8213022576560819,
+                  "intercept_counts": -39.15201128214337,
+                  "correlation": 0.8580060972337941,
+                  "residualRMS_counts": 105.28212858870074,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 0,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.6629671293061526,
+                  "intercept_counts": 86.17093591569936,
+                  "correlation": 0.7373187764375436,
+                  "residualRMS_counts": 123.36943057551738,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8324937963249642,
+                  "intercept_counts": -34.33271315909865,
+                  "correlation": 0.8695846064012362,
+                  "residualRMS_counts": 101.2122853891118,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 1,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.67382525196393,
+                  "intercept_counts": 85.05610167547289,
+                  "correlation": 0.7462107116891229,
+                  "residualRMS_counts": 121.57331420527268,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8375259765447004,
+                  "intercept_counts": -32.983335947656094,
+                  "correlation": 0.872323715473934,
+                  "residualRMS_counts": 100.21709934511553,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 2,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.6997339553468935,
+                  "intercept_counts": 79.45030795014571,
+                  "correlation": 0.7633858175705551,
+                  "residualRMS_counts": 117.96341755471633,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8531369489519781,
+                  "intercept_counts": -27.560546810690315,
+                  "correlation": 0.876341302758425,
+                  "residualRMS_counts": 98.73349125424144,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 5,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.7114901737487597,
+                  "intercept_counts": 70.494380683295,
+                  "correlation": 0.7760528891266633,
+                  "residualRMS_counts": 115.17387199221787,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8875450465588711,
+                  "intercept_counts": -13.95697000693163,
+                  "correlation": 0.874865110217347,
+                  "residualRMS_counts": 99.2819875364055,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 10,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.5630727943340528,
+                  "intercept_counts": 104.83116506176894,
+                  "correlation": 0.649628872707377,
+                  "residualRMS_counts": 138.83870944425837,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8205151841598911,
+                  "intercept_counts": -17.40704715600909,
+                  "correlation": 0.8091793078255068,
+                  "residualRMS_counts": 120.4341857710198,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            }
+          ],
+          "encoderRPMDiagnostics": [
+            {
+              "windowSteps": 50,
+              "windows": 3951,
+              "encoderMinusRPMVelocityMean_mm_s": [
+                0.1467412873705212,
+                -0.14500466126447414
+              ],
+              "encoderMinusRPMVelocityRMS_mm_s": [
+                0.2025253177366778,
+                0.19372311740787293
+              ],
+              "meanResidualEquivalentRawRPM": [
+                0.8874748627905092,
+                0.8769719427003306
+              ],
+              "encoderRMS_mm_s": [
+                1.09490582889974,
+                1.1927774144467327
+              ],
+              "rpmRMS_mm_s": [
+                0.9887473683163271,
+                1.2905570857322517
+              ],
+              "noSensorBiasDelayOrQuantizerFitted": true,
+              "endSampleRPMIntegralNotContinuousTruth": true
+            },
+            {
+              "windowSteps": 100,
+              "windows": 3901,
+              "encoderMinusRPMVelocityMean_mm_s": [
+                0.14723005586932858,
+                -0.1453236986021553
+              ],
+              "encoderMinusRPMVelocityRMS_mm_s": [
+                0.18282313553838805,
+                0.17509747273612375
+              ],
+              "meanResidualEquivalentRawRPM": [
+                0.8904308799019043,
+                0.8789014447686117
+              ],
+              "encoderRMS_mm_s": [
+                1.0006186285236076,
+                1.0650128624859245
+              ],
+              "rpmRMS_mm_s": [
+                0.8888742401667514,
+                1.174453823079329
+              ],
+              "noSensorBiasDelayOrQuantizerFitted": true,
+              "endSampleRPMIntegralNotContinuousTruth": true
+            }
+          ]
+        },
+        {
+          "phase": 4,
+          "initialPosition_mm": [
+            2.109627225308941,
+            2.1205265622938896
+          ],
+          "initialEncoder80StepVelocity_mm_s": [
+            -0.09082780820790504,
+            -0.0
+          ],
+          "initialVelocityWindow_ms": 80.0,
+          "conditional4s1msErrors": {
+            "axisRMSE_mm": [
+              0.15724797539048707,
+              0.13481170468159062
+            ],
+            "meanPositionPredictionRMSE_mm": 0.1426876435475009,
+            "syncPredictionRMSE_mm": 0.06605443575243539,
+            "syncMaximumAbsolute_mm": 0.24651917571421614
+          },
+          "fullTask4s1msErrors": {
+            "axisRMSE_mm": [
+              0.15520796647137017,
+              0.13702294974931248
+            ],
+            "meanPositionPredictionRMSE_mm": 0.14315508136016258,
+            "syncPredictionRMSE_mm": 0.06128698027658027,
+            "syncMaximumAbsolute_mm": 0.2295436890313008
+          },
+          "conditionalNative100Errors": {
+            "axisRMSE_mm": [
+              0.15554678335236138,
+              0.1345051504087192
+            ],
+            "meanPositionPredictionRMSE_mm": 0.1419344073058875,
+            "syncPredictionRMSE_mm": 0.06317729565582063,
+            "syncMaximumAbsolute_mm": 0.22310636020698227
+          },
+          "fullTaskNative100Errors": {
+            "axisRMSE_mm": [
+              0.15351653749866787,
+              0.1367870057643415
+            ],
+            "meanPositionPredictionRMSE_mm": 0.142407156787935,
+            "syncPredictionRMSE_mm": 0.058624493562108956,
+            "syncMaximumAbsolute_mm": 0.20613139447627443
+          },
+          "conditionalVsFullNativeDifference": {
+            "axisRMSE_mm": [
+              0.006732153754693226,
+              0.010517549711691068
+            ],
+            "meanPositionPredictionRMSE_mm": 0.00242063028534373,
+            "syncPredictionRMSE_mm": 0.016983630009987642,
+            "syncMaximumAbsolute_mm": 0.017107739072140006
+          },
+          "nativeInitialStateNotGroundTruthVelocity": true,
+          "conditionalPredictionNotFullModelValidation": true,
+          "alignment": {
+            "matchedMotionFrames": 99,
+            "rpmMismatchFrames": 0,
+            "encoderMismatchFrames": 0,
+            "currentLiveCommandVsNextIntervalMismatchFrames": 0,
+            "previousQueuedIntervalNotSameFrameNewCommand": true
+          },
+          "reportedCurrentAssociationsFixedLookbacks": [
+            {
+              "queuedLookback_steps": -5,
+              "negativeMeansFutureControlNotCausalInput": true,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.5582468586118643,
+                  "intercept_counts": -86.42079967198225,
+                  "correlation": 0.7065411896821405,
+                  "residualRMS_counts": 126.44219783622393,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.6988391149996634,
+                  "intercept_counts": 82.51938588181164,
+                  "correlation": 0.7908797607874208,
+                  "residualRMS_counts": 114.97941952042831,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": -2,
+              "negativeMeansFutureControlNotCausalInput": true,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.6817146292591636,
+                  "intercept_counts": -60.294801546401075,
+                  "correlation": 0.8584662196817968,
+                  "residualRMS_counts": 91.63628231114772,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.7779754876124885,
+                  "intercept_counts": 61.59135752344448,
+                  "correlation": 0.8822467707795861,
+                  "residualRMS_counts": 88.45320167220194,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": -1,
+              "negativeMeansFutureControlNotCausalInput": true,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.7085827166265495,
+                  "intercept_counts": -54.42831803110739,
+                  "correlation": 0.8873421360172946,
+                  "residualRMS_counts": 82.38841476394883,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8009791034760424,
+                  "intercept_counts": 53.86892933251479,
+                  "correlation": 0.9060455471966836,
+                  "residualRMS_counts": 79.50861439167232,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 0,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.7265014508963152,
+                  "intercept_counts": -51.64465604414792,
+                  "correlation": 0.9030956955724619,
+                  "residualRMS_counts": 76.72942084767585,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8147394235121779,
+                  "intercept_counts": 48.90002766486727,
+                  "correlation": 0.9209509571858581,
+                  "residualRMS_counts": 73.2141981730809,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 1,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.739370834029529,
+                  "intercept_counts": -51.20010117069973,
+                  "correlation": 0.9121131767700482,
+                  "residualRMS_counts": 73.24512978848624,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8265751144950588,
+                  "intercept_counts": 43.820598815038856,
+                  "correlation": 0.9312164786159229,
+                  "residualRMS_counts": 68.47728707916598,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 2,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.7463982618313986,
+                  "intercept_counts": -51.769897788343904,
+                  "correlation": 0.9118394973821374,
+                  "residualRMS_counts": 73.35383363218753,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8276319131458083,
+                  "intercept_counts": 41.748336111271456,
+                  "correlation": 0.9320021666089459,
+                  "residualRMS_counts": 68.09891713803565,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 5,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.6993730538850463,
+                  "intercept_counts": -61.92302403207539,
+                  "correlation": 0.8449757254955272,
+                  "residualRMS_counts": 95.55540431595992,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.8009142332874959,
+                  "intercept_counts": 48.58813856635313,
+                  "correlation": 0.8967666692291938,
+                  "residualRMS_counts": 83.13918994172101,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            },
+            {
+              "queuedLookback_steps": 10,
+              "negativeMeansFutureControlNotCausalInput": false,
+              "axis": [
+                {
+                  "samples": 99,
+                  "slope": 0.5498393530291847,
+                  "intercept_counts": -90.39427326869769,
+                  "correlation": 0.6080368263939014,
+                  "residualRMS_counts": 141.85044427133778,
+                  "notCausalOrCalibratedTorqueGain": true
+                },
+                {
+                  "samples": 99,
+                  "slope": 0.7216397147610031,
+                  "intercept_counts": 73.14606780995825,
+                  "correlation": 0.7946873882509298,
+                  "residualRMS_counts": 114.04889538918832,
+                  "notCausalOrCalibratedTorqueGain": true
+                }
+              ]
+            }
+          ],
+          "encoderRPMDiagnostics": [
+            {
+              "windowSteps": 50,
+              "windows": 3951,
+              "encoderMinusRPMVelocityMean_mm_s": [
+                0.17533230965513777,
+                -0.13161824578098164
+              ],
+              "encoderMinusRPMVelocityRMS_mm_s": [
+                0.21922684509393295,
+                0.18517636620730973
+              ],
+              "meanResidualEquivalentRawRPM": [
+                1.0603901617752571,
+                0.7960124018829461
+              ],
+              "encoderRMS_mm_s": [
+                1.1832633927707943,
+                1.1682325422694275
+              ],
+              "rpmRMS_mm_s": [
+                1.2927459231559861,
+                1.0568225527425004
+              ],
+              "noSensorBiasDelayOrQuantizerFitted": true,
+              "endSampleRPMIntegralNotContinuousTruth": true
+            },
+            {
+              "windowSteps": 100,
+              "windows": 3901,
+              "encoderMinusRPMVelocityMean_mm_s": [
+                0.17592641471821197,
+                -0.1333052214093843
+              ],
+              "encoderMinusRPMVelocityRMS_mm_s": [
+                0.20412480069912284,
+                0.17357726874925275
+              ],
+              "meanResidualEquivalentRawRPM": [
+                1.063983242623755,
+                0.8062150414479602
+              ],
+              "encoderRMS_mm_s": [
+                1.0902456622262318,
+                1.0662803372108567
+              ],
+              "rpmRMS_mm_s": [
+                1.2089631126973028,
+                0.9467595579944699
+              ],
+              "noSensorBiasDelayOrQuantizerFitted": true,
+              "endSampleRPMIntegralNotContinuousTruth": true
+            }
+          ]
+        }
+      ],
+      "supplyVoltageDuringActive_V": [
+        24.279371,
+        24.863848
+      ],
+      "reportedBMSValidDuringActive": true
+    }
+  ],
+  "independentConditionalPythonChecks": [
+    {
+      "record": "T1",
+      "phase": 2,
+      "steps": 4000,
+      "nativePythonMaximumDifference_m": 3.0357660829594124e-17,
+      "energyBalanceMaximumResidual": 1.7639012639582436e-21
+    },
+    {
+      "record": "T1",
+      "phase": 4,
+      "steps": 4000,
+      "nativePythonMaximumDifference_m": 1.4344502961751576e-17,
+      "energyBalanceMaximumResidual": 1.6500500308392629e-21
+    },
+    {
+      "record": "newQ2",
+      "phase": 2,
+      "steps": 4000,
+      "nativePythonMaximumDifference_m": 2.6454533008646308e-17,
+      "energyBalanceMaximumResidual": 1.5430456559937191e-21
+    },
+    {
+      "record": "newQ2",
+      "phase": 4,
+      "steps": 4000,
+      "nativePythonMaximumDifference_m": 1.473159701864679e-17,
+      "energyBalanceMaximumResidual": 1.757051174510539e-21
+    }
+  ],
+  "modelsFitted": 0,
+  "parametersChanged": false,
+  "newQ2UsedForCalibration": false,
+  "S3R2DataRead": false,
+  "fullModelAdmitted": false,
+  "modelClosureComplete": false,
+  "rawOrControlChanged": false,
+  "singleMismatchCauseProven": false,
+  "additionalPhysicalRunReleased": false,
+  "assistantHardwareAction": false
+}

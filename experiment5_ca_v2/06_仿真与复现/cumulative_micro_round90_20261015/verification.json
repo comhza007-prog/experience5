@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "independentPythonSteps": 120000,
+  "nativePointsChecked": 2399,
+  "maximumCAndPythonPositionDifference_m": 6.331740687315346e-16,
+  "maximumEnergyBalanceResidual": 1.2231528149166975e-21,
+  "independentlyRecomputedDataLoss": 8.940153202054555,
+  "checks": [
+    {
+      "record": "T1",
+      "steps": 20000,
+      "maxPositionDifference_m": 6.331740687315346e-16,
+      "trackingRMSE_mm": 0.17398049998491208,
+      "syncRMS_mm": 0.045691766216682854,
+      "trackingWaveformCorrelation": 0.7794501058904313,
+      "syncWaveformCorrelation": 0.11131017601925042
+    },
+    {
+      "record": "Q2_run02",
+      "steps": 20000,
+      "maxPositionDifference_m": 6.132247487578013e-16,
+      "trackingRMSE_mm": 0.1462959884959256,
+      "syncRMS_mm": 0.04474030621263112,
+      "trackingWaveformCorrelation": 0.7840198282004807,
+      "syncWaveformCorrelation": 0.10408904011304546
+    },
+    {
+      "record": "Q2_run03",
+      "steps": 20000,
+      "maxPositionDifference_m": 5.215012449655276e-16,
+      "trackingRMSE_mm": 0.19015629536427833,
+      "syncRMS_mm": 0.04637347029139795,
+      "trackingWaveformCorrelation": 0.5983017197888818,
+      "syncWaveformCorrelation": 0.13269432358725422
+    },
+    {
+      "record": "Q2_run04",
+      "steps": 20000,
+      "maxPositionDifference_m": 5.41667405373758e-16,
+      "trackingRMSE_mm": 0.12437778137593548,
+      "syncRMS_mm": 0.0365294401818588,
+      "trackingWaveformCorrelation": 0.7469489241274728,
+      "syncWaveformCorrelation": 0.09339093288752474
+    },
+    {
+      "record": "Q2_run05",
+      "steps": 20000,
+      "maxPositionDifference_m": 5.78096598369271e-16,
+      "trackingRMSE_mm": 0.13917202035610463,
+      "syncRMS_mm": 0.0400959474261427,
+      "trackingWaveformCorrelation": 0.7569619519392026,
+      "syncWaveformCorrelation": 0.13263262494282213
+    },
+    {
+      "record": "Q2_run06",
+      "steps": 20000,
+      "maxPositionDifference_m": 5.767955557622884e-16,
+      "trackingRMSE_mm": 0.1515888745093122,
+      "syncRMS_mm": 0.04243403704574902,
+      "trackingWaveformCorrelation": 0.7095671371516877,
+      "syncWaveformCorrelation": 0.1647764343131407
+    }
+  ],
+  "fitResultsSHA256": "6fc236c0441d183f1b9bffc8a6223fb55322772442efb461862e0be3dc2752a7",
+  "allRawDecodedFirmwareAndSourceParametersUnchanged": true,
+  "fixedCoreExactlyPreserved": true,
+  "physicalValidationPassed": false
+}

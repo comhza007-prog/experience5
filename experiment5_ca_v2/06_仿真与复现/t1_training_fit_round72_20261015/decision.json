@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-15",
+  "fitResultsSHA256": "0efb92bb13bb6b96059cce67592f044e88c5a2d234c956280099f6b54daa6589",
+  "fitBudget": {
+    "evaluations": 134,
+    "maximum": 180,
+    "iterations": 12
+  },
+  "trainingObjectiveReduction_percent": 59.91179646226269,
+  "waveformChanges": [
+    {
+      "record": "T1",
+      "nativeWaveformErrorChange_percent": {
+        "meanPositionPredictionRMSE_mm": -40.300447977619136,
+        "syncPredictionRMSE_mm": -4.83452473271938
+      }
+    },
+    {
+      "record": "Q2",
+      "nativeWaveformErrorChange_percent": {
+        "meanPositionPredictionRMSE_mm": 63.083130916855644,
+        "syncPredictionRMSE_mm": 29.712606079199368
+      }
+    }
+  ],
+  "fittedInertiaEta": 0.879556801282464,
+  "massEigenvalues": [
+    0.1204431987175359,
+    1.879556801282464
+  ],
+  "reciprocalSpringAtNumericalLowerBound": true,
+  "physicalZeroSpringOrInertiaProven": false,
+  "decision": "Do not admit this refit. T1 training improves but historical Q2 mean/sync waveform errors both worsen. Scalar Q2 syncRMS closer is insufficient because its sync waveform prediction error increases. Stop this fixed fit; do not expand parameter/seed search or physical batch automatically.",
+  "nextOfflineStep": "Diagnose cross-record command/feedback dynamics, encoder-vs-RPM observation mapping and40step hold-input abstraction with existing data before prospectively changing model structure. No assumed single cause and no new physical trial released.",
+  "modelClosureComplete": false,
+  "independentValidationPassed": false,
+  "Q2NotUntouchedHeldOut": true,
+  "S3R2DataRead": false,
+  "controlRawAndFirmwareUnchanged": true,
+  "newPhysicalRunReleased": false
+}

@@ -1,0 +1,40 @@
+{
+  "date":"2026-10-15",
+  "status":"Prospective claim-specific draft; numerical task tolerances and meaningful-gain budget unset, not an achieved admission",
+  "userPrinciple":"Reasonable discrepancy is acceptable; no requirement for pointwise identical waveforms",
+  "researchTarget":"Synchronization gain with explicitly reported tracking/peak/compute costs. Not all-metric superiority.",
+  "threeDifferentClaims":{
+    "illustrativeMechanism":"A declared-assumption simulation can illustrate behavior, but cannot be labeled identified/predictively validated hardware or substitute for physical evidence.",
+    "absolutePrediction":"Freeze model and initial-state estimator; test independent ordinary and candidate whole trajectories with original windows and phase metrics. Absolute tolerances need task or measurement rationale, not current-fit errors.",
+    "comparisonPrediction":"Evaluate predicted versus observed gain/cost directly. Large correlated absolute errors may cancel; this is a hypothesis to validate in method differences, not an automatic pass. A faithful forced-response replay is still not a counterfactual closed-loop efficacy test."
+  },
+  "definitions":{
+    "syncGain":"RMS_sync(ordinary)-RMS_sync(candidate), positive is synchronization benefit",
+    "trackingCost":"RMSE_tracking(candidate)-RMSE_tracking(ordinary), positive is tracking cost",
+    "differencePredictionError":"Predicted method difference minus independently observed method difference",
+    "sameWindow":"Original native40ms complete phase2..5, no choosing only favorable phases after results"
+  },
+  "pendingNumericalInputs":{
+    "applicationTrackingRMSELimit_mm":null,
+    "applicationMaximumErrorLimit_mm":null,
+    "allowedTrackingCost_mm":null,
+    "minimalMeaningfulSyncGain_mm":null,
+    "syncDifferencePredictionBudget_mm":null,
+    "trackingDifferencePredictionBudget_mm":null,
+    "absolutePredictionBudgets_mm":null
+  },
+  "noTaskToleranceFallback":"Report tracking-sync tradeoff without claiming task-acceptable cost. Do not invent positioning requirements.",
+  "prospectiveStoppingRules":[
+    "No continuing fit merely to overlay every point. Stop fitting at fixed model-selection budget or when preregistered validation requirements are met.",
+    "If critical predicted sync magnitude/direction does not reproduce observation, keep the model as an exploratory failure; do not relax thresholds after viewing it.",
+    "For claimed quantitative gains, specify difference-error budgets before new validation. Include run-to-run variability; one pair checks feasibility but not repeatability.",
+    "A sufficient empirical sign-resolution condition is predicted sync gain larger than its validated difference-error bound plus declared variability allowance. A training residual is not such a bound.",
+    "If revising after validation failure, that dataset becomes exploration and the next validation must remain independent. Never select only the successful run.",
+    "All earlier errors and failed branches remain preserved. No automatic new hardware batch."
+  ],
+  "selfDerivedRMSTriangleCheck":"For the same finite window, |RMS(pred)-RMS(actual)| <= RMS(pred-actual). For two methods, difference-metric error <= epsilonOrdinary+epsilonCandidate. These are empirical vector inequalities, not universal prediction guarantees. Direct difference validation can reveal cancellation not captured by the summed bound.",
+  "former2umProposal":"Retained as earlier unapproved gain-resolution discussion. Not a universal mandatory model threshold and not adopted here.",
+  "S3R2ValidationDataOpened":false,
+  "newPhysicalCaptureReleased":false,
+  "modelClosureComplete":false
+}

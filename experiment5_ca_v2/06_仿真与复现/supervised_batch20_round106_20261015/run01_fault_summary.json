@@ -1,0 +1,71 @@
+{
+  "status": "Batch halted at first attempt; fault record completely archived, not a qualified training run",
+  "source": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动采集Q2_20组_20261015\\E5ID_Q2B_BLNN_B68212_HW6_L1200_R1200_M0g_S2mm_batch01_run01.csv",
+  "sourceSHA256": "b7985052b496d07d33b5d46c73409deeef59bb020268d63b4486eee23cfae787",
+  "decodedSHA256": "c8712194fb8a072505fe57f86b39d99adf3bcb23e5321b37185495b2e771c796",
+  "attempts": 1,
+  "qualifiedCompletedRuns": 0,
+  "requestedRuns": 20,
+  "operatorConfirmedStoppedDriveOffBoardPowered": true,
+  "operatorObservation": "Almost no motion",
+  "firstFault": 1024,
+  "elapsedAtFault_s": 7.424000263214111,
+  "firstFaultUptime_s": 288.9210205078125,
+  "referenceAtFault_mm": 1.9524362869560719,
+  "positionsAtFault_mm": [
+    0.742365955375135,
+    0.3742105618584901
+  ],
+  "trackingErrorsAtFault_mm": [
+    -1.210070331580937,
+    -1.5782257250975817
+  ],
+  "lastActiveQueuedCommands": [
+    900.0,
+    -1200.0
+  ],
+  "lastActiveESCCurrentCounts": [
+    884.0,
+    -1214.0
+  ],
+  "maxActiveRpmAbs": [
+    18.0,
+    19.0
+  ],
+  "rpmPeakIncludingStartup": [
+    27.0,
+    28.0
+  ],
+  "observedConsecutiveNativeTrackingViolationSpan_s": 0.9600000381469727,
+  "faultInterpretation": "Mid-forward phase2, neither axis in negative-direction threshold and no return phase reached. Under unchanged source,1024 at this point is consistent with >1mm tracking deviation persisting1000ms, not final-origin error. Native40ms observations approximate duration, not exact1ms timer reconstruction.",
+  "rootCause": "Not uniquely identified: observed poor motion despite high attempted/current-feedback counts. Cannot attribute to belt friction, supply, motor or startup-mode change without further evidence. ADC voltage is not motor terminal voltage and ESC nativecounts are not calibrated torque.",
+  "livePrefixVoltageRange_V": [
+    24.056018829345703,
+    24.49516487121582
+  ],
+  "runtimeTiming": {
+    "overruns": 0,
+    "latePeriods": 0,
+    "corePeak_us": 110.11309814453125,
+    "bodyPeak_us": 244.0416717529297,
+    "recordedPeriodMin_us": 993,
+    "recordedPeriodMax_us": 1006
+  },
+  "frames": 4081,
+  "missingCSVFrames": 0,
+  "CRC32": 2707583862,
+  "minimumIdenticalChunkCopies": 4,
+  "completeFaultSnapshot": true,
+  "independentPythonDecodedMovingRows": 3424,
+  "independentPythonDecodedHoldingRows": 100,
+  "completionTail_s": 20.040008544921875,
+  "recorderQualityFlags": 14,
+  "qualityFlagsMeaning": "Fault, incomplete run, absent return/final-hold phases; snapshot itself has complete CRC.",
+  "zeroDriveAfterFaultVerified": true,
+  "controlProtectionWeakened": false,
+  "softwareFaultClear": false,
+  "automaticRetry": false,
+  "trainingStarted": false,
+  "modelParametersChanged": false,
+  "nextStep": "Keep stopped, no further batch ARM. Need determine why current plant cannot complete unchanged2mm/1200 baseline before supervised batch resume; preserve failed attempt and fixed16/4 split. No extra motion/new excitation authorized by this diagnosis."
+}

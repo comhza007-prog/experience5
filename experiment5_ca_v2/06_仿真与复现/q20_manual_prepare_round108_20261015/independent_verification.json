@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "version": 3,
+  "blobBytes": 69312,
+  "blobSHA256": "34db77cb8af0507b1da18c487c019d57f75546ca212f683836bcd3e04a856b9b",
+  "CRC32": 1541567316,
+  "independentIntervalRows": 4300,
+  "independentIntegrationSteps": 28000,
+  "slowRows": 300,
+  "fastRows": 4000,
+  "forwardFastRows": 2000,
+  "controlPeriod_us": 1000,
+  "movingLogIntervalSteps": 4,
+  "holdingLogIntervalSteps": 40,
+  "instruction": "Exact integrals, not recoverable1ms inputs. Fixture is NOT physical evidence.",
+  "hardwareAction": false
+}

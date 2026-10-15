@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "independentJSCaseMetricPoints": 1600,
+  "fixedCases": [
+    {
+      "case": "baseline",
+      "parameters": [
+        0.000036917129770177045,
+        0.000024922683762114945,
+        9.74239166885276,
+        4.882157822472511,
+        508.9629006613067,
+        248.92150653313465,
+        0,
+        0.006170731977857422,
+        -0.030628187904756653
+      ],
+      "completed": true,
+      "completedSteps": 20000,
+      "singleInitialState": true,
+      "noMeasuredFutureStateInjection": true,
+      "notRetrainedOrPhysicalValidation": true,
+      "native40msPredictionErrors": {
+        "meanPositionPredictionRMSE_mm": 0.10367240471793833,
+        "syncPredictionRMSE_mm": 0.05622855146631469
+      },
+      "predictedTrackingRMSE_mm": 0.15352923785064523,
+      "predictedSyncRMS_mm": 0.0050286678156346715,
+      "predictedMaxSync_mm": 0.013000000000000001,
+      "exactMovingEndpointPredictionErrors": {
+        "meanPositionPredictionRMSE_mm": 0.14450573432604644,
+        "syncPredictionRMSE_mm": 0.07720359508496646
+      },
+      "terminalPosition_mm": [
+        -0.020161227155754007,
+        -0.020074147170361174
+      ]
+    },
+    {
+      "case": "springZero",
+      "parameters": [
+        0.000036917129770177045,
+        0.000024922683762114945,
+        9.74239166885276,
+        4.882157822472511,
+        0,
+        248.92150653313465,
+        0,
+        0.006170731977857422,
+        -0.030628187904756653
+      ],
+      "completed": true,
+      "completedSteps": 20000,
+      "singleInitialState": true,
+      "noMeasuredFutureStateInjection": true,
+      "notRetrainedOrPhysicalValidation": true,
+      "native40msPredictionErrors": {
+        "meanPositionPredictionRMSE_mm": 0.10458895436421574,
+        "syncPredictionRMSE_mm": 0.0729309776432484
+      },
+      "predictedTrackingRMSE_mm": 0.1541414204553727,
+      "predictedSyncRMS_mm": 0.04802999063085478,
+      "predictedMaxSync_mm": 0.08499999999999999,
+      "exactMovingEndpointPredictionErrors": {
+        "meanPositionPredictionRMSE_mm": 0.14543571819711357,
+        "syncPredictionRMSE_mm": 0.07902200026410537
+      },
+      "terminalPosition_mm": [
+        -0.07075988439623067,
+        0.015114976687677506
+      ]
+    },
+    {
+      "case": "crossDampingZero",
+      "parameters": [
+        0.000036917129770177045,
+        0.000024922683762114945,
+        9.74239166885276,
+        4.882157822472511,
+        508.9629006613067,
+        0,
+        0,
+        0.006170731977857422,
+        -0.030628187904756653
+      ],
+      "completed": true,
+      "completedSteps": 20000,
+      "singleInitialState": true,
+      "noMeasuredFutureStateInjection": true,
+      "notRetrainedOrPhysicalValidation": true,
+      "native40msPredictionErrors": {
+        "meanPositionPredictionRMSE_mm": 0.1058847929355297,
+        "syncPredictionRMSE_mm": 0.05984761900025764
+      },
+      "predictedTrackingRMSE_mm": 0.15944022390852317,
+      "predictedSyncRMS_mm": 0.0076817966648434505,
+      "predictedMaxSync_mm": 0.028000000000000247,
+      "exactMovingEndpointPredictionErrors": {
+        "meanPositionPredictionRMSE_mm": 0.1476102028357754,
+        "syncPredictionRMSE_mm": 0.08221828113592371
+      },
+      "terminalPosition_mm": [
+        -0.012653089879386393,
+        -0.012486284999372004
+      ]
+    },
+    {
+      "case": "bothCouplingsZero",
+      "parameters": [
+        0.000036917129770177045,
+        0.000024922683762114945,
+        9.74239166885276,
+        4.882157822472511,
+        0,
+        0,
+        0,
+        0.006170731977857422,
+        -0.030628187904756653
+      ],
+      "completed": true,
+      "completedSteps": 20000,
+      "singleInitialState": true,
+      "noMeasuredFutureStateInjection": true,
+      "notRetrainedOrPhysicalValidation": true,
+      "native40msPredictionErrors": {
+        "meanPositionPredictionRMSE_mm": 0.3912501174121229,
+        "syncPredictionRMSE_mm": 1.8256544354011799
+      },
+      "predictedTrackingRMSE_mm": 0.40123934565294067,
+      "predictedSyncRMS_mm": 1.8255924873859448,
+      "predictedMaxSync_mm": 3.065,
+      "exactMovingEndpointPredictionErrors": {
+        "meanPositionPredictionRMSE_mm": 0.1680986453838556,
+        "syncPredictionRMSE_mm": 0.7300834550602799
+      },
+      "terminalPosition_mm": [
+        -2.2646246883332988,
+        0.7992140494999632
+      ]
+    }
+  ],
+  "RPMOnlyChangeCannotFixForcedPositionReplay": true,
+  "nearestIntervalMeanConditionalChecks": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "floorIntervalMeanCompatibilityNotHardwareProof": true,
+  "rawAndControllerHashesUnchanged": true,
+  "modelsFitted": 0,
+  "S3R2DataRead": false,
+  "physicalCaptureReleased": false,
+  "modelClosureComplete": false
+}

@@ -1,0 +1,52 @@
+{
+  "status": "One optional exploratory discrimination capture; not formal acceptance batch",
+  "authorization": "Latest user requests one new test after motor-informed model modification. No assistant hardware actions.",
+  "project": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\模型闭环_Q2_误差汇总40s_20261015\\eassy_E5ID_Q2S_BLNN_HW6\\MDK-ARM\\eassy.uvprojx",
+  "target": "exp5ID_Q2S_BLNN_HW6",
+  "hex": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\模型闭环_Q2_误差汇总40s_20261015\\eassy_E5ID_Q2S_BLNN_HW6\\MDK-ARM\\exp5ID_Q2S_BLNN_HW6\\exp5ID_Q2S_BLNN_HW6.hex",
+  "hexSHA256": "70a59be4aa20d602436d07cfd78be847cdfce9bc8cc6d0cd25147eec27039394",
+  "codeHashes": {
+    "Task/motor_task.c": "309f416254ca8f76591ece466d139b9c06788b0c45bc09dd74c609b001441aa7",
+    "Task/blnn_core.c": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+    "Task/experiment5_formal_config.h": "a2636fb9e69d6f7a6a9f4d09a77573a66e1d65aaeeb08c88f6508f468c2bddf0",
+    "Task/identification_trace.h": "f767d2145cc22111f80b0d24ff513c2151d8fefbff7272a92fd00cf0ea508654",
+    "Task/vofa_task.c": "a172b111871dd24b91987794f3fa49cb5f38a8e6fd288241dea1d8d0e597d9f6",
+    "Task/experiment5_error_summary.h": "7b788aebd3dfe733118a1d03103a1c412c93d81c45b07b91b3da6dfc463923a9",
+    "Task/experiment5_error_wave.h": "ea2d590bf55cd4e97fcc55d73c9dd8e71b7f5a485815f84baa510022e0abb40c"
+  },
+  "newRawPath": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run08.csv",
+  "newRawAbsentAtPreparation": true,
+  "manualRuns": 1,
+  "scope": "Same ordinaryBLNN, empty2mm,1200/1200,unchanged protection and no new excitation. Use existing Q2 firmware to obtain ALL moving-segment queued commands at1ms, rather than another M1 repeat with mostly20ms means.",
+  "primaryCandidate": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\motor_response_analysis_round93_20261015\\model_parameters.json",
+  "primaryCandidateSHA256": "73fbd019a99a69a792f6027e873840ddf9baae14723284e46b12a8182e317748",
+  "predeclaredComparators": [
+    {
+      "label": "R90",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\cumulative_micro_round90_20261015\\model_parameters.json",
+      "sha256": "ffc2988f6943390e991294edb19ee0a7415f3e05b0dba3ffe80c9f585fe90b87"
+    },
+    {
+      "label": "R86",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\cumulative_micro_round86_20261015\\model_parameters.json",
+      "sha256": "b5fa79668e254f166c765a8444fd79733625633dc0e4ac8147e0c891da96580a"
+    },
+    {
+      "label": "R82",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\tracking_refine_round82_20261015\\model_parameters.json",
+      "sha256": "b0c586fc4e7f74c4a73b7140a372c4d60ee7a6940d9179a9a2cbd2a81a40d1a0"
+    }
+  ],
+  "intent": "Determine prospective replay error with dense moving inputs. No promise of passing: current motor-refit training errors remain large and several old records deteriorate.",
+  "recording": "Manual Keil+DAP and VOFA JustFloat115200,107channels; decimal places6. Fresh history before8s boot-start; keep structure/load/supply fixed. No repeated automatic runs.",
+  "completion": "I2=6,I22=0,I88=4444,I89=4,I90=0, then at least20additional seconds AND I0>=185s before CSV export. Preserve history until saved; abnormal motion stop safely, no automatic retry.",
+  "provisionalAggregateThresholds": {
+    "trackingAbsoluteRelativePredictionErrorMaximum": 0.15,
+    "syncAbsoluteRelativePredictionErrorMaximum": 0.15,
+    "waveformIsHardGate": false
+  },
+  "evaluation": "Check identity, completeness, CRC and runtime first; evaluate all frozen candidates before any new fit. Do not use raw measured current as future plant input. Aggregate screening only, not autonomous closed-loop validation.",
+  "firmwareChanged": false,
+  "assistantHardwareAction": false,
+  "formalBatchReleased": false
+}

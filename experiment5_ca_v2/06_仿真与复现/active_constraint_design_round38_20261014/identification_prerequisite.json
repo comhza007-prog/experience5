@@ -1,0 +1,9 @@
+{
+ "reason":"Prespecified amplitude-condition design did not admit a suitable condition, and another locally feasible output candidate failed the uncalibrated model screen. Do not continue candidate gain or priority sweeps.",
+ "firstStep":"Read-only adequacy/identifiability audit of existing validated10ms BLNN andS3R2 samples with source hashes. No new physical experiment or firmware.",
+ "diagnosticModel":"Single fixed two-axis first-order ARX for encoder-derived interval velocity: previous own/other interval velocity, present attempted own/other command, own velocity sign, intercept. Least-squares fit only; no neural candidate or controller-performance selection.",
+ "validation":"Train on one controller's phase2..5, test the other and reverse. Report design rank/singular-value condition, measured-past one-step prediction and whole-window recursive forced-response position prediction separately. Same-controller training fit is not validation. Frozen10ms grid, no interpolation to fabricate1ms inputs.",
+ "dataLimit":"Commands are attempted and10ms samples omit intra-interval1ms variation; inputs arise in closed loop without independently designed excitation. Encoder positions are not independent linear carriage measurements. A good one-step fit is insufficient for identification, causal inference, or1ms neural closed-loop simulation.",
+ "releaseRule":"This diagnostic cannot by itself qualify a plant, current reduction, controller or physical motion. If feedback/command excitation is inadequate, formulate a bounded independent identification experiment before collecting; do not broaden stroke/load/current without appropriate authorization and onsite confirmation.",
+ "hardwareReleased":false
+}

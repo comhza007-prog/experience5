@@ -1,0 +1,49 @@
+{
+  "status": "Declared before new-belt calibration",
+  "authorization": "User confirms run010 was after new synchronous belt installation, requests this regime only and future operation under it.",
+  "regime": "new synchronous belt; detailed belt specification/tension unknown; reported sluggish/sticking response retained as observed condition, not declared safe/normal",
+  "calibrationSource": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+  "calibrationSourceSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+  "oldRawRecordsInObjective": 0,
+  "sourceNominalModel": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\aggregate_calibration_round96_20261015\\model_parameters_no_motor.json",
+  "sourceNominalModelSHA256": "2d66275627876b0e229abcbbf096d821a8960eff5f9e42b941c9a4b12ebf1db6",
+  "freeParameters": [
+    "effectiveGainL",
+    "effectiveGainR"
+  ],
+  "fixedParameters": [
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "staticExtraL",
+    "staticExtraR"
+  ],
+  "gainInterpretation": "Conditional equivalent command-to-acceleration gains, confounded with fixed friction/inertia/coupling; not identified motor torque constants or proven belt material parameters.",
+  "objective": "Only final active-window trackingRMSE and syncRMS relative residuals, continuous simulated positions; tiny1e-6*mean(log(gainMultipliers)^2) drift tie-breaker. Encoder-mapped statistics used for final screen.",
+  "initialization": "Zero positions/velocities once; forced recorded queued inputs; no current/state injection, no output correction or per-run offsets.",
+  "search": {
+    "gainMultiplierRange": [
+      0.02,
+      2.0
+    ],
+    "deterministicLogGridPerAxis": 17,
+    "localSeeds": 8,
+    "maximumLocalEvaluationsPerSeed": 600,
+    "maximumLocalIterationsPerSeed": 400
+  },
+  "acceptance": {
+    "calibrationTrackingRelativeErrorMaximum": 0.15,
+    "calibrationSyncRelativeErrorMaximum": 0.15,
+    "waveformHardGate": false
+  },
+  "independentValidationRequired": true,
+  "run010NowCalibration": true,
+  "previousFrozenPredictionFailuresPreserved": true,
+  "oldModelsUnchanged": true,
+  "MCUFirmwareChanged": false,
+  "assistantHardwareAction": false
+}

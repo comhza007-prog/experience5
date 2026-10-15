@@ -1,0 +1,401 @@
+{
+  "selected": {
+    "coordinates": [
+      1.3825731502385838,
+      1.171973994731189,
+      0.5539010003293471,
+      2.7963529265516622,
+      0.9482838385281911,
+      0.9477564611405795
+    ],
+    "parameters": [
+      1.7396309181126046e-07,
+      6.03259304193459e-06,
+      2.1886285426917254,
+      0.01621574213359718,
+      36.930384053941566,
+      2.573719192638786,
+      0.00025964914185821146,
+      9.13321413487139e-05,
+      -0.9260054360706874,
+      2.0916524122385542,
+      1.2831256349085105,
+      0.0033313403400868284
+    ],
+    "objective": 105.75464467146182,
+    "evaluations": 1527,
+    "cases": [
+      {
+        "record": "new_belt_run010",
+        "actualTrackingRMSE_mm": 0.26833973336052963,
+        "actualSyncRMS_mm": 0.053384080023917105,
+        "predictedTrackingRMSE_mm": 0.314155234318959,
+        "predictedSyncRMS_mm": 0.060249605807839106,
+        "trackingDifference_percent": 17.07369251085662,
+        "syncDifference_percent": 12.860623955392914,
+        "bothWithin15Percent": false,
+        "nativePositionRMSE_mm": [
+          0.3794183311333284,
+          0.4026508102562319
+        ]
+      },
+      {
+        "record": "new_belt_run011",
+        "actualTrackingRMSE_mm": 0.33539110378780057,
+        "actualSyncRMS_mm": 0.08556856899586424,
+        "predictedTrackingRMSE_mm": 0.3677437287024756,
+        "predictedSyncRMS_mm": 0.07060948944724074,
+        "trackingDifference_percent": 9.646238242247573,
+        "syncDifference_percent": -17.481979334428864,
+        "bothWithin15Percent": false,
+        "nativePositionRMSE_mm": [
+          0.40138531674688865,
+          0.45525133992114725
+        ]
+      }
+    ]
+  },
+  "allFits": [
+    {
+      "coordinates": [
+        1.3819448136324985,
+        1.168239745347578,
+        0.5542058087531285,
+        2.79915876365472,
+        0.9531161222249624,
+        0.951399840657058
+      ],
+      "parameters": [
+        1.73963089388754e-07,
+        6.030234429008858e-06,
+        2.1856736853179646,
+        0.016216528469553543,
+        37.15266818649127,
+        2.574880944752934,
+        0.00025852649980365725,
+        9.132972777460533e-05,
+        -0.9260898776760227,
+        2.093966065505354,
+        1.28315219157327,
+        0.003330837969480098
+      ],
+      "objective": 105.79221442679385,
+      "evaluations": 1407,
+      "cases": [
+        {
+          "record": "new_belt_run010",
+          "actualTrackingRMSE_mm": 0.26833973336052963,
+          "actualSyncRMS_mm": 0.053384080023917105,
+          "predictedTrackingRMSE_mm": 0.3138632016898445,
+          "predictedSyncRMS_mm": 0.05979972826025214,
+          "trackingDifference_percent": 16.96486307085634,
+          "syncDifference_percent": 12.017905400750006,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.37919351260273426,
+            0.4021671449783041
+          ]
+        },
+        {
+          "record": "new_belt_run011",
+          "actualTrackingRMSE_mm": 0.33539110378780057,
+          "actualSyncRMS_mm": 0.08556856899586424,
+          "predictedTrackingRMSE_mm": 0.3683119525280167,
+          "predictedSyncRMS_mm": 0.0702020476909328,
+          "trackingDifference_percent": 9.81565949973584,
+          "syncDifference_percent": -17.958137532572437,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.40194186768735607,
+            0.45541205792117534
+          ]
+        }
+      ]
+    },
+    {
+      "coordinates": [
+        1.3825731502385838,
+        1.171973994731189,
+        0.5539010003293471,
+        2.7963529265516622,
+        0.9482838385281911,
+        0.9477564611405795
+      ],
+      "parameters": [
+        1.7396309181126046e-07,
+        6.03259304193459e-06,
+        2.1886285426917254,
+        0.01621574213359718,
+        36.930384053941566,
+        2.573719192638786,
+        0.00025964914185821146,
+        9.13321413487139e-05,
+        -0.9260054360706874,
+        2.0916524122385542,
+        1.2831256349085105,
+        0.0033313403400868284
+      ],
+      "objective": 105.75464467146182,
+      "evaluations": 1527,
+      "cases": [
+        {
+          "record": "new_belt_run010",
+          "actualTrackingRMSE_mm": 0.26833973336052963,
+          "actualSyncRMS_mm": 0.053384080023917105,
+          "predictedTrackingRMSE_mm": 0.314155234318959,
+          "predictedSyncRMS_mm": 0.060249605807839106,
+          "trackingDifference_percent": 17.07369251085662,
+          "syncDifference_percent": 12.860623955392914,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.3794183311333284,
+            0.4026508102562319
+          ]
+        },
+        {
+          "record": "new_belt_run011",
+          "actualTrackingRMSE_mm": 0.33539110378780057,
+          "actualSyncRMS_mm": 0.08556856899586424,
+          "predictedTrackingRMSE_mm": 0.3677437287024756,
+          "predictedSyncRMS_mm": 0.07060948944724074,
+          "trackingDifference_percent": 9.646238242247573,
+          "syncDifference_percent": -17.481979334428864,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.40138531674688865,
+            0.45525133992114725
+          ]
+        }
+      ]
+    },
+    {
+      "coordinates": [
+        1.3813352747401475,
+        1.1690219914230253,
+        0.5561074597943252,
+        2.7958149599774798,
+        0.9505120248782977,
+        0.9492700260827922
+      ],
+      "parameters": [
+        1.743561594203532e-07,
+        6.033512908244693e-06,
+        2.18586522217223,
+        0.016216038688379838,
+        37.03989700870309,
+        2.5742930338275714,
+        0.00025910443079126666,
+        9.133184567454596e-05,
+        -0.9260427177705414,
+        2.0885929000392727,
+        1.282426445653674,
+        0.0033325888148448405
+      ],
+      "objective": 105.76229624932738,
+      "evaluations": 1243,
+      "cases": [
+        {
+          "record": "new_belt_run010",
+          "actualTrackingRMSE_mm": 0.26833973336052963,
+          "actualSyncRMS_mm": 0.053384080023917105,
+          "predictedTrackingRMSE_mm": 0.3138921630114393,
+          "predictedSyncRMS_mm": 0.06001941352595842,
+          "trackingDifference_percent": 16.975655852540996,
+          "syncDifference_percent": 12.429423714089594,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.3797450131338133,
+            0.4030167862508957
+          ]
+        },
+        {
+          "record": "new_belt_run011",
+          "actualTrackingRMSE_mm": 0.33539110378780057,
+          "actualSyncRMS_mm": 0.08556856899586424,
+          "predictedTrackingRMSE_mm": 0.367777019741582,
+          "predictedSyncRMS_mm": 0.07043305332015644,
+          "trackingDifference_percent": 9.656164277473422,
+          "syncDifference_percent": -17.688172016104808,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.40218958837841645,
+            0.4560602098407623
+          ]
+        }
+      ]
+    }
+  ],
+  "perturbations": [
+    {
+      "coordinates": [
+        1.3828441374720641,
+        1.1698506995579543,
+        0.553954179367716,
+        2.7974569266146805,
+        0.9452998346288818,
+        0.9484991186203491
+      ],
+      "parameters": [
+        1.7396309045645575e-07,
+        6.021942468194324e-06,
+        2.1918117040896985,
+        0.016216281179137183,
+        36.980981937813375,
+        2.573985696021488,
+        0.0002600364247413715,
+        9.135965653588935e-05,
+        -0.9259883698057232,
+        2.0887718142149083,
+        1.283430184249053,
+        0.0033248176123885902
+      ],
+      "objective": 109.5298545044491,
+      "evaluations": 992,
+      "cases": [
+        {
+          "record": "new_belt_run010",
+          "actualTrackingRMSE_mm": 0.26833973336052963,
+          "actualSyncRMS_mm": 0.053384080023917105,
+          "predictedTrackingRMSE_mm": 0.3153053292048836,
+          "predictedSyncRMS_mm": 0.05999843747965442,
+          "trackingDifference_percent": 17.502289078171284,
+          "syncDifference_percent": 12.390131014291072,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.3799219163196564,
+            0.4027425976973383
+          ]
+        },
+        {
+          "record": "new_belt_run011",
+          "actualTrackingRMSE_mm": 0.33539110378780057,
+          "actualSyncRMS_mm": 0.08556856899586424,
+          "predictedTrackingRMSE_mm": 0.36614606460400473,
+          "predictedSyncRMS_mm": 0.07041713214836287,
+          "trackingDifference_percent": 9.169879722171338,
+          "syncDifference_percent": -17.706778347822638,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.3991561379961482,
+            0.452862512248475
+          ]
+        }
+      ],
+      "maxPositiveCoefficientChange_percent": 0.1957988987119852,
+      "etaAbsoluteChange": 1.706626496422725e-05
+    },
+    {
+      "coordinates": [
+        1.3809669975177812,
+        1.174646692368546,
+        0.5526428159629123,
+        2.791617340747987,
+        0.9511283424225209,
+        0.9428654010839975
+      ],
+      "parameters": [
+        1.7448166065062107e-07,
+        6.043460016862253e-06,
+        2.1812556628166413,
+        0.01621405923521511,
+        36.7230826435247,
+        2.5725568729705315,
+        0.00025953895601382927,
+        9.127317858125926e-05,
+        -0.9259753253293344,
+        2.095704347117072,
+        1.2842532691831154,
+        0.003338911574092175
+      ],
+      "objective": 102.50171063208663,
+      "evaluations": 992,
+      "cases": [
+        {
+          "record": "new_belt_run010",
+          "actualTrackingRMSE_mm": 0.26833973336052963,
+          "actualSyncRMS_mm": 0.053384080023917105,
+          "predictedTrackingRMSE_mm": 0.31340274508210675,
+          "predictedSyncRMS_mm": 0.06061115821364908,
+          "trackingDifference_percent": 16.793268427762964,
+          "syncDifference_percent": 13.537890297058809,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.3795187808264566,
+            0.4031781647113347
+          ]
+        },
+        {
+          "record": "new_belt_run011",
+          "actualTrackingRMSE_mm": 0.33539110378780057,
+          "actualSyncRMS_mm": 0.08556856899586424,
+          "predictedTrackingRMSE_mm": 0.36841267622056656,
+          "predictedSyncRMS_mm": 0.07112573373962479,
+          "trackingDifference_percent": 9.845691212387809,
+          "syncDifference_percent": -16.878668681414442,
+          "bothWithin15Percent": false,
+          "nativePositionRMSE_mm": [
+            0.4030396196405511,
+            0.4573123385608569
+          ]
+        }
+      ],
+      "maxPositiveCoefficientChange_percent": 0.5613302318060898,
+      "etaAbsoluteChange": 3.011074135306213e-05
+    }
+  ],
+  "cases": [
+    {
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.314155234318959,
+      "predictedSyncRMS_mm": 0.060249605807839106,
+      "trackingDifference_percent": 17.07369251085662,
+      "syncDifference_percent": 12.860623955392914,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.3794183311333284,
+        0.4026508102562319
+      ],
+      "bothWithin20Percent": true
+    },
+    {
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.3677437287024756,
+      "predictedSyncRMS_mm": 0.07060948944724074,
+      "trackingDifference_percent": 9.646238242247573,
+      "syncDifference_percent": -17.481979334428864,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.40138531674688865,
+        0.45525133992114725
+      ],
+      "bothWithin20Percent": true
+    }
+  ],
+  "exactBoundsSatisfied": true,
+  "protocolSHA256": "a6f059af758fcfae41dd6a8dc251429d69fb3598a3e6b152fc5f30a9d53b3c91",
+  "scriptSHA256": "1070dcf9cd6a0bc893e54fc71631e03f1d47d06c09278f41b05e48a011cb07d1",
+  "priorLMResultsPreserved": true,
+  "sourceHashes": [
+    {
+      "name": "new_belt_run010",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+      "rawSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_r96_frozen_check_round97_20261015\\capture_analysis.json",
+      "decodedSHA256": "7d2e50b8382219adf1b8d2252e02ce110a0edb6e8d4f00c4df266952ed2abffd"
+    },
+    {
+      "name": "new_belt_run011",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run011.csv",
+      "rawSHA256": "e7e38ee5980fca58f656ac36ffe52d37b505909b4dee49e53acba25dbd306173",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_frozen_check_round99_20261015\\capture_analysis.json",
+      "decodedSHA256": "6022ce98f46a4b09be546bfb8668a70e0ef5e4a7066ac303cb5d571019d41460"
+    }
+  ],
+  "physicalModelValidated": false,
+  "independentValidationPassed": false,
+  "conclusion": "Bound enforcement repaired. Reduced fitting regularized; multistart and perturbation differences reported, not claimed resolved by smaller singular condition alone."
+}

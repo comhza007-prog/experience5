@@ -1,0 +1,23 @@
+{
+  "date":"2026-10-15",
+  "reason":"User reports that historical Q2 was recorded with loose mechanical structure and explicitly requests a new Q2. User confirms T1 build68112 was captured after tightening. This is a condition-validity issue, not a CRC/decoder failure.",
+  "scope":"ONE manual ordinary-BLNN Q2 repeat, unloaded2mm out/back,1200/1200 limits,no added perturbation,unchanged68012firmware. No assistant flashing, reset, serial commands or motor start.",
+  "oldRecordHandling":"Preserve old Q2run01 and all numeric/model results. Mark its user-reported loose-mechanics condition and exclude it from healthy-tightened-platform efficacy/model-validation evidence. Historical comparisons remain arithmetically valid but cannot alone establish a same-condition model-generalization failure. No claim that loosening is the proven sole mismatch cause.",
+  "oldQ2SHA256":"0b743a60e6edce1ea432c30ae54acaac4f96972ede9262022bfbd116e6c4aa3b",
+  "T1SHA256":"d1184a41428b43daccb76f92a416fd36b0130d0580c872d92ca6e8c3c1e13be0",
+  "T1TightenedConditionConfirmedByUser":true,
+  "project":"D:/lunwen2/起重机/output/experiment5_ca_v2/05_实验代码/模型闭环_Q2_误差汇总40s_20261015/eassy_E5ID_Q2S_BLNN_HW6/MDK-ARM/eassy.uvprojx",
+  "target":"exp5ID_Q2S_BLNN_HW6","build":68012,"schema":4499,"stopMagic":4444,
+  "hex":"D:/lunwen2/起重机/output/experiment5_ca_v2/05_实验代码/模型闭环_Q2_误差汇总40s_20261015/eassy_E5ID_Q2S_BLNN_HW6/MDK-ARM/exp5ID_Q2S_BLNN_HW6/exp5ID_Q2S_BLNN_HW6.hex",
+  "hexSHA256":"70a59be4aa20d602436d07cfd78be847cdfce9bc8cc6d0cd25147eec27039394",
+  "codeAndControlParametersChanged":false,
+  "dataFolder":"D:/lunwen2/起重机/output/experiment5_ca_v2/01_原始数据/模型闭环_Q2_误差汇总40s_20261015",
+  "filename":"E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run02.csv",
+  "recording":"Fresh VOFA history prepared before the one-shot boot/post-download run,115200/JustFloat,107channels. VerifyI63=68012. No extra RESET/repeat required by this protocol. Firmware auto-arms once after8s if healthy; manual operator follows safe flashing/start procedure and watches emergency stop.",
+  "normalCompletion":"I2=6,I22=0; I53trackingRMSEmm/I54syncRMSmm become fixed afterI0>=40s. Continue throughI88=4444,I89=4,I90=0 PLUS10seconds, typicallyabout3minutes.40seconds orphase6 alone is not complete export. Keep control-board history and normal feedback available until export completes.",
+  "faultHandling":"If abnormal motion/fault, safely stop and preserve control-board/history for diagnosis, do not automatically reset/reflash/retry. An invalid trial is still reported and consumes this one requested capture unless a further repeat is authorized.",
+  "evaluation":"Before any refitting, check raw identity/reset/CRC/phases/period/gaps/display statistics and then replay both frozen round66 and frozen round72 parameters on the new record with their existing input/observation assumptions. New Q2 has no exposed outcomes yet; do not tune parameters or choose a favorable run to make it pass. Later fitting would consume its held-out status and require separate prospective validation for any modified model.",
+  "frozenModelPaths":["06_仿真与复现/inertia_coupling_round66_20261015/fit_results.json","06_仿真与复现/t1_training_fit_round72_20261015/fit_results.json"],
+  "modelAcceptedInAdvance":false,"formalBatchReleased":false,"assistantHardwareAction":false,
+  "approvedManualRuns":1,"collectedRuns":0
+}

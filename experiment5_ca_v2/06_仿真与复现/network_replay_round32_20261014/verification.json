@@ -1,0 +1,44 @@
+{
+  "build": 67612,
+  "method": 12,
+  "schema": 4485,
+  "postStopMagic": 4436,
+  "project": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\自动监视_网络回放_20261014\\eassy_E5REPLAY_A_S3R2_HW6\\MDK-ARM\\eassy.uvprojx",
+  "target": "exp5REPLAY_A_S3R2_HW6",
+  "hex": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\05_实验代码\\自动监视_网络回放_20261014\\eassy_E5REPLAY_A_S3R2_HW6\\MDK-ARM\\exp5REPLAY_A_S3R2_HW6\\exp5REPLAY_A_S3R2_HW6.hex",
+  "hexSHA256": "bbebd960d74c7aeb2bc5c5de417bc5656808402f66370a4a76c0d495adc618e4",
+  "axfSHA256": "fc9f32f4eec834eb1ff92cda2ed5184ce3ff8fcb6fa96c0c669cef8b72df8bd8",
+  "unchangedSourceFilesChecked": 184,
+  "coreExactlyUnchanged": true,
+  "motorOutsideDiagnosticReplacementsVerbatimUnchanged": true,
+  "checks": [
+    "PASS unchanged controller/state/commands for5725steps;360 full-state recurrent replay exact;CRC32 vector;TC-only two-copy bytes;bounds;trace=39576 blob=39536 row=80 state=5348;artificialRateFixture=0",
+    "PASS exact binary reconstruction;CRC known vector;missing copies/chunks, unequal copies, coherent corruption and missing completion all rejected;no hardware",
+    "PASS recorded-input baseline replay:360 integer commands/masks/causes exact;prediction/learning/final floats within predefined1e-5abs+2e-5rel;NOT a closed-loop counterfactual",
+    "PASS host syntax/CRC, identity/startup/nonfinite rejection, genuine fault preserved, session/default/health guards, event schema, zero after fault, explicit site confirmation; no hardware opened"
+  ],
+  "compileErrors": 0,
+  "compileWarnings": 0,
+  "RAM": {
+    "used": 103976,
+    "max": 114688,
+    "unallocated": 10712,
+    "traceBytes": 39576
+  },
+  "snapshotAndTransportSyntheticQualified": true,
+  "hardwareFlashed": false,
+  "physicalRuns": 0,
+  "onBoardTimingQualified": false,
+  "learnerCounterfactualEfficacy": false,
+  "closedLoopPlantIdentified": false,
+  "offlineSingleFactorReplayPrepared": true,
+  "syntheticFixtures": 2,
+  "branchesPerFixture": 4,
+  "syntheticNotPhysicalEvidence": true,
+  "sourceHashes": {
+    "motor_task.c": "514e8ea09dbe501ae008d9237488a187b75614b623e45c51f08e416e0b22a8a7",
+    "network_trace.h": "f8a6d960c6e8973f95ade9cb76a4e509ce45b9de0243b4d359c036a5b45fab03",
+    "blnn_core.c": "fbf2aec002e26ebb4c15af1697c50a8bf478dd8830a6e3405b892f8b346e4a69",
+    "experiment5_formal_config.h": "148c29e71d988eb040ac4671ef8af7248b8f77f25bb03bf207b63c5811bc6a2b"
+  }
+}

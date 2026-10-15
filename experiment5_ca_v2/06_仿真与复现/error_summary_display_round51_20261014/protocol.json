@@ -1,0 +1,31 @@
+{
+  "authorization": "User requested that after100seconds the existing two firmware versions show the tracking/synchronization statistics used for comparison. Display-only change; research direction and motor-control policy remain fixed.",
+  "codeRoot": "05_实验代码/误差汇总显示A_BLNN_S3R2_20261014",
+  "dataRoot": "01_原始数据/误差汇总显示A_BLNN_S3R2_20261014",
+  "sourceVerification": "06_仿真与复现/error_wave_preview_round49_20261014/verification.json",
+  "previousPairAnalysis": "06_仿真与复现/error_wave_preview_round49_20261014/pair01_analysis.json",
+  "methods": {
+    "BLNN": {"build":67921,"schema":4494,"previousBuild":67911,"previousSchema":4492,"methodID":11,"project":"00_BLNN/eassy_E5F2_A_BLNN_HW6/MDK-ARM/eassy.uvprojx","target":"exp5F2_A_BLNN_HW6_F5_EVENT40","subfolder":"00_BLNN","eventMagic":4422,"filename":"E5S_A_BLNN_B67921_HW6_L1200_R1200_M0g_S2mm_pair01_attempt01.csv"},
+    "S3R2": {"build":67922,"schema":4495,"previousBuild":67912,"previousSchema":4493,"methodID":12,"project":"01_R2/eassy_E5R2_A_S3R2_HW6/MDK-ARM/eassy.uvprojx","target":"exp5R2_A_S3R2_HW6_EVENT48","subfolder":"01_S3R2","eventMagic":4424,"filename":"E5S_A_S3R2_B67922_HW6_L1200_R1200_M0g_S2mm_pair01_attempt01.csv"}
+  },
+  "channels": {
+    "beforeI0_100s":"I53 instantaneous signed mean-position tracking error_mm,I54 instantaneous signed left-minus-right synchronization error_mm, unchanged from display67911/67912",
+    "afterI0_100s":"I53 fixed nonnegative trackingRMSE_mm,I54 fixed nonnegative synchronizationRMS_mm, based ONLY on phase2..5/drive-permitted native40ms telemetry samples, not the entire100second history",
+    "invalid":"Both-1 after100seconds when fault, incomplete window, loss/rejection in motion TX or invalid input is detected. -1 is a status sentinel, not an RMS or zero error.",
+    "mappingBoundary":"I53/I54 change meaning once at100seconds; do not compute RMS across the whole mixed-semantics I53/I54 column. Primary offline calculation always uses unchanged I3/I5/I6 over the original phase window.",
+    "otherMappings":"Other105 channel mappings preserved; expected I63build and activeI93schema identity changes. Original event/fault metadata and payload unchanged."
+  },
+  "statisticalDefinition": {
+    "tracking_mm":"1000*((I5+I6)/2-I3)","sync_mm":"1000*(I5-I6)","RMS":"sqrt(sum(sample_error_mm^2)/N)",
+    "CSVPrecision":"Match current VOFA six-decimal-metre I3/I5/I6 export by rounding each nativefloat coordinate/reference to the nearest micrometre only inside statistics. No controller quantization or feedback change. Changing CSV decimal precision later requires a matching comparison definition.",
+    "sampleWindow":"phase2..5 AND I106=1, corresponding to elapsed4..20seconds. Not1ms controller RMS, not poststop-only error.",
+    "validity":"399..401completedmotionframes,allfour phases,elapsedstart3.999..4.041s,endlaterthan19.919s andbefore20.001s,span>=15.90s,consecutive sequences and no observed faulty TX/controller counters; successfulphase6 and20000coresteps",
+    "TXSemantics":"Stage only HAL_OK submissions and commit on the existing UART TC counter. HAL rejection/timeouts/errors or active sequence gaps invalidate. Completion is NOT a PC reception acknowledgement; host/export losses still require CSV quality checks.",
+    "100s":"Uses I0 board uptime, not100seconds after motion starts; values remain instantaneous before threshold and summary is latched after threshold if valid."
+  },
+  "unchanged": "motor_task/core/reference/gains/limits/network initialization/guards/critical sections/107channels/432byteJustFloat/40ms/115200. Statistics run exclusively in existing low-priority UART task; no new motor_task computation.",
+  "oldFileIntegrity": "Preserve prior sources/data and both earlier frozen packages. Round50 follow-up preparation was interrupted on an AXF container-hash mismatch; it never released a manifest or hardware run. Do not claim that issue resolved. New display source is checked against prior source hashes and HEX; old AXF is not used as the new release image. Rebuild both new projects from checked sources.",
+  "tests": "100000decimalroundtrip fixtures; known RMS/sign/timeboundary; no-data/short/fault/gap/rejection/timeout/NaN fixtures; all other105values bit-exact; nativeC replay of both qualified old CSV sessions versus existing independent primary calculations; exact unchanged source checks; fresh ARM rebuild0errors0warnings.",
+  "manualUse": "User flashes,driveoff during flashing; onsite operator/emergency stop and original unloaded2mm/1200-1200 scope. Receive/clearVOFA before deliberate fresh power-on/reset. No assistant hardware operation or automatic repeats. On fault stop safely and retain record. Afterphase6/fault0 and correctI88magic/I89=4,retain>=10seconds andI0>=100seconds before exportingall107channels.",
+  "plannedManualPreviewRunsAtMost":2,"tenRunBatchReleased":false,"algorithmChanged":false,"newBoardTimingVerified":false,"V1Released":false
+}

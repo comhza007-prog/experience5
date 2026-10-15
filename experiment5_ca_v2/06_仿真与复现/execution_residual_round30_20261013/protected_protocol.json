@@ -1,0 +1,11 @@
+{
+  "reasonForRevision":"Initial residual correction introduced terminal1024 failures in three sensitivity settings. In a representative case, R2 ended at0.49047mm and revised ended at0.51590mm despite reduced synchronization error. Keep original0.5mm guard unchanged.",
+  "candidateFrozenParameters":"translation-only, gain5/s, normal2-count/ms slew; no further gain search",
+  "twoFinitePolicies":[
+    {"id":1,"name":"moving-reference only","rule":"Extra correction only when reference velocity or acceleration is nonzero; exclude originalR2 retention mode3"},
+    {"id":2,"name":"synchronization-dominant only","rule":"Extra correction only when half-span0.30m times abs rotational sigma exceeds abs translation sigma; exclude R2 retention mode3. Dimensionally both sides are m/s; this is a coordination rule, not a task tracking tolerance."}
+  ],
+  "comparators":"Reuse existing identical BLNN/R2 outputs, compare all original36 cases and all six holdout coupling/noise settings",
+  "stopRule":"Reject hardware release for any new completed-R2 case failure, or no repeated mean-sync benefit againstR2. Do not run another gain sweep or alter safety thresholds. Positive robustness remains uncalibrated-model exploration, not efficacy proof against ordinary BLNN.",
+  "modelsIdentified":false,"physicalBenefitProven":false,"hardwareReleased":false
+}

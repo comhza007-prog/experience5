@@ -1,0 +1,15 @@
+{
+  "scope":"One bounded OFFLINE model revision, not hardware firmware, parameter sweep or model selection to makeS3R2win",
+  "training":"Existing67511ordinaryBLNN2001-row10ms encoder/command capture only",
+  "crossMethodCheck":"Existing67512S3R2capture,never used for fit. Retrospective cross-method check,not a new independent dataset.",
+  "model":"Effective equal-normalized-inertia two-axis model: positive commanded-input gains; nonnegative viscous damping, reciprocal spring/damping coupling and smooth sliding friction. No invented physical mass/force calibration.",
+  "measurementSeparation":"Drive input is sign-corrected attempted/queued command counts. ESCfeedback-current noise/bias is measured separately during ordinary prehold; not treated as exact force.",
+  "weakFit":"100ms overlapping integral equations, causal50ms encoder-slope velocity proxy, eight nonnegative coefficients, fixed scaledridge1e-6, exhaustive active-set NNLS; ordinary training only",
+  "frictionVelocityScale":"One encoder count per50ms fromconfiguredpitch,not a positioning tolerance; smooth friction is a hypothesis,not proof that static friction is absent",
+  "integration":"1ms fully implicit mechanical step with positive damping/coupling and monotone friction; recorded10ms commands zero-order held as an abstraction,not reconstruction of unknown1mscommands",
+  "validation":"Initialize once from start position/zero velocity,then forced rollout without measured future position/RPM corrections; retain all results and compare errors to naive no-motion predictor. No postvalidation refit.",
+  "failure":"A negative/zero input gain or singular/inadequate fit is reported; nonfinite/over1m rollout stops as numerical failure,not a safety test. No alternative branch searched after failure.",
+  "admission":"No taskderivedmodelresolutionbudget supplied. Even a successful retrospective rollout does not certify counterfactual closed-loop prediction or micrometer-scale method comparison.",
+  "untouched":"All earlier raw data, simulations, controls and negative results remain unchanged. No flashing, serial access, motorstart or new trial.",
+  "newCandidateModelsMaximum":1
+}

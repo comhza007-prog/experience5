@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "independentPythonSteps": 80000,
+  "nativePointsChecked": 1599,
+  "maximumCAndPythonPositionDifference_m": 6.336077496005288e-16,
+  "maximumEnergyBalanceResidual": 1.2844345845036907e-21,
+  "independentlyRecomputedObjective": 9.862050348407926,
+  "checks": [
+    {
+      "record": "T1",
+      "steps": 20000,
+      "maxPositionDifference_m": 6.336077496005288e-16,
+      "trackingRMSE_mm": 0.17496961164728006,
+      "syncRMS_mm": 0.04579672477372155,
+      "trackingWaveformCorrelation": 0.7779885604932519,
+      "syncWaveformCorrelation": 0.11475600159998157
+    },
+    {
+      "record": "Q2_run02",
+      "steps": 20000,
+      "maxPositionDifference_m": 6.028164079019405e-16,
+      "trackingRMSE_mm": 0.14682049201320638,
+      "syncRMS_mm": 0.04479238216482797,
+      "trackingWaveformCorrelation": 0.7836582626901346,
+      "syncWaveformCorrelation": 0.10645939774003398
+    },
+    {
+      "record": "Q2_run03",
+      "steps": 20000,
+      "maxPositionDifference_m": 5.24537011048487e-16,
+      "trackingRMSE_mm": 0.18958175506792999,
+      "syncRMS_mm": 0.04676121821362288,
+      "trackingWaveformCorrelation": 0.6029531535183227,
+      "syncWaveformCorrelation": 0.13273396124672204
+    },
+    {
+      "record": "Q2_run04",
+      "steps": 20000,
+      "maxPositionDifference_m": 5.39499001028787e-16,
+      "trackingRMSE_mm": 0.12365555992352305,
+      "syncRMS_mm": 0.036664696916789044,
+      "trackingWaveformCorrelation": 0.7532545734121235,
+      "syncWaveformCorrelation": 0.09274428104202286
+    }
+  ],
+  "fitResultsSHA256": "6fba2006c7f1abe04cc05039ec18cbc9990be0a6adb3203dd6f09ab494bf7f98",
+  "allRawDecodedFirmwareAndSourceParameterHashesUnchanged": true,
+  "physicalModelValidationPassed": false
+}

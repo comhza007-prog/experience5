@@ -1,0 +1,137 @@
+{
+  "version": "R104_bounded_reduced_recovered",
+  "status": "Effective reduced-model calibration; independent test pending, physical constants not identified",
+  "parameters": [
+    1.7396309181126046e-07,
+    6.03259304193459e-06,
+    2.1886285426917254,
+    0.01621574213359718,
+    36.930384053941566,
+    2.573719192638786,
+    0.00025964914185821146,
+    9.13321413487139e-05,
+    -0.9260054360706874,
+    2.0916524122385542,
+    1.2831256349085105,
+    0.0033313403400868284
+  ],
+  "parameterNames": [
+    "gainL",
+    "gainR",
+    "dampingL",
+    "dampingR",
+    "reciprocalSpring",
+    "reciprocalDamping",
+    "CoulombKineticL",
+    "CoulombKineticR",
+    "inertiaEta",
+    "preSlidingStiffnessL",
+    "preSlidingStiffnessR",
+    "sharedYieldForce"
+  ],
+  "solverRelativeToProject": "06_仿真与复现\\new_belt_memory_model_round100_20261015\\native_model.dll",
+  "solverSHA256": "22e77b041e02b62f6f69429a0695840c53139a6eefe28a17c3d02deb30ae6a17",
+  "solverSourceSHA256": "d7c3bfd43884452adadb6626d27417b36f8a126ba6e091d1c11d6de3c0c585ff",
+  "subspaceSHA256": "9423367ff8c2c59537ed03aefe986d404b6dc3ced212ab7535e62a502263e6e1",
+  "sourceHashes": [
+    {
+      "name": "new_belt_run010",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run010.csv",
+      "rawSHA256": "398164810d2ee0462d895a7b5927c4b990eeb5ffb20784017d362b53852df02b",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\q2_r96_frozen_check_round97_20261015\\capture_analysis.json",
+      "decodedSHA256": "7d2e50b8382219adf1b8d2252e02ce110a0edb6e8d4f00c4df266952ed2abffd"
+    },
+    {
+      "name": "new_belt_run011",
+      "raw": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\模型闭环_Q2_误差汇总40s_20261015\\E5ID_Q2S_BLNN_B68012_HW6_L1200_R1200_M0g_S2mm_run011.csv",
+      "rawSHA256": "e7e38ee5980fca58f656ac36ffe52d37b505909b4dee49e53acba25dbd306173",
+      "decoded": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\new_belt_frozen_check_round99_20261015\\capture_analysis.json",
+      "decodedSHA256": "6022ce98f46a4b09be546bfb8668a70e0ef5e4a7066ac303cb5d571019d41460"
+    }
+  ],
+  "calibrationCases": [
+    {
+      "record": "new_belt_run010",
+      "actualTrackingRMSE_mm": 0.26833973336052963,
+      "actualSyncRMS_mm": 0.053384080023917105,
+      "predictedTrackingRMSE_mm": 0.314155234318959,
+      "predictedSyncRMS_mm": 0.060249605807839106,
+      "trackingDifference_percent": 17.07369251085662,
+      "syncDifference_percent": 12.860623955392914,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.3794183311333284,
+        0.4026508102562319
+      ],
+      "bothWithin20Percent": true
+    },
+    {
+      "record": "new_belt_run011",
+      "actualTrackingRMSE_mm": 0.33539110378780057,
+      "actualSyncRMS_mm": 0.08556856899586424,
+      "predictedTrackingRMSE_mm": 0.3677437287024756,
+      "predictedSyncRMS_mm": 0.07060948944724074,
+      "trackingDifference_percent": 9.646238242247573,
+      "syncDifference_percent": -17.481979334428864,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.40138531674688865,
+        0.45525133992114725
+      ],
+      "bothWithin20Percent": true
+    }
+  ],
+  "audit": {
+    "allOriginalGlobalBoundsSatisfied": true,
+    "boundaryViolations": [],
+    "activeOrNearActiveGlobalBounds": [
+      "gainL"
+    ],
+    "boundaryDependenceStillPresent": true,
+    "finiteDifferencesAtBoundaryOneSided": true,
+    "retainedDirections": 6,
+    "weakDirectionsFrozen": 6,
+    "full12ParameterConditionSameDataObjective": 62294.06594624409,
+    "reducedDataConditionNoPrior": 933.016683549046,
+    "reducedSingularValues": [
+      234.44234390653753,
+      36.93243269616221,
+      16.798482110943233,
+      5.583771335708623,
+      2.244803570390616,
+      0.25127347456934684
+    ],
+    "fullSingularValues": [
+      234.7839474961219,
+      37.81137563134427,
+      17.297328181891736,
+      6.275598482975108,
+      2.674055647322088,
+      0.7284195272885077,
+      0.5224832876296723,
+      0.32735587050527176,
+      0.18617038704426273,
+      0.1211928780840758,
+      0.06275390090877526,
+      0.003768961680856181
+    ],
+    "effectiveGainRightLeftRatio": 34.67743059245919,
+    "massCondition": 26.029012589500645,
+    "multistartObjectiveRange": [
+      105.75464467146182,
+      105.79221442679385
+    ],
+    "multistartMaxCoordinateDistance": 0.007676603116016049,
+    "multistartMaxPositiveParameterDifference_percent": 0.6019004086852409,
+    "multistartMaxRMSDifference_mm": 0.0005682238255410588,
+    "onePercentPerturbationMaxPositiveParameterChange_percent": 0.5613302318060898,
+    "onePercentPerturbationMaxEtaChange": 3.011074135306213e-05,
+    "finiteBudgetNotProofOfGlobalConvergence": true,
+    "physical12ParameterIdentifiabilityResolved": false,
+    "meaning": "Only six observable combinations are adjusted; remaining combinations fixed to R100 anchor. This mitigates optimizer nonuniqueness but does not add information or identify physical motor constants. Gain ratio is effective, not calibrated hardware ratio."
+  },
+  "physicalModelValidated": false,
+  "bothRecordsCalibration": true,
+  "independentValidationPassed": false,
+  "firmwareChanged": false
+}

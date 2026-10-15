@@ -1,0 +1,22 @@
+{
+  "status":"Preparation only, zero batch runs collected",
+  "authorization":"User requests agent-supervised collection of20 records then model retraining. User confirmed onsite emergency-stop supervision, empty load, fixed mechanism, clear travel and drive power disconnected before preparation.",
+  "firmwareSource":"Q2S68012 ordinaryBLNN HW6, unchanged2mm unloaded trajectory,1200/1200 limits, same tighter same-spec belt/pulleys/ratio",
+  "startupChange":"Separate version: remove8second boot autostart, allow only QUERY/PING/PREPARE/ARM/STOP and require explicit healthy single ARM; restore heartbeat abort. No parameter SET or auto fault clear. One run per boot. Must verify before flashing.",
+  "currentReadOnlyStatus":{"build":68012,"phase":9,"fault":512,"drive":0,"commandL":0,"commandR":0,"serialWrites":0,"interpretation":"Latched RPM-protection flag; trigger timing/cause unknown, not evidence of new observed motion. No reset or motion performed."},
+  "records":20,
+  "trainingSlots":[1,2,3,4,6,7,8,9,11,12,13,14,16,17,18,19],
+  "heldOutSlots":[5,10,15,20],
+  "assignment":"Fixed by acquisition index before batch. Quality audits allowed on all; holdout responses/summaries excluded from parameter fitting and model selection. Freeze model after16training records then score4holdouts once.",
+  "previousRecords":"run010,011,012 and all prior models/failures preserved. Prior records may motivate design but are not new independent validation or silently pooled into this16record training objective.",
+  "rawStorage":"New batch folder, one new CSV per attempt, create-new only, roundtrip float precision and SHA256 manifest. Keep binary bytes when possible. No VOFA COM contention.",
+  "quality":"No faults;107channels; no mixed resets or missing active frames; full packed CRC; four identical copies/chunk;8000moving1ms and300holding snapshots;400native metrics. Exportcomplete plus20second tail and uptime>=185seconds. A logger fault is not a control success.",
+  "stopRules":"Any fault, communication loss, uncertain command ACK, partial export, nonzero stop command, unhealthy feedback, voltage outside23..30V, motor temperature>=60C, operator abnormality or user stop halts batch. No automatic retry/reset after a fault. Physical emergency stop remains user responsibility; serial STOP is not a brake.",
+  "runPolicy":"Monitor and save each run before next. First run must pass logger/runtime/onsite checks before continuing. No blind20run loop. Subsequent reset only after archived full record and verified stopped state; no new excitation, load, gains, limits or guard changes.",
+  "modelTraining":"Use all16assigned valid training records without favorable-result selection. Bounded reduced/effective identification, documented priors and solver budgets; preserve negative results. Do not fit12unidentifiable constants from only aggregate RMS. More repetitions do not guarantee identifiability or generalization.",
+  "evaluation":"Both trackingRMSE and syncRMS absolute relative error<=20percent PER heldout run; also report15percent and all signed errors. No waveform acceptance gate. Prediction is recorded-input replay, not autonomous closed-loop proof.",
+  "hardwareStarted":false,
+  "firmwareFlashed":false,
+  "completedRuns":0,
+  "modelRetrained":false
+}

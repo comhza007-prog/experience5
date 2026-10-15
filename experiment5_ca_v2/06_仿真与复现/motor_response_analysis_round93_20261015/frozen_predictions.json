@@ -1,0 +1,251 @@
+{
+  "status": "Frozen pre-fit prospective predictions on five new M1 records",
+  "modelsRefitted": 0,
+  "models": [
+    {
+      "label": "R90",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\cumulative_micro_round90_20261015\\model_parameters.json",
+      "sha256": "ffc2988f6943390e991294edb19ee0a7415f3e05b0dba3ffe80c9f585fe90b87"
+    },
+    {
+      "label": "R86",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\cumulative_micro_round86_20261015\\model_parameters.json",
+      "sha256": "b5fa79668e254f166c765a8444fd79733625633dc0e4ac8147e0c891da96580a"
+    },
+    {
+      "label": "R82",
+      "file": "D:\\lunwen2\\起重机\\output\\experiment5_ca_v2\\06_仿真与复现\\tracking_refine_round82_20261015\\model_parameters.json",
+      "sha256": "b0c586fc4e7f74c4a73b7140a372c4d60ee7a6940d9179a9a2cbd2a81a40d1a0"
+    }
+  ],
+  "sourceManifestSHA256": "1be58e2e6479c2728ea3596dc501a0742cfa367b695ff6c4ce36da08fe1b4a62",
+  "results": [
+    {
+      "model": "R90",
+      "record": "M1_run01",
+      "actualTrackingRMSE_mm": 0.125197279323474,
+      "actualSyncRMS_mm": 0.08220440985737933,
+      "predictedTrackingRMSE_mm": 1.0214218866976563,
+      "predictedSyncRMS_mm": 0.07938553079749482,
+      "trackingDifference_percent": 715.8499068167399,
+      "syncDifference_percent": -3.4291092956875824,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.961185356734069,
+        0.8985387289928017
+      ]
+    },
+    {
+      "model": "R90",
+      "record": "M1_run02",
+      "actualTrackingRMSE_mm": 0.10278312422280246,
+      "actualSyncRMS_mm": 0.09113118291781368,
+      "predictedTrackingRMSE_mm": 0.4081234777919545,
+      "predictedSyncRMS_mm": 0.045268007466642474,
+      "trackingDifference_percent": 297.0724580304324,
+      "syncDifference_percent": -50.32654463898789,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.41839037692088493,
+        0.436103729059958
+      ]
+    },
+    {
+      "model": "R90",
+      "record": "M1_run03",
+      "actualTrackingRMSE_mm": 0.1332225182730006,
+      "actualSyncRMS_mm": 0.04806493004259975,
+      "predictedTrackingRMSE_mm": 0.30320382274140284,
+      "predictedSyncRMS_mm": 0.0408323707369533,
+      "trackingDifference_percent": 127.59202173319922,
+      "syncDifference_percent": -15.047477025840383,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.31890152084930595,
+        0.3231593879187161
+      ]
+    },
+    {
+      "model": "R90",
+      "record": "M1_run04",
+      "actualTrackingRMSE_mm": 0.13321667735310014,
+      "actualSyncRMS_mm": 0.0520746819481404,
+      "predictedTrackingRMSE_mm": 0.3538326502387817,
+      "predictedSyncRMS_mm": 0.040866092301564634,
+      "trackingDifference_percent": 165.60687240451392,
+      "syncDifference_percent": -21.524067410988813,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.36749404416942566,
+        0.37390428253765745
+      ]
+    },
+    {
+      "model": "R90",
+      "record": "M1_run05",
+      "actualTrackingRMSE_mm": 0.1541861111611547,
+      "actualSyncRMS_mm": 0.04734086501110851,
+      "predictedTrackingRMSE_mm": 0.3024294793832109,
+      "predictedSyncRMS_mm": 0.049219711498544996,
+      "trackingDifference_percent": 96.14573394818477,
+      "syncDifference_percent": 3.968762478242871,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.25408912806336315,
+        0.26189332274802296
+      ]
+    },
+    {
+      "model": "R86",
+      "record": "M1_run01",
+      "actualTrackingRMSE_mm": 0.125197279323474,
+      "actualSyncRMS_mm": 0.08220440985737933,
+      "predictedTrackingRMSE_mm": 1.0234660341823758,
+      "predictedSyncRMS_mm": 0.07943565005713744,
+      "trackingDifference_percent": 717.4826479559767,
+      "syncDifference_percent": -3.3681402312181863,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.9632258964022927,
+        0.9007411004278645
+      ]
+    },
+    {
+      "model": "R86",
+      "record": "M1_run02",
+      "actualTrackingRMSE_mm": 0.10278312422280246,
+      "actualSyncRMS_mm": 0.09113118291781368,
+      "predictedTrackingRMSE_mm": 0.40771010841037536,
+      "predictedSyncRMS_mm": 0.045284213584868616,
+      "trackingDifference_percent": 296.67028171529813,
+      "syncDifference_percent": -50.30876135372014,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.4179025035818761,
+        0.43568366391224655
+      ]
+    },
+    {
+      "model": "R86",
+      "record": "M1_run03",
+      "actualTrackingRMSE_mm": 0.1332225182730006,
+      "actualSyncRMS_mm": 0.04806493004259975,
+      "predictedTrackingRMSE_mm": 0.3029755549132636,
+      "predictedSyncRMS_mm": 0.04110471384160216,
+      "trackingDifference_percent": 127.4206784564782,
+      "syncDifference_percent": -14.480862023160713,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.31804739033672363,
+        0.3231571715125621
+      ]
+    },
+    {
+      "model": "R86",
+      "record": "M1_run04",
+      "actualTrackingRMSE_mm": 0.13321667735310014,
+      "actualSyncRMS_mm": 0.0520746819481404,
+      "predictedTrackingRMSE_mm": 0.35354238607273103,
+      "predictedSyncRMS_mm": 0.041025297073878704,
+      "trackingDifference_percent": 165.38898364477456,
+      "syncDifference_percent": -21.218343465381974,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.36685434780032306,
+        0.3734833865113685
+      ]
+    },
+    {
+      "model": "R86",
+      "record": "M1_run05",
+      "actualTrackingRMSE_mm": 0.1541861111611547,
+      "actualSyncRMS_mm": 0.04734086501110851,
+      "predictedTrackingRMSE_mm": 0.3038226682622612,
+      "predictedSyncRMS_mm": 0.0493061355208457,
+      "trackingDifference_percent": 97.04931006704423,
+      "syncDifference_percent": 4.151319392402386,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.2555055821308021,
+        0.2631036677813521
+      ]
+    },
+    {
+      "model": "R82",
+      "record": "M1_run01",
+      "actualTrackingRMSE_mm": 0.125197279323474,
+      "actualSyncRMS_mm": 0.08220440985737933,
+      "predictedTrackingRMSE_mm": 1.022125729484881,
+      "predictedSyncRMS_mm": 0.07777536563719901,
+      "trackingDifference_percent": 716.4120937836038,
+      "syncDifference_percent": -5.387842608279159,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.9615189298708577,
+        0.8996018424836619
+      ]
+    },
+    {
+      "model": "R82",
+      "record": "M1_run02",
+      "actualTrackingRMSE_mm": 0.10278312422280246,
+      "actualSyncRMS_mm": 0.09113118291781368,
+      "predictedTrackingRMSE_mm": 0.4017767430427003,
+      "predictedSyncRMS_mm": 0.04474600540830433,
+      "trackingDifference_percent": 290.89757786674284,
+      "syncDifference_percent": -50.89934753874714,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.4115806512701985,
+        0.4287321774721367
+      ]
+    },
+    {
+      "model": "R82",
+      "record": "M1_run03",
+      "actualTrackingRMSE_mm": 0.1332225182730006,
+      "actualSyncRMS_mm": 0.04806493004259975,
+      "predictedTrackingRMSE_mm": 0.30341979479757086,
+      "predictedSyncRMS_mm": 0.040338288263137796,
+      "trackingDifference_percent": 127.75413551018508,
+      "syncDifference_percent": -16.075424998255194,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.318783119847961,
+        0.32357972356128906
+      ]
+    },
+    {
+      "model": "R82",
+      "record": "M1_run04",
+      "actualTrackingRMSE_mm": 0.13321667735310014,
+      "actualSyncRMS_mm": 0.0520746819481404,
+      "predictedTrackingRMSE_mm": 0.35442836106186537,
+      "predictedSyncRMS_mm": 0.04032223332108479,
+      "trackingDifference_percent": 166.0540467635506,
+      "syncDifference_percent": -22.56845013236858,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.36789820602987505,
+        0.3745135111047401
+      ]
+    },
+    {
+      "model": "R82",
+      "record": "M1_run05",
+      "actualTrackingRMSE_mm": 0.1541861111611547,
+      "actualSyncRMS_mm": 0.04734086501110851,
+      "predictedTrackingRMSE_mm": 0.3043306867126613,
+      "predictedSyncRMS_mm": 0.04817330692406325,
+      "trackingDifference_percent": 97.37879399174683,
+      "syncDifference_percent": 1.7584003012184102,
+      "bothWithin15Percent": false,
+      "nativePositionRMSE_mm": [
+        0.2562536341205723,
+        0.26398683679304946
+      ]
+    }
+  ],
+  "method": "Initial state zero once; recorded prior queued commands; coarse 20ms integral held as block mean; no measured-state/current injection.",
+  "limitation": "Aggregate RMS screen only, not full closed-loop model validation. Strict CSV protocol has stopped CRC-preparation gaps; active metrics and CRC snapshot complete."
+}

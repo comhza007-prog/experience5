@@ -1,0 +1,15 @@
+{
+ "sourceSHA256":"0da7ed24d02bcce276f0448ae08ebcee6e0c36dc4b6dbb1cfb41b9838c58b403",
+ "T1RecordingQualified":true,
+ "T1NeedsRepeat":false,
+ "firstModel":"training_arx_first_candidate.json",
+ "audit":"training_arx_first_audit.json",
+ "diagnosis":"training_arx_first_diagnosis.json",
+ "firstCandidateQualifiedForModelUse":false,
+ "reason":"Even same-training recorded-input autonomous-state rollout has mean-positionRMSE2.409885mm and sync-differenceRMSE2.393995mm on unloaded2mm reference; right endpoint drift6.544815mm. Full rank and stable linearA do not make this a credible trajectory model. No invented task accuracy cutoff or eigenvalue projection used.",
+ "diagnosticFinding":"Fixed-coefficient oracle measured sign reduces recursive error but still has mean-positionRMSE0.556362mm. Sign closure is a contributor,not the sole demonstrated cause. Own-input signs and fitted sign terms are not physically calibrated causal/friction parameters. Do not call oracle or zero-sign diagnostic a proposed model.",
+ "next":"Offline review of input/output timing and admissible state/friction model structure using T1 only; preserve first fit and negative results. No new controller candidate screening or model-based efficacy claims using this fit.",
+ "V1Released":false,"additionalPhysicalCaptureRequested":false,
+ "modelResolutionBudget_mm":null,"mustDefineBudgetBeforeV1":true,
+ "modelIdentified":false,"formalCollectionReleased":false
+}

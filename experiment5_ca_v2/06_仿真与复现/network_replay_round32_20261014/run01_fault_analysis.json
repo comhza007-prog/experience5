@@ -1,0 +1,1323 @@
+{
+  "file": "C:\\Users\\ele\\Desktop\\lunwen\\起重机\\output\\experiment5_ca_v2\\01_原始数据\\自动监视_网络回放_20261014\\E5REPLAY_A_S3R2_B67612_HW6_STATE360_L1200_R1200_M0g_S2mm_run01.csv",
+  "sha256": "6074fd972fca95bdc5e0d386551fa4aade324ec879547d8a5c817e4992ab8b81",
+  "build": 67612,
+  "schema": 4485,
+  "rows": 452,
+  "missingFrames": 0,
+  "phases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    9
+  ],
+  "fault": 512,
+  "firstFaultElapsed_s": 11.708000183105469,
+  "lastSuccessfulControllerSteps": 11708,
+  "normalCompletion": false,
+  "fullNetworkSnapshotExported": false,
+  "allFaultCommandsAndDrivePermitZero": true,
+  "faultTailSeconds": 5,
+  "faultReplayComplete": true,
+  "faultReplay": [
+    {
+      "index": 0,
+      "relative_ms": 0,
+      "rawRPM": [
+        253,
+        10
+      ],
+      "encoderFrameRPM": [
+        -7.08893346786499,
+        7.396599769592285
+      ],
+      "previousCommandCounts": [
+        -293,
+        -13
+      ]
+    },
+    {
+      "index": 1,
+      "relative_ms": -1,
+      "rawRPM": [
+        2,
+        12
+      ],
+      "encoderFrameRPM": [
+        0,
+        14.809223175048828
+      ],
+      "previousCommandCounts": [
+        -293,
+        -8
+      ]
+    },
+    {
+      "index": 2,
+      "relative_ms": -2,
+      "rawRPM": [
+        2,
+        12
+      ],
+      "encoderFrameRPM": [
+        0,
+        14.674642562866211
+      ],
+      "previousCommandCounts": [
+        -293,
+        -2
+      ]
+    },
+    {
+      "index": 3,
+      "relative_ms": -3,
+      "rawRPM": [
+        4,
+        12
+      ],
+      "encoderFrameRPM": [
+        7.381690502166748,
+        7.33015251159668
+      ],
+      "previousCommandCounts": [
+        -286,
+        7
+      ]
+    },
+    {
+      "index": 4,
+      "relative_ms": -4,
+      "rawRPM": [
+        4,
+        12
+      ],
+      "encoderFrameRPM": [
+        0,
+        14.690059661865234
+      ],
+      "previousCommandCounts": [
+        -279,
+        18
+      ]
+    },
+    {
+      "index": 5,
+      "relative_ms": -5,
+      "rawRPM": [
+        6,
+        12
+      ],
+      "encoderFrameRPM": [
+        0,
+        14.763381004333496
+      ],
+      "previousCommandCounts": [
+        -262,
+        39
+      ]
+    },
+    {
+      "index": 6,
+      "relative_ms": -6,
+      "rawRPM": [
+        6,
+        10
+      ],
+      "encoderFrameRPM": [
+        7.381690502166748,
+        14.808154106140137
+      ],
+      "previousCommandCounts": [
+        -239,
+        52
+      ]
+    },
+    {
+      "index": 7,
+      "relative_ms": -7,
+      "rawRPM": [
+        6,
+        12
+      ],
+      "encoderFrameRPM": [
+        14.218826293945312,
+        14.808510780334473
+      ],
+      "previousCommandCounts": [
+        -204,
+        95
+      ]
+    },
+    {
+      "index": 8,
+      "relative_ms": -8,
+      "rawRPM": [
+        4,
+        8
+      ],
+      "encoderFrameRPM": [
+        0,
+        7.116156101226807
+      ],
+      "previousCommandCounts": [
+        -173,
+        126
+      ]
+    },
+    {
+      "index": 9,
+      "relative_ms": -9,
+      "rawRPM": [
+        6,
+        4
+      ],
+      "encoderFrameRPM": [
+        7.595954895019531,
+        14.792132377624512
+      ],
+      "previousCommandCounts": [
+        -124,
+        180
+      ]
+    },
+    {
+      "index": 10,
+      "relative_ms": -10,
+      "rawRPM": [
+        0,
+        2
+      ],
+      "encoderFrameRPM": [
+        14.77942943572998,
+        14.823139190673828
+      ],
+      "previousCommandCounts": [
+        -88,
+        206
+      ]
+    },
+    {
+      "index": 11,
+      "relative_ms": -11,
+      "rawRPM": [
+        -5,
+        -3
+      ],
+      "encoderFrameRPM": [
+        -7.381690502166748,
+        0
+      ],
+      "previousCommandCounts": [
+        -72,
+        210
+      ]
+    },
+    {
+      "index": 12,
+      "relative_ms": -12,
+      "rawRPM": [
+        -9,
+        -3
+      ],
+      "encoderFrameRPM": [
+        7.323172569274902,
+        0
+      ],
+      "previousCommandCounts": [
+        -64,
+        216
+      ]
+    },
+    {
+      "index": 13,
+      "relative_ms": -13,
+      "rawRPM": [
+        -9,
+        -3
+      ],
+      "encoderFrameRPM": [
+        0,
+        0
+      ],
+      "previousCommandCounts": [
+        -53,
+        224
+      ]
+    },
+    {
+      "index": 14,
+      "relative_ms": -14,
+      "rawRPM": [
+        -11,
+        -5
+      ],
+      "encoderFrameRPM": [
+        -7.404077053070068,
+        0
+      ],
+      "previousCommandCounts": [
+        -53,
+        226
+      ]
+    },
+    {
+      "index": 15,
+      "relative_ms": -15,
+      "rawRPM": [
+        -11,
+        -7
+      ],
+      "encoderFrameRPM": [
+        -7.3668413162231445,
+        0
+      ],
+      "previousCommandCounts": [
+        -47,
+        221
+      ]
+    },
+    {
+      "index": 16,
+      "relative_ms": -16,
+      "rawRPM": [
+        -13,
+        -9
+      ],
+      "encoderFrameRPM": [
+        -7.412283897399902,
+        0
+      ],
+      "previousCommandCounts": [
+        -54,
+        207
+      ]
+    },
+    {
+      "index": 17,
+      "relative_ms": -17,
+      "rawRPM": [
+        -13,
+        -9
+      ],
+      "encoderFrameRPM": [
+        -7.374081611633301,
+        -7.419613838195801
+      ],
+      "previousCommandCounts": [
+        -64,
+        187
+      ]
+    },
+    {
+      "index": 18,
+      "relative_ms": -18,
+      "rawRPM": [
+        -13,
+        -11
+      ],
+      "encoderFrameRPM": [
+        -14.748517036437988,
+        -7.419076919555664
+      ],
+      "previousCommandCounts": [
+        -80,
+        151
+      ]
+    },
+    {
+      "index": 19,
+      "relative_ms": -19,
+      "rawRPM": [
+        -13,
+        -9
+      ],
+      "encoderFrameRPM": [
+        -7.088770389556885,
+        -14.630671501159668
+      ],
+      "previousCommandCounts": [
+        -96,
+        111
+      ]
+    },
+    {
+      "index": 20,
+      "relative_ms": -20,
+      "rawRPM": [
+        -13,
+        -9
+      ],
+      "encoderFrameRPM": [
+        -14.747456550598145,
+        -7.4416913986206055
+      ],
+      "previousCommandCounts": [
+        -121,
+        61
+      ]
+    },
+    {
+      "index": 21,
+      "relative_ms": -21,
+      "rawRPM": [
+        -13,
+        -5
+      ],
+      "encoderFrameRPM": [
+        -15.223674774169922,
+        -7.403007984161377
+      ],
+      "previousCommandCounts": [
+        -168,
+        12
+      ]
+    },
+    {
+      "index": 22,
+      "relative_ms": -22,
+      "rawRPM": [
+        -11,
+        -3
+      ],
+      "encoderFrameRPM": [
+        -7.381690502166748,
+        0
+      ],
+      "previousCommandCounts": [
+        -210,
+        -37
+      ]
+    },
+    {
+      "index": 23,
+      "relative_ms": -23,
+      "rawRPM": [
+        -7,
+        2
+      ],
+      "encoderFrameRPM": [
+        -14.778275489807129,
+        0
+      ],
+      "previousCommandCounts": [
+        -228,
+        -63
+      ]
+    },
+    {
+      "index": 24,
+      "relative_ms": -24,
+      "rawRPM": [
+        -3,
+        6
+      ],
+      "encoderFrameRPM": [
+        -14.747456550598145,
+        -7.419076919555664
+      ],
+      "previousCommandCounts": [
+        -243,
+        -96
+      ]
+    },
+    {
+      "index": 25,
+      "relative_ms": -25,
+      "rawRPM": [
+        0,
+        8
+      ],
+      "encoderFrameRPM": [
+        -7.380937576293945,
+        7.388072967529297
+      ],
+      "previousCommandCounts": [
+        -247,
+        -128
+      ]
+    },
+    {
+      "index": 26,
+      "relative_ms": -26,
+      "rawRPM": [
+        2,
+        12
+      ],
+      "encoderFrameRPM": [
+        0,
+        0
+      ],
+      "previousCommandCounts": [
+        -244,
+        -158
+      ]
+    },
+    {
+      "index": 27,
+      "relative_ms": -27,
+      "rawRPM": [
+        2,
+        14
+      ],
+      "encoderFrameRPM": [
+        0,
+        14.689006805419922
+      ],
+      "previousCommandCounts": [
+        -239,
+        -188
+      ]
+    },
+    {
+      "index": 28,
+      "relative_ms": -28,
+      "rawRPM": [
+        2,
+        18
+      ],
+      "encoderFrameRPM": [
+        7.3891377449035645,
+        14.852124214172363
+      ],
+      "previousCommandCounts": [
+        -233,
+        -217
+      ]
+    },
+    {
+      "index": 29,
+      "relative_ms": -29,
+      "rawRPM": [
+        2,
+        20
+      ],
+      "encoderFrameRPM": [
+        0,
+        7.404255390167236
+      ],
+      "previousCommandCounts": [
+        -227,
+        -249
+      ]
+    },
+    {
+      "index": 30,
+      "relative_ms": -30,
+      "rawRPM": [
+        6,
+        25
+      ],
+      "encoderFrameRPM": [
+        0,
+        22.256694793701172
+      ],
+      "previousCommandCounts": [
+        -209,
+        -279
+      ]
+    },
+    {
+      "index": 31,
+      "relative_ms": -31,
+      "rawRPM": [
+        4,
+        31
+      ],
+      "encoderFrameRPM": [
+        7.399446487426758,
+        22.325613021850586
+      ],
+      "previousCommandCounts": [
+        -195,
+        -305
+      ]
+    },
+    {
+      "index": 32,
+      "relative_ms": -32,
+      "rawRPM": [
+        6,
+        35
+      ],
+      "encoderFrameRPM": [
+        0,
+        29.155609130859375
+      ],
+      "previousCommandCounts": [
+        -180,
+        -329
+      ]
+    },
+    {
+      "index": 33,
+      "relative_ms": -33,
+      "rawRPM": [
+        6,
+        41
+      ],
+      "encoderFrameRPM": [
+        6.705515384674072,
+        37.19630813598633
+      ],
+      "previousCommandCounts": [
+        -164,
+        -345
+      ]
+    },
+    {
+      "index": 34,
+      "relative_ms": -34,
+      "rawRPM": [
+        6,
+        46
+      ],
+      "encoderFrameRPM": [
+        14.838601112365723,
+        29.556550979614258
+      ],
+      "previousCommandCounts": [
+        -144,
+        -354
+      ]
+    },
+    {
+      "index": 35,
+      "relative_ms": -35,
+      "rawRPM": [
+        4,
+        46
+      ],
+      "encoderFrameRPM": [
+        7.315857887268066,
+        51.933536529541016
+      ],
+      "previousCommandCounts": [
+        -123,
+        -361
+      ]
+    },
+    {
+      "index": 36,
+      "relative_ms": -36,
+      "rawRPM": [
+        4,
+        48
+      ],
+      "encoderFrameRPM": [
+        0,
+        44.33802032470703
+      ],
+      "previousCommandCounts": [
+        -97,
+        -368
+      ]
+    },
+    {
+      "index": 37,
+      "relative_ms": -37,
+      "rawRPM": [
+        2,
+        52
+      ],
+      "encoderFrameRPM": [
+        7.404077053070068,
+        44.514461517333984
+      ],
+      "previousCommandCounts": [
+        -65,
+        -362
+      ]
+    },
+    {
+      "index": 38,
+      "relative_ms": -38,
+      "rawRPM": [
+        -3,
+        54
+      ],
+      "encoderFrameRPM": [
+        7.293481826782227,
+        51.723960876464844
+      ],
+      "previousCommandCounts": [
+        -35,
+        -342
+      ]
+    },
+    {
+      "index": 39,
+      "relative_ms": -39,
+      "rawRPM": [
+        -7,
+        54
+      ],
+      "encoderFrameRPM": [
+        7.404789924621582,
+        51.360633850097656
+      ],
+      "previousCommandCounts": [
+        -3,
+        -311
+      ]
+    },
+    {
+      "index": 40,
+      "relative_ms": -40,
+      "rawRPM": [
+        -9,
+        54
+      ],
+      "encoderFrameRPM": [
+        7.329803466796875,
+        59.23689270019531
+      ],
+      "previousCommandCounts": [
+        38,
+        -263
+      ]
+    },
+    {
+      "index": 41,
+      "relative_ms": -41,
+      "rawRPM": [
+        -15,
+        52
+      ],
+      "encoderFrameRPM": [
+        -7.381690502166748,
+        51.82853698730469
+      ],
+      "previousCommandCounts": [
+        72,
+        -208
+      ]
+    },
+    {
+      "index": 42,
+      "relative_ms": -42,
+      "rawRPM": [
+        -19,
+        50
+      ],
+      "encoderFrameRPM": [
+        -7.404077053070068,
+        66.6366958618164
+      ],
+      "previousCommandCounts": [
+        106,
+        -137
+      ]
+    },
+    {
+      "index": 43,
+      "relative_ms": -43,
+      "rawRPM": [
+        -24,
+        43
+      ],
+      "encoderFrameRPM": [
+        -14.658907890319824,
+        51.880985260009766
+      ],
+      "previousCommandCounts": [
+        128,
+        -110
+      ]
+    },
+    {
+      "index": 44,
+      "relative_ms": -44,
+      "rawRPM": [
+        -26,
+        41
+      ],
+      "encoderFrameRPM": [
+        -7.374258518218994,
+        51.5086784362793
+      ],
+      "previousCommandCounts": [
+        144,
+        -50
+      ]
+    },
+    {
+      "index": 45,
+      "relative_ms": -45,
+      "rawRPM": [
+        -28,
+        35
+      ],
+      "encoderFrameRPM": [
+        -21.001941680908203,
+        44.83616256713867
+      ],
+      "previousCommandCounts": [
+        148,
+        -10
+      ]
+    },
+    {
+      "index": 46,
+      "relative_ms": -46,
+      "rawRPM": [
+        -28,
+        31
+      ],
+      "encoderFrameRPM": [
+        -31.027976989746094,
+        44.157161712646484
+      ],
+      "previousCommandCounts": [
+        154,
+        67
+      ]
+    },
+    {
+      "index": 47,
+      "relative_ms": -47,
+      "rawRPM": [
+        -28,
+        27
+      ],
+      "encoderFrameRPM": [
+        -22.121713638305664,
+        36.87041091918945
+      ],
+      "previousCommandCounts": [
+        155,
+        124
+      ]
+    },
+    {
+      "index": 48,
+      "relative_ms": -48,
+      "rawRPM": [
+        -30,
+        20
+      ],
+      "encoderFrameRPM": [
+        -29.5537109375,
+        29.883880615234375
+      ],
+      "previousCommandCounts": [
+        146,
+        174
+      ]
+    },
+    {
+      "index": 49,
+      "relative_ms": -49,
+      "rawRPM": [
+        -28,
+        16
+      ],
+      "encoderFrameRPM": [
+        -29.465248107910156,
+        22.056154251098633
+      ],
+      "previousCommandCounts": [
+        142,
+        208
+      ]
+    },
+    {
+      "index": 50,
+      "relative_ms": -50,
+      "rawRPM": [
+        -28,
+        14
+      ],
+      "encoderFrameRPM": [
+        -20.96198844909668,
+        29.552291870117188
+      ],
+      "previousCommandCounts": [
+        139,
+        247
+      ]
+    },
+    {
+      "index": 51,
+      "relative_ms": -51,
+      "rawRPM": [
+        -30,
+        12
+      ],
+      "encoderFrameRPM": [
+        -29.52463722229004,
+        14.86827564239502
+      ],
+      "previousCommandCounts": [
+        127,
+        288
+      ]
+    },
+    {
+      "index": 52,
+      "relative_ms": -52,
+      "rawRPM": [
+        -30,
+        10
+      ],
+      "encoderFrameRPM": [
+        -29.467365264892578,
+        14.768874168395996
+      ],
+      "previousCommandCounts": [
+        112,
+        306
+      ]
+    },
+    {
+      "index": 53,
+      "relative_ms": -53,
+      "rawRPM": [
+        -30,
+        6
+      ],
+      "encoderFrameRPM": [
+        -22.078317642211914,
+        22.10105323791504
+      ],
+      "previousCommandCounts": [
+        97,
+        318
+      ]
+    },
+    {
+      "index": 54,
+      "relative_ms": -54,
+      "rawRPM": [
+        -30,
+        2
+      ],
+      "encoderFrameRPM": [
+        -29.556550979614258,
+        14.913687705993652
+      ],
+      "previousCommandCounts": [
+        76,
+        318
+      ]
+    },
+    {
+      "index": 55,
+      "relative_ms": -55,
+      "rawRPM": [
+        -30,
+        2
+      ],
+      "encoderFrameRPM": [
+        -29.408206939697266,
+        0
+      ],
+      "previousCommandCounts": [
+        48,
+        316
+      ]
+    },
+    {
+      "index": 56,
+      "relative_ms": -56,
+      "rawRPM": [
+        -28,
+        2
+      ],
+      "encoderFrameRPM": [
+        -29.497034072875977,
+        7.381690502166748
+      ],
+      "previousCommandCounts": [
+        20,
+        314
+      ]
+    },
+    {
+      "index": 57,
+      "relative_ms": -57,
+      "rawRPM": [
+        -28,
+        2
+      ],
+      "encoderFrameRPM": [
+        -22.100522994995117,
+        0
+      ],
+      "previousCommandCounts": [
+        -15,
+        311
+      ]
+    },
+    {
+      "index": 58,
+      "relative_ms": -58,
+      "rawRPM": [
+        -28,
+        2
+      ],
+      "encoderFrameRPM": [
+        -36.834205627441406,
+        0
+      ],
+      "previousCommandCounts": [
+        -29,
+        306
+      ]
+    },
+    {
+      "index": 59,
+      "relative_ms": -59,
+      "rawRPM": [
+        -26,
+        2
+      ],
+      "encoderFrameRPM": [
+        -22.100522994995117,
+        0
+      ],
+      "previousCommandCounts": [
+        -68,
+        300
+      ]
+    },
+    {
+      "index": 60,
+      "relative_ms": -60,
+      "rawRPM": [
+        -21,
+        0
+      ],
+      "encoderFrameRPM": [
+        -29.52463722229004,
+        7.366312026977539
+      ],
+      "previousCommandCounts": [
+        -127,
+        288
+      ]
+    },
+    {
+      "index": 61,
+      "relative_ms": -61,
+      "rawRPM": [
+        -17,
+        0
+      ],
+      "encoderFrameRPM": [
+        -22.145071029663086,
+        0
+      ],
+      "previousCommandCounts": [
+        -211,
+        273
+      ]
+    },
+    {
+      "index": 62,
+      "relative_ms": -62,
+      "rawRPM": [
+        -13,
+        0
+      ],
+      "encoderFrameRPM": [
+        -29.46807098388672,
+        0
+      ],
+      "previousCommandCounts": [
+        -309,
+        256
+      ]
+    },
+    {
+      "index": 63,
+      "relative_ms": -63,
+      "rawRPM": [
+        -5,
+        -3
+      ],
+      "encoderFrameRPM": [
+        -14.572107315063477,
+        7.43413782119751
+      ],
+      "previousCommandCounts": [
+        -354,
+        232
+      ]
+    }
+  ],
+  "rawPeakRPM": [
+    253,
+    70
+  ],
+  "lastObservedPosition_mm": [
+    1.4096476370468736,
+    1.3309301575645804
+  ],
+  "lastObservedSync_mm": 0.07871747948229313,
+  "corePeak_us": 160.3333282470703,
+  "bodyPeak_us": 269.23809814453125,
+  "late": 0,
+  "overruns": 0,
+  "UARTerrors": 0,
+  "triggerHistory": [
+    {
+      "index": 0,
+      "relative_ms": 0,
+      "rawRPM": [
+        253,
+        10
+      ],
+      "encoderFrameRPM": [
+        -7.08893346786499,
+        7.396599769592285
+      ],
+      "previousCommandCounts": [
+        -293,
+        -13
+      ]
+    },
+    {
+      "index": 1,
+      "relative_ms": -1,
+      "rawRPM": [
+        2,
+        12
+      ],
+      "encoderFrameRPM": [
+        0,
+        14.809223175048828
+      ],
+      "previousCommandCounts": [
+        -293,
+        -8
+      ]
+    },
+    {
+      "index": 2,
+      "relative_ms": -2,
+      "rawRPM": [
+        2,
+        12
+      ],
+      "encoderFrameRPM": [
+        0,
+        14.674642562866211
+      ],
+      "previousCommandCounts": [
+        -293,
+        -2
+      ]
+    },
+    {
+      "index": 3,
+      "relative_ms": -3,
+      "rawRPM": [
+        4,
+        12
+      ],
+      "encoderFrameRPM": [
+        7.381690502166748,
+        7.33015251159668
+      ],
+      "previousCommandCounts": [
+        -286,
+        7
+      ]
+    },
+    {
+      "index": 4,
+      "relative_ms": -4,
+      "rawRPM": [
+        4,
+        12
+      ],
+      "encoderFrameRPM": [
+        0,
+        14.690059661865234
+      ],
+      "previousCommandCounts": [
+        -279,
+        18
+      ]
+    },
+    {
+      "index": 5,
+      "relative_ms": -5,
+      "rawRPM": [
+        6,
+        12
+      ],
+      "encoderFrameRPM": [
+        0,
+        14.763381004333496
+      ],
+      "previousCommandCounts": [
+        -262,
+        39
+      ]
+    },
+    {
+      "index": 6,
+      "relative_ms": -6,
+      "rawRPM": [
+        6,
+        10
+      ],
+      "encoderFrameRPM": [
+        7.381690502166748,
+        14.808154106140137
+      ],
+      "previousCommandCounts": [
+        -239,
+        52
+      ]
+    },
+    {
+      "index": 7,
+      "relative_ms": -7,
+      "rawRPM": [
+        6,
+        12
+      ],
+      "encoderFrameRPM": [
+        14.218826293945312,
+        14.808510780334473
+      ],
+      "previousCommandCounts": [
+        -204,
+        95
+      ]
+    },
+    {
+      "index": 8,
+      "relative_ms": -8,
+      "rawRPM": [
+        4,
+        8
+      ],
+      "encoderFrameRPM": [
+        0,
+        7.116156101226807
+      ],
+      "previousCommandCounts": [
+        -173,
+        126
+      ]
+    },
+    {
+      "index": 9,
+      "relative_ms": -9,
+      "rawRPM": [
+        6,
+        4
+      ],
+      "encoderFrameRPM": [
+        7.595954895019531,
+        14.792132377624512
+      ],
+      "previousCommandCounts": [
+        -124,
+        180
+      ]
+    },
+    {
+      "index": 10,
+      "relative_ms": -10,
+      "rawRPM": [
+        0,
+        2
+      ],
+      "encoderFrameRPM": [
+        14.77942943572998,
+        14.823139190673828
+      ],
+      "previousCommandCounts": [
+        -88,
+        206
+      ]
+    },
+    {
+      "index": 11,
+      "relative_ms": -11,
+      "rawRPM": [
+        -5,
+        -3
+      ],
+      "encoderFrameRPM": [
+        -7.381690502166748,
+        0
+      ],
+      "previousCommandCounts": [
+        -72,
+        210
+      ]
+    },
+    {
+      "index": 12,
+      "relative_ms": -12,
+      "rawRPM": [
+        -9,
+        -3
+      ],
+      "encoderFrameRPM": [
+        7.323172569274902,
+        0
+      ],
+      "previousCommandCounts": [
+        -64,
+        216
+      ]
+    },
+    {
+      "index": 13,
+      "relative_ms": -13,
+      "rawRPM": [
+        -9,
+        -3
+      ],
+      "encoderFrameRPM": [
+        0,
+        0
+      ],
+      "previousCommandCounts": [
+        -53,
+        224
+      ]
+    },
+    {
+      "index": 14,
+      "relative_ms": -14,
+      "rawRPM": [
+        -11,
+        -5
+      ],
+      "encoderFrameRPM": [
+        -7.404077053070068,
+        0
+      ],
+      "previousCommandCounts": [
+        -53,
+        226
+      ]
+    },
+    {
+      "index": 15,
+      "relative_ms": -15,
+      "rawRPM": [
+        -11,
+        -7
+      ],
+      "encoderFrameRPM": [
+        -7.3668413162231445,
+        0
+      ],
+      "previousCommandCounts": [
+        -47,
+        221
+      ]
+    }
+  ],
+  "interpretation": "Failed diagnostic run, preserved as failure; not a formal efficacy run.512 is the unchanged rawRPM hard guard. Encoder-frameRPM is computed from the same motor encoder and CAN frame timing, not an independent sensor or necessarily contemporaneous rawRPM. A mismatch alone cannot prove a bad sensor. No guard weakening, reset or automatic retry."
+}

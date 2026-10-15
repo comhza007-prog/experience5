@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "randomCases": 1500,
+  "zeroInputDecaySteps": 9000,
+  "stickingInsideGapCases": 3,
+  "elasticRegionsObserved": [
+    -1,
+    0,
+    1
+  ],
+  "maximumNativePythonStateDifference": 8.326672684688674e-17,
+  "maximumEnergyBalanceResidual": 2.3852447794681098e-17,
+  "minimumElasticConvexSlack": 0,
+  "maximumGapZeroRound66Difference": 5.724587470723463e-17,
+  "nativeLibrarySHA256": "6fdf3dc76fea7b02fc074beb60f3a9dceec9b7fc7b0996bc48d36a02a1362a0d",
+  "nativeSourceSHA256": "67dbb9f3e3044ed7da607740b73babfe6c02fa8375dabded437d5411d42f39c5",
+  "referenceSHA256": "22d3ff9ec7ee1de533ff7d920a93f904d74ce7038e6ac84b8f7ec764c9d49e12",
+  "notPhysicalValidation": true,
+  "hardwareAction": false
+}

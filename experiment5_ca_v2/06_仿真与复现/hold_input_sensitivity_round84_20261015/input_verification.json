@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "checkerSHA256": "cf6a006c0eb36b53284872a7ce023753d2ef967bf4e4f3955173e56d52f9defe",
+  "analysisSHA256": "e195ebb82509aceb28bd5461d84c226c8dc382b314ae4cb48c082103e4da7cc7",
+  "checks": [
+    {
+      "record": "T1",
+      "holdingBlocks": 300,
+      "observedAnchors": 300,
+      "unchangedMovingRows": 8000,
+      "maximumIntegralError_count_us": 1.1175870895385742e-8
+    },
+    {
+      "record": "Q2_run02",
+      "holdingBlocks": 300,
+      "observedAnchors": 300,
+      "unchangedMovingRows": 8000,
+      "maximumIntegralError_count_us": 1.210719347000122e-8
+    },
+    {
+      "record": "Q2_run03",
+      "holdingBlocks": 300,
+      "observedAnchors": 299,
+      "unchangedMovingRows": 8000,
+      "maximumIntegralError_count_us": 2.0489096641540527e-8
+    }
+  ],
+  "allRawAndFrozenParameterHashesUnchanged": true,
+  "constructedInputsVerifiedNotRecovered": true,
+  "noModelFit": true,
+  "noNewHardwareAction": true
+}

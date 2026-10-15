@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "solverTestsSHA256": "123bc849beeaed01377e91d4c8420594732656c562a9d591ca5ccf80acb96319",
+  "checks": [
+    {
+      "record": "new_belt_run010",
+      "nativePropagationSteps": 20000,
+      "independentPythonSteps": 500,
+      "maximumNativePositionDifference_m": 0.0,
+      "maximumIndependentStateDifference": 1.951563910473908e-18,
+      "maximumSampledEnergyBalanceResidual": 9.424417483689173e-22
+    },
+    {
+      "record": "new_belt_run011",
+      "nativePropagationSteps": 20000,
+      "independentPythonSteps": 500,
+      "maximumNativePositionDifference_m": 0.0,
+      "maximumIndependentStateDifference": 2.168404344971009e-18,
+      "maximumSampledEnergyBalanceResidual": 1.6928023034215049e-21
+    }
+  ],
+  "kineticOnlyEquivalence": [
+    {
+      "record": "new_belt_run010",
+      "kineticOnlyEquivalenceMaxDifference_m": 0.0
+    },
+    {
+      "record": "new_belt_run011",
+      "kineticOnlyEquivalenceMaxDifference_m": 0.0
+    }
+  ],
+  "sourceSHA256": "d7c3bfd43884452adadb6626d27417b36f8a126ba6e091d1c11d6de3c0c585ff",
+  "solverSHA256": "22e77b041e02b62f6f69429a0695840c53139a6eefe28a17c3d02deb30ae6a17",
+  "scope": "Numerical checks, sampled energy identity and dissipation; not independent physical validation"
+}

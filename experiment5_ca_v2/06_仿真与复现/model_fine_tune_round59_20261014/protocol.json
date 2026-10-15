@@ -1,0 +1,21 @@
+{
+  "authorization":"Userexplicitlyrequestedsmallmodelparameteradjustmentsbasedonresults; modelonly,notS3R2firmware",
+  "base":"Round58ordinary-trainedeffectivecandidate; everypreviousresultpreserved",
+  "fixedBudget":9,
+  "parameterSets":[
+    {"name":"base","gain":1,"friction":1,"spring":1},
+    {"name":"gain080","gain":0.8,"friction":1,"spring":1},
+    {"name":"gain120","gain":1.2,"friction":1,"spring":1},
+    {"name":"friction080","gain":1,"friction":0.8,"spring":1},
+    {"name":"friction120","gain":1,"friction":1.2,"spring":1},
+    {"name":"spring080","gain":1,"friction":1,"spring":0.8},
+    {"name":"spring120","gain":1,"friction":1,"spring":1.2},
+    {"name":"coupled_more_drive","gain":1.2,"friction":0.8,"spring":1.2},
+    {"name":"coupled_less_drive","gain":0.8,"friction":1.2,"spring":1.2}
+  ],
+  "unchanged":"Damping,frictionvelocityscale,samplingabstraction,mechanicalstructure,allMCUcontrols,gains,guardsandrawdata",
+  "selection":"OrdinaryBLNNtrainingrolloutonly; score=(meanPositionRMSE/noMotionMeanRMSE)^2+(syncDifferenceRMSE/noMotionSyncRMSE)^2. Scalescomeonlyfromordinaryobservations,notfromtasktolerancesorS3R2algorithmranking.",
+  "afterSelection":"FreezeoneparametersetthenretrospectivelycheckexistingS3R2MODEL10dataonce. No postcheckretuning; checkdataalreadyobserved,notnewindependentvalidation.",
+  "interpretation":"Modelpredictionerror,notcontrollertracking/syncperformance. Limitedcalibrationdoesnotidentifyphysicalmass,forceorstictionanddoesnotvalidate1mscounterfactualclosed-loopprediction.",
+  "stop":"Retainallnineoutcomes. No additionalsetsiftheseareinadequate. Nohardwareactionornewtrial."
+}

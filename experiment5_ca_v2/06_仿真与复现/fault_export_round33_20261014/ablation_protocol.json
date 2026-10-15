@@ -1,0 +1,15 @@
+{
+  "scope":"Offline, same recorded input history and same S3R2 initial network state. No alternate physical trajectory and no firmware mutation.",
+  "variants":[
+    {"name":"baseline_R2","DIAG_NEW_LEARNING":1,"DIAG_BOUNDED_REPAIR":1,"DIAG_TRACKING_RETENTION":1},
+    {"name":"classification_off","DIAG_NEW_LEARNING":0,"DIAG_BOUNDED_REPAIR":1,"DIAG_TRACKING_RETENTION":1},
+    {"name":"repair_off","DIAG_NEW_LEARNING":1,"DIAG_BOUNDED_REPAIR":0,"DIAG_TRACKING_RETENTION":1},
+    {"name":"retention_off","DIAG_NEW_LEARNING":1,"DIAG_BOUNDED_REPAIR":1,"DIAG_TRACKING_RETENTION":0}
+  ],
+  "precondition":"Full binary CRC and duplicate/ABI checks; baseline recorded commands/masks/causes and recurrent final state validation must pass before any ablation results are interpreted.",
+  "comparison":"Record all360 steps of predictions, actual learning, nodes, repair modes, masks/causes and admitted commands. All branches retained. No adaptive parameter/gain search or automatic preferred branch selection.",
+  "negativeControl":"Stationary-retention rule must have no effect in this preselected moving-reference window. Failure indicates implementation/configuration mismatch, not a benefit.",
+  "scientificBoundary":"Fixed measured q/velocity/acceleration/RPM means no simulated closed-loop feedback response. Cannot compute or claim alternative tracking or sync errors from unchanged input states. A changed request or learner alone does not prove improved physical performance.",
+  "currentDataset":"Actual67712 one successful physical run, serial snapshot2471chunks/two identical copies/CRC32 and unchanged360step recurrent baseline acceptance passed. Four branches evaluated on recorded inputs; classifier/repair affect learning and commands, retention-off negative control exact. Synthetic fixtures remain separately labeled, not physical evidence.",
+  "hardwareActions":false
+}

@@ -1,0 +1,479 @@
+{
+  "status": "Exploratory identification, not validation",
+  "axes": [
+    {
+      "axis": 0,
+      "perRecord": [
+        {
+          "record": "M1_run01",
+          "commandRange": [
+            -93,
+            266
+          ],
+          "currentRange": [
+            -218,
+            761
+          ],
+          "staticGain": 0.8153219506404159,
+          "staticOffset": 12.912854836453862,
+          "staticRMSE_counts": 56.428145116416154,
+          "correlation": 0.7896733671543342,
+          "batteryRange_mV": [
+            24329,
+            24830
+          ]
+        },
+        {
+          "record": "M1_run02",
+          "commandRange": [
+            -132,
+            518
+          ],
+          "currentRange": [
+            -233,
+            888
+          ],
+          "staticGain": 1.000094983442392,
+          "staticOffset": -0.05765104568592996,
+          "staticRMSE_counts": 42.793648304448766,
+          "correlation": 0.9817331672123956,
+          "batteryRange_mV": [
+            24064,
+            24621
+          ]
+        },
+        {
+          "record": "M1_run03",
+          "commandRange": [
+            -257,
+            218
+          ],
+          "currentRange": [
+            -569,
+            599
+          ],
+          "staticGain": 0.543960144867086,
+          "staticOffset": -15.317758961192029,
+          "staticRMSE_counts": 71.11526656128207,
+          "correlation": 0.5878995088926768,
+          "batteryRange_mV": [
+            24263,
+            24695
+          ]
+        },
+        {
+          "record": "M1_run04",
+          "commandRange": [
+            -240,
+            256
+          ],
+          "currentRange": [
+            -414,
+            232
+          ],
+          "staticGain": 0.5827291323506187,
+          "staticOffset": -12.31656383373428,
+          "staticRMSE_counts": 66.45099467297676,
+          "correlation": 0.6524558272808165,
+          "batteryRange_mV": [
+            24238,
+            24729
+          ]
+        },
+        {
+          "record": "M1_run05",
+          "commandRange": [
+            -125,
+            77
+          ],
+          "currentRange": [
+            -437,
+            528
+          ],
+          "staticGain": 1.0025617058066398,
+          "staticOffset": 0.624030916840847,
+          "staticRMSE_counts": 56.25712865732813,
+          "correlation": 0.4653394824557904,
+          "batteryRange_mV": [
+            24246,
+            24771
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "delay_ms": 0,
+          "a": 0.31090013354889906,
+          "b": 0.6154236379938627,
+          "c": 0.8241533913386145,
+          "stablePositive": true,
+          "tau_ms": 0.855956599831953,
+          "gain": 0.893083380154063,
+          "offset": 1.195985417299594,
+          "oneStepRMSE_counts": 60.55787922365831
+        },
+        {
+          "delay_ms": 1,
+          "a": 0.27946019508403075,
+          "b": 0.6458461784058288,
+          "c": 0.8476292420594065,
+          "stablePositive": true,
+          "tau_ms": 0.7843780683275965,
+          "gain": 0.8963365715529743,
+          "offset": 1.1763808692821054,
+          "oneStepRMSE_counts": 60.11014838331158
+        },
+        {
+          "delay_ms": 2,
+          "a": 0.2648560519609955,
+          "b": 0.6591041994990495,
+          "c": 0.8849515774120875,
+          "stablePositive": true,
+          "tau_ms": 0.7526896608220249,
+          "gain": 0.896564817349322,
+          "offset": 1.203779994071494,
+          "oneStepRMSE_counts": 60.091441117409225
+        },
+        {
+          "delay_ms": 3,
+          "a": 0.270929918854475,
+          "b": 0.6511618268641441,
+          "c": 0.9373493553898483,
+          "stablePositive": true,
+          "tau_ms": 0.7657582947761051,
+          "gain": 0.8931402394692011,
+          "offset": 1.2856779884823581,
+          "oneStepRMSE_counts": 60.57871245706653
+        },
+        {
+          "delay_ms": 4,
+          "a": 0.29762078083069404,
+          "b": 0.6221662712968514,
+          "c": 1.0009517439692956,
+          "stablePositive": true,
+          "tau_ms": 0.825126657700435,
+          "gain": 0.8857982330865067,
+          "offset": 1.4250873554503896,
+          "oneStepRMSE_counts": 61.51119710185673
+        },
+        {
+          "delay_ms": 5,
+          "a": 0.33861442972181865,
+          "b": 0.5788715241732088,
+          "c": 1.0633721583911684,
+          "stablePositive": true,
+          "tau_ms": 0.9234521051679719,
+          "gain": 0.8752406314666543,
+          "offset": 1.6077946150895157,
+          "oneStepRMSE_counts": 62.64633325374653
+        },
+        {
+          "delay_ms": 6,
+          "a": 0.3864225903559709,
+          "b": 0.5287394847108797,
+          "c": 1.1245651622863229,
+          "stablePositive": true,
+          "tau_ms": 1.051719666370599,
+          "gain": 0.8617323199979466,
+          "offset": 1.832800791898037,
+          "oneStepRMSE_counts": 63.83423774463558
+        },
+        {
+          "delay_ms": 7,
+          "a": 0.4351257363365627,
+          "b": 0.4778352128353754,
+          "c": 1.1781349449754974,
+          "stablePositive": true,
+          "tau_ms": 1.2017494001423614,
+          "gain": 0.8459142920345165,
+          "offset": 2.0856587399376587,
+          "oneStepRMSE_counts": 64.94999993301961
+        },
+        {
+          "delay_ms": 8,
+          "a": 0.47906861369486403,
+          "b": 0.43218894214462805,
+          "c": 1.2193862612553457,
+          "stablePositive": true,
+          "tau_ms": 1.358859143223544,
+          "gain": 0.8296465782376051,
+          "offset": 2.3407809421970387,
+          "oneStepRMSE_counts": 65.86985996281994
+        },
+        {
+          "delay_ms": 9,
+          "a": 0.517754964002016,
+          "b": 0.3918881741584479,
+          "c": 1.2586571392158588,
+          "stablePositive": true,
+          "tau_ms": 1.5191722782447759,
+          "gain": 0.8126328835038257,
+          "offset": 2.6099950134502174,
+          "oneStepRMSE_counts": 66.65742070580163
+        },
+        {
+          "delay_ms": 10,
+          "a": 0.5491041860837628,
+          "b": 0.35961950893916017,
+          "c": 1.2837724578815133,
+          "stablePositive": true,
+          "tau_ms": 1.6681483126892118,
+          "gain": 0.7975667501006487,
+          "offset": 2.847159849924886,
+          "oneStepRMSE_counts": 67.23909792809123
+        }
+      ],
+      "bestCausalARX": {
+        "delay_ms": 2,
+        "a": 0.2648560519609955,
+        "b": 0.6591041994990495,
+        "c": 0.8849515774120875,
+        "stablePositive": true,
+        "tau_ms": 0.7526896608220249,
+        "gain": 0.896564817349322,
+        "offset": 1.203779994071494,
+        "oneStepRMSE_counts": 60.091441117409225
+      }
+    },
+    {
+      "axis": 1,
+      "perRecord": [
+        {
+          "record": "M1_run01",
+          "commandRange": [
+            -398,
+            400
+          ],
+          "currentRange": [
+            -629,
+            487
+          ],
+          "staticGain": 0.99011498478271,
+          "staticOffset": -0.3608871893346588,
+          "staticRMSE_counts": 54.6665971474275,
+          "correlation": 0.9807007240604537,
+          "batteryRange_mV": [
+            24329,
+            24830
+          ]
+        },
+        {
+          "record": "M1_run02",
+          "commandRange": [
+            -4,
+            398
+          ],
+          "currentRange": [
+            -408,
+            705
+          ],
+          "staticGain": 0.9478608087094754,
+          "staticOffset": 6.171221397486293,
+          "staticRMSE_counts": 56.14958602335633,
+          "correlation": 0.8898678444081007,
+          "batteryRange_mV": [
+            24064,
+            24621
+          ]
+        },
+        {
+          "record": "M1_run03",
+          "commandRange": [
+            -36,
+            299
+          ],
+          "currentRange": [
+            -405,
+            356
+          ],
+          "staticGain": 0.9501570405440638,
+          "staticOffset": 2.5480791654240726,
+          "staticRMSE_counts": 50.517190625381,
+          "correlation": 0.8704347302653332,
+          "batteryRange_mV": [
+            24263,
+            24695
+          ]
+        },
+        {
+          "record": "M1_run04",
+          "commandRange": [
+            -34,
+            280
+          ],
+          "currentRange": [
+            -534,
+            347
+          ],
+          "staticGain": 0.9789899252739591,
+          "staticOffset": 0.24787403411788217,
+          "staticRMSE_counts": 51.17724395378743,
+          "correlation": 0.8628685671598908,
+          "batteryRange_mV": [
+            24238,
+            24729
+          ]
+        },
+        {
+          "record": "M1_run05",
+          "commandRange": [
+            -122,
+            134
+          ],
+          "currentRange": [
+            -504,
+            503
+          ],
+          "staticGain": 1.0127970574434062,
+          "staticOffset": -1.072573641084132,
+          "staticRMSE_counts": 57.834206105810466,
+          "correlation": 0.8204425054293548,
+          "batteryRange_mV": [
+            24246,
+            24771
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "delay_ms": 0,
+          "a": 0.07442803660443904,
+          "b": 0.9109907485522735,
+          "c": -0.42788545455045734,
+          "stablePositive": true,
+          "tau_ms": 0.38492294218458484,
+          "gain": 0.9842462656390383,
+          "offset": -0.46229301607269224,
+          "oneStepRMSE_counts": 54.05411457968731
+        },
+        {
+          "delay_ms": 1,
+          "a": 0.05916812719153126,
+          "b": 0.9267727467670887,
+          "c": -0.42943757954331147,
+          "stablePositive": true,
+          "tau_ms": 0.35368529611616767,
+          "gain": 0.98505670731646,
+          "offset": -0.45644454865394946,
+          "oneStepRMSE_counts": 53.717773687772535
+        },
+        {
+          "delay_ms": 2,
+          "a": 0.04894071819120329,
+          "b": 0.9373096151770189,
+          "c": -0.4089694115849894,
+          "stablePositive": true,
+          "tau_ms": 0.3314390985474588,
+          "gain": 0.9855427869799792,
+          "offset": -0.43001463673976276,
+          "oneStepRMSE_counts": 53.540261121201134
+        },
+        {
+          "delay_ms": 3,
+          "a": 0.04511137072652976,
+          "b": 0.9412434283506181,
+          "c": -0.36714794702187187,
+          "stablePositive": true,
+          "tau_ms": 0.3227242114511848,
+          "gain": 0.9857101650343935,
+          "offset": -0.3844929510797688,
+          "oneStepRMSE_counts": 53.527550913264314
+        },
+        {
+          "delay_ms": 4,
+          "a": 0.04746454120735681,
+          "b": 0.9388246402436561,
+          "c": -0.30884666380919157,
+          "stablePositive": true,
+          "tau_ms": 0.3281084956309924,
+          "gain": 0.9856059756910616,
+          "offset": -0.3242363955675315,
+          "oneStepRMSE_counts": 53.66280641147336
+        },
+        {
+          "delay_ms": 5,
+          "a": 0.05509292745208804,
+          "b": 0.9310206311166725,
+          "c": -0.24010011593961955,
+          "stablePositive": true,
+          "tau_ms": 0.34497819542381314,
+          "gain": 0.9853039078289518,
+          "offset": -0.2540991838405836,
+          "oneStepRMSE_counts": 53.91680975685448
+        },
+        {
+          "delay_ms": 6,
+          "a": 0.06835740681455568,
+          "b": 0.9173769964943803,
+          "c": -0.15649187149084215,
+          "stablePositive": true,
+          "tau_ms": 0.37271636371254435,
+          "gain": 0.9846876937621675,
+          "offset": -0.1679741487084332,
+          "oneStepRMSE_counts": 54.33656454652478
+        },
+        {
+          "delay_ms": 7,
+          "a": 0.08575887420825733,
+          "b": 0.8995644453313588,
+          "c": -0.0715463568839368,
+          "stablePositive": true,
+          "tau_ms": 0.40713036576686334,
+          "gain": 0.9839465978434587,
+          "offset": -0.07825764436266952,
+          "oneStepRMSE_counts": 54.80253556707902
+        },
+        {
+          "delay_ms": 8,
+          "a": 0.10497986036696955,
+          "b": 0.8798636749783371,
+          "c": 0.013663475922976643,
+          "stablePositive": true,
+          "tau_ms": 0.44365833053714376,
+          "gain": 0.9830657836806804,
+          "offset": 0.015266110021366493,
+          "oneStepRMSE_counts": 55.306472535527874
+        },
+        {
+          "delay_ms": 9,
+          "a": 0.1251148873081699,
+          "b": 0.8592306794291571,
+          "c": 0.09727520944995739,
+          "stablePositive": true,
+          "tau_ms": 0.48111089691705133,
+          "gain": 0.9821068697642965,
+          "offset": 0.11118626667524706,
+          "oneStepRMSE_counts": 55.811744444994794
+        },
+        {
+          "delay_ms": 10,
+          "a": 0.144604751254421,
+          "b": 0.8392656835875357,
+          "c": 0.17332049343793074,
+          "stablePositive": true,
+          "tau_ms": 0.5171296315513434,
+          "gain": 0.9811437283738751,
+          "offset": 0.20262036022774496,
+          "oneStepRMSE_counts": 56.28024695149116
+        }
+      ],
+      "bestCausalARX": {
+        "delay_ms": 3,
+        "a": 0.04511137072652976,
+        "b": 0.9412434283506181,
+        "c": -0.36714794702187187,
+        "stablePositive": true,
+        "tau_ms": 0.3227242114511848,
+        "gain": 0.9857101650343935,
+        "offset": -0.3844929510797688,
+        "oneStepRMSE_counts": 53.527550913264314
+      }
+    }
+  ],
+  "limitations": [
+    "Raw ESC current counts are not calibrated torque or amperes.",
+    "One-step ARX uses previous measured current for identification only, not main forward model prediction.",
+    "CAN sample age 0-1ms and command reconstruction limit interpretation of small time constants.",
+    "Fine windows total 1800ms per run; motor and drive cannot be separated from these measurements alone."
+  ]
+}

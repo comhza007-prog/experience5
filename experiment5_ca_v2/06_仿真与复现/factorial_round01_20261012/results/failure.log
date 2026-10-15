@@ -1,0 +1,9 @@
+C:\Users\ele\Desktop\lunwen\���ػ�\output\experiment5_ca_v2\06_�����븴��\factorial_round01_20261012\test_plant.c: In function 'run':
+C:\Users\ele\Desktop\lunwen\���ػ�\output\experiment5_ca_v2\06_�����븴��\factorial_round01_20261012\test_plant.c:59:9: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+         if(out.ca_mask)mask_count++;rho_sum+=out.admitted_fraction;
+         ^~
+C:\Users\ele\Desktop\lunwen\���ػ�\output\experiment5_ca_v2\06_�����븴��\factorial_round01_20261012\test_plant.c:59:37: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+         if(out.ca_mask)mask_count++;rho_sum+=out.admitted_fraction;
+                                     ^~~~~~~
+cc1.exe: all warnings being treated as errors
+

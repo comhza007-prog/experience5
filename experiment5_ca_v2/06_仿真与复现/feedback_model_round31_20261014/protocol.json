@@ -1,0 +1,13 @@
+{
+  "purpose":"Feedback/model adequacy diagnostics only, not a new controller or formal efficacy comparison",
+  "methods":[{"name":"S3R2","build":67512},{"name":"ordinary BLNN","build":67511}],
+  "conditions":"Fresh default1/1, four initial nodes, emptyload2mm/1200-1200/HW6, unchanged trajectory/gains/guards/allocator",
+  "capture":"At actual10ms intervals throughout20s: relative raw encoder counts, rawRPM, feedback-current counts, attempted queued commands. Bounded2048x18byte RAM buffer. Exact timestamps, no missing-data interpolation.",
+  "telemetry":"107floats/40ms/115200 unchanged; after phase6 only, MODEL4435 two copies per row in I96..I103; fault replay takes priority",
+  "rawEncoderSigns":"Left raw count increases with positive position; right raw count decreases. Do not treat raw right count as already-inverted position.",
+  "currentUnits":"Raw motor feedback/command counts, not calibrated amperes or force measurements",
+  "initialRuns":2,"order":["S3R2","BLNN"],"notFormalRepeatedEvidence":true,
+  "analysis":"Check encoder/RPM consistency, command/current response and prediction error. Fit only identifiable effective dynamics; closed-loop identification bias and limited excitation must be evaluated. No claims that10ms resolves every1ms dynamics or proves a physical plant model.",
+  "deadline":"2026-10-14 09:00 Asia/Shanghai best effort; no guarantee of successful research conclusion",
+  "motionRequiresFreshOnSiteReadyConfirmation":true,"physicalMotionReleased":false
+}
